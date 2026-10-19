@@ -12,6 +12,7 @@ SOURCES = {
     'ucl': ('UCL', 'soccer'), 'epl': ('EPL', 'soccer'),
     'laliga': ('LIGA', 'soccer'), 'bundesliga': ('BUND', 'soccer'),
     'seriea': ('SERI', 'soccer'), 'ligue1': ('FRAN', 'soccer'),
+    'mls': ('MLS', 'soccer'), 'wnba': ('', 'wnba'),
     'nba': ('', 'nba'), 'mlb': ('', 'mlb'),
 }
 
@@ -21,6 +22,8 @@ def source_url(league, code, kind):
         return f'https://www.rotowire.com/soccer/lineups.php?league={code}'
     if kind == 'nba':
         return 'https://www.rotowire.com/basketball/nba-lineups.php'
+    if kind == 'wnba':
+        return 'https://www.rotowire.com/wnba/lineups.php'
     return 'https://www.rotowire.com/baseball/daily-lineups.php'
 
 
@@ -29,7 +32,7 @@ def scrape_page(league, code, kind):
     request = urllib.request.Request(source_url(league, code, kind), headers={'User-Agent': 'Mozilla/5.0'})
     with urllib.request.urlopen(request, timeout=20) as response:
         page = response.read().decode('utf-8', errors='replace')
-    blocks = re.split(r'(?=<div class="lineup is-(?:nba|soccer|mlb))', page)[1:]
+    blocks = re.split(r'(?=<div class="lineup is-(?:nba|wnba|soccer|mlb))', page)[1:]
     results = []
     for block in blocks:
         teams = {}
