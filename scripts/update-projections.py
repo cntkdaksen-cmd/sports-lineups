@@ -125,6 +125,62 @@ def fetch_text(url):
         return response.read().decode('utf-8', errors='replace')
 
 
+def post_json(url, values, referer):
+    import urllib.parse
+    import urllib.request
+    data = urllib.parse.urlencode(values).encode()
+    request = urllib.request.Request(url, data=data, headers={
+        'User-Agent': 'Mozilla/5.0', 'X-Requested-With': 'XMLHttpRequest',
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Referer': referer
+    })
+    with urllib.request.urlopen(request, timeout=20) as response:
+        return json.loads(response.read().decode('utf-8', errors='replace'))
+
+
+def scrape_kbo_official():
+    today = datetime.now(ZoneInfo('Asia/Seoul')).date()
+    events = []
+    for offset in range(2):
+        day = today.fromordinal(today.toordinal() + offset).strftime('%Y%m%d')
+        referer = f'https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate={day}'
+        games = post_json('https://www.koreabaseball.com/ws/Main.asmx/GetKboGameList', {
+            'leId': 1, 'srId': '0,1,3,4,5,6,7,8,9', 'date': day
+        }, referer).get('game', [])
+        for game in games:
+            if game.get('GAME_STATE_SC') in ('3', '4') or game.get('CANCEL_SC_ID') not in ('0', 0, None):
+                continue
+            rows = post_json('https://www.koreabaseball.com/ws/Schedule.asmx/GetLineUpAnalysis', {
+                'leId': game['LE_ID'], 'srId': game['SR_ID'], 'seasonId': game['SEASON_ID'], 'gameId': game['G_ID']
+            }, referer)
+            if len(rows) < 5:
+                continue
+            def lineup(table):
+                result = []
+                for row in table.get('rows', []):
+                    cells = row.get('row', [])
+                    if len(cells) >= 3 and cells[2].get('Text'):
+                        result.append({'name': cells[2]['Text'], 'position': cells[1].get('Text', ''), 'flag': ''})
+                return result
+            home, away = lineup(json.loads(rows[3][0])), lineup(json.loads(rows[4][0]))
+            if not home and not away:
+                continue
+            confirmed = bool(rows[0] and rows[0][0].get('LINEUP_CK'))
+            kickoff = datetime.strptime(day + game['G_TM'], '%Y%m%d%H:%M').replace(tzinfo=ZoneInfo('Asia/Seoul'))
+            names = {'home': game['HOME_NM'], 'away': game['AWAY_NM']}
+            competitors = [
+                {'homeAway': 'home', 'team': {'id': game['HOME_ID'], 'displayName': names['home'], 'shortDisplayName': names['home'], 'abbreviation': game['HOME_ID']}},
+                {'homeAway': 'away', 'team': {'id': game['AWAY_ID'], 'displayName': names['away'], 'shortDisplayName': names['away'], 'abbreviation': game['AWAY_ID']}}
+            ]
+            prediction = {'league': 'kbo', 'kickoff': kickoff.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z'), 'names': names,
+                'teams': {'home': game['HOME_ID'], 'away': game['AWAY_ID']}, 'lineups': {'home': home, 'away': away}, 'injuries': {},
+                'statuses': {'home': 'confirmed' if confirmed else 'predicted', 'away': 'confirmed' if confirmed else 'predicted'},
+                'note': 'KBO 공식 당일 타순' if confirmed else 'KBO 공식 최근 선발 타순 기준 예상',
+                'source': f"https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate={day}&gameId={game['G_ID']}&section=START_PIT"}
+            events.append({'event': {'id': game['G_ID'], 'date': prediction['kickoff'], 'competitions': [{'competitors': competitors}]},
+                'prediction': prediction, 'confirmed': confirmed})
+    return events
+
+
 def scrape_kbl_statgg():
     """Use KBL schedule and season player minutes as a transparent starter projection."""
     from html.parser import HTMLParser
@@ -195,12 +251,14 @@ def main():
     path = ROOT / 'dist' / 'projections.json'
     previous = json.loads(path.read_text()) if path.exists() else {}
     payload = {'asOf': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'), 'items': all_results}
-    try:
-        payload['domestic'] = {'kbl': scrape_kbl_statgg()}
-        print('kbl-statgg', len(payload['domestic']['kbl']))
-    except Exception as error:
-        print('kbl-statgg unavailable:', error)
-        payload['domestic'] = previous.get('domestic', {})
+    payload['domestic'] = {}
+    for key, scraper in (('kbo', scrape_kbo_official), ('kbl', scrape_kbl_statgg)):
+        try:
+            payload['domestic'][key] = scraper()
+            print(key + ('-statgg' if key == 'kbl' else '-official'), len(payload['domestic'][key]))
+        except Exception as error:
+            print(key + ' source unavailable:', error)
+            payload['domestic'][key] = previous.get('domestic', {}).get(key, [])
     if previous.get('items') == all_results and previous.get('domestic') == payload.get('domestic'):
         print('No lineup changes')
         return
