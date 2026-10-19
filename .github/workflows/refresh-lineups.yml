@@ -1,0 +1,33 @@
+name: Refresh lineup projections
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-lineups
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Fetch current lineup projections
+        run: python3 scripts/update-projections.py
+      - name: Commit lineup changes
+        run: |
+          if ! git diff --quiet -- dist/projections.json; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add dist/projections.json
+            git commit -m "chore: refresh lineup projections"
+            git push
+          fi
