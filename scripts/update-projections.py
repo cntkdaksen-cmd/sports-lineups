@@ -237,6 +237,63 @@ def scrape_kbl_statgg():
     return events
 
 
+def scrape_kovo_bkvolley():
+    """Import KOVO fixtures; match pages link registered rosters, not starters."""
+    from html.parser import HTMLParser
+    class Text(HTMLParser):
+        def __init__(self):
+            super().__init__(); self.value = []
+        def handle_data(self, data):
+            self.value.append(data)
+    today = datetime.now(ZoneInfo('Asia/Seoul')).date()
+    page = fetch_text('https://bkvolley.kr/matches')
+    events, seen = [], set()
+    for match in re.finditer(r'<a\b[^>]*href=["\'](/matches/\d+)["\'][^>]*>(.*?)</a>', page, re.S | re.I):
+        path, anchor = match.groups()
+        if path in seen:
+            continue
+        seen.add(path)
+        parser = Text(); parser.feed(anchor)
+        title = ' '.join(' '.join(parser.value).split())
+        pair = re.search(r'(.+?)\s+vs\s+(.+)', title, re.I)
+        if not pair:
+            continue
+        context_start = max(0, match.start()-500)
+        context = page[context_start:match.end()+500]
+        text_parser = Text(); text_parser.feed(context)
+        context_text = ' '.join(' '.join(text_parser.value).split())
+        date_pattern = r'(20\d{2})년\s*(\d{1,2})월\s*(\d{1,2})일\s*(\d{1,2}):(\d{2})'
+        date_candidates = list(re.finditer(date_pattern, context_text))
+        date_match = min(date_candidates, key=lambda item: abs(item.start()-len(context_text)//2)) if date_candidates else None
+        if date_match:
+            year, month, day, hour, minute = map(int, date_match.groups())
+        else:
+            short_candidates = list(re.finditer(r'(?<!\d)(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{1,2}):(\d{2})', context_text))
+            short_date = min(short_candidates, key=lambda item: abs(item.start()-len(context_text)//2)) if short_candidates else None
+            if not short_date:
+                continue
+            month, day, hour, minute = map(int, short_date.groups())
+            year = today.year
+        try:
+            kickoff_local = datetime(year, month, day, hour, minute, tzinfo=ZoneInfo('Asia/Seoul'))
+        except ValueError:
+            continue
+        if not today <= kickoff_local.date() <= today.fromordinal(today.toordinal()+1):
+            continue
+        home, away = [name.strip() for name in pair.groups()]
+        kickoff = kickoff_local.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
+        competitors = [
+            {'homeAway': 'home', 'team': {'id': home, 'displayName': home, 'shortDisplayName': home, 'abbreviation': home}},
+            {'homeAway': 'away', 'team': {'id': away, 'displayName': away, 'shortDisplayName': away, 'abbreviation': away}}
+        ]
+        url = 'https://bkvolley.kr' + path
+        prediction = {'league': 'kovo', 'kickoff': kickoff, 'names': {'home': home, 'away': away}, 'teams': {'home': home, 'away': away},
+            'lineups': {}, 'injuries': {}, 'statuses': {'home': 'predicted', 'away': 'predicted'},
+            'note': '배구인사이트 경기 일정·등록 선수 정보. 예상 선발 명단은 공개되지 않아 경기 페이지에서 등록 선수 명단을 확인하세요.', 'source': url}
+        events.append({'event': {'id': path.rsplit('/', 1)[-1], 'date': kickoff, 'competitions': [{'competitors': competitors}]}, 'prediction': prediction, 'confirmed': False})
+    return events
+
+
 def main():
     all_results = []
     for league, (code, kind) in SOURCES.items():
@@ -252,7 +309,7 @@ def main():
     previous = json.loads(path.read_text()) if path.exists() else {}
     payload = {'asOf': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'), 'items': all_results}
     payload['domestic'] = {}
-    for key, scraper in (('kbo', scrape_kbo_official), ('kbl', scrape_kbl_statgg)):
+    for key, scraper in (('kbo', scrape_kbo_official), ('kbl', scrape_kbl_statgg), ('kovo', scrape_kovo_bkvolley)):
         try:
             payload['domestic'][key] = scraper()
             print(key + ('-statgg' if key == 'kbl' else '-official'), len(payload['domestic'][key]))
