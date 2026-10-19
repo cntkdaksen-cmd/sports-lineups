@@ -118,6 +118,69 @@ def scrape_europa():
     return results
 
 
+def fetch_text(url):
+    import urllib.request
+    request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    with urllib.request.urlopen(request, timeout=20) as response:
+        return response.read().decode('utf-8', errors='replace')
+
+
+def scrape_kbl_statgg():
+    """Use KBL schedule and season player minutes as a transparent starter projection."""
+    from html.parser import HTMLParser
+    today = datetime.now(ZoneInfo('Asia/Seoul')).date()
+    end = today.fromordinal(today.toordinal() + 2)
+    schedule = fetch_text(f'https://statgg.com/ko/kbl/schedule?date={today.isoformat()}')
+    links = re.findall(r'<a[^>]+href="(/ko/kbl/matches/[^\"]+)"[^>]*>(.*?)</a>', schedule, re.S)
+    events = []
+    seen = set()
+    for path, card in links:
+        if path in seen:
+            continue
+        seen.add(path)
+        names = re.findall(r'<span class="break-keep[^\"]*">([^<]+)</span>', card)
+        time_match = re.search(r'<span class="stat-num text-fg-muted">(\d{1,2}:\d{2})</span>', card)
+        if len(names) != 2 or not time_match or '예정' not in card:
+            continue
+        card_index = schedule.find(f'href="{path}"')
+        day_match = list(re.finditer(r'<span class="stat-num tabular-nums">(\d{4}\.\d{2}\.\d{2})', schedule[:card_index]))
+        if not day_match:
+            continue
+        kickoff_local = datetime.strptime(day_match[-1].group(1) + ' ' + time_match.group(1), '%Y.%m.%d %H:%M').replace(tzinfo=ZoneInfo('Asia/Seoul'))
+        if not today <= kickoff_local.date() < end:
+            continue
+        detail = fetch_text('https://statgg.com' + path)
+        tables = re.findall(r'<h3 class="font-semibold">([^<]+)</h3>.*?<tbody>(.*?)</tbody>', detail, re.S)
+        lineups = {}
+        for team_name, table in tables[:2]:
+            players = []
+            for row in re.findall(r'<tr[^>]*>(.*?)</tr>', table, re.S):
+                name_match = re.search(r'<a[^>]*>([^<]+)', row)
+                cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.S)
+                if not name_match or len(cells) < 2:
+                    continue
+                minute_text = re.sub(r'<[^>]+>', '', cells[-1]).strip()
+                try:
+                    minutes = float(minute_text)
+                except ValueError:
+                    continue
+                if minutes > 0:
+                    players.append((minutes, html.unescape(name_match.group(1).strip())))
+            projected = sorted(players, reverse=True)[:5]
+            if projected:
+                side = 'home' if team_name.strip() == names[0].strip() else 'away'
+                lineups[side] = [{'name': player, 'position': '', 'flag': ''} for _, player in projected]
+        if not lineups:
+            continue
+        event_id = path.rsplit('/', 1)[-1]
+        competitors = [
+            {'homeAway': 'home', 'team': {'id': names[0], 'displayName': names[0], 'shortDisplayName': names[0], 'abbreviation': names[0]}},
+            {'homeAway': 'away', 'team': {'id': names[1], 'displayName': names[1], 'shortDisplayName': names[1], 'abbreviation': names[1]}}
+        ]
+        events.append({'event': {'id': event_id, 'date': kickoff_local.astimezone(timezone.utc).isoformat().replace('+00:00','Z'), 'competitions': [{'competitors': competitors}]}, 'prediction': {'league': 'kbl', 'kickoff': kickoff_local.astimezone(timezone.utc).isoformat().replace('+00:00','Z'), 'names': {'home': names[0], 'away': names[1]}, 'teams': {'home': names[0], 'away': names[1]}, 'lineups': lineups, 'injuries': {}, 'statuses': {'home': 'predicted', 'away': 'predicted'}, 'note': 'StatGG 시즌 경기당 출장시간 상위 5명 기준 예상 선발', 'source': 'https://statgg.com' + path}})
+    return events
+
+
 def main():
     all_results = []
     for league, (code, kind) in SOURCES.items():
@@ -131,10 +194,16 @@ def main():
         raise SystemExit('No lineups fetched; keeping the current snapshot')
     path = ROOT / 'dist' / 'projections.json'
     previous = json.loads(path.read_text()) if path.exists() else {}
-    if previous.get('items') == all_results:
+    payload = {'asOf': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'), 'items': all_results}
+    try:
+        payload['domestic'] = {'kbl': scrape_kbl_statgg()}
+        print('kbl-statgg', len(payload['domestic']['kbl']))
+    except Exception as error:
+        print('kbl-statgg unavailable:', error)
+        payload['domestic'] = previous.get('domestic', {})
+    if previous.get('items') == all_results and previous.get('domestic') == payload.get('domestic'):
         print('No lineup changes')
         return
-    payload = {'asOf': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'), 'items': all_results}
     path.write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')))
 
 
