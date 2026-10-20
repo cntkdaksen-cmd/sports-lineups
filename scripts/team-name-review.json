@@ -1,0 +1,1375 @@
+{
+  "reviewedAt": "2026-10-21",
+  "scope": "125 teams found in the current today/tomorrow lineup and injury inventories. Search homonyms excluded by league and club identity.",
+  "entries": [
+    {
+      "name": "Manchester United",
+      "korean": "맨체스터 유나이티드",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Manchester%20United",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 맨체스터 유나이티드 FC, Value: 2"
+      ]
+    },
+    {
+      "name": "Como",
+      "korean": "코모",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Como",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t40 heading 코모 1907, Value: 2"
+      ]
+    },
+    {
+      "name": "Galatasaray",
+      "korean": "갈라타사라이",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Galatasaray",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t44 heading 갈라타사라이 SK, Value: 2"
+      ]
+    },
+    {
+      "name": "Lille",
+      "korean": "릴",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Lille%20OSC",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading LOSC 릴, Value: 2"
+      ]
+    },
+    {
+      "name": "Viking FK",
+      "korean": "비킹 FK",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Viking%20FK",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 비킹 FK, Value: 2"
+      ]
+    },
+    {
+      "name": "Aston Villa",
+      "korean": "애스턴 빌라",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Aston%20Villa",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t45 heading 애스턴 빌라 FC, Value: 2"
+      ]
+    },
+    {
+      "name": "Arsenal",
+      "korean": "아스널",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Arsenal",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t44 heading 아스널 FC, Value: 2"
+      ]
+    },
+    {
+      "name": "Bayern Munich",
+      "korean": "바이에른 뮌헨",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Bayern%20Munich",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading FC 바이에른 뮌헨, Value: 2"
+      ]
+    },
+    {
+      "name": "Lens",
+      "korean": "랑스",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=RC%20Lens",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading RC 랑스, Value: 2"
+      ]
+    },
+    {
+      "name": "Club Brugge",
+      "korean": "클뤼프 브뤼허",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Club%20Brugge",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t45 heading 클뤼프 브뤼허 KV, Value: 2"
+      ]
+    },
+    {
+      "name": "Shakhtar Donetsk",
+      "korean": "샤흐타르 도네츠크",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Shakhtar%20Donetsk",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t45 heading FC 샤흐타르 도네츠크, Value: 2"
+      ]
+    },
+    {
+      "name": "Internazionale",
+      "korean": "인터 밀란",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Inter%20Milan%20%EC%9D%B8%ED%84%B0%20%EB%B0%80%EB%9E%80",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading FC 인테르나치오날레 밀라노, Value: 2"
+      ]
+    },
+    {
+      "name": "Feyenoord Rotterdam",
+      "korean": "페예노르트",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Feyenoord%20Rotterdam",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 페예노르트, Value: 2"
+      ]
+    },
+    {
+      "name": "Real Betis",
+      "korean": "레알 베티스",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Real%20Betis",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t51 heading 레알 베티스, Value: 2"
+      ]
+    },
+    {
+      "name": "RB Leipzig",
+      "korean": "RB 라이프치히",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=RB%20Leipzig",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t45 heading RB 라이프치히, Value: 2"
+      ]
+    },
+    {
+      "name": "Real Madrid",
+      "korean": "레알 마드리드",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Real%20Madrid",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 레알 마드리드 CF, Value: 2"
+      ]
+    },
+    {
+      "name": "LASK Linz",
+      "korean": "LASK 린츠",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=LASK%20%EB%A6%B0%EC%B8%A0",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t143 heading 프로필, Value: 3"
+      ]
+    },
+    {
+      "name": "Sporting CP",
+      "korean": "스포르팅 CP",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Sporting%20CP",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 스포르팅 CP, Value: 2"
+      ]
+    },
+    {
+      "name": "Athletic Club",
+      "korean": "아틀레틱 빌바오",
+      "league": "laliga",
+      "source": "https://www.google.com/search?q=Athletic%20Club",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 아틀레틱 빌바오, Value: 2"
+      ]
+    },
+    {
+      "name": "Levante",
+      "korean": "레반테",
+      "league": "laliga",
+      "source": "https://www.google.com/search?q=Levante",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 레반테 UD, Value: 2"
+      ]
+    },
+    {
+      "name": "Gamba Osaka",
+      "korean": "감바 오사카",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Gamba%20Osaka",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t39 heading 감바 오사카, Value: 2"
+      ]
+    },
+    {
+      "name": "Avispa Fukuoka",
+      "korean": "아비스파 후쿠오카",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Avispa%20Fukuoka",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t39 heading 아비스파 후쿠오카, Value: 2"
+      ]
+    },
+    {
+      "name": "Mito Hollyhock",
+      "korean": "미토 홀리호크",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Mito%20Hollyhock",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t36 heading 미토 홀리호크, Value: 2"
+      ]
+    },
+    {
+      "name": "Fagiano Okayama",
+      "korean": "파지아노 오카야마",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Fagiano%20Okayama",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t39 heading 파지아노 오카야마, Value: 2"
+      ]
+    },
+    {
+      "name": "Kashiwa Reysol",
+      "korean": "가시와 레이솔",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Kashiwa%20Reysol",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t40 heading 가시와 레이솔, Value: 2"
+      ]
+    },
+    {
+      "name": "FC Tokyo",
+      "korean": "FC 도쿄",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=FC%20Tokyo",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t39 heading FC 도쿄, Value: 2"
+      ]
+    },
+    {
+      "name": "Vissel Kobe",
+      "korean": "비셀 고베",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Vissel%20Kobe",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t38 heading 비셀 고베, Value: 2"
+      ]
+    },
+    {
+      "name": "Kawasaki Frontale",
+      "korean": "가와사키 프론탈레",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Kawasaki%20Frontale",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t39 heading 가와사키 프론탈레, Value: 2"
+      ]
+    },
+    {
+      "name": "Kashima Antlers",
+      "korean": "가시마 앤틀러스",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Kashima%20Antlers",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t40 heading 가시마 앤틀러스, Value: 2"
+      ]
+    },
+    {
+      "name": "Kyoto Sanga",
+      "korean": "교토 상가 FC",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Kyoto%20Sanga",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t40 heading 교토 상가 FC, Value: 2"
+      ]
+    },
+    {
+      "name": "Cerezo Osaka",
+      "korean": "세레소 오사카",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Cerezo%20Osaka",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t44 heading 세레소 오사카, Value: 2"
+      ]
+    },
+    {
+      "name": "Nagoya Grampus",
+      "korean": "나고야 그램퍼스",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Nagoya%20Grampus",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t36 heading 나고야 그램퍼스, Value: 2"
+      ]
+    },
+    {
+      "name": "Machida Zelvia",
+      "korean": "FC 마치다 젤비아",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Machida%20Zelvia",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t38 heading FC 마치다 젤비아, Value: 2"
+      ]
+    },
+    {
+      "name": "Shimizu S-Pulse",
+      "korean": "시미즈 에스펄스",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Shimizu%20S-Pulse",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t36 heading 시미즈 에스펄스, Value: 2"
+      ]
+    },
+    {
+      "name": "Sanfrecce Hiroshima",
+      "korean": "산프레체 히로시마",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Sanfrecce%20Hiroshima",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t45 heading 산프레체 히로시마, Value: 2"
+      ]
+    },
+    {
+      "name": "V-Varen Nagasaki",
+      "korean": "V-파렌 나가사키",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=V-Varen%20Nagasaki",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t39 heading V-파렌 나가사키, Value: 2"
+      ]
+    },
+    {
+      "name": "Tokyo Verdy 1969",
+      "korean": "도쿄 베르디",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Tokyo%20Verdy%201969",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 도쿄 베르디, Value: 2"
+      ]
+    },
+    {
+      "name": "Yokohama F. Marinos",
+      "korean": "요코하마 F. 마리노스",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Yokohama%20F.%20Marinos",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t39 heading 요코하마 F. 마리노스, Value: 2"
+      ]
+    },
+    {
+      "name": "JEF United Ichihara-Chiba",
+      "korean": "제프 유나이티드 이치하라 지바",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=JEF%20United%20Ichihara-Chiba",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t45 heading 제프 유나이티드 이치하라 지바, Value: 2"
+      ]
+    },
+    {
+      "name": "Urawa Red Diamonds",
+      "korean": "우라와 레드 다이아몬즈",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Urawa%20Red%20Diamonds",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 우라와 레드 다이아몬즈, Value: 2"
+      ]
+    },
+    {
+      "name": "D.C. United",
+      "korean": "DC 유나이티드",
+      "league": "mls",
+      "source": "https://www.google.com/search?q=D.C.%20United",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t38 heading D.C. 유나이티드, Value: 2"
+      ]
+    },
+    {
+      "name": "FC Cincinnati",
+      "korean": "FC 신시내티",
+      "league": "mls",
+      "source": "https://www.google.com/search?q=FC%20Cincinnati",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t40 heading FC 신시내티, Value: 2"
+      ]
+    },
+    {
+      "name": "味全龍",
+      "korean": "웨이취안 드래건스",
+      "league": "cpbl",
+      "source": "https://www.google.com/search?q=%E5%91%B3%E5%85%A8%E9%BE%8D",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t65 heading 웨이취안 드래건스, Value: 2"
+      ]
+    },
+    {
+      "name": "中信兄弟",
+      "korean": "중신 브라더스",
+      "league": "cpbl",
+      "source": "https://www.google.com/search?q=%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F%20%EC%A4%91%EC%8B%A0%20%EB%B8%8C%EB%9D%BC%EB%8D%94%EC%8A%A4",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t69 heading 중신 브라더스, Value: 2"
+      ]
+    },
+    {
+      "name": "Philadelphia 76ers",
+      "korean": "필라델피아 세븐티식서스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Philadelphia%2076ers",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 필라델피아 세븐티식서스 (Philadelphia 76ers), Value: 2"
+      ]
+    },
+    {
+      "name": "New York Knicks",
+      "korean": "뉴욕 닉스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=New%20York%20Knicks",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 뉴욕 닉스 (New York Knicks), Value: 2"
+      ]
+    },
+    {
+      "name": "Oklahoma City Thunder",
+      "korean": "오클라호마시티 선더",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Oklahoma%20City%20Thunder",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t41 heading 오클라호마시티 선더 (Oklahoma City Thunder), Value: 2"
+      ]
+    },
+    {
+      "name": "San Antonio Spurs",
+      "korean": "샌안토니오 스퍼스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=San%20Antonio%20Spurs%20%EC%83%8C%EC%95%88%ED%86%A0%EB%8B%88%EC%98%A4%20%EC%8A%A4%ED%8D%BC%EC%8A%A4",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 샌안토니오 스퍼스, Value: 2"
+      ]
+    },
+    {
+      "name": "Atlanta Hawks",
+      "korean": "애틀랜타 호크스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Atlanta%20Hawks",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t53 heading 스포츠 경기 결과, Value: 2"
+      ]
+    },
+    {
+      "name": "Orlando Magic",
+      "korean": "올랜도 매직",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Orlando%20Magic%20%EC%98%AC%EB%9E%9C%EB%8F%84%20%EB%A7%A4%EC%A7%81",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t43 heading Description: 올랜도 매직, Value: 3"
+      ]
+    },
+    {
+      "name": "Milwaukee Bucks",
+      "korean": "밀워키 벅스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Milwaukee%20Bucks",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t73 heading 스포츠 경기 결과, Value: 2"
+      ]
+    },
+    {
+      "name": "Washington Wizards",
+      "korean": "워싱턴 위저즈",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Washington%20Wizards",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 워싱턴 위저즈 (Washington Wizards), Value: 2"
+      ]
+    },
+    {
+      "name": "Minnesota Timberwolves",
+      "korean": "미네소타 팀버울브스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Minnesota%20Timberwolves",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t71 heading 스포츠 경기 결과, Value: 2"
+      ]
+    },
+    {
+      "name": "Miami Heat",
+      "korean": "마이애미 히트",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Miami%20Heat",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 마이애미 히트 (Miami Heat), Value: 2"
+      ]
+    },
+    {
+      "name": "Charlotte Hornets",
+      "korean": "샬럿 호네츠",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Charlotte%20Hornets%20%EC%83%AC%EB%9F%BF%20%ED%98%B8%EB%84%A4%EC%B8%A0",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t40 heading 샬럿 호니츠, Value: 2"
+      ]
+    },
+    {
+      "name": "Brooklyn Nets",
+      "korean": "브루클린 네츠",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Brooklyn%20Nets",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t41 heading 스포츠 경기 결과, Value: 2"
+      ]
+    },
+    {
+      "name": "Chicago Bulls",
+      "korean": "시카고 불스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Chicago%20Bulls",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t77 heading 스포츠 경기 결과, Value: 2"
+      ]
+    },
+    {
+      "name": "Toronto Raptors",
+      "korean": "토론토 랩터스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Toronto%20Raptors",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 토론토 랩터스 (Toronto Raptors), Value: 2"
+      ]
+    },
+    {
+      "name": "Utah Jazz",
+      "korean": "유타 재즈",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Utah%20Jazz",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 유타 재즈, Value: 2"
+      ]
+    },
+    {
+      "name": "Memphis Grizzlies",
+      "korean": "멤피스 그리즐리스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Memphis%20Grizzlies",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t43 heading Description: 멤피스 그리즐리스, Value: 3"
+      ]
+    },
+    {
+      "name": "Indiana Pacers",
+      "korean": "인디애나 페이서스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Indiana%20Pacers",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 인디애나 페이서스 (Indiana Pacers), Value: 2"
+      ]
+    },
+    {
+      "name": "New Orleans Pelicans",
+      "korean": "뉴올리언스 펠리컨스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=New%20Orleans%20Pelicans",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t74 heading Description: 뉴올리언스 펠리컨스, Value: 3"
+      ]
+    },
+    {
+      "name": "Dallas Mavericks",
+      "korean": "댈러스 매버릭스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Dallas%20Mavericks",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 댈러스 매버릭스 (Dallas Mavericks), Value: 2"
+      ]
+    },
+    {
+      "name": "Houston Rockets",
+      "korean": "휴스턴 로키츠",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Houston%20Rockets",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t71 heading Description: 휴스턴 로키츠, Value: 3"
+      ]
+    },
+    {
+      "name": "Golden State Warriors",
+      "korean": "골든스테이트 워리어스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Golden%20State%20Warriors",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 골든스테이트 워리어스 (Golden State Warriors), Value: 2"
+      ]
+    },
+    {
+      "name": "Los Angeles Lakers",
+      "korean": "LA 레이커스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Los%20Angeles%20Lakers",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 로스앤젤레스 레이커스 (Los Angeles Lakers), Value: 2"
+      ]
+    },
+    {
+      "name": "Phoenix Suns",
+      "korean": "피닉스 선스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Phoenix%20Suns",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t72 heading Description: 피닉스 선스, Value: 3"
+      ]
+    },
+    {
+      "name": "Portland Trail Blazers",
+      "korean": "포틀랜드 트레일블레이저스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Portland%20Trail%20Blazers",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t73 heading Description: 포틀랜드 트레일블레이저스, Value: 3"
+      ]
+    },
+    {
+      "name": "Sacramento Kings",
+      "korean": "새크라멘토 킹스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Sacramento%20Kings",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 새크라멘토 킹스 (Sacramento Kings), Value: 2"
+      ]
+    },
+    {
+      "name": "LA Clippers",
+      "korean": "LA 클리퍼스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=LA%20Clippers",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 로스앤젤레스 클리퍼스 (LA Clippers), Value: 2"
+      ]
+    },
+    {
+      "name": "Golden State Valkyries",
+      "korean": "골든스테이트 발키리스",
+      "league": "wnba",
+      "source": "https://www.google.com/search?q=Golden%20State%20Valkyries",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t170 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Atlanta Dream",
+      "korean": "애틀랜타 드림",
+      "league": "wnba",
+      "source": "https://www.google.com/search?q=Atlanta%20Dream",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 애틀랜타 드림 (Atlanta Dream), Value: 2"
+      ]
+    },
+    {
+      "name": "San Jose Sharks",
+      "korean": "산호세 샤크스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=San%20Jose%20Sharks",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 산호세 샤크스 (San Jose Sharks), Value: 2"
+      ]
+    },
+    {
+      "name": "Montreal Canadiens",
+      "korean": "몬트리올 캐네디언스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=%EB%AA%AC%ED%8A%B8%EB%A6%AC%EC%98%AC%20%EC%BA%90%EB%84%A4%EB%94%94%EC%96%B8%EC%8A%A4%20NHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t37 heading 이것을 찾으셨나요? 몬트리올 캐나디언스 NHL, Value: 2"
+      ]
+    },
+    {
+      "name": "Colorado Avalanche",
+      "korean": "콜로라도 애벌랜치",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Colorado%20Avalanche",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t41 heading 콜로라도 애벌랜치 (Colorado Avalanche), Value: 2"
+      ]
+    },
+    {
+      "name": "New Jersey Devils",
+      "korean": "뉴저지 데블스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=New%20Jersey%20Devils",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 뉴저지 데블스 (New Jersey Devils), Value: 2"
+      ]
+    },
+    {
+      "name": "Anaheim Ducks",
+      "korean": "애너하임 덕스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Anaheim%20Ducks",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t41 heading 애너하임 덕스 (Anaheim Ducks), Value: 2"
+      ]
+    },
+    {
+      "name": "New York Islanders",
+      "korean": "뉴욕 아일랜더스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=%EB%89%B4%EC%9A%95%20%EC%95%84%EC%9D%BC%EB%9E%9C%EB%8D%94%EC%8A%A4%20NHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t43 heading 뉴욕 아일런더스, Value: 2"
+      ]
+    },
+    {
+      "name": "Los Angeles Kings",
+      "korean": "로스앤젤레스 킹스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Los%20Angeles%20Kings",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t41 heading 로스앤젤레스 킹스 (Los Angeles Kings), Value: 2"
+      ]
+    },
+    {
+      "name": "Washington Capitals",
+      "korean": "워싱턴 캐피털스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Washington%20Capitals",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 워싱턴 캐피털스 (Washington Capitals), Value: 2"
+      ]
+    },
+    {
+      "name": "Toronto Maple Leafs",
+      "korean": "토론토 메이플리프스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Toronto%20Maple%20Leafs",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 토론토 메이플 리프스 (Toronto Maple Leafs), Value: 2"
+      ]
+    },
+    {
+      "name": "Columbus Blue Jackets",
+      "korean": "콜럼버스 블루재키츠",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Columbus%20Blue%20Jackets",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t41 heading 콜럼버스 블루재키츠 (Columbus Blue Jackets), Value: 2"
+      ]
+    },
+    {
+      "name": "Winnipeg Jets",
+      "korean": "위니펙 제츠",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Winnipeg%20Jets",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 위니펙 제츠 (Winnipeg Jets), Value: 2"
+      ]
+    },
+    {
+      "name": "St. Louis Blues",
+      "korean": "세인트루이스 블루스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=St.%20Louis%20Blues",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t40 heading 세인트루이스 블루스 (St. Louis Blues), Value: 2"
+      ]
+    },
+    {
+      "name": "Boston Bruins",
+      "korean": "보스턴 브루인스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Boston%20Bruins",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 보스턴 브루인스 (Boston Bruins), Value: 2"
+      ]
+    },
+    {
+      "name": "Dallas Stars",
+      "korean": "댈러스 스타스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Dallas%20Stars",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t43 heading 댈러스 스타스 (Dallas Stars), Value: 2"
+      ]
+    },
+    {
+      "name": "Minnesota Wild",
+      "korean": "미네소타 와일드",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Minnesota%20Wild",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 미네소타 와일드 (Minnesota Wild), Value: 2"
+      ]
+    },
+    {
+      "name": "Edmonton Oilers",
+      "korean": "에드먼턴 오일러스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Edmonton%20Oilers",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 에드먼턴 오일러스 (Edmonton Oilers), Value: 2"
+      ]
+    },
+    {
+      "name": "Detroit Red Wings",
+      "korean": "디트로이트 레드윙스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Detroit%20Red%20Wings",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 디트로이트 레드윙스 (Detroit Red Wings), Value: 2"
+      ]
+    },
+    {
+      "name": "Seattle Kraken",
+      "korean": "시애틀 크라켄",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Seattle%20Kraken",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 시애틀 크라켄 (Seattle Kraken), Value: 2"
+      ]
+    },
+    {
+      "name": "Carolina Hurricanes",
+      "korean": "캐롤라이나 허리케인스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Carolina%20Hurricanes",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 캐롤라이나 허리케인스 (Carolina Hurricanes), Value: 2"
+      ]
+    },
+    {
+      "name": "Vancouver Canucks",
+      "korean": "밴쿠버 커넉스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Vancouver%20Canucks",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 밴쿠버 커넉스 (Vancouver Canucks), Value: 2"
+      ]
+    },
+    {
+      "name": "Tampa Bay Lightning",
+      "korean": "탬파베이 라이트닝",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Tampa%20Bay%20Lightning",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 탬파베이 라이트닝 (Tampa Bay Lightning), Value: 2"
+      ]
+    },
+    {
+      "name": "Vegas Golden Knights",
+      "korean": "베이거스 골든 나이츠",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Vegas%20Golden%20Knights",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 베이거스 골든 나이츠 (Vegas Golden Knights), Value: 2"
+      ]
+    },
+    {
+      "name": "Philadelphia Flyers",
+      "korean": "필라델피아 플라이어스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Philadelphia%20Flyers",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 필라델피아 플라이어스 (Philadelphia Flyers), Value: 2"
+      ]
+    },
+    {
+      "name": "Buffalo Sabres",
+      "korean": "버펄로 세이버스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Buffalo%20Sabres",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 버펄로 세이버스 (Buffalo Sabres), Value: 2"
+      ]
+    },
+    {
+      "name": "Florida Panthers",
+      "korean": "플로리다 팬서스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Florida%20Panthers",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 플로리다 팬서스 (Florida Panthers), Value: 2"
+      ]
+    },
+    {
+      "name": "Ottawa Senators",
+      "korean": "오타와 세너터스",
+      "league": "nhl",
+      "source": "https://www.google.com/search?q=Ottawa%20Senators",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t42 heading 오타와 세너터스 (Ottawa Senators), Value: 2"
+      ]
+    },
+    {
+      "name": "Neftekhimik",
+      "korean": "네프테히미크",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Neftekhimik%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t128 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Lokomotiv",
+      "korean": "로코모티프 야로슬라블",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Lokomotiv%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t130 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Sibir",
+      "korean": "시비르 노보시비르스크",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Sibir%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t132 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Dynamo Msk",
+      "korean": "디나모 모스크바",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Dynamo%20Msk%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t114 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Avtomobilist",
+      "korean": "아브토모빌리스트",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=%EC%95%84%EB%B8%8C%ED%86%A0%EB%AA%A8%EB%B9%8C%EB%A6%AC%EC%8A%A4%ED%8A%B8%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t125 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "SKA",
+      "korean": "SKA 상트페테르부르크",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=SKA%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t126 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Barys",
+      "korean": "바리스 아스타나",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=%EB%B0%94%EB%A6%AC%EC%8A%A4%20%EC%95%84%EC%8A%A4%ED%83%80%EB%82%98%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t129 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Admiral",
+      "korean": "아드미랄 블라디보스토크",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=%EC%95%84%EB%93%9C%EB%AF%B8%EB%9E%84%20%EB%B8%94%EB%9D%BC%EB%94%94%EB%B3%B4%EC%8A%A4%ED%86%A0%ED%81%AC%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t155 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Salavat Yulaev",
+      "korean": "살라바트 율라예프",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Salavat%20Yulaev%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t127 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Metallurg Mg",
+      "korean": "메탈루르그 마그니토고르스크",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Metallurg%20Mg%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t144 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Torpedo",
+      "korean": "토르페도 니즈니노브고로드",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=%ED%86%A0%EB%A5%B4%ED%8E%98%EB%8F%84%20%EB%8B%88%EC%A6%88%EB%8B%88%EB%85%B8%EB%B8%8C%EA%B3%A0%EB%A1%9C%EB%93%9C%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t139 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Ak Bars",
+      "korean": "아크 바르스",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=%EC%95%84%ED%81%AC%20%EB%B0%94%EB%A5%B4%EC%8A%A4%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t125 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Dragons",
+      "korean": "상하이 드래곤즈",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Dragons%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t202 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Severstal",
+      "korean": "세베르스탈 체레포베츠",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Severstal%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t167 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "CSKA",
+      "korean": "CSKA 모스크바",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=CSKA%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t169 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Spartak",
+      "korean": "스파르타크 모스크바",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Spartak%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t135 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "Avangard",
+      "korean": "아방가르드 옴스크",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Avangard%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t146 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "부산 KCC",
+      "korean": "부산 KCC",
+      "league": "kbl",
+      "source": "https://www.google.com/search?q=%EB%B6%80%EC%82%B0%20KCC%20%EB%86%8D%EA%B5%AC",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t44 heading Description: 부산 KCC 이지스, Value: 3"
+      ]
+    },
+    {
+      "name": "서울 삼성",
+      "korean": "서울 삼성",
+      "league": "kbl",
+      "source": "https://www.google.com/search?q=%EC%84%9C%EC%9A%B8%20%EC%82%BC%EC%84%B1%20%EB%86%8D%EA%B5%AC",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t43 heading Description: 서울 삼성 썬더스, Value: 3"
+      ]
+    },
+    {
+      "name": "창원 LG",
+      "korean": "창원 LG",
+      "league": "kbl",
+      "source": "https://www.google.com/search?q=%EC%B0%BD%EC%9B%90%20LG%20%EB%86%8D%EA%B5%AC",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t38 heading 창원 LG 세이커스, Value: 2"
+      ]
+    },
+    {
+      "name": "울산 현대모비스",
+      "korean": "울산 현대모비스",
+      "league": "kbl",
+      "source": "https://www.google.com/search?q=%EC%9A%B8%EC%82%B0%20%ED%98%84%EB%8C%80%EB%AA%A8%EB%B9%84%EC%8A%A4%20%EB%86%8D%EA%B5%AC",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t44 heading Description: 울산 현대모비스 피버스, Value: 3"
+      ]
+    },
+    {
+      "name": "삼성화재",
+      "korean": "삼성화재",
+      "league": "kovo",
+      "source": "https://www.google.com/search?q=%EC%82%BC%EC%84%B1%ED%99%94%EC%9E%AC%20%EB%B0%B0%EA%B5%AC",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t75 heading AI 개요, Value: 2"
+      ]
+    },
+    {
+      "name": "OK저축은행",
+      "korean": "OK저축은행",
+      "league": "kovo",
+      "source": "https://www.google.com/search?q=OK%EC%A0%80%EC%B6%95%EC%9D%80%ED%96%89%20%EB%B0%B0%EA%B5%AC",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": []
+    },
+    {
+      "name": "한국전력",
+      "korean": "한국전력",
+      "league": "kovo",
+      "source": "https://www.google.com/search?q=%ED%95%9C%EA%B5%AD%EC%A0%84%EB%A0%A5%20%EB%B0%B0%EA%B5%AC",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t157 heading 다음, Value: 2"
+      ]
+    },
+    {
+      "name": "우리카드",
+      "korean": "우리카드",
+      "league": "kovo",
+      "source": "https://www.google.com/search?q=%EC%9A%B0%EB%A6%AC%EC%B9%B4%EB%93%9C%20%EB%B0%B0%EA%B5%AC",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t74 heading AI 개요, Value: 2"
+      ]
+    },
+    {
+      "name": "Boston Celtics",
+      "korean": "보스턴 셀틱스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Boston%20Celtics",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t43 heading Description: 보스턴 셀틱스, Value: 3"
+      ]
+    },
+    {
+      "name": "Detroit Pistons",
+      "korean": "디트로이트 피스턴스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=Detroit%20Pistons",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t69 heading Description: 디트로이트 피스턴스, Value: 3"
+      ]
+    },
+    {
+      "name": "FC Machida Zelvia",
+      "korean": "FC 마치다 젤비아",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Machida%20Zelvia",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t38 heading FC 마치다 젤비아, Value: 2"
+      ],
+      "aliasOf": "Machida Zelvia"
+    },
+    {
+      "name": "Kyoto Sanga FC",
+      "korean": "교토 상가 FC",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Kyoto%20Sanga",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t40 heading 교토 상가 FC, Value: 2"
+      ],
+      "aliasOf": "Kyoto Sanga"
+    },
+    {
+      "name": "Shakhtar",
+      "korean": "샤흐타르 도네츠크",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Shakhtar%20Donetsk",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t45 heading FC 샤흐타르 도네츠크, Value: 2"
+      ],
+      "aliasOf": "Shakhtar Donetsk"
+    },
+    {
+      "name": "Feyenoord",
+      "korean": "페예노르트",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Feyenoord%20Rotterdam",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 페예노르트, Value: 2"
+      ],
+      "aliasOf": "Feyenoord Rotterdam"
+    },
+    {
+      "name": "Shanghai Dragons",
+      "korean": "상하이 드래곤즈",
+      "league": "khl",
+      "source": "https://www.google.com/search?q=Dragons%20KHL",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t202 heading 다음, Value: 2"
+      ],
+      "aliasOf": "Dragons"
+    },
+    {
+      "name": "Tokyo Verdy",
+      "korean": "도쿄 베르디",
+      "league": "j1",
+      "source": "https://www.google.com/search?q=Tokyo%20Verdy%201969",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 도쿄 베르디, Value: 2"
+      ],
+      "aliasOf": "Tokyo Verdy 1969"
+    },
+    {
+      "name": "Inter Milan",
+      "korean": "인터 밀란",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Inter%20Milan%20%EC%9D%B8%ED%84%B0%20%EB%B0%80%EB%9E%80",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading FC 인테르나치오날레 밀라노, Value: 2"
+      ],
+      "aliasOf": "Internazionale"
+    },
+    {
+      "name": "Athletic Bilbao",
+      "korean": "아틀레틱 빌바오",
+      "league": "laliga",
+      "source": "https://www.google.com/search?q=Athletic%20Club",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading 아틀레틱 빌바오, Value: 2"
+      ],
+      "aliasOf": "Athletic Club"
+    },
+    {
+      "name": "LOSC Lille",
+      "korean": "릴",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=Lille%20OSC",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading LOSC 릴, Value: 2"
+      ],
+      "aliasOf": "Lille"
+    },
+    {
+      "name": "RC Lens",
+      "korean": "랑스",
+      "league": "ucl",
+      "source": "https://www.google.com/search?q=RC%20Lens",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t41 heading RC 랑스, Value: 2"
+      ],
+      "aliasOf": "Lens"
+    },
+    {
+      "name": "Los Angeles Clippers",
+      "korean": "LA 클리퍼스",
+      "league": "nba",
+      "source": "https://www.google.com/search?q=LA%20Clippers",
+      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "heading": [
+        "\t\t\t\t\t\t\t\t\t39 heading 로스앤젤레스 클리퍼스 (LA Clippers), Value: 2"
+      ],
+      "aliasOf": "LA Clippers"
+    }
+  ]
+}

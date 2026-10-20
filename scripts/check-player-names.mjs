@@ -3,11 +3,14 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 
 // Execute the production dictionaries and rendering functions without network requests.
-const element = {addEventListener() {}};
+const elements = new Map();
+const storage = new Map();
+const element = () => ({addEventListener() {},setAttribute() {},innerHTML:'',textContent:''});
 const context = vm.createContext({
-  localStorage: {getItem() { return null; }},
-  document: {documentElement: {dataset: {}}, getElementById() { return element; }, addEventListener() {}},
-  window: {setInterval() {}}
+  localStorage: {getItem(key) { return storage.get(key)||null; },setItem(key,value) {storage.set(key,value);}},
+  document: {documentElement: {dataset: {}}, getElementById(id) {if(!elements.has(id))elements.set(id,element());return elements.get(id);}, querySelector() {return element();}, addEventListener() {}},
+  window: {setInterval() {}},
+  atob,TextDecoder,Uint8Array
 });
 for (const file of ['football-ko.js', 'player-ko.js', 'app.js']) {
   let source = fs.readFileSync(new URL(`../dist/${file}`, import.meta.url), 'utf8');
@@ -15,6 +18,12 @@ for (const file of ['football-ko.js', 'player-ko.js', 'app.js']) {
   vm.runInContext(source, context, {filename: file});
 }
 const run = code => vm.runInContext(code, context);
+context.checkedTeamDictionary=JSON.parse(fs.readFileSync(new URL('../dist/team-ko.json',import.meta.url),'utf8'));
+run('applyTeamNames(checkedTeamDictionary)');
+assert.throws(()=>run('applyTeamNames({bad:123})'),/Invalid team name dictionary/);
+assert.equal(run("teamKo['Manchester United']"),'맨체스터 유나이티드');
+assert.equal(run("teamDisplayName({displayName:'Mito HollyHock'})"),'미토 홀리호크');
+assert.equal(run("teamDisplayName({displayName:'Unreviewed United'})"),'Unreviewed United');
 for (const [name, expected] of [
   ['Alisson Becker', '알리송 베커'], ['Alisson', '알리송 베커'],
   ['Onyeka Okongwu', '오니에카 오콩우'],
@@ -50,6 +59,43 @@ for (const row of reviewed) {
 }
 console.log(`Player names and both rendering paths passed. Reviewed dictionary: ${run('Object.keys(playerKo).length')} names/aliases.`);
 
+const teamReview = JSON.parse(fs.readFileSync(new URL('./team-name-review.json', import.meta.url),'utf8'));
+for (const row of teamReview.entries) {
+  context.teamToReview = {displayName:row.name};
+  assert.equal(run('teamDisplayName(teamToReview)'),row.korean,row.name);
+  assert.ok(row.source.startsWith('https://www.google.com/search?'),row.name);
+}
+run(`nameReview={request:requestId,names:new Map()};teamDisplayName({displayName:'Manchester United'});playerDisplayName('Alisson Becker');playerDisplayName('Unreviewed Athlete');finishNameReview(requestId);`);
+let refreshReport = JSON.parse(storage.get('sports-lineups-name-review'));
+assert.deepEqual(refreshReport.pending.map(row=>row.name),['Unreviewed Athlete']);
+assert.equal(refreshReport.names.length,3);
+run(`nameReview={request:requestId,names:new Map()};teamDisplayName({displayName:'Manchester United'});finishNameReview(requestId-1);`);
+assert.ok(run('nameReview !== null'),'An older response must not finish the latest review');
+run('finishNameReview(requestId)');
+refreshReport = JSON.parse(storage.get('sports-lineups-name-review'));
+assert.equal(refreshReport.names.length,1,'Previous refresh names must be cleared');
+assert.equal(refreshReport.pending.length,0);
+run(`nameReview={request:requestId,names:new Map(),failed:true};finishNameReview(requestId);`);
+assert.equal(JSON.parse(storage.get('sports-lineups-name-review')).status,'data-unavailable');
+context.fetch = async () => {throw new Error('Offline');};
+await run(`sport='khl';loadGames()`);
+assert.equal(JSON.parse(storage.get('sports-lineups-name-review')).status,'data-unavailable');
+const refreshRequests = [];
+context.fetch = async (url,options) => {
+  refreshRequests.push({url,options});
+  return {ok:true,json:async()=>String(url).startsWith('team-ko.json?') ? context.checkedTeamDictionary : {content:Buffer.from(JSON.stringify({domestic:{khl:[]}})).toString('base64')}};
+};
+await run('loadGames()');
+await run('loadGames()');
+refreshReport = JSON.parse(storage.get('sports-lineups-name-review'));
+assert.equal(refreshReport.status,'checked');
+assert.equal(refreshReport.dictionaryStatus,'fresh');
+assert.equal(refreshReport.names.length,0,'Failed/previous loads must not leak names');
+const dictionaryRequests = refreshRequests.filter(row=>String(row.url).startsWith('team-ko.json?'));
+assert.equal(dictionaryRequests.length,2,'Each refresh must fetch the current team dictionary');
+assert.ok(dictionaryRequests.every(row=>row.options.cache==='no-store'));
+console.log(`Team source review and refresh audit passed: ${teamReview.entries.length} reviewed team names.`);
+
 // Unlike snapshot-only audits, this inventory also covers ESPN live starters,
 // recent-game fallback starters and injury names collected by the actual renderers.
 if (process.argv.includes('--inventory')) {
@@ -75,10 +121,15 @@ if (process.argv.includes('--inventory')) {
   run(`language='ko'`);
   const report = {collectedAt:inventory.at, totalNames:names.length, mapped:names.length-pending.length-english.length, reviewedEnglish:english, pending, fetchFailures:inventory.failures};
   fs.writeFileSync(new URL('./player-name-live-audit.json', import.meta.url), JSON.stringify(report,null,2)+'\n');
+  const teams = [...new Map((inventory.teams||inventory.records.filter(row=>row.team).map(row=>({name:row.team,league:row.league}))).map(row=>[row.name,row])).values()];
+  const pendingTeams = teams.filter(row=>!run(`teamKo[${JSON.stringify(row.name)}]||teamKoNormalized[normalizePlayerName(${JSON.stringify(row.name)})]`)).map(row=>({...row,google:`https://www.google.com/search?q=${encodeURIComponent(row.name)}`,status:'needs-source-review'}));
+  fs.writeFileSync(new URL('./team-name-live-audit.json',import.meta.url),JSON.stringify({collectedAt:inventory.at,totalTeams:teams.length,reviewed:teams.length-pendingTeams.length,pending:pendingTeams},null,2)+'\n');
+  console.log(`Team inventory: ${teams.length-pendingTeams.length}/${teams.length} source-reviewed; ${pendingTeams.length} queued.`);
   console.log(`Live inventory: ${report.totalNames} names; ${report.mapped} mapped, ${english.length} reviewed English exceptions, ${pending.length} unchecked.`);
   if (process.argv.includes('--require-reviewed')) {
     assert.equal(inventory.failures.length, 0, 'Inventory collection has fetch failures');
     assert.equal(pending.length, 0, `Unchecked live player names: ${pending.map(row=>row.name).join(', ')}`);
+    assert.equal(pendingTeams.length,0,`Unchecked team names: ${pendingTeams.map(row=>row.name).join(', ')}`);
   }
 }
 

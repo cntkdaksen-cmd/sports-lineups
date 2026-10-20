@@ -9,6 +9,8 @@ on:
       - 'scripts/collect-player-names.mjs'
       - 'scripts/player-name-exceptions.json'
       - 'dist/player-ko.js'
+      - 'dist/team-ko.json'
+      - 'scripts/team-name-review.json'
       - 'dist/football-ko.js'
       - 'dist/app.js'
       - '.github/workflows/refresh-lineups.yml'
@@ -50,6 +52,7 @@ jobs:
             scripts/player-name-audit.json
             scripts/player-name-live-audit.json
             scripts/player-name-live-inventory.json
+            scripts/team-name-live-audit.json
           retention-days: 3
       - name: Commit lineup changes
         run: |
