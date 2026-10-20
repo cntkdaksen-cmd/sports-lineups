@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - 'scripts/update-projections.py'
+      - 'scripts/check-player-names.mjs'
+      - 'dist/player-ko.js'
+      - 'dist/football-ko.js'
+      - 'dist/app.js'
       - '.github/workflows/refresh-lineups.yml'
   schedule:
     - cron: '*/15 * * * *'
@@ -27,6 +31,16 @@ jobs:
           python-version: '3.x'
       - name: Fetch current lineup projections
         run: python3 scripts/update-projections.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit Korean names across all leagues
+        run: node scripts/check-player-names.mjs --audit
+      - uses: actions/upload-artifact@v7
+        with:
+          name: player-name-audit
+          path: scripts/player-name-audit.json
+          retention-days: 3
       - name: Commit lineup changes
         run: |
           if ! git diff --quiet -- dist/projections.json; then

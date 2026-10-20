@@ -1,0 +1,554 @@
+// Reviewed player names and explicit provider aliases. Never infer a name from its surname.
+// Korean media and Naver squad spellings take precedence over automatic search descriptions.
+const playerKo = Object.fromEntries(`
+Onyeka Okongwu|오니에카 오콩우
+Alisson|알리송 베커
+Alisson Becker|알리송 베커
+Alisson Ramses Becker|알리송 베커
+Kostas Tsimikas|코스타스 치미카스
+Jeremy Jacquet|제레미 자케
+Virgil van Dijk|버질 반 다이크
+Joe Gomez|조 고메즈
+Ryan Gravenberch|라이언 흐라벤베르흐
+Trey Nyoni|트레이 뇨니
+Bradley Barcola|브래들리 바르콜라
+Florian Wirtz|플로리안 비르츠
+Rio Ngumoha|리오 응무하
+Lewis Koumas|루이스 쿠마스
+Victor Munoz|빅토르 무뇨스
+Conor Bradley|코너 브래들리
+Hugo Ekitike|위고 에키티케
+Jeremie Frimpong|제레미 프림퐁
+Amara Nallo|아마라 날로
+Dominik Szoboszlai|도미니크 소보슬러이
+Ibrahima Konate|이브라히마 코나테
+Curtis Jones|커티스 존스
+Wataru Endo|엔도 와타루
+Alexander Isak|알렉산더 이삭
+Alexis Mac Allister|알렉시스 맥 알리스터
+Federico Chiesa|페데리코 키에사
+Cody Gakpo|코디 학포
+Giorgi Mamardashvili|기오르기 마마르다슈빌리
+Ronald Araujo|로날드 아라우호
+James McConnell|제임스 맥코넬
+Matvey Safonov|마트베이 사포노프
+Lucas Digne|뤼카 디뉴
+Marquinhos|마르퀴뇨스
+Willian Pacho|윌리안 파초
+Achraf Hakimi|아슈라프 하키미
+Fabian Ruiz|파비안 루이스
+Joao Neves|주앙 네베스
+Vitinha|비티냐
+Khvicha Kvaratskhelia|흐비차 크바라츠헬리아
+Desire Doue|데지레 두에
+Ousmane Dembele|우스만 뎀벨레
+Senny Mayulu|세니 마율루
+Nuno Mendes|누누 멘데스
+Warren Zaire-Emery|워렌 자이르에메리
+Lucas Hernandez|뤼카 에르난데스
+Lucas Beraldo|루카스 베랄두
+Goncalo Ramos|곤살루 하무스
+Alphonso Davies|알폰소 데이비스
+Jonathan Tah|요나탄 타
+Dayot Upamecano|다요 우파메카노
+Konrad Laimer|콘라트 라이머
+Joshua Kimmich|요주아 키미히
+Aleksandar Pavlovic|알렉산다르 파블로비치
+Luis Diaz|루이스 디아스
+Michael Olise|마이클 올리세
+Josip Stanisic|요시프 스타니시치
+Serge Gnabry|세르주 그나브리
+Leon Goretzka|레온 고레츠카
+Gregor Kobel|그레고어 코벨
+Waldemar Anton|발데마르 안톤
+Nico Schlotterbeck|니코 슐로터베크
+Joane Gadou|조안 가두
+Daniel Svensson|다니엘 스벤손
+Joey Veerman|조이 페이르만
+Julian Ryerson|율리안 뤼에르손
+Marcel Sabitzer|마르첼 자비처
+Maximilian Beier|막시밀리안 바이어
+Serhou Guirassy|세루 기라시
+Emre Can|엠레 잔
+Mason Greenwood|메이슨 그린우드
+Ismail Yuksek|이스마일 윅섹
+Irfan Can Kahveci|이르판 잔 카흐베지
+Michal Sadilek|미할 사딜레크
+David Jurasek|다비트 유라세크
+Ivan Schranz|이반 슈란츠
+Tomas Chory|토마시 호리
+Igoh Ogbu|이고 오그부
+Tymoteusz Puchacz|티모테우시 푸하치
+David Raya|다비드 라야
+Riccardo Calafiori|리카르도 칼라피오리
+Jurrien Timber|위리엔 팀버
+Myles Lewis-Skelly|마일스 루이스스켈리
+Noni Madueke|노니 마두에케
+Martin Odegaard|마르틴 외데고르
+Viktor Gyokeres|빅토르 요케레스
+Christos Tzolis|크리스토스 촐리스
+Thibaut Courtois|티보 쿠르투아
+Antonio Rudiger|안토니오 뤼디거
+Aurelien Tchouameni|오렐리앙 추아메니
+Federico Valverde|페데리코 발베르데
+Ferland Mendy|페를랑 멘디
+Alex Meret|알렉스 메레트
+Leonardo Spinazzola|레오나르도 스피나촐라
+Amir Rrahmani|아미르 라흐마니
+Giovanni Di Lorenzo|조반니 디 로렌초
+Scott McTominay|스콧 맥토미니
+Kevin De Bruyne|케빈 더 브라위너
+Matteo Politano|마테오 폴리타노
+Alessandro Buongiorno|알레산드로 부온조르노
+Jan Oblak|얀 오블락
+Alejandro Grimaldo|알레한드로 그리말도
+David Hancko|다비드 한츠코
+Marc Pubill|마르크 푸빌
+Marcos Llorente|마르코스 요렌테
+Alex Baena|알렉스 바에나
+Johnny Cardoso|조니 카르도소
+Pablo Barrios|파블로 바리오스
+Giuliano Simeone|줄리아노 시메오네
+Julian Alvarez|훌리안 알바레스
+Koke|코케
+Senne Lammens|세네 라멘스
+Noussair Mazraoui|누사이르 마즈라위
+Harry Maguire|해리 매과이어
+Diogo Dalot|디오고 달로트
+Andrey Santos|안드레이 산투스
+Matheus Cunha|마테우스 쿠냐
+Youri Tielemans|유리 틸레만스
+Bryan Mbeumo|브라이언 음뵈모
+Ayden Heaven|아이든 헤븐
+Luke Shaw|루크 쇼
+Patrick Dorgu|파트리크 도르구
+Yann Sommer|얀 조머
+Manuel Akanji|마누엘 아칸지
+Yann Aurel Bisseck|얀 아우렐 비세크
+Federico Dimarco|페데리코 디마르코
+Hakan Calhanoglu|하칸 찰하놀루
+Marcus Thuram|마르쿠스 튀람
+Benjamin Pavard|벵자맹 파바르
+Joao Cancelo|주앙 칸셀루
+Gerard Martin|헤라르드 마르틴
+Marc Bernal|마르크 베르날
+Dani Olmo|다니 올모
+Raphinha|하피냐
+Ugurcan Cakir|우르잔 차크르
+Ismail Jakobs|이스마일 야쿱스
+Roland Sallai|롤란드 살라이
+Lucas Torreira|루카스 토레이라
+Mario Lemina|마리오 르미나
+Baris Yilmaz|바리스 알페르 일마즈
+Victor Osimhen|빅터 오시멘
+Wilfried Singo|윌프리드 싱고
+Mateo Kovacic|마테오 코바치치
+Matheus Nunes|마테우스 누네스
+Antoine Semenyo|앙투안 세메뇨
+David Raum|다비트 라움
+Willi Orban|빌리 오르반
+Maarten Vandevoordt|마르턴 판더포르트
+Christopher Nkunku|크리스토페르 은쿤쿠
+Brajan Gruda|브라얀 그루다
+Antonio Nusa|안토니오 누사
+Ismael Saibari|이스마엘 사이바리
+Pablo Fornals|파블로 포르날스
+Karim Adeyemi|카림 아데예미
+Christian Pulisic|크리스천 풀리식
+Charles De Ketelaere|샤를 더케텔라러
+Adrien Rabiot|아드리앵 라비오
+Jack Grealish|잭 그릴리시
+Jordan Henderson|조던 헨더슨
+Jordan Pickford|조던 픽퍼드
+Gabriel Jesus|가브리에우 제주스
+Ferran Torres|페란 토레스
+Fermin Lopez|페르민 로페스
+Moises Caicedo|모이세스 카이세도
+Morgan Rogers|모건 로저스
+Mike Maignan|마이크 메냥
+Pervis Estupinan|페르비스 에스투피냔
+Lazar Samardzic|라자르 사마르지치
+Sead Kolasinac|세아드 콜라시나츠
+Strahinja Pavlovic|스트라히냐 파블로비치
+Illia Zabarnyi|일리야 자바르니
+Son Heung-min|손흥민
+Heung-min Son|손흥민
+Lee Kang-in|이강인
+Kang-in Lee|이강인
+Kim Min-jae|김민재
+Min-jae Kim|김민재
+Lee Han-Beom|이한범
+Han-Beom Lee|이한범
+Cade Cunningham|케이드 커닝햄
+Duncan Robinson|던컨 로빈슨
+Ausar Thompson|아우사르 탐슨
+John Collins|존 콜린스
+Jalen Duren|제일런 듀렌
+Taurean Prince|토린 프린스
+Derrick White|데릭 화이트
+Paul George|폴 조지
+Jordan Walsh|조던 월시
+Mitchell Robinson|미첼 로빈슨
+Devin Carter|데빈 카터
+Jalen Brunson|제일런 브런슨
+Mikal Bridges|미칼 브리지스
+Josh Hart|조시 하트
+OG Anunoby|OG 아누노비
+Karl-Anthony Towns|칼앤서니 타운스
+Tyrese Maxey|타이리스 맥시
+VJ Edgecombe|VJ 엣지컴
+Jaylen Brown|제일런 브라운
+LeBron James|르브론 제임스
+Joel Embiid|조엘 엠비드
+Adem Bona|아뎀 보나
+Anfernee Simons|앤퍼니 사이먼스
+Dean Wade|딘 웨이드
+Dominick Barlow|도미닉 발로우
+Tacko Fall|타코 폴
+Ariel Hukporti|아리엘 훅포르티
+De'Aaron Fox|디애런 팍스
+Stephon Castle|스테픈 캐슬
+Dylan Harper|딜런 하퍼
+Devin Vassell|데빈 바셀
+Victor Wembanyama|빅터 웸반야마
+Tobias Harris|토바이어스 해리스
+Jayden Quaintance|제이든 퀘인턴스
+Shai Gilgeous-Alexander|샤이 길저스알렉산더
+Cason Wallace|케이슨 월러스
+Jalen Williams|제일런 윌리엄스
+Chet Holmgren|쳇 홈그렌
+Isaiah Hartenstein|아이재아 하텐슈타인
+Otega Oweh|오테가 오웨
+Thomas Sorber|토마스 소버
+Nikola Topic|니콜라 토피치
+Shohei Ohtani|오타니 쇼헤이
+Mookie Betts|무키 베츠
+Freddie Freeman|프레디 프리먼
+Tommy Edman|토미 에드먼
+Teoscar Hernandez|테오스카 에르난데스
+Max Muncy|맥스 먼시
+Andy Pages|앤디 파헤스
+Kyle Tucker|카일 터커
+Hunter Feduccia|헌터 페두시아
+Alex Freeland|알렉스 프리랜드
+Alex Call|알렉스 콜
+Enrique Hernandez|키케 에르난데스
+Kike Hernandez|키케 에르난데스
+Miguel Rojas|미겔 로하스
+Dalton Rushing|달튼 러싱
+Yoshinobu Yamamoto|야마모토 요시노부
+Roki Sasaki|사사키 로키
+Blake Snell|블레이크 스넬
+Tyler Glasnow|타일러 글래스나우
+Edwin Diaz|에드윈 디아즈
+Tanner Scott|태너 스캇
+Evan Phillips|에반 필립스
+Seiya Suzuki|스즈키 세이야
+Masataka Yoshida|요시다 마사타카
+Shota Imanaga|이마나가 쇼타
+Yu Darvish|다르빗슈 유
+Kodai Senga|센가 코다이
+Yusei Kikuchi|기쿠치 유세이
+Munetaka Murakami|무라카미 무네타카
+Kazuma Okamoto|오카모토 가즈마
+Shugo Maki|마키 슈고
+Kensuke Kondoh|곤도 겐스케
+Jung Hoo Lee|이정후
+Jung-hoo Lee|이정후
+Ha-Seong Kim|김하성
+Hye-Seong Kim|김혜성
+Hyun Jin Ryu|류현진
+Fabian Bredlow|파비안 브레들로
+Ameen Al-Dakhil|아메인 알 다킬
+Ramon Hendriks|라몬 헨드릭스
+Josha Vagnoman|요샤 바그노만
+Angelo Stiller|안젤로 슈틸러
+Tiago Tomas|티아구 토마스
+Ermedin Demirovic|에르메딘 데미로비치
+Chris Fuhrich|크리스 퓌리히
+Jamie Leweling|제이미 르웰링
+Grischa Promel|그리샤 프뢰멜
+Jeff Chabot|제프 샤보트
+Deniz Undav|데니스 운다브
+Nikolas Nartey|니콜라스 나르테이
+Finn Jeltsch|핀 옐치
+Jakub Kiwior|야쿠브 키비오르
+William Gomes|윌리엄 고메스
+Pepe|페페
+Gerard Moreno|제라르 모레노
+Juan Foyth|후안 포이스
+Georges Mikautadze|조르지 미카우타제
+Alberto Moleiro|알베르토 몰레이로
+Lutsharel Geertruida|루트샤렐 헤르트루이다
+Armando Obispo|아르만도 오비스포
+Ivan Perisic|이반 페리시치
+Ruben van Bommel|루벤 반 봄멜
+Sergino Dest|세르지뇨 데스트
+Ricardo Pepi|리카르도 페피
+Unai Simon|우나이 시몬
+Yeray Alvarez|예레이 알바레즈
+Alex Berenguer|알렉스 베렌구에르
+Oihan Sancet|오이안 산셋
+Nico Williams|니코 윌리엄스
+Gorka Guruzeta|고르카 구루제타
+Bryan Cristante|브라이언 크리스탄테
+Lorenzo Pellegrini|로렌조 펠레그리니
+Neil El Aynaoui|닐 엘 아이나위
+Manu Kone|마누 코네
+Jean Butez|장 뷔테즈
+Marc-Oliver Kempf|마르크 올리버 켐프
+Alex Valle|알렉스 발레
+Jacobo Ramon|하코보 라몬
+Maximo Perrone|막시모 페로네
+Lucas Da Cunha|루카스 다 쿤하
+Tasos Douvikas|타소스 두비카스
+Nico Paz|니코 파스
+Berke Ozer|베르케 외제르
+Nathan Ngoy|네이선 응고이
+Alexsandro|알렉산드루
+Nabil Bentaleb|나빌 벤탈렙
+Dilane Bakwa|딜란 바크와
+Ethan Mbappe|에단 음바페
+Olivier Giroud|올리비에 지루
+Hakon Haraldsson|하콘 하랄손
+Osame Sahraoui|오사메 사흐라위
+Maik Nawrocki|마이크 나브로츠키
+Samson Baidoo|삼손 바이두
+Florian Thauvin|플로리앙 토빈
+Tjark Ernst|티아크 에른스트
+Tsuyoshi Watanabe|와타나베 츠요시
+Gjivai Zechiel|지바이 제키엘
+Ayase Ueda|우에다 아야세
+Luciano Valente|루치아노 발렌테
+Ezechiel Banzuzi|에제키엘 반주지
+Assan Ouedraogo|아산 웨드라오고
+Marc Guiu|마르크 구이우
+Harold Moukoudi|하롤드 무쿠디
+Stavros Pilios|스타브로스 필리오스
+Mijat Gacinovic|미야트 가치노비치
+Luka Jovic|루카 요비치
+Aboubakary Koita|아부바카리 코이타
+Lazaros Rota|라자로스 로타
+Lovro Majer|로브로 마예르
+Razvan Marin|라즈반 마린
+Barnabas Varga|바르나바시 바르가
+Milan Vitalis|밀란 비탈리스
+Filipe Relvas|필리페 헬바스
+Roman Celentano|로만 셀렌타노
+Kevin Denkey|케빈 덴키
+Evander|에반데르
+Sidney Crosby|시드니 크로스비
+Trae Young|트레이 영
+Jalen Johnson|제일런 존슨
+Clint Capela|클린트 카펠라
+Paolo Banchero|파올로 반케로
+Gary Harris|개리 해리스
+LaMelo Ball|라멜로 볼
+Mark Williams|마크 윌리엄스
+Malcolm Brogdon|말콤 브록던
+Scoot Henderson|스쿳 헨더슨
+Rayan Rupert|라얀 루퍼트
+Shaedon Sharpe|셰든 샤르페
+Robert Williams III|로버트 윌리엄스 3세
+Norman Powell|노먼 파웰
+Sam Merrill|샘 메릴
+Evan Mobley|에반 모블리
+Larry Nance Jr.|래리 낸스 주니어
+Max Strus|맥스 스트러스
+Ayo Dosunmu|아요 도순무
+Noa Essengue|노아 에센게
+Brandon Clarke|브랜든 클락
+Zach Edey|잭 이디
+Ty Jerome|타이 제롬
+John Konchar|존 콘차르
+Ja Morant|자 모란트
+Scotty Pippen Jr.|스카티 피펜 주니어
+Cam Spencer|캠 스펜서
+Mike Conley|마이크 콘리
+Anthony Edwards|앤서니 에드워즈
+Giannis Antetokounmpo|야니스 아데토쿤보
+Khris Middleton|크리스 미들턴
+Jose Alvarado|호세 알바라도
+Brandon Ingram|브랜든 잉그램
+Desmond Bane|데스몬드 베인
+Marcus Smart|마커스 스마트
+Vince Williams Jr.|빈스 윌리엄스 주니어
+Jonathan Isaac|조나단 아이작
+Damian Lillard|데미안 릴라드
+Kobe Bufkin|코비 부프킨
+Dejounte Murray|디욘테 머레이
+Deandre Ayton|디안드레 에이튼
+Jerami Grant|제라미 그랜트
+Matisse Thybulle|마티셰 타이불
+Jaden Ivey|제이든 아이비
+Quentin Grimes|쿠엔틴 그라임스
+Rudy Gobert|루디 고베어
+Naz Reid|나즈 리드
+Luka Doncic|루카 돈치치
+Kyrie Irving|카이리 어빙
+Tim Hardaway Jr.|팀 하더웨이 주니어
+Steven Adams|스티븐 아담스
+Jaren Jackson Jr.|자렌 잭슨 주니어
+Luke Kennard|루크 케너드
+Jake LaRavia|제이크 라라비아
+Chris Paul|크리스 폴
+Kyle Anderson|카일 앤더슨
+Jared Vanderbilt|재러드 밴더빌트
+Gabe Vincent|게이브 빈센트
+Ivica Zubac|이비차 주바치
+Walker Kessler|워커 케슬러
+Ben Simmons|벤 시몬스
+Cam Thomas|캠 토마스
+Kristaps Porzingis|크리스탑스 포르징기스
+Bradley Beal|브래들리 빌
+Bogdan Bogdanovic|보그단 보그다노비치
+Derrick Jones Jr.|데릭 존스 주니어
+Jordan Miller|조던 밀러
+Jarrett Allen|재럿 알렌
+Lonzo Ball|론조 볼
+Julius Randle|줄리어스 랜들
+Alex Caruso|알렉스 카루소
+Zach LaVine|잭 라빈
+Terry Rozier|테리 로지어
+Nikola Jokic|니콜라 요키치
+Jamal Murray|자말 머레이
+Aaron Gordon|애런 고든
+Christian Braun|크리스찬 브라운
+Peyton Watson|페이튼 왓슨
+Cameron Johnson|카메론 존슨
+Cam Johnson|카메론 존슨
+DeMar DeRozan|더마 드로잔
+Jonas Valanciunas|요나스 발렌슈나스
+Dante Exum|단테 엑섬
+Derrick Lively II|데릭 라이블리 2세
+Dereck Lively II|데릭 라이블리 2세
+Caleb Martin|케일럽 마틴
+PJ Washington|PJ 워싱턴
+Keldon Johnson|켈든 존슨
+Jeremy Sochan|제레미 소찬
+Michael Porter Jr.|마이클 포터 주니어
+Julian Strawther|훌리안 스트로더
+Ajay Mitchell|아제이 미첼
+Ousmane Dieng|우스만 디엥
+Jaylin Williams|제일린 윌리엄스
+Dillon Brooks|딜런 브룩스
+Jevon Carter|제본 카터
+Tre Jones|트레 존스
+Herbert Jones|허버트 존스
+CJ McCollum|CJ 맥컬럼
+Trey Murphy III|트레이 머피 3세
+Zion Williamson|자이언 윌리엄슨
+Amir Coffey|아미르 코피
+Bam Adebayo|뱀 아데바요
+Devin Booker|데빈 부커
+Kevin Durant|케빈 듀란트
+Stephen Curry|스테픈 커리
+D'Angelo Russell|디안젤로 러셀
+RJ Barrett|RJ 배럿
+Gradey Dick|그래디 딕
+Jakob Poeltl|야콥 포틀
+Immanuel Quickley|이매뉴얼 퀴클리
+Ja'Kobe Walter|자코비 월터
+Nick Richards|닉 리차즈
+Malik Monk|말릭 몽크
+Kawhi Leonard|카와이 레너드
+Russell Westbrook|러셀 웨스트브룩
+Cameron Payne|카메론 페인
+Tyus Jones|타이어스 존스
+Josh Giddey|조시 기디
+Luguentz Dort|루겐츠 도트
+Jusuf Nurkic|유서프 너키치
+Landry Shamet|랜드리 샤멧
+Gary Payton II|게리 페이튼 2세
+Guglielmo Vicario|굴리엘모 비카리오
+Pedro Porro|페드로 포로
+Cristian Romero|크리스티안 로메로
+Micky van de Ven|미키 판더펜
+Destiny Udogie|데스티니 우도기
+Pape Matar Sarr|파페 마타르 사르
+Pape Sarr|파페 사르
+Yves Bissouma|이브 비수마
+Rodrigo Bentancur|로드리고 벤탄쿠르
+Brennan Johnson|브레넌 존슨
+Dominic Solanke|도미닉 솔란케
+Richarlison|히샬리송
+Amad Diallo|아마드 디알로
+Radu Dragusin|라두 드라구신
+Djed Spence|제드 스펜스
+Ben Davies|벤 데이비스
+Archie Gray|아치 그레이
+Lucas Bergvall|루카스 베리발
+Mikey Moore|마이키 무어
+James Maddison|제임스 매디슨
+Dejan Kulusevski|데얀 쿨루셉스키
+Mathys Tel|마티스 텔
+Fraser Forster|프레이저 포스터
+Timo Werner|티모 베르너
+Eberechi Eze|에베레치 에제
+Marc Guehi|마크 게히
+Morten Hjulmand|모르텐 히울만
+Miles Robinson|마일스 로빈슨
+Marco Reus|마르코 로이스
+Thomas Muller|토마스 뮐러
+Hugo Lloris|위고 요리스
+Rodrigo De Paul|로드리고 데 폴
+James Rodriguez|하메스 로드리게스
+Adam Fox|아담 폭스
+Mika Zibanejad|미카 지바네자드
+Vladislav Gavrikov|블라디슬라프 가브리코프
+Roman Josi|로만 요시
+Filip Forsberg|필립 포르스베리
+Ryan O'Reilly|라이언 오라일리
+Steven Stamkos|스티븐 스탬코스
+Juuse Saros|유세 사로스
+Adam Wilsby|애덤 윌즈비
+O. Okongwu|오니에카 오콩우
+Brandon Nimmo|브랜든 니모
+Francisco Lindor|프란시스코 린도어
+Juan Soto|후안 소토
+Pete Alonso|피트 알론소
+Starling Marte|스탈링 마르테
+Jeff McNeil|제프 맥닐
+Mark Vientos|마크 비엔토스
+Cedric Mullins|세드릭 멀린스
+Francisco Alvarez|프란시스코 알바레즈
+Frankie Montas|프랭키 몬타스
+Heliot Ramos|엘리엇 라모스
+Rafael Devers|라파엘 데버스
+Willy Adames|윌리 아다메스
+Matt Chapman|맷 채프먼
+Dominic Smith|도미닉 스미스
+Casey Schmitt|케이시 슈미트
+Patrick Bailey|패트릭 베일리
+Fernando Tatis Jr.|페르난도 타티스 주니어
+Manny Machado|매니 마차도
+Xander Bogaerts|잰더 보가츠
+Jake Cronenworth|제이크 크로넨워스
+Gary Sanchez|게리 산체스
+Trent Grisham|트렌트 그리샴
+Justin Verlander|저스틴 벌랜더
+Brett Baty|브렛 베이티
+Tyrone Taylor|타이론 테일러
+David Peterson|데이비드 피터슨
+Will Smith|윌 스미스
+Michael Conforto|마이클 콘포토
+Luis Torrens|루이스 토렌스
+Jared Young|제러드 영
+Aaron Judge|애런 저지
+Vladimir Guerrero Jr.|블라디미르 게레로 주니어
+Giancarlo Stanton|잔칼로 스탠튼
+Byron Buxton|바이런 벅스턴
+Andres Gimenez|안드레스 히메네즈
+Alejandro Kirk|알레한드로 커크
+Erik Karlsson|에릭 칼손
+Bryan Rust|브라이언 러스트
+Egor Chinakhov|예고르 치나호프
+Clayton Keller|클레이턴 켈러
+Mikhail Sergachev|미하일 세르가체프
+Nick Schmaltz|닉 슈말츠
+MacKenzie Weegar|매켄지 위거
+Lawson Crouse|로슨 크라우스
+Karel Vejmelka|카렐 베이멜카
+Andrei Vasilevskiy|안드레이 바실렙스키
+Sergei Bobrovsky|세르게이 보브롭스키
+`.trim().split('\n').map(row => row.split('|')));
