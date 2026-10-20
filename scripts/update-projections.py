@@ -223,7 +223,9 @@ def scrape_cpbl():
                 return [{'name': row.get('HitterName', ''), 'position': row.get('PositionName', ''), 'flag': ''}
                         for row in team.get('Hitters', []) if row.get('HitterName') and row.get('Lineup')]
             away_players, home_players = hitters(visiting), hitters(home)
-            names = {'home': home.get('TeamName', game.get('HomeTeamName', '')), 'away': visiting.get('TeamName', game.get('VisitingTeamName', ''))}
+            home_team = home.get('Team') or {}
+            away_team = visiting.get('Team') or {}
+            names = {'home': home_team.get('Name', game.get('HomeTeamName', '')), 'away': away_team.get('Name', game.get('VisitingTeamName', ''))}
             if not names['home'] or not names['away']:
                 continue
             time_text = game.get('GameTime') or game.get('StartTime') or '18:35'
