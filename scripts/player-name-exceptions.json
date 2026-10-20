@@ -1,0 +1,35 @@
+{
+  "reviewedAt": "2026-10-21",
+  "policy": "Unverified or conflicting Korean spellings stay in English; exceptions are explicit full identities, never surname rules.",
+  "entries": [
+    {
+      "name": "Smirnov Nikita And.",
+      "status": "keep-English",
+      "reason": "Naver and Korean hockey searches returned English or unrelated names; a Korean athlete name was not established.",
+      "references": [
+        "https://search.naver.com/search.naver?query=Nikita%20Smirnov%20Sibir",
+        "https://m.aiscore.com/ko/ice-hockey/match-sibir-novosibirsk-neftekhimik-nizhnekamsk/o07dvb8d6m1hm7n"
+      ]
+    },
+    {
+      "name": "Chmelevski Alexander",
+      "status": "keep-English",
+      "reason": "Existing Korean sources disagree: 멜렙스키 versus 체멜레브스키; no established Korean sports article or official Korean spelling verified.",
+      "references": [
+        "https://www.flashscore.co.kr/player/chmelevski-alexander/hAA3edOS/",
+        "https://search.naver.com/search.naver?query=Alexander%20Chmelevski",
+        "https://www.nhl.com/sharks/news/sharks-sign-forward-alexander-chmelevski-297616522"
+      ]
+    },
+    {
+      "name": "Sutter Riley",
+      "status": "keep-English",
+      "reason": "Korean profile says 릴리 수터, but this is inconsistent with the athlete identity Riley Sutter. Naver and Korean sports searches did not confirm an established alternative.",
+      "references": [
+        "https://www.flashscore.co.kr/player/sutter-riley/vsFk041l/",
+        "https://search.naver.com/search.naver?query=Riley%20Sutter",
+        "https://www.nhl.com/player/riley-sutter-8480791/stats"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3612 @@
+{
+  "reviewedAt": "2026-10-21",
+  "scope": "All previously untranslated names found by executing every current site league, lineup and injury renderer for today and tomorrow. Sources are internal review metadata, never rendered in the public UI.",
+  "entries": [
+    {
+      "name": "Jun Ichimori",
+      "korean": "이치모리 준",
+      "source": "https://www.flashscore.co.kr/player/ichimori-jun/GI2mKyvt/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shota Fukuoka",
+      "korean": "후쿠오카 쇼타",
+      "source": "https://www.flashscore.co.kr/player/fukuoka-shota/OrvjsmOO/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shinnosuke Nakatani",
+      "korean": "나카타니 신노스케",
+      "source": "https://www.flashscore.co.kr/player/nakatani-shinnosuke/dYRKGgc2/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shinya Nakano",
+      "korean": "나카노 신야",
+      "source": "https://www.flashscore.co.kr/player/nakano-shinya/KOM8fK8p/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takeru Kishimoto",
+      "korean": "기시모토 다케루",
+      "source": "https://www.flashscore.co.kr/player/kishimoto-takeru/h41KLCgp/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Rin Mito",
+      "korean": "미토 린",
+      "source": "https://www.flashscore.co.kr/player/mito-rin/tWeeHCCo/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shuto Abe",
+      "korean": "아베 슈토",
+      "source": "https://www.flashscore.co.kr/player/abe-shuto/Gzr3zsID/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yusei Toshida",
+      "korean": "도시다 유세이",
+      "source": "https://www.flashscore.co.kr/player/toshida-yusei/nHj5HYTk/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuma Obata",
+      "korean": "오바타 유마",
+      "source": "https://www.flashscore.co.kr/player/obata-yuma/0n0OevZ1/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Masaya Tashiro",
+      "korean": "타시로 마사야",
+      "source": "https://www.flashscore.co.kr/player/tashiro-masaya/6ZBllkoB/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuma Tsujioka",
+      "korean": "쓰지오카 유마",
+      "source": "https://www.flashscore.co.kr/player/tsujioka-yuma/nVwVss4A/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Teppei Oka",
+      "korean": "오카 테페이",
+      "source": "https://www.flashscore.co.kr/player/oka-teppei/Krg5HFaS/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Tomoya Miki",
+      "korean": "미키 도모야",
+      "source": "https://www.flashscore.co.kr/player/miki-tomoya/htyTaRci/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Keiya Shiihashi",
+      "korean": "시하시 게이야",
+      "source": "https://www.flashscore.co.kr/player/shiihashi-keiya/CxbWaIym/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yota Maejima",
+      "korean": "마에지마 요타",
+      "source": "https://www.flashscore.co.kr/player/maejima-yota/YHHDVLln/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Masato Yuzawa",
+      "korean": "유자와 마사토",
+      "source": "https://www.flashscore.co.kr/player/yuzawa-masato/jT2ryehG/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shu Morooka",
+      "korean": "모로오카 슈",
+      "source": "https://www.flashscore.co.kr/player/morooka-shu/xWA8OaC3/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Masato Shigemi",
+      "korean": "시게미 마사토",
+      "source": "https://www.flashscore.co.kr/player/shigemi-masato/dYW1bzfr/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kenta Itakura",
+      "korean": "이타쿠라 켄타",
+      "source": "https://www.flashscore.co.kr/player/itakura-kenta/IeqGfDmp/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yasuki Kimoto",
+      "korean": "기모토 야스키",
+      "source": "https://www.flashscore.co.kr/player/kimoto-yasuki/4b1VwlEE/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Koshi Osaki",
+      "korean": "오사키 고시",
+      "source": "https://www.flashscore.co.kr/player/osaki-koshi/IRqD6bib/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takumi Mase",
+      "korean": "마세 다쿠미",
+      "source": "https://www.flashscore.co.kr/player/mase-takumi/GtrS0era/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yu Funabashi",
+      "korean": "후나바시 유",
+      "source": "https://www.flashscore.co.kr/player/funabashi-yu/vNyZJQB8/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kaito Taniguchi",
+      "korean": "다니구치 가이토",
+      "source": "https://www.flashscore.co.kr/player/taniguchi-kaito/t6IEKU2l/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Chihiro Kato",
+      "korean": "가토 치히로",
+      "source": "https://www.flashscore.co.kr/player/kato-chihiro/SxAGPRMG/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yugo Tatsuta",
+      "korean": "다츠타 유고",
+      "source": "https://www.flashscore.co.kr/player/tatsuta-yugo/tvyFFKuR/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yoshitake Suzuki",
+      "korean": "스즈키 요시타케",
+      "source": "https://www.flashscore.co.kr/player/suzuki-yoshitake/vNWmnqPL/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Soichiro Mori",
+      "korean": "모리 소이치로",
+      "source": "https://www.flashscore.co.kr/player/soichiro-mori/Y7iA6S9d/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Oberdan",
+      "korean": "오베르단",
+      "source": "https://www.flashscore.co.kr/player/oberdan/tQVYYDjK/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Eiji Miyamoto",
+      "korean": "미야모토 에이지",
+      "source": "https://www.flashscore.co.kr/player/miyamoto-eiji/WpbBugnb/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Towa Yamane",
+      "korean": "야마네 도와",
+      "source": "https://www.flashscore.co.kr/player/yamane-towa/Y7jSPRR3/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kosuke Shirai",
+      "korean": "시라이 고스케",
+      "source": "https://www.flashscore.co.kr/player/shirai-kosuke/YJfHl4pa/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Tomoya Wakahara",
+      "korean": "와카하라 토모야",
+      "source": "https://www.flashscore.co.kr/player/wakahara-tomoya/bgvLKLPa/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Taiyo Koga",
+      "korean": "코가 타이요",
+      "source": "https://www.flashscore.co.kr/player/koga-taiyo/MwrXqvUh/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Daiki Sugioka",
+      "korean": "스기오카 다이키",
+      "source": "https://www.flashscore.co.kr/player/sugioka-daiki/GSJrgJyG/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Sachiro Toshima",
+      "korean": "도시마 사치로",
+      "source": "https://www.flashscore.co.kr/player/toshima-sachiro/pnxZZhoN/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Nobuteru Nakagawa",
+      "korean": "나카가와 노부테루",
+      "source": "https://www.flashscore.co.kr/player/nakagawa-nobuteru/xIg1lVAM/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yudai Konishi",
+      "korean": "고니시 유다이",
+      "source": "https://www.flashscore.co.kr/player/konishi-yudai/UeHeemft/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Keita Endo",
+      "korean": "엔도 게이타",
+      "source": "https://www.flashscore.co.kr/player/endo-keita/ngaPJ0w1/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shota Fujio",
+      "korean": "후지오 쇼타",
+      "source": "https://www.flashscore.co.kr/player/fujio-shota/0tqIgZ8E/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Hinata Yamauchi",
+      "korean": "히나타 야마우치",
+      "source": "https://www.flashscore.co.kr/player/hinata-yamauchi/pzNj7AI0/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yoshio Koizumi",
+      "korean": "코이즈미 요시오",
+      "source": "https://www.flashscore.co.kr/player/koizumi-yoshio/fcNjRm4h/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Hayato Inamura",
+      "korean": "이나무라 하야토",
+      "source": "https://www.flashscore.co.kr/player/inamura-hayato/hARvxzYg/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kashifu Bangunagande",
+      "korean": "반구나간데 카시푸",
+      "source": "https://www.flashscore.co.kr/player/bangunagande-kashifu/6yu8E6k5/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Motoki Nagakura",
+      "korean": "나가쿠라 모토키",
+      "source": "https://www.flashscore.co.kr/player/nagakura-motoki/Wln2UVxD/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takahiro Koh",
+      "korean": "고 다카히로",
+      "source": "https://www.flashscore.co.kr/player/koh-takahiro/Cnmw6VIj/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shuto Nagano",
+      "korean": "나가노 슈토",
+      "source": "https://www.flashscore.co.kr/player/nagano-shuto/2aL80Yc8/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Marcelo Ryan",
+      "korean": "마르셀루 라이언",
+      "source": "https://www.flashscore.co.kr/player/marcelo-ryan/fDHl6ap2/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kota Tawaratsumida",
+      "korean": "타와라츠미다 고타",
+      "source": "https://www.flashscore.co.kr/player/tawaratsumida-kota/lIUwocI4/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Soma Anzai",
+      "korean": "안자이 소마",
+      "source": "https://www.flashscore.co.kr/player/anzai-soma/rNfUxITr/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shuichi Gonda",
+      "korean": "곤다 슈이치",
+      "source": "https://www.flashscore.co.kr/player/gonda-shuichi/4GZS8kqF/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Tetsushi Yamakawa",
+      "korean": "야마가와 데츠시",
+      "source": "https://www.flashscore.co.kr/player/yamakawa-tetsushi/OEECyHGh/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Diego",
+      "korean": "디에고",
+      "source": "https://www.flashscore.co.kr/player/diego/MmRtdva7/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Gotoku Sakai",
+      "korean": "사카이 고토쿠",
+      "source": "https://www.flashscore.co.kr/player/sakai-gotoku/Ieya9BE2/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuya Kuwasaki",
+      "korean": "구와사키 유야",
+      "source": "https://www.flashscore.co.kr/player/kuwasaki-yuya/v9IbshHG/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Erik",
+      "korean": "에릭",
+      "source": "https://www.flashscore.co.kr/player/erik/2oZobOMu/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yosuke Ideguchi",
+      "korean": "이데구치 요스케",
+      "source": "https://www.flashscore.co.kr/player/ideguchi-yosuke/l23WMZLJ/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuya Osako",
+      "korean": "오사코 유야",
+      "source": "https://www.flashscore.co.kr/player/osako-yuya/OYzftLLu/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Katsuya Nagato",
+      "korean": "나가토 가츠야",
+      "source": "https://www.flashscore.co.kr/player/nagato-katsuya/SW0AgYx7/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yoshinori Muto",
+      "korean": "무토 요시노리",
+      "source": "https://www.flashscore.co.kr/player/muto-yoshinori/8bbTIqDq/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Pedro Romano",
+      "korean": "페드로 로마노",
+      "source": "https://www.flashscore.co.kr/player/pedro-romano/QuyDxLZf/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Sota Miura",
+      "korean": "미우라 소타",
+      "source": "https://www.flashscore.co.kr/player/miura-sota/G6VNRC0H/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Asahi Sasaki",
+      "korean": "사사키 아사히",
+      "source": "https://www.flashscore.co.kr/player/sasaki-asahi/0QTTljGC/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuki Yamamoto",
+      "korean": "야마모토 유키",
+      "source": "https://www.flashscore.co.kr/player/yamamoto-yuki/ChQbP9Ng/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kento Tachibanada",
+      "korean": "다치바나다 겐토",
+      "source": "https://www.flashscore.co.kr/player/tachibanada-kento/tlDN6Nj3/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Marcinho",
+      "korean": "마르치뉴",
+      "source": "https://www.flashscore.co.kr/player/marcinho/Umiqe0mn/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Tatsuya Ito",
+      "korean": "이토 다츠야",
+      "source": "https://www.flashscore.co.kr/player/ito-tatsuya/EkMrawol/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Tomoki Hayakawa",
+      "korean": "하야가와 도모키",
+      "source": "https://www.flashscore.co.kr/player/hayakawa-tomoki/j7riesZ7/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Naomichi Ueda",
+      "korean": "우에다 나오미치",
+      "source": "https://www.flashscore.co.kr/player/ueda-naomichi/re0ioyuT/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Sho Omori",
+      "korean": "오모리 쇼",
+      "source": "https://www.flashscore.co.kr/player/omori-sho/82u5FrBf/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Keisuke Tsukui",
+      "korean": "츠쿠이 게이스케",
+      "source": "https://www.flashscore.co.kr/player/tsukui-keisuke/fB38uhme/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Matheus Bueno",
+      "korean": "마테우스 부에노",
+      "source": "https://www.flashscore.co.kr/player/matheus-bueno/jqR08VnU/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Gaku Shibasaki",
+      "korean": "시바사키 가쿠",
+      "source": "https://www.flashscore.co.kr/player/shibasaki-gaku/Yig5dQDe/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Élber",
+      "korean": "엘베르",
+      "source": "https://www.flashscore.co.kr/player/elber/hQjkLsOs/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Halls",
+      "korean": "홀스",
+      "source": "https://www.flashscore.co.kr/player/halls/f5heQzuH/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yoshinori Suzuki",
+      "korean": "스즈키 요시노리",
+      "source": "https://www.flashscore.co.kr/player/suzuki-yoshinori/G8PNZ1mk/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kodai Nagata",
+      "korean": "나가타 고다이",
+      "source": "https://www.flashscore.co.kr/player/nagata-kodai/SzKDvhv3/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yusuke Ishida",
+      "korean": "이시다 유스케",
+      "source": "https://www.flashscore.co.kr/player/ishida-yusuke/OjR4YAoP/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takaaki Shichi",
+      "korean": "시치 다카아키",
+      "source": "https://www.flashscore.co.kr/player/shichi-takaaki/ALVROJNu/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kyo Sato",
+      "korean": "사토 교",
+      "source": "https://www.flashscore.co.kr/player/sato-kyo/ngY45L69/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takumi Kato",
+      "korean": "가토 다쿠미",
+      "source": "https://www.flashscore.co.kr/player/kato-takumi/tbAd8fET/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Haruki Arai",
+      "korean": "아라이 하루키",
+      "source": "https://www.flashscore.co.kr/player/arai-haruki/GEuvsIIU/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Ryuma Nakano",
+      "korean": "나카노 류마",
+      "source": "https://www.flashscore.co.kr/player/nakano-ryuma/b51SvQmD/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kosuke Nakamura",
+      "korean": "나카무라 고스케",
+      "source": "https://www.flashscore.co.kr/player/nakamura-kosuke/W2gAnweA/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Travis Takahashi",
+      "korean": "다카하시 트래비스",
+      "source": "https://www.flashscore.co.kr/player/takahashi-travis/nJ1eGhFU/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Rikito Inoue",
+      "korean": "이노우에 리키토",
+      "source": "https://www.flashscore.co.kr/player/inoue-rikito/I9hJmtqd/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shunta Tanaka",
+      "korean": "다나카 슌타",
+      "source": "https://www.flashscore.co.kr/player/tanaka-shunta/fVxtoo6b/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Ayumu Ohata",
+      "korean": "오하타 아유무",
+      "source": "https://www.flashscore.co.kr/player/ohata-ayumu/fwzNXsdM/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Hayato Okuda",
+      "korean": "오쿠다 하야토",
+      "source": "https://www.flashscore.co.kr/player/okuda-hayato/Ee6elGkD/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yota Komi",
+      "korean": "고미 요타",
+      "source": "https://www.flashscore.co.kr/player/komi-yota/6kXjN933/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Haruya Fujii",
+      "korean": "후지이 하루야",
+      "source": "https://www.flashscore.co.kr/player/fujii-haruya/GzIwlvOh/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Tomoki Takamine",
+      "korean": "다카미네 도모키",
+      "source": "https://www.flashscore.co.kr/player/takamine-tomoki/Wn8VA940/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Teruki Hara",
+      "korean": "하라 데루키",
+      "source": "https://www.flashscore.co.kr/player/hara-teruki/EodlFepK/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Tsukasa Morishima",
+      "korean": "모리시마 츠카사",
+      "source": "https://www.flashscore.co.kr/player/morishima-tsukasa/OtHMcwwm/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Sho Inagaki",
+      "korean": "이나가키 쇼",
+      "source": "https://www.flashscore.co.kr/player/inagaki-sho/hMI5ilKQ/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Ryuji Izumi",
+      "korean": "이즈미 류지",
+      "source": "https://www.flashscore.co.kr/player/izumi-ryuji/Ee15y9WD/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takuya Uchida",
+      "korean": "우치다 다쿠야",
+      "source": "https://www.flashscore.co.kr/player/uchida-takuya/MspCpWmH/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kensuke Nagai",
+      "korean": "나가이 겐스케",
+      "source": "https://www.flashscore.co.kr/player/nagai-kensuke/M3JYi2kr/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yudai Kimura",
+      "korean": "기무라 유다이",
+      "source": "https://www.flashscore.co.kr/player/kimura-yudai/0zoCUMn2/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuki Nogami",
+      "korean": "노가미 유키",
+      "source": "https://www.flashscore.co.kr/player/nogami-yuki/ATsZJ1RT/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kosei Tani",
+      "korean": "다니 고세이",
+      "source": "https://www.flashscore.co.kr/player/tani-kosei/EBqHJ83f/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Daihachi Okamura",
+      "korean": "오카무라 다이하치",
+      "source": "https://www.flashscore.co.kr/player/okamura-daihachi/EgeBLWjo/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Gen Shoji",
+      "korean": "쇼지 겐",
+      "source": "https://www.flashscore.co.kr/player/shoji-gen/YRdkuA9S/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Hiroyuki Mae",
+      "korean": "마에 히로유키",
+      "source": "https://www.flashscore.co.kr/player/hiroyuki-mae/zkOsuSHN/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takahiro Akimoto",
+      "korean": "아키모토 다카히로",
+      "source": "https://www.flashscore.co.kr/player/akimoto-takahiro/OQCYWjRJ/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Henry Mochizuki",
+      "korean": "모치즈키 헨리",
+      "source": "https://www.flashscore.co.kr/player/mochizuki-henry/U5eJc1lj/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuki Soma",
+      "korean": "소마 유키",
+      "source": "https://www.flashscore.co.kr/player/soma-yuki/ImC4kgFM/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Koki Ogawa",
+      "korean": "오가와 고키",
+      "source": "https://www.flashscore.co.kr/player/ogawa-koki/0xFkEenH/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Togo Umeda",
+      "korean": "우메다 토고",
+      "source": "https://www.flashscore.co.kr/player/umeda-togo/phetRbep/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuki Honda",
+      "korean": "혼다 유키",
+      "source": "https://www.flashscore.co.kr/player/honda-yuki/AHobUSYB/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Sodai Hasukawa",
+      "korean": "하스카와 소다이",
+      "source": "https://www.flashscore.co.kr/player/hasukawa-sodai/0dn3lAkl/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Hidehiro Sugai",
+      "korean": "스가이 히데히로",
+      "source": "https://www.flashscore.co.kr/player/sugai-hidehiro/lG3wURuU/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Masaki Yumiba",
+      "korean": "유미바 마사키",
+      "source": "https://www.flashscore.co.kr/player/yumiba-masaki/djl04ncC/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kai Matsuzaki",
+      "korean": "마츠자키 카이",
+      "source": "https://www.flashscore.co.kr/player/matsuzaki-kai/QPnzAFAM/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kei Koizumi",
+      "korean": "고이즈미 케이",
+      "source": "https://www.flashscore.co.kr/player/koizumi-kei/E9Kqkmb9/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kenta Inoue",
+      "korean": "이노우에 겐타",
+      "source": "https://www.flashscore.co.kr/player/inoue-kenta/ph1VM0Pc/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Ryo Germain",
+      "korean": "제르맹 료",
+      "source": "https://www.flashscore.co.kr/player/germain-ryo/rFH5vHWi/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Keisuke Osako",
+      "korean": "오사코 게이스케",
+      "source": "https://www.flashscore.co.kr/player/osako-keisuke/lj1TfyEN/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Hayato Araki",
+      "korean": "아라키 하야토",
+      "source": "https://www.flashscore.co.kr/player/araki-hayato/OhH0vWqn/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shunki Higashi",
+      "korean": "히가시 슌키",
+      "source": "https://www.flashscore.co.kr/player/higashi-shunki/4EZAATvH/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shuto Nakano",
+      "korean": "나카노 슈토",
+      "source": "https://www.flashscore.co.kr/player/nakano-shuto/nozTiQDq/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yotaro Nakajima",
+      "korean": "나카지마 요타로",
+      "source": "https://www.flashscore.co.kr/player/nakajima-yotaro/UiSH4veB/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Hayao Kawabe",
+      "korean": "가와베 하야오",
+      "source": "https://www.flashscore.co.kr/player/kawabe-hayao/2sRX1w7g/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Daiki Suga",
+      "korean": "스가 다이키",
+      "source": "https://www.flashscore.co.kr/player/suga-daiki/hrtAeMR0/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Naoto Arai",
+      "korean": "아라이 나오토",
+      "source": "https://www.flashscore.co.kr/player/arai-naoto/dtYvErFI/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shun Ayukawa",
+      "korean": "아유가와 슌",
+      "source": "https://www.flashscore.co.kr/player/ayukawa-shun/UaoSznYD/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Akito Suzuki",
+      "korean": "스즈키 아키토",
+      "source": "https://www.flashscore.co.kr/player/suzuki-akito/v7mrKZwg/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Masaaki Goto",
+      "korean": "고토 마사아키",
+      "source": "https://www.flashscore.co.kr/player/goto-masaaki/SjRXLP3t/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Ikki Arai",
+      "korean": "아라이 이키",
+      "source": "https://www.flashscore.co.kr/player/arai-ikki/63PlCK9b/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kanta Doi",
+      "korean": "도이 간타",
+      "source": "https://www.flashscore.co.kr/player/doi-kanta/Y3y21gqi/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takuma Ominami",
+      "korean": "오미나미 다쿠마",
+      "source": "https://www.flashscore.co.kr/player/ominami-takuma/xdHE0Ub1/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Motoki Hasegawa",
+      "korean": "하세가와 모토키",
+      "source": "https://www.flashscore.co.kr/player/hasegawa-motoki/6aPobL4Q/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Hotaru Yamaguchi",
+      "korean": "야마구치 호타루",
+      "source": "https://www.flashscore.co.kr/player/yamaguchi-hotaru/fZS9KY5a/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shunya Yoneda",
+      "korean": "요네다 슌야",
+      "source": "https://www.flashscore.co.kr/player/yoneda-shunya/SQuFbAWm/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Asahi Masuyama",
+      "korean": "마스야마 아사히",
+      "source": "https://www.flashscore.co.kr/player/masuyama-asahi/xKZkImz9/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Tenmu Matsumoto",
+      "korean": "마츠모토 텐무",
+      "source": "https://www.flashscore.co.kr/player/matsumoto-tenmu/IPpDnfRB/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Matheus Jesus",
+      "korean": "마테우스 제주스",
+      "source": "https://www.flashscore.co.kr/player/matheus-jesus/QiA1xmop/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Naoki Hayashi",
+      "korean": "하야시 나오키",
+      "source": "https://www.flashscore.co.kr/player/hayashi-naoki/CGqmdNJ1/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuta Arai",
+      "korean": "아라이 유타",
+      "source": "https://www.flashscore.co.kr/player/arai-yuta/YsE854lO/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kaito Suzuki",
+      "korean": "스즈키 가이토",
+      "source": "https://www.flashscore.co.kr/player/suzuki-kaito/b3k7HjAt/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kosuke Saito",
+      "korean": "사이토 고스케",
+      "source": "https://www.flashscore.co.kr/player/saito-kosuke/0EQoQHIN/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kai Shibato",
+      "korean": "시바토 카이",
+      "source": "https://www.flashscore.co.kr/player/shibato-kai/UJD5UW8p/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuya Fukuda",
+      "korean": "후쿠다 유야",
+      "source": "https://www.flashscore.co.kr/player/fukuda-yuya/0Oem2bLO/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kanya Fujimoto",
+      "korean": "후지모토 간야",
+      "source": "https://www.flashscore.co.kr/player/fujimoto-kanya/bimIUO0s/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Itsuki Someno",
+      "korean": "소메노 이츠키",
+      "source": "https://www.flashscore.co.kr/player/someno-itsuki/YFgEhlc8/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kosei Suwama",
+      "korean": "수와마 고세이",
+      "source": "https://www.flashscore.co.kr/player/suwama-kosei/vuR4ksP2/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takuto Kimura",
+      "korean": "기무라 다쿠토",
+      "source": "https://www.flashscore.co.kr/player/kimura-takuto/EPRkre2N/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Jun Amano",
+      "korean": "아마노 준",
+      "source": "https://www.flashscore.co.kr/player/amano-jun/t0MoA6X2/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kosuke Matsumura",
+      "korean": "마츠무라 고스케",
+      "source": "https://www.flashscore.co.kr/player/matsumura-kosuke/Sl9w6n22/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Riku Yamane",
+      "korean": "야마네 리쿠",
+      "source": "https://www.flashscore.co.kr/player/yamane-riku/lpgBvoy8/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kaina Tanimura",
+      "korean": "타니무라 카이나",
+      "source": "https://www.flashscore.co.kr/player/tanimura-kaina/nojtqShj/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Ryo Miyaichi",
+      "korean": "미야이치 료",
+      "source": "https://www.flashscore.co.kr/player/miyaichi-ryo/KpaoC3c1/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Tomoki Kondo",
+      "korean": "곤도 도모키",
+      "source": "https://www.flashscore.co.kr/player/kondo-tomoki/zurjYIX2/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Daisuke Suzuki",
+      "korean": "스즈키 다이스케",
+      "source": "https://www.flashscore.co.kr/player/suzuki-daisuke/GKJRUiI2/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Masaru Hidaka",
+      "korean": "히다카 마사루",
+      "source": "https://www.flashscore.co.kr/player/hidaka-masaru/WpxtQDnB/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Rikuto Ishio",
+      "korean": "이시오 리쿠토",
+      "source": "https://www.flashscore.co.kr/player/ishio-rikuto/jRI2xQE4/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takuya Yasui",
+      "korean": "야스이 다쿠야",
+      "source": "https://www.flashscore.co.kr/player/yasui-takuya/hECeLcdC/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takumi Tsukui",
+      "korean": "츠쿠이 다쿠미",
+      "source": "https://www.flashscore.co.kr/player/tsukui-takumi/C2jqPGEo/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Naohiro Sugiyama",
+      "korean": "스기야마 나오히로",
+      "source": "https://www.flashscore.co.kr/player/sugiyama-naohiro/W4dZmVRE/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Ken Yamura",
+      "korean": "야무라 켄",
+      "source": "https://www.flashscore.co.kr/player/yamura-ken/UDz1X5Ft/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Erison",
+      "korean": "에리손",
+      "source": "https://www.flashscore.co.kr/player/erison/GANn7AeA/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Shusaku Nishikawa",
+      "korean": "니시카와 슈사쿠",
+      "source": "https://www.flashscore.co.kr/player/nishikawa-shusaku/08SN98M6/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kota Kudo",
+      "korean": "구도 고타",
+      "source": "https://www.flashscore.co.kr/player/kudo-kota/rmhmtz0A/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kotaro Hayashi",
+      "korean": "하야시 고타로",
+      "source": "https://www.flashscore.co.kr/player/hayashi-kotaro/WhlD6sUn/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Miki Yamane",
+      "korean": "야마네 미키",
+      "source": "https://www.flashscore.co.kr/player/yamane-miki/44ryjdb8/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yuta Miyamoto",
+      "korean": "미야모토 유타",
+      "source": "https://www.flashscore.co.kr/player/miyamoto-yuta/nF1ccKKP/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Tatsuki Seko",
+      "korean": "세코 다츠키",
+      "source": "https://www.flashscore.co.kr/player/seko-tatsuki/ltH96Kx0/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kaito Yasui",
+      "korean": "야스이 가이토",
+      "source": "https://www.flashscore.co.kr/player/yasui-kaito/S8qQhvTt/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Hiiro Komori",
+      "korean": "코모리 히이로",
+      "source": "https://www.flashscore.co.kr/player/komori-hiiro/zPT4uL6r/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Matheus Sávio",
+      "korean": "마테우스 사비우",
+      "source": "https://www.flashscore.co.kr/player/matheus-savio/ARthlsr5/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Takuro Kaneko",
+      "korean": "가네코 다쿠로",
+      "source": "https://www.flashscore.co.kr/player/kaneko-takuro/IFpdseGH/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Ataru Esaka",
+      "korean": "에사카 아타루",
+      "source": "https://namu.moe/w/에사카 아타루",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Daniel Schmidt",
+      "korean": "슈미트 다니엘",
+      "source": "https://namu.moe/w/슈미트 다니엘",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Ikuma Sekigawa",
+      "korean": "세키가와 이쿠마",
+      "source": "https://namu.moe/w/세키가와 이쿠마",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Maaya Sako",
+      "korean": "사코 마아야",
+      "source": "https://www.wikidata.org/wiki/Q105258343",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Na Sang-Ho",
+      "korean": "나상호",
+      "source": "https://www.flashscore.co.kr/player/na-sang-ho/2Blk98sh/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Kim Seung-Gyu",
+      "korean": "김승규",
+      "source": "https://www.flashscore.co.kr/player/kim-seung-gyu/xh6I9nD4/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Oh Se-Hun",
+      "korean": "오세훈",
+      "source": "https://www.flashscore.co.kr/player/oh-se-hun/KG8pROGL/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Hyun-Woo Kim",
+      "korean": "김현우",
+      "source": "https://www.flashscore.co.kr/player/kim-hyun-woo/4UdzLKk7/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Il-Kyu Park",
+      "korean": "박일규",
+      "source": "https://www.flashscore.co.kr/player/park-il-kyu/hbKdNBwb/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Yoon Sung-Jun",
+      "korean": "윤성준",
+      "source": "https://www.flashscore.co.kr/player/yoon-sung-jun/UkX34zGs/",
+      "method": "Reviewed Korean roster"
+    },
+    {
+      "name": "Harry Amass",
+      "korean": "해리 아마스",
+      "source": "https://www.flashscore.co.kr/player/amass-harry/zD1gVf2L/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Carlos Baleba",
+      "korean": "카를로스 발레바",
+      "source": "https://www.flashscore.co.kr/player/baleba-carlos/UwTdoLQl/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Yan Couto",
+      "korean": "얀 쿠토",
+      "source": "https://www.flashscore.co.kr/player/couto-yan/fVyb9zlg/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Mattia Liberali",
+      "korean": "마티아 리베랄리",
+      "source": "https://www.flashscore.co.kr/player/liberali-mattia/jPkQ5QDP/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Leny Yoro",
+      "korean": "레니 요로",
+      "source": "https://www.flashscore.co.kr/player/yoro-leny/hSGFyXra/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Tom Heaton",
+      "korean": "톰 히튼",
+      "source": "https://www.flashscore.co.kr/player/heaton-tom/MoaXS53r/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kobbie Mainoo",
+      "korean": "코비 마이누",
+      "source": "https://www.flashscore.co.kr/player/mainoo-kobbie/nBy3DbC3/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Lisandro Martinez",
+      "korean": "리산드로 마르티네스",
+      "source": "https://www.flashscore.co.kr/player/martinez-lisandro/GIzJAqQs/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Manuel Ugarte",
+      "korean": "마누엘 우가르테",
+      "source": "https://www.flashscore.co.kr/player/ugarte-manuel/IksYqIr8/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Jesus Rodriguez",
+      "korean": "헤수스 로드리게스",
+      "source": "https://www.flashscore.co.kr/player/rodriguez-jesus/v7LsBMfn/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Trevoh Chalobah",
+      "korean": "트레보 찰로바",
+      "source": "https://www.flashscore.co.kr/player/chalobah-trevoh/2N61AJte/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Assane Diao",
+      "korean": "아산 디아오",
+      "source": "https://www.flashscore.co.kr/player/diao-assane/rZziaoTk/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Moise Kean",
+      "korean": "모이스 킨",
+      "source": "https://www.flashscore.co.kr/player/kean-moise/QPclX9Uq/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Eren Elmali",
+      "korean": "에렌 엘말르",
+      "source": "https://www.flashscore.co.kr/player/elmali-eren/OObz6ieb/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Davinson Sanchez",
+      "korean": "다빈손 산체스",
+      "source": "https://www.flashscore.co.kr/player/sanchez-davinson/dbPhv0VQ/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Yunus Akgun",
+      "korean": "유누스 아크귄",
+      "source": "https://www.flashscore.co.kr/player/akgun-yunus/GMMnzfim/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ngal'ayel Mukau",
+      "korean": "응갈라옐 무카우",
+      "source": "https://www.flashscore.co.kr/player/mukau-ngal-ayel/2Nyle1h2/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Rafael Leao",
+      "korean": "하파엘 레앙",
+      "source": "https://www.flashscore.co.kr/player/leao-rafael/AqOPWN5s/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kristoffer Haugen",
+      "korean": "크리스토퍼 하우겐",
+      "source": "https://www.flashscore.co.kr/player/haugen-kristoffer/dK6C8l3M/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Henrik Falchener",
+      "korean": "헨리크 팔케네르",
+      "source": "https://www.flashscore.co.kr/player/falchener-henrik/69zBkYnS/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Erik Botheim",
+      "korean": "에릭 보테임",
+      "source": "https://www.flashscore.co.kr/player/botheim-erik/vLP0leRk/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Taylor Harwood-Bellis",
+      "korean": "테일러 하우드-벨리스",
+      "source": "https://www.flashscore.co.kr/player/harwood-bellis-taylor/2J6t1Fdl/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ross Barkley",
+      "korean": "로스 바클리",
+      "source": "https://www.flashscore.co.kr/player/barkley-ross/Stsozgbg/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ibrahim Mbaye",
+      "korean": "이브라힘 음바예",
+      "source": "https://www.flashscore.co.kr/player/mbaye-ibrahim/nkxtcGo7/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Emiliano Buendia",
+      "korean": "에밀리아노 부엔디아",
+      "source": "https://www.flashscore.co.kr/player/buendia-emiliano/dYDvGYIu/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "John McGinn",
+      "korean": "존 맥긴",
+      "source": "https://www.flashscore.co.kr/player/mcginn-john/rgGnzD2e/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Brian Madjo",
+      "korean": "브라이언 마디오",
+      "source": "https://www.flashscore.co.kr/player/madjo-brian/UwsMiPon/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "George Hemmings",
+      "korean": "조지 헤밍스",
+      "source": "https://www.flashscore.co.kr/player/hemmings-george/h468RYvs/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ian Maatsen",
+      "korean": "이안 마트센",
+      "source": "https://www.flashscore.co.kr/player/maatsen-ian/nPiZrgf3/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Johan Manzambi",
+      "korean": "요한 만잠비",
+      "source": "https://www.flashscore.co.kr/player/manzambi-johan/pIqmcnKc/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Amadou Onana",
+      "korean": "아마두 오나나",
+      "source": "https://www.flashscore.co.kr/player/onana-amadou/roId3gPf/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Matteo Ruggeri",
+      "korean": "마테오 루게리",
+      "source": "https://www.flashscore.co.kr/player/ruggeri-matteo/0WPEP3LT/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ezri Konsa",
+      "korean": "에즈리 콘사",
+      "source": "https://www.flashscore.co.kr/player/konsa-ezri/4CQLQWTa/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Lennart Karl",
+      "korean": "레나르트 카를",
+      "source": "https://www.flashscore.co.kr/player/lennart-karl/t0q0DalG/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Robin Risser",
+      "korean": "로빈 리서",
+      "source": "https://www.flashscore.co.kr/player/risser-robin/zHRwZwXF/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Jean-Clair Todibo",
+      "korean": "장-클레르 토디보",
+      "source": "https://www.flashscore.co.kr/player/todibo-jean-clair/E10MWYEe/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Matthieu Udol",
+      "korean": "마티유 우돌",
+      "source": "https://www.flashscore.co.kr/player/udol-matthieu/AuzyopRB/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Amadou Haidara",
+      "korean": "아마두 하이다라",
+      "source": "https://www.flashscore.co.kr/player/haidara-amadou/lYg9oNUk/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Saud Abdulhamid",
+      "korean": "사우드 압둘하미드",
+      "source": "https://www.flashscore.co.kr/player/abdulhamid-saud/OOentN4R/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Franjo Ivanovic",
+      "korean": "프라뇨 이바노비치",
+      "source": "https://www.flashscore.co.kr/player/ivanovic-franjo/ldJFtfPD/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Joaquin Seys",
+      "korean": "호아킨 세이스",
+      "source": "https://www.flashscore.co.kr/player/seys-joaquin/vyuc4aCs/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kyriani Sabbe",
+      "korean": "키리아니 사베",
+      "source": "https://www.flashscore.co.kr/player/sabbe-kyriani/nglFvLgf/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Freddie Potts",
+      "korean": "프레디 포츠",
+      "source": "https://www.flashscore.co.kr/player/potts-freddie/t2knkPDI/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Hans Vanaken",
+      "korean": "한스 바나켄",
+      "source": "https://www.flashscore.co.kr/player/vanaken-hans/0Cu4qHps/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Jan Virgili",
+      "korean": "얀 비르길리",
+      "source": "https://www.flashscore.co.kr/player/virgili-jan/UH5fAvIb/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Hugo Vetlesen",
+      "korean": "휴고 베틀레센",
+      "source": "https://www.flashscore.co.kr/player/vetlesen-hugo/nD7QjiB8/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Nicolo Tresoldi",
+      "korean": "니콜로 트레솔디",
+      "source": "https://www.flashscore.co.kr/player/tresoldi-nicolo/nuJC7uWq/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Jonathan Gradit",
+      "korean": "조나단 그라딧",
+      "source": "https://www.flashscore.co.kr/player/gradit-jonathan/dtKPzgw3/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Dmytro Riznyk",
+      "korean": "드미트로 리즈닉",
+      "source": "https://www.flashscore.co.kr/player/riznyk-dmytro/b3DGuTi6/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Valeriy Bondar",
+      "korean": "발레리 본다르",
+      "source": "https://www.flashscore.co.kr/player/bondar-valeriy/ryVmfT5l/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Pedrinho",
+      "korean": "페드리뉴",
+      "source": "https://www.flashscore.co.kr/player/pedrinho/QHsZiZRo/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Vinícius Tobias",
+      "korean": "비니시우스 토비아스",
+      "source": "https://www.flashscore.co.kr/player/tobias-vinicius/jwqe53om/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Josep Martínez",
+      "korean": "요셉 마르티네스",
+      "source": "https://www.flashscore.co.kr/player/martinez-josep/n5XVsSqd/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Piotr Zielinski",
+      "korean": "피오트르 지엘린스키",
+      "source": "https://www.flashscore.co.kr/player/zielinski-piotr/dlFNZSvb/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Andy Diouf",
+      "korean": "앤디 디우프",
+      "source": "https://www.flashscore.co.kr/player/diouf-andy/IiBJCs82/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Mika Marmol",
+      "korean": "미카 마르몰",
+      "source": "https://www.flashscore.co.kr/player/marmol-mika/Cz3awDFR/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Givairo Read",
+      "korean": "지바이로 리드",
+      "source": "https://www.flashscore.co.kr/player/read-givairo/OCO1xQ7o/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Charles Vanhoutte",
+      "korean": "샤를 반후트",
+      "source": "https://www.flashscore.co.kr/player/vanhoutte-charles/CzsxDvTM/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Oussama Targhalline",
+      "korean": "오사마 타르갈린",
+      "source": "https://www.flashscore.co.kr/player/targhalline-oussama/ULZGhzIc/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Anis Hadj Moussa",
+      "korean": "아니스 하지 무사",
+      "source": "https://www.flashscore.co.kr/player/moussa-anis-hadj/0vqEKboE/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Valentin Gomez",
+      "korean": "발렌틴 고메스",
+      "source": "https://www.flashscore.co.kr/player/gomez-valentin/faBFjCzE/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Angel Ortiz",
+      "korean": "앙헬 오르티즈",
+      "source": "https://www.flashscore.co.kr/player/ortiz-angel/Yk0XqSak/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Troy Parrott",
+      "korean": "트로이 패롯",
+      "source": "https://www.flashscore.co.kr/player/parrott-troy/K6H9Uptn/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Jordan Bos",
+      "korean": "조르단 보스",
+      "source": "https://www.flashscore.co.kr/player/bos-jordan/fZFBMyjl/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Gijs Smal",
+      "korean": "기스 스말",
+      "source": "https://www.flashscore.co.kr/player/smal-gijs/MaJpEDJl/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Shaqueel van Persie",
+      "korean": "샤킬 반 페르시",
+      "source": "https://www.flashscore.co.kr/player/van-persie-shaqueel/2eZTlkEf/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Junior Firpo",
+      "korean": "주니오르 피르포",
+      "source": "https://www.flashscore.co.kr/player/junior-firpo/hhe17rb7/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Castello Lukeba",
+      "korean": "카스텔로 루케바",
+      "source": "https://www.flashscore.co.kr/player/lukeba-castello/6X0C61vo/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Alvaro Carreras",
+      "korean": "알바로 카레라스",
+      "source": "https://www.flashscore.co.kr/player/carreras-alvaro/ALGEzlma/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Denzel Dumfries",
+      "korean": "덴젤 둠프라이스",
+      "source": "https://www.flashscore.co.kr/player/dumfries-denzel/QR0j1ejk/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Yan Diomande",
+      "korean": "얀 디오만데",
+      "source": "https://www.flashscore.co.kr/player/diomande-yan/0p2ORrJi/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Christoph Baumgartner",
+      "korean": "크리스토프 바움가르트너",
+      "source": "https://www.flashscore.co.kr/player/baumgartner-christoph/rqcu4a9O/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Raul Asencio",
+      "korean": "라울 아센시오",
+      "source": "https://www.flashscore.co.kr/player/asencio-raul/rPco96rl/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Lukas Jungwirth",
+      "korean": "루카스 융비르트",
+      "source": "https://www.flashscore.co.kr/player/jungwirth-lukas/Uge8hnYd/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Alemao",
+      "korean": "알레망",
+      "source": "https://www.flashscore.co.kr/player/alemao/ljVRztTj/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Melayro Bogarde",
+      "korean": "멜라이로 보가드",
+      "source": "https://www.flashscore.co.kr/player/bogarde-melayro/0K5btK3O/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Robert Ljubicic",
+      "korean": "로버트 류비치치",
+      "source": "https://www.flashscore.co.kr/player/ljubicic-robert/G6UJp4Tt/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Christoph Lang",
+      "korean": "크리스토프 랭",
+      "source": "https://www.flashscore.co.kr/player/lang-christoph/bitwfvj4/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Eduardo Quaresma",
+      "korean": "에두아르두 콰레스마",
+      "source": "https://www.flashscore.co.kr/player/quaresma-eduardo/8n2p27U9/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ivan Fresneda",
+      "korean": "이반 프레스네다",
+      "source": "https://www.flashscore.co.kr/player/fresneda-ivan/vaFVDD6r/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Sergi Altimira",
+      "korean": "세르기 알티미라",
+      "source": "https://www.flashscore.co.kr/player/altimira-sergi/4rf7A6PR/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Issa Doumbia",
+      "korean": "이사 둠비아",
+      "source": "https://www.flashscore.co.kr/player/doumbia-issa/dfIWSyf9/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Luis Suarez",
+      "korean": "루이스 수아레스",
+      "source": "https://www.flashscore.co.kr/player/suarez-luis/fV4fAvB8/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "George Bello",
+      "korean": "조지 벨로",
+      "source": "https://www.flashscore.co.kr/player/bello-george/Gj8HtefG/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Nuno Santos",
+      "korean": "누누 산토스",
+      "source": "https://www.flashscore.co.kr/player/santos-nuno/MXvyQkT6/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Rodrigo Zalazar",
+      "korean": "로드리고 살라사르",
+      "source": "https://www.flashscore.co.kr/player/zalazar-rodrigo/viSZFJO9/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Yuri Berchiche",
+      "korean": "유리 베르치체",
+      "source": "https://www.flashscore.co.kr/player/berchiche-yuri/OCA7UnaC/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Jesus Areso",
+      "korean": "헤수스 아레소",
+      "source": "https://www.flashscore.co.kr/player/areso-jesus/rPdVeI18/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Mikel Jauregizar",
+      "korean": "미켈 하우레기자르",
+      "source": "https://www.flashscore.co.kr/player/jauregizar-mikel/hOdEyz15/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Peio Canales",
+      "korean": "페이오 카날레스",
+      "source": "https://www.flashscore.co.kr/player/canales-peio/UT7uuofA/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Robert Navarro",
+      "korean": "로베르트 나바로",
+      "source": "https://www.flashscore.co.kr/player/navarro-robert/6k2jV1mo/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Mathew Ryan",
+      "korean": "매튜 라이언",
+      "source": "https://www.flashscore.co.kr/player/ryan-mathew/YBLvziIh/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Aissa Mandi",
+      "korean": "아이사 만디",
+      "source": "https://www.flashscore.co.kr/player/mandi-aissa/0hxFjbCm/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Jeremy Toljan",
+      "korean": "예레미 톨얀",
+      "source": "https://www.flashscore.co.kr/player/toljan-jeremy/IsGWKIMq/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Oriol Rey",
+      "korean": "오리올 레이",
+      "source": "https://www.flashscore.co.kr/player/rey-oriol/xhJNiaWc/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ivan Romero",
+      "korean": "이반 로메로",
+      "source": "https://www.flashscore.co.kr/player/romero-ivan/lbxUqXq3/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Victor Garcia",
+      "korean": "빅토르 가르시아",
+      "source": "https://www.flashscore.co.kr/player/garcia-victor/SQi6oCZp/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Petar Ratkov",
+      "korean": "페타르 라트코프",
+      "source": "https://www.flashscore.co.kr/player/ratkov-petar/A5KiWQQ9/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Alvaro Djalo",
+      "korean": "알바로 잘로",
+      "source": "https://www.flashscore.co.kr/player/djalo-alvaro/hxVl8TRJ/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Hugo Sotelo",
+      "korean": "우고 소텔로",
+      "source": "https://www.flashscore.co.kr/player/sotelo-hugo/tGJYwtjh/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Sean Johnson",
+      "korean": "션 존슨",
+      "source": "https://www.flashscore.co.kr/player/johnson-sean/bRSLQpm3/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Silvan Hefti",
+      "korean": "실반 헤프티",
+      "source": "https://www.flashscore.co.kr/player/hefti-silvan/bPpZBqLi/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Andre Dozzell",
+      "korean": "안드레 도즐",
+      "source": "https://www.flashscore.co.kr/player/dozzell-andre/beNIHWrt/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Brandon Servania",
+      "korean": "브랜든 세르바니아",
+      "source": "https://www.flashscore.co.kr/player/servania-brandon/GY24D9os/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Jackson Hopkins",
+      "korean": "잭슨 홉킨스",
+      "source": "https://www.flashscore.co.kr/player/hopkins-jackson/U9y2jka5/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Tai Baribo",
+      "korean": "타이 바리보",
+      "source": "https://www.flashscore.co.kr/player/baribo-tai/259hPT4F/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kyle Smith",
+      "korean": "카일 스미스",
+      "source": "https://www.flashscore.co.kr/player/smith-kyle/0Mh1aQx6/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Andrei Chirila",
+      "korean": "안드레이 치릴라",
+      "source": "https://www.flashscore.co.kr/player/chirila-andrei/txNy2iCa/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ender Echenique",
+      "korean": "엔데르 에체니케",
+      "source": "https://www.flashscore.co.kr/player/echenique-ender/CQUcPrgO/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ayoub Jabbari",
+      "korean": "아윱 자바리",
+      "source": "https://www.flashscore.co.kr/player/jabbari-ayoub/n3wgTbH2/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Julian Malatini",
+      "korean": "훌리안 말라티니",
+      "source": "https://www.flashscore.co.kr/player/malatini-julian/hG2tW3OE/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Dolganov Filipp",
+      "korean": "필립 돌가노프",
+      "source": "https://www.flashscore.co.kr/player/dolganov-filipp/ddjNlv54/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Nadvorny Matvei",
+      "korean": "마트베이 나드보르니",
+      "source": "https://www.flashscore.co.kr/player/nadvorny-matvei/dWjqrGGm/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Pastukhov Ilya",
+      "korean": "일랴 파스투코프",
+      "source": "https://www.flashscore.co.kr/player/pastukhov-ilya/b5pNmMDa/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Serikov Artyom",
+      "korean": "아르툠 세리코프",
+      "source": "https://www.flashscore.co.kr/player/serikov-artyom/n3CxYLYn/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Tyanulin Artur",
+      "korean": "아르투르 탸눌린",
+      "source": "https://www.flashscore.co.kr/player/tyanulin-artur/lSECDCUj/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Bereglazov Alexei",
+      "korean": "알렉세이 베레글라조프",
+      "source": "https://www.flashscore.co.kr/player/bereglazov-alexei/2k3POxW4/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Yelesin Alexander",
+      "korean": "알렉산더 옐레신",
+      "source": "https://www.flashscore.co.kr/player/yelesin-alexander/G8BzgKr3/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kayumov Artur",
+      "korean": "아르투르 카유모프",
+      "source": "https://www.flashscore.co.kr/player/kayumov-artur/rZDTwS0q/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Melnichuk Alexei",
+      "korean": "알렉세이 멜니추크",
+      "source": "https://www.flashscore.co.kr/player/melnichuk-alexei/2N0ml45n/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Shalunov Maxim",
+      "korean": "막심 샬루노프",
+      "source": "https://www.flashscore.co.kr/player/shalunov-maxim/YgqC4SE8/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Dietz Darren",
+      "korean": "대런 디에츠",
+      "source": "https://www.flashscore.co.kr/player/dietz-darren/86zNEpFh/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Korshkov Yegor",
+      "korean": "예고르 코르시코프",
+      "source": "https://www.flashscore.co.kr/player/korshkov-yegor/MFwQXfFI/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Koshelev Semyon",
+      "korean": "세묜 코셀레프",
+      "source": "https://www.flashscore.co.kr/player/koshelev-semyon/vsNCUOX0/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Krasotkin Anton",
+      "korean": "안톤 크라소트킨",
+      "source": "https://www.flashscore.co.kr/player/krasotkin-anton/zgYVIElc/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Nekolenko Arkhip",
+      "korean": "아르킵 네콜렌코",
+      "source": "https://www.flashscore.co.kr/player/nekolenko-arkhip/8vz3NbFe/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Merkley Nick",
+      "korean": "닉 머클리",
+      "source": "https://www.flashscore.co.kr/player/merkley-nick/rFecRPfO/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Motorygin Maxim",
+      "korean": "막심 모토리긴",
+      "source": "https://www.flashscore.co.kr/player/motorygin-maxim/hYtIZmON/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ozhiganov Igor",
+      "korean": "이고르 오지가노프",
+      "source": "https://www.flashscore.co.kr/player/ozhiganov-igor/tKbyOkuB/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Pylenkov Daniil",
+      "korean": "다닐 필렌코프",
+      "source": "https://www.flashscore.co.kr/player/pylenkov-daniil/xWoVFBET/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Shafigullin Bulat",
+      "korean": "불라트 샤피굴린",
+      "source": "https://www.flashscore.co.kr/player/shafigullin-bulat/OnnFYSIc/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Shen Pavel",
+      "korean": "파벨 쉔",
+      "source": "https://www.flashscore.co.kr/player/shen-pavel/d42naqwt/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Vorobyov Kirill",
+      "korean": "키릴 보로뵤프",
+      "source": "https://www.flashscore.co.kr/player/vorobyov-kirill/W0RIMEc7/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Karpukhin Ilya",
+      "korean": "일랴 카르푸킨",
+      "source": "https://www.flashscore.co.kr/player/karpukhin-ilya/GjOEakUO/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ruzicka Adam",
+      "korean": "아담 루지치카",
+      "source": "https://www.flashscore.co.kr/player/ruzicka-adam/MH2vOacU/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Slepyshev Anton",
+      "korean": "안톤 슬레피셰프",
+      "source": "https://www.flashscore.co.kr/player/slepyshev-anton/bmN6niM5/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Miromanov Daniil",
+      "korean": "다닐 미로마노프",
+      "source": "https://www.flashscore.co.kr/player/miromanov-daniil/4pCjj2JQ/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Savikov Yegor",
+      "korean": "예고르 사비코프",
+      "source": "https://www.flashscore.co.kr/player/savikov-yegor/ptShcQ1G/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Goldobin Nikolai",
+      "korean": "니콜라이 골도빈",
+      "source": "https://www.flashscore.co.kr/player/goldobin-nikolai/hIWX1SBp/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Plotnikov Sergei",
+      "korean": "세르게이 플로트니코프",
+      "source": "https://www.flashscore.co.kr/player/plotnikov-sergei/ljq1HE1c/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Bailey Justin",
+      "korean": "저스틴 베일리",
+      "source": "https://www.flashscore.co.kr/player/bailey-justin/ra7bylK0/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Day Logan",
+      "korean": "로건 데이",
+      "source": "https://www.flashscore.co.kr/player/day-logan/EqLx0c1L/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Omirbekov Alikhan",
+      "korean": "알리칸 오미르베코프",
+      "source": "https://www.flashscore.co.kr/player/omirbekov-alikhan/hK5zXkgC/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Pilon Garrett",
+      "korean": "개릿 필론",
+      "source": "https://www.flashscore.co.kr/player/pilon-garrett/Q7z749Sp/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Shutov Andrei A.",
+      "korean": "안드레이 슈토프",
+      "source": "https://www.flashscore.co.kr/player/shutov-andrei/2e1Rja3h/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Boyarkin Nikita",
+      "korean": "니키타 보야르킨",
+      "source": "https://www.flashscore.co.kr/player/boyarkin-nikita/jNZYMaT8/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kroshchinsky Fyodor",
+      "korean": "표도르 크로시친스키",
+      "source": "https://www.flashscore.co.kr/player/kroshchinsky-fyodor/S6Px98gs/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Muranov Ivan",
+      "korean": "이반 무라노프",
+      "source": "https://www.flashscore.co.kr/player/muranov-ivan/QRtMzoSm/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Usmanov Daniel",
+      "korean": "다니엘 우스마노프",
+      "source": "https://www.flashscore.co.kr/player/usmanov-daniel/xMSSTomt/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Chezganov Yegor",
+      "korean": "예고르 체즈가노프",
+      "source": "https://www.flashscore.co.kr/player/chezganov-yegor/63gAqy9e/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Sulak Libor",
+      "korean": "리보르 슐라크",
+      "source": "https://www.flashscore.co.kr/player/sulak-libor/8YxhGpAi/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Brosseau Devin",
+      "korean": "데빈 브로슈",
+      "source": "https://www.flashscore.co.kr/player/brosseau-devin/Q5pN6ykF/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Zorkin Nikita",
+      "korean": "니키타 조르킨",
+      "source": "https://www.flashscore.co.kr/player/zorkin-nikita/n5mKHjD0/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Rempal Sheldon",
+      "korean": "셸던 렘팔",
+      "source": "https://www.flashscore.co.kr/player/rempal-sheldon/fqpNpxPu/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Vovchenko Daniil",
+      "korean": "다닐 봅첸코",
+      "source": "https://www.flashscore.co.kr/player/vovchenko-daniil/YLJvZx2f/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Siryatsky Alexander",
+      "korean": "알렉산더 시랴츠키",
+      "source": "https://www.flashscore.co.kr/player/siryatsky-alexander/A7om74Nr/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Smolin Alexander S.",
+      "korean": "알렉산데르 스몰린",
+      "source": "https://www.flashscore.co.kr/player/smolin-alexander/Au1bTcq9/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Todd Nathan",
+      "korean": "네이선 토드",
+      "source": "https://www.flashscore.co.kr/player/todd-nathan/Gzrdsx3d/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Geraskin Igor",
+      "korean": "이고르 게라스킨",
+      "source": "https://www.flashscore.co.kr/player/geraskin-igor/bwbHLnCa/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kraskovsky Pavel",
+      "korean": "파벨 크라스콥스키",
+      "source": "https://www.flashscore.co.kr/player/kraskovsky-pavel/2iWFFbf3/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Sizov Anton",
+      "korean": "안톤 시조프",
+      "source": "https://www.flashscore.co.kr/player/sizov-anton/SvBpPD7q/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Firstov Vladislav",
+      "korean": "블라디슬라프 피르스토프",
+      "source": "https://www.flashscore.co.kr/player/firstov-vladislav/rqymZcoP/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Bilyalov Timur",
+      "korean": "티무르 빌랼로프",
+      "source": "https://www.flashscore.co.kr/player/bilyalov-timur/00kaGqFn/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Lyamkin Nikita",
+      "korean": "니키타 럄킨",
+      "source": "https://www.flashscore.co.kr/player/lyamkin-nikita/vHwoWzGD/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Semyonov Kirill E.",
+      "korean": "키릴 세묘노프",
+      "source": "https://www.flashscore.co.kr/player/semyonov-kirill/27AYqGN1/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Yakupov Ravil",
+      "korean": "라빌 야쿠포프",
+      "source": "https://www.flashscore.co.kr/player/yakupov-ravil/nJqj0FHI/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Menell Brennan",
+      "korean": "브레넌 메넬",
+      "source": "https://www.flashscore.co.kr/player/menell-brennan/vwofDkib/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Miftakhov Amir",
+      "korean": "아미르 미프타코프",
+      "source": "https://www.flashscore.co.kr/player/miftakhov-amir/hMfDEqOH/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Murray Brett",
+      "korean": "브렛 머레이",
+      "source": "https://www.flashscore.co.kr/player/murray-brett/AeSeoZjH/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Solovyov Yegor S.",
+      "korean": "예고르 솔로뵤프",
+      "source": "https://www.flashscore.co.kr/player/solovyov-yegor/SQY9Vv5d/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Cicek Nick",
+      "korean": "닉 시첵",
+      "source": "https://www.flashscore.co.kr/player/cicek-nick/lfmnJHAs/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Veryayev Danil",
+      "korean": "다닐 베라예프",
+      "source": "https://www.flashscore.co.kr/player/veryayev-danil/dzHASMRc/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Gregoire Thomas",
+      "korean": "토마스 그레고이어",
+      "source": "https://www.flashscore.co.kr/player/gregoire-thomas/AiUi0aLR/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Dumbadze David",
+      "korean": "다비드 둠바제",
+      "source": "https://www.flashscore.co.kr/player/dumbadze-david/fwge99lg/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Podshivalov Ivan",
+      "korean": "이반 포드쉬발로프",
+      "source": "https://www.flashscore.co.kr/player/podshivalov-ivan/MJcshRcQ/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Samoilov Alexander",
+      "korean": "알렉산더 사모일로프",
+      "source": "https://www.flashscore.co.kr/player/samoilov-alexander/EwYMwjHn/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Guryanov Denis",
+      "korean": "데니스 구랴노프",
+      "source": "https://www.flashscore.co.kr/player/guryanov-denis/hUADxe9o/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Drozdov Ivan",
+      "korean": "이반 드로즈도프",
+      "source": "https://www.flashscore.co.kr/player/drozdov-ivan/t2NyU1jA/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Zamula Yegor",
+      "korean": "예고르 자물라",
+      "source": "https://www.flashscore.co.kr/player/zamula-yegor/EF7YAYrG/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kovalenko Nikolai",
+      "korean": "니콜라이 코발렌코",
+      "source": "https://www.flashscore.co.kr/player/kovalenko-nikolai/KnqWx6R9/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Nesterov Nikita D.",
+      "korean": "니키타 네스테로프",
+      "source": "https://www.flashscore.co.kr/player/nesterov-nikita/WrpgCYxs/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Samonov Alexander",
+      "korean": "알렉산더 사모노프",
+      "source": "https://www.flashscore.co.kr/player/samonov-alexander/MugUBgOi/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Zagidulin Artyom",
+      "korean": "아르툠 자기둘린",
+      "source": "https://www.flashscore.co.kr/player/zagidulin-artyom/vubONVTJ/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Jaros Christian",
+      "korean": "크리스티안 야로스",
+      "source": "https://www.flashscore.co.kr/player/jaros-christian/jH4sRdX8/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Orlov Daniil R.",
+      "korean": "다닐 오를로프",
+      "source": "https://www.flashscore.co.kr/player/orlov-daniil/Aewp2btF/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Filin Yegor",
+      "korean": "예고르 필린",
+      "source": "https://www.flashscore.co.kr/player/filin-yegor/fyj4dQ7c/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Maltsev Mikhail G.",
+      "korean": "미하일 말체프",
+      "source": "https://www.flashscore.co.kr/player/maltsev-mikhail/fBt0ZJgO/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Adamchuk Kirill",
+      "korean": "키릴 아담추크",
+      "source": "https://www.flashscore.co.kr/player/adamchuk-kirill/fDPmxh6s/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Afanasyev Yegor Y.",
+      "korean": "예고르 아파나시예프",
+      "source": "https://www.flashscore.co.kr/player/afanasyev-yegor/h4N6Mpbh/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "McLeod Michael",
+      "korean": "마이클 맥레오드",
+      "source": "https://www.flashscore.co.kr/player/mcleod-michael/KIsrsvf8/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Okulov Konstantin",
+      "korean": "콘스탄틴 오쿨로프",
+      "source": "https://www.flashscore.co.kr/player/okulov-konstantin/2DHIhEk9/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Serebryakov Nikita",
+      "korean": "니키타 세레브랴코프",
+      "source": "https://www.flashscore.co.kr/player/serebryakov-nikita/CKI3JfsI/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Cecconi Joseph",
+      "korean": "조셉 세코니",
+      "source": "https://www.flashscore.co.kr/player/cecconi-joseph/OCudsxtd/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Aleksey Batrakov",
+      "korean": "알렉세이 바트라코프",
+      "source": "https://www.google.com/search?q=Aleksey%20Batrakov",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Hamza Igamane",
+      "korean": "함자 이가마네",
+      "source": "https://www.google.com/search?q=Hamza%20Igamane",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Arild Ostbo",
+      "korean": "아릴드 외스트뵈",
+      "source": "https://www.google.com/search?q=Arild%20Ostbo",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Gianni Stensness",
+      "korean": "지안니 스텐스네스",
+      "source": "https://www.google.com/search?q=Gianni%20Stensness",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Henrik Bjordal",
+      "korean": "헨리크 비요르달",
+      "source": "https://www.google.com/search?q=Henrik%20Bjordal",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Peter Christiansen",
+      "korean": "피터 크리스티안센",
+      "source": "https://www.google.com/search?q=Peter%20Christiansen",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Lamare Bogarde",
+      "korean": "라마레 보가드",
+      "source": "https://www.google.com/search?q=Lamare%20Bogarde",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Modou Keba Cisse",
+      "korean": "모두 케바 시세",
+      "source": "https://www.google.com/search?q=Modou%20Keba%20Cisse",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Tarek Buchmann",
+      "korean": "타렉 부흐만",
+      "source": "https://www.google.com/search?q=Tarek%20Buchmann",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Mickael Cuisance",
+      "korean": "미카엘 퀴장스",
+      "source": "https://www.google.com/search?q=Mickael%20Cuisance",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Junior Kadile",
+      "korean": "주니어 카딜",
+      "source": "https://www.google.com/search?q=Junior%20Kadile",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Brandon Mechele",
+      "korean": "브랜던 메헬러",
+      "source": "https://www.google.com/search?q=Brandon%20Mechele",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Abdallah Dipo Sima",
+      "korean": "압달라 디포 시마",
+      "source": "https://www.google.com/search?q=Abdallah%20Dipo%20Sima",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Mykola Matviyenko",
+      "korean": "미콜라 마트비옌코",
+      "source": "https://www.google.com/search?q=Mykola%20Matviyenko",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Oleh Ocheretko",
+      "korean": "올레 오쉐레트코",
+      "source": "https://www.google.com/search?q=Oleh%20Ocheretko",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Marlon Gomes",
+      "korean": "말론 고메스",
+      "source": "https://www.google.com/search?q=Marlon%20Gomes",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Alisson Santana",
+      "korean": "알리송 산타나",
+      "source": "https://www.google.com/search?q=Alisson%20Santana",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Yann Bisseck",
+      "korean": "얀 아우렐 비세크",
+      "source": "https://www.google.com/search?q=Yann%20Bisseck",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Jeremiah St. Juste",
+      "korean": "예레미아 세인트 유스테",
+      "source": "https://www.google.com/search?q=Jeremiah%20St.%20Juste",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Thomas Beelen",
+      "korean": "토마스 베일런",
+      "source": "https://www.google.com/search?q=Thomas%20Beelen",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Jakub Moder",
+      "korean": "야쿠프 모데르",
+      "source": "https://www.google.com/search?q=Jakub%20Moder",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Bart Nieuwkoop",
+      "korean": "바르트 뉴쿱",
+      "source": "https://www.google.com/search?q=Bart%20Nieuwkoop",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Aitor Ruibal",
+      "korean": "아이토르 루이발",
+      "source": "https://www.google.com/search?q=Aitor%20Ruibal",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Ridle Baku",
+      "korean": "리들레 바쿠",
+      "source": "https://www.google.com/search?q=Ridle%20Baku",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Xavier Mbuyamba",
+      "korean": "자비에르 음부얌바",
+      "source": "https://www.google.com/search?q=Xavier%20Mbuyamba",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Andres Andrade Cedeno",
+      "korean": "안드레스 안드라데",
+      "source": "https://www.google.com/search?q=Andres%20Andrade%20Cedeno",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Yvan Dibango",
+      "korean": "이반 디방고",
+      "source": "https://www.google.com/search?q=Yvan%20Dibango",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Kasper Jorgensen",
+      "korean": "카스퍼 요르겐센",
+      "source": "https://www.google.com/search?q=Kasper%20Jorgensen",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Maxi Araujo",
+      "korean": "막시밀리아노 아라우호",
+      "source": "https://www.google.com/search?q=Maxi%20Araujo",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Goncalo Inacio",
+      "korean": "곤살루 이나시우",
+      "source": "https://www.google.com/search?q=Goncalo%20Inacio",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Nestory Irankunda",
+      "korean": "네스토리 이란쿤다",
+      "source": "https://www.google.com/search?q=Nestory%20Irankunda",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Flavio Goncalves",
+      "korean": "플라비오 곤살베스",
+      "source": "https://www.google.com/search?q=Flavio%20Goncalves",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Geny",
+      "korean": "제니 키프리아노 카타모",
+      "source": "https://www.google.com/search?q=Geny%20Catamo",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Moses Usor",
+      "korean": "모지스 우소르",
+      "source": "https://www.google.com/search?q=Moses%20Usor",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Zeno Koen Debast",
+      "korean": "제노 데바스트",
+      "source": "https://www.google.com/search?q=Zeno%20Koen%20Debast",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Ruiz de Galarreta",
+      "korean": "이니고 루이스 데 갈라레타",
+      "source": "https://www.google.com/search?q=Ruiz%20de%20Galarreta",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Manu Sanchez",
+      "korean": "마누엘 산체스 데 라 페냐",
+      "source": "https://www.google.com/search?q=Manu%20Sanchez%20Levante",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Jon Ander Olasagasti",
+      "korean": "욘 앤더 올라사가스티",
+      "source": "https://www.google.com/search?q=Jon%20Ander%20Olasagasti",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Karl Etta",
+      "korean": "에타 에용",
+      "source": "https://www.google.com/search?q=Karl%20Etta",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Alejandro Primo",
+      "korean": "알레한드로 프리모",
+      "source": "https://www.google.com/search?q=Alejandro%20Primo",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Martin Baturina",
+      "korean": "마르틴 바투리나",
+      "source": "https://www.google.com/search?q=Martin%20Baturina",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Benjamin Sesko",
+      "korean": "벤자민 셰슈코",
+      "source": "https://www.google.com/search?q=Benjamin%20Sesko",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Benjamin Andre",
+      "korean": "벵자맹 안드레",
+      "source": "https://www.google.com/search?q=Benjamin%20Andre",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Romain Perraud",
+      "korean": "로맹 페라우",
+      "source": "https://www.google.com/search?q=Romain%20Perraud",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Tiago Santos",
+      "korean": "티아구 산토스",
+      "source": "https://www.google.com/search?q=Tiago%20Santos",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Pierre Ganiou",
+      "korean": "이스마엘로 가니우",
+      "source": "https://www.google.com/search?q=Pierre%20Ganiou",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Adrian de la Fuente",
+      "korean": "아드리안 데 라 푸엔테",
+      "source": "https://www.google.com/search?q=Adrian%20de%20la%20Fuente",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Nacho Ferri",
+      "korean": "나초 페리",
+      "source": "https://www.google.com/search?q=Nacho%20Ferri",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Aymeric Laporte",
+      "korean": "에므리크 라포르트",
+      "source": "https://www.google.com/search?q=Aymeric%20Laporte",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Matty Cash",
+      "korean": "매티 캐시",
+      "source": "https://www.google.com/search?q=Matty%20Cash",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Aaron Wan-Bissaka",
+      "korean": "에런 완비사카",
+      "source": "https://www.google.com/search?q=Aaron%20Wan-Bissaka",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Reiss Nelson",
+      "korean": "리스 넬슨",
+      "source": "https://www.google.com/search?q=Reiss%20Nelson",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Sasa Kalajdzic",
+      "korean": "사샤 칼라이지치",
+      "source": "https://www.google.com/search?q=Sasa%20Kalajdzic",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Kye Rowles",
+      "korean": "카이 롤스",
+      "source": "https://www.google.com/search?q=Kye%20Rowles",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Keisuke Kurokawa",
+      "korean": "구로카와 게이스케",
+      "source": "https://www.google.com/search?q=Keisuke%20Kurokawa",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Kimito Nono",
+      "korean": "노노 기미토",
+      "source": "https://www.google.com/search?q=Kimito%20Nono",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Nick Hagglund",
+      "korean": "닉 해글런드",
+      "source": "https://www.google.com/search?q=Nick%20Hagglund",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Pavel Bucha",
+      "korean": "파벨 부하",
+      "source": "https://www.google.com/search?q=Pavel%20Bucha",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Obinna Nwobodo",
+      "korean": "오비나 누보도",
+      "source": "https://www.google.com/search?q=Obinna%20Nwobodo",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Issam Jebali",
+      "korean": "이삼 제발리",
+      "source": "https://www.google.com/search?q=Issam%20Jebali",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Ryoya Yamashita",
+      "korean": "야마시타 료야",
+      "source": "https://www.google.com/search?q=Ryoya%20Yamashita",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Werik",
+      "korean": "웨리크 포포",
+      "source": "https://www.google.com/search?q=Werik",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Jakub Slowik",
+      "korean": "야쿱 스워빅",
+      "source": "https://www.google.com/search?q=Jakub%20Slowik",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Taishi Senba",
+      "korean": "센바 다이시",
+      "source": "https://www.google.com/search?q=Taishi%20Senba",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Hayata Yamamoto",
+      "korean": "야마모토 하야타",
+      "source": "https://www.google.com/search?q=Hayata%20Yamamoto",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Lennart Moser",
+      "korean": "렌나르트 모저",
+      "source": "https://www.google.com/search?q=Lennart%20Moser",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Tojiro Kubo",
+      "korean": "구보 도지로",
+      "source": "https://www.google.com/search?q=Tojiro%20Kubo",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Alexander Scholz",
+      "korean": "알렉산데르 숄츠",
+      "source": "https://www.google.com/search?q=Alexander%20Scholz",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Hirokazu Ishikara",
+      "korean": "이시하라 히로카즈",
+      "source": "https://www.google.com/search?q=Hirokazu%20Ishikara",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Thuler",
+      "korean": "마테우스 툴레르",
+      "source": "https://www.google.com/search?q=Thuler",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Svend Brodersen",
+      "korean": "스벤 브로데르센",
+      "source": "https://www.google.com/search?q=Svend%20Brodersen",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Filip Uremovic",
+      "korean": "필리프 우레모비치",
+      "source": "https://www.google.com/search?q=Filip%20Uremovic",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Haruki Hayashi",
+      "korean": "하야시 하루키",
+      "source": "https://www.google.com/search?q=Haruki%20Hayashi",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Aleksandar Cavric",
+      "korean": "알렉산다르 차브리치",
+      "source": "https://www.google.com/search?q=Aleksandar%20Cavric",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Léo Pereira",
+      "korean": "레오 페레이라",
+      "source": "https://www.google.com/search?q=L%C3%A9o%20Pereira",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Hiroto Morooka",
+      "korean": "모로오카 히로토",
+      "source": "https://www.google.com/search?q=Hiroto%20Morooka",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Dion Cools",
+      "korean": "디온 쿨스",
+      "source": "https://www.google.com/search?q=Dion%20Cools",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Jackson Irvine",
+      "korean": "잭슨 어빈",
+      "source": "https://www.google.com/search?q=Jackson%20Irvine",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Pablo Sabbag",
+      "korean": "파블로 사바그",
+      "source": "https://www.google.com/search?q=Pablo%20Sabbag",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Thomas Ouwejan",
+      "korean": "토마스 오웨안",
+      "source": "https://www.google.com/search?q=Thomas%20Ouwejan",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Neta Lavi",
+      "korean": "네타 라비",
+      "source": "https://www.google.com/search?q=Neta%20Lavi",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Tete Yengi",
+      "korean": "테테 옝기",
+      "source": "https://www.google.com/search?q=Tete%20Yengi",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Sébastien Haller",
+      "korean": "세바스티앵 알레",
+      "source": "https://www.google.com/search?q=S%C3%A9bastien%20Haller",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Matheus Vidotto",
+      "korean": "마테우스 칼데이라 비도토",
+      "source": "https://www.google.com/search?q=Matheus%20Vidotto",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Pustovoi Andrei",
+      "korean": "안드레이 푸스토보이",
+      "source": "https://www.flashscore.co.kr/player/pustovoy-andrei/AX8IQisS/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Alikin Evgeny",
+      "korean": "예브게니 알리킨",
+      "source": "https://www.flashscore.co.kr/player/alikin-yevgeni/4dSw3JDR/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Kadeikin Alexander",
+      "korean": "알렉산더 카데이킨",
+      "source": "https://www.flashscore.co.kr/player/kadeykin-alexander/6oYYj7eP/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Pleshkov Artemy",
+      "korean": "아르테미 플레슈코프",
+      "source": "https://www.flashscore.co.kr/player/pleshkov-artemi/fynwn6Sg/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Korotky Matvei",
+      "korean": "마트베이 코로트키",
+      "source": "https://www.flashscore.co.kr/player/korotkiy-matvei/MHwFLGW6/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Vyazovoi Semyon",
+      "korean": "세묜 뱌조보이",
+      "source": "https://www.flashscore.co.kr/player/vyazovoy-semyon/YoBmwH9p/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Kulik Evgeny",
+      "korean": "예브게니 쿨릭",
+      "source": "https://www.flashscore.co.kr/player/kulik-yevgeni/fqpvTToH/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Orekhov Valery",
+      "korean": "발레리 오레코프",
+      "source": "https://www.flashscore.co.kr/player/orekhov-valeri/MZknw093/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Tolchinsky Sergei",
+      "korean": "세르게이 톨친스키",
+      "source": "https://www.flashscore.co.kr/player/tolchinsky-sergey/W8Vy1nRj/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Shugayev Dmitry",
+      "korean": "드미트리 슈가예프",
+      "source": "https://www.flashscore.co.kr/player/shugayev-dmitri/W2GZ8MyH/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Miller Mitchell",
+      "korean": "미치 밀러",
+      "source": "https://www.flashscore.co.kr/player/miller-mitch/QH9y83qh/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Kaldis Ioannis",
+      "korean": "야니 칼디스",
+      "source": "https://www.flashscore.co.kr/player/kaldis-ioannis-george/IuoJ7HZ8/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Belyayev Alexander Vl.",
+      "korean": "알렉산드르 벨랴예프",
+      "source": "https://www.flashscore.co.kr/player/belyayev-aleksandr/02OTXyOp/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Pau Torres",
+      "korean": "파우 토레스",
+      "source": "https://www.flashscore.co.kr/player/torres-pau-francisco/AVUHg8JU/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Piero Hincapie",
+      "korean": "피에로 인카피에",
+      "source": "https://www.flashscore.co.kr/player/hincapie-pedro/2TTElOLP/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Maroan Sannadi",
+      "korean": "마로안 산나디",
+      "source": "https://www.flashscore.co.kr/player/harrouch-sannadi-maroan/4CNOBIKl/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Mateus Brunetti Valor",
+      "korean": "마테우스 브루네티",
+      "source": "https://www.flashscore.co.kr/player/brunetti-mateus/8MhP1iUo/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Danilo Boza",
+      "korean": "다닐루",
+      "source": "https://www.flashscore.co.kr/player/danilo-boza/65bpTwwE/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Welton Felipe",
+      "korean": "웰톤",
+      "source": "https://www.flashscore.co.kr/player/welton/2R6exaY1/",
+      "method": "Korean profile; explicit provider alias checked against club/position"
+    },
+    {
+      "name": "Kristoffer Askildsen",
+      "korean": "크리스토페르 아실센",
+      "source": "https://m.namu.moe/w/크리스토페르%20아실센",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Joe Bell",
+      "korean": "조 벨",
+      "source": "https://m.namu.moe/w/조%20벨",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Zion Suzuki",
+      "korean": "스즈키 자이온",
+      "source": "https://m.namu.moe/w/스즈키%20자이온",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Carlos Forbs",
+      "korean": "카를루스 포르브스",
+      "source": "https://fco.vod.nexoncdn.co.kr/list/2025/2/fco_list_250218_fiblsk3BkdsRSi.html",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Joel Ordonez",
+      "korean": "조엘 오르도녜스",
+      "source": "https://www.futmetrix.com/ko/players/joel-ordonez",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Newertton",
+      "korean": "네베르통",
+      "source": "https://fco.vod.nexoncdn.co.kr/list/2025/4/list_FCO_250417_ji94dkHkBkdT.html",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Kauã Elias",
+      "korean": "카우앙 일리아스",
+      "source": "https://d.namu.moe/w/카우앙%20일리아스",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Sascha Horvath",
+      "korean": "사샤 호르바트",
+      "source": "https://nrt.cx/p/sports/player/34175538",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Unai Egiluz",
+      "korean": "우나이 에길루스",
+      "source": "https://d.namu.moe/w/우나이%20에길루스",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Kyllian Anderson Antonio",
+      "korean": "킬리안 안토니오",
+      "source": "https://www.namu.moe/w/킬리안%20안토니오",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Louis Munteanu",
+      "korean": "루이스 문테아누",
+      "source": "https://www.futmetrix.com/ko/players/louis-munteanu",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Lucas Bartlett",
+      "korean": "루카스 바틀렛",
+      "source": "https://namu.moe/w/루카스%20바틀렛",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Yasuto Wakisaka",
+      "korean": "와키자카 야스토",
+      "source": "https://www.namu.moe/w/와키자카%20야스토",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Derik Lacerda",
+      "korean": "데릭 라세르다",
+      "source": "https://www.futmetrix.com/ko/players/derik-lacerda",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Jeisson Quiñones",
+      "korean": "제이손 키뇨네스",
+      "source": "https://www.futmetrix.com/ko/players/jeison-quinones",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Toichi Suzuki",
+      "korean": "스즈키 도이치",
+      "source": "https://fifaonline4.inven.co.kr/dataninfo/player/?code=321246909",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "José Suárez",
+      "korean": "호세 수아레스",
+      "source": "https://kr.soccerway.com/player/suarez-jose/0rz4GFOI/",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Jonathan Júnior",
+      "korean": "조나탄 주니오르",
+      "source": "https://note.com/vivaozawa/n/na3c5a1d08263?hl=ko",
+      "method": "Individually reviewed Korean source with identity context"
+    },
+    {
+      "name": "Henrik Heggheim",
+      "korean": "헨리크 헤그게임",
+      "source": "https://www.google.com/search?q=Henrik%20Heggheim",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Zlatko Tripic",
+      "korean": "즐라트코 트리픽",
+      "source": "https://www.google.com/search?q=Zlatko%20Tripic",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Maxima Goffi",
+      "korean": "막시마 고피",
+      "source": "https://www.fulltimenote.com/ko/matches/2026-10-14-arsenal-vs-lille",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Kaique",
+      "korean": "카이케",
+      "source": "https://attv24.com/scoreboard/game/BEar5V5Nar1r1YQ",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Dani Requena",
+      "korean": "다니 레케나",
+      "source": "https://www.liveman.kr/stat_data/team_view.php?id=275",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Ryo Nemoto",
+      "korean": "네모토 료",
+      "source": "https://www.flashscore.co.kr/player/nemoto-r/U7NJJz3r/",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Lucas Marcos Meireles",
+      "korean": "루카오",
+      "source": "https://m.aiscore.com/ko/player-/j374oieeo8la3qo",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Lucas Fernandes",
+      "korean": "루카스 페르난데스",
+      "source": "https://kr.soccerway.com/player/fernandes-lucas/0p3T6wOj/",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Boniface Nduka",
+      "korean": "은두카 보니파스",
+      "source": "https://www.flashscore.co.kr/player/uduka-boniface/GhBYVWlo/",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Luiz Eduardo Fleuri Pacheco",
+      "korean": "두두 파체코",
+      "source": "https://bak.liveman.net/stat_data/match_view.php?id=5015678",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Oscar Avilez",
+      "korean": "오스카 아빌레스",
+      "source": "https://www.scorebase.kr/transfers/1l4rjnhk86vom7v",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Gerardo Valenzuela",
+      "korean": "헤라르도 발렌수엘라",
+      "source": "https://nrt.cx/p/sports/player/34230614",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Hosei Kijima",
+      "korean": "키지마 호세이",
+      "source": "https://m.namu.moe/w/키지마%20호세이",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Gabe Segal",
+      "korean": "게이브 시걸",
+      "source": "https://www.betsgo-sports.com/analysis/p1865",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Jose Andres Martinez",
+      "korean": "호세 안드레스 마르티네스",
+      "source": "https://seore.org/raw/호세%20마르티네즈",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Mityakin Evgeny",
+      "korean": "예브게니 미탸킨",
+      "source": "https://fixtv24.com/board/55869",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Massie Jake",
+      "korean": "제이크 마씨",
+      "source": "https://www.flashscore.co.kr/player/massie-jake/GfxCDUpK/",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Rodewald Jack",
+      "korean": "잭 로드월드",
+      "source": "https://bmtv24.com/sbx/leagues/KHL",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Brickey Ronald",
+      "korean": "스쿠터 브리키",
+      "source": "https://www.livesport.com/kr/player/brickey-scooter/UJjUxfoC/",
+      "method": "Individually reviewed Korean source and exact team/identity"
+    },
+    {
+      "name": "Nickeil Alexander-Walker",
+      "korean": "니킬 알렉산더워커",
+      "source": "https://www.google.com/search?q=Nickeil+Alexander-Walker",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Franz Wagner",
+      "korean": "프란츠 바그너",
+      "source": "https://www.google.com/search?q=Franz+Wagner",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Wendell Carter Jr.",
+      "korean": "웬델 카터 주니어",
+      "source": "https://www.google.com/search?q=Wendell%20Carter%20Jr.",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Jalen Suggs",
+      "korean": "제일런 석스",
+      "source": "https://www.google.com/search?q=Jalen%20Suggs",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Kyle Kuzma",
+      "korean": "카일 쿠즈마",
+      "source": "https://www.google.com/search?q=Kyle%20Kuzma",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Jaime Jaquez Jr.",
+      "korean": "하이메 하케즈 주니어",
+      "source": "https://www.google.com/search?q=Jaime%20Jaquez%20Jr.",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Myles Turner",
+      "korean": "마일스 터너",
+      "source": "https://www.google.com/search?q=Myles%20Turner",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Tyler Herro",
+      "korean": "타일러 히로",
+      "source": "https://www.google.com/search?q=Tyler%20Herro",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Ryan Rollins",
+      "korean": "라이언 롤린스",
+      "source": "https://www.google.com/search?q=Ryan%20Rollins",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Anthony Davis",
+      "korean": "앤서니 데이비스",
+      "source": "https://www.google.com/search?q=Anthony%20Davis",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "AJ Dybantsa",
+      "korean": "AJ 디반차",
+      "source": "https://www.google.com/search?q=AJ%20Dybantsa",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Kyshawn George",
+      "korean": "키숀 조지",
+      "source": "https://www.google.com/search?q=Kyshawn%20George",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Alex Sarr",
+      "korean": "알렉스 사르",
+      "source": "https://www.google.com/search?q=Alex%20Sarr",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Cody Williams",
+      "korean": "코디 윌리엄스",
+      "source": "https://www.google.com/search?q=Cody%20Williams",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Joan Beringer",
+      "korean": "조안 베링거",
+      "source": "https://www.google.com/search?q=Joan%20Beringer",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Jaylen Clark",
+      "korean": "제일런 클락",
+      "source": "https://www.google.com/search?q=Jaylen%20Clark",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Terrence Shannon Jr.",
+      "korean": "테런스 섀넌 주니어",
+      "source": "https://www.google.com/search?q=Terrence%20Shannon%20Jr.",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Zyon Pullin",
+      "korean": "자이언 풀린",
+      "source": "https://www.google.com/search?q=Zyon%20Pullin",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Andrew Wiggins",
+      "korean": "앤드류 위긴스",
+      "source": "https://www.google.com/search?q=Andrew%20Wiggins",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Bobby Portis",
+      "korean": "바비 포티스",
+      "source": "https://www.google.com/search?q=Bobby%20Portis",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Nikola Jovic",
+      "korean": "니콜라 요비치",
+      "source": "https://www.google.com/search?q=Nikola%20Jovic",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Klay Thompson",
+      "korean": "클레이 톰슨",
+      "source": "https://www.google.com/search?q=Klay%20Thompson",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Davion Mitchell",
+      "korean": "데이비온 미첼",
+      "source": "https://www.google.com/search?q=Davion%20Mitchell",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Brandon Miller",
+      "korean": "브랜든 밀러",
+      "source": "https://www.google.com/search?q=Brandon%20Miller",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Ryan Kalkbrenner",
+      "korean": "라이언 칼크브레너",
+      "source": "https://www.google.com/search?q=Ryan%20Kalkbrenner",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Dennis Schroder",
+      "korean": "데니스 슈뢰더",
+      "source": "https://www.google.com/search?q=Dennis%20Schroder",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Sion James",
+      "korean": "시온 제임스",
+      "source": "https://www.google.com/search?q=Sion%20James",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Day'Ron Sharpe",
+      "korean": "데이론 샤프",
+      "source": "https://www.google.com/search?q=Day'Ron%20Sharpe",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Keon Ellis",
+      "korean": "키온 엘리스",
+      "source": "https://www.google.com/search?q=Keon%20Ellis",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Egor Demin",
+      "korean": "에고르 데민",
+      "source": "https://www.google.com/search?q=Egor%20Demin",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Jalen Smith",
+      "korean": "제일런 스미스",
+      "source": "https://www.google.com/search?q=Jalen%20Smith",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Matas Buzelis",
+      "korean": "마타스 부젤리스",
+      "source": "https://www.google.com/search?q=Matas%20Buzelis",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Caleb Wilson",
+      "korean": "케일럽 윌슨",
+      "source": "https://www.google.com/search?q=Caleb%20Wilson",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Trayce Jackson-Davis",
+      "korean": "트레이스 잭슨데이비스",
+      "source": "https://www.google.com/search?q=Trayce%20Jackson-Davis",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Allen Graves",
+      "korean": "앨런 그레이브스",
+      "source": "https://www.google.com/search?q=Allen%20Graves",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Jaden Bradley",
+      "korean": "제이든 브래들리",
+      "source": "https://www.google.com/search?q=Jaden%20Bradley",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Nimari Burnett",
+      "korean": "니마리 버넷",
+      "source": "https://www.google.com/search?q=Nimari%20Burnett",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Alijah Martin",
+      "korean": "알리자 마틴",
+      "source": "https://www.google.com/search?q=Alijah%20Martin",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Lauri Markkanen",
+      "korean": "라우리 마카넨",
+      "source": "https://www.google.com/search?q=Lauri%20Markkanen",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Jaxson Hayes",
+      "korean": "잭슨 헤이즈",
+      "source": "https://www.google.com/search?q=Jaxson%20Hayes",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Keyonte George",
+      "korean": "키욘테 조지",
+      "source": "https://www.google.com/search?q=Keyonte%20George",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Darryn Peterson",
+      "korean": "다린 피터슨",
+      "source": "https://www.google.com/search?q=Darryn%20Peterson",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Kris Murray",
+      "korean": "크리스 머레이",
+      "source": "https://www.google.com/search?q=Kris%20Murray",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Cedric Coward",
+      "korean": "세드릭 카워드",
+      "source": "https://www.google.com/search?q=Cedric%20Coward",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Cameron Boozer",
+      "korean": "캐머런 부저",
+      "source": "https://www.google.com/search?q=Cameron%20Boozer",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Pascal Siakam",
+      "korean": "파스칼 시아캄",
+      "source": "https://www.google.com/search?q=Pascal%20Siakam",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Kelly Oubre Jr.",
+      "korean": "켈리 우브레 주니어",
+      "source": "https://www.google.com/search?q=Kelly%20Oubre%20Jr.",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Andrew Nembhard",
+      "korean": "앤드류 넴바드",
+      "source": "https://www.google.com/search?q=Andrew%20Nembhard",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Tyrese Haliburton",
+      "korean": "타이리스 할리버튼",
+      "source": "https://www.google.com/search?q=Tyrese%20Haliburton",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Yves Missi",
+      "korean": "이브 미시",
+      "source": "https://www.google.com/search?q=Yves%20Missi",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Jeremiah Fears",
+      "korean": "제레미아 피어스",
+      "source": "https://www.google.com/search?q=Jeremiah%20Fears",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Daniel Gafford",
+      "korean": "대니얼 개포드",
+      "source": "https://www.google.com/search?q=Daniel%20Gafford",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Cooper Flagg",
+      "korean": "쿠퍼 플래그",
+      "source": "https://www.google.com/search?q=Cooper%20Flagg",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Zaccharie Risacher",
+      "korean": "자카리 리사셰",
+      "source": "https://www.google.com/search?q=Zaccharie%20Risacher",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Jabari Smith Jr.",
+      "korean": "자바리 스미스 주니어",
+      "source": "https://www.google.com/search?q=Jabari%20Smith%20Jr.",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Alperen Sengun",
+      "korean": "알페렌 센군",
+      "source": "https://www.google.com/search?q=Alperen%20Sengun",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Fred VanVleet",
+      "korean": "프레드 밴블릿",
+      "source": "https://www.google.com/search?q=Fred%20VanVleet",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Amen Thompson",
+      "korean": "아멘 탐슨",
+      "source": "https://www.google.com/search?q=Amen%20Thompson",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Keaton Wagler",
+      "korean": "키튼 와글러",
+      "source": "https://www.google.com/search?q=Keaton%20Wagler",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Charles Bassey",
+      "korean": "찰스 베시",
+      "source": "https://www.google.com/search?q=Charles%20Bassey",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Brandin Podziemski",
+      "korean": "브랜딘 포지엠스키",
+      "source": "https://www.google.com/search?q=Brandin%20Podziemski",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Ziaire Williams",
+      "korean": "자이어 윌리엄스",
+      "source": "https://www.google.com/search?q=Ziaire%20Williams",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Austin Reaves",
+      "korean": "오스틴 리브스",
+      "source": "https://www.google.com/search?q=Austin%20Reaves",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Miles Bridges",
+      "korean": "마일스 브리지스",
+      "source": "https://www.google.com/search?q=Miles%20Bridges",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Khaman Maluach",
+      "korean": "카만 말루아치",
+      "source": "https://www.google.com/search?q=Khaman%20Maluach",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Jalen Green",
+      "korean": "제일런 그린",
+      "source": "https://www.google.com/search?q=Jalen%20Green",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Donovan Clingan",
+      "korean": "도노반 클링언",
+      "source": "https://www.google.com/search?q=Donovan%20Clingan",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Domantas Sabonis",
+      "korean": "도만타스 사보니스",
+      "source": "https://www.google.com/search?q=Domantas%20Sabonis",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Keegan Murray",
+      "korean": "키건 머레이",
+      "source": "https://www.google.com/search?q=Keegan%20Murray",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Darius Acuff Jr.",
+      "korean": "다리우스 애커프 주니어",
+      "source": "https://www.google.com/search?q=Darius%20Acuff%20Jr.",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Rui Hachimura",
+      "korean": "하치무라 루이",
+      "source": "https://www.google.com/search?q=Rui%20Hachimura",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Isaiah Jackson",
+      "korean": "아이재아 잭슨",
+      "source": "https://www.google.com/search?q=Isaiah%20Jackson",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Kayla Thornton",
+      "korean": "카일라 쏜튼",
+      "source": "https://www.google.com/search?q=Kayla%20Thornton",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Gabby Williams",
+      "korean": "개비 윌리엄스",
+      "source": "https://www.google.com/search?q=Gabby%20Williams",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Cecilia Zandalasini",
+      "korean": "체칠리아 찬달라시니",
+      "source": "https://www.google.com/search?q=Cecilia%20Zandalasini",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Kiah Stokes",
+      "korean": "키아 스톡스",
+      "source": "https://www.google.com/search?q=Kiah%20Stokes",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Veronica Burton",
+      "korean": "베로니카 버튼",
+      "source": "https://www.google.com/search?q=Veronica%20Burton",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Naz Hillmon",
+      "korean": "나즈 힐몬",
+      "source": "https://www.google.com/search?q=Naz%20Hillmon",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Angel Reese",
+      "korean": "엔젤 리스",
+      "source": "https://www.google.com/search?q=Angel%20Reese",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Allisha Gray",
+      "korean": "알리샤 그레이",
+      "source": "https://www.google.com/search?q=Allisha%20Gray",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Jordin Canada",
+      "korean": "조딘 캐나다",
+      "source": "https://www.google.com/search?q=Jordin%20Canada",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Rhyne Howard",
+      "korean": "라인 하워드",
+      "source": "https://www.google.com/search?q=Rhyne%20Howard",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Devon Toews",
+      "korean": "데번 테이브스",
+      "source": "https://www.google.com/search?q=Devon%20Toews",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Pavel Zacha",
+      "korean": "파벨 자하",
+      "source": "https://www.google.com/search?q=Pavel%20Zacha",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Philipp Grubauer",
+      "korean": "필리프 그루바워",
+      "source": "https://www.google.com/search?q=Philipp%20Grubauer",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Akira Schmid",
+      "korean": "아키라 슈미트",
+      "source": "https://www.google.com/search?q=Akira%20Schmid",
+      "method": "Google search and Korean basketball coverage reviewed; established media spelling preferred"
+    },
+    {
+      "name": "Yaxel Lendeborg",
+      "korean": "약셀 렌더보그",
+      "source": "https://v.daum.net/v/1bUh2baetI?f=p",
+      "method": "Reviewed Korean basketball article"
+    }
+  ]
+}

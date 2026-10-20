@@ -6,6 +6,8 @@ on:
     paths:
       - 'scripts/update-projections.py'
       - 'scripts/check-player-names.mjs'
+      - 'scripts/collect-player-names.mjs'
+      - 'scripts/player-name-exceptions.json'
       - 'dist/player-ko.js'
       - 'dist/football-ko.js'
       - 'dist/app.js'
@@ -36,10 +38,18 @@ jobs:
           node-version: '22'
       - name: Audit Korean names across all leagues
         run: node scripts/check-player-names.mjs --audit
+      - name: Collect names from live lineup and injury renderers
+        run: node scripts/collect-player-names.mjs
+      - name: Audit live player names
+        run: node scripts/check-player-names.mjs --inventory scripts/player-name-live-inventory.json
       - uses: actions/upload-artifact@v7
+        if: always()
         with:
           name: player-name-audit
-          path: scripts/player-name-audit.json
+          path: |
+            scripts/player-name-audit.json
+            scripts/player-name-live-audit.json
+            scripts/player-name-live-inventory.json
           retention-days: 3
       - name: Commit lineup changes
         run: |

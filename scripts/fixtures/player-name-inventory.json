@@ -1,0 +1,6469 @@
+{
+  "at": "2026-10-20T21:28:03.825Z",
+  "leagues": [
+    {
+      "sport": "football",
+      "league": "ucl"
+    },
+    {
+      "sport": "football",
+      "league": "uel"
+    },
+    {
+      "sport": "football",
+      "league": "epl"
+    },
+    {
+      "sport": "football",
+      "league": "championship"
+    },
+    {
+      "sport": "football",
+      "league": "laliga"
+    },
+    {
+      "sport": "football",
+      "league": "eredivisie"
+    },
+    {
+      "sport": "football",
+      "league": "jupiler"
+    },
+    {
+      "sport": "football",
+      "league": "primeira"
+    },
+    {
+      "sport": "football",
+      "league": "scottish"
+    },
+    {
+      "sport": "football",
+      "league": "bundesliga"
+    },
+    {
+      "sport": "football",
+      "league": "seriea"
+    },
+    {
+      "sport": "football",
+      "league": "ligue1"
+    },
+    {
+      "sport": "football",
+      "league": "j1"
+    },
+    {
+      "sport": "football",
+      "league": "mls"
+    },
+    {
+      "sport": "football",
+      "league": "kleague1"
+    },
+    {
+      "sport": "football",
+      "league": "kleague2"
+    },
+    {
+      "sport": "mlb",
+      "league": "mlb"
+    },
+    {
+      "sport": "npb",
+      "league": "npb"
+    },
+    {
+      "sport": "cpbl",
+      "league": "cpbl"
+    },
+    {
+      "sport": "nba",
+      "league": "nba"
+    },
+    {
+      "sport": "wnba",
+      "league": "wnba"
+    },
+    {
+      "sport": "nhl",
+      "league": "nhl"
+    },
+    {
+      "sport": "khl",
+      "league": "khl"
+    },
+    {
+      "sport": "kbo",
+      "league": "kbo"
+    },
+    {
+      "sport": "kbl",
+      "league": "kbl"
+    },
+    {
+      "sport": "wkbl",
+      "league": "wkbl"
+    },
+    {
+      "sport": "kovo",
+      "league": "kovo"
+    }
+  ],
+  "records": [
+    {
+      "name": "Senne Lammens",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Harry Amass",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Noussair Mazraoui",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Harry Maguire",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Diogo Dalot",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Andrey Santos",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Carlos Baleba",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matheus Cunha",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Youri Tielemans",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Bruno Fernandes",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Bryan Mbeumo",
+      "team": "Manchester United",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jean Butez",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alex Valle",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Marc-Oliver Kempf",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jacobo Ramon",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yan Couto",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lucas Da Cunha",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Maximo Perrone",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Martin Baturina",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nico Paz",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mattia Liberali",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tasos Douvikas",
+      "team": "Como",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Leny Yoro",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Patrick Dorgu",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Tom Heaton",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Ayden Heaven",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Kobbie Mainoo",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Lisandro Martinez",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Marcus Rashford",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Benjamin Sesko",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Luke Shaw",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Manuel Ugarte",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Jesus Rodriguez",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Trevoh Chalobah",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Assane Diao",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Moise Kean",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Ugurcan Cakir",
+      "team": "Galatasaray",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Eren Elmali",
+      "team": "Galatasaray",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ismail Jakobs",
+      "team": "Galatasaray",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Davinson Sanchez",
+      "team": "Galatasaray",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Roland Sallai",
+      "team": "Galatasaray",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lucas Torreira",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Mario Lemina",
+      "team": "Galatasaray",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Baris Yilmaz",
+      "team": "Galatasaray",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Aleksey Batrakov",
+      "team": "Galatasaray",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yunus Akgun",
+      "team": "Galatasaray",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Victor Osimhen",
+      "team": "Galatasaray",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Berke Ozer",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Romain Perraud",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alexsandro",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nathan Ngoy",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Maxima Goffi",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nabil Bentaleb",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Benjamin Andre",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hakon Haraldsson",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ngal'ayel Mukau",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dilane Bakwa",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Olivier Giroud",
+      "team": "Lille",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Wilfried Singo",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Rafael Leao",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Ethan Mbappe",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Tiago Santos",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Hamza Igamane",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Osame Sahraoui",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Ayase Ueda",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Arild Ostbo",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kristoffer Haugen",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Gianni Stensness",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Henrik Falchener",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Henrik Heggheim",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Henrik Bjordal",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kristoffer Askildsen",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Joe Bell",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zlatko Tripic",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Peter Christiansen",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Erik Botheim",
+      "team": "Viking FK",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zion Suzuki",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lamare Bogarde",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Taylor Harwood-Bellis",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pau Torres",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matty Cash",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ross Barkley",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Leon Goretzka",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ibrahim Mbaye",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Emiliano Buendia",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "John McGinn",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brian Madjo",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Modou Keba Cisse",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "George Hemmings",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Ian Maatsen",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Johan Manzambi",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Amadou Onana",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Matteo Ruggeri",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Aaron Wan-Bissaka",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "David Raya",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Riccardo Calafiori",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ezri Konsa",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Gabriel",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jurrien Timber",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Declan Rice",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Myles Lewis-Skelly",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Noni Madueke",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Martin Odegaard",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Bukayo Saka",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Viktor Gyokeres",
+      "team": "Arsenal",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Manuel Neuer",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Alphonso Davies",
+      "team": "Bayern Munich",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jonathan Tah",
+      "team": "Bayern Munich",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dayot Upamecano",
+      "team": "Bayern Munich",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Konrad Laimer",
+      "team": "Bayern Munich",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Aleksandar Pavlovic",
+      "team": "Bayern Munich",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Luis Diaz",
+      "team": "Bayern Munich",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ismael Saibari",
+      "team": "Bayern Munich",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lennart Karl",
+      "team": "Bayern Munich",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Harry Kane",
+      "team": "Bayern Munich",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Piero Hincapie",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "William Saliba",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Christos Tzolis",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Michael Olise",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Tarek Buchmann",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Jamal Musiala",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Robin Risser",
+      "team": "Lens",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Samson Baidoo",
+      "team": "Lens",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jean-Clair Todibo",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Kyllian Anderson Antonio",
+      "team": "Lens",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matthieu Udol",
+      "team": "Lens",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Amadou Haidara",
+      "team": "Lens",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mickael Cuisance",
+      "team": "Lens",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Saud Abdulhamid",
+      "team": "Lens",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Florian Thauvin",
+      "team": "Lens",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Junior Kadile",
+      "team": "Lens",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Franjo Ivanovic",
+      "team": "Lens",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yann Sommer",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Joaquin Seys",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lee Han-Beom",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brandon Mechele",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kyriani Sabbe",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Freddie Potts",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hans Vanaken",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jan Virgili",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hugo Vetlesen",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Carlos Forbs",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nicolo Tresoldi",
+      "team": "Club Brugge",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pierre Ganiou",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Jonathan Gradit",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Maik Nawrocki",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Abdallah Dipo Sima",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Joel Ordonez",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Dmytro Riznyk",
+      "team": "Shakhtar Donetsk",
+      "short": "D. Riznyk",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mykola Matviyenko",
+      "team": "Shakhtar Donetsk",
+      "short": "M. Matviyenko",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Valeriy Bondar",
+      "team": "Shakhtar Donetsk",
+      "short": "V. Bondar",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Oleh Ocheretko",
+      "team": "Shakhtar Donetsk",
+      "short": "O. Ocheretko",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pedrinho",
+      "team": "Shakhtar Donetsk",
+      "short": "Pedrinho",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Vinícius Tobias",
+      "team": "Shakhtar Donetsk",
+      "short": "Vinícius Tobias",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Marlon Gomes",
+      "team": "Shakhtar Donetsk",
+      "short": "M. Gomes",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Newertton",
+      "team": "Shakhtar Donetsk",
+      "short": "Newertton",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alisson Santana",
+      "team": "Shakhtar Donetsk",
+      "short": "A. Santana",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kauã Elias",
+      "team": "Shakhtar Donetsk",
+      "short": "Kauã Elias",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Josep Martínez",
+      "team": "Internazionale",
+      "short": "J. Martínez",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Manuel Akanji",
+      "team": "Internazionale",
+      "short": "M. Akanji",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alessandro Bastoni",
+      "team": "Internazionale",
+      "short": "A. Bastoni",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yann Bisseck",
+      "team": "Internazionale",
+      "short": "Y. Bisseck",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Piotr Zielinski",
+      "team": "Internazionale",
+      "short": "P. Zielinski",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nicolò Barella",
+      "team": "Internazionale",
+      "short": "N. Barella",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hakan Çalhanoglu",
+      "team": "Internazionale",
+      "short": "H. Çalhanoglu",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Federico Dimarco",
+      "team": "Internazionale",
+      "short": "F. Dimarco",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Andy Diouf",
+      "team": "Internazionale",
+      "short": "A. Diouf",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lautaro Martínez",
+      "team": "Internazionale",
+      "short": "L. Martínez",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Marcus Thuram",
+      "team": "Internazionale",
+      "short": "M. Thuram",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tjark Ernst",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mika Marmol",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jeremiah St. Juste",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tsuyoshi Watanabe",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Givairo Read",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Charles Vanhoutte",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Gjivai Zechiel",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Oussama Targhalline",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Luciano Valente",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Anis Hadj Moussa",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nacho Ferri",
+      "team": "Feyenoord Rotterdam",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alvaro Valles",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Valentin Gomez",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Natan",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Marc Bartra",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Angel Ortiz",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pablo Fornals",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Marc Roca",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ez Abde",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Isco",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Antony",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Troy Parrott",
+      "team": "Real Betis",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Thomas Beelen",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Jordan Bos",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Jakub Moder",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Reiss Nelson",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Bart Nieuwkoop",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Gijs Smal",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Shaqueel van Persie",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Aitor Ruibal",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Junior Firpo",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Cucho Hernandez",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Maarten Vandevoordt",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "David Raum",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Castello Lukeba",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Willi Orban",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ridle Baku",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ezechiel Banzuzi",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Neil El Aynaoui",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Antonio Nusa",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Christopher Nkunku",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brajan Gruda",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Romulo",
+      "team": "RB Leipzig",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Thibaut Courtois",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alvaro Carreras",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Antonio Rudiger",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ibrahima Konate",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Denzel Dumfries",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Aurelien Tchouameni",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Federico Valverde",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Vinicius Junior",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jude Bellingham",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yan Diomande",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kylian Mbappe",
+      "team": "Real Madrid",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Christoph Baumgartner",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Marc Guiu",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Assan Ouedraogo",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Raul Asencio",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Ferland Mendy",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Rodrygo",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Lukas Jungwirth",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alemao",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Xavier Mbuyamba",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Andres Andrade Cedeno",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Melayro Bogarde",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yvan Dibango",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kasper Jorgensen",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sascha Horvath",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Robert Ljubicic",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Christoph Lang",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sasa Kalajdzic",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kaique",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Maxi Araujo",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Goncalo Inacio",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Eduardo Quaresma",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ivan Fresneda",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sergi Altimira",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Issa Doumbia",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nestory Irankunda",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Flavio Goncalves",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Geny",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Luis Suarez",
+      "team": "Sporting CP",
+      "league": "ucl",
+      "kind": "lineup"
+    },
+    {
+      "name": "George Bello",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Moses Usor",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Zeno Koen Debast",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Nuno Santos",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Rodrigo Zalazar",
+      "league": "ucl",
+      "kind": "injury"
+    },
+    {
+      "name": "Unai Simon",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuri Berchiche",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yeray Alvarez",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Aymeric Laporte",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jesus Areso",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ruiz de Galarreta",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mikel Jauregizar",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alex Berenguer",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Peio Canales",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Robert Navarro",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Maroan Sannadi",
+      "team": "Athletic Club",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mathew Ryan",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Manu Sanchez",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Adrian de la Fuente",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Aissa Mandi",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jeremy Toljan",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Oriol Rey",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ivan Romero",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jon Ander Olasagasti",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dani Requena",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Victor Garcia",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Petar Ratkov",
+      "team": "Levante",
+      "league": "laliga",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alvaro Djalo",
+      "league": "laliga",
+      "kind": "injury"
+    },
+    {
+      "name": "Nico Williams",
+      "league": "laliga",
+      "kind": "injury"
+    },
+    {
+      "name": "Unai Egiluz",
+      "league": "laliga",
+      "kind": "injury"
+    },
+    {
+      "name": "Gorka Guruzeta",
+      "league": "laliga",
+      "kind": "injury"
+    },
+    {
+      "name": "Oihan Sancet",
+      "league": "laliga",
+      "kind": "injury"
+    },
+    {
+      "name": "Karl Etta",
+      "league": "laliga",
+      "kind": "injury"
+    },
+    {
+      "name": "Alejandro Primo",
+      "league": "laliga",
+      "kind": "injury"
+    },
+    {
+      "name": "Hugo Sotelo",
+      "league": "laliga",
+      "kind": "injury"
+    },
+    {
+      "name": "Jun Ichimori",
+      "team": "Gamba Osaka",
+      "short": "J. Ichimori",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shota Fukuoka",
+      "team": "Gamba Osaka",
+      "short": "S. Fukuoka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shinnosuke Nakatani",
+      "team": "Gamba Osaka",
+      "short": "S. Nakatani",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shinya Nakano",
+      "team": "Gamba Osaka",
+      "short": "S. Nakano",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takeru Kishimoto",
+      "team": "Gamba Osaka",
+      "short": "T. Kishimoto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Issam Jebali",
+      "team": "Gamba Osaka",
+      "short": "I. Jebali",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Rin Mito",
+      "team": "Gamba Osaka",
+      "short": "R. Mito",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shuto Abe",
+      "team": "Gamba Osaka",
+      "short": "S. Abe",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yusei Toshida",
+      "team": "Gamba Osaka",
+      "short": "Y. Toshida",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Welton Felipe",
+      "team": "Gamba Osaka",
+      "short": "Welton Felipe",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ryoya Yamashita",
+      "team": "Gamba Osaka",
+      "short": "R. Yamashita",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuma Obata",
+      "team": "Avispa Fukuoka",
+      "short": "Y. Obata",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Masaya Tashiro",
+      "team": "Avispa Fukuoka",
+      "short": "M. Tashiro",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuma Tsujioka",
+      "team": "Avispa Fukuoka",
+      "short": "Y. Tsujioka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Teppei Oka",
+      "team": "Avispa Fukuoka",
+      "short": "T. Oka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tomoya Miki",
+      "team": "Avispa Fukuoka",
+      "short": "T. Miki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Keiya Shiihashi",
+      "team": "Avispa Fukuoka",
+      "short": "K. Shiihashi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yota Maejima",
+      "team": "Avispa Fukuoka",
+      "short": "Y. Maejima",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Masato Yuzawa",
+      "team": "Avispa Fukuoka",
+      "short": "M. Yuzawa",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Werik",
+      "team": "Avispa Fukuoka",
+      "short": "Werik",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shu Morooka",
+      "team": "Avispa Fukuoka",
+      "short": "S. Morooka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Masato Shigemi",
+      "team": "Avispa Fukuoka",
+      "short": "M. Shigemi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jakub Slowik",
+      "team": "Mito Hollyhock",
+      "short": "J. Slowik",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kenta Itakura",
+      "team": "Mito Hollyhock",
+      "short": "K. Itakura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yasuki Kimoto",
+      "team": "Mito Hollyhock",
+      "short": "Y. Kimoto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Koshi Osaki",
+      "team": "Mito Hollyhock",
+      "short": "K. Osaki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takumi Mase",
+      "team": "Mito Hollyhock",
+      "short": "T. Mase",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Taishi Senba",
+      "team": "Mito Hollyhock",
+      "short": "T. Senba",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yu Funabashi",
+      "team": "Mito Hollyhock",
+      "short": "Y. Funabashi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kaito Taniguchi",
+      "team": "Mito Hollyhock",
+      "short": "K. Taniguchi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hayata Yamamoto",
+      "team": "Mito Hollyhock",
+      "short": "H. Yamamoto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Chihiro Kato",
+      "team": "Mito Hollyhock",
+      "short": "C. Kato",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ryo Nemoto",
+      "team": "Mito Hollyhock",
+      "short": "R. Nemoto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lennart Moser",
+      "team": "Fagiano Okayama",
+      "short": "L. Moser",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yugo Tatsuta",
+      "team": "Fagiano Okayama",
+      "short": "Y. Tatsuta",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yoshitake Suzuki",
+      "team": "Fagiano Okayama",
+      "short": "Y. Suzuki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Soichiro Mori",
+      "team": "Fagiano Okayama",
+      "short": "S. Mori",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Oberdan",
+      "team": "Fagiano Okayama",
+      "short": "Oberdan",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Eiji Miyamoto",
+      "team": "Fagiano Okayama",
+      "short": "E. Miyamoto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Towa Yamane",
+      "team": "Fagiano Okayama",
+      "short": "T. Yamane",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kosuke Shirai",
+      "team": "Fagiano Okayama",
+      "short": "K. Shirai",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lucas Marcos Meireles",
+      "team": "Fagiano Okayama",
+      "short": "L. Meireles",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ataru Esaka",
+      "team": "Fagiano Okayama",
+      "short": "A. Esaka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Na Sang-Ho",
+      "team": "Fagiano Okayama",
+      "short": "N. Sang-Ho",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tomoya Wakahara",
+      "team": "Kashiwa Reysol",
+      "short": "T. Wakahara",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Taiyo Koga",
+      "team": "Kashiwa Reysol",
+      "short": "T. Koga",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Daiki Sugioka",
+      "team": "Kashiwa Reysol",
+      "short": "D. Sugioka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sachiro Toshima",
+      "team": "Kashiwa Reysol",
+      "short": "S. Toshima",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nobuteru Nakagawa",
+      "team": "Kashiwa Reysol",
+      "short": "N. Nakagawa",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yudai Konishi",
+      "team": "Kashiwa Reysol",
+      "short": "Y. Konishi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Keita Endo",
+      "team": "Kashiwa Reysol",
+      "short": "K. Endo",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tojiro Kubo",
+      "team": "Kashiwa Reysol",
+      "short": "T. Kubo",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shota Fujio",
+      "team": "Kashiwa Reysol",
+      "short": "S. Fujio",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hinata Yamauchi",
+      "team": "Kashiwa Reysol",
+      "short": "H. Yamauchi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yoshio Koizumi",
+      "team": "Kashiwa Reysol",
+      "short": "Y. Koizumi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kim Seung-Gyu",
+      "team": "FC Tokyo",
+      "short": "K. Seung-Gyu",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hayato Inamura",
+      "team": "FC Tokyo",
+      "short": "H. Inamura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alexander Scholz",
+      "team": "FC Tokyo",
+      "short": "A. Scholz",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kashifu Bangunagande",
+      "team": "FC Tokyo",
+      "short": "K. Bangunagande",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hirokazu Ishikara",
+      "team": "FC Tokyo",
+      "short": "H. Ishikara",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Motoki Nagakura",
+      "team": "FC Tokyo",
+      "short": "M. Nagakura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takahiro Koh",
+      "team": "FC Tokyo",
+      "short": "T. Koh",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shuto Nagano",
+      "team": "FC Tokyo",
+      "short": "S. Nagano",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Marcelo Ryan",
+      "team": "FC Tokyo",
+      "short": "Marcelo Ryan",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kota Tawaratsumida",
+      "team": "FC Tokyo",
+      "short": "K. Tawaratsumida",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Soma Anzai",
+      "team": "FC Tokyo",
+      "short": "S. Anzai",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shuichi Gonda",
+      "team": "Vissel Kobe",
+      "short": "S. Gonda",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Thuler",
+      "team": "Vissel Kobe",
+      "short": "Thuler",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tetsushi Yamakawa",
+      "team": "Vissel Kobe",
+      "short": "T. Yamakawa",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Diego",
+      "team": "Vissel Kobe",
+      "short": "Diego",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Gotoku Sakai",
+      "team": "Vissel Kobe",
+      "short": "G. Sakai",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuya Kuwasaki",
+      "team": "Vissel Kobe",
+      "short": "Y. Kuwasaki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Erik",
+      "team": "Vissel Kobe",
+      "short": "Erik",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yosuke Ideguchi",
+      "team": "Vissel Kobe",
+      "short": "Y. Ideguchi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuya Osako",
+      "team": "Vissel Kobe",
+      "short": "Y. Osako",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Katsuya Nagato",
+      "team": "Vissel Kobe",
+      "short": "K. Nagato",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yoshinori Muto",
+      "team": "Vissel Kobe",
+      "short": "Y. Muto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Svend Brodersen",
+      "team": "Kawasaki Frontale",
+      "short": "S. Brodersen",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Filip Uremovic",
+      "team": "Kawasaki Frontale",
+      "short": "F. Uremovic",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pedro Romano",
+      "team": "Kawasaki Frontale",
+      "short": "Pedro Romano",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sota Miura",
+      "team": "Kawasaki Frontale",
+      "short": "S. Miura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Asahi Sasaki",
+      "team": "Kawasaki Frontale",
+      "short": "A. Sasaki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yasuto Wakisaka",
+      "team": "Kawasaki Frontale",
+      "short": "Y. Wakisaka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuki Yamamoto",
+      "team": "Kawasaki Frontale",
+      "short": "Y. Yamamoto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kento Tachibanada",
+      "team": "Kawasaki Frontale",
+      "short": "K. Tachibanada",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Derik Lacerda",
+      "team": "Kawasaki Frontale",
+      "short": "D. Lacerda",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Marcinho",
+      "team": "Kawasaki Frontale",
+      "short": "Marcinho",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tatsuya Ito",
+      "team": "Kawasaki Frontale",
+      "short": "T. Ito",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tomoki Hayakawa",
+      "team": "Kashima Antlers",
+      "short": "T. Hayakawa",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ikuma Sekigawa",
+      "team": "Kashima Antlers",
+      "short": "I. Sekigawa",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Naomichi Ueda",
+      "team": "Kashima Antlers",
+      "short": "N. Ueda",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sho Omori",
+      "team": "Kashima Antlers",
+      "short": "S. Omori",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Keisuke Tsukui",
+      "team": "Kashima Antlers",
+      "short": "K. Tsukui",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matheus Bueno",
+      "team": "Kashima Antlers",
+      "short": "M. Bueno",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Gaku Shibasaki",
+      "team": "Kashima Antlers",
+      "short": "G. Shibasaki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Élber",
+      "team": "Kashima Antlers",
+      "short": "Élber",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Haruki Hayashi",
+      "team": "Kashima Antlers",
+      "short": "H. Hayashi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Aleksandar Cavric",
+      "team": "Kashima Antlers",
+      "short": "A. Cavric",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Léo Pereira",
+      "team": "Kashima Antlers",
+      "short": "L. Pereira",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Halls",
+      "team": "Kyoto Sanga",
+      "short": "Halls",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yoshinori Suzuki",
+      "team": "Kyoto Sanga",
+      "short": "Y. Suzuki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kodai Nagata",
+      "team": "Kyoto Sanga",
+      "short": "K. Nagata",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yusuke Ishida",
+      "team": "Kyoto Sanga",
+      "short": "Y. Ishida",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hiroto Morooka",
+      "team": "Kyoto Sanga",
+      "short": "H. Morooka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yoon Sung-Jun",
+      "team": "Kyoto Sanga",
+      "short": "S. Yoon",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takaaki Shichi",
+      "team": "Kyoto Sanga",
+      "short": "T. Shichi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kyo Sato",
+      "team": "Kyoto Sanga",
+      "short": "K. Sato",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takumi Kato",
+      "team": "Kyoto Sanga",
+      "short": "T. Kato",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Haruki Arai",
+      "team": "Kyoto Sanga",
+      "short": "H. Arai",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ryuma Nakano",
+      "team": "Kyoto Sanga",
+      "short": "R. Nakano",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kosuke Nakamura",
+      "team": "Cerezo Osaka",
+      "short": "K. Nakamura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Travis Takahashi",
+      "team": "Cerezo Osaka",
+      "short": "T. Takahashi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Rikito Inoue",
+      "team": "Cerezo Osaka",
+      "short": "R. Inoue",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dion Cools",
+      "team": "Cerezo Osaka",
+      "short": "D. Cools",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jackson Irvine",
+      "team": "Cerezo Osaka",
+      "short": "J. Irvine",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shunta Tanaka",
+      "team": "Cerezo Osaka",
+      "short": "S. Tanaka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ayumu Ohata",
+      "team": "Cerezo Osaka",
+      "short": "A. Ohata",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hayato Okuda",
+      "team": "Cerezo Osaka",
+      "short": "H. Okuda",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pablo Sabbag",
+      "team": "Cerezo Osaka",
+      "short": "P. Sabbag",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yota Komi",
+      "team": "Cerezo Osaka",
+      "short": "Y. Komi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lucas Fernandes",
+      "team": "Cerezo Osaka",
+      "short": "L. Fernandes",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Daniel Schmidt",
+      "team": "Nagoya Grampus",
+      "short": "D. Schmidt",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Haruya Fujii",
+      "team": "Nagoya Grampus",
+      "short": "H. Fujii",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tomoki Takamine",
+      "team": "Nagoya Grampus",
+      "short": "T. Takamine",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Teruki Hara",
+      "team": "Nagoya Grampus",
+      "short": "T. Hara",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tsukasa Morishima",
+      "team": "Nagoya Grampus",
+      "short": "T. Morishima",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sho Inagaki",
+      "team": "Nagoya Grampus",
+      "short": "S. Inagaki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ryuji Izumi",
+      "team": "Nagoya Grampus",
+      "short": "R. Izumi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takuya Uchida",
+      "team": "Nagoya Grampus",
+      "short": "T. Uchida",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kensuke Nagai",
+      "team": "Nagoya Grampus",
+      "short": "K. Nagai",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yudai Kimura",
+      "team": "Nagoya Grampus",
+      "short": "Y. Kimura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuki Nogami",
+      "team": "Nagoya Grampus",
+      "short": "Y. Nogami",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kosei Tani",
+      "team": "Machida Zelvia",
+      "short": "K. Tani",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Daihachi Okamura",
+      "team": "Machida Zelvia",
+      "short": "D. Okamura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Thomas Ouwejan",
+      "team": "Machida Zelvia",
+      "short": "T. Ouwejan",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Gen Shoji",
+      "team": "Machida Zelvia",
+      "short": "G. Shoji",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Neta Lavi",
+      "team": "Machida Zelvia",
+      "short": "N. Lavi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hiroyuki Mae",
+      "team": "Machida Zelvia",
+      "short": "H. Mae",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takahiro Akimoto",
+      "team": "Machida Zelvia",
+      "short": "T. Akimoto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Henry Mochizuki",
+      "team": "Machida Zelvia",
+      "short": "H. Mochizuki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tete Yengi",
+      "team": "Machida Zelvia",
+      "short": "T. Yengi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuki Soma",
+      "team": "Machida Zelvia",
+      "short": "Y. Soma",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Koki Ogawa",
+      "team": "Machida Zelvia",
+      "short": "K. Ogawa",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Togo Umeda",
+      "team": "Shimizu S-Pulse",
+      "short": "T. Umeda",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuki Honda",
+      "team": "Shimizu S-Pulse",
+      "short": "Y. Honda",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sodai Hasukawa",
+      "team": "Shimizu S-Pulse",
+      "short": "S. Hasukawa",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mateus Brunetti Valor",
+      "team": "Shimizu S-Pulse",
+      "short": "M. Brunetti Valor",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hidehiro Sugai",
+      "team": "Shimizu S-Pulse",
+      "short": "H. Sugai",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Masaki Yumiba",
+      "team": "Shimizu S-Pulse",
+      "short": "M. Yumiba",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kai Matsuzaki",
+      "team": "Shimizu S-Pulse",
+      "short": "K. Matsuzaki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kei Koizumi",
+      "team": "Shimizu S-Pulse",
+      "short": "K. Koizumi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Oh Se-Hun",
+      "team": "Shimizu S-Pulse",
+      "short": "O. Se-Hun",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kenta Inoue",
+      "team": "Shimizu S-Pulse",
+      "short": "K. Inoue",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ryo Germain",
+      "team": "Shimizu S-Pulse",
+      "short": "R. Germain",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Keisuke Osako",
+      "team": "Sanfrecce Hiroshima",
+      "short": "K. Osako",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hayato Araki",
+      "team": "Sanfrecce Hiroshima",
+      "short": "H. Araki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shunki Higashi",
+      "team": "Sanfrecce Hiroshima",
+      "short": "S. Higashi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shuto Nakano",
+      "team": "Sanfrecce Hiroshima",
+      "short": "S. Nakano",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yotaro Nakajima",
+      "team": "Sanfrecce Hiroshima",
+      "short": "Y. Nakajima",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hayao Kawabe",
+      "team": "Sanfrecce Hiroshima",
+      "short": "H. Kawabe",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Daiki Suga",
+      "team": "Sanfrecce Hiroshima",
+      "short": "D. Suga",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Naoto Arai",
+      "team": "Sanfrecce Hiroshima",
+      "short": "N. Arai",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sébastien Haller",
+      "team": "Sanfrecce Hiroshima",
+      "short": "S. Haller",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shun Ayukawa",
+      "team": "Sanfrecce Hiroshima",
+      "short": "S. Ayukawa",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Akito Suzuki",
+      "team": "Sanfrecce Hiroshima",
+      "short": "A. Suzuki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Masaaki Goto",
+      "team": "V-Varen Nagasaki",
+      "short": "M. Goto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ikki Arai",
+      "team": "V-Varen Nagasaki",
+      "short": "I. Arai",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kanta Doi",
+      "team": "V-Varen Nagasaki",
+      "short": "K. Doi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takuma Ominami",
+      "team": "V-Varen Nagasaki",
+      "short": "T. Ominami",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Motoki Hasegawa",
+      "team": "V-Varen Nagasaki",
+      "short": "M. Hasegawa",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hotaru Yamaguchi",
+      "team": "V-Varen Nagasaki",
+      "short": "H. Yamaguchi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shunya Yoneda",
+      "team": "V-Varen Nagasaki",
+      "short": "S. Yoneda",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Asahi Masuyama",
+      "team": "V-Varen Nagasaki",
+      "short": "A. Masuyama",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jonathan Júnior",
+      "team": "V-Varen Nagasaki",
+      "short": "J. Júnior",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tenmu Matsumoto",
+      "team": "V-Varen Nagasaki",
+      "short": "T. Matsumoto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matheus Jesus",
+      "team": "V-Varen Nagasaki",
+      "short": "M. Jesus",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matheus Vidotto",
+      "team": "Tokyo Verdy 1969",
+      "short": "M. Vidotto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Maaya Sako",
+      "team": "Tokyo Verdy 1969",
+      "short": "M. Sako",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Naoki Hayashi",
+      "team": "Tokyo Verdy 1969",
+      "short": "N. Hayashi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuta Arai",
+      "team": "Tokyo Verdy 1969",
+      "short": "Y. Arai",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kaito Suzuki",
+      "team": "Tokyo Verdy 1969",
+      "short": "K. Suzuki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kosuke Saito",
+      "team": "Tokyo Verdy 1969",
+      "short": "K. Saito",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kai Shibato",
+      "team": "Tokyo Verdy 1969",
+      "short": "K. Shibato",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuya Fukuda",
+      "team": "Tokyo Verdy 1969",
+      "short": "Y. Fukuda",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kanya Fujimoto",
+      "team": "Tokyo Verdy 1969",
+      "short": "K. Fujimoto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Itsuki Someno",
+      "team": "Tokyo Verdy 1969",
+      "short": "I. Someno",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hyun-Woo Kim",
+      "team": "Tokyo Verdy 1969",
+      "short": "H. Kim",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Il-Kyu Park",
+      "team": "Yokohama F. Marinos",
+      "short": "I. Park",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kosei Suwama",
+      "team": "Yokohama F. Marinos",
+      "short": "K. Suwama",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jeisson Quiñones",
+      "team": "Yokohama F. Marinos",
+      "short": "J. Quiñones",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Toichi Suzuki",
+      "team": "Yokohama F. Marinos",
+      "short": "T. Suzuki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takuto Kimura",
+      "team": "Yokohama F. Marinos",
+      "short": "T. Kimura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jun Amano",
+      "team": "Yokohama F. Marinos",
+      "short": "J. Amano",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kosuke Matsumura",
+      "team": "Yokohama F. Marinos",
+      "short": "K. Matsumura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Riku Yamane",
+      "team": "Yokohama F. Marinos",
+      "short": "R. Yamane",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kaina Tanimura",
+      "team": "Yokohama F. Marinos",
+      "short": "K. Tanimura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ryo Miyaichi",
+      "team": "Yokohama F. Marinos",
+      "short": "R. Miyaichi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tomoki Kondo",
+      "team": "Yokohama F. Marinos",
+      "short": "T. Kondo",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "José Suárez",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "J. Suárez",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Boniface Nduka",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "B. Nduka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Daisuke Suzuki",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "D. Suzuki",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Masaru Hidaka",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "M. Hidaka",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Rikuto Ishio",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "R. Ishio",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takuya Yasui",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "T. Yasui",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Luiz Eduardo Fleuri Pacheco",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "L. Fleuri Pacheco",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takumi Tsukui",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "T. Tsukui",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Naohiro Sugiyama",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "N. Sugiyama",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ken Yamura",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "K. Yamura",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Erison",
+      "team": "JEF United Ichihara-Chiba",
+      "short": "Erison",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shusaku Nishikawa",
+      "team": "Urawa Red Diamonds",
+      "short": "S. Nishikawa",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kota Kudo",
+      "team": "Urawa Red Diamonds",
+      "short": "K. Kudo",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Danilo Boza",
+      "team": "Urawa Red Diamonds",
+      "short": "D. Boza",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kotaro Hayashi",
+      "team": "Urawa Red Diamonds",
+      "short": "K. Hayashi",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Miki Yamane",
+      "team": "Urawa Red Diamonds",
+      "short": "M. Yamane",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yuta Miyamoto",
+      "team": "Urawa Red Diamonds",
+      "short": "Y. Miyamoto",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tatsuki Seko",
+      "team": "Urawa Red Diamonds",
+      "short": "T. Seko",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kaito Yasui",
+      "team": "Urawa Red Diamonds",
+      "short": "K. Yasui",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hiiro Komori",
+      "team": "Urawa Red Diamonds",
+      "short": "H. Komori",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matheus Sávio",
+      "team": "Urawa Red Diamonds",
+      "short": "M. Sávio",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Takuro Kaneko",
+      "team": "Urawa Red Diamonds",
+      "short": "T. Kaneko",
+      "league": "j1",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sean Johnson",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Keisuke Kurokawa",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kye Rowles",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lucas Bartlett",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Silvan Hefti",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Andre Dozzell",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brandon Servania",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kimito Nono",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jackson Hopkins",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Oscar Avilez",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tai Baribo",
+      "team": "D.C. United",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Roman Celentano",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kyle Smith",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nick Hagglund",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Andrei Chirila",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Gerardo Valenzuela",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pavel Bucha",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Obinna Nwobodo",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ender Echenique",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Evander",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kevin Denkey",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ayoub Jabbari",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hosei Kijima",
+      "league": "mls",
+      "kind": "injury"
+    },
+    {
+      "name": "Louis Munteanu",
+      "league": "mls",
+      "kind": "injury"
+    },
+    {
+      "name": "Gabe Segal",
+      "league": "mls",
+      "kind": "injury"
+    },
+    {
+      "name": "Julian Malatini",
+      "league": "mls",
+      "kind": "injury"
+    },
+    {
+      "name": "Jose Andres Martinez",
+      "league": "mls",
+      "kind": "injury"
+    },
+    {
+      "name": "Miles Robinson",
+      "league": "mls",
+      "kind": "injury"
+    },
+    {
+      "name": "李凱威",
+      "team": "味全龍",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "郭天信",
+      "team": "味全龍",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "張政禹",
+      "team": "味全龍",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "劉基鴻",
+      "team": "味全龍",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "陳子豪",
+      "team": "味全龍",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "朱育賢",
+      "team": "味全龍",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "劉俊緯",
+      "team": "味全龍",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "蔣少宏",
+      "team": "味全龍",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "曾聖安",
+      "team": "味全龍",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "張士綸",
+      "team": "中信兄弟",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "岳東華",
+      "team": "中信兄弟",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "張仁瑋",
+      "team": "中信兄弟",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "曾頌恩",
+      "team": "中信兄弟",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "陳俊秀",
+      "team": "中信兄弟",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "王政順",
+      "team": "中信兄弟",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "王威晨",
+      "team": "中信兄弟",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "江坤宇",
+      "team": "中信兄弟",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "黃韋盛",
+      "team": "中信兄弟",
+      "league": "cpbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Paul George",
+      "team": "Boston Celtics",
+      "short": "P. George",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jayson Tatum",
+      "team": "Boston Celtics",
+      "short": "J. Tatum",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mitchell Robinson",
+      "team": "Boston Celtics",
+      "short": "M. Robinson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Derrick White",
+      "team": "Boston Celtics",
+      "short": "D. White",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jordan Walsh",
+      "team": "Boston Celtics",
+      "short": "J. Walsh",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Duncan Robinson",
+      "team": "Detroit Pistons",
+      "short": "D. Robinson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "John Collins",
+      "team": "Detroit Pistons",
+      "short": "J. Collins",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jalen Duren",
+      "team": "Detroit Pistons",
+      "short": "J. Duren",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cade Cunningham",
+      "team": "Detroit Pistons",
+      "short": "C. Cunningham",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ausar Thompson",
+      "team": "Detroit Pistons",
+      "short": "A. Thompson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Devin Carter",
+      "league": "nba",
+      "kind": "injury"
+    },
+    {
+      "name": "Taurean Prince",
+      "league": "nba",
+      "kind": "injury"
+    },
+    {
+      "name": "LeBron James",
+      "team": "Philadelphia 76ers",
+      "short": "L. James",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Joel Embiid",
+      "team": "Philadelphia 76ers",
+      "short": "J. Embiid",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kentavious Caldwell-Pope",
+      "team": "Philadelphia 76ers",
+      "short": "K. Caldwell-Pope",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jaylen Brown",
+      "team": "Philadelphia 76ers",
+      "short": "J. Brown",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tyrese Maxey",
+      "team": "Philadelphia 76ers",
+      "short": "T. Maxey",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "OG Anunoby",
+      "team": "New York Knicks",
+      "short": "O. Anunoby",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mohamed Diawara",
+      "team": "New York Knicks",
+      "short": "M. Diawara",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Karl-Anthony Towns",
+      "team": "New York Knicks",
+      "short": "K. Towns",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mikal Bridges",
+      "team": "New York Knicks",
+      "short": "M. Bridges",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jalen Brunson",
+      "team": "New York Knicks",
+      "short": "J. Brunson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Isaiah Hartenstein",
+      "team": "Oklahoma City Thunder",
+      "short": "I. Hartenstein",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alex Caruso",
+      "team": "Oklahoma City Thunder",
+      "short": "A. Caruso",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shai Gilgeous-Alexander",
+      "team": "Oklahoma City Thunder",
+      "short": "S. Gilgeous-Alexander",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jalen Williams",
+      "team": "Oklahoma City Thunder",
+      "short": "Jal. Williams",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ajay Mitchell",
+      "team": "Oklahoma City Thunder",
+      "short": "A. Mitchell",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Victor Wembanyama",
+      "team": "San Antonio Spurs",
+      "short": "V. Wembanyama",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "De'Aaron Fox",
+      "team": "San Antonio Spurs",
+      "short": "D. Fox",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Devin Vassell",
+      "team": "San Antonio Spurs",
+      "short": "D. Vassell",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Stephon Castle",
+      "team": "San Antonio Spurs",
+      "short": "S. Castle",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dylan Harper",
+      "team": "San Antonio Spurs",
+      "short": "D. Harper",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Onyeka Okongwu",
+      "team": "Atlanta Hawks",
+      "short": "O. Okongwu",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jalen Johnson",
+      "team": "Atlanta Hawks",
+      "short": "J. Johnson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "CJ McCollum",
+      "team": "Atlanta Hawks",
+      "short": "C. McCollum",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nickeil Alexander-Walker",
+      "team": "Atlanta Hawks",
+      "short": "N. Alexander-Walker",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dyson Daniels",
+      "team": "Atlanta Hawks",
+      "short": "D. Daniels",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Paolo Banchero",
+      "team": "Orlando Magic",
+      "short": "P. Banchero",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Franz Wagner",
+      "team": "Orlando Magic",
+      "short": "F. Wagner",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Wendell Carter Jr.",
+      "team": "Orlando Magic",
+      "short": "W. Carter Jr.",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Desmond Bane",
+      "team": "Orlando Magic",
+      "short": "D. Bane",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jalen Suggs",
+      "team": "Orlando Magic",
+      "short": "J. Suggs",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kyle Kuzma",
+      "team": "Milwaukee Bucks",
+      "short": "K. Kuzma",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jaime Jaquez Jr.",
+      "team": "Milwaukee Bucks",
+      "short": "J. Jaquez Jr.",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Myles Turner",
+      "team": "Milwaukee Bucks",
+      "short": "M. Turner",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tyler Herro",
+      "team": "Milwaukee Bucks",
+      "short": "T. Herro",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ryan Rollins",
+      "team": "Milwaukee Bucks",
+      "short": "R. Rollins",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Anthony Davis",
+      "team": "Washington Wizards",
+      "short": "A. Davis",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "AJ Dybantsa",
+      "team": "Washington Wizards",
+      "short": "A. Dybantsa",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kyshawn George",
+      "team": "Washington Wizards",
+      "short": "K. George",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alex Sarr",
+      "team": "Washington Wizards",
+      "short": "A. Sarr",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Trae Young",
+      "team": "Washington Wizards",
+      "short": "T. Young",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cody Williams",
+      "team": "Minnesota Timberwolves",
+      "short": "C. Williams",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Joan Beringer",
+      "team": "Minnesota Timberwolves",
+      "short": "J. Beringer",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jaylen Clark",
+      "team": "Minnesota Timberwolves",
+      "short": "J. Clark",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Terrence Shannon Jr.",
+      "team": "Minnesota Timberwolves",
+      "short": "T. Shannon Jr.",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zyon Pullin",
+      "team": "Minnesota Timberwolves",
+      "short": "Z. Pullin",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Andrew Wiggins",
+      "team": "Miami Heat",
+      "short": "A. Wiggins",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Bobby Portis",
+      "team": "Miami Heat",
+      "short": "B. Portis",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nikola Jovic",
+      "team": "Miami Heat",
+      "short": "N. Jovic",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Klay Thompson",
+      "team": "Miami Heat",
+      "short": "K. Thompson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Davion Mitchell",
+      "team": "Miami Heat",
+      "short": "D. Mitchell",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brandon Miller",
+      "team": "Charlotte Hornets",
+      "short": "B. Miller",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Naz Reid",
+      "team": "Charlotte Hornets",
+      "short": "N. Reid",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ryan Kalkbrenner",
+      "team": "Charlotte Hornets",
+      "short": "R. Kalkbrenner",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dennis Schroder",
+      "team": "Charlotte Hornets",
+      "short": "D. Schroder",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sion James",
+      "team": "Charlotte Hornets",
+      "short": "S. James",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Julius Randle",
+      "team": "Brooklyn Nets",
+      "short": "J. Randle",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Michael Porter Jr.",
+      "team": "Brooklyn Nets",
+      "short": "M. Porter Jr.",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Day'Ron Sharpe",
+      "team": "Brooklyn Nets",
+      "short": "D. Sharpe",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Keon Ellis",
+      "team": "Brooklyn Nets",
+      "short": "K. Ellis",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Egor Demin",
+      "team": "Brooklyn Nets",
+      "short": "E. Demin",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jalen Smith",
+      "team": "Chicago Bulls",
+      "short": "J. Smith",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matas Buzelis",
+      "team": "Chicago Bulls",
+      "short": "M. Buzelis",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Caleb Wilson",
+      "team": "Chicago Bulls",
+      "short": "C. Wilson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Norman Powell",
+      "team": "Chicago Bulls",
+      "short": "N. Powell",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Josh Giddey",
+      "team": "Chicago Bulls",
+      "short": "J. Giddey",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Trayce Jackson-Davis",
+      "team": "Toronto Raptors",
+      "short": "T. Jackson-Davis",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Allen Graves",
+      "team": "Toronto Raptors",
+      "short": "A. Graves",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jaden Bradley",
+      "team": "Toronto Raptors",
+      "short": "J. Bradley",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nimari Burnett",
+      "team": "Toronto Raptors",
+      "short": "N. Burnett",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alijah Martin",
+      "team": "Toronto Raptors",
+      "short": "A. Martin",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lauri Markkanen",
+      "team": "Utah Jazz",
+      "short": "L. Markkanen",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jaren Jackson Jr.",
+      "team": "Utah Jazz",
+      "short": "J. Jackson Jr.",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jaxson Hayes",
+      "team": "Utah Jazz",
+      "short": "J. Hayes",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Keyonte George",
+      "team": "Utah Jazz",
+      "short": "K. George",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Darryn Peterson",
+      "team": "Utah Jazz",
+      "short": "D. Peterson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kris Murray",
+      "team": "Memphis Grizzlies",
+      "short": "K. Murray",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cedric Coward",
+      "team": "Memphis Grizzlies",
+      "short": "C. Coward",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cameron Boozer",
+      "team": "Memphis Grizzlies",
+      "short": "C. Boozer",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zach Edey",
+      "team": "Memphis Grizzlies",
+      "short": "Z. Edey",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ty Jerome",
+      "team": "Memphis Grizzlies",
+      "short": "T. Jerome",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pascal Siakam",
+      "team": "Indiana Pacers",
+      "short": "P. Siakam",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ivica Zubac",
+      "team": "Indiana Pacers",
+      "short": "I. Zubac",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kelly Oubre Jr.",
+      "team": "Indiana Pacers",
+      "short": "K. Oubre Jr.",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Andrew Nembhard",
+      "team": "Indiana Pacers",
+      "short": "A. Nembhard",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tyrese Haliburton",
+      "team": "Indiana Pacers",
+      "short": "T. Haliburton",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Herbert Jones",
+      "team": "New Orleans Pelicans",
+      "short": "H. Jones",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zion Williamson",
+      "team": "New Orleans Pelicans",
+      "short": "Z. Williamson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Trey Murphy III",
+      "team": "New Orleans Pelicans",
+      "short": "T. Murphy III",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yves Missi",
+      "team": "New Orleans Pelicans",
+      "short": "Y. Missi",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jeremiah Fears",
+      "team": "New Orleans Pelicans",
+      "short": "J. Fears",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Daniel Gafford",
+      "team": "Dallas Mavericks",
+      "short": "D. Gafford",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "P.J. Washington",
+      "team": "Dallas Mavericks",
+      "short": "P.J. Washington",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cooper Flagg",
+      "team": "Dallas Mavericks",
+      "short": "C. Flagg",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zaccharie Risacher",
+      "team": "Dallas Mavericks",
+      "short": "Z. Risacher",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kyrie Irving",
+      "team": "Dallas Mavericks",
+      "short": "K. Irving",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kevin Durant",
+      "team": "Houston Rockets",
+      "short": "K. Durant",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jabari Smith Jr.",
+      "team": "Houston Rockets",
+      "short": "J. Smith Jr.",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alperen Sengun",
+      "team": "Houston Rockets",
+      "short": "A. Sengun",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Fred VanVleet",
+      "team": "Houston Rockets",
+      "short": "F. VanVleet",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Amen Thompson",
+      "team": "Houston Rockets",
+      "short": "A. Thompson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Draymond Green",
+      "team": "Golden State Warriors",
+      "short": "D. Green",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yaxel Lendeborg",
+      "team": "Golden State Warriors",
+      "short": "Y. Lendeborg",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Charles Bassey",
+      "team": "Golden State Warriors",
+      "short": "C. Bassey",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Stephen Curry",
+      "team": "Golden State Warriors",
+      "short": "S. Curry",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brandin Podziemski",
+      "team": "Golden State Warriors",
+      "short": "B. Podziemski",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ziaire Williams",
+      "team": "Los Angeles Lakers",
+      "short": "Z. Williams",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Walker Kessler",
+      "team": "Los Angeles Lakers",
+      "short": "W. Kessler",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matisse Thybulle",
+      "team": "Los Angeles Lakers",
+      "short": "M. Thybulle",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Luka Doncic",
+      "team": "Los Angeles Lakers",
+      "short": "L. Doncic",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Austin Reaves",
+      "team": "Los Angeles Lakers",
+      "short": "A. Reaves",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dillon Brooks",
+      "team": "Phoenix Suns",
+      "short": "D. Brooks",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Miles Bridges",
+      "team": "Phoenix Suns",
+      "short": "M. Bridges",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Khaman Maluach",
+      "team": "Phoenix Suns",
+      "short": "K. Maluach",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Devin Booker",
+      "team": "Phoenix Suns",
+      "short": "D. Booker",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jalen Green",
+      "team": "Phoenix Suns",
+      "short": "J. Green",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Toumani Camara",
+      "team": "Portland Trail Blazers",
+      "short": "T. Camara",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Deni Avdija",
+      "team": "Portland Trail Blazers",
+      "short": "D. Avdija",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Donovan Clingan",
+      "team": "Portland Trail Blazers",
+      "short": "D. Clingan",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Damian Lillard",
+      "team": "Portland Trail Blazers",
+      "short": "D. Lillard",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ja Morant",
+      "team": "Portland Trail Blazers",
+      "short": "J. Morant",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Domantas Sabonis",
+      "team": "Sacramento Kings",
+      "short": "D. Sabonis",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Keegan Murray",
+      "team": "Sacramento Kings",
+      "short": "K. Murray",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zach LaVine",
+      "team": "Sacramento Kings",
+      "short": "Z. LaVine",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ben Simmons",
+      "team": "Sacramento Kings",
+      "short": "B. Simmons",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Darius Acuff Jr.",
+      "team": "Sacramento Kings",
+      "short": "D. Acuff Jr.",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Derrick Jones Jr.",
+      "team": "LA Clippers",
+      "short": "D. Jones Jr.",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Rui Hachimura",
+      "team": "LA Clippers",
+      "short": "R. Hachimura",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Isaiah Jackson",
+      "team": "LA Clippers",
+      "short": "I. Jackson",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Darius Garland",
+      "team": "LA Clippers",
+      "short": "D. Garland",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Keaton Wagler",
+      "team": "LA Clippers",
+      "short": "K. Wagler",
+      "league": "nba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kayla Thornton",
+      "team": "Golden State Valkyries",
+      "short": "K. Thornton",
+      "league": "wnba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Gabby Williams",
+      "team": "Golden State Valkyries",
+      "short": "G. Williams",
+      "league": "wnba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cecilia Zandalasini",
+      "team": "Golden State Valkyries",
+      "short": "C. Zandalasini",
+      "league": "wnba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kiah Stokes",
+      "team": "Golden State Valkyries",
+      "short": "K. Stokes",
+      "league": "wnba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Veronica Burton",
+      "team": "Golden State Valkyries",
+      "short": "V. Burton",
+      "league": "wnba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Naz Hillmon",
+      "team": "Atlanta Dream",
+      "short": "N. Hillmon",
+      "league": "wnba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Angel Reese",
+      "team": "Atlanta Dream",
+      "short": "A. Reese",
+      "league": "wnba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Allisha Gray",
+      "team": "Atlanta Dream",
+      "short": "A. Gray",
+      "league": "wnba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jordin Canada",
+      "team": "Atlanta Dream",
+      "short": "J. Canada",
+      "league": "wnba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Rhyne Howard",
+      "team": "Atlanta Dream",
+      "short": "R. Howard",
+      "league": "wnba",
+      "kind": "lineup"
+    },
+    {
+      "name": "Igor Chernyshov",
+      "team": "San Jose Sharks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Macklin Celebrini",
+      "team": "San Jose Sharks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Will Smith",
+      "team": "San Jose Sharks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Darnell Nurse",
+      "team": "San Jose Sharks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Michael Kesselring",
+      "team": "San Jose Sharks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alex Nedeljkovic",
+      "team": "San Jose Sharks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cole Caufield",
+      "team": "Montreal Canadiens",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nick Suzuki",
+      "team": "Montreal Canadiens",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Juraj Slafkovsky",
+      "team": "Montreal Canadiens",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lane Hutson",
+      "team": "Montreal Canadiens",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Noah Dobson",
+      "team": "Montreal Canadiens",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jakub Dobes",
+      "team": "Montreal Canadiens",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Artturi Lehkonen",
+      "team": "Colorado Avalanche",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nathan MacKinnon",
+      "team": "Colorado Avalanche",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nazem Kadri",
+      "team": "Colorado Avalanche",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Devon Toews",
+      "team": "Colorado Avalanche",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cale Makar",
+      "team": "Colorado Avalanche",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Scott Wedgewood",
+      "team": "Colorado Avalanche",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Arseny Gritsyuk",
+      "team": "New Jersey Devils",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jack Hughes",
+      "team": "New Jersey Devils",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jesper Bratt",
+      "team": "New Jersey Devils",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Luke Hughes",
+      "team": "New Jersey Devils",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brett Pesce",
+      "team": "New Jersey Devils",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jake Allen",
+      "team": "New Jersey Devils",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alex Killorn",
+      "team": "Anaheim Ducks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Leo Carlsson",
+      "team": "Anaheim Ducks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nikita Klepov",
+      "team": "Anaheim Ducks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jackson Lacombe",
+      "team": "Anaheim Ducks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Noah Warren",
+      "team": "Anaheim Ducks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lukas Dostal",
+      "team": "Anaheim Ducks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Simon Holmstrom",
+      "team": "New York Islanders",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Bo Horvat",
+      "team": "New York Islanders",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kyle Palmieri",
+      "team": "New York Islanders",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Logan Stanley",
+      "team": "New York Islanders",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matthew Schaefer",
+      "team": "New York Islanders",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ilya Sorokin",
+      "team": "New York Islanders",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Artemi Panarin",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alex Laferriere",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Adrian Kempe",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Erik Gustafsson",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brandt Clarke",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Darcy Kuemper",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alex Tuch",
+      "team": "Washington Capitals",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dylan Strome",
+      "team": "Washington Capitals",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jordan Kyrou",
+      "team": "Washington Capitals",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jakob Chychrun",
+      "team": "Washington Capitals",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matt Roy",
+      "team": "Washington Capitals",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Logan Thompson",
+      "team": "Washington Capitals",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Easton Cowan",
+      "team": "Toronto Maple Leafs",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Auston Matthews",
+      "team": "Toronto Maple Leafs",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jack Roslovic",
+      "team": "Toronto Maple Leafs",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jake McCabe",
+      "team": "Toronto Maple Leafs",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Darren Raddysh",
+      "team": "Toronto Maple Leafs",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Anthony Stolarz",
+      "team": "Toronto Maple Leafs",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matthew Knies",
+      "team": "Columbus Blue Jackets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Adam Fantilli",
+      "team": "Columbus Blue Jackets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kent Johnson",
+      "team": "Columbus Blue Jackets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zach Werenski",
+      "team": "Columbus Blue Jackets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Damon Severson",
+      "team": "Columbus Blue Jackets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jet Greaves",
+      "team": "Columbus Blue Jackets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kyle Connor",
+      "team": "Winnipeg Jets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mark Scheifele",
+      "team": "Winnipeg Jets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cole Perfetti",
+      "team": "Winnipeg Jets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dylan Samberg",
+      "team": "Winnipeg Jets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Neal Pionk",
+      "team": "Winnipeg Jets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Stuart Skinner",
+      "team": "Winnipeg Jets",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dylan Holloway",
+      "team": "St. Louis Blues",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Robert Thomas",
+      "team": "St. Louis Blues",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jimmy Snuggerud",
+      "team": "St. Louis Blues",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Philip Broberg",
+      "team": "St. Louis Blues",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Justin Barron",
+      "team": "St. Louis Blues",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Joel Hofer",
+      "team": "St. Louis Blues",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "JJ Peterka",
+      "team": "Boston Bruins",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pavel Zacha",
+      "team": "Boston Bruins",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "David Pastrnak",
+      "team": "Boston Bruins",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Hampus Lindholm",
+      "team": "Boston Bruins",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Charlie McAvoy",
+      "team": "Boston Bruins",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jeremy Swayman",
+      "team": "Boston Bruins",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sam Steel",
+      "team": "Dallas Stars",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Wyatt Johnston",
+      "team": "Dallas Stars",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mikko Rantanen",
+      "team": "Dallas Stars",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Thomas Harley",
+      "team": "Dallas Stars",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Miro Heiskanen",
+      "team": "Dallas Stars",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jake Oettinger",
+      "team": "Dallas Stars",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kirill Kaprizov",
+      "team": "Minnesota Wild",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Joel Eriksson Ek",
+      "team": "Minnesota Wild",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matt Boldy",
+      "team": "Minnesota Wild",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Quinn Hughes",
+      "team": "Minnesota Wild",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jonas Brodin",
+      "team": "Minnesota Wild",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jesper Wallstedt",
+      "team": "Minnesota Wild",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Vasily Podkolzin",
+      "team": "Edmonton Oilers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Connor McDavid",
+      "team": "Edmonton Oilers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Leon Draisaitl",
+      "team": "Edmonton Oilers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mattias Ekholm",
+      "team": "Edmonton Oilers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Evan Bouchard",
+      "team": "Edmonton Oilers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Devon Levi",
+      "team": "Edmonton Oilers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Viktor Arvidsson",
+      "team": "Detroit Red Wings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dylan Larkin",
+      "team": "Detroit Red Wings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lucas Raymond",
+      "team": "Detroit Red Wings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ben Chiarot",
+      "team": "Detroit Red Wings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Moritz Seider",
+      "team": "Detroit Red Wings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Daniil Tarasov",
+      "team": "Detroit Red Wings",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jared McCann",
+      "team": "Seattle Kraken",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matty Beniers",
+      "team": "Seattle Kraken",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jordan Eberle",
+      "team": "Seattle Kraken",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Vince Dunn",
+      "team": "Seattle Kraken",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Adam Larsson",
+      "team": "Seattle Kraken",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Philipp Grubauer",
+      "team": "Seattle Kraken",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Andrei Svechnikov",
+      "team": "Carolina Hurricanes",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sebastian Aho",
+      "team": "Carolina Hurricanes",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "William Carrier",
+      "team": "Carolina Hurricanes",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jaccob Slavin",
+      "team": "Carolina Hurricanes",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jalen Chatfield",
+      "team": "Carolina Hurricanes",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pyotr Kochetkov",
+      "team": "Carolina Hurricanes",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jake DeBrusk",
+      "team": "Vancouver Canucks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Elias Pettersson",
+      "team": "Vancouver Canucks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Linus Karlsson",
+      "team": "Vancouver Canucks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Elias Nils Pettersson",
+      "team": "Vancouver Canucks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Filip Hronek",
+      "team": "Vancouver Canucks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Leevi Merilainen",
+      "team": "Vancouver Canucks",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brandon Hagel",
+      "team": "Tampa Bay Lightning",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Anthony Cirelli",
+      "team": "Tampa Bay Lightning",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nikita Kucherov",
+      "team": "Tampa Bay Lightning",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "J.J. Moser",
+      "team": "Tampa Bay Lightning",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "John Carlson",
+      "team": "Tampa Bay Lightning",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Andrei Vasilevskiy",
+      "team": "Tampa Bay Lightning",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ivan Barbashev",
+      "team": "Vegas Golden Knights",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jack Eichel",
+      "team": "Vegas Golden Knights",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mark Stone",
+      "team": "Vegas Golden Knights",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brayden McNabb",
+      "team": "Vegas Golden Knights",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shea Theodore",
+      "team": "Vegas Golden Knights",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Carter Hart",
+      "team": "Vegas Golden Knights",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Trevor Zegras",
+      "team": "Philadelphia Flyers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Christian Dvorak",
+      "team": "Philadelphia Flyers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Noel Acciari",
+      "team": "Philadelphia Flyers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Travis Sanheim",
+      "team": "Philadelphia Flyers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Oliver Bonk",
+      "team": "Philadelphia Flyers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dan Vladar",
+      "team": "Philadelphia Flyers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Josh Doan",
+      "team": "Buffalo Sabres",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jiri Kulich",
+      "team": "Buffalo Sabres",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tage Thompson",
+      "team": "Buffalo Sabres",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mattias Samuelsson",
+      "team": "Buffalo Sabres",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Rasmus Dahlin",
+      "team": "Buffalo Sabres",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ukko-Pekka Luukkonen",
+      "team": "Buffalo Sabres",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brady Tkachuk",
+      "team": "Florida Panthers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sam Bennett",
+      "team": "Florida Panthers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Matthew Tkachuk",
+      "team": "Florida Panthers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Gustav Forsling",
+      "team": "Florida Panthers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Aaron Ekblad",
+      "team": "Florida Panthers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Akira Schmid",
+      "team": "Florida Panthers",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Warren Foegele",
+      "team": "Ottawa Senators",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tim Stützle",
+      "team": "Ottawa Senators",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Claude Giroux",
+      "team": "Ottawa Senators",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jake Sanderson",
+      "team": "Ottawa Senators",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Artem Zub",
+      "team": "Ottawa Senators",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Linus Ullmark",
+      "team": "Ottawa Senators",
+      "league": "nhl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dolganov Filipp",
+      "team": "Neftekhimik",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Mityakin Evgeny",
+      "team": "Neftekhimik",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nadvorny Matvei",
+      "team": "Neftekhimik",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pastukhov Ilya",
+      "team": "Neftekhimik",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Serikov Artyom",
+      "team": "Neftekhimik",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tyanulin Artur",
+      "team": "Neftekhimik",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Bereglazov Alexei",
+      "team": "Lokomotiv",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yelesin Alexander",
+      "team": "Lokomotiv",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kayumov Artur",
+      "team": "Lokomotiv",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Melnichuk Alexei",
+      "team": "Lokomotiv",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pustovoi Andrei",
+      "team": "Lokomotiv",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shalunov Maxim",
+      "team": "Lokomotiv",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dietz Darren",
+      "team": "Sibir",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Korshkov Yegor",
+      "team": "Sibir",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Koshelev Semyon",
+      "team": "Sibir",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Krasotkin Anton",
+      "team": "Sibir",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nekolenko Arkhip",
+      "team": "Sibir",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Smirnov Nikita And.",
+      "team": "Sibir",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Merkley Nick",
+      "team": "Dynamo Msk",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Motorygin Maxim",
+      "team": "Dynamo Msk",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ozhiganov Igor",
+      "team": "Dynamo Msk",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pylenkov Daniil",
+      "team": "Dynamo Msk",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shafigullin Bulat",
+      "team": "Dynamo Msk",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shen Pavel",
+      "team": "Dynamo Msk",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Alikin Evgeny",
+      "team": "Avtomobilist",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Vorobyov Kirill",
+      "team": "Avtomobilist",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kadeikin Alexander",
+      "team": "Avtomobilist",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Karpukhin Ilya",
+      "team": "Avtomobilist",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Ruzicka Adam",
+      "team": "Avtomobilist",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Slepyshev Anton",
+      "team": "Avtomobilist",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pleshkov Artemy",
+      "team": "SKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Miromanov Daniil",
+      "team": "SKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Savikov Yegor",
+      "team": "SKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Goldobin Nikolai",
+      "team": "SKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Plotnikov Sergei",
+      "team": "SKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Korotky Matvei",
+      "team": "SKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Bailey Justin",
+      "team": "Barys",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Day Logan",
+      "team": "Barys",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Massie Jake",
+      "team": "Barys",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Omirbekov Alikhan",
+      "team": "Barys",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Pilon Garrett",
+      "team": "Barys",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shutov Andrei A.",
+      "team": "Barys",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Boyarkin Nikita",
+      "team": "Admiral",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kroshchinsky Fyodor",
+      "team": "Admiral",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Muranov Ivan",
+      "team": "Admiral",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Usmanov Daniel",
+      "team": "Admiral",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Chezganov Yegor",
+      "team": "Admiral",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sulak Libor",
+      "team": "Admiral",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brosseau Devin",
+      "team": "Salavat Yulaev",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Vyazovoi Semyon",
+      "team": "Salavat Yulaev",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zorkin Nikita",
+      "team": "Salavat Yulaev",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kulik Evgeny",
+      "team": "Salavat Yulaev",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Rempal Sheldon",
+      "team": "Salavat Yulaev",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Rodewald Jack",
+      "team": "Salavat Yulaev",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Vovchenko Daniil",
+      "team": "Metallurg Mg",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Orekhov Valery",
+      "team": "Metallurg Mg",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Siryatsky Alexander",
+      "team": "Metallurg Mg",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Smolin Alexander S.",
+      "team": "Metallurg Mg",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Todd Nathan",
+      "team": "Metallurg Mg",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Tolchinsky Sergei",
+      "team": "Metallurg Mg",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Brickey Ronald",
+      "team": "Torpedo",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Geraskin Igor",
+      "team": "Torpedo",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kraskovsky Pavel",
+      "team": "Torpedo",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sizov Anton",
+      "team": "Torpedo",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Firstov Vladislav",
+      "team": "Torpedo",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Shugayev Dmitry",
+      "team": "Torpedo",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Bilyalov Timur",
+      "team": "Ak Bars",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Lyamkin Nikita",
+      "team": "Ak Bars",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Miller Mitchell",
+      "team": "Ak Bars",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Semyonov Kirill E.",
+      "team": "Ak Bars",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Chmelevski Alexander",
+      "team": "Ak Bars",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Yakupov Ravil",
+      "team": "Ak Bars",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Menell Brennan",
+      "team": "Dragons",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Miftakhov Amir",
+      "team": "Dragons",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Murray Brett",
+      "team": "Dragons",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Sutter Riley",
+      "team": "Dragons",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Solovyov Yegor S.",
+      "team": "Dragons",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cicek Nick",
+      "team": "Dragons",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Veryayev Danil",
+      "team": "Severstal",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Gregoire Thomas",
+      "team": "Severstal",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Dumbadze David",
+      "team": "Severstal",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kaldis Ioannis",
+      "team": "Severstal",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Podshivalov Ivan",
+      "team": "Severstal",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Samoilov Alexander",
+      "team": "Severstal",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Guryanov Denis",
+      "team": "CSKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Drozdov Ivan",
+      "team": "CSKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zamula Yegor",
+      "team": "CSKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Kovalenko Nikolai",
+      "team": "CSKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Nesterov Nikita D.",
+      "team": "CSKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Samonov Alexander",
+      "team": "CSKA",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Zagidulin Artyom",
+      "team": "Spartak",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Jaros Christian",
+      "team": "Spartak",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Orlov Daniil R.",
+      "team": "Spartak",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Filin Yegor",
+      "team": "Spartak",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Belyayev Alexander Vl.",
+      "team": "Spartak",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Maltsev Mikhail G.",
+      "team": "Spartak",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Adamchuk Kirill",
+      "team": "Avangard",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Afanasyev Yegor Y.",
+      "team": "Avangard",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "McLeod Michael",
+      "team": "Avangard",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Okulov Konstantin",
+      "team": "Avangard",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Serebryakov Nikita",
+      "team": "Avangard",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "Cecconi Joseph",
+      "team": "Avangard",
+      "league": "khl",
+      "kind": "lineup"
+    },
+    {
+      "name": "허훈",
+      "team": "부산 KCC",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "허웅",
+      "team": "부산 KCC",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "숀 롱",
+      "team": "부산 KCC",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "루이스 킹",
+      "team": "부산 KCC",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "김동현",
+      "team": "부산 KCC",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "케렘 칸터",
+      "team": "서울 삼성",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "한호빈",
+      "team": "서울 삼성",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "저스틴 구탕",
+      "team": "서울 삼성",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "이규태",
+      "team": "서울 삼성",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "크리스 맥컬러",
+      "team": "서울 삼성",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "양홍석",
+      "team": "창원 LG",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "아셈 마레이",
+      "team": "창원 LG",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "양준석",
+      "team": "창원 LG",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "아치 굿윈",
+      "team": "창원 LG",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "칼 타마요",
+      "team": "창원 LG",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "이우석",
+      "team": "울산 현대모비스",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "게이지 프림",
+      "team": "울산 현대모비스",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "박무빈",
+      "team": "울산 현대모비스",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "서명진",
+      "team": "울산 현대모비스",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "다리우스 베즐리",
+      "team": "울산 현대모비스",
+      "league": "kbl",
+      "kind": "lineup"
+    },
+    {
+      "name": "유광우",
+      "team": "삼성화재",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "이우진",
+      "team": "삼성화재",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "김준우",
+      "team": "삼성화재",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "호키",
+      "team": "삼성화재",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "김우진",
+      "team": "삼성화재",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "양수현",
+      "team": "삼성화재",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "김대환",
+      "team": "OK저축은행",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "김정호",
+      "team": "OK저축은행",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "페이즈",
+      "team": "OK저축은행",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "러셀",
+      "team": "OK저축은행",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "전광인",
+      "team": "OK저축은행",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "박창성",
+      "team": "OK저축은행",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "이민규",
+      "team": "한국전력",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "윤하준",
+      "team": "한국전력",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "신영석",
+      "team": "한국전력",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "쇼",
+      "team": "한국전력",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "우스만",
+      "team": "한국전력",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "진지위",
+      "team": "한국전력",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "한태준",
+      "team": "우리카드",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "김형근",
+      "team": "우리카드",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "박진우",
+      "team": "우리카드",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "아라우조",
+      "team": "우리카드",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "이시몬",
+      "team": "우리카드",
+      "league": "kovo",
+      "kind": "lineup"
+    },
+    {
+      "name": "마틴",
+      "team": "우리카드",
+      "league": "kovo",
+      "kind": "lineup"
+    }
+  ],
+  "failures": []
+}

@@ -18,6 +18,7 @@ const run = code => vm.runInContext(code, context);
 for (const [name, expected] of [
   ['Alisson Becker', '알리송 베커'], ['Alisson', '알리송 베커'],
   ['Onyeka Okongwu', '오니에카 오콩우'],
+  ['Nickeil Alexander-Walker', '니킬 알렉산더워커'],
   ['Jayson Tatum', '제이슨 테이텀'],
   ['Kentavious Caldwell‑Pope', '켄타비우스 콜드웰-폽'],
   ['Joshua Kimmich', '요주아 키미히'],
@@ -41,7 +42,45 @@ assert.match(run(`teamCard({team:{displayName:'Liverpool'},homeAway:'home'},[{na
 run(`language='ko'`);
 const collisions = run(`Object.entries(naverKo).filter(([name,korean])=>naverKoNormalized[normalizePlayerName(name)]!==korean)`);
 assert.equal(collisions.length, 0, `Conflicting normalized names: ${JSON.stringify(collisions)}`);
+const reviewed = JSON.parse(fs.readFileSync(new URL('./player-name-source-review.json', import.meta.url), 'utf8')).entries;
+assert.equal(new Set(reviewed.map(row=>row.name)).size, reviewed.length, 'Duplicate source review names');
+for (const row of reviewed) {
+  assert.ok(row.source.startsWith('https://'), `Missing source: ${row.name}`);
+  assert.equal(run(`translated(${JSON.stringify(row.name)})`), row.korean, `Source review: ${row.name}`);
+}
 console.log(`Player names and both rendering paths passed. Reviewed dictionary: ${run('Object.keys(playerKo).length')} names/aliases.`);
+
+// Unlike snapshot-only audits, this inventory also covers ESPN live starters,
+// recent-game fallback starters and injury names collected by the actual renderers.
+if (process.argv.includes('--inventory')) {
+  const input = process.argv[process.argv.indexOf('--inventory') + 1];
+  assert.ok(input, '--inventory requires a collected inventory path');
+  const inventory = JSON.parse(fs.readFileSync(input, 'utf8'));
+  const exceptions = JSON.parse(fs.readFileSync(new URL('./player-name-exceptions.json', import.meta.url), 'utf8')).entries;
+  const allowed = new Set(exceptions.map(row => row.name));
+  const names = [...new Map(inventory.records.map(row => [row.name, row])).values()];
+  const pending = [], english = [];
+  for (const row of names) {
+    context.checkedPlayer = row;
+    run(`language='ko'`);
+    const korean = run('translated(checkedPlayer.name,checkedPlayer.short)');
+    if (/\p{Script=Latin}/u.test(row.name) && korean === row.name) {
+      (allowed.has(row.name) ? english : pending).push(row);
+    }
+    run(`language='en'`);
+    if (/\p{Script=Latin}/u.test(row.name)) {
+      assert.equal(run('translated(checkedPlayer.name,checkedPlayer.short)'), row.name.normalize('NFD').replace(/\p{M}/gu,''), `English: ${row.name}`);
+    }
+  }
+  run(`language='ko'`);
+  const report = {collectedAt:inventory.at, totalNames:names.length, mapped:names.length-pending.length-english.length, reviewedEnglish:english, pending, fetchFailures:inventory.failures};
+  fs.writeFileSync(new URL('./player-name-live-audit.json', import.meta.url), JSON.stringify(report,null,2)+'\n');
+  console.log(`Live inventory: ${report.totalNames} names; ${report.mapped} mapped, ${english.length} reviewed English exceptions, ${pending.length} unchecked.`);
+  if (process.argv.includes('--require-reviewed')) {
+    assert.equal(inventory.failures.length, 0, 'Inventory collection has fetch failures');
+    assert.equal(pending.length, 0, `Unchecked live player names: ${pending.map(row=>row.name).join(', ')}`);
+  }
+}
 
 // Audit every supplied league and date, including both injury data formats.
 // A missing dictionary entry means "needs review", never "no Korean name exists".
