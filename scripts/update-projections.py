@@ -188,7 +188,7 @@ def scrape_khl():
     upcoming = []
     for row in rows:
         game = row.get('event', row)
-        if game.get('type_id') != 24 or not game.get('start_at'):
+        if game.get('type_id') not in (18, 24) or not game.get('start_at'):
             continue
         upcoming.append(game)
     upcoming_teams = {str(team.get('id')) for game in upcoming for team in (game.get('team_a', {}), game.get('team_b', {})) if team.get('id')}
@@ -198,7 +198,7 @@ def scrape_khl():
     history = history_raw if isinstance(history_raw, list) else history_raw.get('events', [])
     for row in history:
         game = row.get('event', row)
-        if game.get('type_id') != 24:
+        if game.get('type_id') not in (18, 24):
             continue
         teams = [game.get('team_a', {}), game.get('team_b', {})]
         missing = [team for team in teams if str(team.get('id')) in upcoming_teams - recent_starters.keys()]
@@ -215,6 +215,19 @@ def scrape_khl():
             lineup = [{'name': p.get('name') or p.get('player_name'), 'position': p.get('position', ''), 'flag': ''} for p in players if isinstance(p, dict) and (p.get('name') or p.get('player_name'))]
             if len(lineup) >= 6:
                 recent_starters[team_id] = lineup[:6]
+    for team_id in upcoming_teams - recent_starters.keys():
+        try:
+            team = fetch_json('https://khl.api.webcaster.pro/api/khl_mobile/team_v2.json?' + urlencode({'id': team_id, 'locale': 'en'})).get('team', {})
+            players = team.get('players', [])
+            def rank(player): return int(player.get('g') or 0) + int(player.get('a') or 0)
+            goalie = sorted((p for p in players if p.get('role_key') == 'goaltender'), key=rank, reverse=True)[:1]
+            defense = sorted((p for p in players if p.get('role_key') == 'defensemen'), key=rank, reverse=True)[:2]
+            forwards = sorted((p for p in players if p.get('role_key') == 'forward'), key=rank, reverse=True)[:3]
+            lineup = goalie + defense + forwards
+            if len(lineup) == 6:
+                recent_starters[team_id] = [{'name': p.get('name', ''), 'position': p.get('role_key', ''), 'flag': ''} for p in lineup]
+        except Exception:
+            continue
     for game in upcoming:
         home, away = game.get('team_a', {}), game.get('team_b', {})
         names = {'home': home.get('name', ''), 'away': away.get('name', '')}
@@ -228,7 +241,7 @@ def scrape_khl():
         lineups = {'home': recent_starters.get(str(home['id']), []), 'away': recent_starters.get(str(away['id']), [])}
         prediction = {'league': 'khl', 'kickoff': kickoff, 'names': names, 'teams': {'home': str(home['id']), 'away': str(away['id'])},
             'lineups': lineups, 'injuries': {}, 'statuses': {'home': 'predicted', 'away': 'predicted'},
-            'note': 'KHL 직전 경기 선발 6명 기준 예상', 'source': 'https://khl.api.webcaster.pro'}
+            'note': 'KHL 직전 선발 또는 팀 등록 선수 기록 기준 예상', 'source': 'https://khl.api.webcaster.pro'}
         events.append({'event': {'id': str(game['id']), 'date': kickoff, 'competitions': [{'competitors': competitors}]}, 'prediction': prediction, 'confirmed': False})
     return events
 
@@ -287,15 +300,37 @@ def scrape_cpbl():
             prediction = {'league': 'cpbl', 'kickoff': kickoff, 'names': names, 'teams': names,
                 'lineups': {'home': home_players, 'away': away_players}, 'injuries': {},
                 'statuses': {'home': 'confirmed' if confirmed else 'predicted', 'away': 'confirmed' if confirmed else 'predicted'},
-                'note': 'CPBL 공식 선발 타순' if confirmed else 'CPBL 경기 일정. 선발 발표 전.', 'source': 'https://stats.cpbl.com.tw'}
+                'note': 'CPBL 공식 선발 타순' if confirmed else 'CPBL 직전 경기 타순 기준 예상', 'source': 'https://stats.cpbl.com.tw'}
             events.append({'event': {'id': str(game_id), 'date': kickoff, 'competitions': [{'competitors': competitors}]}, 'prediction': prediction, 'confirmed': confirmed})
     return events
 
 
 def scrape_npb():
-    """Use SPAIA public schedule feed; show last available starter data when published."""
+    """Use SPAIA published lineups, then carry forward each team's latest batting order."""
     today = datetime.now(ZoneInfo('Asia/Tokyo')).date()
     events = []
+    recent_rosters = {}
+    def players(sides, side):
+        values = sides.get(side, sides.get('Home' if side == 'home' else 'Visitor', []))
+        if isinstance(values, dict): values = values.get('players', values.get('members', []))
+        return [{'name': row.get('name') or row.get('playerName') or row.get('PlayerName', ''), 'position': row.get('position', ''), 'flag': ''}
+                for row in values if isinstance(row, dict) and (row.get('name') or row.get('playerName') or row.get('PlayerName'))]
+    for lookback in range(1, 8):
+        day = today.fromordinal(today.toordinal() - lookback)
+        try:
+            raw = fetch_json(f'https://spaia.jp/baseball/npb/api/games_info_by_date?gameDate={day:%Y%m%d}')
+            past_games = raw if isinstance(raw, list) else raw.get('data', raw.get('games', []))
+            for game in past_games:
+                game_id = game.get('gameId') or game.get('GameID') or game.get('id')
+                home = game.get('homeTeamName') or game.get('HomeTeamName') or game.get('home')
+                away = game.get('visitorTeamName') or game.get('VisitorTeamName') or game.get('away')
+                if not game_id or not home or not away: continue
+                sides = fetch_json(f'https://spaia.jp/baseball/npb/api/starting_members_for_flash?gameId={game_id}')
+                for name, side in ((home, 'home'), (away, 'visitor')):
+                    lineup = players(sides if isinstance(sides, dict) else {}, side)
+                    if len(lineup) >= 9 and name not in recent_rosters: recent_rosters[name] = lineup[:9]
+        except Exception:
+            continue
     for offset in range(2):
         day = today.fromordinal(today.toordinal() + offset)
         raw = fetch_json(f'https://spaia.jp/baseball/npb/api/games_info_by_date?gameDate={day:%Y%m%d}')
@@ -308,18 +343,16 @@ def scrape_npb():
                 continue
             lineup = fetch_json(f'https://spaia.jp/baseball/npb/api/starting_members_for_flash?gameId={game_id}')
             sides = lineup if isinstance(lineup, dict) else {}
-            def players(side):
-                values = sides.get(side, sides.get('Home' if side == 'home' else 'Visitor', []))
-                if isinstance(values, dict): values = values.get('players', values.get('members', []))
-                return [{'name': row.get('name') or row.get('playerName') or row.get('PlayerName', ''), 'position': row.get('position', ''), 'flag': ''} for row in values if isinstance(row, dict) and (row.get('name') or row.get('playerName') or row.get('PlayerName'))]
-            rosters = {'home': players('home'), 'away': players('visitor')}
+            rosters = {'home': players(sides, 'home'), 'away': players(sides, 'visitor')}
             names = {'home': home, 'away': away}
+            confirmed = len(rosters['home']) >= 9 and len(rosters['away']) >= 9
+            if len(rosters['home']) < 9: rosters['home'] = recent_rosters.get(home, rosters['home'])
+            if len(rosters['away']) < 9: rosters['away'] = recent_rosters.get(away, rosters['away'])
             kickoff = datetime.combine(day, datetime.min.time(), ZoneInfo('Asia/Tokyo')).astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
             competitors = [{'homeAway': side, 'team': {'id': names[side], 'displayName': names[side], 'shortDisplayName': names[side], 'abbreviation': names[side]}} for side in ('home', 'away')]
-            confirmed = len(rosters['home']) >= 9 and len(rosters['away']) >= 9
             prediction = {'league': 'npb', 'kickoff': kickoff, 'names': names, 'teams': names, 'lineups': rosters, 'injuries': {},
                 'statuses': {'home': 'confirmed' if confirmed else 'predicted', 'away': 'confirmed' if confirmed else 'predicted'},
-                'note': 'NPB 선발 타순' if confirmed else 'NPB 경기 일정. 선발 발표 전.', 'source': 'https://spaia.jp'}
+                'note': 'NPB 선발 타순' if confirmed else 'NPB 직전 경기 타순 기준 예상', 'source': 'https://spaia.jp'}
             events.append({'event': {'id': str(game_id), 'date': kickoff, 'competitions': [{'competitors': competitors}]}, 'prediction': prediction, 'confirmed': confirmed})
     return events
 
@@ -490,8 +523,35 @@ def scrape_kovo_bkvolley():
             roster_page = fetch_text(url + '?tab=players')
             roster_parser = Text(); roster_parser.feed(roster_page)
             roster_text = ' '.join(' '.join(roster_parser.value).split())
+            public_match = re.search(r'<script id="volley-public-data" type="application/json">(.*?)</script>', roster_page, re.S)
+            public_data = json.loads(public_match.group(1)).get('data', {}) if public_match else {}
+            match_id = int(path.rsplit('/', 1)[-1])
+            fixture = next((item for item in public_data.get('upcomingMatches', []) if int(item.get('id', -1)) == match_id), {})
+            team_ids = {'home': fixture.get('homeTeamId'), 'away': fixture.get('awayTeamId')}
             roster_start = roster_text.find('두 팀 등록 선수')
             def estimate(team_name, other_name):
+                side = 'home' if team_name == home else 'away'
+                team_id = team_ids.get(side)
+                previous = []
+                for record in public_data.get('setLineups', []):
+                    if record.get('matchDate') and record['matchDate'] >= kickoff and team_id:
+                        continue
+                    team_record = next((entry for entry in record.get('teams', []) if entry.get('teamId') == team_id), None)
+                    starters = [player for player in (team_record or {}).get('players', []) if player.get('role') == 'starter']
+                    if len(starters) == 6 and (not previous or record.get('matchDate', '') > previous[0]):
+                        previous = [record.get('matchDate', ''), [{'name': player['name'], 'position': player.get('position', ''), 'flag': ''} for player in starters]]
+                if previous:
+                    return previous[1]
+                roster_players = [player for player in public_data.get('players', []) if player.get('teamId') == team_id and player.get('name')]
+                selected = []
+                for position, count in (('세터', 1), ('리베로', 1), ('미들블로커', 2), ('아웃사이드 히터', 1), ('아포짓', 1)):
+                    matches = [player for player in roster_players if player.get('position') == position and player not in selected]
+                    selected.extend(matches[:count])
+                for player in roster_players:
+                    if len(selected) >= 6: break
+                    if player not in selected: selected.append(player)
+                if len(selected) == 6:
+                    return [{'name': player['name'], 'position': player.get('position', ''), 'flag': ''} for player in selected]
                 start = roster_text.find(team_name, max(0, roster_start))
                 end = roster_text.find(other_name, start + len(team_name)) if start >= 0 else -1
                 segment = roster_text[start:end if end >= 0 else None] if start >= 0 else ''
