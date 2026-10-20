@@ -1158,4 +1158,6 @@ Mityakin Evgeny|예브게니 미탸킨
 Massie Jake|제이크 마씨
 Rodewald Jack|잭 로드월드
 Brickey Ronald|스쿠터 브리키
+Sutter Riley|라일리 서터
+Chmelevski Alexander|알렉산더 치멜레프스키
 `.trim().split('\n').map(row => row.split('|')));

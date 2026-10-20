@@ -3607,6 +3607,20 @@
       "korean": "약셀 렌더보그",
       "source": "https://v.daum.net/v/1bUh2baetI?f=p",
       "method": "Reviewed Korean basketball article"
+    },
+    {
+      "name": "Sutter Riley",
+      "korean": "라일리 서터",
+      "source": "https://www.google.com/search?q=Riley%20Sutter",
+      "method": "Reviewed Google Korean athlete heading; hockey identity matched with official NHL/KHL profile",
+      "identitySource": "https://en.khl.ru/players/45491/"
+    },
+    {
+      "name": "Chmelevski Alexander",
+      "korean": "알렉산더 치멜레프스키",
+      "source": "https://www.google.com/search?q=Alexander%20Chmelevski",
+      "method": "Reviewed Google Korean athlete heading; hockey identity matched with official NHL/KHL profile",
+      "identitySource": "https://www.nhl.com/sharks/news/sharks-sign-forward-alexander-chmelevski-297616522"
     }
   ]
 }
