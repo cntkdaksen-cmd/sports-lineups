@@ -128,6 +128,152 @@ def fetch_text(url):
         return response.read().decode('utf-8', errors='replace')
 
 
+def fetch_json(url):
+    return json.loads(fetch_text(url))
+
+
+def scrape_fotmob_kleague(league_id, key):
+    """Use FotMob schedule and its lastStarting11 roster for K League projections."""
+    from urllib.parse import urlencode
+    today = datetime.now(ZoneInfo('Asia/Seoul')).date()
+    end = today.fromordinal(today.toordinal() + 2)
+    query = urlencode({'id': league_id, 'ccode3': 'KOR', 'season': today.year})
+    data = fetch_json('https://www.fotmob.com/api/data/leagues?' + query)
+    events = []
+    for match in data.get('fixtures', {}).get('allMatches', []):
+        status = match.get('status', {})
+        kickoff_text = status.get('utcTime')
+        if not kickoff_text:
+            continue
+        kickoff = datetime.fromisoformat(kickoff_text.replace('Z', '+00:00'))
+        local = kickoff.astimezone(ZoneInfo('Asia/Seoul'))
+        if not today <= local.date() < end or status.get('finished'):
+            continue
+        home, away = match.get('home', {}), match.get('away', {})
+        if not home.get('id') or not away.get('id'):
+            continue
+        detail = fetch_json('https://www.fotmob.com/api/data/matchDetails?' + urlencode({'matchId': match['id']}))
+        lineup = detail.get('lineup', {})
+        def players(team):
+            result = []
+            for row in team.get('starters', []):
+                player = row.get('player', row)
+                if player.get('name'):
+                    result.append({'name': player['name'], 'position': row.get('position', ''), 'flag': ''})
+            return result[:11]
+        rosters = {'home': players(lineup.get('homeTeam', {})), 'away': players(lineup.get('awayTeam', {}))}
+        names = {'home': home.get('name', ''), 'away': away.get('name', '')}
+        utc = kickoff.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
+        competitors = [
+            {'homeAway': 'home', 'team': {'id': home['id'], 'displayName': names['home'], 'shortDisplayName': names['home'], 'abbreviation': str(home['id'])}},
+            {'homeAway': 'away', 'team': {'id': away['id'], 'displayName': names['away'], 'shortDisplayName': names['away'], 'abbreviation': str(away['id'])}}
+        ]
+        prediction = {'league': key, 'kickoff': utc, 'names': names, 'teams': {'home': str(home['id']), 'away': str(away['id'])},
+            'lineups': rosters, 'injuries': {}, 'statuses': {'home': 'predicted', 'away': 'predicted'},
+            'note': 'FotMob 최근 선발 11명 기준 예상', 'source': 'https://www.fotmob.com'}
+        events.append({'event': {'id': str(match['id']), 'date': utc, 'competitions': [{'competitors': competitors}]}, 'prediction': prediction, 'confirmed': False})
+    return events
+
+
+def scrape_khl():
+    """Import two-day KHL fixtures from the public KHL mobile API."""
+    from urllib.parse import urlencode
+    today = datetime.now(ZoneInfo('Asia/Seoul')).date()
+    start = datetime.combine(today, datetime.min.time(), ZoneInfo('Asia/Seoul')).astimezone(timezone.utc).timestamp()
+    end = start + 2 * 86400
+    query = urlencode({'q[start_at_gt_time_from_unixtime]': int(start), 'q[start_at_lt_time_from_unixtime]': int(end), 'order_direction': 'asc', 'locale': 'en'}, safe='[]')
+    raw = fetch_json('https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json?' + query)
+    events = []
+    for row in raw if isinstance(raw, list) else raw.get('events', []):
+        game = row.get('event', row)
+        if game.get('type_id') != 24 or not game.get('start_at'):
+            continue
+        home, away = game.get('team_a', {}), game.get('team_b', {})
+        names = {'home': home.get('name', ''), 'away': away.get('name', '')}
+        if not names['home'] or not names['away']:
+            continue
+        kickoff = datetime.fromtimestamp(game['start_at'] / 1000, timezone.utc).isoformat().replace('+00:00', 'Z')
+        competitors = [
+            {'homeAway': 'home', 'team': {'id': str(home['id']), 'displayName': names['home'], 'shortDisplayName': names['home'], 'abbreviation': str(home['id'])}},
+            {'homeAway': 'away', 'team': {'id': str(away['id']), 'displayName': names['away'], 'shortDisplayName': names['away'], 'abbreviation': str(away['id'])}}
+        ]
+        prediction = {'league': 'khl', 'kickoff': kickoff, 'names': names, 'teams': {'home': str(home['id']), 'away': str(away['id'])},
+            'lineups': {}, 'injuries': {}, 'statuses': {'home': 'predicted', 'away': 'predicted'},
+            'note': 'KHL 경기 일정 확인됨. 경기 전 선발 명단 공개 대기.', 'source': 'https://khl.api.webcaster.pro'}
+        events.append({'event': {'id': str(game['id']), 'date': kickoff, 'competitions': [{'competitors': competitors}]}, 'prediction': prediction, 'confirmed': False})
+    return events
+
+
+def scrape_cpbl():
+    """Use CPBL public schedule and game detail API for two-day starter projections."""
+    today = datetime.now(ZoneInfo('Asia/Seoul')).date()
+    events = []
+    for offset in range(2):
+        day = today.fromordinal(today.toordinal() + offset)
+        games = fetch_json(f'https://stats.cpbl.com.tw/api/proxy/v1/games/schedule/{day.isoformat()}')
+        rows = games.get('Data', {}).get('Games', [])
+        for game in rows:
+            game_id = game.get('GameId') or game.get('Id')
+            if not game_id:
+                continue
+            detail = fetch_json(f'https://stats.cpbl.com.tw/api/proxy/v1/games/{game_id}')
+            data = detail.get('Data', {}).get('Game', {})
+            visiting, home = data.get('Visiting', {}), data.get('Home', {})
+            def hitters(team):
+                return [{'name': row.get('HitterName', ''), 'position': row.get('PositionName', ''), 'flag': ''}
+                        for row in team.get('Hitters', []) if row.get('HitterName') and row.get('Lineup')]
+            away_players, home_players = hitters(visiting), hitters(home)
+            names = {'home': home.get('TeamName', game.get('HomeTeamName', '')), 'away': visiting.get('TeamName', game.get('VisitingTeamName', ''))}
+            if not names['home'] or not names['away']:
+                continue
+            time_text = game.get('GameTime') or game.get('StartTime') or '18:35'
+            try:
+                local = datetime.strptime(f'{day.isoformat()} {time_text[:5]}', '%Y-%m-%d %H:%M').replace(tzinfo=ZoneInfo('Asia/Taipei'))
+            except ValueError:
+                continue
+            kickoff = local.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
+            competitors = [{'homeAway': side, 'team': {'id': names[side], 'displayName': names[side], 'shortDisplayName': names[side], 'abbreviation': names[side]}} for side in ('home', 'away')]
+            confirmed = len(home_players) >= 9 and len(away_players) >= 9
+            prediction = {'league': 'cpbl', 'kickoff': kickoff, 'names': names, 'teams': names,
+                'lineups': {'home': home_players, 'away': away_players}, 'injuries': {},
+                'statuses': {'home': 'confirmed' if confirmed else 'predicted', 'away': 'confirmed' if confirmed else 'predicted'},
+                'note': 'CPBL 공식 선발 타순' if confirmed else 'CPBL 경기 일정. 선발 발표 전.', 'source': 'https://stats.cpbl.com.tw'}
+            events.append({'event': {'id': str(game_id), 'date': kickoff, 'competitions': [{'competitors': competitors}]}, 'prediction': prediction, 'confirmed': confirmed})
+    return events
+
+
+def scrape_npb():
+    """Use SPAIA public schedule feed; show last available starter data when published."""
+    today = datetime.now(ZoneInfo('Asia/Tokyo')).date()
+    events = []
+    for offset in range(2):
+        day = today.fromordinal(today.toordinal() + offset)
+        raw = fetch_json(f'https://spaia.jp/baseball/npb/api/games_info_by_date?gameDate={day:%Y%m%d}')
+        games = raw if isinstance(raw, list) else raw.get('data', raw.get('games', []))
+        for game in games:
+            game_id = game.get('gameId') or game.get('GameID') or game.get('id')
+            home = game.get('homeTeamName') or game.get('HomeTeamName') or game.get('home')
+            away = game.get('visitorTeamName') or game.get('VisitorTeamName') or game.get('away')
+            if not game_id or not home or not away:
+                continue
+            lineup = fetch_json(f'https://spaia.jp/baseball/npb/api/starting_members_for_flash?gameId={game_id}')
+            sides = lineup if isinstance(lineup, dict) else {}
+            def players(side):
+                values = sides.get(side, sides.get('Home' if side == 'home' else 'Visitor', []))
+                if isinstance(values, dict): values = values.get('players', values.get('members', []))
+                return [{'name': row.get('name') or row.get('playerName') or row.get('PlayerName', ''), 'position': row.get('position', ''), 'flag': ''} for row in values if isinstance(row, dict) and (row.get('name') or row.get('playerName') or row.get('PlayerName'))]
+            rosters = {'home': players('home'), 'away': players('visitor')}
+            names = {'home': home, 'away': away}
+            kickoff = datetime.combine(day, datetime.min.time(), ZoneInfo('Asia/Tokyo')).astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
+            competitors = [{'homeAway': side, 'team': {'id': names[side], 'displayName': names[side], 'shortDisplayName': names[side], 'abbreviation': names[side]}} for side in ('home', 'away')]
+            confirmed = len(rosters['home']) >= 9 and len(rosters['away']) >= 9
+            prediction = {'league': 'npb', 'kickoff': kickoff, 'names': names, 'teams': names, 'lineups': rosters, 'injuries': {},
+                'statuses': {'home': 'confirmed' if confirmed else 'predicted', 'away': 'confirmed' if confirmed else 'predicted'},
+                'note': 'NPB 선발 타순' if confirmed else 'NPB 경기 일정. 선발 발표 전.', 'source': 'https://spaia.jp'}
+            events.append({'event': {'id': str(game_id), 'date': kickoff, 'competitions': [{'competitors': competitors}]}, 'prediction': prediction, 'confirmed': confirmed})
+    return events
+
+
 def post_json(url, values, referer):
     import urllib.parse
     import urllib.request
@@ -312,7 +458,9 @@ def main():
     previous = json.loads(path.read_text()) if path.exists() else {}
     payload = {'asOf': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'), 'items': all_results}
     payload['domestic'] = {}
-    for key, scraper in (('kbo', scrape_kbo_official), ('kbl', scrape_kbl_statgg), ('kovo', scrape_kovo_bkvolley)):
+    for key, scraper in (('kbo', scrape_kbo_official), ('kbl', scrape_kbl_statgg), ('kovo', scrape_kovo_bkvolley), ('npb', scrape_npb), ('cpbl', scrape_cpbl),
+                         ('kleague1', lambda: scrape_fotmob_kleague(9080, 'kleague1')),
+                         ('kleague2', lambda: scrape_fotmob_kleague(9116, 'kleague2')), ('khl', scrape_khl)):
         try:
             payload['domestic'][key] = scraper()
             print(key + ('-statgg' if key == 'kbl' else '-official'), len(payload['domestic'][key]))
