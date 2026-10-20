@@ -3,6 +3,7 @@
 import html
 import json
 import re
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -63,6 +64,7 @@ def scrape_page(league, code, kind):
             continue
         rosters = {}
         injuries = {}
+        injury_details = {}
         statuses = {}
         for role in ('home', 'visit'):
             side = 'away' if role == 'visit' else 'home'
@@ -83,10 +85,17 @@ def scrape_page(league, code, kind):
             rosters[side] = players
             injury_html = roster_html[len(lineup_html):]
             injuries[side] = [html.unescape(name) for name in re.findall(r'<li class="lineup__player[^>]*>.*?<a title="([^"]+)"', injury_html, re.S)][:8]
+            injury_details[side] = []
+            for row in re.findall(r'<li class="lineup__player[^>]*>.*?</li>', injury_html, re.S):
+                name = re.search(r'<a title="([^"]+)"', row)
+                if not name:
+                    continue
+                flag = re.search(r'<span class="lineup__inj[^>]*>([^<]+)', row)
+                injury_details[side].append({'name': html.unescape(name.group(1)), 'status': html.unescape(flag.group(1).strip()) if flag else ''})
         expected = 11 if kind == 'soccer' else 9 if kind == 'mlb' else 5
         if any(len(rosters.get(side, [])) != expected for side in ('home', 'away')):
             continue
-        results.append({'league': league, 'kickoff': kickoff, 'teams': teams, 'names': names, 'lineups': rosters, 'injuries': injuries, 'statuses': statuses, 'source': source_url(league, code, kind)})
+        results.append({'league': league, 'kickoff': kickoff, 'teams': teams, 'names': names, 'lineups': rosters, 'injuries': injuries, 'injuryDetails': injury_details, 'statuses': statuses, 'source': source_url(league, code, kind)})
     return results
 
 
@@ -130,6 +139,106 @@ def fetch_text(url):
 
 def fetch_json(url):
     return json.loads(fetch_text(url))
+
+
+ESPN_INJURY_PATHS = {
+    'ucl': 'soccer/uefa.champions', 'uel': 'soccer/uefa.europa',
+    'epl': 'soccer/eng.1', 'championship': 'soccer/eng.2', 'laliga': 'soccer/esp.1',
+    'eredivisie': 'soccer/ned.1', 'jupiler': 'soccer/bel.1', 'primeira': 'soccer/por.1',
+    'scottish': 'soccer/sco.1', 'bundesliga': 'soccer/ger.1', 'seriea': 'soccer/ita.1',
+    'ligue1': 'soccer/fra.1', 'j1': 'soccer/jpn.1', 'mls': 'soccer/usa.1',
+    'nba': 'basketball/nba', 'wnba': 'basketball/wnba', 'mlb': 'baseball/mlb',
+    'nhl': 'hockey/nhl',
+}
+
+
+def injury_name_key(value):
+    value = unicodedata.normalize('NFKD', str(value or '')).encode('ascii', 'ignore').decode().lower()
+    return re.sub(r'[^a-z0-9]', '', value)
+
+
+def fetch_espn_injury_reports(path):
+    """Return current ESPN injury details indexed by team abbreviation."""
+    data = fetch_json(f'https://site.api.espn.com/apis/site/v2/sports/{path}/injuries')
+    teams = {}
+    for group in data.get('injuries', []):
+        team = group.get('displayName') or (group.get('team') or {}).get('displayName', '')
+        code = ((group.get('team') or {}).get('abbreviation') or group.get('abbreviation') or '').upper()
+        entries = {}
+        for item in group.get('injuries', []):
+            injury_team = item.get('team') or {}
+            code = (code or injury_team.get('abbreviation') or '').upper()
+            team = team or injury_team.get('displayName', '')
+            athlete = item.get('athlete') or {}
+            name = athlete.get('displayName') or athlete.get('fullName')
+            if not name:
+                continue
+            details = item.get('details') or {}
+            injury_type = item.get('type') or {}
+            record = {
+                'name': name,
+                'status': item.get('status') or injury_type.get('description', ''),
+                'part': details.get('type', ''),
+                'location': details.get('location', ''),
+                'side': details.get('side', ''),
+                'condition': details.get('detail', ''),
+                'returnDate': details.get('returnDate', ''),
+                'comment': item.get('shortComment', ''),
+                'updatedAt': item.get('date', ''),
+            }
+            key = injury_name_key(name)
+            if key not in entries or record['updatedAt'] > entries[key]['updatedAt']:
+                entries[key] = record
+        if code:
+            teams[code] = {'name': team, 'records': list(entries.values())}
+    return teams
+
+
+def enrich_injury_details(payload):
+    """Attach verified status/body details when ESPN publishes them."""
+    reports = {}
+    for league, path in ESPN_INJURY_PATHS.items():
+        try:
+            reports[league] = fetch_espn_injury_reports(path)
+            print('injuries', league, sum(len(team['records']) for team in reports[league].values()))
+        except Exception as error:
+            print('injuries source unavailable:', league, error)
+            reports[league] = {}
+
+    for league, events in [('items', payload.get('items', []))]:
+        for item in events:
+            code = item.get('league')
+            if code not in ESPN_INJURY_PATHS:
+                continue
+            report = reports.get(code, {})
+            details = {}
+            existing = item.setdefault('injuries', {})
+            existing_details = item.setdefault('injuryDetails', {})
+            for side in ('home', 'away'):
+                team_code = str((item.get('teams') or {}).get(side, '')).upper()
+                team_report = report.get(team_code, {})
+                report_rows = team_report.get('records', [])
+                listed_names = existing.get(side) or []
+                listed_rows = existing_details.get(side) or [{'name': name, 'status': ''} for name in listed_names]
+                if listed_rows:
+                    by_key = {injury_name_key(row.get('name')): row for row in report_rows}
+                    selected = []
+                    for row in listed_rows:
+                        match = by_key.get(injury_name_key(row.get('name')))
+                        selected.append({**row, **match} if match else row)
+                else:
+                    selected = report_rows
+                details[side] = selected
+                if selected:
+                    existing[side] = [row['name'] for row in selected]
+            item['injuryDetails'] = details
+
+    # Domestic data currently lacks an injury feed. Keep this field present for
+    # consistent rendering; never infer an injury from a missing lineup slot.
+    for entries in (payload.get('domestic') or {}).values():
+        for entry in entries:
+            if isinstance(entry, dict) and isinstance(entry.get('prediction'), dict):
+                entry['prediction'].setdefault('injuryDetails', {'home': [], 'away': []})
 
 
 class DailyFaceoffParser(__import__('html.parser', fromlist=['HTMLParser']).HTMLParser):
@@ -698,7 +807,8 @@ def main():
         except Exception as error:
             print(key + ' source unavailable:', error)
             payload['domestic'][key] = previous.get('domestic', {}).get(key, [])
-    if previous.get('items') == all_results and previous.get('domestic') == payload.get('domestic'):
+    enrich_injury_details(payload)
+    if previous.get('items') == payload.get('items') and previous.get('domestic') == payload.get('domestic'):
         print('No lineup changes')
         return
     path.write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')))
