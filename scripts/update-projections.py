@@ -132,6 +132,88 @@ def fetch_json(url):
     return json.loads(fetch_text(url))
 
 
+class DailyFaceoffParser(__import__('html.parser', fromlist=['HTMLParser']).HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.section = None
+        self.anchor = None
+        self.players = {'forwards': [], 'defense': [], 'goalies': []}
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'span' and attrs.get('id') in self.players:
+            self.section = attrs['id']
+        if tag == 'a' and attrs.get('href', '').startswith('/players/news/'):
+            self.anchor = {'text': [], 'alt': ''}
+        elif tag == 'img' and self.anchor is not None:
+            self.anchor['alt'] = attrs.get('alt', '')
+
+    def handle_data(self, data):
+        if self.anchor is not None:
+            self.anchor['text'].append(data)
+
+    def handle_endtag(self, tag):
+        if tag == 'a' and self.anchor is not None:
+            name = ' '.join(' '.join(self.anchor['text']).split()).strip() or self.anchor['alt'].strip()
+            if name and self.section and name.casefold() not in {item.casefold() for item in self.players[self.section]}:
+                self.players[self.section].append(name.title() if name.isupper() else name)
+            self.anchor = None
+
+
+def scrape_nhl_dailyfaceoff():
+    """Use current Daily Faceoff lines and goalie depth chart for NHL six-player projections."""
+    from datetime import timedelta
+    from urllib.parse import quote
+    eastern = ZoneInfo('America/New_York')
+    today = datetime.now(eastern).date()
+    scores = {}
+    for offset in range(3):
+        day = today + timedelta(days=offset)
+        board = fetch_json(f'https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates={day:%Y%m%d}&limit=500')
+        for event in board.get('events', []):
+            scores[event.get('id')] = event
+    pages = {}
+    results = []
+    for event in scores.values():
+        competition = (event.get('competitions') or [{}])[0]
+        competitors = competition.get('competitors', [])
+        if len(competitors) != 2:
+            continue
+        teams, names = {}, {}
+        lineups = {}
+        for competitor in competitors:
+            side = competitor.get('homeAway')
+            team = competitor.get('team', {})
+            display = team.get('displayName') or team.get('name') or ''
+            slug = re.sub(r'[^a-z0-9]+', '-', display.lower()).strip('-')
+            if not side or not display or not slug:
+                continue
+            teams[side] = team.get('abbreviation', '')
+            names[side] = display
+            if slug not in pages:
+                try:
+                    parser = DailyFaceoffParser()
+                    parser.feed(fetch_text(f'https://www.dailyfaceoff.com/teams/{quote(slug)}/line-combinations'))
+                    pages[slug] = parser.players
+                except Exception as error:
+                    print('nhl Daily Faceoff source unavailable:', slug, error)
+                    pages[slug] = {}
+            roster = pages[slug]
+            forward = roster.get('forwards', [])
+            defense = roster.get('defense', [])
+            goalies = roster.get('goalies', [])
+            selected = forward[:3] + defense[:2] + goalies[:1]
+            if len(selected) == 6:
+                lineups[side] = [{'name': player, 'position': '', 'flag': ''} for player in selected]
+        if len(lineups) != 2 or len(names) != 2:
+            continue
+        results.append({'league': 'nhl', 'kickoff': event.get('date'), 'teams': teams, 'names': names,
+                        'lineups': lineups, 'injuries': {}, 'statuses': {'home': 'predicted', 'away': 'predicted'},
+                        'note': 'Daily Faceoff 1선·1수비 조합과 첫 골리 기준 예상',
+                        'source': 'https://www.dailyfaceoff.com/teams'})
+    return results
+
+
 def scrape_fotmob_kleague(league_id, key):
     """Use FotMob schedule and its lastStarting11 roster for K League projections."""
     from urllib.parse import urlencode
@@ -588,6 +670,12 @@ def main():
     europa = scrape_europa()
     all_results.extend(europa)
     print('uel', len(europa))
+    try:
+        nhl = scrape_nhl_dailyfaceoff()
+        all_results.extend(nhl)
+        print('nhl-dailyfaceoff', len(nhl))
+    except Exception as error:
+        print('nhl Daily Faceoff unavailable:', error)
     if not all_results:
         raise SystemExit('No lineups fetched; keeping the current snapshot')
     path = ROOT / 'dist' / 'projections.json'
