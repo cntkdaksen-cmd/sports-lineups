@@ -348,7 +348,7 @@ Mark Williams|마크 윌리엄스
 Malcolm Brogdon|말콤 브록던
 Scoot Henderson|스쿳 헨더슨
 Rayan Rupert|라얀 루퍼트
-Shaedon Sharpe|셰든 샤르페
+Shaedon Sharpe|셰이든 샤프
 Robert Williams III|로버트 윌리엄스 3세
 Norman Powell|노먼 파웰
 Sam Merrill|샘 메릴
@@ -551,4 +551,10 @@ Lawson Crouse|로슨 크라우스
 Karel Vejmelka|카렐 베이멜카
 Andrei Vasilevskiy|안드레이 바실렙스키
 Sergei Bobrovsky|세르게이 보브롭스키
+Deni Avdija|데니 아브디야
+Toumani Camara|투마니 카마라
+Dyson Daniels|다이슨 다니엘스
+Draymond Green|드레이먼드 그린
+Al Horford|알 호포드
+Darius Garland|다리우스 갈란드
 `.trim().split('\n').map(row => row.split('|')));
