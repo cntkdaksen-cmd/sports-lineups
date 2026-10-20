@@ -1,6 +1,11 @@
 name: Refresh lineup projections
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update-projections.py'
+      - '.github/workflows/refresh-lineups.yml'
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
