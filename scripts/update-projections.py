@@ -182,7 +182,7 @@ def scrape_nhl_dailyfaceoff():
         teams, names = {}, {}
         lineups = {}
         for competitor in competitors:
-            side = competitor.get('homeAway')
+            side = str(competitor.get('homeAway') or '').strip().lower()
             team = competitor.get('team', {})
             display = team.get('displayName') or team.get('name') or ''
             slug = re.sub(r'[^a-z0-9]+', '-', display.lower()).strip('-')
@@ -202,7 +202,14 @@ def scrape_nhl_dailyfaceoff():
             forward = roster.get('forwards', [])
             defense = roster.get('defense', [])
             goalies = roster.get('goalies', [])
-            selected = forward[:3] + defense[:2] + goalies[:1]
+            probable_goalies = [item.get('athlete', {}).get('displayName') or item.get('athlete', {}).get('fullName')
+                                for item in competitor.get('probables', [])
+                                if item.get('athlete', {}).get('position') in ('G', 'Goalie', 'Goaltender')]
+            goalie = next((item.get('athlete', {}).get('displayName') for item in competitor.get('probables', [])
+                           if item.get('athlete', {}).get('position') in ('G', 'Goalie', 'Goaltender')
+                           and item.get('status', {}).get('type') == 'confirmed'), None)
+            goalie = goalie or next((name for name in probable_goalies if name), None) or (goalies[0] if goalies else None)
+            selected = forward[:3] + defense[:2] + ([goalie] if goalie else [])
             if len(selected) == 6:
                 lineups[side] = [{'name': player, 'position': '', 'flag': ''} for player in selected]
         if len(lineups) != 2 or len(names) != 2:
