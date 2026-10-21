@@ -12,7 +12,7 @@ const context = vm.createContext({
   window: {setInterval() {}},
   atob,TextDecoder,Uint8Array
 });
-for (const file of ['football-ko.js', 'player-ko.js', 'app.js']) {
+for (const file of ['football-ko.js', 'player-ko.js', 'win-probability.js', 'app.js']) {
   let source = fs.readFileSync(new URL(`../dist/${file}`, import.meta.url), 'utf8');
   if (file === 'app.js') source = source.replace(/loadGames\(\);\s*$/, '');
   vm.runInContext(source, context, {filename: file});

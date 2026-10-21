@@ -1,0 +1,38 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+const elements=new Map();
+const element=()=>({addEventListener(){},setAttribute(){},innerHTML:'',textContent:''});
+const context=vm.createContext({document:{documentElement:{dataset:{}},getElementById(id){if(!elements.has(id))elements.set(id,element());return elements.get(id)},querySelector(){return element()},addEventListener(){}},localStorage:{getItem(){return null}},window:{setInterval(){}},atob,TextDecoder,Uint8Array});
+for(const file of ['football-ko.js','player-ko.js','win-probability.js','app.js'])vm.runInContext(fs.readFileSync(new URL('../dist/'+file,import.meta.url),'utf8').replace(/loadGames\(\);\s*$/,''),context);
+const run=code=>vm.runInContext(code,context);
+const estimate=input=>{context.input=input;return JSON.parse(JSON.stringify(run('winProbability.estimate(input)')))};
+const record=(wins,losses,draws=0)=>({wins,losses,draws});
+let p=estimate({});assert.deepEqual([p.away,p.draw,p.home,p.coverage],[50,0,50,0]);
+p=estimate({drawPrior:.26});assert.deepEqual([p.away,p.draw,p.home],[37,26,37]);
+p=estimate({away:{overall:record(30,10)},home:{overall:record(10,30)}});assert.ok(p.away>p.home);
+let swapped=estimate({away:{overall:record(10,30)},home:{overall:record(30,10)}});assert.equal(p.away,swapped.home);
+p=estimate({away:{recent:['L','L','L']},home:{recent:['W','W','W']},drawPrior:.26});assert.ok(p.home>p.away);assert.equal(p.coverage,2);
+assert.equal(estimate({away:{overall:record(0,0)},home:{overall:record(0,0)}}).coverage,0);
+assert.equal(estimate({away:{overall:record(-1,10)}}).coverage,0);
+assert.equal(estimate({away:{overall:record(NaN,10)}}).away,50);
+for(let wins=0;wins<=50;wins++){
+ p=estimate({away:{overall:record(wins,50-wins),recent:['D','W']},home:{overall:record(50-wins,wins)},drawPrior:.26});
+ assert.equal(Math.round((p.away+p.draw+p.home)*10),1000);
+ assert.ok([p.away,p.draw,p.home].every(value=>Number.isFinite(value)&&value>=0&&value<=100));
+}
+context.currentEvent={date:new Date(Date.now()+3600000).toISOString(),competitions:[{competitors:[{homeAway:'away',team:{id:'away',displayName:'Away'}},{homeAway:'home',team:{id:'home',displayName:'Home'}}]}]};
+context.history=[{date:new Date(Date.now()-3600000).toISOString(),status:{type:{completed:true}},competitions:[{competitors:[{team:{id:'away'},winner:true,score:'2'},{team:{id:'other'},winner:false,score:'0'}]}]},{date:new Date(Date.now()+7200000).toISOString(),status:{type:{completed:true}},competitions:[{competitors:[{team:{id:'away'},winner:false,score:'0'},{team:{id:'other'},winner:true,score:'2'}]}]}];
+assert.equal(run("recentResults(currentEvent.competitions[0].competitors[0],currentEvent,history,'away',null).join()"),'W','Exclude future records');
+assert.equal(run("recentResults({team:{}},currentEvent,history,'away',null).length"),0,'Do not match missing team IDs');
+run("sport='nhl'");
+context.recordTeam={records:[{name:'overall',summary:'3-2-1'}]};
+assert.equal(run("predictionRecord(recordTeam,'home',true).losses"),3,'NHL overtime losses are losses');
+run("sport='football'");
+assert.equal(run("predictionRecord(recordTeam,'home',true)"),null,'Do not guess soccer record order');
+assert.match(run('gameCard(currentEvent,{},null,[])'),/승부 예측/);
+assert.match(run('gameCard(currentEvent,{},null,[])'),/무승부/);
+assert.match(run('gameCard(currentEvent,{},null,[])'),/전력 자료 부족/);
+run("sport='nba'");
+const html=run('gameCard(currentEvent,{},null,[])');assert.doesNotMatch(html,/class="outcome-value draw"/);assert.match(html,/50\.0/);
+console.log('Win estimates: normalization, symmetry, stronger-team response, neutral fallback, date/identity guards and football/basketball rendering passed.');

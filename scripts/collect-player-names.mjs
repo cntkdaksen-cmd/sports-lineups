@@ -16,7 +16,7 @@ const cachedFetch=async url=>{
 };
 const document={documentElement:{dataset:{}},getElementById(id){if(!elements.has(id))elements.set(id,element());return elements.get(id)},querySelector(){return element()},addEventListener(){}};
 const ctx=vm.createContext({document,localStorage:{getItem(){return null}},window:{setInterval(){}},fetch:cachedFetch,atob,TextDecoder,Uint8Array,console});
-for(const file of ['football-ko.js','player-ko.js','app.js'])vm.runInContext(fs.readFileSync(root+'/dist/'+file,'utf8').replace(/loadGames\(\);\s*$/,''),ctx);
+for(const file of ['football-ko.js','player-ko.js','win-probability.js','app.js'])vm.runInContext(fs.readFileSync(root+'/dist/'+file,'utf8').replace(/loadGames\(\);\s*$/,''),ctx);
 ctx.record=(player,kind,team)=>{const name=typeof player==='string'?player:player.name;if(name)records.push({name,team:team?.team?.displayName,short:player.short,league:currentLeague,kind,korean:vm.runInContext(`translated(${JSON.stringify(name)},${JSON.stringify(player.short)})`,ctx)});};
 ctx.recordTeam=team=>{const name=team.team.displayName;teams.set(currentLeague+':'+name,{name,short:team.team.shortDisplayName,league:currentLeague,korean:vm.runInContext(`teamDisplayName(${JSON.stringify(team.team)})`,ctx)});};
 vm.runInContext(`const originalTeamCard=teamCard;teamCard=function(team,players){recordTeam(team);for(const p of players||[])record(p,'lineup',team);return originalTeamCard(team,players)};const originalInjuryPanel=injuryPanel;injuryPanel=function(prediction,event){for(const name of injuryNames(prediction))record(name,'injury');return originalInjuryPanel(prediction,event)};`,ctx);

@@ -16,6 +16,8 @@ on:
       - 'scripts/build-name-catalog.mjs'
       - 'dist/football-ko.js'
       - 'dist/app.js'
+      - 'dist/win-probability.js'
+      - 'scripts/check-win-probability.mjs'
       - '.github/workflows/refresh-lineups.yml'
   schedule:
     - cron: '*/15 * * * *'
@@ -41,6 +43,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Validate game outcome estimates
+        run: node scripts/check-win-probability.mjs
       - name: Build approved Korean full-name catalog
         run: node scripts/build-name-catalog.mjs
       - name: Audit Korean names across all leagues

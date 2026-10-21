@@ -439,14 +439,15 @@ function recentResults(team, event, events, side, prediction) {
   const supplied = event.recentForm?.[side] || prediction?.recentForm?.[side];
   if (Array.isArray(supplied) && supplied.length) return supplied.slice(-5);
   const cutoff = Date.parse(event.date);
-  return events.filter(candidate => Date.parse(candidate.date) < cutoff && candidate.status?.type?.completed)
+  return events.filter(candidate => Date.parse(candidate.date) < Math.min(cutoff,Date.now()) && candidate.status?.type?.completed).sort((a,b)=>Date.parse(a.date)-Date.parse(b.date))
     .map(candidate => {
-      const opponent = candidate.competitions?.[0]?.competitors?.find(item => String(item.team?.id) === String(team.team?.id));
+      const opponent = candidate.competitions?.[0]?.competitors?.find(item => item.team?.id != null && team.team?.id != null && String(item.team.id) === String(team.team.id));
       if (!opponent) return null;
       const rivals = candidate.competitions[0].competitors;
-      const other = rivals.find(item => String(item.team?.id) !== String(team.team?.id));
+      const other = rivals.find(item => item !== opponent);
       if (typeof opponent.winner === 'boolean') return opponent.winner ? 'W' : other?.winner ? 'L' : 'D';
-      const score = Number(opponent.score), otherScore = Number(other?.score);
+      if(opponent.score == null || opponent.score === '' || other?.score == null || other.score === '')return null;
+      const score = Number(opponent.score), otherScore = Number(other.score);
       if (!Number.isFinite(score) || !Number.isFinite(otherScore)) return null;
       return score > otherScore ? 'W' : score < otherScore ? 'L' : 'D';
     }).filter(Boolean).slice(-5);
@@ -475,6 +476,31 @@ function formMarkup(team, event, events, side, prediction) {
   const heading = side === 'away' ? `${logo}<span>${name}</span>${location}` : `<span>${name}</span>${location}${logo}`;
   return `<div class="matchup-team ${side}"><div class="matchup-name">${heading}</div><div class="team-records"><span class="form-results" aria-label="최근 ${results.length}경기">${text}</span>${record}</div></div>`;
 }
+function predictionRecord(team,side,overall=false) {
+  const records=team.records || team.team?.records || [];
+  if(!Array.isArray(records))return null;
+  const selector=overall?/overall|total|league/i:side==='home'?/home/i:/away|road/i;
+  const record=records.find(row=>selector.test(`${row.name||''} ${row.type||''}`));
+  if(!record)return null;
+  const stats=Object.fromEntries((Array.isArray(record.stats)?record.stats:[]).map(item=>[item.name,Number(item.value)]));
+  if(Number.isFinite(stats.wins)&&Number.isFinite(stats.losses))return {wins:stats.wins,losses:stats.losses,draws:stats.ties||stats.draws||0};
+  // Soccer providers disagree on W-D-L/W-L-D summary order; use recent results instead.
+  if(sport==='football')return null;
+  const match=String(record.summary||record.displayValue||'').match(/^(\d+)\s*[-–]\s*(\d+)(?:\s*[-–]\s*(\d+))?$/);
+  if(!match)return null;
+  const third=Number(match[3]||0),hockey=['nhl','khl'].includes(sport);
+  return {wins:Number(match[1]),losses:Number(match[2])+(hockey?third:0),draws:hockey?0:third};
+}
+function outcomeMarkup(away,home,event,prediction,events) {
+  const data=(team,side)=>({overall:predictionRecord(team,side,true),venue:predictionRecord(team,side),recent:recentResults(team,event,events,side,prediction)});
+  const drawPrior=sport==='football'?.26:['kbo','npb','cpbl'].includes(sport)?.03:0;
+  const result=winProbability.estimate({away:data(away,'away'),home:data(home,'home'),drawPrior});
+  const rows=[{key:'away',label:'원정 승'},...(drawPrior?[{key:'draw',label:'무승부'}]:[]),{key:'home',label:'홈 승'}];
+  const coverage=result.coverage===2?'양 팀 기록 반영':result.coverage===1?'한 팀 기록만 반영':'전력 자료 부족 · 중립 기초값';
+  const values=rows.map(row=>`<div class="outcome-value ${row.key}"><span>${row.label}</span><strong>${result[row.key].toFixed(1)}<small>%</small></strong></div>`).join('');
+  const bar=rows.map(row=>`<span class="${row.key}" style="width:${result[row.key]}%"></span>`).join('');
+  return `<section class="outcome" aria-label="승부 예측 확률"><div class="outcome-heading"><strong>승부 예측</strong><small>통계 추정 · ${coverage}</small></div><div class="outcome-values" style="--outcome-columns:${rows.length}">${values}</div><div class="outcome-bar" aria-hidden="true">${bar}</div><details class="outcome-details"><summary>산출 기준</summary><p>시즌 전적 50% · 최근 5경기 35% · 홈/원정 전적 15% 중 조회된 기록을 반영합니다. 적은 경기 수는 중립값으로 보정합니다. ${drawPrior?`무승부 기초값은 ${(drawPrior*100).toFixed(0)}%이며 최근 무승부 기록으로 보정합니다. `:''}자료가 없는 팀의 전력은 중립으로 둡니다. 선발·부상·실시간 점수는 확률에 반영하지 않습니다. 적중률 검증 전 추정치입니다.</p><p>최근 경기 표본 ${result.recentGames}경기(양 팀 합) · 계산 시각 ${safe(kst(new Date().toISOString()))}</p></details></section>`;
+}
 function gameCard(event, lineups, prediction, allEvents = []) {
   const competition = event.competitions[0];
   const away = competition.competitors.find(team => team.homeAway === 'away');
@@ -486,7 +512,7 @@ function gameCard(event, lineups, prediction, allEvents = []) {
   const statusText = confirmed ? label('Confirmed starters','확정 선발') : projected ? label('Projected lineup','예상 선발') : '';
   const statusClass = confirmed ? 'confirmed' : projected ? 'projected' : '';
   const key = sport === 'football' ? league : sport;
-  return `<article class="card" data-home="${safe(home.team.displayName)}" data-away="${safe(away.team.displayName)}" tabindex="-1"><div class="card-top"><div class="match-info"><div class="time">${safe(kst(event.date))}</div><div class="matchup-grid">${formMarkup(away,event,allEvents,'away',prediction)}<span class="versus">VS</span>${formMarkup(home,event,allEvents,'home',prediction)}</div></div>${statusText ? `<span class="status ${statusClass}" role="status">${confirmed ? '✓ ' : ''}${statusText}</span>` : ''}</div><div class="teams">${teamCard(away,shown.away)}${teamCard(home,shown.home)}</div>${injuryPanel(prediction,event)}</article>`;
+  return `<article class="card" data-home="${safe(home.team.displayName)}" data-away="${safe(away.team.displayName)}" tabindex="-1"><div class="card-top"><div class="match-info"><div class="time">${safe(kst(event.date))}</div><div class="matchup-grid">${formMarkup(away,event,allEvents,'away',prediction)}<span class="versus">VS</span>${formMarkup(home,event,allEvents,'home',prediction)}</div></div>${statusText ? `<span class="status ${statusClass}" role="status">${confirmed ? '✓ ' : ''}${statusText}</span>` : ''}</div>${outcomeMarkup(away,home,event,prediction,allEvents)}<div class="teams">${teamCard(away,shown.away)}${teamCard(home,shown.home)}</div>${injuryPanel(prediction,event)}</article>`;
 }
 let teamSearchRows = [];
 const teamSearchKey = value => normalizePlayerName(value).replace(/\s/g,'');
