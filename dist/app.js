@@ -60,6 +60,36 @@ const dropdownLeagueNames = {
   "nhl": "북미 내셔널 하키 리그 (NHL)",
   "khl": "러시아 콘티넨탈 하키 리그 (KHL)"
 };
+const dropdownLeagueFlags = {
+  "ucl": "🇪🇺",
+  "uel": "🇪🇺",
+  "epl": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "championship": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "laliga": "🇪🇸",
+  "bundesliga": "🇩🇪",
+  "seriea": "🇮🇹",
+  "ligue1": "🇫🇷",
+  "kleague1": "🇰🇷",
+  "kleague2": "🇰🇷",
+  "eredivisie": "🇳🇱",
+  "jupiler": "🇧🇪",
+  "primeira": "🇵🇹",
+  "scottish": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+  "j1": "🇯🇵",
+  "mls": "🇺🇸",
+  "mlb": "🇺🇸",
+  "kbo": "🇰🇷",
+  "npb": "🇯🇵",
+  "cpbl": "🇹🇼",
+  "nba": "🇺🇸",
+  "kbl": "🇰🇷",
+  "wkbl": "🇰🇷",
+  "wnba": "🇺🇸",
+  "kovo": "🇰🇷",
+  "nhl": "🇺🇸🇨🇦",
+  "khl": "🇷🇺"
+};
+const dropdownLeagueLabel = id => `${dropdownLeagueFlags[id]} ${id === 'kbo' ? '대한민국 프로야구 (KBO)' : dropdownLeagueNames[id]}`;
 const leagueLogos = {
   ucl:'https://a.espncdn.com/i/leaguelogos/soccer/500/2.png',uel:'https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png',epl:'https://a.espncdn.com/i/leaguelogos/soccer/500/23.png',championship:'https://a.espncdn.com/i/leaguelogos/soccer/500/24.png',laliga:'https://a.espncdn.com/i/leaguelogos/soccer/500/15.png',bundesliga:'https://a.espncdn.com/i/leaguelogos/soccer/500/10.png',seriea:'https://a.espncdn.com/i/leaguelogos/soccer/500/12.png',ligue1:'https://a.espncdn.com/i/leaguelogos/soccer/500/9.png',eredivisie:'https://a.espncdn.com/i/leaguelogos/soccer/500/11.png',jupiler:'https://a.espncdn.com/i/leaguelogos/soccer/500/6.png',primeira:'https://a.espncdn.com/i/leaguelogos/soccer/500/14.png',scottish:'https://a.espncdn.com/i/leaguelogos/soccer/500/45.png',j1:'https://a.espncdn.com/i/leaguelogos/soccer/500/2199.png',mls:'https://a.espncdn.com/i/leaguelogos/soccer/500/19.png',mlb:'https://a.espncdn.com/i/teamlogos/leagues/500/mlb.png',nba:'https://a.espncdn.com/i/teamlogos/leagues/500/nba.png',wnba:'https://a.espncdn.com/i/teamlogos/leagues/500/wnba.png',nhl:'https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png',khl:'https://www.khl.ru/local/templates/2025/images/logos/2026_27/khl_ru.svg',kleague1:'https://app.holoduke.nl/footapi/images/leagueimages/SouthKoreaKLeagueClassic.png',kleague2:'https://assets.fclogo.top/png/k-league-2-v2021.png',kbo:'https://upload.wikimedia.org/wikipedia/commons/6/6a/Korea_Baseball_Organization_-_2022_wordmark.svg',npb:'https://upload.wikimedia.org/wikipedia/commons/7/7f/NPB_logo.svg',cpbl:'https://www.cpbl.com.tw/theme/common/images/project/logo_new.png',kbl:'https://www.kbl.or.kr/assets/img/logo/logo-header.svg',wkbl:'https://www.wkbl.or.kr/static/images/about/ci_2023.png',kovo:'https://phinf.pstatic.net/tvcast/20241024_232/6A6Ja_1729757946529X0C9l_JPEG/1729757946519.jpg'
 };
@@ -512,8 +542,8 @@ function showTabs() {
   $('sports').innerHTML = categories.map(item => `<button type="button" data-category="${item.id}" aria-current="${category.id === item.id}">${label(...item.label)}</button>`).join('');
   $('sport-menu').innerHTML = categories.map(group => {
     const options = group.id === 'football'
-      ? leagueIds.map(id => `<option value="football:${id}" ${sport === 'football' && league === id ? 'selected' : ''}>${safe(dropdownLeagueNames[id])}</option>`)
-      : group.sports.map(id => { const item=sports.find(entry => entry.id === id); return `<option value="${id}" ${sport === id ? 'selected' : ''}>${safe(dropdownLeagueNames[id])}</option>`; });
+      ? leagueIds.map(id => `<option value="football:${id}" ${sport === 'football' && league === id ? 'selected' : ''}>${safe(dropdownLeagueLabel(id))}</option>`)
+      : group.sports.map(id => { const item=sports.find(entry => entry.id === id); return `<option value="${id}" ${sport === id ? 'selected' : ''}>${safe(dropdownLeagueLabel(id))}</option>`; });
     return `<optgroup label="${label(...group.label)}"><legend>${label(...group.label)}</legend>${options.join('')}</optgroup>`;
   }).join('');
   const subSports = category.id === 'football' ? [] : category.sports.map(id => sports.find(item => item.id === id));
