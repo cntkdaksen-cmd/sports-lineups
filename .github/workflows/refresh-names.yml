@@ -1,0 +1,47 @@
+name: Publish reviewed full names
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/player-ko.js'
+      - 'dist/football-ko.js'
+      - 'dist/app.js'
+      - 'dist/team-ko.json'
+      - 'scripts/*name*.json'
+      - 'scripts/build-name-catalog.mjs'
+      - 'scripts/check-player-names.mjs'
+      - '.github/workflows/refresh-names.yml'
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-reviewed-names
+  cancel-in-progress: false
+
+jobs:
+  names:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build approved Korean full names
+        run: node scripts/build-name-catalog.mjs
+      - name: Validate player and team rendering
+        run: node scripts/check-player-names.mjs --inventory scripts/fixtures/player-name-inventory.json --require-reviewed
+      - name: Publish the name catalog
+        run: |
+          if ! git diff --quiet -- dist/name-catalog.json dist/team-ko.json; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add dist/name-catalog.json dist/team-ko.json
+            git commit -m "chore: publish approved full names"
+            git pull --rebase
+            git push
+          fi

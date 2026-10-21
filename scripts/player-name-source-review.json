@@ -3627,6 +3627,30 @@
       "korean": "압둘케림 바르닥치",
       "source": "https://www.google.com/search?q=Abdulkerim+Bardakci",
       "method": "User supplied spelling confirmed against Google player heading and club identity"
+    },
+    {
+      "name": "Tammy Abraham",
+      "korean": "태미 에이브러햄",
+      "source": "https://www.google.com/search?q=Tammy%20Abraham",
+      "method": "Google player identity and Korean spelling reviewed; established sporting name retained"
+    },
+    {
+      "name": "Tom Bischof",
+      "korean": "톰 비쇼프",
+      "source": "https://www.google.com/search?q=Tom%20Bischof",
+      "method": "Google player identity and Korean spelling reviewed; established sporting name retained"
+    },
+    {
+      "name": "Fran Garcia",
+      "korean": "프란 가르시아",
+      "source": "https://www.scorebase.kr/transfers/l7oqdeh46ogwr51",
+      "method": "Google full identity cross-checked with established Korean sporting name in Korean player profile"
+    },
+    {
+      "name": "Arda Guler",
+      "korean": "아르다 귈러",
+      "source": "https://shop.realmadrid.com/ko-kr/collections/players-arda-guler-youth",
+      "method": "Google identity cross-checked with the club official Korean store sporting name"
     }
   ]
 }

@@ -115,6 +115,7 @@ context.searchDate=new Date(Date.now()+3600000).toISOString();
 context.oldSearchDate=new Date(Date.now()-3*86400000).toISOString();
 run(`indexTeamSearch({items:[{league:'ucl',kickoff:searchDate,names:{home:'Como',away:'Manchester United'},teams:{home:'COM',away:'MUN'}},{league:'ucl',kickoff:oldSearchDate,names:{home:'Lille',away:'Arsenal'},teams:{}}],domestic:{kovo:[{event:{date:searchDate,competitions:[{competitors:[{homeAway:'home',team:{displayName:'우리카드'}},{homeAway:'away',team:{displayName:'한국전력'}}]}]}}]}})`);
 assert.equal(run("findTeamGames('코모 1907').length"),1);
+assert.equal(run("findTeamGames('코모')[0].home"),'Como');
 assert.equal(run("findTeamGames('Como').length"),1);
 assert.equal(run("findTeamGames('MUN').length"),1);
 assert.equal(run("findTeamGames('우리WON').length"),1);

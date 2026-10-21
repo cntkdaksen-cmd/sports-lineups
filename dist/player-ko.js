@@ -1,6 +1,10 @@
 // Reviewed player names and explicit provider aliases. Never infer a name from its surname.
 // Korean media and Naver squad spellings take precedence over automatic search descriptions.
 const playerKo = Object.fromEntries(`
+Tammy Abraham|태미 에이브러햄
+Tom Bischof|톰 비쇼프
+Fran Garcia|프란 가르시아
+Arda Guler|아르다 귈러
 Abdulkerim Bardakci|압둘케림 바르닥치
 Onyeka Okongwu|오니에카 오콩우
 Alisson|알리송 베커

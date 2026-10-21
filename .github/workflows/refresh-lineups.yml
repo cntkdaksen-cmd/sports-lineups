@@ -70,5 +70,6 @@ jobs:
             git config user.email 41898282+github-actions[bot]@users.noreply.github.com
             git add dist/projections.json dist/name-catalog.json dist/team-ko.json
             git commit -m "chore: refresh lineups and approved full names"
+            git pull --rebase
             git push
           fi

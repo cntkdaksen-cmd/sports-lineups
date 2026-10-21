@@ -456,9 +456,9 @@ function gameCard(event, lineups, prediction, allEvents = []) {
 let teamSearchRows = [];
 const teamSearchKey = value => normalizePlayerName(value).replace(/\s/g,'');
 const searchTeamName = name => language === 'ko' ? teamKo[name] || teamKoNormalized[normalizePlayerName(name)] || name : name;
-function indexTeamSearch(projections) {
+function indexTeamSearch(projections,retain=false) {
   const [start,end] = kstDayRange();
-  const rows = [];
+  const rows = retain ? [...teamSearchRows] : [];
   for (const item of projections.items || []) {
     rows.push({league:item.league,date:item.kickoff,home:item.names?.home,away:item.names?.away,homeShort:item.teams?.home,awayShort:item.teams?.away});
   }
@@ -476,11 +476,15 @@ function indexTeamSearch(projections) {
 function findTeamGames(query) {
   const key=teamSearchKey(query);
   if(!key)return [];
-  return teamSearchRows.filter(row=>['home','away'].some(side=>{
+  return teamSearchRows.map(row=>({row,score:Math.max(...['home','away'].map(side=>{
     const name=row[side],korean=teamKo[name] || teamKoNormalized[normalizePlayerName(name)];
     const aliases=korean ? Object.keys(teamKo).filter(alias=>teamKo[alias]===korean) : [];
-    return [name,korean,row[side+'Short'],...aliases].filter(Boolean).some(value=>teamSearchKey(value).includes(key));
-  }));
+    return Math.max(0,...[name,korean,row[side+'Short'],...aliases].filter(Boolean).map(value=>{
+      const compact=teamSearchKey(value);
+      if(compact===key)return 3;
+      return compact.startsWith(key) || String(value).split(/\s+/).some(word=>teamSearchKey(word).startsWith(key)) ? 1 : 0;
+    }));
+  }))})).filter(item=>item.score>0).sort((a,b)=>b.score-a.score || Date.parse(a.row.date)-Date.parse(b.row.date)).map(item=>item.row);
 }
 function renderTeamSearch() {
   const query=($('team-search').value || '').trim();
@@ -577,6 +581,7 @@ async function loadGames() {
     const [dayStart,dayEnd] = kstDayRange();
     const allEvents = [...unique.values()];
     const events = allEvents.filter(event => !event.status?.type?.completed && event.competitions?.[0]?.timeValid !== false && Date.parse(event.date) >= dayStart && Date.parse(event.date) < dayEnd).sort((a,b) => Date.parse(a.date)-Date.parse(b.date));
+    indexTeamSearch({domestic:{[sport==='football'?league:sport]:events.map(event=>({event}))}},true);
     $('updated').textContent = label('Checked ','확인 시각 ') + kst(new Date().toISOString());
     if (!events.length) {
       $('games').innerHTML = `<div class="empty">${label('No scheduled games in this two-day period.','당일과 다음 날 예정된 경기가 없습니다.')}</div>`;
