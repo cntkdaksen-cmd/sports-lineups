@@ -470,7 +470,7 @@ function indexTeamSearch(projections,retain=false) {
       rows.push({league:key,date:event?.date,home:home?.displayName,away:away?.displayName,homeShort:home?.abbreviation,awayShort:away?.abbreviation});
     }
   }
-  teamSearchRows=[...new Map(rows.filter(row=>sources[row.league] && row.home && row.away && Date.parse(row.date)>=start && Date.parse(row.date)<end).map(row=>[`${row.league}:${row.date}:${row.home}:${row.away}`,row])).values()].sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
+  teamSearchRows=[...new Map(rows.filter(row=>sources[row.league] && row.home && row.away && Date.parse(row.date)>=start && Date.parse(row.date)<end).map(row=>[`${row.league}:${Date.parse(row.date)}:${teamSearchKey(teamKoNormalized[normalizePlayerName(row.home)] || row.home)}:${teamSearchKey(teamKoNormalized[normalizePlayerName(row.away)] || row.away)}`,row])).values()].sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
   renderTeamSearch();
 }
 function findTeamGames(query) {
