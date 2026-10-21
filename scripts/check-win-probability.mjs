@@ -36,3 +36,23 @@ assert.match(run('gameCard(currentEvent,{},null,[])'),/전력 자료 부족/);
 run("sport='nba'");
 const html=run('gameCard(currentEvent,{},null,[])');assert.doesNotMatch(html,/class="outcome-value draw"/);assert.match(html,/50\.0/);
 console.log('Win estimates: normalization, symmetry, stronger-team response, neutral fallback, date/identity guards and football/basketball rendering passed.');
+context.externalNow=Date.now();
+context.externalEvent={id:'match-1',date:new Date(context.externalNow+3600000).toISOString(),competitions:[{competitors:[{homeAway:'home',team:{id:'home',displayName:'Home'}},{homeAway:'away',team:{id:'away',displayName:'Away'}}]}]};
+const row={league:'nba',eventId:'match-1',kickoff:context.externalEvent.date,homeId:'home',awayId:'away',checkedAt:new Date(context.externalNow).toISOString(),provider:'ESPN',kind:'published-model',values:{home:68.6,away:31.4,draw:0}};
+context.feed={schemaVersion:1,items:[row]};
+assert.equal(run("winProbability.external(feed,'nba',externalEvent,externalNow).home"),68.6);
+assert.equal(run("winProbability.external(feed,'nhl',externalEvent,externalNow)"),null,'Wrong league');
+assert.equal(run("winProbability.external(feed,'nba',externalEvent,externalNow+7200001)"),null,'Expired feed');
+for(const patch of [{awayId:'home'},{eventId:'other'},{kickoff:new Date(context.externalNow+86400000).toISOString()},{values:{home:90,away:90,draw:0}},{values:{home:'68.6',away:31.4,draw:0}},{checkedAt:'invalid'},{sourceExpiresAt:new Date(context.externalNow-1).toISOString()}]){
+ context.feed={schemaVersion:1,items:[{...row,...patch}]};
+ assert.equal(run("winProbability.external(feed,'nba',externalEvent,externalNow)"),null,JSON.stringify(patch));
+}
+context.feed={schemaVersion:1,items:[row]};
+run('externalForecasts=feed');
+assert.match(run('gameCard(externalEvent,{},null,[])'),/외부 공개 예측 확률/);
+assert.match(run('gameCard(externalEvent,{},null,[])'),/68\.6/);
+assert.doesNotMatch(run('gameCard(externalEvent,{},null,[])'),/시즌 전적 50%/);
+context.feed.items[0].values={home:44.75,away:29.82,draw:25.39};
+const normalized=run("winProbability.external(feed,'nba',externalEvent,externalNow)");
+assert.equal(Math.round((normalized.home+normalized.away+normalized.draw)*10),1000);
+console.log('External probabilities: exact identity/date/venue, freshness, validation, rounding and external-first rendering passed.');

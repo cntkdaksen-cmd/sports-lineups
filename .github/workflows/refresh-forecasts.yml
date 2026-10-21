@@ -1,0 +1,56 @@
+name: Refresh published match probabilities
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update-external-forecasts.py'
+      - 'scripts/check-external-forecasts.py'
+      - 'scripts/check-win-probability.mjs'
+      - 'dist/win-probability.js'
+      - '.github/workflows/refresh-forecasts.yml'
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-forecasts
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check parser and display contracts
+        run: |
+          python3 scripts/check-external-forecasts.py
+          node scripts/check-win-probability.mjs
+      - name: Fetch original published match probabilities
+        run: python3 scripts/update-external-forecasts.py
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: external-probability-review
+          path: dist/external-forecasts.json
+          retention-days: 3
+      - name: Commit verified probability feed
+        run: |
+          if ! git diff --quiet -- dist/external-forecasts.json; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add dist/external-forecasts.json
+            git commit -m "chore: refresh published match probabilities"
+            git pull --rebase
+            git push
+          fi

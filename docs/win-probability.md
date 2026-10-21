@@ -11,3 +11,13 @@ With no team records, the card labels its numbers as a neutral baseline: soccer 
 The model runs again whenever the current game data is refreshed. It uses completed games before both the event kickoff and current time. Soccer summary record order is deliberately ignored because provider summary formats differ. NHL third-column overtime losses count as losses.
 
 Validation: `node scripts/check-win-probability.mjs`.
+
+## Published probabilities take priority
+
+`update-external-forecasts.py` collects original published full-match probabilities from ESPN Matchup Predictor, Sports Mole match analysis and BK Volley match forecasts. Google locates these publishers; Google search summaries and AI overviews are not probability sources. Picks, exact-score chances and set-win probabilities are excluded.
+
+The feed retains publisher, original URL, raw probabilities, event ID, both team IDs, kickoff and retrieval time. Sports Mole matching requires exact league and normalized full team identities; a maximum 90-minute source timestamp tolerance accommodates its observed JSON-LD DST inconsistency. The output always uses the schedule's actual event identity and kickoff. KOVO uses stable match IDs plus both teams and the Korean calendar date. Its publisher explicitly marks its model uncalibrated.
+
+The browser requires event, league, both side IDs and kickoff to match. Entries expire two hours after retrieval. External values appear as `외부 공개 예측 확률`; unavailable or expired entries use `자체 통계 추정`. The branded heading remains `NUDE TV AI 승부예측`. Sources stay in review metadata; external links are not added to game cards. Rounded values sum to 100.0%; source raw totals must be within 0.5 percentage points of 100.
+
+GitHub Actions refreshes the feed on a 15-minute schedule (GitHub may delay runs). The page fetches the current feed at refresh and during its existing five-minute refresh cycle. A failed fetch never extends an old probability's freshness. This is not a guarantee of predictive accuracy or complete coverage across all leagues.

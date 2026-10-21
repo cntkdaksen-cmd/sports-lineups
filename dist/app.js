@@ -491,15 +491,25 @@ function predictionRecord(team,side,overall=false) {
   const third=Number(match[3]||0),hockey=['nhl','khl'].includes(sport);
   return {wins:Number(match[1]),losses:Number(match[2])+(hockey?third:0),draws:hockey?0:third};
 }
+let externalForecasts = {schemaVersion:1,items:[]};
+async function refreshExternalForecasts(current) {
+  let feed;
+  try { feed=await getJson('https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/external-forecasts.json?v='+Date.now()); }
+  catch { try { feed=await getJson('./external-forecasts.json?v='+Date.now()); } catch { feed={schemaVersion:1,items:[]}; } }
+  if(current===requestId)externalForecasts=feed;
+}
 function outcomeMarkup(away,home,event,prediction,events) {
   const data=(team,side)=>({overall:predictionRecord(team,side,true),venue:predictionRecord(team,side),recent:recentResults(team,event,events,side,prediction)});
   const drawPrior=sport==='football'?.26:['kbo','npb','cpbl'].includes(sport)?.03:0;
-  const result=winProbability.estimate({away:data(away,'away'),home:data(home,'home'),drawPrior});
-  const rows=[{key:'away',label:'원정 승'},...(drawPrior?[{key:'draw',label:'무승부'}]:[]),{key:'home',label:'홈 승'}];
+  const external=winProbability.external(externalForecasts,sport==='football'?league:sport,event);
+  const result=external || winProbability.estimate({away:data(away,'away'),home:data(home,'home'),drawPrior});
+  const rows=[{key:'away',label:'원정 승'},...((external?external.draw>0:drawPrior)?[{key:'draw',label:'무승부'}]:[]),{key:'home',label:'홈 승'}];
   const coverage=result.coverage===2?'양 팀 기록 반영':result.coverage===1?'한 팀 기록만 반영':'전력 자료 부족 · 중립 기초값';
+  const basis=external?'외부 공개 예측 확률':`자체 통계 추정 · ${coverage}`;
+  const explanation=external?`<p>경기·팀·홈/원정을 대조한 외부 예측 모델의 공개 확률입니다. 구글 검색 결과에서 확인한 자료원의 원문 수치를 사용하며, 구글이 산출한 확률은 아닙니다. 표시는 소수점 첫째 자리로 반올림하고 합계 100%로 보정합니다. ${sport==='football'?'축구는 정규시간 기준입니다. ':''}예측은 실제 결과를 보장하지 않습니다.</p><p>원문 확인 시각 ${safe(kst(external.checkedAt))}</p>`:null;
   const values=rows.map(row=>`<div class="outcome-value ${row.key}"><span>${row.label}</span><strong>${result[row.key].toFixed(1)}<small>%</small></strong></div>`).join('');
   const bar=rows.map(row=>`<span class="${row.key}" style="width:${result[row.key]}%"></span>`).join('');
-  return `<section class="outcome" aria-label="NUDE TV AI 승부예측 확률"><div class="outcome-heading"><strong>NUDE TV AI 승부예측</strong><small>통계 추정 · ${coverage}</small></div><div class="outcome-values" style="--outcome-columns:${rows.length}">${values}</div><div class="outcome-bar" aria-hidden="true">${bar}</div><details class="outcome-details"><summary>산출 기준</summary><p>시즌 전적 50% · 최근 5경기 35% · 홈/원정 전적 15% 중 조회된 기록을 반영합니다. 적은 경기 수는 중립값으로 보정합니다. ${drawPrior?`무승부 기초값은 ${(drawPrior*100).toFixed(0)}%이며 최근 무승부 기록으로 보정합니다. `:''}자료가 없는 팀의 전력은 중립으로 둡니다. 선발·부상·실시간 점수는 확률에 반영하지 않습니다. 기록 기반 통계식으로 계산하며 적중률 검증 전 추정치입니다.</p><p>최근 경기 표본 ${result.recentGames}경기(양 팀 합) · 계산 시각 ${safe(kst(new Date().toISOString()))}</p></details></section>`;
+  return `<section class="outcome" aria-label="NUDE TV AI 승부예측 확률"><div class="outcome-heading"><strong>NUDE TV AI 승부예측</strong><small>${basis}</small></div><div class="outcome-values" style="--outcome-columns:${rows.length}">${values}</div><div class="outcome-bar" aria-hidden="true">${bar}</div><details class="outcome-details"><summary>산출 기준</summary>${explanation || `<p>외부 확률을 확인하지 못해 자체 계산한 추정치입니다. 시즌 전적 50% · 최근 5경기 35% · 홈/원정 전적 15% 중 조회된 기록을 반영합니다. 적은 경기 수는 중립값으로 보정합니다. ${drawPrior?`무승부 기초값은 ${(drawPrior*100).toFixed(0)}%이며 최근 무승부 기록으로 보정합니다. `:''}자료가 없는 팀의 전력은 중립으로 둡니다. 선발·부상·실시간 점수는 확률에 반영하지 않습니다. 기록 기반 통계식으로 계산하며 적중률 검증 전 추정치입니다.</p><p>최근 경기 표본 ${result.recentGames}경기(양 팀 합) · 계산 시각 ${safe(kst(new Date().toISOString()))}</p>`}</details></section>`;
 }
 function gameCard(event, lineups, prediction, allEvents = []) {
   const competition = event.competitions[0];
@@ -609,7 +619,7 @@ async function loadGames() {
   $('name-review').textContent = '저장 표기 대조 중…';
   try {
   showTabs();
-  await refreshTeamNames(current);
+  await Promise.all([refreshTeamNames(current),refreshExternalForecasts(current)]);
   if (current !== requestId) return;
   const domesticKey = ['kbo','kbl','wkbl','kovo','khl','npb','cpbl'].includes(sport) ? sport : sport === 'football' && ['kleague1','kleague2'].includes(league) ? league : null;
   if (domesticKey) {
