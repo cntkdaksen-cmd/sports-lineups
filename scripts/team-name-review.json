@@ -4,40 +4,40 @@
   "entries": [
     {
       "name": "Manchester United",
-      "korean": "맨체스터 유나이티드",
+      "korean": "맨체스터 유나이티드 FC",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Manchester%20United",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading 맨체스터 유나이티드 FC, Value: 2"
       ]
     },
     {
       "name": "Como",
-      "korean": "코모",
+      "korean": "코모 1907",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Como",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t40 heading 코모 1907, Value: 2"
       ]
     },
     {
       "name": "Galatasaray",
-      "korean": "갈라타사라이",
+      "korean": "갈라타사라이 SK",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Galatasaray",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t44 heading 갈라타사라이 SK, Value: 2"
       ]
     },
     {
       "name": "Lille",
-      "korean": "릴",
+      "korean": "LOSC 릴",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Lille%20OSC",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading LOSC 릴, Value: 2"
       ]
@@ -54,70 +54,70 @@
     },
     {
       "name": "Aston Villa",
-      "korean": "애스턴 빌라",
+      "korean": "애스턴 빌라 FC",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Aston%20Villa",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t45 heading 애스턴 빌라 FC, Value: 2"
       ]
     },
     {
       "name": "Arsenal",
-      "korean": "아스널",
+      "korean": "아스널 FC",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Arsenal",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t44 heading 아스널 FC, Value: 2"
       ]
     },
     {
       "name": "Bayern Munich",
-      "korean": "바이에른 뮌헨",
+      "korean": "FC 바이에른 뮌헨",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Bayern%20Munich",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading FC 바이에른 뮌헨, Value: 2"
       ]
     },
     {
       "name": "Lens",
-      "korean": "랑스",
+      "korean": "RC 랑스",
       "league": "ucl",
       "source": "https://www.google.com/search?q=RC%20Lens",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading RC 랑스, Value: 2"
       ]
     },
     {
       "name": "Club Brugge",
-      "korean": "클뤼프 브뤼허",
+      "korean": "클뤼프 브뤼허 KV",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Club%20Brugge",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t45 heading 클뤼프 브뤼허 KV, Value: 2"
       ]
     },
     {
       "name": "Shakhtar Donetsk",
-      "korean": "샤흐타르 도네츠크",
+      "korean": "FC 샤흐타르 도네츠크",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Shakhtar%20Donetsk",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t45 heading FC 샤흐타르 도네츠크, Value: 2"
       ]
     },
     {
       "name": "Internazionale",
-      "korean": "인터 밀란",
+      "korean": "FC 인테르나치오날레 밀라노",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Inter%20Milan%20%EC%9D%B8%ED%84%B0%20%EB%B0%80%EB%9E%80",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading FC 인테르나치오날레 밀라노, Value: 2"
       ]
@@ -154,10 +154,10 @@
     },
     {
       "name": "Real Madrid",
-      "korean": "레알 마드리드",
+      "korean": "레알 마드리드 CF",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Real%20Madrid",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading 레알 마드리드 CF, Value: 2"
       ]
@@ -194,10 +194,10 @@
     },
     {
       "name": "Levante",
-      "korean": "레반테",
+      "korean": "레반테 UD",
       "league": "laliga",
       "source": "https://www.google.com/search?q=Levante",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading 레반테 UD, Value: 2"
       ]
@@ -404,10 +404,10 @@
     },
     {
       "name": "D.C. United",
-      "korean": "DC 유나이티드",
+      "korean": "D.C. 유나이티드",
       "league": "mls",
       "source": "https://www.google.com/search?q=D.C.%20United",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t38 heading D.C. 유나이티드, Value: 2"
       ]
@@ -654,10 +654,10 @@
     },
     {
       "name": "Los Angeles Lakers",
-      "korean": "LA 레이커스",
+      "korean": "로스앤젤레스 레이커스",
       "league": "nba",
       "source": "https://www.google.com/search?q=Los%20Angeles%20Lakers",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t\t\t\t42 heading 로스앤젤레스 레이커스 (Los Angeles Lakers), Value: 2"
       ]
@@ -694,10 +694,10 @@
     },
     {
       "name": "LA Clippers",
-      "korean": "LA 클리퍼스",
+      "korean": "로스앤젤레스 클리퍼스",
       "league": "nba",
       "source": "https://www.google.com/search?q=LA%20Clippers",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t\t\t\t39 heading 로스앤젤레스 클리퍼스 (LA Clippers), Value: 2"
       ]
@@ -984,10 +984,10 @@
     },
     {
       "name": "Neftekhimik",
-      "korean": "네프테히미크",
+      "korean": "네프테히미크 니즈네캄스크",
       "league": "khl",
-      "source": "https://www.google.com/search?q=Neftekhimik%20KHL",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=Neftekhimik%20Nizhnekamsk%20hockey",
+      "method": "Google search club identity and full club/city name reviewed; established Korean base spelling preserved",
       "heading": [
         "\t\t\t\t\t\t128 heading 다음, Value: 2"
       ]
@@ -1024,10 +1024,10 @@
     },
     {
       "name": "Avtomobilist",
-      "korean": "아브토모빌리스트",
+      "korean": "아브토모빌리스트 예카테린부르크",
       "league": "khl",
-      "source": "https://www.google.com/search?q=%EC%95%84%EB%B8%8C%ED%86%A0%EB%AA%A8%EB%B9%8C%EB%A6%AC%EC%8A%A4%ED%8A%B8%20KHL",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=Avtomobilist%20Yekaterinburg%20hockey",
+      "method": "Google search club identity and full club/city name reviewed; established Korean base spelling preserved",
       "heading": [
         "\t\t\t\t\t\t\t125 heading 다음, Value: 2"
       ]
@@ -1064,10 +1064,10 @@
     },
     {
       "name": "Salavat Yulaev",
-      "korean": "살라바트 율라예프",
+      "korean": "살라바트 율라예프 우파",
       "league": "khl",
-      "source": "https://www.google.com/search?q=Salavat%20Yulaev%20KHL",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=Salavat%20Yulaev%20Ufa%20hockey",
+      "method": "Google search club identity and full club/city name reviewed; established Korean base spelling preserved",
       "heading": [
         "\t\t\t\t\t127 heading 다음, Value: 2"
       ]
@@ -1094,10 +1094,10 @@
     },
     {
       "name": "Ak Bars",
-      "korean": "아크 바르스",
+      "korean": "아크 바르스 카잔",
       "league": "khl",
-      "source": "https://www.google.com/search?q=%EC%95%84%ED%81%AC%20%EB%B0%94%EB%A5%B4%EC%8A%A4%20KHL",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=Ak%20Bars%20Kazan%20hockey",
+      "method": "Google search club identity and full club/city name reviewed; established Korean base spelling preserved",
       "heading": [
         "\t\t\t\t\t\t125 heading 다음, Value: 2"
       ]
@@ -1154,78 +1154,78 @@
     },
     {
       "name": "부산 KCC",
-      "korean": "부산 KCC",
+      "korean": "부산 KCC 이지스",
       "league": "kbl",
       "source": "https://www.google.com/search?q=%EB%B6%80%EC%82%B0%20KCC%20%EB%86%8D%EA%B5%AC",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t\t\t\t44 heading Description: 부산 KCC 이지스, Value: 3"
       ]
     },
     {
       "name": "서울 삼성",
-      "korean": "서울 삼성",
+      "korean": "서울 삼성 썬더스",
       "league": "kbl",
       "source": "https://www.google.com/search?q=%EC%84%9C%EC%9A%B8%20%EC%82%BC%EC%84%B1%20%EB%86%8D%EA%B5%AC",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t\t\t\t43 heading Description: 서울 삼성 썬더스, Value: 3"
       ]
     },
     {
       "name": "창원 LG",
-      "korean": "창원 LG",
+      "korean": "창원 LG 세이커스",
       "league": "kbl",
       "source": "https://www.google.com/search?q=%EC%B0%BD%EC%9B%90%20LG%20%EB%86%8D%EA%B5%AC",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t\t\t38 heading 창원 LG 세이커스, Value: 2"
       ]
     },
     {
       "name": "울산 현대모비스",
-      "korean": "울산 현대모비스",
+      "korean": "울산 현대모비스 피버스",
       "league": "kbl",
       "source": "https://www.google.com/search?q=%EC%9A%B8%EC%82%B0%20%ED%98%84%EB%8C%80%EB%AA%A8%EB%B9%84%EC%8A%A4%20%EB%86%8D%EA%B5%AC",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t\t\t\t44 heading Description: 울산 현대모비스 피버스, Value: 3"
       ]
     },
     {
       "name": "삼성화재",
-      "korean": "삼성화재",
+      "korean": "대전 삼성화재 블루팡스",
       "league": "kovo",
-      "source": "https://www.google.com/search?q=%EC%82%BC%EC%84%B1%ED%99%94%EC%9E%AC%20%EB%B0%B0%EA%B5%AC",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=%EC%82%BC%EC%84%B1%ED%99%94%EC%9E%AC%20%EB%B0%B0%EA%B5%AC%EB%8B%A8",
+      "method": "Google search club identity and full club/city name reviewed; established Korean base spelling preserved",
       "heading": [
         "\t\t\t\t\t\t\t\t\t75 heading AI 개요, Value: 2"
       ]
     },
     {
       "name": "OK저축은행",
-      "korean": "OK저축은행",
+      "korean": "부산 OK저축은행 읏맨",
       "league": "kovo",
-      "source": "https://www.google.com/search?q=OK%EC%A0%80%EC%B6%95%EC%9D%80%ED%96%89%20%EB%B0%B0%EA%B5%AC",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=OK%EC%A0%80%EC%B6%95%EC%9D%80%ED%96%89%20%EB%B0%B0%EA%B5%AC%EB%8B%A8",
+      "method": "Google search club identity and full club/city name reviewed; established Korean base spelling preserved",
       "heading": []
     },
     {
       "name": "한국전력",
-      "korean": "한국전력",
+      "korean": "수원 한국전력 빅스톰",
       "league": "kovo",
-      "source": "https://www.google.com/search?q=%ED%95%9C%EA%B5%AD%EC%A0%84%EB%A0%A5%20%EB%B0%B0%EA%B5%AC",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=%ED%95%9C%EA%B5%AD%EC%A0%84%EB%A0%A5%20%EB%B0%B0%EA%B5%AC%EB%8B%A8",
+      "method": "Google search club identity and full club/city name reviewed; established Korean base spelling preserved",
       "heading": [
         "\t\t\t\t\t\t157 heading 다음, Value: 2"
       ]
     },
     {
       "name": "우리카드",
-      "korean": "우리카드",
+      "korean": "서울 우리카드 우리WON",
       "league": "kovo",
-      "source": "https://www.google.com/search?q=%EC%9A%B0%EB%A6%AC%EC%B9%B4%EB%93%9C%20%EB%B0%B0%EA%B5%AC",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=%EC%9A%B0%EB%A6%AC%EC%B9%B4%EB%93%9C%20%EB%B0%B0%EA%B5%AC%EB%8B%A8",
+      "method": "Google search club identity and full club/city name reviewed; established Korean base spelling preserved",
       "heading": [
         "\t\t\t\t\t\t\t\t\t74 heading AI 개요, Value: 2"
       ]
@@ -1274,10 +1274,10 @@
     },
     {
       "name": "Shakhtar",
-      "korean": "샤흐타르 도네츠크",
+      "korean": "FC 샤흐타르 도네츠크",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Shakhtar%20Donetsk",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t45 heading FC 샤흐타르 도네츠크, Value: 2"
       ],
@@ -1318,10 +1318,10 @@
     },
     {
       "name": "Inter Milan",
-      "korean": "인터 밀란",
+      "korean": "FC 인테르나치오날레 밀라노",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Inter%20Milan%20%EC%9D%B8%ED%84%B0%20%EB%B0%80%EB%9E%80",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading FC 인테르나치오날레 밀라노, Value: 2"
       ],
@@ -1340,10 +1340,10 @@
     },
     {
       "name": "LOSC Lille",
-      "korean": "릴",
+      "korean": "LOSC 릴",
       "league": "ucl",
       "source": "https://www.google.com/search?q=Lille%20OSC",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading LOSC 릴, Value: 2"
       ],
@@ -1351,10 +1351,10 @@
     },
     {
       "name": "RC Lens",
-      "korean": "랑스",
+      "korean": "RC 랑스",
       "league": "ucl",
       "source": "https://www.google.com/search?q=RC%20Lens",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading RC 랑스, Value: 2"
       ],
@@ -1362,14 +1362,15 @@
     },
     {
       "name": "Los Angeles Clippers",
-      "korean": "LA 클리퍼스",
+      "korean": "로스앤젤레스 클리퍼스",
       "league": "nba",
       "source": "https://www.google.com/search?q=LA%20Clippers",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t\t\t\t39 heading 로스앤젤레스 클리퍼스 (LA Clippers), Value: 2"
       ],
       "aliasOf": "LA Clippers"
     }
-  ]
+  ],
+  "policy": "Display verified full club names, including club suffixes, founding numbers and nicknames; preserve exact provider aliases. Never promote unrelated search headings."
 }

@@ -1,6 +1,7 @@
 // Reviewed player names and explicit provider aliases. Never infer a name from its surname.
 // Korean media and Naver squad spellings take precedence over automatic search descriptions.
 const playerKo = Object.fromEntries(`
+Abdulkerim Bardakci|압둘케림 바르닥치
 Onyeka Okongwu|오니에카 오콩우
 Alisson|알리송 베커
 Alisson Becker|알리송 베커

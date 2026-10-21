@@ -31,6 +31,35 @@ const sources = {
 const sports = [{id:'football',label:['⚽ Football lineups','⚽ 축구 라인업']},{id:'mlb',label:['MLB lineups','MLB 라인업']},{id:'npb',label:['NPB lineups','NPB 라인업']},{id:'cpbl',label:['CPBL lineups','CPBL 라인업']},{id:'nba',label:['NBA lineups','NBA 라인업']},{id:'wnba',label:['WNBA lineups','WNBA 라인업']},{id:'nhl',label:['NHL lineups','NHL 라인업']},{id:'khl',label:['KHL lineups','KHL 라인업']},{id:'kbo',label:['KBO lineups','KBO 라인업']},{id:'kbl',label:['KBL lineups','KBL 라인업']},{id:'wkbl',label:['WKBL lineups','WKBL 라인업']},{id:'kovo',label:['KOVO lineups','KOVO 라인업']}];
 const categories = [{id:'football',label:['⚽ Football lineups','⚽ 축구 라인업'],sports:['football']},{id:'baseball',label:['⚾ Baseball lineups','⚾ 야구 라인업'],sports:['mlb','kbo','npb','cpbl']},{id:'basketball',label:['🏀 Basketball lineups','🏀 농구 라인업'],sports:['nba','kbl','wkbl','wnba']},{id:'volleyball',label:['🏐 Volleyball lineups','🏐 배구 라인업'],sports:['kovo']},{id:'hockey',label:['🏒 Hockey lineups','🏒 하키 라인업'],sports:['nhl','khl']}];
 const leagueIds = ['ucl','uel','epl','championship','laliga','bundesliga','seriea','ligue1','kleague1','kleague2','eredivisie','jupiler','primeira','scottish','j1','mls'];
+const dropdownLeagueNames = {
+  "ucl": "UEFA 챔피언스리그",
+  "uel": "UEFA 유로파리그",
+  "epl": "잉글랜드 프리미어리그",
+  "championship": "잉글랜드 EFL 챔피언십",
+  "laliga": "스페인 라리가",
+  "bundesliga": "독일 분데스리가",
+  "seriea": "이탈리아 세리에 A",
+  "ligue1": "프랑스 리그 1",
+  "kleague1": "대한민국 K리그1",
+  "kleague2": "대한민국 K리그2",
+  "eredivisie": "네덜란드 에레디비시",
+  "jupiler": "벨기에 주필러 프로리그",
+  "primeira": "포르투갈 프리메이라리가",
+  "scottish": "스코틀랜드 프리미어십",
+  "j1": "일본 J1리그",
+  "mls": "미국 메이저리그 사커 (MLS)",
+  "mlb": "미국 메이저리그 베이스볼 (MLB)",
+  "kbo": "대한민국 프로야구 (KBO 리그)",
+  "npb": "일본 프로야구 (NPB)",
+  "cpbl": "대만 중화직업봉구대연맹 (CPBL)",
+  "nba": "미국 프로농구 (NBA)",
+  "kbl": "대한민국 남자 프로농구 (KBL)",
+  "wkbl": "대한민국 여자 프로농구 (WKBL)",
+  "wnba": "미국 여자 프로농구 (WNBA)",
+  "kovo": "대한민국 프로배구 V-리그 (KOVO)",
+  "nhl": "북미 내셔널 하키 리그 (NHL)",
+  "khl": "러시아 콘티넨탈 하키 리그 (KHL)"
+};
 const leagueLogos = {
   ucl:'https://a.espncdn.com/i/leaguelogos/soccer/500/2.png',uel:'https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png',epl:'https://a.espncdn.com/i/leaguelogos/soccer/500/23.png',championship:'https://a.espncdn.com/i/leaguelogos/soccer/500/24.png',laliga:'https://a.espncdn.com/i/leaguelogos/soccer/500/15.png',bundesliga:'https://a.espncdn.com/i/leaguelogos/soccer/500/10.png',seriea:'https://a.espncdn.com/i/leaguelogos/soccer/500/12.png',ligue1:'https://a.espncdn.com/i/leaguelogos/soccer/500/9.png',eredivisie:'https://a.espncdn.com/i/leaguelogos/soccer/500/11.png',jupiler:'https://a.espncdn.com/i/leaguelogos/soccer/500/6.png',primeira:'https://a.espncdn.com/i/leaguelogos/soccer/500/14.png',scottish:'https://a.espncdn.com/i/leaguelogos/soccer/500/45.png',j1:'https://a.espncdn.com/i/leaguelogos/soccer/500/2199.png',mls:'https://a.espncdn.com/i/leaguelogos/soccer/500/19.png',mlb:'https://a.espncdn.com/i/teamlogos/leagues/500/mlb.png',nba:'https://a.espncdn.com/i/teamlogos/leagues/500/nba.png',wnba:'https://a.espncdn.com/i/teamlogos/leagues/500/wnba.png',nhl:'https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png',khl:'https://www.khl.ru/local/templates/2025/images/logos/2026_27/khl_ru.svg',kleague1:'https://app.holoduke.nl/footapi/images/leagueimages/SouthKoreaKLeagueClassic.png',kleague2:'https://assets.fclogo.top/png/k-league-2-v2021.png',kbo:'https://upload.wikimedia.org/wikipedia/commons/6/6a/Korea_Baseball_Organization_-_2022_wordmark.svg',npb:'https://upload.wikimedia.org/wikipedia/commons/7/7f/NPB_logo.svg',cpbl:'https://www.cpbl.com.tw/theme/common/images/project/logo_new.png',kbl:'https://www.kbl.or.kr/assets/img/logo/logo-header.svg',wkbl:'https://www.wkbl.or.kr/static/images/about/ci_2023.png',kovo:'https://phinf.pstatic.net/tvcast/20241024_232/6A6Ja_1729757946529X0C9l_JPEG/1729757946519.jpg'
 };
@@ -88,10 +117,21 @@ function applyTeamNames(dictionary) {
 }
 async function refreshTeamNames(current) {
   try {
-    const dictionary = await getJson(`team-ko.json?v=${Date.now()}`);
+    let catalog;
+    try {
+      catalog = await getJson(`https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/name-catalog.json?v=${Date.now()}`);
+      if (catalog?.schemaVersion !== 1) throw new Error('Invalid name catalog');
+    } catch {
+      catalog = await getJson(`name-catalog.json?v=${Date.now()}`);
+    }
+    const dictionary = catalog.teams;
+    if (!catalog.players || Array.isArray(catalog.players) || typeof catalog.players !== 'object' || Object.entries(catalog.players).some(([name,korean])=>!name || typeof korean !== 'string' || korean.length>160 || !/\p{Script=Hangul}/u.test(korean))) throw new Error('Invalid player name catalog');
     if (current !== requestId) return;
     applyTeamNames(dictionary);
+    Object.assign(naverKo,catalog.players);
+    Object.assign(naverKoNormalized,Object.fromEntries(Object.entries(catalog.players).map(([name,korean])=>[normalizePlayerName(name),korean])));
     nameReview.dictionaryStatus = 'fresh';
+    renderTeamSearch();
   } catch {
     if (current === requestId) nameReview.dictionaryStatus = 'unavailable';
   }
@@ -116,7 +156,7 @@ function finishNameReview(current) {
   const report = {checkedAt:new Date().toISOString(),league:sport==='football'?league:sport,status:nameReview.failed?'data-unavailable':'checked',dictionaryStatus:nameReview.dictionaryStatus,names,pending:names.filter(row=>!row.reviewed)};
   const teams = names.filter(row=>row.kind==='team').length;
   $('name-review').textContent = nameReview.failed ? '자료 조회 실패 · 표기 대조 미완료' : `저장 표기 대조: 팀 ${teams}개 · 선수 ${names.length-teams}명${report.pending.length ? ` · 미등록 ${report.pending.length}개` : ''}`;
-  if (report.dictionaryStatus === 'unavailable') $('name-review').textContent += ' · 팀명 사전 갱신 실패';
+  if (report.dictionaryStatus === 'unavailable') $('name-review').textContent += ' · 명칭 사전 갱신 실패';
   // Browser-local report only; search verification still requires reviewed sources.
   try { localStorage.setItem('sports-lineups-name-review',JSON.stringify(report)); } catch {}
   nameReview = null;
@@ -259,7 +299,9 @@ async function getProjections() {
   const response = await fetch(`${projectionUrl}&v=${Date.now()}`,{cache:'no-store',headers:{Accept:'application/vnd.github+json'}});
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const binary = atob((await response.json()).content.replace(/\s/g,''));
-  return JSON.parse(new TextDecoder().decode(Uint8Array.from(binary,character => character.charCodeAt(0))));
+  const projections=JSON.parse(new TextDecoder().decode(Uint8Array.from(binary,character => character.charCodeAt(0))));
+  indexTeamSearch(projections);
+  return projections;
 }
 function starters(summary, event, kind) {
   const competition = event.competitions[0];
@@ -409,12 +451,67 @@ function gameCard(event, lineups, prediction, allEvents = []) {
   const statusText = confirmed ? label('Confirmed starters','확정 선발') : projected ? label('Projected lineup','예상 선발') : '';
   const statusClass = confirmed ? 'confirmed' : projected ? 'projected' : '';
   const key = sport === 'football' ? league : sport;
-  return `<article class="card"><div class="card-top"><div class="match-info"><div class="time">${safe(kst(event.date))}</div><div class="matchup-grid">${formMarkup(away,event,allEvents,'away',prediction)}<span class="versus">VS</span>${formMarkup(home,event,allEvents,'home',prediction)}</div></div>${statusText ? `<span class="status ${statusClass}" role="status">${confirmed ? '✓ ' : ''}${statusText}</span>` : ''}</div><div class="teams">${teamCard(away,shown.away)}${teamCard(home,shown.home)}</div>${injuryPanel(prediction,event)}</article>`;
+  return `<article class="card" data-home="${safe(home.team.displayName)}" data-away="${safe(away.team.displayName)}" tabindex="-1"><div class="card-top"><div class="match-info"><div class="time">${safe(kst(event.date))}</div><div class="matchup-grid">${formMarkup(away,event,allEvents,'away',prediction)}<span class="versus">VS</span>${formMarkup(home,event,allEvents,'home',prediction)}</div></div>${statusText ? `<span class="status ${statusClass}" role="status">${confirmed ? '✓ ' : ''}${statusText}</span>` : ''}</div><div class="teams">${teamCard(away,shown.away)}${teamCard(home,shown.home)}</div>${injuryPanel(prediction,event)}</article>`;
 }
+let teamSearchRows = [];
+const teamSearchKey = value => normalizePlayerName(value).replace(/\s/g,'');
+const searchTeamName = name => language === 'ko' ? teamKo[name] || teamKoNormalized[normalizePlayerName(name)] || name : name;
+function indexTeamSearch(projections) {
+  const [start,end] = kstDayRange();
+  const rows = [];
+  for (const item of projections.items || []) {
+    rows.push({league:item.league,date:item.kickoff,home:item.names?.home,away:item.names?.away,homeShort:item.teams?.home,awayShort:item.teams?.away});
+  }
+  for (const [key,entries] of Object.entries(projections.domestic || {})) {
+    for (const {event} of entries) {
+      const competitors=event?.competitions?.[0]?.competitors || [];
+      const home=competitors.find(item=>item.homeAway==='home')?.team;
+      const away=competitors.find(item=>item.homeAway==='away')?.team;
+      rows.push({league:key,date:event?.date,home:home?.displayName,away:away?.displayName,homeShort:home?.abbreviation,awayShort:away?.abbreviation});
+    }
+  }
+  teamSearchRows=[...new Map(rows.filter(row=>sources[row.league] && row.home && row.away && Date.parse(row.date)>=start && Date.parse(row.date)<end).map(row=>[`${row.league}:${row.date}:${row.home}:${row.away}`,row])).values()].sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
+  renderTeamSearch();
+}
+function findTeamGames(query) {
+  const key=teamSearchKey(query);
+  if(!key)return [];
+  return teamSearchRows.filter(row=>['home','away'].some(side=>{
+    const name=row[side],korean=teamKo[name] || teamKoNormalized[normalizePlayerName(name)];
+    const aliases=korean ? Object.keys(teamKo).filter(alias=>teamKo[alias]===korean) : [];
+    return [name,korean,row[side+'Short'],...aliases].filter(Boolean).some(value=>teamSearchKey(value).includes(key));
+  }));
+}
+function renderTeamSearch() {
+  const query=($('team-search').value || '').trim();
+  const results=$('team-search-results');
+  results.hidden=!query;
+  if(!query){results.innerHTML='';return;}
+  const rows=findTeamGames(query);
+  results.innerHTML=rows.length ? `<p class="search-summary">오늘·내일 경기 ${rows.length}개</p>`+rows.slice(0,20).map(row=>{
+    const index=teamSearchRows.indexOf(row);
+    return `<button type="button" class="team-search-result" data-search-game="${index}"><strong>${safe(searchTeamName(row.away))} <span class="search-vs">VS</span> ${safe(searchTeamName(row.home))}</strong><span>${safe(dropdownLeagueNames[row.league])} · ${safe(kst(row.date))}</span></button>`;
+  }).join('') : `<p class="search-summary">${teamSearchRows.length ? '오늘·내일 조회된 경기에서 일치하는 팀이 없습니다.' : '경기 자료를 불러온 뒤 다시 검색해 주세요.'}</p>`;
+}
+async function openTeamSearchGame(index) {
+  const row=teamSearchRows[index];
+  if(!row)return;
+  sport=leagueIds.includes(row.league)?'football':row.league;
+  if(sport==='football')league=row.league;
+  await loadGames();
+  const card=[...document.querySelectorAll('.card[data-home]')].find(element=>element.dataset.home===row.home && element.dataset.away===row.away);
+  if(card){card.classList.add('search-match');card.scrollIntoView({behavior:'smooth',block:'center'});card.focus({preventScroll:true});}
+}
+
 function showTabs() {
   const category = categoryForSport(sport);
   $('sports').innerHTML = categories.map(item => `<button type="button" data-category="${item.id}" aria-current="${category.id === item.id}">${label(...item.label)}</button>`).join('');
-  $('sport-menu').innerHTML = categories.map(group => `<optgroup label="${label(...group.label)}">${group.sports.map(id => { const item=sports.find(entry => entry.id === id); return `<option value="${id}" ${sport === id ? 'selected' : ''}>${label(...item.label)}</option>`; }).join('')}</optgroup>`).join('');
+  $('sport-menu').innerHTML = categories.map(group => {
+    const options = group.id === 'football'
+      ? leagueIds.map(id => `<option value="football:${id}" ${sport === 'football' && league === id ? 'selected' : ''}>${safe(dropdownLeagueNames[id])}</option>`)
+      : group.sports.map(id => { const item=sports.find(entry => entry.id === id); return `<option value="${id}" ${sport === id ? 'selected' : ''}>${safe(dropdownLeagueNames[id])}</option>`; });
+    return `<optgroup label="${label(...group.label)}"><legend>${label(...group.label)}</legend>${options.join('')}</optgroup>`;
+  }).join('');
   const subSports = category.id === 'football' ? [] : category.sports.map(id => sports.find(item => item.id === id));
   const showSubnav = category.id === 'football' || category.id === 'volleyball' || subSports.length > 1;
   $('leagues').hidden = !showSubnav;
@@ -510,11 +607,20 @@ async function loadGames() {
 }
 $('leagues').addEventListener('error',event => { const image=event.target; if (image instanceof HTMLImageElement && image.classList.contains('league-logo')) { image.hidden=true; if (image.nextElementSibling) image.nextElementSibling.hidden=false; } },true);
 $('sports').addEventListener('click',event => { const button=event.target.closest('[data-category]'); if (button) { const category=categories.find(item => item.id === button.dataset.category); if (!category.sports.includes(sport)) sport=category.sports[0]; loadGames(); } });
-$('sport-menu').addEventListener('change',event => { if (event.target.value) { sport=event.target.value; loadGames(); } });
+$('sport-menu').addEventListener('change',event => {
+  const [nextSport,nextLeague] = event.target.value.split(':');
+  if (!sports.some(item => item.id === nextSport)) return;
+  if (nextSport === 'football' && !leagueIds.includes(nextLeague)) return;
+  sport=nextSport;
+  if (nextLeague) league=nextLeague;
+  loadGames();
+});
 $('leagues').addEventListener('click',event => { const button=event.target.closest('[data-league],[data-sport]'); if (button?.dataset.league) { league=button.dataset.league; loadGames(); } else if (button?.dataset.sport) { sport=button.dataset.sport; loadGames(); } });
 $('language').addEventListener('click',() => { language=language === 'ko' ? 'en' : 'ko'; loadGames(); });
 $('theme').addEventListener('click',() => { theme=theme === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.theme=theme; localStorage.setItem('sports-lineups-theme',theme); showTabs(); });
 $('refresh').addEventListener('click',loadGames);
+$('team-search').addEventListener('input',renderTeamSearch);
+$('team-search-results').addEventListener('click',event=>{const button=event.target.closest('[data-search-game]');if(button)openTeamSearchGame(Number(button.dataset.searchGame));});
 document.addEventListener('visibilitychange',() => { if (document.visibilityState === 'visible') loadGames(); });
 window.setInterval(() => { if (document.visibilityState === 'visible') loadGames(); },5*60*1000);
 loadGames();

@@ -3621,6 +3621,12 @@
       "source": "https://www.google.com/search?q=Alexander%20Chmelevski",
       "method": "Reviewed Google Korean athlete heading; hockey identity matched with official NHL/KHL profile",
       "identitySource": "https://www.nhl.com/sharks/news/sharks-sign-forward-alexander-chmelevski-297616522"
+    },
+    {
+      "name": "Abdulkerim Bardakci",
+      "korean": "압둘케림 바르닥치",
+      "source": "https://www.google.com/search?q=Abdulkerim+Bardakci",
+      "method": "User supplied spelling confirmed against Google player heading and club identity"
     }
   ]
 }

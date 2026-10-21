@@ -1,0 +1,92 @@
+{
+  "reviewedAt": "2026-10-21",
+  "policy": "Prefer established Korean names. Preserve unverified names in English. Explicit aliases only; never infer identity from a surname.",
+  "userOverrides": {
+    "Alisson Becker": "알리송 베커",
+    "Jayson Tatum": "제이슨 테이텀",
+    "Kentavious Caldwell-Pope": "켄타비우스 콜드웰-폽",
+    "Mohamed Diawara": "모하메드 디아와라",
+    "Abdulkerim Bardakci": "압둘케림 바르닥치"
+  },
+  "references": {
+    "naverSquads": [
+      "리버풀",
+      "슈투트가르트",
+      "FC 포르투",
+      "비야레알",
+      "PSV",
+      "아틀레틱 빌바오",
+      "AS 로마",
+      "코모",
+      "릴",
+      "랑스",
+      "페예노르트",
+      "라이프치히",
+      "AEK 아테네"
+    ],
+    "football": [
+      "https://www.liverpoolfc.com/teams/mens-team",
+      "https://v.daum.net/v/xjp4Vh3GC2",
+      "https://www.xportsnews.com/article/2110402",
+      "https://v.daum.net/v/20260817005751030",
+      "https://v.daum.net/v/20260905222128433"
+    ],
+    "basketball": [
+      "https://www.jumpball.co.kr/news/newsview.php?ncode=1065539274965284",
+      "https://v.daum.net/v/20260521092817971",
+      "https://v.daum.net/v/20260212140325073"
+    ],
+    "baseball": [
+      "https://v.daum.net/v/20260807074734137",
+      "https://v.daum.net/v/20250715181524934"
+    ],
+    "hockey": [
+      "https://www.esquirekorea.co.kr/article/1896775"
+    ],
+    "mls": [
+      "https://tv.apple.com/kr/team/umc.cst.2pg5pl1t93b37j0bv8hu6qmua"
+    ]
+  },
+  "limits": "Search and roster review are partial. This dictionary does not claim every athlete has been verified. Transfermarkt robot checks and Google CAPTCHA were not bypassed.",
+  "reviewBatches": [
+    {
+      "date": "2026-10-21",
+      "namesAdded": 220,
+      "userPreferredSpelling": {
+        "Onyeka Okongwu": "오니에카 오콩우"
+      },
+      "references": [
+        "https://www.nba.com/player/1630168/onyeka-okongwu/bio",
+        "https://jumpball.co.kr/news/newsview.php?ncode=1065562284008323",
+        "https://jumpball.co.kr/news/newsview.php?ncode=1065569825052779",
+        "https://jumpball.co.kr/news/newsview.php?ncode=1065567759488155",
+        "https://jumpball.co.kr/news/newsview.php?ncode=1065566450177807",
+        "https://jumpball.co.kr/news/newsview.php?ncode=1065566131936243",
+        "https://jumpball.co.kr/news/newsview.php?ncode=1065565872327813",
+        "https://jumpball.co.kr/news/newsview.php?dt=m&ncode=1065608737306109",
+        "https://jumpball.co.kr/news/newsview.php?ncode=1065542916683052",
+        "https://jumpball.co.kr/news/newsview.php?dt=m&ncode=1065622098959428",
+        "https://jumpball.co.kr/news/newsview.php?ncode=1065566599753165",
+        "https://www.mt.co.kr/amp/sports/2025/05/21/2025052115032932441",
+        "https://www.newdaily.co.kr/site/data/html/2025/05/27/2025052700302.html",
+        "https://www.newdaily.co.kr/site/data/html/2025/06/12/2025061200328.html",
+        "https://v.daum.net/v/20260410143726526",
+        "https://www.scorebase.kr/teams/740",
+        "https://coverspick.com/matches/columbus-blue-jackets-vs-new-york-rangers-nhl-match-analysis-november-16-2025/"
+      ],
+      "additionalReferences": [
+        "https://v.daum.net/v/8SSQ91P3rX",
+        "https://v.daum.net/v/20230708145508889",
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052606580384",
+        "https://www.ftimes.kr/news/articleView.html?idxno=18470",
+        "https://www.scorebase.kr/live/NHL/401892500",
+        "https://nrt.cx/p/sports/team/134844",
+        "https://www.flashscore.co.kr/team/tampa-bay-lightning/YVE3zk1c/results/",
+        "https://www.jumpball.co.kr/news/newsview.php?ncode=1065586881980677",
+        "https://www.jumpball.co.kr/news/newsview.php?ncode=1065591725537298",
+        "https://jumpball.co.kr/news/newsview.php?dt=m&ncode=1065540465615456",
+        "https://jumpball.co.kr/news/newsview.php?ncode=1065542332932415"
+      ]
+    }
+  ]
+}

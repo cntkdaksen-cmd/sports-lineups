@@ -21,10 +21,13 @@ const run = code => vm.runInContext(code, context);
 context.checkedTeamDictionary=JSON.parse(fs.readFileSync(new URL('../dist/team-ko.json',import.meta.url),'utf8'));
 run('applyTeamNames(checkedTeamDictionary)');
 assert.throws(()=>run('applyTeamNames({bad:123})'),/Invalid team name dictionary/);
-assert.equal(run("teamKo['Manchester United']"),'맨체스터 유나이티드');
+assert.equal(run("teamKo['Manchester United']"),'맨체스터 유나이티드 FC');
 assert.equal(run("teamDisplayName({displayName:'Mito HollyHock'})"),'미토 홀리호크');
+assert.equal(run("teamDisplayName({displayName:'Como'})"),'코모 1907');
+assert.equal(run("teamDisplayName({displayName:'Lille'})"),'LOSC 릴');
 assert.equal(run("teamDisplayName({displayName:'Unreviewed United'})"),'Unreviewed United');
 for (const [name, expected] of [
+  ['Abdulkerim Bardakci', '압둘케림 바르닥치'],
   ['Alisson Becker', '알리송 베커'], ['Alisson', '알리송 베커'],
   ['Onyeka Okongwu', '오니에카 오콩우'],
   ['Nickeil Alexander-Walker', '니킬 알렉산더워커'],
@@ -83,7 +86,7 @@ assert.equal(JSON.parse(storage.get('sports-lineups-name-review')).status,'data-
 const refreshRequests = [];
 context.fetch = async (url,options) => {
   refreshRequests.push({url,options});
-  return {ok:true,json:async()=>String(url).startsWith('team-ko.json?') ? context.checkedTeamDictionary : {content:Buffer.from(JSON.stringify({domestic:{khl:[]}})).toString('base64')}};
+  return {ok:true,json:async()=>String(url).includes('name-catalog.json') ? {schemaVersion:1,teams:context.checkedTeamDictionary,players:{'Abdulkerim Bardakci':'압둘케림 바르닥치'}} : {content:Buffer.from(JSON.stringify({domestic:{khl:[]}})).toString('base64')}};
 };
 await run('loadGames()');
 await run('loadGames()');
@@ -91,10 +94,34 @@ refreshReport = JSON.parse(storage.get('sports-lineups-name-review'));
 assert.equal(refreshReport.status,'checked');
 assert.equal(refreshReport.dictionaryStatus,'fresh');
 assert.equal(refreshReport.names.length,0,'Failed/previous loads must not leak names');
-const dictionaryRequests = refreshRequests.filter(row=>String(row.url).startsWith('team-ko.json?'));
+const dictionaryRequests = refreshRequests.filter(row=>String(row.url).includes('name-catalog.json'));
 assert.equal(dictionaryRequests.length,2,'Each refresh must fetch the current team dictionary');
 assert.ok(dictionaryRequests.every(row=>row.options.cache==='no-store'));
+const fallbackRequests=[];
+context.fetch=async url=>{
+  fallbackRequests.push(String(url));
+  if(String(url).startsWith('https://raw.')) throw new Error('GitHub unavailable');
+  return {ok:true,json:async()=>({schemaVersion:1,teams:context.checkedTeamDictionary,players:{'Catalog Test Player':'검수 선수'}})};
+};
+run('nameReview={request:requestId,names:new Map()};');
+await run('refreshTeamNames(requestId)');
+assert.equal(fallbackRequests.length,2,'Try bundled catalog after GitHub failure');
+assert.equal(run("translated('Catalog Test Player')"),'검수 선수','Apply approved player updates during refresh');
+assert.equal(run('nameReview.dictionaryStatus'),'fresh');
+run('finishNameReview(requestId)');
 console.log(`Team source review and refresh audit passed: ${teamReview.entries.length} reviewed team names.`);
+
+context.searchDate=new Date(Date.now()+3600000).toISOString();
+context.oldSearchDate=new Date(Date.now()-3*86400000).toISOString();
+run(`indexTeamSearch({items:[{league:'ucl',kickoff:searchDate,names:{home:'Como',away:'Manchester United'},teams:{home:'COM',away:'MUN'}},{league:'ucl',kickoff:oldSearchDate,names:{home:'Lille',away:'Arsenal'},teams:{}}],domestic:{kovo:[{event:{date:searchDate,competitions:[{competitors:[{homeAway:'home',team:{displayName:'우리카드'}},{homeAway:'away',team:{displayName:'한국전력'}}]}]}}]}})`);
+assert.equal(run("findTeamGames('코모 1907').length"),1);
+assert.equal(run("findTeamGames('Como').length"),1);
+assert.equal(run("findTeamGames('MUN').length"),1);
+assert.equal(run("findTeamGames('우리WON').length"),1);
+assert.equal(run("findTeamGames('Arsenal').length"),0,'Exclude games outside today/tomorrow');
+assert.equal(run("findTeamGames('').length"),0);
+assert.equal(run("findTeamGames('<script>').length"),0);
+console.log('Team search: full Korean/English names, abbreviation, domestic nicknames and date range passed.');
 
 // Unlike snapshot-only audits, this inventory also covers ESPN live starters,
 // recent-game fallback starters and injury names collected by the actual renderers.

@@ -8,7 +8,7 @@ const cacheDir=arg('--cache-dir',null);if(cacheDir)fs.mkdirSync(cacheDir,{recurs
 const elements=new Map();const element=()=>({innerHTML:'',textContent:'',dataset:{},addEventListener(){},setAttribute(){}});
 const records=[];const teams=new Map();let currentLeague='';const failures=[];
 const cachedFetch=async url=>{
- if(String(url).startsWith('team-ko.json?'))return {ok:true,json:async()=>JSON.parse(fs.readFileSync(root+'/dist/team-ko.json','utf8'))};
+ if(String(url).includes('name-catalog.json'))return {ok:true,json:async()=>JSON.parse(fs.readFileSync(root+'/dist/name-catalog.json','utf8'))};
  const key=String(url).replace(/&v=\d+/,'');const file=cacheDir&&cacheDir+'/'+crypto.createHash('sha256').update(key).digest('hex')+'.json';
  if(file&&fs.existsSync(file)){const body=fs.readFileSync(file,'utf8');return {ok:true,json:async()=>JSON.parse(body)};}
  try{const response=await fetch(url,{signal:AbortSignal.timeout(20000)});if(!response.ok)throw Error(`HTTP ${response.status}`);const body=await response.text();JSON.parse(body);if(file)fs.writeFileSync(file,body);return {ok:true,json:async()=>JSON.parse(body)};}
