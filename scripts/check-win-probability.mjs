@@ -30,7 +30,7 @@ context.recordTeam={records:[{name:'overall',summary:'3-2-1'}]};
 assert.equal(run("predictionRecord(recordTeam,'home',true).losses"),3,'NHL overtime losses are losses');
 run("sport='football'");
 assert.equal(run("predictionRecord(recordTeam,'home',true)"),null,'Do not guess soccer record order');
-assert.match(run('gameCard(currentEvent,{},null,[])'),/승부 예측/);
+assert.match(run('gameCard(currentEvent,{},null,[])'),/NUDE TV AI 승부예측/);
 assert.match(run('gameCard(currentEvent,{},null,[])'),/무승부/);
 assert.match(run('gameCard(currentEvent,{},null,[])'),/전력 자료 부족/);
 run("sport='nba'");
