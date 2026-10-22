@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-22T09:18:53.412120+00:00",
+  "asOf": "2026-10-22T10:08:34.653166+00:00",
   "windowStart": "2026-10-22T00:00:00+09:00",
   "windowEnd": "2026-10-24T00:00:00+09:00",
   "items": [
@@ -19,7 +19,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909093",
-      "checkedAt": "2026-10-22T09:18:53.412120+00:00",
+      "checkedAt": "2026-10-22T10:08:34.653166+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -38,7 +38,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909094",
-      "checkedAt": "2026-10-22T09:18:53.412120+00:00",
+      "checkedAt": "2026-10-22T10:08:34.653166+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -57,7 +57,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/ararat-armenia-vs-az_game_260897.html",
-      "checkedAt": "2026-10-22T09:18:53.412120+00:00",
+      "checkedAt": "2026-10-22T10:08:34.653166+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -76,7 +76,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/lech-poznan-vs-sunderland_game_260894.html",
-      "checkedAt": "2026-10-22T09:18:53.412120+00:00",
+      "checkedAt": "2026-10-22T10:08:34.653166+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -95,13 +95,13 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/ofi-crete-vs-bayer-leverkusen_game_260899.html",
-      "checkedAt": "2026-10-22T09:18:53.412120+00:00",
+      "checkedAt": "2026-10-22T10:08:34.653166+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     }
   ],
   "coverage": {
-    "scheduled": 67,
+    "scheduled": 66,
     "external": 5
   },
   "errors": []
