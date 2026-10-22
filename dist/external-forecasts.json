@@ -1,28 +1,9 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-22T04:10:09.130276+00:00",
+  "asOf": "2026-10-22T04:48:16.771474+00:00",
   "windowStart": "2026-10-22T00:00:00+09:00",
   "windowEnd": "2026-10-24T00:00:00+09:00",
   "items": [
-    {
-      "league": "nba",
-      "eventId": "401909093",
-      "kickoff": "2026-10-22T23:00Z",
-      "homeId": "20",
-      "awayId": "5",
-      "homeName": "Philadelphia 76ers",
-      "awayName": "Cleveland Cavaliers",
-      "values": {
-        "home": 70.4,
-        "away": 29.6,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909093",
-      "checkedAt": "2026-10-22T04:10:09.130276+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
     {
       "league": "nba",
       "eventId": "401909094",
@@ -38,7 +19,26 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909094",
-      "checkedAt": "2026-10-22T04:10:09.130276+00:00",
+      "checkedAt": "2026-10-22T04:48:16.771474+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "nba",
+      "eventId": "401909093",
+      "kickoff": "2026-10-22T23:00Z",
+      "homeId": "20",
+      "awayId": "5",
+      "homeName": "Philadelphia 76ers",
+      "awayName": "Cleveland Cavaliers",
+      "values": {
+        "home": 70.4,
+        "away": 29.6,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909093",
+      "checkedAt": "2026-10-22T04:48:16.771474+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -51,13 +51,13 @@
       "homeName": "Ararat-Armenia",
       "awayName": "AZ Alkmaar",
       "values": {
-        "home": 30.43,
-        "away": 47.11,
-        "draw": 22.45
+        "home": 30.5,
+        "away": 47.02,
+        "draw": 22.41
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/ararat-armenia-vs-az_game_260897.html",
-      "checkedAt": "2026-10-22T04:10:09.130276+00:00",
+      "checkedAt": "2026-10-22T04:48:16.771474+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -70,13 +70,13 @@
       "homeName": "Lech Poznan",
       "awayName": "Sunderland",
       "values": {
-        "home": 44.27,
-        "away": 33.67,
-        "draw": 22.07
+        "home": 44.36,
+        "away": 33.59,
+        "draw": 22.05
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/lech-poznan-vs-sunderland_game_260894.html",
-      "checkedAt": "2026-10-22T04:10:09.130276+00:00",
+      "checkedAt": "2026-10-22T04:48:16.771474+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -89,13 +89,13 @@
       "homeName": "OFI Crete",
       "awayName": "Bayer Leverkusen",
       "values": {
-        "home": 20.81,
-        "away": 58.38,
-        "draw": 20.81
+        "home": 20.91,
+        "away": 58.29,
+        "draw": 20.76
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/ofi-crete-vs-bayer-leverkusen_game_260899.html",
-      "checkedAt": "2026-10-22T04:10:09.130276+00:00",
+      "checkedAt": "2026-10-22T04:48:16.771474+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -114,7 +114,7 @@
       },
       "provider": "BK Volley",
       "sourceUrl": "https://www.bkvolley.kr/matches/260020",
-      "checkedAt": "2026-10-22T04:10:09.130276+00:00",
+      "checkedAt": "2026-10-22T04:48:16.771474+00:00",
       "kind": "published-model",
       "note": "Publisher marks its model uncalibrated; probability is not a validated success rate.",
       "sourceExpiresAt": "2026-10-22T15:30:00+09:00",
