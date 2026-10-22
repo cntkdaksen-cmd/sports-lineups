@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-22T14:09:17.592043+00:00",
+  "asOf": "2026-10-22T14:50:32.303525+00:00",
   "windowStart": "2026-10-22T00:00:00+09:00",
   "windowEnd": "2026-10-24T00:00:00+09:00",
   "items": [
@@ -13,13 +13,13 @@
       "homeName": "Philadelphia 76ers",
       "awayName": "Cleveland Cavaliers",
       "values": {
-        "home": 70.8,
-        "away": 29.2,
+        "home": 71.7,
+        "away": 28.3,
         "draw": 0
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909093",
-      "checkedAt": "2026-10-22T14:09:17.592043+00:00",
+      "checkedAt": "2026-10-22T14:50:32.303525+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -32,13 +32,13 @@
       "homeName": "Oklahoma City Thunder",
       "awayName": "Denver Nuggets",
       "values": {
-        "home": 76.1,
-        "away": 23.9,
+        "home": 76.5,
+        "away": 23.5,
         "draw": 0
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909094",
-      "checkedAt": "2026-10-22T14:09:17.592043+00:00",
+      "checkedAt": "2026-10-22T14:50:32.303525+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -57,7 +57,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/ararat-armenia-vs-az_game_260897.html",
-      "checkedAt": "2026-10-22T14:09:17.592043+00:00",
+      "checkedAt": "2026-10-22T14:50:32.303525+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -76,7 +76,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/lech-poznan-vs-sunderland_game_260894.html",
-      "checkedAt": "2026-10-22T14:09:17.592043+00:00",
+      "checkedAt": "2026-10-22T14:50:32.303525+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -95,7 +95,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/ofi-crete-vs-bayer-leverkusen_game_260899.html",
-      "checkedAt": "2026-10-22T14:09:17.592043+00:00",
+      "checkedAt": "2026-10-22T14:50:32.303525+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     }
