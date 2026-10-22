@@ -1,28 +1,9 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-22T00:38:45.085236+00:00",
+  "asOf": "2026-10-22T01:19:44.400486+00:00",
   "windowStart": "2026-10-22T00:00:00+09:00",
   "windowEnd": "2026-10-24T00:00:00+09:00",
   "items": [
-    {
-      "league": "nba",
-      "eventId": "401909840",
-      "kickoff": "2026-10-22T00:30Z",
-      "homeId": "10",
-      "awayId": "6",
-      "homeName": "Houston Rockets",
-      "awayName": "Dallas Mavericks",
-      "values": {
-        "home": 72.2,
-        "away": 27.8,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909840",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
     {
       "league": "nba",
       "eventId": "401909841",
@@ -38,7 +19,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909841",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -57,45 +38,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909092",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909093",
-      "kickoff": "2026-10-22T23:00Z",
-      "homeId": "20",
-      "awayId": "5",
-      "homeName": "Philadelphia 76ers",
-      "awayName": "Cleveland Cavaliers",
-      "values": {
-        "home": 70.4,
-        "away": 29.6,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909093",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909094",
-      "kickoff": "2026-10-23T01:30Z",
-      "homeId": "25",
-      "awayId": "7",
-      "homeName": "Oklahoma City Thunder",
-      "awayName": "Denver Nuggets",
-      "values": {
-        "home": 75.4,
-        "away": 24.6,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909094",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -114,7 +57,45 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909842",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "nba",
+      "eventId": "401909094",
+      "kickoff": "2026-10-23T01:30Z",
+      "homeId": "25",
+      "awayId": "7",
+      "homeName": "Oklahoma City Thunder",
+      "awayName": "Denver Nuggets",
+      "values": {
+        "home": 75.4,
+        "away": 24.6,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909094",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "nba",
+      "eventId": "401909093",
+      "kickoff": "2026-10-22T23:00Z",
+      "homeId": "20",
+      "awayId": "5",
+      "homeName": "Philadelphia 76ers",
+      "awayName": "Cleveland Cavaliers",
+      "values": {
+        "home": 70.4,
+        "away": 29.6,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909093",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -133,7 +114,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/champions-league/aston-villa-vs-viking-fk_game_260471.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -152,7 +133,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/ararat-armenia-vs-az_game_260897.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -171,7 +152,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/champions-league/bayern-munich-vs-arsenal_game_260466.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -190,26 +171,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/champions-league/club-brugge-vs-lens_game_260468.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
-      "kind": "published-model",
-      "note": "Match result over regular time; source rounding retained."
-    },
-    {
-      "league": "mls",
-      "eventId": "761773",
-      "kickoff": "2026-10-21T23:00Z",
-      "homeId": "18267",
-      "awayId": "193",
-      "homeName": "FC Cincinnati",
-      "awayName": "D.C. United",
-      "values": {
-        "home": 52.99,
-        "away": 23.55,
-        "draw": 23.45
-      },
-      "provider": "Sports Mole",
-      "sourceUrl": "https://www.sportsmole.co.uk/football/mls/fc-cincinnati-vs-dc-united_game_257155.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -228,7 +190,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/champions-league/como-vs-man-utd_game_260463.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -247,26 +209,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/champions-league/inter-milan-vs-shakhtar-donetsk_game_260467.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
-      "kind": "published-model",
-      "note": "Match result over regular time; source rounding retained."
-    },
-    {
-      "league": "ucl",
-      "eventId": "401915396",
-      "kickoff": "2026-10-21T16:45Z",
-      "homeId": "166",
-      "awayId": "432",
-      "homeName": "Lille",
-      "awayName": "Galatasaray",
-      "values": {
-        "home": 37.78,
-        "away": 39.14,
-        "draw": 23.12
-      },
-      "provider": "Sports Mole",
-      "sourceUrl": "https://www.sportsmole.co.uk/football/champions-league/lille-vs-galatasaray_game_260464.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -285,26 +228,45 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/lech-poznan-vs-sunderland_game_260894.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
+      "kind": "published-model",
+      "note": "Match result over regular time; source rounding retained."
+    },
+    {
+      "league": "mls",
+      "eventId": "761773",
+      "kickoff": "2026-10-21T23:00Z",
+      "homeId": "18267",
+      "awayId": "193",
+      "homeName": "FC Cincinnati",
+      "awayName": "D.C. United",
+      "values": {
+        "home": 52.99,
+        "away": 23.55,
+        "draw": 23.45
+      },
+      "provider": "Sports Mole",
+      "sourceUrl": "https://www.sportsmole.co.uk/football/mls/fc-cincinnati-vs-dc-united_game_257155.html",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
     {
       "league": "ucl",
-      "eventId": "401915391",
-      "kickoff": "2026-10-21T19:00Z",
-      "homeId": "2250",
-      "awayId": "4411",
-      "homeName": "Sporting CP",
-      "awayName": "LASK Linz",
+      "eventId": "401915396",
+      "kickoff": "2026-10-21T16:45Z",
+      "homeId": "166",
+      "awayId": "432",
+      "homeName": "Lille",
+      "awayName": "Galatasaray",
       "values": {
-        "home": 52.79,
-        "away": 23.8,
-        "draw": 23.38
+        "home": 37.78,
+        "away": 39.14,
+        "draw": 23.12
       },
       "provider": "Sports Mole",
-      "sourceUrl": "https://www.sportsmole.co.uk/football/champions-league/sporting-lisbon-vs-lask-linz_game_260472.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "sourceUrl": "https://www.sportsmole.co.uk/football/champions-league/lille-vs-galatasaray_game_260464.html",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -323,7 +285,26 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/europa-league/ofi-crete-vs-bayer-leverkusen_game_260899.html",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
+      "kind": "published-model",
+      "note": "Match result over regular time; source rounding retained."
+    },
+    {
+      "league": "ucl",
+      "eventId": "401915391",
+      "kickoff": "2026-10-21T19:00Z",
+      "homeId": "2250",
+      "awayId": "4411",
+      "homeName": "Sporting CP",
+      "awayName": "LASK Linz",
+      "values": {
+        "home": 52.79,
+        "away": 23.8,
+        "draw": 23.38
+      },
+      "provider": "Sports Mole",
+      "sourceUrl": "https://www.sportsmole.co.uk/football/champions-league/sporting-lisbon-vs-lask-linz_game_260472.html",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -342,7 +323,7 @@
       },
       "provider": "BK Volley",
       "sourceUrl": "https://www.bkvolley.kr/matches/2003",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Publisher marks its model uncalibrated; probability is not a validated success rate.",
       "sourceExpiresAt": "2026-10-22T13:00:00+09:00",
@@ -363,7 +344,7 @@
       },
       "provider": "BK Volley",
       "sourceUrl": "https://www.bkvolley.kr/matches/260020",
-      "checkedAt": "2026-10-22T00:38:45.085236+00:00",
+      "checkedAt": "2026-10-22T01:19:44.400486+00:00",
       "kind": "published-model",
       "note": "Publisher marks its model uncalibrated; probability is not a validated success rate.",
       "sourceExpiresAt": "2026-10-22T15:30:00+09:00",
@@ -371,8 +352,25 @@
     }
   ],
   "coverage": {
-    "scheduled": 68,
-    "external": 19
+    "scheduled": 56,
+    "external": 18
   },
-  "errors": []
+  "errors": [
+    {
+      "source": "seriea/20261022",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    },
+    {
+      "source": "seriea/20261023",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    },
+    {
+      "source": "mls/20261023",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    },
+    {
+      "source": "nhl/20261022",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    }
+  ]
 }
