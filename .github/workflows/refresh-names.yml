@@ -10,6 +10,8 @@ on:
       - 'dist/win-probability.js'
       - 'scripts/check-win-probability.mjs'
       - 'scripts/check-embedded-storage.mjs'
+      - 'scripts/check-baseball-pitchers.mjs'
+      - 'scripts/fixtures/baseball-name-review.json'
       - 'dist/team-ko.json'
       - 'scripts/*name*.json'
       - 'scripts/build-name-catalog.mjs'
@@ -36,6 +38,8 @@ jobs:
           node-version: '22'
       - name: Validate sandboxed board initialization
         run: node scripts/check-embedded-storage.mjs
+      - name: Validate baseball pitchers and major games
+        run: node scripts/check-baseball-pitchers.mjs
       - name: Validate game outcome estimates
         run: node scripts/check-win-probability.mjs
       - name: Build approved Korean full names

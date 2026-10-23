@@ -81,7 +81,7 @@ assert.equal(refreshReport.pending.length,0);
 run(`nameReview={request:requestId,names:new Map(),failed:true};finishNameReview(requestId);`);
 assert.equal(JSON.parse(storage.get('sports-lineups-name-review')).status,'data-unavailable');
 context.fetch = async () => {throw new Error('Offline');};
-await run(`sport='khl';loadGames()`);
+await run(`majorView=false;sport='khl';loadGames()`);
 assert.equal(JSON.parse(storage.get('sports-lineups-name-review')).status,'data-unavailable');
 const refreshRequests = [];
 context.fetch = async (url,options) => {

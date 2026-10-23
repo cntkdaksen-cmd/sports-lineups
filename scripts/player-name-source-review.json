@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-21",
+  "reviewedAt": "2026-10-24",
   "scope": "All previously untranslated names found by executing every current site league, lineup and injury renderer for today and tomorrow. Sources are internal review metadata, never rendered in the public UI.",
   "entries": [
     {
@@ -3651,6 +3651,156 @@
       "korean": "아르다 귈러",
       "source": "https://shop.realmadrid.com/ko-kr/collections/players-arda-guler-youth",
       "method": "Google identity cross-checked with the club official Korean store sporting name"
+    },
+    {
+      "name": "Yandy Diaz",
+      "korean": "얀디 디아스",
+      "source": "https://www.mt.co.kr/sports/2026/09/10/202609101057776341O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Jonathan Aranda",
+      "korean": "조나단 아란다",
+      "source": "https://www.mt.co.kr/sports/2026/09/10/202609101057776341O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Junior Caminero",
+      "korean": "주니오르 카미네로",
+      "source": "https://www.mt.co.kr/sports/2026/09/10/202609101057776341O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Liam Hicks",
+      "korean": "리암 힉스",
+      "source": "https://www.mt.co.kr/sports/2026/09/10/202609101057776341O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Chandler Simpson",
+      "korean": "챈들러 심슨",
+      "source": "https://www.mt.co.kr/sports/2026/09/10/202609101057776341O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Victor Mesa",
+      "korean": "빅터 메사 주니어",
+      "source": "https://www.mt.co.kr/sports/2026/09/10/202609101057776341O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Victor Mesa Jr.",
+      "korean": "빅터 메사 주니어",
+      "source": "https://www.mt.co.kr/sports/2026/09/10/202609101057776341O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Jonny DeLuca",
+      "korean": "조니 델루카",
+      "source": "https://www.mt.co.kr/sports/2026/10/19/202610190852779788O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Richie Palacios",
+      "korean": "리치 팔라시오스",
+      "source": "https://www.mt.co.kr/sports/2026/09/10/202609101057776341O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Taylor Walls",
+      "korean": "테일러 월스",
+      "source": "https://www.mt.co.kr/sports/2026/10/19/202610190852779788O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Jackson Chourio",
+      "korean": "잭슨 추리오",
+      "source": "https://www.mlbkor.com/news/articleView.html?idxno=34070",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Brice Turang",
+      "korean": "브라이스 투랑",
+      "source": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1012622",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Jake Bauers",
+      "korean": "제이크 바우어스",
+      "source": "https://www.mk.co.kr/news/sports/12176367",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "William Contreras",
+      "korean": "윌리엄 콘트레라스",
+      "source": "https://www.mk.co.kr/news/sports/12176367",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Garrett Mitchell",
+      "korean": "개럿 미첼",
+      "source": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1012622",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Christian Yelich",
+      "korean": "크리스티안 옐리치",
+      "source": "https://www.mk.co.kr/news/sports/12176367",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Cooper Pratt",
+      "korean": "쿠퍼 프랫",
+      "source": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1012622",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Luis Lara",
+      "korean": "루이스 라라",
+      "source": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1012622",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Joey Ortiz",
+      "korean": "조이 오티즈",
+      "source": "https://www.mk.co.kr/news/sports/12176367",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Sal Frelick",
+      "korean": "살 프렐릭",
+      "source": "https://www.mt.co.kr/sports/2026/05/13/202605131119776654O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "David Hamilton",
+      "korean": "데이비드 해밀턴",
+      "source": "https://www.mt.co.kr/sports/2026/05/13/202605131119776654O",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Nick Martinez",
+      "korean": "닉 마르티네스",
+      "source": "https://www.mlbkor.com/news/articleView.html?idxno=34349",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Jacob Misiorowski",
+      "korean": "제이콥 미저라우스키",
+      "source": "https://sports.news.nate.com/view/20261012n03058",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Drew Rasmussen",
+      "korean": "드류 라스무센",
+      "source": "https://www.mlbkor.com/news/articleView.html?idxno=34186",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
+    },
+    {
+      "name": "Logan Henderson",
+      "korean": "로건 헨더슨",
+      "source": "https://www.mlbkor.com/news/articleView.html?idxno=34285",
+      "method": "Korean sports report checked against ESPN full player identity for current MLB lineup and announced starting pitcher"
     }
   ]
 }
