@@ -334,10 +334,16 @@ async function getJson(url) {
   return response.json();
 }
 async function getProjections() {
-  const response = await fetch(`${projectionUrl}&v=${Date.now()}`,{cache:'no-store',headers:{Accept:'application/vnd.github+json'}});
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  const binary = atob((await response.json()).content.replace(/\s/g,''));
-  const projections=JSON.parse(new TextDecoder().decode(Uint8Array.from(binary,character => character.charCodeAt(0))));
+  let projections;
+  try {
+    projections=await getJson(`https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/projections.json?v=${Date.now()}`);
+    if(!Array.isArray(projections?.items) || !projections.domestic)throw new Error('Invalid lineup snapshot');
+  } catch {
+    const response = await fetch(`${projectionUrl}&v=${Date.now()}`,{cache:'no-store',headers:{Accept:'application/vnd.github+json'}});
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const binary = atob((await response.json()).content.replace(/\s/g,''));
+    projections=JSON.parse(new TextDecoder().decode(Uint8Array.from(binary,character => character.charCodeAt(0))));
+  }
   indexTeamSearch(projections);
   return projections;
 }

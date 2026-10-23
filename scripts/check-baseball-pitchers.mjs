@@ -48,3 +48,7 @@ context.majorFixture={key:'mlb',event:{...context.event,date:new Date(Date.now()
 run("recentLineups=async()=>({away:Array.from({length:9},()=>({name:'Yandy Diaz'})),home:Array.from({length:9},()=>({name:'Jackson Chourio'}))})");
 const filled=await run('majorGameData(majorFixture,{items:[]},[])');assert.equal(filled.prediction.lineups.away.length,9);assert.equal(filled.prediction.lineups.home.length,9);assert.equal(filled.prediction.statuses.home,'predicted');assert.match(filled.prediction.note,/최근 경기/);
 console.log('Major lineup regression: missing published lineups use the existing recent-starter fallback and remain predicted.');
+
+const requests=[];context.fetch=async(url)=>{requests.push(String(url));return {ok:true,json:async()=>({items:[],domestic:{}})};};
+await run('getProjections()');assert.equal(requests.length,1);assert.match(requests[0],/raw\.githubusercontent\.com/);assert.ok(!requests.some(url=>url.includes('api.github.com')),'Do not require GitHub API quota for public lineup snapshots');
+console.log('Lineup feed: direct public snapshot works without the GitHub contents API.');
