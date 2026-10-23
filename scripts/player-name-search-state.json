@@ -383,6 +383,22 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T20:36:19.489182+00:00",
       "nextCheckAt": "2026-10-30T20:36:19.489182+00:00"
+    },
+    "Adnane Abid": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adnane+Abid+Standard+Liege&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adnane+Abid+Standard+Liege",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T21:09:16.336797+00:00",
+      "nextCheckAt": "2026-10-24T03:09:16.336797+00:00"
     }
   }
 }
