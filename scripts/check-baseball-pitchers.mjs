@@ -43,3 +43,8 @@ context.injuries={injuryDetails:{home:[{name:'Nick Martinez',status:'questionabl
 const injuryHtml=run('injuryPanel(injuries,event)');assert.match(injuryHtml,/<details class="injury-box"><summary>/);assert.doesNotMatch(injuryHtml,/<details[^>]*\bopen\b/);assert.match(injuryHtml,/닉 마르티네스/);assert.match(injuryHtml,/어깨/);
 assert.match(run('gameCard(event,{},null,[])'),/--lineup-rows:1;--team-rows:3/);
 console.log('Injuries: native disclosure defaults closed, preserves player/reason, and lineup row counts stay explicit.');
+
+context.majorFixture={key:'mlb',event:{...context.event,date:new Date(Date.now()+86400000).toISOString()}};
+run("recentLineups=async()=>({away:Array.from({length:9},()=>({name:'Yandy Diaz'})),home:Array.from({length:9},()=>({name:'Jackson Chourio'}))})");
+const filled=await run('majorGameData(majorFixture,{items:[]},[])');assert.equal(filled.prediction.lineups.away.length,9);assert.equal(filled.prediction.lineups.home.length,9);assert.equal(filled.prediction.statuses.home,'predicted');assert.match(filled.prediction.note,/최근 경기/);
+console.log('Major lineup regression: missing published lineups use the existing recent-starter fallback and remain predicted.');

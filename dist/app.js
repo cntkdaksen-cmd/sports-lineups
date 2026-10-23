@@ -655,6 +655,24 @@ function majorGameRows(rows,start,end) {
     const count=counts.get(row.key)||0;counts.set(row.key,count+1);return count<3;
   }).slice(0,30);
 }
+async function majorGameData(row,projections,history) {
+  const kind=leagueIds.includes(row.key)?'football':row.key;
+  const source=sources[row.key];
+  let prediction=row.prediction || predictionFor(row.event,projections.items||[],row.key),lineups={};
+  if(source.path) {
+    const hours=(Date.parse(row.event.date)-Date.now())/3600000;
+    if(hours<=(kind==='mlb'?8:3))try {
+      const summary=await getJson(`https://site.api.espn.com/apis/site/v2/sports/${source.path}/summary?event=${encodeURIComponent(row.event.id)}`);
+      lineups=starters(summary,row.event,kind);
+      if(kind==='mlb')prediction={...prediction,startingPitchers:{...prediction?.startingPitchers,...summaryPitchers(summary,row.event)}};
+    } catch {}
+    if((!lineups.away?.length || !lineups.home?.length) && (!prediction?.lineups?.away?.length || !prediction?.lineups?.home?.length)) {
+      const fallback=await recentLineups(row.event,history,source,kind);
+      if(fallback.away?.length || fallback.home?.length)prediction={...prediction,lineups:{...prediction?.lineups,...fallback,...lineups},statuses:{away:'predicted',home:'predicted'},note:'최근 경기 선발 기준 예상'};
+    }
+  }
+  return {...row,prediction,lineups};
+}
 async function loadMajorGames(current) {
   const [start,end]=kstDayRange();
   const first=new Date(start),previous=new Date(Date.UTC(first.getUTCFullYear(),first.getUTCMonth()-1,1));
@@ -668,15 +686,18 @@ async function loadMajorGames(current) {
   const selected=majorGameRows(allRows,start,end);
   if(!scores.some(r=>r.status==='fulfilled') && !rows.length)nameReview.failed=true;
   indexTeamSearch({domestic:Object.fromEntries(majorLeagueIds.map(key=>[key,rows.filter(row=>row.key===key).map(row=>({event:row.event}))]))},true);
+  const prepared=await Promise.all(selected.map(row=>majorGameData(row,projections,allRows.filter(r=>r.key===row.key).map(r=>r.event))));
+  if(current!==requestId)return;
   // Reuse the existing league renderers synchronously after all requests complete.
   const previousSport=sport,previousLeague=league;
   try {
-    const cards=selected.map(row=>{
+    const cards=prepared.map(row=>{
       sport=leagueIds.includes(row.key)?'football':row.key;
       if(sport==='football')league=row.key;
-      const prediction=row.prediction || predictionFor(row.event,projections.items||[],row.key);
+      const prediction=row.prediction;
       const confirmed=prediction?.statuses?.home==='confirmed' && prediction?.statuses?.away==='confirmed';
-      const card=gameCard(row.event,confirmed?prediction.lineups||{}:{},prediction,allRows.filter(r=>r.key===row.key).map(r=>r.event));
+      const actual=row.lineups?.away?.length && row.lineups?.home?.length;
+      const card=gameCard(row.event,actual?row.lineups:confirmed?prediction.lineups||{}:{},prediction,allRows.filter(r=>r.key===row.key).map(r=>r.event));
       return card.replace('tabindex="-1">',`tabindex="-1"><div class="overview-league">${safe(dropdownLeagueNames[row.key]||sources[row.key].label[1])}</div>`);
     });
     if(current===requestId){
