@@ -38,3 +38,8 @@ for(const league of ['kleague1','kleague2']){run(`sport='football';league='${lea
 run("sport='football';league='epl'");assert.equal(run("isKoreanPlayer({name:'Son Heung-min'})"),true);
 run("sport='mlb'");assert.equal(run("isKoreanPlayer({name:'Lee Jung-hoo'})"),true);assert.equal(run("isKoreanPlayer({name:'Foreign Player',country:'USA'})"),false);
 console.log('Korean badges: domestic leagues excluded, overseas Korean players retained.');
+
+context.injuries={injuryDetails:{home:[{name:'Nick Martinez',status:'questionable',part:'shoulder'}]}};
+const injuryHtml=run('injuryPanel(injuries,event)');assert.match(injuryHtml,/<details class="injury-box"><summary>/);assert.doesNotMatch(injuryHtml,/<details[^>]*\bopen\b/);assert.match(injuryHtml,/닉 마르티네스/);assert.match(injuryHtml,/어깨/);
+assert.match(run('gameCard(event,{},null,[])'),/--lineup-rows:1;--team-rows:3/);
+console.log('Injuries: native disclosure defaults closed, preserves player/reason, and lineup row counts stay explicit.');

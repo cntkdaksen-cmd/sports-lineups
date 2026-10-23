@@ -305,7 +305,7 @@ function injuryPanel(prediction,event) {
     }).filter(Boolean).join('');
     if (rows) groups.push(`<section><h4>${safe(teamDisplayName(team?.team))}</h4><ul>${rows}</ul></section>`);
   }
-  return groups.length?`<aside class="injury-box"><h3>${label('Injuries & availability','부상·출전 불투명')}</h3><div>${groups.join('')}</div></aside>`:'';
+  return groups.length?`<details class="injury-box"><summary>${label('Injuries & availability','부상·출전 불투명')}</summary><div>${groups.join('')}</div></details>`:'';
 }
 function kst(iso) {
   const options = language === 'ko'
@@ -547,10 +547,12 @@ function gameCard(event, lineups, prediction, allEvents = []) {
   const confirmed = Boolean(lineups.away?.length && lineups.home?.length);
   const projected = !confirmed && Boolean(prediction?.lineups?.away?.length && prediction?.lineups?.home?.length);
   const shown = confirmed ? lineups : projected ? prediction.lineups : {};
+  const lineupRows=Math.max(shown.away?.length||0,shown.home?.length||0,1);
+  const teamRows=lineupRows+(['mlb','kbo','npb','cpbl'].includes(sport)?2:1);
   const statusText = confirmed ? label('Confirmed starters','확정 선발') : projected ? label('Projected lineup','예상 선발') : '';
   const statusClass = confirmed ? 'confirmed' : projected ? 'projected' : '';
   const key = sport === 'football' ? league : sport;
-  return `<article class="card" data-home="${safe(home.team.displayName)}" data-away="${safe(away.team.displayName)}" tabindex="-1"><div class="card-top"><div class="match-info"><div class="time">${safe(kst(event.date))}</div><div class="matchup-grid">${formMarkup(away,event,allEvents,'away',prediction)}<span class="versus">VS</span>${formMarkup(home,event,allEvents,'home',prediction)}</div></div>${statusText ? `<span class="status ${statusClass}" role="status">${confirmed ? '✓ ' : ''}${statusText}</span>` : ''}</div>${outcomeMarkup(away,home,event,prediction,allEvents)}<div class="teams">${teamCard(away,shown.away,baseballPitcher(away,prediction))}${teamCard(home,shown.home,baseballPitcher(home,prediction))}</div>${injuryPanel(prediction,event)}</article>`;
+  return `<article class="card" data-home="${safe(home.team.displayName)}" data-away="${safe(away.team.displayName)}" tabindex="-1"><div class="card-top"><div class="match-info"><div class="time">${safe(kst(event.date))}</div><div class="matchup-grid">${formMarkup(away,event,allEvents,'away',prediction)}<span class="versus">VS</span>${formMarkup(home,event,allEvents,'home',prediction)}</div></div>${statusText ? `<span class="status ${statusClass}" role="status">${confirmed ? '✓ ' : ''}${statusText}</span>` : ''}</div>${outcomeMarkup(away,home,event,prediction,allEvents)}<div class="teams" style="--lineup-rows:${lineupRows};--team-rows:${teamRows}">${teamCard(away,shown.away,baseballPitcher(away,prediction))}${teamCard(home,shown.home,baseballPitcher(home,prediction))}</div>${injuryPanel(prediction,event)}</article>`;
 }
 let teamSearchRows = [];
 const teamSearchKey = value => normalizePlayerName(value).replace(/\s/g,'');
