@@ -32,3 +32,9 @@ const selected=run('majorGameRows(majorRows,majorStart,majorEnd)');
 assert.equal(selected.length,4,'Deduplicate, remove finished/out-of-window games, show at most three per league');
 assert.equal(selected.filter(row=>row.key==='nba').length,3);assert.equal(selected.filter(row=>row.key==='mlb').length,1);
 console.log('Major games: default view, date window, completed-game exclusion, deduplication and league balance passed.');
+
+for(const league of ['kbo','kbl','wkbl','kovo']){run(`sport='${league}'`);assert.equal(run("isKoreanPlayer({name:'Lee Jung-hoo',country:'Korea'})"),false);}
+for(const league of ['kleague1','kleague2']){run(`sport='football';league='${league}'`);assert.equal(run("isKoreanPlayer({name:'Son Heung-min',nationality:'Korea Republic'})"),false);}
+run("sport='football';league='epl'");assert.equal(run("isKoreanPlayer({name:'Son Heung-min'})"),true);
+run("sport='mlb'");assert.equal(run("isKoreanPlayer({name:'Lee Jung-hoo'})"),true);assert.equal(run("isKoreanPlayer({name:'Foreign Player',country:'USA'})"),false);
+console.log('Korean badges: domestic leagues excluded, overseas Korean players retained.');

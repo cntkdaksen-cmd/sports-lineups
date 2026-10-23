@@ -128,11 +128,12 @@ const koreanPlayerNames = new Set([
   'Son Heung-min','Son Heung Min','Lee Kang-in','Lee Kang In','Kim Min-jae','Kim Min Jae','Hwang Hee-chan','Lee Jae-sung','Hwang Ui-jo','Cho Gue-sung','Jeong Woo-yeong','Jung Woo-young','Oh Hyeon-gyu','Paik Seung-ho','Seol Young-woo','Hong Hyun-seok','Bae Jun-ho','Yang Hyun-jun','Kwon Hyeok-kyu','Kim Ji-soo','Ji So-yun','Cho So-hyun','Casey Phair','Chun Ga-ram','Lee Geum-min','Jang Sel-gi','Kang Chae-rim','Son Hwa-yeon','Lee Min-a','Ryu Hyun-jin','Kim Ha-seong','Lee Jung-hoo','Kim Hye-seong','Choi Ji-man','Park Hyo-jun'
 ].map(normalizePlayerName));
 function isKoreanPlayer(player) {
+  if(['kbo','kbl','wkbl','kovo'].includes(sport) || (sport==='football' && ['kleague1','kleague2'].includes(league)))return false;
   const athlete=player?.athlete||player||{};
   const nationality=[athlete.nationality,athlete.citizenship,athlete.country,player?.nationality,player?.country].flat().map(value=>typeof value==='string'?value:value?.displayName||value?.name||value?.abbreviation||'').join(' ');
   if (/대한민국|한국|korea|\bkor\b/i.test(nationality)) return true;
   if (koreanPlayerNames.has(normalizePlayerName(player?.name))) return true;
-  return ['kbo','kbl','wkbl','kovo'].includes(sport)&&/\p{Script=Hangul}/u.test(String(player?.name||''));
+  return false;
 }
 const projectionUrl = 'https://api.github.com/repos/jimmy896376/sports-lineups/contents/dist/projections.json?ref=main';
 const codeAliases = {MCI:'MNC'};
@@ -609,7 +610,7 @@ async function openTeamSearchGame(index) {
 function showTabs() {
   const category = categoryForSport(sport);
   $('sports').innerHTML = `<button type="button" data-major="true" aria-current="${majorView}">주요 경기</button>`+categories.map(item => `<button type="button" data-category="${item.id}" aria-current="${!majorView && category.id === item.id}">${label(...item.label)}</button>`).join('');
-  $('sport-menu').innerHTML = `<button type="button"><selectedcontent></selectedcontent></button><option value="major" ${majorView?'selected':''}>주요 경기</option>`+categories.map(group => {
+  $('sport-menu').innerHTML = `<button type="button"><selectedcontent></selectedcontent></button><option value="major" ${majorView?'selected':''}><span class="menu-name major-menu-name">주요경기</span></option>`+categories.map(group => {
     const ids=dropdownLeagueOrder[group.id] || group.sports;
     const options=ids.map(id=>{
       const football=group.id==='football';
