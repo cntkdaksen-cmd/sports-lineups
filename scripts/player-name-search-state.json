@@ -69,6 +69,101 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T18:26:03.044752+00:00",
       "nextCheckAt": "2026-10-24T00:26:03.044752+00:00"
+    },
+    "Abdelnour Soualhia": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Abdelnour+Soualhia+Telstar&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Abdelnour+Soualhia+Telstar",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/abdelnour-soualhia/1462126",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T18:30:09.085638+00:00",
+      "nextCheckAt": "2026-10-30T18:30:09.085638+00:00"
+    },
+    "Abdoul Ouattara": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Abdoul+Ouattara+Ipswich+Town&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Abdoul+Ouattara+Ipswich+Town",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T18:30:09.085638+00:00",
+      "nextCheckAt": "2026-10-30T18:30:09.085638+00:00"
+    },
+    "Abdoulaye Doucoure": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Abdoulaye+Doucoure+Charlotte+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Abdoulaye+Doucoure+Charlotte+FC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T18:30:09.085638+00:00",
+      "nextCheckAt": "2026-10-30T18:30:09.085638+00:00"
+    },
+    "Abdoulaye Ndiaye": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Abdoulaye+Ndiaye+Parma&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Abdoulaye+Ndiaye+Parma",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/abdoulaye-ndiaye/984527",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T18:30:09.085638+00:00",
+      "nextCheckAt": "2026-10-30T18:30:09.085638+00:00"
+    },
+    "Abraham Marcus": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Abraham+Marcus+Estrela&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Abraham+Marcus+Estrela",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/abraham-marcus/1090543",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T18:30:09.085638+00:00",
+      "nextCheckAt": "2026-10-30T18:30:09.085638+00:00"
     }
   }
 }
