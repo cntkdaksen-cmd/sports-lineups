@@ -496,6 +496,96 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T22:33:22.521132+00:00",
       "nextCheckAt": "2026-10-30T22:33:22.521132+00:00"
+    },
+    "Adrien Truffert": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adrien+Truffert+AFC+Bournemouth&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adrien+Truffert+AFC+Bournemouth",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.manutd.com/en/news/match-report-afc-bournemouth-v-man-utd-20-march-2026",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T23:03:25.747199+00:00",
+      "nextCheckAt": "2026-10-30T23:03:25.747199+00:00"
+    },
+    "Afonso Moreira": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Afonso+Moreira+Bayer+Leverkusen&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Afonso+Moreira+Bayer+Leverkusen",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T23:03:25.747199+00:00",
+      "nextCheckAt": "2026-10-30T23:03:25.747199+00:00"
+    },
+    "Agustin Bouzat": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Agustin+Bouzat+Houston+Dynamo+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Agustin+Bouzat+Houston+Dynamo+FC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T23:03:25.747199+00:00",
+      "nextCheckAt": "2026-10-30T23:03:25.747199+00:00"
+    },
+    "Agustin Ojeda": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Agustin+Ojeda+New+York+City+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Agustin+Ojeda+New+York+City+FC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/agustin-ojeda/1191921",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T23:03:25.747199+00:00",
+      "nextCheckAt": "2026-10-30T23:03:25.747199+00:00"
+    },
+    "Agustin Resch": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Agustin+Resch+Houston+Dynamo+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Agustin+Resch+Houston+Dynamo+FC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T23:03:25.747199+00:00",
+      "nextCheckAt": "2026-10-30T23:03:25.747199+00:00"
     }
   }
 }
