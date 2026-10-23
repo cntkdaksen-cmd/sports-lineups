@@ -201,6 +201,86 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T19:02:09.857743+00:00",
       "nextCheckAt": "2026-10-24T01:02:09.857743+00:00"
+    },
+    "Adam Hlozek": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Hlozek+TSG+Hoffenheim&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adam+Hlozek+TSG+Hoffenheim",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T19:35:41.562872+00:00",
+      "nextCheckAt": "2026-10-30T19:35:41.562872+00:00"
+    },
+    "Adam Idah": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Idah+Swansea+City&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adam+Idah+Swansea+City",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T19:35:41.562872+00:00",
+      "nextCheckAt": "2026-10-30T19:35:41.562872+00:00"
+    },
+    "Adam Major": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Major+Hibernian&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adam+Major+Hibernian",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T19:35:41.562872+00:00",
+      "nextCheckAt": "2026-10-30T19:35:41.562872+00:00"
+    },
+    "Adam Marusic": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Marusic+Lazio&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adam+Marusic+Lazio",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T19:35:41.562872+00:00",
+      "nextCheckAt": "2026-10-30T19:35:41.562872+00:00"
+    },
+    "Adam Obert": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Obert+Cagliari&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adam+Obert+Cagliari",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T19:35:41.562872+00:00",
+      "nextCheckAt": "2026-10-30T19:35:41.562872+00:00"
     }
   }
 }
