@@ -416,6 +416,86 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T21:52:59.650148+00:00",
       "nextCheckAt": "2026-10-24T03:52:59.650148+00:00"
+    },
+    "Adri Mehmeti": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adri+Mehmeti+Red+Bull+New+York&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adri+Mehmeti+Red+Bull+New+York",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T22:33:22.521132+00:00",
+      "nextCheckAt": "2026-10-30T22:33:22.521132+00:00"
+    },
+    "Adria Pedrosa": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adria+Pedrosa+Rayo+Vallecano&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adria+Pedrosa+Rayo+Vallecano",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T22:33:22.521132+00:00",
+      "nextCheckAt": "2026-10-30T22:33:22.521132+00:00"
+    },
+    "Adrian Bernabe": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adrian+Bernabe+Parma&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adrian+Bernabe+Parma",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T22:33:22.521132+00:00",
+      "nextCheckAt": "2026-10-30T22:33:22.521132+00:00"
+    },
+    "Adrian Gantenbein": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adrian+Gantenbein+Schalke+04&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adrian+Gantenbein+Schalke+04",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T22:33:22.521132+00:00",
+      "nextCheckAt": "2026-10-30T22:33:22.521132+00:00"
+    },
+    "Adrian Segecic": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adrian+Segecic+Portsmouth&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adrian+Segecic+Portsmouth",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T22:33:22.521132+00:00",
+      "nextCheckAt": "2026-10-30T22:33:22.521132+00:00"
     }
   }
 }
