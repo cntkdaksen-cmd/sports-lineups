@@ -10,7 +10,8 @@
       "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading 맨체스터 유나이티드 FC, Value: 2"
-      ]
+      ],
+      "english": "Manchester United FC"
     },
     {
       "name": "Como",
@@ -20,7 +21,8 @@
       "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t40 heading 코모 1907, Value: 2"
-      ]
+      ],
+      "english": "Como 1907"
     },
     {
       "name": "Galatasaray",
@@ -40,7 +42,8 @@
       "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t41 heading LOSC 릴, Value: 2"
-      ]
+      ],
+      "english": "LOSC Lille"
     },
     {
       "name": "Viking FK",
@@ -70,7 +73,8 @@
       "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t44 heading 아스널 FC, Value: 2"
-      ]
+      ],
+      "english": "Arsenal FC"
     },
     {
       "name": "Bayern Munich",
@@ -124,23 +128,25 @@
     },
     {
       "name": "Feyenoord Rotterdam",
-      "korean": "페예노르트",
+      "korean": "페예노르트 로테르담",
       "league": "ucl",
-      "source": "https://www.google.com/search?q=Feyenoord%20Rotterdam",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=Feyenoord+Rotterdam+%ED%8E%98%EC%98%88%EB%85%B8%EB%A5%B4%ED%8A%B8+%EB%A1%9C%ED%85%8C%EB%A5%B4%EB%8B%B4",
+      "method": "Reviewed full club display name",
       "heading": [
         "\t\t\t\t\t41 heading 페예노르트, Value: 2"
-      ]
+      ],
+      "english": "Feyenoord Rotterdam"
     },
     {
       "name": "Real Betis",
-      "korean": "레알 베티스",
+      "korean": "레알 베티스 발롬피에",
       "league": "ucl",
-      "source": "https://www.google.com/search?q=Real%20Betis",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=Real+Betis+Balompi%C3%A9+%EB%A0%88%EC%95%8C+%EB%B2%A0%ED%8B%B0%EC%8A%A4+%EB%B0%9C%EB%A1%AC%ED%94%BC%EC%97%90",
+      "method": "Reviewed full club display name",
       "heading": [
         "\t\t\t\t\t\t51 heading 레알 베티스, Value: 2"
-      ]
+      ],
+      "english": "Real Betis Balompié"
     },
     {
       "name": "RB Leipzig",
@@ -700,7 +706,8 @@
       "method": "Verified full club name from stored Google result heading; club identity matched to provider alias",
       "heading": [
         "\t\t\t\t\t\t\t\t\t39 heading 로스앤젤레스 클리퍼스 (LA Clippers), Value: 2"
-      ]
+      ],
+      "english": "Los Angeles Clippers"
     },
     {
       "name": "Golden State Valkyries",
@@ -1285,14 +1292,15 @@
     },
     {
       "name": "Feyenoord",
-      "korean": "페예노르트",
+      "korean": "페예노르트 로테르담",
       "league": "ucl",
-      "source": "https://www.google.com/search?q=Feyenoord%20Rotterdam",
-      "method": "Google search reviewed for club identity and Korean display spelling; established short club names retained",
+      "source": "https://www.google.com/search?q=Feyenoord+Rotterdam+%ED%8E%98%EC%98%88%EB%85%B8%EB%A5%B4%ED%8A%B8+%EB%A1%9C%ED%85%8C%EB%A5%B4%EB%8B%B4",
+      "method": "Reviewed full club display name",
       "heading": [
         "\t\t\t\t\t41 heading 페예노르트, Value: 2"
       ],
-      "aliasOf": "Feyenoord Rotterdam"
+      "aliasOf": "Feyenoord Rotterdam",
+      "english": "Feyenoord Rotterdam"
     },
     {
       "name": "Shanghai Dragons",
@@ -1347,7 +1355,8 @@
       "heading": [
         "\t\t\t\t\t41 heading LOSC 릴, Value: 2"
       ],
-      "aliasOf": "Lille"
+      "aliasOf": "Lille",
+      "english": "LOSC Lille"
     },
     {
       "name": "RC Lens",
@@ -1369,7 +1378,498 @@
       "heading": [
         "\t\t\t\t\t\t\t\t\t39 heading 로스앤젤레스 클리퍼스 (LA Clippers), Value: 2"
       ],
-      "aliasOf": "LA Clippers"
+      "aliasOf": "LA Clippers",
+      "english": "Los Angeles Clippers"
+    },
+    {
+      "name": "Nottingham Forest",
+      "korean": "노팅엄 포리스트 FC",
+      "english": "Nottingham Forest FC",
+      "source": "https://www.google.com/search?q=Nottingham+Forest+FC+%EB%85%B8%ED%8C%85%EC%97%84+%ED%8F%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Ipswich Town",
+      "korean": "입스위치 타운 FC",
+      "english": "Ipswich Town FC",
+      "source": "https://www.google.com/search?q=Ipswich+Town+FC+%EC%9E%85%EC%8A%A4%EC%9C%84%EC%B9%98+%ED%83%80%EC%9A%B4+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Manchester City",
+      "korean": "맨체스터 시티 FC",
+      "english": "Manchester City FC",
+      "source": "https://www.google.com/search?q=Manchester+City+FC+%EB%A7%A8%EC%B2%B4%EC%8A%A4%ED%84%B0+%EC%8B%9C%ED%8B%B0+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Everton",
+      "korean": "에버턴 FC",
+      "english": "Everton FC",
+      "source": "https://www.google.com/search?q=Everton+FC+%EC%97%90%EB%B2%84%ED%84%B4+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Fulham",
+      "korean": "풀럼 FC",
+      "english": "Fulham FC",
+      "source": "https://www.google.com/search?q=Fulham+FC+%ED%92%80%EB%9F%BC+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Coventry City",
+      "korean": "코번트리 시티 FC",
+      "english": "Coventry City FC",
+      "source": "https://www.google.com/search?q=Coventry+City+FC+%EC%BD%94%EB%B2%88%ED%8A%B8%EB%A6%AC+%EC%8B%9C%ED%8B%B0+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Tottenham Hotspur",
+      "korean": "토트넘 홋스퍼 FC",
+      "english": "Tottenham Hotspur FC",
+      "source": "https://www.google.com/search?q=Tottenham+Hotspur+FC+%ED%86%A0%ED%8A%B8%EB%84%98+%ED%99%8B%EC%8A%A4%ED%8D%BC+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Chelsea",
+      "korean": "첼시 FC",
+      "english": "Chelsea FC",
+      "source": "https://www.google.com/search?q=Chelsea+FC+%EC%B2%BC%EC%8B%9C+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Newcastle United",
+      "korean": "뉴캐슬 유나이티드 FC",
+      "english": "Newcastle United FC",
+      "source": "https://www.google.com/search?q=Newcastle+United+FC+%EB%89%B4%EC%BA%90%EC%8A%AC+%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Crystal Palace",
+      "korean": "크리스털 팰리스 FC",
+      "english": "Crystal Palace FC",
+      "source": "https://www.google.com/search?q=Crystal+Palace+FC+%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%84%B8+%ED%8C%B0%EB%A6%AC%EC%8A%A4+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Brentford",
+      "korean": "브렌트퍼드 FC",
+      "english": "Brentford FC",
+      "source": "https://www.google.com/search?q=Brentford+FC+%EB%B8%8C%EB%A0%8C%ED%8A%B8%ED%8D%BC%EB%93%9C+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Hull City",
+      "korean": "헐 시티 AFC",
+      "english": "Hull City AFC",
+      "source": "https://www.google.com/search?q=Hull+City+AFC+%ED%97%90+%EC%8B%9C%ED%8B%B0+AFC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Brighton & Hove Albion",
+      "korean": "브라이턴 앤드 호브 앨비언 FC",
+      "english": "Brighton & Hove Albion FC",
+      "source": "https://www.google.com/search?q=Brighton+%26+Hove+Albion+FC+%EB%B8%8C%EB%9D%BC%EC%9D%B4%ED%84%B4+%EC%95%A4%EB%93%9C+%ED%98%B8%EB%B8%8C+%EC%95%A8%EB%B9%84%EC%96%B8+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Liverpool",
+      "korean": "리버풀 FC",
+      "english": "Liverpool FC",
+      "source": "https://www.google.com/search?q=Liverpool+FC+%EB%A6%AC%EB%B2%84%ED%92%80+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "AFC Bournemouth",
+      "korean": "AFC 본머스",
+      "english": "AFC Bournemouth",
+      "source": "https://www.google.com/search?q=AFC+Bournemouth+AFC+%EB%B3%B8%EB%A8%B8%EC%8A%A4",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Borussia Mönchengladbach",
+      "korean": "보루시아 묀헨글라트바흐",
+      "english": "Borussia Mönchengladbach",
+      "source": "https://www.google.com/search?q=Borussia+M%C3%B6nchengladbach+%EB%B3%B4%EB%A3%A8%EC%8B%9C%EC%95%84+%EB%AC%80%ED%97%A8%EA%B8%80%EB%9D%BC%ED%8A%B8%EB%B0%94%ED%9D%90",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "VfB Stuttgart",
+      "korean": "VfB 슈투트가르트",
+      "english": "VfB Stuttgart",
+      "source": "https://www.google.com/search?q=VfB+Stuttgart+VfB+%EC%8A%88%ED%88%AC%ED%8A%B8%EA%B0%80%EB%A5%B4%ED%8A%B8",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "1. FC Union Berlin",
+      "korean": "1. FC 우니온 베를린",
+      "english": "1. FC Union Berlin",
+      "source": "https://www.google.com/search?q=1.+FC+Union+Berlin+1.+FC+%EC%9A%B0%EB%8B%88%EC%98%A8+%EB%B2%A0%EB%A5%BC%EB%A6%B0",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "FC Augsburg",
+      "korean": "FC 아우크스부르크",
+      "english": "FC Augsburg",
+      "source": "https://www.google.com/search?q=FC+Augsburg+FC+%EC%95%84%EC%9A%B0%ED%81%AC%EC%8A%A4%EB%B6%80%EB%A5%B4%ED%81%AC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Schalke 04",
+      "korean": "FC 샬케 04",
+      "english": "FC Schalke 04",
+      "source": "https://www.google.com/search?q=FC+Schalke+04+FC+%EC%83%AC%EC%BC%80+04",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "FC Cologne",
+      "korean": "1. FC 쾰른",
+      "english": "1. FC Köln",
+      "source": "https://www.google.com/search?q=1.+FC+K%C3%B6ln+1.+FC+%EC%BE%B0%EB%A5%B8",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Werder Bremen",
+      "korean": "SV 베르더 브레멘",
+      "english": "SV Werder Bremen",
+      "source": "https://www.google.com/search?q=SV+Werder+Bremen+SV+%EB%B2%A0%EB%A5%B4%EB%8D%94+%EB%B8%8C%EB%A0%88%EB%A9%98",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Mainz",
+      "korean": "1. FSV 마인츠 05",
+      "english": "1. FSV Mainz 05",
+      "source": "https://www.google.com/search?q=1.+FSV+Mainz+05+1.+FSV+%EB%A7%88%EC%9D%B8%EC%B8%A0+05",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "SV Elversberg",
+      "korean": "SV 엘버스베르크",
+      "english": "SV Elversberg",
+      "source": "https://www.google.com/search?q=SV+Elversberg+SV+%EC%97%98%EB%B2%84%EC%8A%A4%EB%B2%A0%EB%A5%B4%ED%81%AC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Hamburg SV",
+      "korean": "함부르크 SV",
+      "english": "Hamburger SV",
+      "source": "https://www.google.com/search?q=Hamburger+SV+%ED%95%A8%EB%B6%80%EB%A5%B4%ED%81%AC+SV",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "SC Paderborn 07",
+      "korean": "SC 파더보른 07",
+      "english": "SC Paderborn 07",
+      "source": "https://www.google.com/search?q=SC+Paderborn+07+SC+%ED%8C%8C%EB%8D%94%EB%B3%B4%EB%A5%B8+07",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Eintracht Frankfurt",
+      "korean": "아인트라흐트 프랑크푸르트",
+      "english": "Eintracht Frankfurt",
+      "source": "https://www.google.com/search?q=Eintracht+Frankfurt+%EC%95%84%EC%9D%B8%ED%8A%B8%EB%9D%BC%ED%9D%90%ED%8A%B8+%ED%94%84%EB%9E%91%ED%81%AC%ED%91%B8%EB%A5%B4%ED%8A%B8",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Bayer Leverkusen",
+      "korean": "바이어 04 레버쿠젠",
+      "english": "Bayer 04 Leverkusen",
+      "source": "https://www.google.com/search?q=Bayer+04+Leverkusen+%EB%B0%94%EC%9D%B4%EC%96%B4+04+%EB%A0%88%EB%B2%84%EC%BF%A0%EC%A0%A0",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "TSG Hoffenheim",
+      "korean": "TSG 1899 호펜하임",
+      "english": "TSG 1899 Hoffenheim",
+      "source": "https://www.google.com/search?q=TSG+1899+Hoffenheim+TSG+1899+%ED%98%B8%ED%8E%9C%ED%95%98%EC%9E%84",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Monza",
+      "korean": "AC 몬차",
+      "english": "AC Monza",
+      "source": "https://www.google.com/search?q=AC+Monza+AC+%EB%AA%AC%EC%B0%A8",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Torino",
+      "korean": "토리노 FC",
+      "english": "Torino FC",
+      "source": "https://www.google.com/search?q=Torino+FC+%ED%86%A0%EB%A6%AC%EB%85%B8+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Bologna",
+      "korean": "볼로냐 FC 1909",
+      "english": "Bologna FC 1909",
+      "source": "https://www.google.com/search?q=Bologna+FC+1909+%EB%B3%BC%EB%A1%9C%EB%83%90+FC+1909",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Cagliari",
+      "korean": "칼리아리 칼초",
+      "english": "Cagliari Calcio",
+      "source": "https://www.google.com/search?q=Cagliari+Calcio+%EC%B9%BC%EB%A6%AC%EC%95%84%EB%A6%AC+%EC%B9%BC%EC%B4%88",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Sassuolo",
+      "korean": "US 사수올로 칼초",
+      "english": "US Sassuolo Calcio",
+      "source": "https://www.google.com/search?q=US+Sassuolo+Calcio+US+%EC%82%AC%EC%88%98%EC%98%AC%EB%A1%9C+%EC%B9%BC%EC%B4%88",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Napoli",
+      "korean": "SSC 나폴리",
+      "english": "SSC Napoli",
+      "source": "https://www.google.com/search?q=SSC+Napoli+SSC+%EB%82%98%ED%8F%B4%EB%A6%AC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Parma",
+      "korean": "파르마 칼초 1913",
+      "english": "Parma Calcio 1913",
+      "source": "https://www.google.com/search?q=Parma+Calcio+1913+%ED%8C%8C%EB%A5%B4%EB%A7%88+%EC%B9%BC%EC%B4%88+1913",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Lazio",
+      "korean": "SS 라치오",
+      "english": "SS Lazio",
+      "source": "https://www.google.com/search?q=SS+Lazio+SS+%EB%9D%BC%EC%B9%98%EC%98%A4",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Fiorentina",
+      "korean": "ACF 피오렌티나",
+      "english": "ACF Fiorentina",
+      "source": "https://www.google.com/search?q=ACF+Fiorentina+ACF+%ED%94%BC%EC%98%A4%EB%A0%8C%ED%8B%B0%EB%82%98",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Frosinone",
+      "korean": "프로시노네 칼초",
+      "english": "Frosinone Calcio",
+      "source": "https://www.google.com/search?q=Frosinone+Calcio+%ED%94%84%EB%A1%9C%EC%8B%9C%EB%85%B8%EB%84%A4+%EC%B9%BC%EC%B4%88",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Atalanta",
+      "korean": "아탈란타 BC",
+      "english": "Atalanta BC",
+      "source": "https://www.google.com/search?q=Atalanta+BC+%EC%95%84%ED%83%88%EB%9E%80%ED%83%80+BC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Venezia",
+      "korean": "베네치아 FC",
+      "english": "Venezia FC",
+      "source": "https://www.google.com/search?q=Venezia+FC+%EB%B2%A0%EB%84%A4%EC%B9%98%EC%95%84+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Genoa",
+      "korean": "제노아 CFC",
+      "english": "Genoa CFC",
+      "source": "https://www.google.com/search?q=Genoa+CFC+%EC%A0%9C%EB%85%B8%EC%95%84+CFC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Nice",
+      "korean": "OGC 니스",
+      "english": "OGC Nice",
+      "source": "https://www.google.com/search?q=OGC+Nice+OGC+%EB%8B%88%EC%8A%A4",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Brest",
+      "korean": "스타드 브레스투아 29",
+      "english": "Stade Brestois 29",
+      "source": "https://www.google.com/search?q=Stade+Brestois+29+%EC%8A%A4%ED%83%80%EB%93%9C+%EB%B8%8C%EB%A0%88%EC%8A%A4%ED%88%AC%EC%95%84+29",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "AS Monaco",
+      "korean": "AS 모나코 FC",
+      "english": "AS Monaco FC",
+      "source": "https://www.google.com/search?q=AS+Monaco+FC+AS+%EB%AA%A8%EB%82%98%EC%BD%94+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Málaga",
+      "korean": "말라가 CF",
+      "english": "Málaga CF",
+      "source": "https://www.google.com/search?q=M%C3%A1laga+CF+%EB%A7%90%EB%9D%BC%EA%B0%80+CF",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Alavés",
+      "korean": "데포르티보 알라베스",
+      "english": "Deportivo Alavés",
+      "source": "https://www.google.com/search?q=Deportivo+Alav%C3%A9s+%EB%8D%B0%ED%8F%AC%EB%A5%B4%ED%8B%B0%EB%B3%B4+%EC%95%8C%EB%9D%BC%EB%B2%A0%EC%8A%A4",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Elche",
+      "korean": "엘체 CF",
+      "english": "Elche CF",
+      "source": "https://www.google.com/search?q=Elche+CF+%EC%97%98%EC%B2%B4+CF",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Espanyol",
+      "korean": "RCD 에스파뇰",
+      "english": "RCD Espanyol",
+      "source": "https://www.google.com/search?q=RCD+Espanyol+RCD+%EC%97%90%EC%8A%A4%ED%8C%8C%EB%87%B0",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Racing Santander",
+      "korean": "라싱 산탄데르",
+      "english": "Racing de Santander",
+      "source": "https://www.google.com/search?q=Racing+de+Santander+%EB%9D%BC%EC%8B%B1+%EC%82%B0%ED%83%84%EB%8D%B0%EB%A5%B4",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Villarreal",
+      "korean": "비야레알 CF",
+      "english": "Villarreal CF",
+      "source": "https://www.google.com/search?q=Villarreal+CF+%EB%B9%84%EC%95%BC%EB%A0%88%EC%95%8C+CF",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Valencia",
+      "korean": "발렌시아 CF",
+      "english": "Valencia CF",
+      "source": "https://www.google.com/search?q=Valencia+CF+%EB%B0%9C%EB%A0%8C%EC%8B%9C%EC%95%84+CF",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Deportivo",
+      "korean": "데포르티보 라코루냐",
+      "english": "Deportivo de La Coruña",
+      "source": "https://www.google.com/search?q=Deportivo+de+La+Coru%C3%B1a+%EB%8D%B0%ED%8F%AC%EB%A5%B4%ED%8B%B0%EB%B3%B4+%EB%9D%BC%EC%BD%94%EB%A3%A8%EB%83%90",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Getafe",
+      "korean": "헤타페 CF",
+      "english": "Getafe CF",
+      "source": "https://www.google.com/search?q=Getafe+CF+%ED%97%A4%ED%83%80%ED%8E%98+CF",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Inter Miami CF",
+      "korean": "인터 마이애미 CF",
+      "english": "Inter Miami CF",
+      "source": "https://www.google.com/search?q=Inter+Miami+CF+%EC%9D%B8%ED%84%B0+%EB%A7%88%EC%9D%B4%EC%95%A0%EB%AF%B8+CF",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Chicago Fire FC",
+      "korean": "시카고 파이어 FC",
+      "english": "Chicago Fire FC",
+      "source": "https://www.google.com/search?q=Chicago+Fire+FC+%EC%8B%9C%EC%B9%B4%EA%B3%A0+%ED%8C%8C%EC%9D%B4%EC%96%B4+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Atlanta United FC",
+      "korean": "애틀랜타 유나이티드 FC",
+      "english": "Atlanta United FC",
+      "source": "https://www.google.com/search?q=Atlanta+United+FC+%EC%95%A0%ED%8B%80%EB%9E%9C%ED%83%80+%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Orlando City SC",
+      "korean": "올랜도 시티 SC",
+      "english": "Orlando City SC",
+      "source": "https://www.google.com/search?q=Orlando+City+SC+%EC%98%AC%EB%9E%9C%EB%8F%84+%EC%8B%9C%ED%8B%B0+SC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Minnesota United FC",
+      "korean": "미네소타 유나이티드 FC",
+      "english": "Minnesota United FC",
+      "source": "https://www.google.com/search?q=Minnesota+United+FC+%EB%AF%B8%EB%84%A4%EC%86%8C%ED%83%80+%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Houston Dynamo FC",
+      "korean": "휴스턴 다이너모 FC",
+      "english": "Houston Dynamo FC",
+      "source": "https://www.google.com/search?q=Houston+Dynamo+FC+%ED%9C%B4%EC%8A%A4%ED%84%B4+%EB%8B%A4%EC%9D%B4%EB%84%88%EB%AA%A8+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "St. Louis CITY SC",
+      "korean": "세인트루이스 시티 SC",
+      "english": "St. Louis CITY SC",
+      "source": "https://www.google.com/search?q=St.+Louis+CITY+SC+%EC%84%B8%EC%9D%B8%ED%8A%B8%EB%A3%A8%EC%9D%B4%EC%8A%A4+%EC%8B%9C%ED%8B%B0+SC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Seattle Sounders FC",
+      "korean": "시애틀 사운더스 FC",
+      "english": "Seattle Sounders FC",
+      "source": "https://www.google.com/search?q=Seattle+Sounders+FC+%EC%8B%9C%EC%95%A0%ED%8B%80+%EC%82%AC%EC%9A%B4%EB%8D%94%EC%8A%A4+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Vancouver Whitecaps",
+      "korean": "밴쿠버 화이트캡스 FC",
+      "english": "Vancouver Whitecaps FC",
+      "source": "https://www.google.com/search?q=Vancouver+Whitecaps+FC+%EB%B0%B4%EC%BF%A0%EB%B2%84+%ED%99%94%EC%9D%B4%ED%8A%B8%EC%BA%A1%EC%8A%A4+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "CF Montréal",
+      "korean": "CF 몽레알",
+      "english": "CF Montréal",
+      "source": "https://www.google.com/search?q=CF+Montr%C3%A9al+CF+%EB%AA%BD%EB%A0%88%EC%95%8C",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Gimcheon Sangmu",
+      "korean": "김천 상무 FC",
+      "english": "Gimcheon Sangmu FC",
+      "source": "https://www.google.com/search?q=Gimcheon+Sangmu+FC+%EA%B9%80%EC%B2%9C+%EC%83%81%EB%AC%B4+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Jeju SK",
+      "korean": "제주 SK FC",
+      "english": "Jeju SK FC",
+      "source": "https://www.google.com/search?q=Jeju+SK+FC+%EC%A0%9C%EC%A3%BC+SK+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "Incheon United",
+      "korean": "인천 유나이티드 FC",
+      "english": "Incheon United FC",
+      "source": "https://www.google.com/search?q=Incheon+United+FC+%EC%9D%B8%EC%B2%9C+%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C+FC",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "KIA",
+      "korean": "KIA 타이거즈",
+      "english": "KIA Tigers",
+      "source": "https://www.google.com/search?q=KIA+Tigers+KIA+%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "삼성",
+      "korean": "삼성 라이온즈",
+      "english": "Samsung Lions",
+      "source": "https://www.google.com/search?q=Samsung+Lions+%EC%82%BC%EC%84%B1+%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88",
+      "method": "Reviewed full club display name"
+    },
+    {
+      "name": "대한항공",
+      "korean": "인천 대한항공 점보스",
+      "english": "Incheon Korean Air Jumbos",
+      "source": "https://www.google.com/search?q=Incheon+Korean+Air+Jumbos+%EC%9D%B8%EC%B2%9C+%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%90%EB%B3%B4%EC%8A%A4",
+      "method": "Reviewed full club display name"
     }
   ],
   "policy": "Display verified full club names, including club suffixes, founding numbers and nicknames; preserve exact provider aliases. Never promote unrelated search headings."

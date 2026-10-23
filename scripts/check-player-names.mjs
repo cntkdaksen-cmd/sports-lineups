@@ -86,7 +86,7 @@ assert.equal(JSON.parse(storage.get('sports-lineups-name-review')).status,'data-
 const refreshRequests = [];
 context.fetch = async (url,options) => {
   refreshRequests.push({url,options});
-  return {ok:true,json:async()=>String(url).includes('name-catalog.json') ? {schemaVersion:1,teams:context.checkedTeamDictionary,players:{'Abdulkerim Bardakci':'압둘케림 바르닥치'}} : {content:Buffer.from(JSON.stringify({domestic:{khl:[]}})).toString('base64')}};
+  return {ok:true,json:async()=>String(url).includes('name-catalog.json') ? {schemaVersion:1,teams:context.checkedTeamDictionary,players:{'Abdulkerim Bardakci':'압둘케림 바르닥치','Source Verified Player':'검증된 선수'},teamEnglish:{'Como':'Como 1907'}} : {content:Buffer.from(JSON.stringify({domestic:{khl:[]}})).toString('base64')}};
 };
 await run('loadGames()');
 await run('loadGames()');
@@ -97,6 +97,11 @@ assert.equal(refreshReport.names.length,0,'Failed/previous loads must not leak n
 const dictionaryRequests = refreshRequests.filter(row=>String(row.url).includes('name-catalog.json'));
 assert.equal(dictionaryRequests.length,2,'Each refresh must fetch the current team dictionary');
 assert.ok(dictionaryRequests.every(row=>row.options.cache==='no-store'));
+assert.equal(run("playerDisplayName('Source Verified Player')"),'검증된 선수','Freshly verified names reach player rendering');
+run("language='en'");
+assert.equal(run("teamDisplayName({displayName:'Como',shortDisplayName:'COM'})"),'Como 1907');
+run("language='ko'");
+assert.equal(run("teamDisplayName({displayName:'Unreviewed Full Club',shortDisplayName:'UFC'})"),'Unreviewed Full Club');
 const fallbackRequests=[];
 context.fetch=async url=>{
   fallbackRequests.push(String(url));

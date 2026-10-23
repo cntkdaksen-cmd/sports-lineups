@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "players": {
+    "Aaron Nesmith": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aaron+Nesmith+Indiana+Pacers&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Aaron+Nesmith+Indiana+Pacers",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.nba.com/",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T18:26:03.044752+00:00",
+      "nextCheckAt": "2026-10-30T18:26:03.044752+00:00"
+    },
+    "Aaron Ochoa": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aaron+Ochoa+M%C3%A1laga&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Aaron+Ochoa+M%C3%A1laga",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T18:26:03.044752+00:00",
+      "nextCheckAt": "2026-10-30T18:26:03.044752+00:00"
+    },
+    "Abde Rebbach": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Abde+Rebbach+Alav%C3%A9s&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Abde+Rebbach+Alav%C3%A9s",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T18:26:03.044752+00:00",
+      "nextCheckAt": "2026-10-30T18:26:03.044752+00:00"
+    },
+    "Abdelkabir Abqar": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Abdelkabir+Abqar+Getafe&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Abdelkabir+Abqar+Getafe",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T18:26:03.044752+00:00",
+      "nextCheckAt": "2026-10-24T00:26:03.044752+00:00"
+    }
+  }
+}

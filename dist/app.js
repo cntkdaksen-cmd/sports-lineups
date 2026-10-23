@@ -146,7 +146,7 @@ const $ = id => document.getElementById(id);
 const label = (en,ko) => ko;
 const categoryForSport = value => categories.find(category => category.sports.includes(value));
 const safe = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let teamKo = {}, teamKoNormalized = {};
+let teamKo = {}, teamKoNormalized = {}, teamEnglish = {};
 let nameReview = null;
 function applyTeamNames(dictionary) {
   if (!dictionary || Array.isArray(dictionary) || typeof dictionary !== 'object' || !Object.keys(dictionary).length || Object.entries(dictionary).some(([name,korean])=>!name || typeof korean !== 'string' || korean.length>160 || !/\p{Script=Hangul}/u.test(korean))) throw new Error('Invalid team name dictionary');
@@ -163,9 +163,12 @@ async function refreshTeamNames(current) {
       catalog = await getJson(`name-catalog.json?v=${Date.now()}`);
     }
     const dictionary = catalog.teams;
+    const english = catalog.teamEnglish || {};
+    if (Array.isArray(english) || typeof english !== 'object' || Object.entries(english).some(([name,full])=>!name || typeof full !== 'string' || !full || full.length>160)) throw new Error('Invalid full team name catalog');
     if (!catalog.players || Array.isArray(catalog.players) || typeof catalog.players !== 'object' || Object.entries(catalog.players).some(([name,korean])=>!name || typeof korean !== 'string' || korean.length>160 || !/\p{Script=Hangul}/u.test(korean))) throw new Error('Invalid player name catalog');
     if (current !== requestId) return;
     applyTeamNames(dictionary);
+    teamEnglish = Object.fromEntries(Object.entries(english).map(([name,full])=>[normalizePlayerName(name),full]));
     Object.assign(naverKo,catalog.players);
     Object.assign(naverKoNormalized,Object.fromEntries(Object.entries(catalog.players).map(([name,korean])=>[normalizePlayerName(name),korean])));
     nameReview.dictionaryStatus = 'fresh';
@@ -181,7 +184,8 @@ function teamDisplayName(team) {
   const name = team?.displayName || team?.name || '';
   const korean = teamKo[name] || teamKoNormalized[normalizePlayerName(name)];
   auditName('team',name,korean||name,Boolean(korean));
-  return language === 'ko' && korean ? korean : translated(name,team?.shortDisplayName);
+  if (language === 'en') return teamEnglish[normalizePlayerName(name)] || name;
+  return korean || translated(name);
 }
 function playerDisplayName(name,shortName,lastName) {
   const korean = naverKo[name] || naverKoNormalized[normalizePlayerName(name)] || chinesePlayerKo[name] || naverKo[shortName] || naverKoNormalized[normalizePlayerName(shortName)];
