@@ -399,6 +399,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T21:09:16.336797+00:00",
       "nextCheckAt": "2026-10-24T03:09:16.336797+00:00"
+    },
+    "Adou Thiero": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adou+Thiero+Los+Angeles+Lakers&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adou+Thiero+Los+Angeles+Lakers",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T21:52:59.650148+00:00",
+      "nextCheckAt": "2026-10-24T03:52:59.650148+00:00"
     }
   }
 }
