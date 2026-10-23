@@ -137,7 +137,9 @@ function isKoreanPlayer(player) {
 const projectionUrl = 'https://api.github.com/repos/jimmy896376/sports-lineups/contents/dist/projections.json?ref=main';
 const codeAliases = {MCI:'MNC'};
 let language = 'ko', sport = 'football', league = 'ucl', requestId = 0;
-let theme = localStorage.getItem('sports-lineups-theme') || 'dark';
+let theme = 'dark';
+// Sandboxed board previews can block localStorage, including access to the getter.
+try { theme = localStorage.getItem('sports-lineups-theme') || theme; } catch {}
 document.documentElement.dataset.theme = theme;
 const $ = id => document.getElementById(id);
 const label = (en,ko) => ko;
@@ -697,7 +699,7 @@ $('sport-menu').addEventListener('change',event => {
 });
 $('leagues').addEventListener('click',event => { const button=event.target.closest('[data-league],[data-sport]'); if (button?.dataset.league) { league=button.dataset.league; loadGames(); } else if (button?.dataset.sport) { sport=button.dataset.sport; loadGames(); } });
 $('language').addEventListener('click',() => { language=language === 'ko' ? 'en' : 'ko'; loadGames(); });
-$('theme').addEventListener('click',() => { theme=theme === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.theme=theme; localStorage.setItem('sports-lineups-theme',theme); showTabs(); });
+$('theme').addEventListener('click',() => { theme=theme === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.theme=theme; try { localStorage.setItem('sports-lineups-theme',theme); } catch {} showTabs(); });
 $('refresh').addEventListener('click',loadGames);
 $('team-search').addEventListener('input',renderTeamSearch);
 $('team-search-results').addEventListener('click',event=>{const button=event.target.closest('[data-search-game]');if(button)openTeamSearchGame(Number(button.dataset.searchGame));});
