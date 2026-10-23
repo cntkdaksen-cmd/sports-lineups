@@ -298,6 +298,91 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T20:03:47.777163+00:00",
       "nextCheckAt": "2026-10-24T02:03:47.777163+00:00"
+    },
+    "Adam Smith": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Smith+AFC+Bournemouth&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adam+Smith+AFC+Bournemouth",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T20:36:19.489182+00:00",
+      "nextCheckAt": "2026-10-30T20:36:19.489182+00:00"
+    },
+    "Adam Wharton": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Wharton+Crystal+Palace&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adam+Wharton+Crystal+Palace",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T20:36:19.489182+00:00",
+      "nextCheckAt": "2026-10-30T20:36:19.489182+00:00"
+    },
+    "Adama Camara": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adama+Camara+Paris+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adama+Camara+Paris+FC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/camara-adama/1507384",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T20:36:19.489182+00:00",
+      "nextCheckAt": "2026-10-30T20:36:19.489182+00:00"
+    },
+    "Ademola Lookman": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ademola+Lookman+Atl%C3%A9tico+Madrid&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Ademola+Lookman+Atl%C3%A9tico+Madrid",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T20:36:19.489182+00:00",
+      "nextCheckAt": "2026-10-30T20:36:19.489182+00:00"
+    },
+    "Adil Aouchiche": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adil+Aouchiche+Schalke+04&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adil+Aouchiche+Schalke+04",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T20:36:19.489182+00:00",
+      "nextCheckAt": "2026-10-30T20:36:19.489182+00:00"
     }
   }
 }
