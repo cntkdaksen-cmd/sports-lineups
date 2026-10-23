@@ -609,7 +609,7 @@ async function openTeamSearchGame(index) {
 function showTabs() {
   const category = categoryForSport(sport);
   $('sports').innerHTML = `<button type="button" data-major="true" aria-current="${majorView}">주요 경기</button>`+categories.map(item => `<button type="button" data-category="${item.id}" aria-current="${!majorView && category.id === item.id}">${label(...item.label)}</button>`).join('');
-  $('sport-menu').innerHTML = `<button type="button"><selectedcontent></selectedcontent></button><option value="major" ${majorView?'selected':''}>오늘·내일 주요 경기</option>`+categories.map(group => {
+  $('sport-menu').innerHTML = `<button type="button"><selectedcontent></selectedcontent></button><option value="major" ${majorView?'selected':''}>주요 경기</option>`+categories.map(group => {
     const ids=dropdownLeagueOrder[group.id] || group.sports;
     const options=ids.map(id=>{
       const football=group.id==='football';
