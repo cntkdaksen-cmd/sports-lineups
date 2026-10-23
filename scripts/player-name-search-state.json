@@ -281,6 +281,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T19:35:41.562872+00:00",
       "nextCheckAt": "2026-10-30T19:35:41.562872+00:00"
+    },
+    "Adam Reach": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Reach+Lincoln+City&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adam+Reach+Lincoln+City",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T20:03:47.777163+00:00",
+      "nextCheckAt": "2026-10-24T02:03:47.777163+00:00"
     }
   }
 }
