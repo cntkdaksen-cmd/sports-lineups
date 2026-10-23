@@ -164,6 +164,43 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T18:30:09.085638+00:00",
       "nextCheckAt": "2026-10-30T18:30:09.085638+00:00"
+    },
+    "Abu Kamara": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Abu+Kamara+Portsmouth&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Abu+Kamara+Portsmouth",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/sk/football/player/kamara-abu/1087476",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T19:02:09.857743+00:00",
+      "nextCheckAt": "2026-10-30T19:02:09.857743+00:00"
+    },
+    "Adam Aznou": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Aznou+M%C3%A1laga&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adam+Aznou+M%C3%A1laga",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T19:02:09.857743+00:00",
+      "nextCheckAt": "2026-10-24T01:02:09.857743+00:00"
     }
   }
 }
