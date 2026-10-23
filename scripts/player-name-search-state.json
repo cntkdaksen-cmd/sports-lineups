@@ -603,6 +603,38 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T23:32:07.975798+00:00",
       "nextCheckAt": "2026-10-24T05:32:07.975798+00:00"
+    },
+    "Aiden O'Neill": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aiden+O%27Neill+New+York+City+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Aiden+O%27Neill+New+York+City+FC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T23:59:08.400558+00:00",
+      "nextCheckAt": "2026-10-30T23:59:08.400558+00:00"
+    },
+    "Aiham Ousou": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aiham+Ousou+Royal+Charleroi+SC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Aiham+Ousou+Royal+Charleroi+SC",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-23T23:59:08.400558+00:00",
+      "nextCheckAt": "2026-10-24T05:59:08.400558+00:00"
     }
   }
 }
