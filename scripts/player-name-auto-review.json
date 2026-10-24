@@ -11964,6 +11964,534 @@
         }
       ],
       "verifiedAt": "2026-10-24T15:46:33.084231+00:00"
+    },
+    {
+      "name": "Darius Olaru",
+      "korean": "다리우스 올라루",
+      "team": "Union St.-Gilloise",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Darius_Olaru",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "다리우스 올라루",
+          "contentHash": "6bbff44fc576095f73f625e5e2c16de4814b886b436c03361027a0538877539b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "Hervé Koffi",
+      "korean": "에르베 코피",
+      "team": "Union St.-Gilloise",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Herv%C3%A9_Koffi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "에르베 코피",
+          "contentHash": "e1152c55b103cfdaf9a77d5747b165a30d48f24aaae1f06ebc5cbd881ae0581b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "Luke Le Roux",
+      "korean": "루크 르 루",
+      "team": "Cercle Brugge KSV",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Luke_Le_Roux",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "루크 르 루",
+          "contentHash": "f074825f5318d761ee85ffa393fc5a9634a711dfd7ed78fbfde0860ad2cd417c"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "Nikki Havenaar",
+      "korean": "니키 하프나",
+      "team": "Union St.-Gilloise",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nikki_Havenaar",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "니키 하프나",
+          "contentHash": "b1ff1e95fd26827ac9e6bcb9a603aeed8ff4a228131150232ede1d4eea40b118"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "Calvin Stengs",
+      "korean": "캘빈 스텡스",
+      "team": "AZ Alkmaar",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Calvin_Stengs",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "캘빈 스텡스",
+          "contentHash": "4ae6553bf25fe2457eb7eef7663d52a339e68c9b939c3975c9eb51f2818e2cc4"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "Jordy Clasie",
+      "korean": "요르디 클라시",
+      "team": "AZ Alkmaar",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jordy_Clasie",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "요르디 클라시",
+          "contentHash": "bed54eec68599e93ec3b5615add77e52c6fad958b33c81bddae15e21e3783dbe"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "Ramiz Zerrouki",
+      "korean": "라미즈 제루키",
+      "team": "FC Twente",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ramiz_Zerrouki",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "라미즈 제루키",
+          "contentHash": "1a61573fdde81b8f247527ebb0446afe1dd4cb42f549ccab2dbd44b2a3f3aee9"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "Wout Weghorst",
+      "korean": "바우트 베흐호르스트",
+      "team": "FC Twente",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wout_Weghorst",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "바우트 베흐호르스트",
+          "contentHash": "1fcbae7bc8f7a07468fc94686287b800828c6aaefe93b993ffe0bb9780ec7dbf"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "Robinho",
+      "korean": "호비뉴",
+      "team": "Académico de Viseu",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Robinho",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "호비뉴",
+          "contentHash": "c28308b85a2d49d267eecff9978d3e8de88e3ad872c646894b9cffb343fbdea9"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "三森　大貴",
+      "korean": "미모리 마사키",
+      "team": "横浜DeNAベイスターズ",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E4%B8%89%E6%A3%AE%E5%A4%A7%E8%B2%B4",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "미모리 마사키",
+          "contentHash": "2e557299551e8fc9283c55e59af4c29e7d2fa8473127e2bc69c2af14848515eb"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "佐野　恵太",
+      "korean": "사노 게이타",
+      "team": "横浜DeNAベイスターズ",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E4%BD%90%E9%87%8E%E6%81%B5%E5%A4%AA",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "사노 게이타",
+          "contentHash": "53a114aa4ada4d21a18709f8055a83a0f932063271609281828c79b9f2feddc9"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "周東　佑京",
+      "korean": "슈토 우쿄",
+      "team": "福岡ソフトバンクホークス",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E5%91%A8%E6%9D%B1%E4%BD%91%E4%BA%AC",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "슈토 우쿄",
+          "contentHash": "e35bc8b868acad87aa83b2e91eed8aacc1710348e3936f4ebf01435aed1a4d16"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "山本　祐大",
+      "korean": "야마모토 유다이",
+      "team": "福岡ソフトバンクホークス",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E6%9C%AC%E7%A5%90%E5%A4%A7",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "야마모토 유다이 (야구 선수)",
+          "contentHash": "a4308f87dc4f71b6625ad3035f2cd60c6f864ff1c126fd7378ee11b177374e92"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "度会　隆輝",
+      "korean": "와타라이 류키",
+      "team": "横浜DeNAベイスターズ",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E5%BA%A6%E4%BC%9A%E9%9A%86%E8%BC%9D",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "와타라이 류키",
+          "contentHash": "cbbf1f4d1539a3cb7ca63accda5f75d445801e7c353560cf112123b76d6f9cea"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "戸柱　恭孝",
+      "korean": "도바시라 야스타카",
+      "team": "横浜DeNAベイスターズ",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%88%B8%E6%9F%B1%E6%81%AD%E5%AD%9D",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "도바시라 야스타카",
+          "contentHash": "fadec80321fd638d2f874875ca5c6462401cc3db6d2b0268bfae6d10b6e11646"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "林　琢真",
+      "korean": "하야시 다쿠마",
+      "team": "横浜DeNAベイスターズ",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9E%97%E7%90%A2%E7%9C%9F",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "하야시 다쿠마",
+          "contentHash": "fe1eedc4abb50c7b20f15de2dae19a47d7adbcbf7c53a615f4e36f03422c9de7"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "柳田　悠岐",
+      "korean": "야나기타 유키",
+      "team": "福岡ソフトバンクホークス",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%94%B0%E6%82%A0%E5%B2%90",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "야나기타 유키",
+          "contentHash": "8e1258344cb70ac0f56fc68de8341c84ee4b97c635a98fc2fa043750b0cc88f9"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "栗原　陵矢",
+      "korean": "구리하라 료야",
+      "team": "福岡ソフトバンクホークス",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%A0%97%E5%8E%9F%E9%99%B5%E7%9F%A2",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "구리하라 료야",
+          "contentHash": "954bc6a88b8874a75a77ad73083cf91fbb01b99cd4c1bfe7b7981ab4d04dde3b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "梶原　昂希",
+      "korean": "가지와라 고키",
+      "team": "横浜DeNAベイスターズ",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%A2%B6%E5%8E%9F%E6%98%82%E5%B8%8C",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "가지와라 고키",
+          "contentHash": "60dd3a2da8a403e679c8fa02ca2c4d987d6b57e928718d288597ea523ffe59e0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "正木　智也",
+      "korean": "마사키 도모야",
+      "team": "福岡ソフトバンクホークス",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%AD%A3%E6%9C%A8%E6%99%BA%E4%B9%9F",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "마사키 도모야",
+          "contentHash": "eae7ba000d1321de1ad5d894cc7ebb76cac88ec7cc1abc517fd78ec4c633d577"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "牧　秀悟",
+      "korean": "마키 슈고",
+      "team": "横浜DeNAベイスターズ",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E7%89%A7%E7%A7%80%E6%82%9F",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "마키 슈고",
+          "contentHash": "72ee4505891838e96d75845c72abd93c3ca627fc980ca383b0e23db8e29ae28c"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "牧原　大成",
+      "korean": "마키하라 다이세이",
+      "team": "福岡ソフトバンクホークス",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E7%89%A7%E5%8E%9F%E5%A4%A7%E6%88%90",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "마키하라 다이세이",
+          "contentHash": "36b8946ce12305df49cfea11cd51f3c1d519c809861ddb71cc9fbb595148daa1"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "筒香　嘉智",
+      "korean": "쓰쓰고 요시토모",
+      "team": "横浜DeNAベイスターズ",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E7%AD%92%E9%A6%99%E5%98%89%E6%99%BA",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "쓰쓰고 요시토모",
+          "contentHash": "2edd83465a3b393501395e651c3c4544524bbe0a5041f325f360a7a18565ae2c"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
+    },
+    {
+      "name": "近藤　健介",
+      "korean": "곤도 겐스케",
+      "team": "福岡ソフトバンクホークス",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E8%BF%91%E8%97%A4%E5%81%A5%E4%BB%8B",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "곤도 겐스케",
+          "contentHash": "885737762f95d1d3796513b62ee0113769e8947a419db911af32fbb5fa0dd7f7"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:54:41.641779+00:00"
     }
   ]
 }
