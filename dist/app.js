@@ -455,9 +455,11 @@ async function recentLineups(event, allEvents, source, kind) {
   }
   return lineups;
 }
+const kblLogoCodes = {'원주 DB':'db','서울 삼성':'ss','고양 소노':'sono','서울 SK':'sk','창원 LG':'lg','안양 정관장':'kgc','부산 KCC':'kcc','수원 KT':'kt','대구 한국가스공사':'pega','울산 현대모비스':'hd'};
 function teamLogo(team, className = 'team-logo') {
   const data = team?.team || team || {};
-  const url = data.logo || data.logos?.[0]?.href || team?.logo || team?.logos?.[0]?.href;
+  const kblCode = sport === 'kbl' ? kblLogoCodes[data.displayName || data.name] : null;
+  const url = data.logo || data.logos?.[0]?.href || team?.logo || team?.logos?.[0]?.href || (kblCode && `https://www.kbl.or.kr/assets/img/logo/logo-${kblCode}.svg`);
   return typeof url === 'string' && /^https:\/\//i.test(url)
     ? `<img class="${className}" src="${safe(url)}" alt="" aria-hidden="true" loading="lazy" onerror="this.hidden=true">`
     : '';
