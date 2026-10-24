@@ -22,7 +22,7 @@ class NpbSchedule(unittest.TestCase):
             if '20261024' in url: return [{'gameId':1,'startTime':'1830','homeTeamName':'横浜DeNAベイスターズ','visitorTeamName':'福岡ソフトバンクホークス','homeTeamNameI':'デ','visitorTeamNameI':'ソ','gameStateName':'試合終了'}]
             if '20261025' in url: return [{'gameId':2,'startTime':'1800','homeTeamNameI':'デ','visitorTeamNameI':'ソ'}]
             return []
-        with patch.object(m,'datetime',Clock),patch.object(m,'fetch_json',side_effect=get):
+        with patch.object(m,'datetime',Clock),patch.object(m,'fetch_json',side_effect=get),patch.object(m,'fetch_text',return_value=''):
             games=m.scrape_npb()
         self.assertEqual(len(games),2)
         self.assertEqual(games[1]['event']['date'],'2026-10-25T09:00:00Z')

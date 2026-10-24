@@ -454,11 +454,75 @@ def cpbl_kickoff(game):
     return local.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
 
 
+def announced_pitchers(row, fields, source):
+    result = {}
+    for side, field in fields.items():
+        name = row.get(field)
+        if isinstance(name, str) and name.strip() and name.strip() not in ('未定', '未公布', '-', '待定'):
+            result[side] = {'name': name.strip(), 'status': 'probable', 'source': source}
+    return result
+
+
+def npb_members(raw, side):
+    if isinstance(raw, list):
+        return [row for row in raw if str(row.get('hv')) == ('1' if side == 'home' else '2')]
+    if isinstance(raw, dict):
+        rows = raw.get(side, raw.get('Home' if side == 'home' else 'Visitor', []))
+        return rows.get('players', rows.get('members', [])) if isinstance(rows, dict) else rows
+    return []
+
+
+def npb_pitchers(raw, overview, game_id, day):
+    result = {}
+    rows = overview if isinstance(overview, list) else [overview]
+    for row in rows:
+        if str(row.get('gameId')) == str(game_id) and str(row.get('gameDate')) == day.strftime('%Y%m%d'):
+            result.update(announced_pitchers(row, {'home': 'homePrePitcherName', 'away': 'visitorPrePitcherName'},
+                f'https://spaia.jp/baseball/npb/api/game_over_view?gameId={game_id}'))
+    for side, key in (('home', 'home'), ('away', 'visitor')):
+        # startPosition=11 identifies bench pitchers; never reuse yesterday's pitcher.
+        starter = next((row for row in npb_members(raw, key) if str(row.get('startPosition')) == '1'), None)
+        if starter and starter.get('playerName'):
+            result[side] = {'name': starter['playerName'], 'status': 'confirmed',
+                'source': f'https://spaia.jp/baseball/npb/api/starting_members_for_flash?gameId={game_id}'}
+    return result
+
+
+def yahoo_npb_pitchers(page, game_id, day):
+    # Use the explicit home/away team IDs, not the order of player links.
+    if f'/npb/game/{game_id}/top' not in page or f'{day.year}年{day.month}月{day.day}日' not in page:
+        return {}
+    team_ids = dict(re.findall(r'bb-gameCard__readMoreItem--(home|away)"[^>]*>\s*<a href="/npb/teams/(\d+)/schedule', page))
+    section = re.search(r'id="strt_pit"(.*?)(?=<div class="bb-splits bb-splits--stretch")', page, re.S)
+    if not section:
+        return {}
+    names = dict(re.findall(r'bb-splitsHead--npbTeam(\d+)".*?class="bb-splitsPitcherStarting".*?<a href="/npb/player/\d+/top">([^<]+)</a>', section.group(1), re.S))
+    return {side: {'name': html.unescape(names[team_id]).strip(), 'status': 'probable',
+                   'source': f'https://baseball.yahoo.co.jp/npb/game/{game_id}/top'}
+            for side, team_id in team_ids.items() if team_id in names}
+
+
+def reviewed_pitcher_fallback(event_id, kickoff, names, pitchers):
+    path = ROOT / 'scripts' / 'starting-pitcher-review.json'
+    reviews = json.loads(path.read_text()) if path.exists() else []
+    for row in reviews:
+        if row['eventId'] == str(event_id) and row['kickoff'] == kickoff and row['teams'] == names:
+            for side, name in row['pitchers'].items():
+                pitchers.setdefault(side, {'name': name, 'status': 'probable', 'source': row['source']})
+    return pitchers
+
+
 def scrape_cpbl():
     """Use CPBL public schedule and game detail API for two-day starter projections."""
     today = datetime.now(ZoneInfo('Asia/Seoul')).date()
     events = []
     recent_batters = {}
+    announced_games = []
+    try:
+        official = post_json('https://www.cpbl.com.tw/home/getdetaillist', {}, 'https://www.cpbl.com.tw/')
+        announced_games = json.loads(official.get('GameDetailJson') or '[]')
+    except Exception as error:
+        print('CPBL announced pitcher feed unavailable:', error)
     def hitters(team):
         return [{'name': row.get('HitterName', ''), 'position': row.get('PositionName', ''), 'flag': ''}
                 for row in team.get('Hitters', []) if row.get('HitterName') and row.get('Lineup')]
@@ -496,6 +560,11 @@ def scrape_cpbl():
                 continue
             detail = fetch_json(f'https://stats.cpbl.com.tw/api/proxy/v1/games/{game_id}')
             data = detail.get('Data', {}).get('Game', {})
+            # The detail carries postponements sooner than the schedule list.
+            if data.get('PreExeDate'):
+                kickoff = cpbl_kickoff(data)
+                if datetime.fromisoformat(kickoff.replace('Z', '+00:00')).astimezone(ZoneInfo('Asia/Taipei')).date() != day:
+                    continue
             visiting, home = data.get('Visiting', {}), data.get('Home', {})
             away_players, home_players = hitters(visiting), hitters(home)
             home_team = home.get('Team') or {}
@@ -507,8 +576,13 @@ def scrape_cpbl():
             if len(away_players) < 9: away_players = recent_batters.get(names['away'], away_players)
             competitors = [{'homeAway': side, 'team': {'id': names[side], 'displayName': names[side], 'shortDisplayName': names[side], 'abbreviation': names[side]}} for side in ('home', 'away')]
             confirmed = len(hitters(home)) >= 9 and len(hitters(visiting)) >= 9
+            pitchers = {}
+            for row in announced_games:
+                if str(row.get('Year')) + '-' + str(row.get('KindCode')) + '-' + str(row.get('GameSno')) == str(game_id):
+                    pitchers.update(announced_pitchers(row, {'home': 'HomeFirstMover', 'away': 'VisitingFirstMover'}, 'https://www.cpbl.com.tw/'))
+            reviewed_pitcher_fallback(game_id, kickoff, names, pitchers)
             prediction = {'league': 'cpbl', 'kickoff': kickoff, 'names': names, 'teams': names,
-                'lineups': {'home': home_players, 'away': away_players}, 'injuries': {},
+                'lineups': {'home': home_players, 'away': away_players}, 'startingPitchers': pitchers, 'injuries': {},
                 'statuses': {'home': 'confirmed' if confirmed else 'predicted', 'away': 'confirmed' if confirmed else 'predicted'},
                 'note': 'CPBL 공식 선발 타순' if confirmed else 'CPBL 직전 경기 타순 기준 예상', 'source': 'https://stats.cpbl.com.tw'}
             events.append({'event': {'id': str(game_id), 'date': kickoff, 'competitions': [{'competitors': competitors}]}, 'prediction': prediction, 'confirmed': confirmed})
@@ -550,9 +624,10 @@ def scrape_npb():
             competition_stages[tuple(sorted(names))] = game['gameTypeName']
         return names
     def players(sides, side):
-        values = sides.get(side, sides.get('Home' if side == 'home' else 'Visitor', []))
-        if isinstance(values, dict): values = values.get('players', values.get('members', []))
-        return [{'name': row.get('name') or row.get('playerName') or row.get('PlayerName', ''), 'position': row.get('position', ''), 'flag': ''}
+        values = npb_members(sides, side)
+        if isinstance(sides, list):
+            values = sorted((row for row in values if str(row.get('startBatNo', '')).isdigit() and 1 <= int(row['startBatNo']) <= 9), key=lambda row: int(row['startBatNo']))
+        return [{'name': row.get('name') or row.get('playerName') or row.get('PlayerName', ''), 'position': row.get('startPosition', row.get('position', '')), 'flag': ''}
                 for row in values if isinstance(row, dict) and (row.get('name') or row.get('playerName') or row.get('PlayerName'))]
     for lookback in range(1, 8):
         day = today.fromordinal(today.toordinal() - lookback)
@@ -565,7 +640,7 @@ def scrape_npb():
                 if not game_id or not home or not away: continue
                 sides = fetch_json(f'https://spaia.jp/baseball/npb/api/starting_members_for_flash?gameId={game_id}')
                 for name, side in ((home, 'home'), (away, 'visitor')):
-                    lineup = players(sides if isinstance(sides, dict) else {}, side)
+                    lineup = players(sides, side)
                     if len(lineup) >= 9 and name not in recent_rosters: recent_rosters[name] = lineup[:9]
         except Exception:
             continue
@@ -579,7 +654,19 @@ def scrape_npb():
             if not game_id or not home or not away:
                 continue
             lineup = fetch_json(f'https://spaia.jp/baseball/npb/api/starting_members_for_flash?gameId={game_id}')
-            sides = lineup if isinstance(lineup, dict) else {}
+            sides = lineup
+            try:
+                overview = fetch_json(f'https://spaia.jp/baseball/npb/api/game_over_view?gameId={game_id}')
+            except Exception as error:
+                print(f'NPB {game_id} announced pitchers unavailable:', error)
+                overview = []
+            pitchers = npb_pitchers(sides, overview, game_id, day)
+            if len(pitchers) < 2:
+                try:
+                    backup = yahoo_npb_pitchers(fetch_text(f'https://baseball.yahoo.co.jp/npb/game/{game_id}/top'), game_id, day)
+                    for side, pitcher in backup.items(): pitchers.setdefault(side, pitcher)
+                except Exception as error:
+                    print(f'NPB {game_id} backup pitchers unavailable:', error)
             rosters = {'home': players(sides, 'home'), 'away': players(sides, 'visitor')}
             names = {'home': home, 'away': away}
             confirmed = len(rosters['home']) >= 9 and len(rosters['away']) >= 9
@@ -591,7 +678,7 @@ def scrape_npb():
                 print(f'NPB {game_id}: {error}; not publishing an invented time')
                 continue
             competitors = [{'homeAway': side, 'team': {'id': names[side], 'displayName': names[side], 'shortDisplayName': names[side], 'abbreviation': names[side]}} for side in ('home', 'away')]
-            prediction = {'league': 'npb', 'competitionStage': competition_stages.get(tuple(sorted(names.values())), ''), 'kickoff': kickoff, 'names': names, 'teams': names, 'lineups': rosters, 'injuries': {},
+            prediction = {'league': 'npb', 'competitionStage': competition_stages.get(tuple(sorted(names.values())), ''), 'kickoff': kickoff, 'names': names, 'teams': names, 'lineups': rosters, 'startingPitchers': pitchers, 'injuries': {},
                 'statuses': {'home': 'confirmed' if confirmed else 'predicted', 'away': 'confirmed' if confirmed else 'predicted'},
                 'note': 'NPB 선발 타순' if confirmed else 'NPB 직전 경기 타순 기준 예상', 'source': 'https://spaia.jp'}
             events.append({'event': {'id': str(game_id), 'date': kickoff, 'status': {'type': {'completed': game.get('gameStateName') == '試合終了'}}, 'competitions': [{'timeValid': True, 'competitors': competitors}]}, 'prediction': prediction, 'confirmed': confirmed})
@@ -622,11 +709,15 @@ def scrape_kbo_official():
         for game in games:
             if game.get('GAME_STATE_SC') in ('3', '4') or game.get('CANCEL_SC_ID') not in ('0', 0, None):
                 continue
-            rows = post_json('https://www.koreabaseball.com/ws/Schedule.asmx/GetLineUpAnalysis', {
-                'leId': game['LE_ID'], 'srId': game['SR_ID'], 'seasonId': game['SEASON_ID'], 'gameId': game['G_ID']
-            }, referer)
-            if len(rows) < 5:
-                continue
+            try:
+                rows = post_json('https://www.koreabaseball.com/ws/Schedule.asmx/GetLineUpAnalysis', {
+                    'leId': game['LE_ID'], 'srId': game['SR_ID'], 'seasonId': game['SEASON_ID'], 'gameId': game['G_ID']
+                }, referer)
+            except Exception as error:
+                print(f"KBO {game['G_ID']} batting order unavailable; retaining announced pitchers:", error)
+                rows = []
+            if not isinstance(rows, list) or len(rows) < 5:
+                rows = [[], [], [], ['{"rows":[]}'], ['{"rows":[]}']]
             def lineup(table):
                 result = []
                 for row in table.get('rows', []):
@@ -635,8 +726,6 @@ def scrape_kbo_official():
                         result.append({'name': cells[2]['Text'], 'position': cells[1].get('Text', ''), 'flag': ''})
                 return result
             home, away = lineup(json.loads(rows[3][0])), lineup(json.loads(rows[4][0]))
-            if not home and not away:
-                continue
             confirmed = bool(rows[0] and rows[0][0].get('LINEUP_CK'))
             kickoff = datetime.strptime(day + game['G_TM'], '%Y%m%d%H:%M').replace(tzinfo=ZoneInfo('Asia/Seoul'))
             names = {'home': game['HOME_NM'], 'away': game['AWAY_NM']}
@@ -645,7 +734,8 @@ def scrape_kbo_official():
                 {'homeAway': 'away', 'team': {'id': game['AWAY_ID'], 'displayName': names['away'], 'shortDisplayName': names['away'], 'abbreviation': game['AWAY_ID']}}
             ]
             prediction = {'league': 'kbo', 'kickoff': kickoff.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z'), 'names': names,
-                'teams': {'home': game['HOME_ID'], 'away': game['AWAY_ID']}, 'lineups': {'home': home, 'away': away}, 'injuries': {},
+                'teams': {'home': game['HOME_ID'], 'away': game['AWAY_ID']}, 'lineups': {'home': home, 'away': away},
+                'startingPitchers': announced_pitchers(game, {'home': 'B_PIT_P_NM', 'away': 'T_PIT_P_NM'}, referer), 'injuries': {},
                 'statuses': {'home': 'confirmed' if confirmed else 'predicted', 'away': 'confirmed' if confirmed else 'predicted'},
                 'note': 'KBO 공식 당일 타순' if confirmed else 'KBO 공식 최근 선발 타순 기준 예상',
                 'source': f"https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate={day}&gameId={game['G_ID']}&section=START_PIT"}
