@@ -820,6 +820,22 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T01:29:32.627395+00:00",
       "nextCheckAt": "2026-10-31T01:29:32.627395+00:00"
+    },
+    "Ace Bailey": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ace+Bailey+Utah+Jazz&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Ace+Bailey+Utah+Jazz",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T02:09:45.881239+00:00",
+      "nextCheckAt": "2026-10-24T08:09:45.881239+00:00"
     }
   }
 }
