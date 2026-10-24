@@ -852,6 +852,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T02:53:56.313765+00:00",
       "nextCheckAt": "2026-10-24T08:53:56.313765+00:00"
+    },
+    "Aleksandr Golovin": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aleksandr+Golovin+AS+Monaco&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Aleksandr+Golovin+AS+Monaco",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T03:33:16.318422+00:00",
+      "nextCheckAt": "2026-10-24T09:33:16.318422+00:00"
     }
   }
 }
