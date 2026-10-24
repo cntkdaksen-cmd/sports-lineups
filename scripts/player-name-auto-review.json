@@ -10032,6 +10032,594 @@
         }
       ],
       "verifiedAt": "2026-10-24T15:39:34.665162+00:00"
+    },
+    {
+      "name": "Taiki Hirato",
+      "korean": "히라토 다이키",
+      "team": "Shimizu S-Pulse",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Taiki_Hirato",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "히라토 다이키",
+          "contentHash": "5bb9aa2bc107aa93e3828bda22b18a5d3b42b7c8753d9a34be64259496567c7b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Taishi Matsumoto",
+      "korean": "마쓰모토 다이시",
+      "team": "Sanfrecce Hiroshima",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Taishi_Matsumoto",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마쓰모토 다이시",
+          "contentHash": "5a5aa04be0cc837e7b437e32e10cc8e39a9f77a3beeaa28c2a138b7592ccf3d8"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Kento Misao",
+      "korean": "미사오 겐토",
+      "team": "Kashima Antlers",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kento_Misao",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "미사오 겐토",
+          "contentHash": "a1ef1d220498ac8a8db85f67ce97397f2118a051ee1f4c0c29e0dd9200062a86"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Ryoya Ogawa",
+      "korean": "오가와 료야",
+      "team": "Kashima Antlers",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ryoya_Ogawa",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "오가와 료야",
+          "contentHash": "5bf864ae25351ae46bfa0602c20df0c5736d9a11523bc70e107095182cb35aa0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Yuma Suzuki",
+      "korean": "스즈키 유마",
+      "team": "Kashima Antlers",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yuma_Suzuki",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "스즈키 유마",
+          "contentHash": "28c967aff0e2da0caf96e85da79d19a329b7ea7469e10cb100564b1180e1d9ec"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Yuta Goke",
+      "korean": "고케 유타",
+      "team": "Vissel Kobe",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yuta_Goke",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "고케 유타",
+          "contentHash": "5104d619cf48d2682cf6559376e27606a706074585e7a6471d090a484191ec8f"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Kengo Nagai",
+      "korean": "나가이 겐고",
+      "team": "Kashiwa Reysol",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kengo_Nagai",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "나가이 겐고",
+          "contentHash": "39b44d85e166f6b86cee41d3f998ff00c80782ccdfc42c0b2ca386fd03e51096"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Wataru Harada",
+      "korean": "하라다 와타루",
+      "team": "Kashiwa Reysol",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wataru_Harada",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "하라다 와타루",
+          "contentHash": "faf6bb320a538a065186371163459204b59f6eea4996c21bc0599522d9b753a9"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Yuki Kakita",
+      "korean": "가키타 유키",
+      "team": "Kashiwa Reysol",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yuki_Kakita",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "가키타 유키",
+          "contentHash": "c26f01802a8efcdc4eebb1b68bfd32dd1685c57d2e79a4948bcec81236163ddd"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Patrick Roberts",
+      "korean": "패트릭 로버츠",
+      "team": "Birmingham City",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Patrick_Roberts",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "패트릭 로버츠",
+          "contentHash": "0172ce8d6b14b1cb4a9c6383eae70e43f4ed94f43fb1e11cc9887d7ad282a06c"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Jonathan David",
+      "korean": "조너선 데이비드",
+      "team": "Atlético Madrid",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jonathan_David",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조너선 데이비드",
+          "contentHash": "cbd46df81ac75cf72ae165caaf7e670a9ad69915a947a6e8535557caa6e161f1"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Daiki Hashioka",
+      "korean": "하시오카 다이키",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Daiki_Hashioka",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "하시오카 다이키",
+          "contentHash": "985801985edc1745a1d599a94bfabe40d6b8bd13e4f18f982f35ae65711e6adb"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Florian Neuhaus",
+      "korean": "플로리안 노이하우스",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Florian_Neuhaus",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "플로리안 노이하우스",
+          "contentHash": "e0f36bb4bc334d80b462a5ff8c57501a5ff05d57065d6aa62e2acbcb3745f8b9"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Joe Scally",
+      "korean": "조 스캘리",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Scally",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조 스캘리",
+          "contentHash": "fd5653944ea249f6ea5ae7f95d4b7aee12e6182256a0251fbf7780d9777d2350"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Keisuke Goto",
+      "korean": "고토 게이스케",
+      "team": "SC Freiburg",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Keisuke_Got%C5%8D",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "고토 게이스케",
+          "contentHash": "9b28fe048491615f471be39a2d7874ca40b2a73315230720d3676d29cf3d29ec"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Maximilian Mittelstädt",
+      "korean": "막시밀리안 미텔슈테트",
+      "team": "VfB Stuttgart",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Maximilian_Mittelst%C3%A4dt",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "막시밀리안 미텔슈테트",
+          "contentHash": "54532b7865641037a0613f9bfaa817e8b4ef7ffca8c47144f1ae0878fadc1020"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Shuto Machino",
+      "korean": "마치노 슈토",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sh%C5%ABto_Machino",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마치노 슈토",
+          "contentHash": "9a02a92e694653d0d8fedf7f76a2ec97a1d7450b5d767097b451cffd6321f037"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Zento Uno",
+      "korean": "우노 젠토",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Zento_Uno",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "우노 젠토",
+          "contentHash": "00a5b4e44e0be4753406dac4635b6f84d6cb7d96c9eeee494f0c9d87f800e7c8"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Adam Obert",
+      "korean": "아담 오베르트",
+      "team": "Cagliari",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Adam_Obert",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "아담 오베르트",
+          "contentHash": "c25a9f961e543c8ab04c71120211c3ed5fd709e511ff16a6b435ea8fd242ced9"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Alexander Schwolow",
+      "korean": "알렉산더 슈볼로브",
+      "team": "Mainz",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Alexander_Schwolow",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "알렉산더 슈볼로브",
+          "contentHash": "a57e2c0b1a690c574f23b584c7c0f5a15524b037960031428e87fdc3b105c2dc"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Keito Nakamura",
+      "korean": "나카무라 게이토",
+      "team": "Lyon",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Keito_Nakamura",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "나카무라 게이토",
+          "contentHash": "4172d55efcaf2bf5b2424e6150e636eb91ef978b6c7a630efa864b400d8b4e0d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Lois Openda",
+      "korean": "로이스 오펜다",
+      "team": "Lyon",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lo%C3%AFs_Openda",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "로이스 오펜다",
+          "contentHash": "815811d0b06df0ef86dfe2f89fffe622e166ef25d6485e6a90cbbde080cc9cdd"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Nicolas Tagliafico",
+      "korean": "니콜라스 탈리아피코",
+      "team": "Lyon",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Tagliafico",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "니콜라스 탈리아피코",
+          "contentHash": "182e82c980f01acf44169d4d6898a29fe304aeb237a27f51d2042dca10891cde"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Jon Guridi",
+      "korean": "혼 구리디",
+      "team": "Sevilla",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jon_Guridi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "혼 구리디",
+          "contentHash": "14d8f7702f6df41e09fc7f670560c7440e42eca8063a044f17b2e10de6a5f81e"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Romain Del Castillo",
+      "korean": "로맹 델 카스티요",
+      "team": "Osasuna",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Romain_Del_Castillo",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "로맹 델 카스티요",
+          "contentHash": "cd59211738579736c0221f1bc9bbdf3b8d3407d8c0f6928dd140a4c1173651c6"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Jay Idzes",
+      "korean": "제이 이즈스",
+      "team": "Sassuolo",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jay_Idzes",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "제이 이즈스",
+          "contentHash": "b2e03dbd208ed0f0e80b8cc8918a35db8fa68456e5328208d546ffaab7c7d494"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Riccardo Orsolini",
+      "korean": "리카르도 오르솔리니",
+      "team": "Bologna",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Riccardo_Orsolini",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "리카르도 오르솔리니",
+          "contentHash": "fd44c8ba5b29e4fb522cec691888a931da5ead10ec7b552309d4d3990adc5910"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
+    },
+    {
+      "name": "Matteo Pessina",
+      "korean": "마테오 페시나",
+      "team": "Monza",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Matteo_Pessina",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마테오 페시나",
+          "contentHash": "0280e1f58119d71c9f49f26e0c8b17f076c77c549bb438210e199c062b89af70"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:41:24.274931+00:00"
     }
   ]
 }
