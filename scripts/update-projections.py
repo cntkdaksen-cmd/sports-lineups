@@ -744,9 +744,34 @@ def scrape_kbo_official():
     return events
 
 
+def kbl_projected_lineups(detail, names):
+    tables = re.findall(r'<h3[^>]*class="font-semibold"[^>]*>([^<]+)</h3>.*?<tbody>(.*?)</tbody>', detail, re.S)
+    lineups = {}
+    for team_name, table in tables[:2]:
+        if team_name.strip() not in names:
+            continue
+        players = []
+        for row in re.findall(r'<tr[^>]*>(.*?)</tr>', table, re.S):
+            name_match = re.search(r'<span class="flex items-center gap-1\.5 whitespace-nowrap font-medium">([^<]+)</span>', row)
+            cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.S)
+            if not name_match or len(cells) < 2:
+                continue
+            minute_text = re.sub(r'<[^>]+>', '', cells[-1]).strip()
+            try:
+                minutes = float(minute_text)
+            except ValueError:
+                continue
+            if minutes > 0:
+                players.append((minutes, html.unescape(name_match.group(1).strip())))
+        projected = sorted(players, reverse=True)[:5]
+        if projected:
+            side = 'home' if team_name.strip() == names[0].strip() else 'away'
+            lineups[side] = [{'name': player, 'position': '', 'flag': ''} for _, player in projected]
+    return lineups
+
+
 def scrape_kbl_statgg():
     """Use KBL schedule and season player minutes as a transparent starter projection."""
-    from html.parser import HTMLParser
     today = datetime.now(ZoneInfo('Asia/Seoul')).date()
     end = today.fromordinal(today.toordinal() + 2)
     schedule = fetch_text(f'https://statgg.com/ko/kbl/schedule?date={today.isoformat()}')
@@ -769,28 +794,7 @@ def scrape_kbl_statgg():
         if not today <= kickoff_local.date() < end:
             continue
         detail = fetch_text('https://statgg.com' + path)
-        tables = re.findall(r'<h3 class="font-semibold">([^<]+)</h3>.*?<tbody>(.*?)</tbody>', detail, re.S)
-        lineups = {}
-        for team_name, table in tables[:2]:
-            players = []
-            for row in re.findall(r'<tr[^>]*>(.*?)</tr>', table, re.S):
-                name_match = re.search(r'<a[^>]*>([^<]+)', row)
-                cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.S)
-                if not name_match or len(cells) < 2:
-                    continue
-                minute_text = re.sub(r'<[^>]+>', '', cells[-1]).strip()
-                try:
-                    minutes = float(minute_text)
-                except ValueError:
-                    continue
-                if minutes > 0:
-                    players.append((minutes, html.unescape(name_match.group(1).strip())))
-            projected = sorted(players, reverse=True)[:5]
-            if projected:
-                side = 'home' if team_name.strip() == names[0].strip() else 'away'
-                lineups[side] = [{'name': player, 'position': '', 'flag': ''} for _, player in projected]
-        if not lineups:
-            continue
+        lineups = kbl_projected_lineups(detail, names)
         event_id = path.rsplit('/', 1)[-1]
         competitors = [
             {'homeAway': 'home', 'team': {'id': names[0], 'displayName': names[0], 'shortDisplayName': names[0], 'abbreviation': names[0]}},

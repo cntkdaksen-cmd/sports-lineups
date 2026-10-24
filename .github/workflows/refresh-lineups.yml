@@ -10,6 +10,7 @@ on:
       - 'scripts/test_starting_pitchers.py'
       - 'scripts/test_injury_reports.py'
       - 'scripts/test_wkbl_schedule.py'
+      - 'scripts/test_kbl_lineups.py'
       - 'scripts/starting-pitcher-review.json'
       - 'scripts/check-player-names.mjs'
       - 'scripts/collect-player-names.mjs'
@@ -52,6 +53,8 @@ jobs:
         run: python3 scripts/test_injury_reports.py
       - name: Validate WKBL official schedule times
         run: python3 scripts/test_wkbl_schedule.py
+      - name: Validate KBL projected starters
+        run: python3 scripts/test_kbl_lineups.py
       - name: Fetch current lineup projections
         run: python3 scripts/update-projections.py
       - uses: actions/setup-node@v4
