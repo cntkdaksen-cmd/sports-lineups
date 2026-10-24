@@ -1207,6 +1207,96 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T07:40:01.239251+00:00",
       "nextCheckAt": "2026-10-24T13:40:01.239251+00:00"
+    },
+    "Alexander Lowry": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alexander+Lowry+Motherwell&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alexander+Lowry+Motherwell",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T08:11:46.577539+00:00",
+      "nextCheckAt": "2026-10-31T08:11:46.577539+00:00"
+    },
+    "Alexander Prass": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alexander+Prass+TSG+Hoffenheim&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alexander+Prass+TSG+Hoffenheim",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.uefa.com/newsfiles/uefacup/2025/2042146_FR.pdf",
+          "reason": "ValueError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T08:11:46.577539+00:00",
+      "nextCheckAt": "2026-10-31T08:11:46.577539+00:00"
+    },
+    "Alexander Roldan": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alexander+Roldan+Seattle+Sounders+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alexander+Roldan+Seattle+Sounders+FC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T08:11:46.577539+00:00",
+      "nextCheckAt": "2026-10-31T08:11:46.577539+00:00"
+    },
+    "Alexander Schwolow": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alexander+Schwolow+Mainz&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alexander+Schwolow+Mainz",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/alexander-schwolow/134778",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T08:11:46.577539+00:00",
+      "nextCheckAt": "2026-10-31T08:11:46.577539+00:00"
+    },
+    "Alexandru Matan": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alexandru+Matan+St.+Louis+CITY+SC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alexandru+Matan+St.+Louis+CITY+SC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T08:11:46.577539+00:00",
+      "nextCheckAt": "2026-10-31T08:11:46.577539+00:00"
     }
   }
 }
