@@ -166,10 +166,10 @@ def fetch_espn_injury_reports(path):
         code = ((group.get('team') or {}).get('abbreviation') or group.get('abbreviation') or '').upper()
         entries = {}
         for item in group.get('injuries', []):
-            injury_team = item.get('team') or {}
+            athlete = item.get('athlete') or {}
+            injury_team = item.get('team') or athlete.get('team') or {}
             code = (code or injury_team.get('abbreviation') or '').upper()
             team = team or injury_team.get('displayName', '')
-            athlete = item.get('athlete') or {}
             name = athlete.get('displayName') or athlete.get('fullName')
             if not name:
                 continue
