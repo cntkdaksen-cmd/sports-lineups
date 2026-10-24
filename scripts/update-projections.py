@@ -910,6 +910,54 @@ def scrape_kovo_bkvolley():
     return events
 
 
+def parse_wkbl_schedule(page, year, month):
+    """Read official monthly WKBL dates; the first club is the home team."""
+    schedule = re.search(r'<ul\s+class="list_schedule"[^>]*>(.*?)</ul>', page, re.S)
+    if not schedule:
+        raise ValueError('WKBL official schedule list is missing')
+    games = []
+    for block in re.findall(r'<li\b[^>]*>(.*?)</li>', schedule.group(1), re.S):
+        date_match = re.search(r'class="date"[^>]*>\s*(\d{1,2})\.(\d{1,2})', block)
+        teams = re.findall(r'class="team_name"[^>]*>\s*([^<]+)', block)
+        place = re.search(r'class="place_block".*?(\d{1,2}:\d{2})\s*</span>', block, re.S)
+        if not date_match or len(teams) != 2 or not place:
+            continue
+        found_month, day = map(int, date_match.groups())
+        if found_month != month:
+            continue
+        try:
+            start = datetime.strptime(f'{year}-{month:02}-{day:02} {place.group(1)}', '%Y-%m-%d %H:%M').replace(tzinfo=ZoneInfo('Asia/Seoul'))
+        except ValueError:
+            continue
+        games.append({'date': start.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z'),
+                      'home': html.unescape(teams[0]).strip(), 'away': html.unescape(teams[1]).strip()})
+    return games
+
+
+def scrape_wkbl_official():
+    today = datetime.now(ZoneInfo('Asia/Seoul')).date()
+    target_days = {today, today.fromordinal(today.toordinal() + 1)}
+    months = {(day.year, day.month) for day in target_days}
+    entries = []
+    for year, month in months:
+        page = fetch_text(f'https://www.wkbl.or.kr/m/game/schedule.asp?sch_ym={year}{month:02}')
+        for game in parse_wkbl_schedule(page, year, month):
+            kickoff = game['date']
+            if datetime.fromisoformat(kickoff.replace('Z', '+00:00')).astimezone(ZoneInfo('Asia/Seoul')).date() not in target_days:
+                continue
+            names = {'home': game['home'], 'away': game['away']}
+            competitors = [{'homeAway': side, 'team': {'id': names[side], 'displayName': names[side],
+                            'shortDisplayName': names[side], 'abbreviation': names[side]}} for side in ('home', 'away')]
+            prediction = {'league': 'wkbl', 'kickoff': kickoff, 'names': names, 'teams': names,
+                          'lineups': {'home': [], 'away': []}, 'injuries': {},
+                          'statuses': {'home': 'predicted', 'away': 'predicted'},
+                          'source': 'https://www.wkbl.or.kr/m/game/schedule.asp'}
+            entries.append({'event': {'id': f"wkbl-{kickoff[:10]}-{names['home']}-{names['away']}",
+                                      'date': kickoff, 'competitions': [{'timeValid': True, 'competitors': competitors}]},
+                            'prediction': prediction, 'confirmed': False})
+    return entries
+
+
 def main():
     path = ROOT / 'dist' / 'projections.json'
     previous = json.loads(path.read_text()) if path.exists() else {}
@@ -952,7 +1000,7 @@ def main():
         source_status['nhl'] = {'fresh': False, 'checkedAt': previous.get('sourceStatus', {}).get('nhl', {}).get('checkedAt')}
     payload = {'asOf': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'), 'items': all_results, 'sourceStatus': source_status}
     payload['domestic'] = {}
-    for key, scraper in (('kbo', scrape_kbo_official), ('kbl', scrape_kbl_statgg), ('kovo', scrape_kovo_bkvolley), ('npb', scrape_npb), ('cpbl', scrape_cpbl),
+    for key, scraper in (('kbo', scrape_kbo_official), ('kbl', scrape_kbl_statgg), ('wkbl', scrape_wkbl_official), ('kovo', scrape_kovo_bkvolley), ('npb', scrape_npb), ('cpbl', scrape_cpbl),
                          ('kleague1', lambda: scrape_fotmob_kleague(9080, 'kleague1')),
                          ('kleague2', lambda: scrape_fotmob_kleague(9116, 'kleague2')), ('khl', scrape_khl)):
         try:
