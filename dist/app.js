@@ -345,10 +345,15 @@ async function getProjections(preferFresh=false) {
     return JSON.parse(new TextDecoder().decode(Uint8Array.from(binary,character => character.charCodeAt(0))));
   };
   const fromRaw = () => getJson(`https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/projections.json?v=${Date.now()}`);
+  const valid = value => Array.isArray(value?.items) && value.domestic && typeof value.domestic === 'object';
   let projections;
-  try { projections=await (preferFresh ? fromApi() : fromRaw()); }
-  catch { projections=await (preferFresh ? fromRaw() : fromApi()); }
-  if(!Array.isArray(projections?.items) || !projections.domestic)throw new Error('Invalid lineup snapshot');
+  try {
+    projections=await (preferFresh ? fromApi() : fromRaw());
+    if(!valid(projections))throw new Error('Invalid lineup snapshot');
+  } catch {
+    projections=await (preferFresh ? fromRaw() : fromApi());
+    if(!valid(projections))throw new Error('Invalid lineup snapshot');
+  }
   indexTeamSearch(projections);
   return projections;
 }

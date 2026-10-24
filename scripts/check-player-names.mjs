@@ -86,7 +86,8 @@ assert.equal(JSON.parse(storage.get('sports-lineups-name-review')).status,'data-
 const refreshRequests = [];
 context.fetch = async (url,options) => {
   refreshRequests.push({url,options});
-  return {ok:true,json:async()=>String(url).includes('name-catalog.json') ? {schemaVersion:1,teams:context.checkedTeamDictionary,players:{'Abdulkerim Bardakci':'압둘케림 바르닥치','Source Verified Player':'검증된 선수'},teamEnglish:{'Como':'Como 1907'}} : {content:Buffer.from(JSON.stringify({domestic:{khl:[]}})).toString('base64')}};
+  const snapshot = {items:[],domestic:{khl:[]}};
+  return {ok:true,json:async()=>String(url).includes('name-catalog.json') ? {schemaVersion:1,teams:context.checkedTeamDictionary,players:{'Abdulkerim Bardakci':'압둘케림 바르닥치','Source Verified Player':'검증된 선수'},teamEnglish:{'Como':'Como 1907'}} : String(url).includes('/contents/') ? {content:Buffer.from(JSON.stringify(snapshot)).toString('base64')} : snapshot};
 };
 await run('loadGames()');
 await run('loadGames()');
