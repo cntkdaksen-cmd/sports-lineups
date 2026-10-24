@@ -1010,6 +1010,91 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T05:52:02.057566+00:00",
       "nextCheckAt": "2026-10-24T11:52:02.057566+00:00"
+    },
+    "Alex DeBrincat": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+DeBrincat+Detroit+Red+Wings&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+DeBrincat+Detroit+Red+Wings",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://shop.nhl.com/detroit-red-wings/t-36932838+z-9477818-4283777110",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T06:18:23.724677+00:00",
+      "nextCheckAt": "2026-10-31T06:18:23.724677+00:00"
+    },
+    "Alex Freeman": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Freeman+Villarreal&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Freeman+Villarreal",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T06:18:23.724677+00:00",
+      "nextCheckAt": "2026-10-31T06:18:23.724677+00:00"
+    },
+    "Alex Iwobi": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Iwobi+Fulham&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Iwobi+Fulham",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T06:18:23.724677+00:00",
+      "nextCheckAt": "2026-10-31T06:18:23.724677+00:00"
+    },
+    "Alex Jimenez": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Jimenez+Fiorentina&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Jimenez+Fiorentina",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T06:18:23.724677+00:00",
+      "nextCheckAt": "2026-10-31T06:18:23.724677+00:00"
+    },
+    "Alex Negueba": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Negueba+Kyoto+Sanga&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Negueba+Kyoto+Sanga",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T06:18:23.724677+00:00",
+      "nextCheckAt": "2026-10-31T06:18:23.724677+00:00"
     }
   }
 }
