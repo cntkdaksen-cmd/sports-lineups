@@ -15090,6 +15090,50 @@
         }
       ],
       "verifiedAt": "2026-10-24T19:54:18.435027+00:00"
+    },
+    {
+      "name": "Braian Ojeda",
+      "korean": "브라이안 오헤다",
+      "team": "Orlando City SC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Braian_Ojeda",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "브라이안 오헤다",
+          "contentHash": "ff6d096641215dcd5fbdeba540430f99390e32ae6648bd491b78c42aa3a57013"
+        }
+      ],
+      "verifiedAt": "2026-10-24T22:56:47.439649+00:00"
+    },
+    {
+      "name": "Dániel Gazdag",
+      "korean": "거즈더그 다니엘",
+      "team": "New England Revolution",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/D%C3%A1niel_Gazdag",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "거즈더그 다니엘",
+          "contentHash": "8743b77d216eee638d092aacd0293e893bb5d940cc3c84f11a9ca46af8cc0a94"
+        }
+      ],
+      "verifiedAt": "2026-10-24T22:56:47.439649+00:00"
     }
   ]
 }

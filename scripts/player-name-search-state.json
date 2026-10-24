@@ -5304,7 +5304,18 @@
     },
     "devin padelford": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Devin+Padelford+Red+Bull+New+York&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T22:56:47.439649+00:00",
+      "nextCheckAt": "2026-10-25T04:56:47.439649+00:00"
     },
     "dylan nealis": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -14036,6 +14047,26 @@
     "robert gasser": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-25T21:27:05.819734+00:00"
+    },
+    "braian ojeda": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T22:56:47.439649+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "daniel gazdag": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T22:56:47.439649+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "jackson yueill": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T22:56:47.439649+00:00"
+    },
+    "jay fortune": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T22:56:47.439649+00:00"
     }
   }
 }
