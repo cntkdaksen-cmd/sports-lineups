@@ -770,6 +770,29 @@ def kbl_projected_lineups(detail, names):
     return lineups
 
 
+def kbl_recent_and_records(detail):
+    """Read the home-left, away-right team comparison without inventing missing games."""
+    result = {'recentForm': {}, 'records': {}}
+    for key in ('recent', 'record'):
+        match = re.search(r'<div data-compare-row="' + key + r'".*?(?=<div data-compare-row=|</section>|$)', detail, re.S)
+        if not match:
+            continue
+        row = match.group(0)
+        for side, column in (('home', '1'), ('away', '3')):
+            cell = re.search(r'<div class="[^"]*col-start-' + column + r' row-start-1[^"]*">(.*?)(?=<div class="[^"]*col-start-[13] row-start-1|$)', row, re.S)
+            if not cell:
+                continue
+            if key == 'recent':
+                results = re.findall(r'<span aria-hidden="true">([WLD])</span>', cell.group(1))
+                if results:
+                    result['recentForm'][side] = results[:5]
+            else:
+                value = re.search(r'\b(\d+\s*[-–]\s*\d+)\b', re.sub(r'<[^>]+>', ' ', cell.group(1)))
+                if value:
+                    result['records'][side] = [{'name': 'overall', 'summary': value.group(1)}]
+    return result
+
+
 def scrape_kbl_statgg():
     """Use KBL schedule and season player minutes as a transparent starter projection."""
     today = datetime.now(ZoneInfo('Asia/Seoul')).date()
@@ -795,12 +818,13 @@ def scrape_kbl_statgg():
             continue
         detail = fetch_text('https://statgg.com' + path)
         lineups = kbl_projected_lineups(detail, names)
+        comparison = kbl_recent_and_records(detail)
         event_id = path.rsplit('/', 1)[-1]
         competitors = [
-            {'homeAway': 'home', 'team': {'id': names[0], 'displayName': names[0], 'shortDisplayName': names[0], 'abbreviation': names[0]}},
-            {'homeAway': 'away', 'team': {'id': names[1], 'displayName': names[1], 'shortDisplayName': names[1], 'abbreviation': names[1]}}
+            {'homeAway': 'home', 'team': {'id': names[0], 'displayName': names[0], 'shortDisplayName': names[0], 'abbreviation': names[0]}, 'records': comparison['records'].get('home', [])},
+            {'homeAway': 'away', 'team': {'id': names[1], 'displayName': names[1], 'shortDisplayName': names[1], 'abbreviation': names[1]}, 'records': comparison['records'].get('away', [])}
         ]
-        events.append({'event': {'id': event_id, 'date': kickoff_local.astimezone(timezone.utc).isoformat().replace('+00:00','Z'), 'competitions': [{'competitors': competitors}]}, 'prediction': {'league': 'kbl', 'kickoff': kickoff_local.astimezone(timezone.utc).isoformat().replace('+00:00','Z'), 'names': {'home': names[0], 'away': names[1]}, 'teams': {'home': names[0], 'away': names[1]}, 'lineups': lineups, 'injuries': {}, 'statuses': {'home': 'predicted', 'away': 'predicted'}, 'note': 'StatGG 시즌 경기당 출장시간 상위 5명 기준 예상 선발', 'source': 'https://statgg.com' + path}})
+        events.append({'event': {'id': event_id, 'date': kickoff_local.astimezone(timezone.utc).isoformat().replace('+00:00','Z'), 'competitions': [{'competitors': competitors}], 'recentForm': comparison['recentForm']}, 'prediction': {'league': 'kbl', 'kickoff': kickoff_local.astimezone(timezone.utc).isoformat().replace('+00:00','Z'), 'names': {'home': names[0], 'away': names[1]}, 'teams': {'home': names[0], 'away': names[1]}, 'lineups': lineups, 'recentForm': comparison['recentForm'], 'injuries': {}, 'statuses': {'home': 'predicted', 'away': 'predicted'}, 'note': 'StatGG 시즌 경기당 출장시간 상위 5명 기준 예상 선발', 'source': 'https://statgg.com' + path}})
     return events
 
 

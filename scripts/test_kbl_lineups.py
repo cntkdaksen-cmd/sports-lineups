@@ -18,6 +18,14 @@ class KBLProjectedLineups(TestCase):
         self.assertEqual(lineups['away'][0]['name'], '허훈')
         self.assertEqual(module.kbl_projected_lineups(team('다른 팀', '오류 선수'), ['서울 SK', '수원 KT']), {})
 
+    def test_recent_and_record_keep_home_away_sides(self):
+        recent = '<div data-compare-row="recent"><div class="x col-start-1 row-start-1 y"><span aria-hidden="true">W</span><span aria-hidden="true">L</span></div><div class="x col-start-3 row-start-1 y"><span aria-hidden="true">L</span></div></div>'
+        record = '<div data-compare-row="record"><div class="x col-start-1 row-start-1 y">2-1</div><div class="x col-start-3 row-start-1 y">3-5</div></div>'
+        parsed = module.kbl_recent_and_records(recent + record)
+        self.assertEqual(parsed['recentForm'], {'home': ['W', 'L'], 'away': ['L']})
+        self.assertEqual(parsed['records']['home'][0]['summary'], '2-1')
+        self.assertEqual(parsed['records']['away'][0]['summary'], '3-5')
+
 
 if __name__ == '__main__':
     main()
