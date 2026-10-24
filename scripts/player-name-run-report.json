@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-24T15:45:06.849612+00:00",
+  "at": "2026-10-24T15:46:33.084231+00:00",
   "inventoryRecords": 5340,
   "pending": 1902,
-  "eligible": 1894,
-  "bulkRequested": 2,
-  "bulkApproved": 0,
+  "eligible": 1893,
+  "bulkRequested": 1000,
+  "bulkApproved": 64,
   "searchChecked": 1,
-  "approved": 0,
+  "approved": 64,
   "bulkErrors": [],
   "collectionFailures": 0,
   "policy": "Unverified names remain English"
