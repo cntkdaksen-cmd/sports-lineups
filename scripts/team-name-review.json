@@ -1870,6 +1870,24 @@
       "english": "Incheon Korean Air Jumbos",
       "source": "https://www.google.com/search?q=Incheon+Korean+Air+Jumbos+%EC%9D%B8%EC%B2%9C+%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5+%EC%A0%90%EB%B3%B4%EC%8A%A4",
       "method": "Reviewed full club display name"
+    },
+    {
+      "name": "福岡ソフトバンクホークス",
+      "korean": "후쿠오카 소프트뱅크 호크스",
+      "english": "Fukuoka SoftBank Hawks",
+      "league": "npb",
+      "source": "https://www.yagoonara.com/npb/games/NPB202610240607",
+      "method": "Japanese full team identity matched against NPB official schedule and Korean full-name match page",
+      "identitySource": "https://npb.jp/bis/2026/games/gm20261024.html"
+    },
+    {
+      "name": "横浜DeNAベイスターズ",
+      "korean": "요코하마 DeNA 베이스타스",
+      "english": "Yokohama DeNA BayStars",
+      "league": "npb",
+      "source": "https://www.yagoonara.com/npb/games/NPB202610240607",
+      "method": "Japanese full team identity matched against NPB official schedule and Korean full-name match page",
+      "identitySource": "https://npb.jp/bis/2026/games/gm20261024.html"
     }
   ],
   "policy": "Display verified full club names, including club suffixes, founding numbers and nicknames; preserve exact provider aliases. Never promote unrelated search headings."

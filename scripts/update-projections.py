@@ -503,11 +503,37 @@ def scrape_cpbl():
     return events
 
 
+def npb_kickoff(game, day):
+    """SPAIA startTime is local HHmm, not a UTC timestamp or midnight placeholder."""
+    value = str(game.get('startTime') or '').strip()
+    match = re.fullmatch(r'(\d{1,2}):?(\d{2})', value)
+    if not match:
+        raise ValueError('NPB start time is not published')
+    hour, minute = map(int, match.groups())
+    if not 1 <= hour <= 23 or not 0 <= minute <= 59:
+        raise ValueError('Invalid NPB start time')
+    local = datetime.combine(day, datetime.min.time(), ZoneInfo('Asia/Tokyo')).replace(hour=hour, minute=minute)
+    return local.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
+
+
 def scrape_npb():
     """Use SPAIA published lineups, then carry forward each team's latest batting order."""
     today = datetime.now(ZoneInfo('Asia/Tokyo')).date()
     events = []
     recent_rosters = {}
+    team_aliases = {}
+    def team_names(game):
+        names = []
+        for prefix, legacy, alternate in (('home', 'Home', 'home'), ('visitor', 'Visitor', 'away')):
+            name = game.get(prefix + 'TeamName') or game.get(legacy + 'TeamName') or game.get(alternate)
+            aliases = [game.get(prefix + 'TeamNameI'), game.get(prefix + 'TeamNameS')]
+            if name:
+                for alias in aliases:
+                    if alias: team_aliases[alias] = name
+            else:
+                name = next((team_aliases[x] for x in aliases if x in team_aliases), None)
+            names.append(name)
+        return names
     def players(sides, side):
         values = sides.get(side, sides.get('Home' if side == 'home' else 'Visitor', []))
         if isinstance(values, dict): values = values.get('players', values.get('members', []))
@@ -520,8 +546,7 @@ def scrape_npb():
             past_games = raw if isinstance(raw, list) else raw.get('data', raw.get('games', []))
             for game in past_games:
                 game_id = game.get('gameId') or game.get('GameID') or game.get('id')
-                home = game.get('homeTeamName') or game.get('HomeTeamName') or game.get('home')
-                away = game.get('visitorTeamName') or game.get('VisitorTeamName') or game.get('away')
+                home, away = team_names(game)
                 if not game_id or not home or not away: continue
                 sides = fetch_json(f'https://spaia.jp/baseball/npb/api/starting_members_for_flash?gameId={game_id}')
                 for name, side in ((home, 'home'), (away, 'visitor')):
@@ -535,8 +560,7 @@ def scrape_npb():
         games = raw if isinstance(raw, list) else raw.get('data', raw.get('games', []))
         for game in games:
             game_id = game.get('gameId') or game.get('GameID') or game.get('id')
-            home = game.get('homeTeamName') or game.get('HomeTeamName') or game.get('home')
-            away = game.get('visitorTeamName') or game.get('VisitorTeamName') or game.get('away')
+            home, away = team_names(game)
             if not game_id or not home or not away:
                 continue
             lineup = fetch_json(f'https://spaia.jp/baseball/npb/api/starting_members_for_flash?gameId={game_id}')
@@ -546,12 +570,16 @@ def scrape_npb():
             confirmed = len(rosters['home']) >= 9 and len(rosters['away']) >= 9
             if len(rosters['home']) < 9: rosters['home'] = recent_rosters.get(home, rosters['home'])
             if len(rosters['away']) < 9: rosters['away'] = recent_rosters.get(away, rosters['away'])
-            kickoff = datetime.combine(day, datetime.min.time(), ZoneInfo('Asia/Tokyo')).astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
+            try:
+                kickoff = npb_kickoff(game, day)
+            except ValueError as error:
+                print(f'NPB {game_id}: {error}; not publishing an invented time')
+                continue
             competitors = [{'homeAway': side, 'team': {'id': names[side], 'displayName': names[side], 'shortDisplayName': names[side], 'abbreviation': names[side]}} for side in ('home', 'away')]
             prediction = {'league': 'npb', 'kickoff': kickoff, 'names': names, 'teams': names, 'lineups': rosters, 'injuries': {},
                 'statuses': {'home': 'confirmed' if confirmed else 'predicted', 'away': 'confirmed' if confirmed else 'predicted'},
                 'note': 'NPB 선발 타순' if confirmed else 'NPB 직전 경기 타순 기준 예상', 'source': 'https://spaia.jp'}
-            events.append({'event': {'id': str(game_id), 'date': kickoff, 'competitions': [{'competitors': competitors}]}, 'prediction': prediction, 'confirmed': confirmed})
+            events.append({'event': {'id': str(game_id), 'date': kickoff, 'status': {'type': {'completed': game.get('gameStateName') == '試合終了'}}, 'competitions': [{'timeValid': True, 'competitors': competitors}]}, 'prediction': prediction, 'confirmed': confirmed})
     return events
 
 

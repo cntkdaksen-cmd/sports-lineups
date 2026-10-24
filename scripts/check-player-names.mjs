@@ -66,7 +66,7 @@ const teamReview = JSON.parse(fs.readFileSync(new URL('./team-name-review.json',
 for (const row of teamReview.entries) {
   context.teamToReview = {displayName:row.name};
   assert.equal(run('teamDisplayName(teamToReview)'),row.korean,row.name);
-  assert.ok(row.source.startsWith('https://www.google.com/search?'),row.name);
+  assert.ok(row.source.startsWith('https://www.google.com/search?') || (new URL(row.source).hostname==='www.yagoonara.com' && row.identitySource?.startsWith('https://npb.jp/')),row.name);
 }
 run(`nameReview={request:requestId,names:new Map()};teamDisplayName({displayName:'Manchester United'});playerDisplayName('Alisson Becker');playerDisplayName('Unreviewed Athlete');finishNameReview(requestId);`);
 let refreshReport = JSON.parse(storage.get('sports-lineups-name-review'));

@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/update-projections.py'
+      - 'scripts/test_npb_schedule.py'
       - 'scripts/check-player-names.mjs'
       - 'scripts/collect-player-names.mjs'
       - 'scripts/player-name-exceptions.json'
@@ -38,6 +39,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Validate NPB published start times
+        run: python3 scripts/test_npb_schedule.py
       - name: Fetch current lineup projections
         run: python3 scripts/update-projections.py
       - uses: actions/setup-node@v4
