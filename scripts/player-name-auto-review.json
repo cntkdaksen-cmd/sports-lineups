@@ -7353,6 +7353,519 @@
         }
       ],
       "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Odsonne Edouard",
+      "korean": "오드손 에두아르",
+      "team": "Lens",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Odsonne_%C3%89douard",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "오드손 에두아르",
+          "contentHash": "60018876171451ede5743c5e4a51d4985d4ff59b6c2b6575c489430de5a7ed02"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Marc Casado",
+      "korean": "마르크 카사도",
+      "team": "Deportivo",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Marc_Casad%C3%B3",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마르크 카사도",
+          "contentHash": "b4c118f0aa12954b821d7d96f35492781522f7b23debf2d80ecced21147efaab"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Pierre-Emerick Aubameyang",
+      "korean": "피에르에므리크 오바메양",
+      "team": "Deportivo",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pierre-Emerick_Aubameyang",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "피에르에므리크 오바메양",
+          "contentHash": "9713f6a68c599d9eaaa89acb5fdb7916480f16097ef27780ab30b303736c0b65"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Andre Gomes",
+      "korean": "안드레 고메스",
+      "team": "Columbus Crew",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andr%C3%A9_Gomes",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "안드레 고메스",
+          "contentHash": "7bc52fecfb0fa435aeaadacb07afe14bb52dd0e054439d6faae79ff225de5b03"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Connor Hellebuyck",
+      "korean": "코너 헬러벅",
+      "team": "New Jersey Devils",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Connor_Hellebuyck",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "코너 헬러벅",
+          "contentHash": "2ebbf159fd292da7275a9f21dda74c1e2cb1716773ba9f1861323258726941e0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Kevin Fiala",
+      "korean": "케빈 피알라",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kevin_Fiala",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "케빈 피알라",
+          "contentHash": "936d65d7940c1d78ed655388c7255363aa1546035f5430ac5821b6c21e047853"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Walker Zimmerman",
+      "korean": "워커 지머먼",
+      "team": "Toronto FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Walker_Zimmerman",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "워커 지머먼",
+          "contentHash": "e09b379ea08b18aa6c12446d29f99a5dc9ae5ae0b4b691997a1cc72a4cf96f84"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Eeli Tolvanen",
+      "korean": "엘리 톨바넨",
+      "team": "New York Rangers",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Eeli_Tolvanen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "엘리 톨바넨",
+          "contentHash": "4fb6fffc0e14621359eb7f9b2c6dfb76de51a6bb6232a7a854aabbb0d8b61930"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Evgeni Malkin",
+      "korean": "예브게니 말킨",
+      "team": "Pittsburgh Penguins",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Evgeni_Malkin",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "예브게니 말킨",
+          "contentHash": "ba69d62764479670f7a111f7fe360ef8f80c2ee6d8e69bc7305e65e4b74953c7"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Frederik Andersen",
+      "korean": "프레데리크 안데르센",
+      "team": "Edmonton Oilers",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Frederik_Andersen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "프레데리크 안데르센",
+          "contentHash": "462f400b0ac050427f2f05331095f51e85e5f6e6a84edc813244af8fc10db401"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Igor Shesterkin",
+      "korean": "이고리 셰스툐르킨",
+      "team": "New York Rangers",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Igor_Shesterkin",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "이고리 셰스툐르킨",
+          "contentHash": "cd3f2a3a85da66d22aedbbd8c85aa586cae68c1fe1f716c537fb1c896bc71023"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "John Tavares",
+      "korean": "존 타바레스",
+      "team": "Toronto Maple Leafs",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/John_Tavares",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "존 타바레스 (아이스하키 선수)",
+          "contentHash": "94e00dade427ccc3713eced6f3b0bc542728d3292ae9dc161edc847bc1084160"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Joonas Korpisalo",
+      "korean": "요나스 코르피살로",
+      "team": "New York Rangers",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joonas_Korpisalo",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "요나스 코르피살로",
+          "contentHash": "15ee64725c4f8c1ba339df9505f2214e9c777d602114ecaba17449f015a25683"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Jordan Staal",
+      "korean": "조던 스톨",
+      "team": "Carolina Hurricanes",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jordan_Staal",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조던 스톨",
+          "contentHash": "0f0152c61417ae5739ff1fc1c2806ee919eb365685b82fe316f8d2cd6a203c68"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Mitch Marner",
+      "korean": "미치 마너",
+      "team": "Vegas Golden Knights",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mitch_Marner",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "미치 마너",
+          "contentHash": "61b924718fac866a243e9e27f6d11af3108ce0ec5638ceb10a27b965fd9d1bb9"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Torey Krug",
+      "korean": "토리 크루그",
+      "team": "St. Louis Blues",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Torey_Krug",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "토리 크루그",
+          "contentHash": "fd8a43ef62267dc033912071dac9df960da8c3fcabcd3a4cdc05f4288307da1f"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Maxi Moralez",
+      "korean": "막시밀리아노 모랄레스",
+      "team": "New York City FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Maxi_Moralez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "막시밀리아노 모랄레스",
+          "contentHash": "1666799e1a04db76144c7d475469c8fbcd18af22e8a37d33cd0a7c51653307e2"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Tyrell Malacia",
+      "korean": "타이렐 말라시아",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tyrell_Malacia",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "타이렐 말라시아",
+          "contentHash": "226bca3fe4707fc4f1f717a9c342743de89daaf6302ca4c314c885f60a677c87"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Victor Hedman",
+      "korean": "빅토르 헤드만",
+      "team": "Tampa Bay Lightning",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Victor_Hedman",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "빅토르 헤드만",
+          "contentHash": "2a0aa0471ab682a24b5ded4ce991c71cfc7df1462736f79d57e62e1eb0aa8cce"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Roman Burki",
+      "korean": "로만 뷔어키",
+      "team": "St. Louis CITY SC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Roman_B%C3%BCrki",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "로만 뷔어키",
+          "contentHash": "9436668e5b7eb54d7d5ebcf5b9f09d35594939e6bdbe85de1705b44b33a9edd7"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Sam Adekugbe",
+      "korean": "샘 아데쿠그베",
+      "team": "Vancouver Whitecaps",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sam_Adekugbe",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "샘 아데쿠그베",
+          "contentHash": "687a3c9ff21fa10794dbeddfb5d1494f0c963703b6bc8a2c4a5a8bd25790d86f"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Zack Steffen",
+      "korean": "잭 스테판",
+      "team": "Colorado Rapids",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Zack_Steffen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "잭 스테판",
+          "contentHash": "2b6db9d1a0cbcb8ea90998d9786fa27f741533a341ec3cda636c1bce0efedf9e"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Brock Faber",
+      "korean": "브록 페이버",
+      "team": "Minnesota Wild",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Brock_Faber",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "브록 페이버",
+          "contentHash": "ff6c0733272293cdff083675d40af65db3de8f44fd875fd38bf14aacba7a19ff"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Jonathan Huberdeau",
+      "korean": "조나탕 위베르도",
+      "team": "Calgary Flames",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jonathan_Huberdeau",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조나탕 위베르도",
+          "contentHash": "ba626d25b7e0bc6baee67f52ee1414ed0283e8532befc97cbbacf293336a1ea1"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Liel Abada",
+      "korean": "리엘 아바다",
+      "team": "Charlotte FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Liel_Abada",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "리엘 아바다",
+          "contentHash": "4ee997840dac73b0bae1d7c0ba3ac13557c8311f740c6c9d5cb06139f555882b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Arthur Atta",
+      "korean": "아르튀르 아타",
+      "team": "Fiorentina",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Arthur_Atta",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "아르튀르 아타",
+          "contentHash": "61e4125ee837677495a7262d08f8fd436952dd463bd976b5cfd0ae6242366b87"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
+    },
+    {
+      "name": "Fabiano Parisi",
+      "korean": "파비아노 파리시",
+      "team": "Fiorentina",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fabiano_Parisi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "파비아노 파리시",
+          "contentHash": "6ddffece085d52513df8cf369f29acc66fb2c9979047009c55c4fe237c6cc63d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:27:15.608902+00:00"
     }
   ]
 }
