@@ -5258,7 +5258,18 @@
     },
     "cade cowell": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Cade+Cowell+Red+Bull+New+York&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T21:57:53.570113+00:00",
+      "nextCheckAt": "2026-10-25T03:57:53.570113+00:00"
     },
     "cameron harper": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
