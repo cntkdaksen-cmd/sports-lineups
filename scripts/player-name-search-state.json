@@ -1314,6 +1314,101 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T08:53:20.922492+00:00",
       "nextCheckAt": "2026-10-24T14:53:20.922492+00:00"
+    },
+    "Alexis Lafrenière": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alexis+Lafreni%C3%A8re+New+York+Rangers&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alexis+Lafreni%C3%A8re+New+York+Rangers",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T09:32:48.394644+00:00",
+      "nextCheckAt": "2026-10-31T09:32:48.394644+00:00"
+    },
+    "Alexis Sanchez": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alexis+Sanchez+CF+Montr%C3%A9al&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alexis+Sanchez+CF+Montr%C3%A9al",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/alexis-sanchez/34120",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T09:32:48.394644+00:00",
+      "nextCheckAt": "2026-10-31T09:32:48.394644+00:00"
+    },
+    "Alexis Trouillet": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alexis+Trouillet+Standard+Liege&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alexis+Trouillet+Standard+Liege",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/sk/football/player/alexis-trouillet/988732",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T09:32:48.394644+00:00",
+      "nextCheckAt": "2026-10-31T09:32:48.394644+00:00"
+    },
+    "Alfie Devine": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alfie+Devine+Preston+North+End&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alfie+Devine+Preston+North+End",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T09:32:48.394644+00:00",
+      "nextCheckAt": "2026-10-31T09:32:48.394644+00:00"
+    },
+    "Alfonso Trezza": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alfonso+Trezza+Arouca&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alfonso+Trezza+Arouca",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/alfonso-trezza/973517",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T09:32:48.394644+00:00",
+      "nextCheckAt": "2026-10-31T09:32:48.394644+00:00"
     }
   }
 }
