@@ -3932,7 +3932,18 @@
     },
     "jason van duiven": {
       "nextBulkCheckAt": "2026-10-25T15:54:41.641779+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v3"
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jason+Van+Duiven+Lommel+SK&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T17:33:57.097821+00:00",
+      "nextCheckAt": "2026-10-24T23:33:57.097821+00:00"
     },
     "juho talvitie": {
       "nextBulkCheckAt": "2026-10-25T15:54:41.641779+00:00",
