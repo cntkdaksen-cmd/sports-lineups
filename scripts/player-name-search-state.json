@@ -735,6 +735,91 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T00:49:22.035063+00:00",
       "nextCheckAt": "2026-10-31T00:49:22.035063+00:00"
+    },
+    "Alan Varela": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alan+Varela+FC+Porto&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alan+Varela+FC+Porto",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T01:29:32.627395+00:00",
+      "nextCheckAt": "2026-10-31T01:29:32.627395+00:00"
+    },
+    "Albert Gudmundsson": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Albert+Gudmundsson+Lazio&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Albert+Gudmundsson+Lazio",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/albert-gudmundsson/804909",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T01:29:32.627395+00:00",
+      "nextCheckAt": "2026-10-31T01:29:32.627395+00:00"
+    },
+    "Albert Rusnak": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Albert+Rusnak+Seattle+Sounders+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Albert+Rusnak+Seattle+Sounders+FC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T01:29:32.627395+00:00",
+      "nextCheckAt": "2026-10-31T01:29:32.627395+00:00"
+    },
+    "Alberto Costa": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alberto+Costa+FC+Porto&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alberto+Costa+FC+Porto",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T01:29:32.627395+00:00",
+      "nextCheckAt": "2026-10-31T01:29:32.627395+00:00"
+    },
+    "Alec Smir": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alec+Smir+Minnesota+United+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alec+Smir+Minnesota+United+FC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T01:29:32.627395+00:00",
+      "nextCheckAt": "2026-10-31T01:29:32.627395+00:00"
     }
   }
 }
