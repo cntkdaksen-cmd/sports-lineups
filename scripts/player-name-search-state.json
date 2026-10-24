@@ -1297,6 +1297,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T08:11:46.577539+00:00",
       "nextCheckAt": "2026-10-31T08:11:46.577539+00:00"
+    },
+    "Alexis Claude-Maurice": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alexis+Claude-Maurice+FC+Augsburg&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alexis+Claude-Maurice+FC+Augsburg",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T08:53:20.922492+00:00",
+      "nextCheckAt": "2026-10-24T14:53:20.922492+00:00"
     }
   }
 }
