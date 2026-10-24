@@ -2888,6 +2888,291 @@
         }
       ],
       "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Richie Laryea",
+      "korean": "리치 러레이아",
+      "team": "Toronto FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Richie_Laryea",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "리치 러레이아",
+          "contentHash": "5e6e073c50474c9bd01584d650056462fa30225c12e6163147e34cd3ecd76c6a"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Steven Moreira",
+      "korean": "스테벵 모레이라",
+      "team": "Columbus Crew",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Steven_Moreira",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "스테벵 모레이라",
+          "contentHash": "a6bf42f6032d2479acac90ee661ef9022e285d669e4c77e085604200cefa85fe"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Pierre-Luc Dubois",
+      "korean": "피에르뤼크 뒤부아",
+      "team": "Washington Capitals",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pierre-Luc_Dubois",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "피에르뤼크 뒤부아",
+          "contentHash": "c99f3ceba7b068a8f1045a7a364c727e3d59e1e709b1022f329a2eebc179f3c2"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Andre Blake",
+      "korean": "앤드리 블레이크",
+      "team": "Philadelphia Union",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andre_Blake",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "앤드리 블레이크",
+          "contentHash": "3c51afa48ab79948fd02f151469f91318e2a114e60aa7dccd25f77eb1e576802"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Carles Gil",
+      "korean": "카를레스 힐",
+      "team": "New England Revolution",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Carles_Gil",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "카를레스 힐",
+          "contentHash": "d7bc96a2179033d7601c02d4e7a6133f6e5a04402e239498bd55176c629a195f"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "James Harden",
+      "korean": "제임스 하든",
+      "team": "Cleveland Cavaliers",
+      "league": "nba",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/James_Harden",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "제임스 하든",
+          "contentHash": "fb7fd6a92d421c8d7c73eab3e196e4e7e9b3fe03c655448959921cfa4c85f21e"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Teenage Hadebe",
+      "korean": "틴에이지 하데베",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Teenage_Hadebe",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "틴에이지 하데베",
+          "contentHash": "804f7475708d126c9e2ba7695e76cd413e753b758cf7c611950824a8db76fcc4"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Bilal Coulibaly",
+      "korean": "빌랄 쿨리발리",
+      "team": "Washington Wizards",
+      "league": "nba",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bilal_Coulibaly",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "빌랄 쿨리발리",
+          "contentHash": "78c9e92a93a7bd0396fda7bc0018628ac0ddc162e414364a0064b8cfcb8559b6"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Max Christie",
+      "korean": "맥스 크리스티",
+      "team": "Dallas Mavericks",
+      "league": "nba",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Max_Christie",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "맥스 크리스티",
+          "contentHash": "217735458d1444e9c2575ee14daf1a8d9290e9d4a4411a0b8a9a4d2a3a678ced"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Angus Gunn",
+      "korean": "앵거스 건",
+      "team": "San Jose Earthquakes",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Angus_Gunn",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "앵거스 건",
+          "contentHash": "dcad2729d3e72c72714520d12d7a35bd0805d3ebbf5178f82df43181399251ad"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Facundo Torres",
+      "korean": "파쿤도 토레스",
+      "team": "Austin FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Facundo_Torres",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "파쿤도 토레스",
+          "contentHash": "33489aa77695ce996d08d6667946f47b07bcd0d5b5118657e35eff432aff8ce4"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Oleksandr Svatok",
+      "korean": "올렉산드르 스바토크",
+      "team": "Austin FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Oleksandr_Svatok",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "올렉산드르 스바토크",
+          "contentHash": "14c4b9a8d3a6ba877b96e85ea466107dad320a239f828c5390bdb4e2063f4631"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Petar Musa",
+      "korean": "페타르 무사",
+      "team": "FC Dallas",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Petar_Musa",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "페타르 무사",
+          "contentHash": "b7bd0bf29beeee95a0ddda427c5ab7d0dd02b567ffb7bd81de38ab3c659bb04a"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Shaq Moore",
+      "korean": "샤크 무어",
+      "team": "FC Dallas",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shaq_Moore",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "샤크 무어",
+          "contentHash": "fdfae4d5f119952e9bab7c7c009429e4945c2abc5eb135f04c5fbda30bdd162d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
+    },
+    {
+      "name": "Vincent Trocheck",
+      "korean": "빈센트 트로첵",
+      "team": "Utah Mammoth",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Vincent_Trocheck",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "빈센트 트로첵",
+          "contentHash": "d033f3f5fea38b63ec92064ef834904054f12b2d36c6632c48bff444ee547204"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:37:07.744308+00:00"
     }
   ]
 }
