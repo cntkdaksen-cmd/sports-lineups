@@ -23,7 +23,7 @@ DOMAINS = ('wikipedia.org', 'transfermarkt.co.kr', 'flashscore.co.kr', 'sofascor
            'mk.co.kr', 'hankyung.com', 'chosun.com', 'donga.com', 'khan.co.kr', 'kbs.co.kr', 'sbs.co.kr')
 SEARCH_HOSTS = ('www.google.com',)
 POLICY = 'precollect-names-v2'
-BULK_POLICY = 'wikipedia-exact-sports-v3'
+BULK_POLICY = 'wikipedia-exact-sports-v4'
 GOOGLE_METHOD = 'google-search-result-v1'
 
 
@@ -240,7 +240,7 @@ def fetch_json(url):
 
 
 def bulk_wikipedia(rows, teams, get=fetch_json):
-    """Resolve Korean language links in batches; require exact name and club context."""
+    """Resolve Korean Wikipedia titles or Wikidata labels for exact sports biographies."""
     approved, errors = {}, []
     groups = {}
     for row in rows:
@@ -250,7 +250,7 @@ def bulk_wikipedia(rows, teams, get=fetch_json):
       for start in range(0, len(language_rows), 20):
         batch = language_rows[start:start+20]
         requested = {row['name']: ''.join(row['name'].split()) if language != 'en' else row['name'] for row in batch}
-        query = {'action': 'query', 'format': 'json', 'redirects': '1', 'prop': 'langlinks|extracts',
+        query = {'action': 'query', 'format': 'json', 'redirects': '1', 'prop': 'langlinks|extracts|pageprops',
                  'lllang': 'ko', 'lllimit': 'max', 'exintro': '1', 'explaintext': '1', 'exlimit': 'max',
                  'titles': '|'.join(requested.values())}
         try:
@@ -260,6 +260,7 @@ def bulk_wikipedia(rows, teams, get=fetch_json):
             query_data = data.get('query', {})
             aliases = {r['from']: r['to'] for r in query_data.get('normalized', []) + query_data.get('redirects', [])}
             pages = {p['title']: p for p in query_data.get('pages', {}).values()}
+            wikidata_candidates = []
             for row in batch:
                 title = requested[row['name']]
                 for _ in range(5):
@@ -278,6 +279,11 @@ def bulk_wikipedia(rows, teams, get=fetch_json):
                 sport_match = bool(re.search(r'\b(footballer|plays football|soccer player|basketball player|baseball player|ice hockey player|volleyball player|esports player|league of legends player)\b|野球選手|棒球選手|職業棒球', intro))
                 if not sport_match or not (exact_title or team_match): continue
                 links = [x['*'] for x in page.get('langlinks', []) if x.get('lang') == 'ko']
+                if not links:
+                    item = page.get('pageprops', {}).get('wikibase_item', '')
+                    if re.fullmatch(r'Q[1-9][0-9]*', item):
+                        wikidata_candidates.append((row, page, title, item, team_match, exact_title))
+                    continue
                 if len(links) != 1: continue
                 korean = re.sub(r'\s*\([^)]*\)$', '', links[0]).strip()
                 if candidates([korean]) != {korean}: continue
@@ -288,6 +294,32 @@ def bulk_wikipedia(rows, teams, get=fetch_json):
                     'sportMatched': True, 'exactEnglishTitleMatched': exact_title,
                     'englishNameMatched': True, 'sourceLanguage': language, 'koreanTitle': links[0],
                     'contentHash': hashlib.sha256(json.dumps(page, ensure_ascii=False).encode()).hexdigest()}]}
+            if wikidata_candidates:
+                ids = sorted({item for _, _, _, item, _, _ in wikidata_candidates})
+                labels_query = {'action': 'wbgetentities', 'format': 'json', 'ids': '|'.join(ids),
+                                'props': 'labels', 'languages': 'ko|en', 'languagefallback': '0'}
+                labels_data = get('https://www.wikidata.org/w/api.php?' + urllib.parse.urlencode(labels_query))
+                if 'error' in labels_data:
+                    raise ValueError(str(labels_data['error'].get('code', 'wikidata-error')))
+                entities = labels_data.get('entities', {})
+                for row, page, title, item, team_match, exact_title in wikidata_candidates:
+                    labels = entities.get(item, {}).get('labels', {})
+                    ko_label, en_label = labels.get('ko', {}), labels.get('en', {})
+                    if ko_label.get('language') != 'ko' or en_label.get('language') != 'en': continue
+                    korean = ko_label.get('value', '').strip()
+                    if candidates([korean]) != {korean}: continue
+                    # Both labels must identify the same exact English biography.
+                    if normalize(en_label.get('value', '')) != normalize(row['name']): continue
+                    url = f'https://{language}.wikipedia.org/wiki/' + urllib.parse.quote(title.replace(' ', '_'))
+                    approved[normalize(row['name'])] = {'name': row['name'], 'korean': korean,
+                        'team': row.get('team'), 'league': row.get('league'), 'method': 'wikidata-label-v1',
+                        'sources': [{'url': url, 'domain': 'wikipedia.org',
+                            'wikidataUrl': f'https://www.wikidata.org/wiki/{item}', 'wikidataItem': item,
+                            'koreanLabelMatched': True, 'englishLabelMatched': True,
+                            'teamMatched': team_match, 'sportMatched': True,
+                            'exactEnglishTitleMatched': exact_title, 'englishNameMatched': True,
+                            'sourceLanguage': language,
+                            'contentHash': hashlib.sha256(json.dumps({'page': page, 'labels': labels}, ensure_ascii=False).encode()).hexdigest()}]}
         except (ValueError, OSError, urllib.error.URLError) as exc:
             errors.append(type(exc).__name__ + ':' + str(exc)[:160])
             break

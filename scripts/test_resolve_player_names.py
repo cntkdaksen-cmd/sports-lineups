@@ -53,6 +53,27 @@ class NameVerification(unittest.TestCase):
         approved,errors=r.bulk_wikipedia([self.row],{},get)
         self.assertEqual(approved,{})
         self.assertTrue(errors)
+    def test_wikidata_korean_label_for_exact_sports_article(self):
+        row={'name':'Example Footballer','team':'Example FC','league':'epl'}
+        calls=[]
+        def get(url):
+            calls.append(url)
+            if 'wikidata.org' in url:
+                return {'entities':{'Q123':{'labels':{'ko':{'language':'ko','value':'에밀리오 풋볼러'},
+                    'en':{'language':'en','value':'Example Footballer'}}}}}
+            return {'query':{'pages':{'1':{'title':'Example Footballer',
+                'extract':'Example Footballer is a footballer for Example FC.',
+                'pageprops':{'wikibase_item':'Q123'}}}}}
+        approved,errors=r.bulk_wikipedia([row],{},get)
+        self.assertEqual(errors,[])
+        self.assertEqual(approved[r.normalize(row['name'])]['korean'],'에밀리오 풋볼러')
+        self.assertEqual(approved[r.normalize(row['name'])]['method'],'wikidata-label-v1')
+        self.assertEqual(len(calls),2)
+        def wrong(url):
+            data=get(url)
+            if 'wikidata.org' in url: data['entities']['Q123']['labels']['en']['value']='Different Person'
+            return data
+        self.assertEqual(r.bulk_wikipedia([row],{},wrong)[0],{})
     def test_npb_hanzi_name_uses_japanese_article(self):
         row={'name':'牧　秀悟','team':'横浜DeNAベイスターズ','league':'npb'}
         urls=[]
