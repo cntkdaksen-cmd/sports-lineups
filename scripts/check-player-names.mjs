@@ -33,6 +33,7 @@ for (const [name, expected] of [
   ['Nickeil Alexander-Walker', '니킬 알렉산더워커'],
   ['Jayson Tatum', '제이슨 테이텀'],
   ['Donovan Mitchell', '도노반 미첼'],
+  ['Mateus Fernandes', '마테우스 페르난데스'],
   ['牧　秀悟', '마키 슈고'], ['周東　佑京', '슈토 우쿄'],
   ['Kentavious Caldwell‑Pope', '켄타비우스 콜드웰-폽'],
   ['Joshua Kimmich', '요주아 키미히'],
