@@ -11269,7 +11269,18 @@
     },
     "jesper tolinsson": {
       "nextBulkCheckAt": "2026-10-25T15:54:41.641779+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v3"
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jesper+Tolinsson+Lommel+SK&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T17:38:41.808273+00:00",
+      "nextCheckAt": "2026-10-24T23:38:41.808273+00:00"
     },
     "joel pelupessy": {
       "nextBulkCheckAt": "2026-10-25T15:54:41.641779+00:00",
@@ -13535,6 +13546,28 @@
     "alessandro zanoli": {
       "bulkPolicy": "wikipedia-exact-sports-v3",
       "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00"
+    },
+    "cutter gauthier": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:38:41.808273+00:00"
+    },
+    "devin cooley": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:38:41.808273+00:00"
+    },
+    "joel kiviranta": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T17:38:41.808273+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "christian anderson": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:38:41.808273+00:00"
+    },
+    "pelle larsson": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:38:41.808273+00:00"
     }
   }
 }

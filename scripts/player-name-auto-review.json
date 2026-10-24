@@ -13042,6 +13042,28 @@
         }
       ],
       "verifiedAt": "2026-10-24T15:58:54.671713+00:00"
+    },
+    {
+      "name": "Joel Kiviranta",
+      "korean": "요엘 키비란타",
+      "team": "Dallas Stars",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joel_Kiviranta",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "요엘 키비란타",
+          "contentHash": "cdb70844d6d3fd00574af1ecbcdbb22adc184c6ab240e815b56def001423b967"
+        }
+      ],
+      "verifiedAt": "2026-10-24T17:38:41.808273+00:00"
     }
   ]
 }

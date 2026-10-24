@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T17:35:24.657Z",
+  "generatedAt": "2026-10-24T17:38:42.366Z",
   "teams": {
     "Manchester United": "맨체스터 유나이티드 FC",
     "Como": "코모 1907",
@@ -950,6 +950,7 @@
     "Sota Nakamura": "나카무라 소타",
     "Juma Bah": "주마 바",
     "Aaron Tshibola": "아론 치볼라",
+    "Joel Kiviranta": "요엘 키비란타",
     "AEK": "AEK 아테네",
     "AZ": "AZ 알크마르",
     "Alavés": "알라베스",
@@ -2490,6 +2491,8 @@
     "Jacob Misiorowski": "제이콥 미저라우스키",
     "Drew Rasmussen": "드류 라스무센",
     "Logan Henderson": "로건 헨더슨",
+    "Antonín Kinsky": "안토닌 킨스키",
+    "Noah Atubolu": "노아 아투볼루",
     "Jayson Tatum": "제이슨 테이텀",
     "Kentavious Caldwell-Pope": "켄타비우스 콜드웰-폽",
     "Mohamed Diawara": "모하메드 디아와라",
@@ -2514,8 +2517,6 @@
     "石田　裕太郎": "이시다 유타로",
     "石田 裕太郎": "이시다 유타로",
     "上沢　直之": "우와사와 나오유키",
-    "上沢 直之": "우와사와 나오유키",
-    "Antonín Kinsky": "안토닌 킨스키",
-    "Noah Atubolu": "노아 아투볼루"
+    "上沢 直之": "우와사와 나오유키"
   }
 }
