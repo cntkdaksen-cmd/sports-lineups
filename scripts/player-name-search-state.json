@@ -1514,6 +1514,43 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T10:03:21.359537+00:00",
       "nextCheckAt": "2026-10-31T10:03:21.359537+00:00"
+    },
+    "Allan Saint-Maximin": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Allan+Saint-Maximin+Charlotte+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Allan+Saint-Maximin+Charlotte+FC",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/allan-saint-maximin/347010",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T10:33:31.382983+00:00",
+      "nextCheckAt": "2026-10-31T10:33:31.382983+00:00"
+    },
+    "Alonso Martinez": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alonso+Martinez+New+York+City+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alonso+Martinez+New+York+City+FC",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T10:33:31.382983+00:00",
+      "nextCheckAt": "2026-10-24T16:33:31.382983+00:00"
     }
   }
 }
