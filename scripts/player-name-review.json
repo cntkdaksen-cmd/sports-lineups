@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-25",
+  "reviewedAt": "2026-10-24T17:44:41.101Z",
   "policy": "Prefer established Korean names. Preserve unverified names in English. Explicit aliases only; never infer identity from a surname.",
   "userOverrides": {
     "Alisson Becker": "알리송 베커",
@@ -54,7 +54,36 @@
     "東　克樹": "아즈마 카츠키",
     "Mateus Fernandes": "마테우스 페르난데스",
     "Antonín Kinsky": "안토닌 킨스키",
-    "Noah Atubolu": "노아 아투볼루"
+    "Noah Atubolu": "노아 아투볼루",
+    "Elias Baum": "엘리아스 바움",
+    "Noël Aséko": "노엘 아세코 은킬리",
+    "Younes Ebnoutalib": "유네스 에브누탈리브",
+    "Fábio Silva": "파비우 실바",
+    "Olivier Boscagli": "올리비에 보스카글리",
+    "Ferdi Kadioglu": "페르디 카디오글루",
+    "Pascal Gross": "파스칼 그로스",
+    "Diego Gomez": "디에고 고메스",
+    "Anthony Gordon": "앤서니 고든",
+    "Giacomo Quagliata": "자코모 콸리아타",
+    "Miguel Loureiro": "미겔 루레이로",
+    "Ximo Navarro": "시모 나바로",
+    "Lorenzo Amatucci": "로렌초 아마투치",
+    "Diego Villares": "디에고 비야레스",
+    "Yeremay Hernandez": "예레마이 에르난데스",
+    "Mario Soriano Carreno": "마리오 소리아노 카레뇨",
+    "Luismi Cruz": "루이스미 크루스",
+    "Bil Nsongo": "빌 은송고",
+    "Leo Roman": "레오 로만",
+    "Ace Bailey": "에이스 베일리",
+    "Graham Ike": "그레이엄 이케",
+    "Michael Porter": "마이클 포터 주니어",
+    "Djordje Petrovic": "조르제 페트로비치",
+    "James Hill": "제임스 힐",
+    "Antonio Silva": "안토니우 실바",
+    "Adam Smith": "아담 스미스",
+    "Marcus Tavernier": "마커스 태버니어",
+    "Rayan": "라얀",
+    "Evanilson": "이바니우송"
   },
   "references": {
     "naverSquads": [
@@ -153,6 +182,30 @@
         "https://www.jumpball.co.kr/news/newsview.php?ncode=1065591725537298",
         "https://jumpball.co.kr/news/newsview.php?dt=m&ncode=1065540465615456",
         "https://jumpball.co.kr/news/newsview.php?ncode=1065542332932415"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "namesAdded": 29,
+      "reason": "Current major-game English names; searched Korean athlete profiles/articles and checked English player identity and team context.",
+      "references": [
+        "https://www.livescore.in/kr/player/silva-fabio/YaEnqMoU/",
+        "https://www.allfootballapp.com/ko/player/50210245-olivier-boscagli",
+        "https://www.yna.co.kr/view/AKR20260530020100007",
+        "https://www.allfootballapp.com/ko/player/50596571",
+        "https://www.allfootballapp.com/ko/player/51022971-bil-nsongo",
+        "https://www.goal.com/kr/%EC%84%A0%EC%88%98/%E1%84%8C%E1%85%A9%E1%84%85%E1%85%B3%E1%84%8C%E1%85%A6-%E1%84%91%E1%85%A6%E1%84%90%E1%85%B3%E1%84%85%E1%85%A9%E1%84%87%E1%85%B5%E1%84%8E%E1%85%B5/bcfzovs0pj9urgv9r0ykjnlrd",
+        "https://nrt.cx/p/sports/player/34161400",
+        "https://nrt.cx/p/sports/player/34165432",
+        "https://nrt.cx/p/sports/player/as-331832",
+        "https://nrt.cx/p/sports/player/as-407806",
+        "https://www.namu.moe/w/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%97%84%20%EC%9D%B4%EC%BC%80",
+        "https://www.namu.moe/w/%EB%85%B8%EC%97%98%20%EC%95%84%EC%84%B8%EC%BD%94%20%EC%9D%80%ED%82%AC%EB%A6%AC",
+        "https://www.namu.moe/w/%EC%97%98%EB%A6%AC%EC%95%84%EC%8A%A4%20%EB%B0%94%EC%9B%80",
+        "https://www.namu.moe/w/%EB%A1%9C%EB%A0%8C%EC%B4%88%20%EC%95%84%EB%A7%88%ED%88%AC%EC%B9%98",
+        "https://www.namu.moe/w/%EB%A7%88%EB%A6%AC%EC%98%A4%20%EC%86%8C%EB%A6%AC%EC%95%84%EB%85%B8",
+        "https://www.namu.moe/w/%EB%A3%A8%EC%9D%B4%EC%8A%A4%EB%AF%B8%20%ED%81%AC%EB%A3%A8%EC%8A%A4",
+        "https://www.namu.moe/w/%EC%95%84%EB%8B%B4%20%EC%8A%A4%EB%AF%B8%EC%8A%A4%28%EC%B6%95%EA%B5%AC%EC%84%A0%EC%88%98%29"
       ]
     }
   ]
