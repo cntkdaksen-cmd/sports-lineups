@@ -71,4 +71,5 @@ jobs:
             scripts/player-name-run-report.json
           retention-days: 7
       - name: Publish the name catalog
-        run: bash scripts/publish-generated.sh 'chore: publish approved full names' dist/name-catalog.json dist/team-ko.json scripts/player-name-auto-review.json scripts/player-name-search-state.json scripts/player-name-run-report.json
+        run: |
+          bash scripts/publish-generated.sh 'chore: publish approved full names' dist/name-catalog.json dist/team-ko.json scripts/player-name-auto-review.json scripts/player-name-search-state.json scripts/player-name-run-report.json

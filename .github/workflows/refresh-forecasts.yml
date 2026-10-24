@@ -46,4 +46,5 @@ jobs:
           path: dist/external-forecasts.json
           retention-days: 3
       - name: Commit verified probability feed
-        run: bash scripts/publish-generated.sh 'chore: refresh published match probabilities' dist/external-forecasts.json
+        run: |
+          bash scripts/publish-generated.sh 'chore: refresh published match probabilities' dist/external-forecasts.json

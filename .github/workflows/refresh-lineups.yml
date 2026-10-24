@@ -74,4 +74,5 @@ jobs:
             scripts/name-review-queue.json
           retention-days: 3
       - name: Commit lineup changes
-        run: bash scripts/publish-generated.sh 'chore: refresh lineups' dist/projections.json
+        run: |
+          bash scripts/publish-generated.sh 'chore: refresh lineups' dist/projections.json
