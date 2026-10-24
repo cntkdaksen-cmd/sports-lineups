@@ -14910,6 +14910,28 @@
         }
       ],
       "verifiedAt": "2026-10-24T17:45:14.240613+00:00"
+    },
+    {
+      "name": "Michaël Cuisance",
+      "korean": "미카엘 퀴장스",
+      "team": "Lens",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Micha%C3%ABl_Cuisance",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "미카엘 퀴장스",
+          "contentHash": "994e8412768dc05a19eb6fb5583bcbdbe4cae2507cea3e3464d6dd43ab379732"
+        }
+      ],
+      "verifiedAt": "2026-10-24T17:56:29.328079+00:00"
     }
   ]
 }

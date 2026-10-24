@@ -3957,7 +3957,18 @@
     },
     "lukasz lakomy": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lukasz+Lakomy+OH+Leuven&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T17:56:29.328079+00:00",
+      "nextCheckAt": "2026-10-24T23:56:29.328079+00:00"
     },
     "matthias pieklak": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -13712,6 +13723,16 @@
       "policy": "precollect-names-v2",
       "checkedAt": "2026-10-24T17:42:47.084380+00:00",
       "method": "wikipedia-language-link-v1"
+    },
+    "michael cuisance": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T17:56:29.328079+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "naoufal bohamdi kamoni": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T17:56:29.328079+00:00"
     }
   }
 }
