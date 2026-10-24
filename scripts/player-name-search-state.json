@@ -1653,6 +1653,24 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T13:52:17.674587+00:00",
       "nextCheckAt": "2026-10-24T19:52:17.674587+00:00"
+    },
+    "Amando Lapage": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Amando+Lapage+KVC+Westerlo&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Amando+Lapage+KVC+Westerlo",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "google-search-result-v1",
+      "checkedAt": "2026-10-24T14:06:18.532678+00:00",
+      "nextCheckAt": "2026-10-24T20:06:18.532678+00:00"
     }
   }
 }
