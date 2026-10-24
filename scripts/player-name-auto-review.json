@@ -4959,6 +4959,614 @@
         }
       ],
       "verifiedAt": "2026-10-24T14:51:52.407305+00:00"
+    },
+    {
+      "name": "Tyrick Mitchell",
+      "korean": "타이릭 미첼",
+      "team": "Crystal Palace",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tyrick_Mitchell",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "타이릭 미첼",
+          "contentHash": "9c748d4a4d3b3f00b404e7f4d8d1542f5e39fbd50a92ddefdf43a39f98820676"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Yasin Ayari",
+      "korean": "야신 아야리",
+      "team": "Brighton & Hove Albion",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yasin_Ayari",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "야신 아야리",
+          "contentHash": "02224b0448b73763deeacf730fb228c17091f3c90f3d5597c1cddf29b301dbf0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Yeremy Pino",
+      "korean": "예레미 피노",
+      "team": "Crystal Palace",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yeremy_Pino",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "예레미 피노",
+          "contentHash": "185e1f9dbc734332ecf445e47123ad5de5309ffe88475c0f04a70505b9706c01"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Yoane Wissa",
+      "korean": "요안 위사",
+      "team": "Newcastle United",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yoane_Wissa",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "요안 위사",
+          "contentHash": "6e04dddadf691467547ade707a20cac13ffb6cf6989ed4bab9dca0beeefaeeb7"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Edmond Tapsoba",
+      "korean": "에드몽 탑소바",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Edmond_Tapsoba",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "에드몽 탑소바",
+          "contentHash": "8c99bd96faa5bcca4dc4e443933ede054170d3f341f52fff88d39eae52833e79"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Facundo Medina",
+      "korean": "파쿤도 메디나",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Facundo_Medina",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "파쿤도 메디나",
+          "contentHash": "b6aa71a4139a13198226150cb91c39e4a7ab4af699460e68be9dd87522d6c20c"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Ibrahim Maza",
+      "korean": "이브라힘 마자",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ibrahim_Maza",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "이브라힘 마자",
+          "contentHash": "9abb2cb5e4ab8b75846ee5c59fa3a73e2541e230cf308df086bf69e4cfb5485b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Jarell Quansah",
+      "korean": "저렐 콴사",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jarell_Quansah",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "저렐 콴사",
+          "contentHash": "75df99090e32d34068fe64f341a09c828ec65eb881a3cb86de2f59ceaf161b8a"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Koki Machida",
+      "korean": "마치다 고키",
+      "team": "TSG Hoffenheim",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/K%C5%8Dki_Machida",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마치다 고키",
+          "contentHash": "e8f225274d2796880467452af5482e1f42cf744a20fb3819f4947f508bfa3cc0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Mark Flekken",
+      "korean": "마르크 플레컨",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mark_Flekken",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마르크 플레컨",
+          "contentHash": "5d05575d7b5441ac355e60de33060d2c93daf2b2760fdd748ac34eabd227e82d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Moussa Diaby",
+      "korean": "무사 디아비",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Moussa_Diaby",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "무사 디아비",
+          "contentHash": "f756f03a70a9794534c5139300f5df03d0bd459e3446ecb6e4bf220019a705bd"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Oliver Baumann",
+      "korean": "올리버 바우만",
+      "team": "TSG Hoffenheim",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Oliver_Baumann",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "올리버 바우만",
+          "contentHash": "fcad024d5eac73f44bd9960e79f722f98d68a44411005d47cd72c43728feba46"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Patrik Schick",
+      "korean": "파트리크 시크",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Patrik_Schick",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "파트리크 시크",
+          "contentHash": "64e50132babf399c88bb6784f9a3e2c1d99e1084aa3b7cb893b24e101c011f3d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Vladimír Coufal",
+      "korean": "블라디미르 초우팔",
+      "team": "TSG Hoffenheim",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Vladim%C3%ADr_Coufal",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "블라디미르 초우팔",
+          "contentHash": "b10881d74a58b2a9ae95c858b1f57953335552117d566e8b413f3ad7985c3f67"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Jorne Spileers",
+      "korean": "조르네 스필리어스",
+      "team": "Club Brugge",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jorne_Spileers",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조르네 스필리어스",
+          "contentHash": "d3deb9c300084dfe373c2338d4eb8439e1462b6237fbb55c152db0ac1a7cb4c8"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Kota Takai",
+      "korean": "다카이 고타",
+      "team": "Sint-Truidense",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/K%C5%8Dta_Takai",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "다카이 고타",
+          "contentHash": "f8f3fa0648fc23e9c9d36c97abd3a4a5e14f3ae3800e93591e811b9b549269a8"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Dani Ceballos",
+      "korean": "다니 세바요스",
+      "team": "Real Betis",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dani_Ceballos",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "다니 세바요스",
+          "contentHash": "a6de4eed74f3be8db3c6cf32c9a9badf05d987642e5ce87f1dda2a83b854c890"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Diego Llorente",
+      "korean": "디에고 요렌테",
+      "team": "Real Betis",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Diego_Llorente",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "디에고 요렌테",
+          "contentHash": "7a481b8a3ac540a4491e1987196df500f2e39c7d3680b66d2d0b364418cbf0d0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Giovani Lo Celso",
+      "korean": "조바니 로 셀소",
+      "team": "Real Betis",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Giovani_Lo_Celso",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조바니 로 셀소",
+          "contentHash": "fa71ce4f29ca994e492ac2fe94623d210faeb8c29b1b33a81a1a0a3eaf5cb313"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Joel Robles",
+      "korean": "호엘 로블레스",
+      "team": "Estoril",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joel_Robles",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "호엘 로블레스",
+          "contentHash": "278342456176f83745c493d6be5c9fbe704a11c3db58c99d8d5e9f16174c4796"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Bruno Martins Indi",
+      "korean": "브루누 마르팅스 인디",
+      "team": "Sparta Rotterdam",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bruno_Martins_Indi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "브루누 마르팅스 인디",
+          "contentHash": "25255d3bb6d6171a7057d6c7fe445134875c312389c6a9e93c0e8745c34606fc"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Amine Gouiri",
+      "korean": "아민 구이리",
+      "team": "Marseille",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Amine_Gouiri",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "아민 구이리",
+          "contentHash": "cb3f356d9ae8660dbc5b4220b1fe7e92e5a3db9e1a6e439bd736ab6686ecb4ca"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Amine Harit",
+      "korean": "아민 하리트",
+      "team": "Marseille",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Amine_Harit",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "아민 하리트",
+          "contentHash": "1652047bf9964b62307d15c10c8696590f5103bee672701dd8e0b3ff738e9a88"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Anthony Lopes",
+      "korean": "안토니 로페스",
+      "team": "Angers",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Anthony_Lopes",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "안토니 로페스",
+          "contentHash": "accffbf241cd7b21994371078809f46c4a52e9555d70ed3e2d6946affd7d74a3"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Carlens Arcus",
+      "korean": "카를렌스 아르퀴스",
+      "team": "Angers",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Carlens_Arcus",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "카를렌스 아르퀴스",
+          "contentHash": "e976544181f2e4b6b13789c0db9b35ea4e9e3e473f1bfe94718692f24a959bfd"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Casper Tengstedt",
+      "korean": "카스페르 텡스테트",
+      "team": "Toulouse",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Casper_Tengstedt",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "카스페르 텡스테트",
+          "contentHash": "b7f7a309829bd2d6cf6e7749083fa4c75774e208498505112f1a40439fc75bfe"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Filip Jorgensen",
+      "korean": "필리프 예르겐센",
+      "team": "Strasbourg",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Filip_J%C3%B6rgensen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "필리프 예르겐센",
+          "contentHash": "d4296230f921b22c85d2857f32ec500c263b6d9860baeeafa73d17394147cfd0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Guillaume Restes",
+      "korean": "기욤 레스트",
+      "team": "Toulouse",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Guillaume_Restes",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "기욤 레스트",
+          "contentHash": "462e5ec7791e52dad85e7b5e207725c324b93fd4dc1041e69e362505c787fa15"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Haris Belkebla",
+      "korean": "하리스 벨케블라",
+      "team": "Angers",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Haris_Belkebla",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "하리스 벨케블라",
+          "contentHash": "4b68e802350b43fe5a2a77ff5e73740e5abecbacbf800706f55d00a6d0384109"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Montassar Talbi",
+      "korean": "몬타사르 탈비",
+      "team": "Lorient",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Montassar_Talbi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "몬타사르 탈비",
+          "contentHash": "aefb827b5a3ccf9a1ee17c19b3dfedd240e2bcb54f9923fefc2f230bed3bc938"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Nayef Aguerd",
+      "korean": "나이프 아게르드",
+      "team": "Marseille",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nayef_Aguerd",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "나이프 아게르드",
+          "contentHash": "ae26fc44be1689218bccb7537ec3237ec3a5183353fe0dec903e56507f284da7"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
+    },
+    {
+      "name": "Patrick Beach",
+      "korean": "패트릭 비치",
+      "team": "Troyes",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Patrick_Beach",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "패트릭 비치",
+          "contentHash": "bf7e14748f3e0eaa3773059dacccc3e3ae6174321b91b15932a06db5f5eb387f"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:59:32.807533+00:00"
     }
   ]
 }
