@@ -4352,7 +4352,18 @@
     },
     "chiquinho": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Chiquinho+Alverca&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T18:54:04.626505+00:00",
+      "nextCheckAt": "2026-10-25T00:54:04.626505+00:00"
     },
     "chissumba": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
