@@ -4333,7 +4333,18 @@
     },
     "barbero": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Barbero+Arouca&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T18:50:05.689816+00:00",
+      "nextCheckAt": "2026-10-25T00:50:05.689816+00:00"
     },
     "beckett sennecke": {
       "nextBulkCheckAt": "2026-10-25T15:54:41.641779+00:00",
@@ -13854,6 +13865,48 @@
     "ringo meerveld": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "gabri veiga": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T18:50:05.689816+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "joelson mendes": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:50:05.689816+00:00"
+    },
+    "oskar pietuszewski": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:50:05.689816+00:00"
+    },
+    "sekou tidiany bangoura": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:50:05.689816+00:00"
+    },
+    "walace franca": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:50:05.689816+00:00"
+    },
+    "zaidu sanusi": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T18:50:05.689816+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "mohamed kaba": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:50:05.689816+00:00"
+    },
+    "brock boeser": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:50:05.689816+00:00"
+    },
+    "andrea pinamonti": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T18:50:05.689816+00:00",
+      "method": "wikipedia-language-link-v1"
     }
   }
 }

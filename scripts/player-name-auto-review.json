@@ -15000,6 +15000,72 @@
         }
       ],
       "verifiedAt": "2026-10-24T18:29:22.562935+00:00"
+    },
+    {
+      "name": "Gabri Veiga",
+      "korean": "가브리 베이가",
+      "team": "FC Porto",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gabri_Veiga",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "가브리 베이가",
+          "contentHash": "d43c97f2d6e57f97c691846a797e7b32e0e5f5bfa06674426bd25df9acd00237"
+        }
+      ],
+      "verifiedAt": "2026-10-24T18:50:05.689816+00:00"
+    },
+    {
+      "name": "Zaidu Sanusi",
+      "korean": "자이두 사누시",
+      "team": "FC Porto",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Zaidu_Sanusi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "자이두 사누시",
+          "contentHash": "abfa9ed25f3a6684b2d6e4f01740befcee78843092cfc25cdde58c6d437eb1f0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T18:50:05.689816+00:00"
+    },
+    {
+      "name": "Andrea Pinamonti",
+      "korean": "안드레아 피나몬티",
+      "team": "Lazio",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andrea_Pinamonti",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "안드레아 피나몬티",
+          "contentHash": "89e3d1e7267b5f9620a669a439509f9b991109e961486dfa27998b783f95062a"
+        }
+      ],
+      "verifiedAt": "2026-10-24T18:50:05.689816+00:00"
     }
   ]
 }
