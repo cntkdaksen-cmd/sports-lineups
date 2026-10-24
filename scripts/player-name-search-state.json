@@ -635,6 +635,106 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-23T23:59:08.400558+00:00",
       "nextCheckAt": "2026-10-24T05:59:08.400558+00:00"
+    },
+    "Ainsley Maitland-Niles": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ainsley+Maitland-Niles+Everton&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Ainsley+Maitland-Niles+Everton",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/ainsley-maitland-niles/352768",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T00:49:22.035063+00:00",
+      "nextCheckAt": "2026-10-31T00:49:22.035063+00:00"
+    },
+    "Aitor Paredes": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aitor+Paredes+Athletic+Club&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Aitor+Paredes+Athletic+Club",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.uefa.com/newsfiles/uefacup/2025/2042188_FR.pdf",
+          "reason": "ValueError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T00:49:22.035063+00:00",
+      "nextCheckAt": "2026-10-31T00:49:22.035063+00:00"
+    },
+    "Akhiyarov Timur": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Akhiyarov+Timur+HC+Sochi&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Akhiyarov+Timur+HC+Sochi",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/ice-hockey/team/hc-sochi/168244",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T00:49:22.035063+00:00",
+      "nextCheckAt": "2026-10-31T00:49:22.035063+00:00"
+    },
+    "Akor Adams": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Akor+Adams+Venezia&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Akor+Adams+Venezia",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T00:49:22.035063+00:00",
+      "nextCheckAt": "2026-10-31T00:49:22.035063+00:00"
+    },
+    "Alan Forrest": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alan+Forrest+Dundee&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alan+Forrest+Dundee",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/alan-forrest/843626",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T00:49:22.035063+00:00",
+      "nextCheckAt": "2026-10-31T00:49:22.035063+00:00"
     }
   }
 }
