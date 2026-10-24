@@ -49,7 +49,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - name: Test independent name verification
+      - name: Test name verification
         run: python3 scripts/test_resolve_player_names.py
       - name: Collect current names from every league
         run: node scripts/collect-player-names.mjs --allow-partial
@@ -67,13 +67,14 @@ jobs:
             scripts/player-name-live-inventory.json
             scripts/player-name-auto-review.json
             scripts/player-name-search-state.json
+            scripts/player-name-run-report.json
           retention-days: 7
       - name: Publish the name catalog
         run: |
-          if ! git diff --quiet -- dist/name-catalog.json dist/team-ko.json scripts/player-name-auto-review.json scripts/player-name-search-state.json; then
+          if ! git diff --quiet -- dist/name-catalog.json dist/team-ko.json scripts/player-name-auto-review.json scripts/player-name-search-state.json scripts/player-name-run-report.json; then
             git config user.name github-actions[bot]
             git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add dist/name-catalog.json dist/team-ko.json scripts/player-name-auto-review.json scripts/player-name-search-state.json
+            git add dist/name-catalog.json dist/team-ko.json scripts/player-name-auto-review.json scripts/player-name-search-state.json scripts/player-name-run-report.json
             git commit -m "chore: publish approved full names"
             git pull --rebase
             git push

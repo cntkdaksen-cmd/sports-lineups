@@ -4,6 +4,7 @@ import hashlib
 from html import unescape
 from html.parser import HTMLParser
 import json
+import os
 from pathlib import Path
 import re
 import time
@@ -21,7 +22,8 @@ DOMAINS = ('wikipedia.org', 'transfermarkt.co.kr', 'flashscore.co.kr', 'sofascor
            'sportschosun.com', 'sportalkorea.com', 'osen.co.kr', 'xportsnews.com', 'spotvnews.co.kr',
            'mk.co.kr', 'hankyung.com', 'chosun.com', 'donga.com', 'khan.co.kr', 'kbs.co.kr', 'sbs.co.kr')
 SEARCH_HOSTS = ('www.google.com', 'search.naver.com')
-POLICY = 'google-search-result-v1'
+POLICY = 'precollect-names-v2'
+GOOGLE_METHOD = 'google-search-result-v1'
 
 
 def normalize(value):
@@ -60,7 +62,7 @@ class Page(HTMLParser):
             self.panel = [self.depth, []]
         if tag == 'a':
             self.anchor = [attrs.get('href', ''), []]
-        if tag in ('title', 'h1'):
+        if tag in ('title', 'h1', 'h2', 'h3'):
             self.heading = [tag, []]
 
     def handle_endtag(self, tag):
@@ -185,7 +187,7 @@ def google_result(row, url, page, team_dictionary):
     proof = {**eligible[0], 'url': url, 'domain': 'google.com', 'engines': ['google'],
              'contentHash': hashlib.sha256(page.text.encode()).hexdigest()}
     return {'name': row['name'], 'korean': proof['korean'], 'team': team,
-            'league': row.get('league'), 'method': POLICY, 'sources': [proof]}
+            'league': row.get('league'), 'method': GOOGLE_METHOD, 'sources': [proof]}
 
 
 def resolve(row, get=fetch_page, team_dictionary=None):
@@ -228,6 +230,63 @@ def write(path, data):
     temporary.replace(path)
 
 
+def fetch_json(url):
+    request = urllib.request.Request(url, headers={'User-Agent': 'SportsLineupsNameReview/2.0 (https://github.com/jimmy896376/sports-lineups)', 'Accept': 'application/json'})
+    with urllib.request.urlopen(request, timeout=20) as response:
+        raw = response.read(4_000_001)
+        if len(raw) > 4_000_000:
+            raise ValueError('response-too-large')
+        return json.loads(raw)
+
+
+def bulk_wikipedia(rows, teams, get=fetch_json):
+    """Resolve Korean language links in batches; require exact name and club context."""
+    approved, errors = {}, []
+    for start in range(0, len(rows), 20):
+        batch = rows[start:start+20]
+        query = {'action': 'query', 'format': 'json', 'redirects': '1', 'prop': 'langlinks|extracts',
+                 'lllang': 'ko', 'lllimit': 'max', 'exintro': '1', 'explaintext': '1', 'exlimit': 'max',
+                 'titles': '|'.join(row['name'] for row in batch)}
+        try:
+            data = get('https://en.wikipedia.org/w/api.php?' + urllib.parse.urlencode(query))
+            if 'error' in data:
+                raise ValueError(str(data['error'].get('code', 'wiki-error')))
+            query_data = data.get('query', {})
+            aliases = {r['from']: r['to'] for r in query_data.get('normalized', []) + query_data.get('redirects', [])}
+            pages = {p['title']: p for p in query_data.get('pages', {}).values()}
+            for row in batch:
+                title = row['name']
+                for _ in range(5):
+                    if title not in aliases: break
+                    title = aliases[title]
+                page = pages.get(title, {})
+                intro = normalize(page.get('extract', ''))
+                if not (normalize(page.get('title', '')) == normalize(row['name']) or re.search(r'(?<!\w)' + re.escape(normalize(row['name'])) + r'(?!\w)', intro)): continue
+                team = normalize(row.get('team', ''))
+                if len(team) < 3 or team not in intro: continue
+                links = [x['*'] for x in page.get('langlinks', []) if x.get('lang') == 'ko']
+                if len(links) != 1: continue
+                korean = re.sub(r'\s*\([^)]*\)$', '', links[0]).strip()
+                if candidates([korean]) != {korean}: continue
+                url = 'https://en.wikipedia.org/wiki/' + urllib.parse.quote(title.replace(' ', '_'))
+                approved[normalize(row['name'])] = {'name': row['name'], 'korean': korean, 'team': row.get('team'),
+                    'league': row.get('league'), 'method': 'wikipedia-language-link-v1', 'sources': [{
+                    'url': url, 'domain': 'wikipedia.org', 'languageLinkMatched': True, 'teamMatched': True,
+                    'englishNameMatched': True, 'koreanTitle': links[0],
+                    'contentHash': hashlib.sha256(json.dumps(page, ensure_ascii=False).encode()).hexdigest()}]}
+        except (ValueError, OSError, urllib.error.URLError) as exc:
+            errors.append(type(exc).__name__ + ':' + str(exc)[:160])
+            break
+    return approved, errors
+
+
+def priority(row, state, now):
+    try: hours = (dt.datetime.fromisoformat(row.get('eventDate', '').replace('Z', '+00:00')) - now).total_seconds()/3600
+    except (ValueError, TypeError): hours = 9999
+    return (0 if -3 <= hours < 48 else 1, 0 if row.get('kind') in ('lineup', 'starting-pitcher') else 1,
+            state['players'].get(normalize(row['name']), {}).get('checkedAt', ''), hours, normalize(row['name']))
+
+
 def main():
     now = dt.datetime.now(dt.timezone.utc)
     inventory = read(ROOT / 'scripts/player-name-live-inventory.json', {})
@@ -238,39 +297,61 @@ def main():
     approved = read(approved_path, {'schemaVersion': 1, 'entries': []})
     state = read(state_path, {'schemaVersion': 1, 'players': {}})
     known = {normalize(r['name']) for r in approved['entries']}
+    # Normalize persisted keys so accents and punctuation do not consume duplicate searches.
+    state['players'] = {normalize(k): v for k, v in state['players'].items()}
     pending = {}
-    for row in inventory['records']:
-        if re.search(r'[a-zA-Z]', row['name']) and normalize(row['name']) == normalize(row.get('korean', row['name'])) and normalize(row['name']) not in known:
-            pending.setdefault(row['name'], row)
     contexts = {}
     for row in inventory['records']:
-        if row.get('team'):
-            contexts.setdefault(normalize(row['name']), set()).add(normalize(row['team']))
-    eligible = [row for name, row in pending.items()
-                if len(contexts.get(normalize(name), set())) == 1
-                and (state['players'].get(name, {}).get('policy') != POLICY
-                     or state['players'].get(name, {}).get('nextCheckAt', '') <= now.isoformat())]
-    eligible.sort(key=lambda row: (state['players'].get(row['name'], {}).get('checkedAt', ''), row['name']))
+        key = normalize(row['name'])
+        if row.get('team'): contexts.setdefault(key, set()).add(normalize(row['team']))
+        if re.search(r'[a-zA-Z]', row['name']) and key == normalize(row.get('korean', row['name'])) and key not in known:
+            if key not in pending or priority(row, state, now) < priority(pending[key], state, now): pending[key] = row
+    eligible = [row for key, row in pending.items() if len(contexts.get(key, set())) == 1
+                and (state['players'].get(key, {}).get('policy') != POLICY
+                     or state['players'].get(key, {}).get('nextCheckAt', '') <= now.isoformat())]
+    eligible.sort(key=lambda row: priority(row, state, now))
     teams = read(ROOT / 'dist/team-ko.json', {})
+    bulk_rows = [row for row in eligible if state['players'].get(normalize(row['name']), {}).get('nextBulkCheckAt', '') <= now.isoformat()][:200]
+    bulk, bulk_errors = bulk_wikipedia(bulk_rows, teams)
+    bulk_delay = dt.timedelta(hours=6 if bulk_errors else 24)
+    for row in bulk_rows:
+        state['players'].setdefault(normalize(row['name']), {})['nextBulkCheckAt'] = (now + bulk_delay).isoformat()
     checked = added = 0
-    for row in eligible[:5]:
+    for key, entry in bulk.items():
+        entry['verifiedAt'] = now.isoformat()
+        approved['entries'].append(entry)
+        state['players'][key] = {'status': 'verified', 'policy': POLICY, 'checkedAt': now.isoformat(), 'method': entry['method']}
+        added += 1
+    write(approved_path, approved)
+    write(state_path, state)
+    deadline = time.monotonic() + 600
+    for row in [r for r in eligible if normalize(r['name']) not in bulk][:30]:
+        if time.monotonic() >= deadline: break
         entry, report = resolve(row, team_dictionary=teams)
         if entry:
             entry['verifiedAt'] = now.isoformat()
             approved['entries'].append(entry)
             added += 1
-        delay = dt.timedelta(days=7) if any(s['status'] == 'results' for s in report['searches'].values()) else dt.timedelta(hours=6)
-        state['players'][row['name']] = {**report, 'policy': POLICY, 'checkedAt': now.isoformat(), 'nextCheckAt': (now + delay).isoformat()}
+        delay = dt.timedelta(hours=24) if any(s['status'] == 'results' for s in report['searches'].values()) else dt.timedelta(hours=6)
+        state['players'][normalize(row['name'])] = {**state['players'].get(normalize(row['name']), {}), **report, 'policy': POLICY, 'checkedAt': now.isoformat(), 'nextCheckAt': (now + delay).isoformat()}
         checked += 1
         write(approved_path, approved)
         write(state_path, state)
         # Do not keep issuing queries when both providers deny usable results.
-        if all(s['status'] != 'results' for s in report['searches'].values()):
+        if not entry and all(s['status'] != 'results' for s in report['searches'].values()):
             break
         time.sleep(2)
-    print(json.dumps({'pending': len(pending), 'checked': checked, 'approved': added, 'policy': 'Unverified names remain English'}))
+    summary = {'at': now.isoformat(), 'inventoryRecords': len(inventory['records']), 'pending': len(pending),
+               'eligible': len(eligible), 'bulkRequested': len(bulk_rows), 'bulkApproved': len(bulk),
+               'searchChecked': checked, 'approved': added, 'bulkErrors': bulk_errors,
+               'collectionFailures': len(inventory.get('failures', [])), 'policy': 'Unverified names remain English'}
+    write(ROOT / 'scripts/player-name-run-report.json', summary)
+    print(json.dumps(summary))
+    if os.environ.get('GITHUB_STEP_SUMMARY'):
+        with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as report:
+            report.write('## Player name update\n\n' + '\n'.join(f'- {key}: {value}' for key, value in summary.items()) + '\n')
     if checked and not added:
-        print('::warning::No names passed independent source verification. See player-name-search-state.json; search access may be blocked.')
+        print('::warning::No new names were approved; workflow success does not mean translation success. See player-name-search-state.json; search access may be blocked.')
 
 
 if __name__ == '__main__':
