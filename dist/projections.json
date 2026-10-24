@@ -15991,7 +15991,8 @@
           "injuryDetails": {
             "home": [],
             "away": []
-          }
+          },
+          "competitionStage": "日本シリーズ"
         },
         "confirmed": false
       },
@@ -16055,7 +16056,8 @@
           "injuryDetails": {
             "home": [],
             "away": []
-          }
+          },
+          "competitionStage": "日本シリーズ"
         },
         "confirmed": false
       }

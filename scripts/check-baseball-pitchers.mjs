@@ -26,11 +26,11 @@ console.log('Baseball: correct side, announced vs actual starter, reliever exclu
 
 assert.equal(run('majorView'),true,'First visit defaults to major games');
 context.majorStart=Date.now();context.majorEnd=context.majorStart+172800000;
-context.majorRows=[...Array.from({length:5},(_,i)=>({key:'nba',event:{id:'nba'+i,date:new Date(context.majorStart+3600000+i*1000).toISOString(),competitions:[{}]}})),{key:'mlb',event:{id:'mlb1',date:new Date(context.majorStart+7200000).toISOString(),competitions:[{}]}},{key:'mlb',event:{id:'finished',date:new Date(context.majorStart+1000).toISOString(),status:{type:{completed:true}},competitions:[{}]}},{key:'mlb',event:{id:'later',date:new Date(context.majorEnd+1).toISOString(),competitions:[{}]}}];
+context.majorRows=[...Array.from({length:5},(_,i)=>({key:'nba',event:{name:'test',id:'nba'+i,date:new Date(context.majorStart+3600000+i*1000).toISOString(),competitions:[{competitors:[{team:{displayName:'Los Angeles Lakers'}},{team:{displayName:'Boston Celtics'}}]}]}})),{key:'mlb',event:{id:'mlb1',date:new Date(context.majorStart+7200000).toISOString(),competitions:[{competitors:[{team:{displayName:'Los Angeles Lakers'}},{team:{displayName:'Boston Celtics'}}]}]}},{key:'mlb',event:{id:'finished',date:new Date(context.majorStart+1000).toISOString(),status:{type:{completed:true}},competitions:[{competitors:[{team:{displayName:'Los Angeles Lakers'}},{team:{displayName:'Boston Celtics'}}]}]}},{key:'mlb',event:{id:'later',date:new Date(context.majorEnd+1).toISOString(),competitions:[{competitors:[{team:{displayName:'Los Angeles Lakers'}},{team:{displayName:'Boston Celtics'}}]}]}}];
 context.majorRows.push(context.majorRows[0]);
 const selected=run('majorGameRows(majorRows,majorStart,majorEnd)');
-assert.equal(selected.length,4,'Deduplicate, remove finished/out-of-window games, show at most three per league');
-assert.equal(selected.filter(row=>row.key==='nba').length,3);assert.equal(selected.filter(row=>row.key==='mlb').length,1);
+assert.equal(selected.length,3,'Select popular matchups, exclude ordinary games and cap each league at three');
+assert.equal(selected.filter(row=>row.key==='nba').length,3);assert.equal(selected.filter(row=>row.key==='mlb').length,0);
 console.log('Major games: default view, date window, completed-game exclusion, deduplication and league balance passed.');
 
 for(const league of ['kbo','kbl','wkbl','kovo']){run(`sport='${league}'`);assert.equal(run("isKoreanPlayer({name:'Lee Jung-hoo',country:'Korea'})"),false);}
@@ -52,3 +52,13 @@ console.log('Major lineup regression: missing published lineups use the existing
 const requests=[];context.fetch=async(url)=>{requests.push(String(url));return {ok:true,json:async()=>({items:[],domestic:{}})};};
 await run('getProjections()');assert.equal(requests.length,1);assert.match(requests[0],/raw\.githubusercontent\.com/);assert.ok(!requests.some(url=>url.includes('api.github.com')),'Do not require GitHub API quota for public lineup snapshots');
 console.log('Lineup feed: direct public snapshot works without the GitHub contents API.');
+
+context.lowProfile={key:'cpbl',event:{id:'quiet',date:new Date(context.majorStart+3600000).toISOString(),competitions:[{}]}};
+assert.equal(run('majorGameRows([lowProfile],majorStart,majorEnd).length'),0);
+context.finalGame={...context.lowProfile,event:{...context.lowProfile.event,id:'final',competitions:[{notes:[{headline:'Championship Finals'}]}]}};
+assert.equal(run('majorGameRows([finalGame],majorStart,majorEnd).length'),1);
+context.lateFinal={...context.finalGame,event:{...context.finalGame.event,date:new Date(context.majorStart+86400000).toISOString()}};
+assert.ok(run('majorGameScore(lateFinal)>majorGameScore(majorRows[0])'),'Finals outrank ordinary popular matchups');
+context.manyFinals=Array.from({length:30},(_,i)=>({key:['nba','mlb','kbo','epl','npb'][i%5],event:{id:String(i),date:new Date(context.majorStart+i*1000).toISOString(),season:{type:3},competitions:[{}]}}));
+assert.equal(run('majorGameRows(manyFinals,majorStart,majorEnd).length'),12);
+console.log('Editorial selection: ordinary low-priority games excluded; finals qualify without filler.');

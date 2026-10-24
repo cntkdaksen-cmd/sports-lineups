@@ -534,6 +534,7 @@ def scrape_npb():
     events = []
     recent_rosters = {}
     team_aliases = {}
+    competition_stages = {}
     def team_names(game):
         names = []
         for prefix, legacy, alternate in (('home', 'Home', 'home'), ('visitor', 'Visitor', 'away')):
@@ -545,6 +546,8 @@ def scrape_npb():
             else:
                 name = next((team_aliases[x] for x in aliases if x in team_aliases), None)
             names.append(name)
+        if all(names) and game.get('gameTypeName'):
+            competition_stages[tuple(sorted(names))] = game['gameTypeName']
         return names
     def players(sides, side):
         values = sides.get(side, sides.get('Home' if side == 'home' else 'Visitor', []))
@@ -588,7 +591,7 @@ def scrape_npb():
                 print(f'NPB {game_id}: {error}; not publishing an invented time')
                 continue
             competitors = [{'homeAway': side, 'team': {'id': names[side], 'displayName': names[side], 'shortDisplayName': names[side], 'abbreviation': names[side]}} for side in ('home', 'away')]
-            prediction = {'league': 'npb', 'kickoff': kickoff, 'names': names, 'teams': names, 'lineups': rosters, 'injuries': {},
+            prediction = {'league': 'npb', 'competitionStage': competition_stages.get(tuple(sorted(names.values())), ''), 'kickoff': kickoff, 'names': names, 'teams': names, 'lineups': rosters, 'injuries': {},
                 'statuses': {'home': 'confirmed' if confirmed else 'predicted', 'away': 'confirmed' if confirmed else 'predicted'},
                 'note': 'NPB 선발 타순' if confirmed else 'NPB 직전 경기 타순 기준 예상', 'source': 'https://spaia.jp'}
             events.append({'event': {'id': str(game_id), 'date': kickoff, 'status': {'type': {'completed': game.get('gameStateName') == '試合終了'}}, 'competitions': [{'timeValid': True, 'competitors': competitors}]}, 'prediction': prediction, 'confirmed': confirmed})

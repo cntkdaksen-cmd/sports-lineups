@@ -655,15 +655,43 @@ function showTabs() {
   document.documentElement.lang = language;
 }
 const majorLeagueIds=['nba','mlb','kbo','epl','ucl','uel','laliga','bundesliga','seriea','ligue1','kleague1','j1','kbl','wkbl','kovo','npb','cpbl','nhl'];
+const majorLeaguePriority={ucl:70,epl:55,nba:55,kbo:65,mlb:50,laliga:45,bundesliga:40,seriea:40,ligue1:35,uel:45,kleague1:40,kbl:35,wkbl:25,kovo:35,npb:35,nhl:30,j1:25,cpbl:20};
+const majorTeamPatterns={
+  epl:/arsenal|chelsea|liverpool|manchester (?:city|united)|tottenham/i,
+  laliga:/real madrid|barcelona|atl[eé]tico madrid/i,
+  bundesliga:/bayern|dortmund|leverkusen/i,
+  seriea:/inter(?: milan)?|juventus|ac milan|napoli/i,
+  ligue1:/paris saint.germain|\bpsg\b/i,
+  nba:/lakers|warriors|celtics|knicks|cavaliers|thunder/i,
+  mlb:/dodgers|yankees|padres|mets|giants/i,
+  kleague1:/울산|전북|서울|ulsan|jeonbuk|fc seoul/i
+};
+function majorGameScore(row) {
+  const event=row.event,competition=event.competitions?.[0]||{};
+  const names=(competition.competitors||[]).map(c=>c.team?.displayName||c.team?.name||'');
+  const stage=[event.season?.slug,event.season?.name,competition.type?.text,competition.series?.title,...(competition.notes||[]).map(n=>n.headline),row.prediction?.competitionStage].filter(Boolean).join(' ');
+  const postseason=event.season?.type===3 || /\bfinals?\b|playoffs?|postseason|world series|日本シリーズ|한국시리즈|결승|플레이오프|챔피언결정/i.test(stage);
+  let score=majorLeaguePriority[row.key]||0;
+  if(postseason)score+=150;
+  const pattern=majorTeamPatterns[row.key];
+  if(pattern)score+=names.filter(name=>pattern.test(name)).length*25;
+  const competitors=competition.competitors||[];
+  if(competitors.length===2 && competitors.every(c=>Number(c.curatedRank?.current)>0 && Number(c.curatedRank?.current)<=5))score+=25;
+  const overseas=!['kbo','kbl','wkbl','kovo','kleague1','kleague2'].includes(row.key);
+  const players=Object.values(row.prediction?.lineups||{}).flat();
+  if(overseas && players.some(p=>koreanPlayerNames.has(normalizePlayerName(p.name||''))))score+=30;
+  return score;
+}
 function majorGameRows(rows,start,end) {
   const seen=new Set(),counts=new Map();
   return rows.filter(({key,event})=>{
     const id=`${key}:${event.id}`;
     if(seen.has(id) || !event.id || event.status?.type?.completed || event.competitions?.[0]?.timeValid===false || !(Date.parse(event.date)>=start && Date.parse(event.date)<end))return false;
     seen.add(id);return true;
-  }).sort((a,b)=>Date.parse(a.event.date)-Date.parse(b.event.date)).filter(row=>{
-    const count=counts.get(row.key)||0;counts.set(row.key,count+1);return count<3;
-  }).slice(0,30);
+  }).map(row=>({row,score:majorGameScore(row)})).filter(x=>x.score>=65)
+    .sort((a,b)=>b.score-a.score || Date.parse(a.row.event.date)-Date.parse(b.row.event.date))
+    .filter(({row})=>{const count=counts.get(row.key)||0;counts.set(row.key,count+1);return count<3;})
+    .slice(0,12).map(x=>x.row).sort((a,b)=>Date.parse(a.event.date)-Date.parse(b.event.date));
 }
 async function majorGameData(row,projections,history) {
   const kind=leagueIds.includes(row.key)?'football':row.key;
@@ -693,7 +721,8 @@ async function loadMajorGames(current) {
   const rows=scores.filter(r=>r.status==='fulfilled').flatMap(r=>(r.value.data.events||[]).map(event=>({key:r.value.key,event})));
   for(const key of majorLeagueIds)for(const entry of projections.domestic?.[key]||[])rows.push({key,event:entry.event,prediction:entry.prediction});
   const allRows=[...new Map(rows.map(row=>[`${row.key}:${row.event.id}`,row])).values()];
-  const selected=majorGameRows(allRows,start,end);
+  const rankedRows=allRows.map(row=>({...row,prediction:row.prediction||predictionFor(row.event,projections.items||[],row.key)}));
+  const selected=majorGameRows(rankedRows,start,end);
   if(!scores.some(r=>r.status==='fulfilled') && !rows.length)nameReview.failed=true;
   indexTeamSearch({domestic:Object.fromEntries(majorLeagueIds.map(key=>[key,rows.filter(row=>row.key===key).map(row=>({event:row.event}))]))},true);
   const prepared=await Promise.all(selected.map(row=>majorGameData(row,projections,allRows.filter(r=>r.key===row.key).map(r=>r.event))));
@@ -711,7 +740,7 @@ async function loadMajorGames(current) {
       return card.replace('tabindex="-1">',`tabindex="-1"><div class="overview-league">${safe(dropdownLeagueNames[row.key]||sources[row.key].label[1])}</div>`);
     });
     if(current===requestId){
-      $('games').innerHTML=cards.length?`<div class="major-heading"><h2>오늘·내일 주요 경기</h2><p>리그별 최대 3경기 · 전체 경기는 종목 메뉴에서 확인하세요.</p></div>`+cards.join(''):`<div class="empty">${scores.some(r=>r.status==='fulfilled')?'오늘·내일 예정된 주요 경기가 없습니다.':'주요 경기 일정을 불러오지 못했습니다. 새로고침해 주세요.'}</div>`;
+      $('games').innerHTML=cards.length?`<div class="major-heading"><h2>오늘·내일 주요 경기</h2><p>결승·포스트시즌, 인기 리그·주요 팀 중심으로 선정 · 최대 12경기</p></div>`+cards.join(''):`<div class="empty">${scores.some(r=>r.status==='fulfilled')?'오늘·내일 선정 기준에 맞는 주요 경기가 없습니다. 전체 경기는 종목 메뉴에서 확인하세요.':'주요 경기 일정을 불러오지 못했습니다. 새로고침해 주세요.'}</div>`;
       $('updated').textContent=`주요 경기 ${cards.length}개 · 확인 시각 ${kst(new Date().toISOString())}`;
     }
   } finally {sport=previousSport;league=previousLeague;}
