@@ -53,6 +53,20 @@ class NameVerification(unittest.TestCase):
         approved,errors=r.bulk_wikipedia([self.row],{},get)
         self.assertEqual(approved,{})
         self.assertTrue(errors)
+    def test_npb_hanzi_name_uses_japanese_article(self):
+        row={'name':'牧　秀悟','team':'横浜DeNAベイスターズ','league':'npb'}
+        urls=[]
+        def get(url):
+            urls.append(url)
+            return {'query':{'pages':{'1':{'title':'牧秀悟','extract':'牧秀悟は日本のプロ野球選手。',
+                    'langlinks':[{'lang':'ko','*':'마키 슈고'}]}}}}
+        approved,errors=r.bulk_wikipedia([row],{},get)
+        self.assertEqual(errors,[])
+        self.assertIn('ja.wikipedia.org',urls[0])
+        self.assertEqual(approved[r.normalize(row['name'])]['korean'],'마키 슈고')
+        self.assertEqual(approved[r.normalize(row['name'])]['method'],'wikipedia-language-link-v2')
+        self.assertEqual(r.bulk_wikipedia([row],{},lambda url:{'query':{'pages':{'1':{'title':'牧秀悟',
+            'extract':'牧秀悟は俳優。','langlinks':[{'lang':'ko','*':'마키 슈고'}]}}}})[0],{})
     def test_priority_is_upcoming_starters_before_future_and_injury(self):
         now=r.dt.datetime(2026,10,24,tzinfo=r.dt.timezone.utc)
         state={'players':{}}
