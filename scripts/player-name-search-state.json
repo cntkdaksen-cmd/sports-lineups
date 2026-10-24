@@ -5087,7 +5087,18 @@
     },
     "andreas lausen": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Andreas+Lausen+Gil+Vicente&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T21:27:05.819734+00:00",
+      "nextCheckAt": "2026-10-25T03:27:05.819734+00:00"
     },
     "benjamin kuscevic": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -13995,6 +14006,14 @@
     "tim parker": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-25T20:57:43.290247+00:00"
+    },
+    "freddy peralta": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T21:27:05.819734+00:00"
+    },
+    "robert gasser": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T21:27:05.819734+00:00"
     }
   }
 }
