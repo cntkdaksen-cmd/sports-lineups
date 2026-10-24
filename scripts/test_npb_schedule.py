@@ -28,6 +28,11 @@ class NpbSchedule(unittest.TestCase):
         self.assertEqual(games[1]['event']['date'],'2026-10-25T09:00:00Z')
         self.assertEqual(games[1]['prediction']['names']['away'],'福岡ソフトバンクホークス')
         self.assertTrue(games[0]['event']['status']['type']['completed'])
+    def test_cpbl_uses_full_date_and_taiwan_timezone(self):
+        self.assertEqual(m.cpbl_kickoff({'PreExeDate':'2026-10-24T17:05:00'}),'2026-10-24T09:05:00Z')
+        self.assertEqual(m.cpbl_kickoff({'PreExeDate':'2026-10-24T17:05:00+08:00'}),'2026-10-24T09:05:00Z')
+        for value in (None,'2026-10-24'):
+            with self.assertRaises(ValueError): m.cpbl_kickoff({'PreExeDate':value})
     def test_missing_and_placeholder_times_are_not_midnight(self):
         for value in (None, '', '0000', '未定', '2460', '18'):
             with self.assertRaises(ValueError):

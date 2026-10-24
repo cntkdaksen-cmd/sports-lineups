@@ -444,6 +444,16 @@ def scrape_khl():
     return events
 
 
+def cpbl_kickoff(game):
+    value = game.get('PreExeDate')
+    if not value or not re.search(r'T\d{2}:\d{2}', value):
+        raise ValueError('CPBL scheduled timestamp is missing')
+    local = datetime.fromisoformat(value.replace('Z', '+00:00'))
+    if local.tzinfo is None:
+        local = local.replace(tzinfo=ZoneInfo('Asia/Taipei'))
+    return local.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
+
+
 def scrape_cpbl():
     """Use CPBL public schedule and game detail API for two-day starter projections."""
     today = datetime.now(ZoneInfo('Asia/Seoul')).date()
@@ -474,7 +484,15 @@ def scrape_cpbl():
         rows = games.get('Data', {}).get('Games', [])
         for game in rows:
             game_id = game.get('GameId') or game.get('Id')
-            if not game_id:
+            if not game_id or game.get('GameStatus') in ('POSTPONED', 'CANCELLED', 'CANCELED'):
+                continue
+            try:
+                kickoff = cpbl_kickoff(game)
+            except (ValueError, TypeError):
+                continue
+            if datetime.fromisoformat(kickoff.replace('Z', '+00:00')).astimezone(ZoneInfo('Asia/Taipei')).date() != day:
+                continue
+            if any(x['event']['id'] == str(game_id) for x in events):
                 continue
             detail = fetch_json(f'https://stats.cpbl.com.tw/api/proxy/v1/games/{game_id}')
             data = detail.get('Data', {}).get('Game', {})
@@ -487,12 +505,6 @@ def scrape_cpbl():
                 continue
             if len(home_players) < 9: home_players = recent_batters.get(names['home'], home_players)
             if len(away_players) < 9: away_players = recent_batters.get(names['away'], away_players)
-            time_text = game.get('GameTime') or game.get('StartTime') or '18:35'
-            try:
-                local = datetime.strptime(f'{day.isoformat()} {time_text[:5]}', '%Y-%m-%d %H:%M').replace(tzinfo=ZoneInfo('Asia/Taipei'))
-            except ValueError:
-                continue
-            kickoff = local.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
             competitors = [{'homeAway': side, 'team': {'id': names[side], 'displayName': names[side], 'shortDisplayName': names[side], 'abbreviation': names[side]}} for side in ('home', 'away')]
             confirmed = len(hitters(home)) >= 9 and len(hitters(visiting)) >= 9
             prediction = {'league': 'cpbl', 'kickoff': kickoff, 'names': names, 'teams': names,
