@@ -1214,4 +1214,6 @@ Nick Martinez|닉 마르티네스
 Jacob Misiorowski|제이콥 미저라우스키
 Drew Rasmussen|드류 라스무센
 Logan Henderson|로건 헨더슨
+Antonín Kinsky|안토닌 킨스키
+Noah Atubolu|노아 아투볼루
 `.trim().split('\n').map(row => row.split('|')));
