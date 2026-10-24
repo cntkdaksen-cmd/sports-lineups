@@ -2470,6 +2470,424 @@
         }
       ],
       "verifiedAt": "2026-10-24T14:23:04.096116+00:00"
+    },
+    {
+      "name": "Nathan Tjoe-A-On",
+      "korean": "네이선 추아온",
+      "team": "Willem II",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nathan_Tjoe-A-On",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "네이선 추아온",
+          "contentHash": "b90ab621fca256c8bf762dab073c2987c53af44ec68b4d54484971cf6e179610"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Taichi Fukui",
+      "korean": "후쿠이 다이치",
+      "team": "Arouca",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Taichi_Fukui",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "후쿠이 다이치",
+          "contentHash": "dcd52f2ca553d6c3f6433c4027c3d5161e6d079e48e87658d31c7ab6fe76226d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Andy Najar",
+      "korean": "안디 나하르",
+      "team": "Nashville SC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andy_Najar",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "안디 나하르",
+          "contentHash": "a370abd9c3e61505b18a9b8cd60b9a9c1cee6adb114e4ff449c7f12c854da283"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Davide Frattesi",
+      "korean": "다비데 프라테시",
+      "team": "Lazio",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Davide_Frattesi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "다비데 프라테시",
+          "contentHash": "f04ae961746a4becabec85704d3a04c2c40e7dcd460d0b01efa51396b01c28c5"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Diego Coppola",
+      "korean": "디에고 코폴라",
+      "team": "Paris FC",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Diego_Coppola",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "디에고 코폴라",
+          "contentHash": "a5f181155298079a07cb048645a7d27b0089a5e8c6901d515e59e85d2730e9c0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "El Bilal Toure",
+      "korean": "엘 빌랄 투레",
+      "team": "Parma",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/El_Bilal_Tour%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "엘 빌랄 투레",
+          "contentHash": "990b69e4ce3f021b0401f166fa2a0c43713b800cd2b5b72ac899f0503249911d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Emanuele Valeri",
+      "korean": "에마누엘레 발레리",
+      "team": "Parma",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Emanuele_Valeri",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "에마누엘레 발레리",
+          "contentHash": "f3fe7cb4bb9195f1f94ba445c903c37e2e7a92546e8b977383f4626d589abb2c"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Gustav Isaksen",
+      "korean": "구스타우 이삭센",
+      "team": "Lazio",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gustav_Isaksen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "구스타우 이삭센",
+          "contentHash": "b4b30ba95be2c91e07de29ebfef9008a29ce85ff3a7abf1f49851f415f3e6251"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Hamari Traore",
+      "korean": "하마리 트라오레",
+      "team": "Paris FC",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hamari_Traor%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "하마리 트라오레",
+          "contentHash": "47ab83bdbbe5a40e9b3e5a18e485f65c9a809c6ff20a52c28177397fc191a2ca"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Josip Sutalo",
+      "korean": "요시프 슈탈로",
+      "team": "Lazio",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Josip_%C5%A0utalo",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "요시프 슈탈로",
+          "contentHash": "d9ed20ad424564da61469fa85c71c28261a05ff1fabe71d7864d826de44e7040"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Kevin Trapp",
+      "korean": "케빈 트라프",
+      "team": "Paris FC",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kevin_Trapp",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "케빈 트라프",
+          "contentHash": "dfcfbc773799f574309fc7aaa340c8a728df4c8fa42ca234b71e6274786add9d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Mandela Keita",
+      "korean": "만델라 케이타",
+      "team": "Parma",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mandela_Keita",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "만델라 케이타",
+          "contentHash": "24be7f179a5aa6e52c2ea9200ddd0e952818bccbaa13f95070e13e25f2a52088"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Mattia Zaccagni",
+      "korean": "마티아 자카니",
+      "team": "Lazio",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mattia_Zaccagni",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마티아 자카니",
+          "contentHash": "1a5d3d462f2ec34cccc2a0ae84e9275eb8614b58c7f2bb697dfd2a48abb0007b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Maxime Lopez",
+      "korean": "막심 로페스",
+      "team": "Paris FC",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Maxime_Lopez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "막심 로페스",
+          "contentHash": "f095c3ad0fa24140df6a907b57dbe1ada5ff43c2403a3ae2fbbc75984c5bddb0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Nuno Tavares",
+      "korean": "누누 타바르스",
+      "team": "Lazio",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nuno_Tavares",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "누누 타바르스",
+          "contentHash": "fae263202ea9e0e4be710b78b35d326192a86ef442616ce4a7c24047f1dc0107"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Romano Floriani Mussolini",
+      "korean": "로마노 플로리아니 무솔리니",
+      "team": "Lazio",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Romano_Floriani_Mussolini",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "로마노 플로리아니 무솔리니",
+          "contentHash": "e9399f788a5096afc9e70494100116b634566069ff257205f604125e75aa4782"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Jose Maria Gimenez",
+      "korean": "호세 마리아 히메네스",
+      "team": "Deportivo",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Gim%C3%A9nez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "호세 마리아 히메네스",
+          "contentHash": "f3bdde4399de7af4704d3243ff8df85bd47730b8bf800054a166be0e44e36236"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Anass Zaroury",
+      "korean": "아나스 자루리",
+      "team": "Columbus Crew",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Anass_Zaroury",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "아나스 자루리",
+          "contentHash": "4480d6aa0c2d0a1dcfabc0fcf0f5604825fdd4b94b57ba3a04f1eab013482d9c"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Jonathan Osorio",
+      "korean": "조너선 오소리오",
+      "team": "Toronto FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jonathan_Osorio",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조너선 오소리오",
+          "contentHash": "94300775fabedd2592fadf59e5d48f7c72f1eb9173260f6cfa4c0eab84b48d5f"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Josef Martinez",
+      "korean": "호세프 마르티네스",
+      "team": "Columbus Crew",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Josef_Mart%C3%ADnez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "호세프 마르티네스",
+          "contentHash": "740638a1096223277c19105961f765ec3b0cb4a5c32af0cfc1db6ebc886482f5"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Josh Sargent",
+      "korean": "조시 사전트",
+      "team": "Toronto FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Josh_Sargent",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조시 사전트",
+          "contentHash": "01789459b7fad379b52e89174268533c63de28cc78a1d21a6de4988dc5a6c8f1"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
+    },
+    {
+      "name": "Matheus Pereira",
+      "korean": "마테우스 페레이라",
+      "team": "Toronto FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Matheus_Pereira",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마테우스 페레이라",
+          "contentHash": "3fe24aff5cddf76d243ddf455256edb21caf7bee00ddccad76ead8eb4072398d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:31:13.104695+00:00"
     }
   ]
 }
