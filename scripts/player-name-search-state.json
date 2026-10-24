@@ -5398,7 +5398,18 @@
     },
     "moussa diabate": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Moussa+Diabate+Charlotte+Hornets&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T23:52:51.166761+00:00",
+      "nextCheckAt": "2026-10-25T05:52:51.166761+00:00"
     },
     "arturs silovs": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -14082,6 +14093,28 @@
     "josh norris": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-25T23:23:55.596556+00:00"
+    },
+    "ryan shea": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T23:52:51.166761+00:00",
+      "method": "wikidata-label-v1"
+    },
+    "damian las": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T23:52:51.166761+00:00"
+    },
+    "ilie sanchez": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T23:52:51.166761+00:00"
+    },
+    "jorge alastuey": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T23:52:51.166761+00:00"
+    },
+    "mikkel desler": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T23:52:51.166761+00:00"
     }
   }
 }

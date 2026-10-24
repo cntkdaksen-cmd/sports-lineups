@@ -15134,6 +15134,30 @@
         }
       ],
       "verifiedAt": "2026-10-24T22:56:47.439649+00:00"
+    },
+    {
+      "name": "Ryan Shea",
+      "korean": "라이언 셰이",
+      "team": "Edmonton Oilers",
+      "league": "nhl",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ryan_Shea",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q108301337",
+          "wikidataItem": "Q108301337",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "58dbf3ca0b674a1c736b29d46e55eaf0994d0d832024873170c1001f0cecdc95"
+        }
+      ],
+      "verifiedAt": "2026-10-24T23:52:51.166761+00:00"
     }
   ]
 }
