@@ -23,7 +23,7 @@ DOMAINS = ('wikipedia.org', 'transfermarkt.co.kr', 'flashscore.co.kr', 'sofascor
            'mk.co.kr', 'hankyung.com', 'chosun.com', 'donga.com', 'khan.co.kr', 'kbs.co.kr', 'sbs.co.kr')
 SEARCH_HOSTS = ('www.google.com', 'search.naver.com')
 POLICY = 'precollect-names-v2'
-BULK_POLICY = 'wikipedia-exact-sports-v2'
+BULK_POLICY = 'wikipedia-exact-sports-v3'
 GOOGLE_METHOD = 'google-search-result-v1'
 
 
@@ -243,42 +243,51 @@ def fetch_json(url):
 def bulk_wikipedia(rows, teams, get=fetch_json):
     """Resolve Korean language links in batches; require exact name and club context."""
     approved, errors = {}, []
-    for start in range(0, len(rows), 20):
-        batch = rows[start:start+20]
+    groups = {}
+    for row in rows:
+        language = {'npb': 'ja', 'cpbl': 'zh'}.get(row.get('league'), 'en') if re.search(r'[一-龯々〆〤]', row['name']) else 'en'
+        groups.setdefault(language, []).append(row)
+    for language, language_rows in groups.items():
+      for start in range(0, len(language_rows), 20):
+        batch = language_rows[start:start+20]
+        requested = {row['name']: ''.join(row['name'].split()) if language != 'en' else row['name'] for row in batch}
         query = {'action': 'query', 'format': 'json', 'redirects': '1', 'prop': 'langlinks|extracts',
                  'lllang': 'ko', 'lllimit': 'max', 'exintro': '1', 'explaintext': '1', 'exlimit': 'max',
-                 'titles': '|'.join(row['name'] for row in batch)}
+                 'titles': '|'.join(requested.values())}
         try:
-            data = get('https://en.wikipedia.org/w/api.php?' + urllib.parse.urlencode(query))
+            data = get(f'https://{language}.wikipedia.org/w/api.php?' + urllib.parse.urlencode(query))
             if 'error' in data:
                 raise ValueError(str(data['error'].get('code', 'wiki-error')))
             query_data = data.get('query', {})
             aliases = {r['from']: r['to'] for r in query_data.get('normalized', []) + query_data.get('redirects', [])}
             pages = {p['title']: p for p in query_data.get('pages', {}).values()}
             for row in batch:
-                title = row['name']
+                title = requested[row['name']]
                 for _ in range(5):
                     if title not in aliases: break
                     title = aliases[title]
                 page = pages.get(title, {})
                 intro = normalize(page.get('extract', ''))
-                exact_title = normalize(page.get('title', '')) == normalize(row['name'])
-                intro_name = bool(re.search(r'(?<!\w)' + re.escape(normalize(row['name'])) + r'(?!\w)', intro))
+                source_name = normalize(row['name'])
+                if language != 'en': source_name = source_name.replace(' ', '')
+                page_title = normalize(page.get('title', ''))
+                exact_title = (page_title.replace(' ', '') if language != 'en' else page_title) == source_name
+                intro_name = bool(re.search(r'(?<!\w)' + re.escape(source_name) + r'(?!\w)', intro.replace(' ', '') if language != 'en' else intro))
                 if not (exact_title or intro_name): continue
                 team = normalize(row.get('team', ''))
                 team_match = len(team) >= 3 and team in intro
-                sport_match = bool(re.search(r'\b(footballer|plays football|soccer player|basketball player|baseball player|ice hockey player|volleyball player|esports player|league of legends player)\b', intro))
+                sport_match = bool(re.search(r'\b(footballer|plays football|soccer player|basketball player|baseball player|ice hockey player|volleyball player|esports player|league of legends player)\b|野球選手|棒球選手|職業棒球', intro))
                 if not sport_match or not (exact_title or team_match): continue
                 links = [x['*'] for x in page.get('langlinks', []) if x.get('lang') == 'ko']
                 if len(links) != 1: continue
                 korean = re.sub(r'\s*\([^)]*\)$', '', links[0]).strip()
                 if candidates([korean]) != {korean}: continue
-                url = 'https://en.wikipedia.org/wiki/' + urllib.parse.quote(title.replace(' ', '_'))
+                url = f'https://{language}.wikipedia.org/wiki/' + urllib.parse.quote(title.replace(' ', '_'))
                 approved[normalize(row['name'])] = {'name': row['name'], 'korean': korean, 'team': row.get('team'),
-                    'league': row.get('league'), 'method': 'wikipedia-language-link-v1', 'sources': [{
+                    'league': row.get('league'), 'method': 'wikipedia-language-link-v2' if language != 'en' else 'wikipedia-language-link-v1', 'sources': [{
                     'url': url, 'domain': 'wikipedia.org', 'languageLinkMatched': True, 'teamMatched': team_match,
                     'sportMatched': True, 'exactEnglishTitleMatched': exact_title,
-                    'englishNameMatched': True, 'koreanTitle': links[0],
+                    'englishNameMatched': True, 'sourceLanguage': language, 'koreanTitle': links[0],
                     'contentHash': hashlib.sha256(json.dumps(page, ensure_ascii=False).encode()).hexdigest()}]}
         except (ValueError, OSError, urllib.error.URLError) as exc:
             errors.append(type(exc).__name__ + ':' + str(exc)[:160])
