@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="축구, 야구, 농구, 배구, 하키 리그의 경기 일정과 예상·확정 선발을 확인하세요.">
+  <title>스포츠 라인업</title>
+  <link rel="stylesheet" href="style.css?v=105-refresh-header">
+</head>
+<body>
+  <main>
+    <header class="site-header">
+      <div class="brand-lockup"><div><span class="eyebrow" id="brand">NUDE TV</span><h1 id="site-name">스포츠 라인업</h1></div></div>
+      <div class="header-actions"><button id="theme" type="button" aria-label="화면 테마 변경" aria-pressed="true">☀️ 화이트 모드</button><button id="refresh" type="button">새로고침</button><button id="language" type="button" aria-pressed="false">영어</button></div>
+    </header>
+    <label class="sport-menu-label" for="sport-menu"><span id="sport-menu-title">종목 바로가기</span><select id="sport-menu" aria-label="세부 종목 바로가기"></select></label>
+    <section class="team-search-panel" aria-label="팀 라인업 검색"><label for="team-search">팀명으로 경기 찾기</label><input id="team-search" type="search" placeholder="팀명 검색 · 예: 코모, LOSC 릴, MUN" autocomplete="off" aria-controls="team-search-results"><div id="team-search-results" class="team-search-results" aria-live="polite" hidden></div></section>
+    <div class="tab-row"><nav id="sports" class="tabs" aria-label="종목 분류"></nav></div>
+    <nav id="leagues" class="tabs leagues" aria-label="세부 종목"></nav>
+    <p id="notice" class="notice">선발 명단은 발표 후 표시됩니다. 예상 명단은 확정 선발로 표시하지 않습니다.</p>
+    <section id="games" class="games" aria-live="polite"></section>
+  </main>
+  <script src="football-ko.js?v=69-team-name-review"></script>
+  <script src="player-ko.js?v=106-verified-player-names"></script>
+  <script src="win-probability.js?v=2-external"></script>
+  <script src="app.js?v=107-hide-neutral-estimates"></script>
+</body>
+</html>
