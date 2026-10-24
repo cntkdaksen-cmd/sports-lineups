@@ -54,7 +54,7 @@ jobs:
         run: python3 scripts/test_resolve_player_names.py
       - name: Collect current names from every league
         run: node scripts/collect-player-names.mjs --allow-partial
-      - name: Search Google and Naver and verify Korean player names
+      - name: Search Google and verify Korean player names
         run: python3 scripts/resolve-player-names.py
       - name: Build approved Korean full names
         run: node scripts/build-name-catalog.mjs

@@ -21,7 +21,7 @@ DOMAINS = ('wikipedia.org', 'transfermarkt.co.kr', 'flashscore.co.kr', 'sofascor
            'yna.co.kr', 'yonhapnews.co.kr', 'newsis.com', 'news1.kr', 'sportsseoul.com',
            'sportschosun.com', 'sportalkorea.com', 'osen.co.kr', 'xportsnews.com', 'spotvnews.co.kr',
            'mk.co.kr', 'hankyung.com', 'chosun.com', 'donga.com', 'khan.co.kr', 'kbs.co.kr', 'sbs.co.kr')
-SEARCH_HOSTS = ('www.google.com', 'search.naver.com')
+SEARCH_HOSTS = ('www.google.com',)
 POLICY = 'precollect-names-v2'
 BULK_POLICY = 'wikipedia-exact-sports-v3'
 GOOGLE_METHOD = 'google-search-result-v1'
@@ -193,8 +193,7 @@ def google_result(row, url, page, team_dictionary):
 
 def resolve(row, get=fetch_page, team_dictionary=None):
     query = row['name'] + ' ' + (row.get('team') or '')
-    urls = {'google': 'https://www.google.com/search?' + urllib.parse.urlencode({'q': query, 'hl': 'ko'}),
-            'naver': 'https://search.naver.com/search.naver?' + urllib.parse.urlencode({'query': query})}
+    urls = {'google': 'https://www.google.com/search?' + urllib.parse.urlencode({'q': query, 'hl': 'ko'})}
     found, searches, errors = {}, {}, []
     for engine, url in urls.items():
         try:
@@ -358,7 +357,7 @@ def main():
         checked += 1
         write(approved_path, approved)
         write(state_path, state)
-        # Do not keep issuing queries when both providers deny usable results.
+        # Do not keep issuing queries when Google denies usable results.
         if not entry and all(s['status'] != 'results' for s in report['searches'].values()):
             break
         time.sleep(2)

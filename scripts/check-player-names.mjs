@@ -195,7 +195,6 @@ if (process.argv.includes('--audit')) {
   const missing = [...names].filter(([name]) => run(`translated(${JSON.stringify(name)})`) === name).sort(([a], [b]) => a.localeCompare(b)).map(([name, leagues]) => ({
     name, leagues: [...leagues].sort(),
     google: `https://www.google.com/search?q=${encodeURIComponent(name)}`,
-    naver: `https://search.naver.com/search.naver?query=${encodeURIComponent(name)}`,
     status: 'needs-source-review'
   }));
   const report = {snapshotAsOf: snapshot.asOf, totalLatinNames: names.size, translated: names.size - missing.length, missing};

@@ -11,7 +11,7 @@ if (process.argv.includes('--queue')) {
     if (!fs.existsSync(new URL(path,root))) continue;
     for (const row of read(path).pending || []) {
       const query = [row.name,row.team,row.league].filter(Boolean).join(' ');
-      entries.push({...row,kind,google:`https://www.google.com/search?q=${encodeURIComponent(query)}`,naver:`https://search.naver.com/search.naver?query=${encodeURIComponent(query)}`});
+      entries.push({...row,kind,google:`https://www.google.com/search?q=${encodeURIComponent(query)}`});
     }
   }
   write('scripts/name-review-queue.json',{policy:'Confirm club/player identity and established Korean full name before approving. Do not publish search snippets automatically.',entries});

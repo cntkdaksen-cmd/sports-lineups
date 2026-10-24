@@ -13,7 +13,7 @@ class NameVerification(unittest.TestCase):
     def page(self, korean='모리츠 니콜라스', english='Moritz Nicolas', team='Borussia Monchengladbach'):
         return r.Page(f'<title>{korean} - 선수 프로필</title><h1>{korean}</h1><p>{korean} ({english}) {team}</p>')
     def proof(self, url, **kwargs):
-        return r.evidence(self.row, url, self.page(**kwargs), '', {'naver'}, {})
+        return r.evidence(self.row, url, self.page(**kwargs), '', {'google'}, {})
     def test_asian_names_remain_distinct_for_search(self):
         self.assertEqual(r.normalize('尾形　崇斗'), '尾形 崇斗')
         self.assertEqual(r.normalize('岳政華'), '岳政華')
@@ -125,15 +125,15 @@ class NameVerification(unittest.TestCase):
         self.assertIsNone(r.verify(self.row, proof))
     def test_search_excerpt_not_evidence(self):
         self.assertEqual(r.evidence(self.row, 'https://ko.wikipedia.org/wiki/A', r.Page('<p>No player information</p>'), '모리츠 니콜라스', {'google'}, {}), [])
-    def test_both_engines_attempted_with_failure(self):
+    def test_only_google_attempted_with_failure(self):
         calls=[]
         def get(url):
             calls.append(url)
             raise ValueError('search-challenge')
         approved, report=r.resolve(self.row,get)
         self.assertIsNone(approved)
-        self.assertEqual(len(calls),2)
-        self.assertEqual(set(report['searches']),{'google','naver'})
+        self.assertEqual(len(calls),1)
+        self.assertEqual(set(report['searches']),{'google'})
         self.assertTrue(all(x['status']=='unavailable' for x in report['searches'].values()))
     def test_safe_links_and_html(self):
         page=r.Page('<script>fake player</script><a href="/url?q=https%3A%2F%2Fko.wikipedia.org%2Fwiki%2FA">모리츠 니콜라스</a><a href="http://127.0.0.1/private">bad</a>')
@@ -143,12 +143,12 @@ class NameVerification(unittest.TestCase):
         self.assertIsNone(r.source_domain('https://user:password@wikipedia.org/A'))
     def test_pipeline_with_public_sources(self):
         def get(url):
-            if 'google.com/search' in url or 'search.naver.com' in url:
+            if 'google.com/search' in url:
                 return r.Page('<a href="https://ko.wikipedia.org/wiki/A">모리츠 니콜라스</a><a href="https://www.transfermarkt.co.kr/B">모리츠 니콜라스</a>')
             return self.page()
         approved, report=r.resolve(self.row,get)
         self.assertEqual(approved['korean'],'모리츠 니콜라스')
-        self.assertEqual(approved['sources'][0]['engines'],['google','naver'])
+        self.assertEqual(approved['sources'][0]['engines'],['google'])
         self.assertEqual(report['status'],'verified')
 
 if __name__=='__main__': unittest.main()
