@@ -1551,6 +1551,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T10:33:31.382983+00:00",
       "nextCheckAt": "2026-10-24T16:33:31.382983+00:00"
+    },
+    "Adrià Pedrosa": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adri%C3%A0+Pedrosa+Rayo+Vallecano&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adri%C3%A0+Pedrosa+Rayo+Vallecano",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T11:01:42.824154+00:00",
+      "nextCheckAt": "2026-10-24T17:01:42.824154+00:00"
     }
   }
 }
