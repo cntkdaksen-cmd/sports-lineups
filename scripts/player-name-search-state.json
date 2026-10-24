@@ -1190,6 +1190,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T07:06:34.590242+00:00",
       "nextCheckAt": "2026-10-31T07:06:34.590242+00:00"
+    },
+    "Alexander Gogic": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alexander+Gogic+St+Mirren&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alexander+Gogic+St+Mirren",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T07:40:01.239251+00:00",
+      "nextCheckAt": "2026-10-24T13:40:01.239251+00:00"
     }
   }
 }
