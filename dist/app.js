@@ -455,7 +455,7 @@ async function recentLineups(event, allEvents, source, kind) {
   }
   return lineups;
 }
-const kblLogoCodes = {'원주 DB':'db','서울 삼성':'ss','고양 소노':'sono','서울 SK':'sk','창원 LG':'lg','안양 정관장':'kgc','부산 KCC':'kcc','수원 KT':'kt','대구 한국가스공사':'pega','울산 현대모비스':'hd'};
+const kblLogoCodes = {'원주 DB':'db','서울 삼성':'ss','서울 삼성 썬더스':'ss','고양 소노':'sono','서울 SK':'sk','창원 LG':'lg','창원 LG 세이커스':'lg','안양 정관장':'kgc','부산 KCC':'kcc','부산 KCC 이지스':'kcc','수원 KT':'kt','대구 한국가스공사':'pega','울산 현대모비스':'hd','울산 현대모비스 피버스':'hd'};
 function teamLogo(team, className = 'team-logo') {
   const data = team?.team || team || {};
   const kblCode = sport === 'kbl' ? kblLogoCodes[data.displayName || data.name] : null;
