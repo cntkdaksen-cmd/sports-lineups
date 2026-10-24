@@ -1409,6 +1409,111 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T09:32:48.394644+00:00",
       "nextCheckAt": "2026-10-31T09:32:48.394644+00:00"
+    },
+    "Alhassan Yusuf": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alhassan+Yusuf+New+England+Revolution&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alhassan+Yusuf+New+England+Revolution",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T10:03:21.359537+00:00",
+      "nextCheckAt": "2026-10-31T10:03:21.359537+00:00"
+    },
+    "Ali Fadal": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ali+Fadal+Colorado+Rapids&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Ali+Fadal+Colorado+Rapids",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T10:03:21.359537+00:00",
+      "nextCheckAt": "2026-10-31T10:03:21.359537+00:00"
+    },
+    "Aliaksei Protas": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aliaksei+Protas+Washington+Capitals&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Aliaksei+Protas+Washington+Capitals",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://shop.nhl.com/washington-capitals/jerseys/t-36156486+d-83333651+z-998-402137785",
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://shop.nhl.com/washington-capitals/mens-washington-capitals-fanatics-red-alternate-premium-custom-jersey/t-47045342+p-688836018136300+z-9-2653236351",
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://shop.nhl.com/washington-capitals/mens-washington-capitals-alexander-ovechkin-fanatics-red-captain-patch-home-breakaway-jersey/t-70263108+p-02334414487176+z-8-2968101802",
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://shop.nhl.com/washington-capitals/mens-washington-capitals-alexander-ovechkin-mitchell-and-ness-white-2005/06-power-play-jersey/t-25823108+p-793312327498316+z-9-2562910454",
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://shop.nhl.com/washington-capitals/mens-washington-capitals-alexander-ovechkin-mitchell-and-ness-black-2005/06-power-play-jersey/t-47150820+p-242257841504939+z-9-1305881747",
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://shop.nhl.com/washington-capitals/mens-washington-capitals-fanatics-red-alternate-premium-jersey/t-36597564+p-803392789269131+z-9-2272828447",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T10:03:21.359537+00:00",
+      "nextCheckAt": "2026-10-31T10:03:21.359537+00:00"
+    },
+    "Alieu Njie": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alieu+Njie+Fiorentina&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alieu+Njie+Fiorentina",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T10:03:21.359537+00:00",
+      "nextCheckAt": "2026-10-31T10:03:21.359537+00:00"
+    },
+    "Alisson Santos": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alisson+Santos+Napoli&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alisson+Santos+Napoli",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T10:03:21.359537+00:00",
+      "nextCheckAt": "2026-10-31T10:03:21.359537+00:00"
     }
   }
 }
