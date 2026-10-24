@@ -1636,6 +1636,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T13:21:24.261296+00:00",
       "nextCheckAt": "2026-10-24T19:21:24.261296+00:00"
+    },
+    "Adam Armstrong": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Armstrong+Wolverhampton+Wanderers&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Adam+Armstrong+Wolverhampton+Wanderers",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T13:52:17.674587+00:00",
+      "nextCheckAt": "2026-10-24T19:52:17.674587+00:00"
     }
   }
 }
