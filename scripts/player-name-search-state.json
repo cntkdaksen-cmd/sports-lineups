@@ -1602,6 +1602,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T12:01:46.706528+00:00",
       "nextCheckAt": "2026-10-24T18:01:46.706528+00:00"
+    },
+    "Amahl Pellegrino": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Amahl+Pellegrino+San+Diego+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Amahl+Pellegrino+San+Diego+FC",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T12:37:55.716410+00:00",
+      "nextCheckAt": "2026-10-24T18:37:55.716410+00:00"
     }
   }
 }
