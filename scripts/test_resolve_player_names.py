@@ -45,6 +45,7 @@ class NameVerification(unittest.TestCase):
         approved,errors=r.bulk_wikipedia([row],{},lambda url:data())
         self.assertEqual(approved['alex iwobi']['korean'],'앨릭스 이워비')
         self.assertEqual(errors,[])
+        self.assertEqual(r.bulk_wikipedia([row],{},lambda url:data('Nigerian professional footballer.'))[0]['alex iwobi']['korean'],'앨릭스 이워비')
         self.assertEqual(r.bulk_wikipedia([row],{},lambda url:data('Actor with no club'))[0],{})
         self.assertEqual(r.bulk_wikipedia([row],{},lambda url:data(ko='Alex Iwobi'))[0],{})
     def test_bulk_failure_is_reported(self):
