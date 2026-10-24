@@ -155,13 +155,24 @@ function applyTeamNames(dictionary) {
 }
 async function refreshTeamNames(current) {
   try {
-    let catalog;
+    let remote, bundled;
     try {
-      catalog = await getJson(`https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/name-catalog.json?v=${Date.now()}`);
-      if (catalog?.schemaVersion !== 1) throw new Error('Invalid name catalog');
-    } catch {
-      catalog = await getJson(`name-catalog.json?v=${Date.now()}`);
-    }
+      remote = await getJson(`https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/name-catalog.json?v=${Date.now()}`);
+      if (remote?.schemaVersion !== 1) remote = null;
+    } catch {}
+    try {
+      bundled = await getJson(`name-catalog.json?v=${Date.now()}`);
+      if (bundled?.schemaVersion !== 1) bundled = null;
+    } catch {}
+    if (!remote && !bundled) throw new Error('Name catalog unavailable');
+    // Prefer the newer catalog when GitHub's CDN temporarily serves an older snapshot.
+    const [older, newer] = Date.parse(remote?.generatedAt || 0) > Date.parse(bundled?.generatedAt || 0)
+      ? [bundled, remote] : [remote, bundled];
+    const catalog = {
+      teams: {...older?.teams,...newer?.teams},
+      teamEnglish: {...older?.teamEnglish,...newer?.teamEnglish},
+      players: {...older?.players,...newer?.players}
+    };
     const dictionary = catalog.teams;
     const english = catalog.teamEnglish || {};
     if (Array.isArray(english) || typeof english !== 'object' || Object.entries(english).some(([name,full])=>!name || typeof full !== 'string' || !full || full.length>160)) throw new Error('Invalid full team name catalog');
