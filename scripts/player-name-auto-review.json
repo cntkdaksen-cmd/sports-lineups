@@ -988,6 +988,595 @@
         }
       ],
       "verifiedAt": "2026-10-24T14:09:02.856935+00:00"
+    },
+    {
+      "name": "Daniel Peretz",
+      "korean": "다니엘 페레츠",
+      "team": "Southampton",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Daniel_Peretz",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "다니엘 페레츠",
+          "contentHash": "61fda388a30f88c8cb991a66ad74aa76e8ebf4a7d7caa5cc6e71ac6e9a2305a6"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Edo Kayembe",
+      "korean": "에도 카옘베",
+      "team": "Watford",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Edo_Kayembe",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "에도 카옘베",
+          "contentHash": "c92ced807115d9788109f1148882033a870ee4f041efc93e416e33e93a24bf74"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Elijah Just",
+      "korean": "엘리야 저스트",
+      "team": "Swansea City",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Elijah_Just",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "엘리야 저스트",
+          "contentHash": "1a2e1afadffa18d0b17464db02e5111b3e6952e566dadff44cb7e9519e83b0eb"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Ethan Pinnock",
+      "korean": "이선 피노크",
+      "team": "Coventry City",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ethan_Pinnock",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "이선 피노크",
+          "contentHash": "5fbf28d59cca398e3d4a8f7179d41726114505b3f115145cee2d8cad612a8add"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Glen Kamara",
+      "korean": "글렌 카마라",
+      "team": "Queens Park Rangers",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Glen_Kamara",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "글렌 카마라",
+          "contentHash": "98c938a8c3d715e78d02d33f5dac717acc9d45d6125f9f7a8f2d2425cd5c0e57"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Hjalmar Ekdal",
+      "korean": "얄마르 에크달",
+      "team": "Burnley",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hjalmar_Ekdal",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "얄마르 에크달",
+          "contentHash": "3821f2aa68a94fd038c405aac32d4ec81429ad470c6f99c7f881c9f981ee84be"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Igor Julio",
+      "korean": "이고르 줄리우",
+      "team": "Burnley",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Igor_Julio",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "이고르 줄리우",
+          "contentHash": "eac1983b8890f53d17dbade4164dddcf7c735e42396b416d28e3538171326d27"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Issa Kaboré",
+      "korean": "이사 카보레",
+      "team": "Wrexham",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Issa_Kabor%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "이사 카보레",
+          "contentHash": "e414a6408b9462838d5ea52327fb1232793f442c5e2a0d61e6e6484cf5303be7"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "James Ward-Prowse",
+      "korean": "제임스 워드프라우즈",
+      "team": "Southampton",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/James_Ward-Prowse",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "제임스 워드프라우즈",
+          "contentHash": "512cc63a94ed8fe4575d198dc630be1d31eabcbf8afa117df039f977d839a4c1"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Jarrod Bowen",
+      "korean": "재러드 보언",
+      "team": "West Ham United",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jarrod_Bowen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "재러드 보언",
+          "contentHash": "2f35185cbbd58079fb1a497088c692eab27e46144e9ad834b51726c156af0c50"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Jean-Ricner Bellegarde",
+      "korean": "장리크네르 벨가르드",
+      "team": "Wolverhampton Wanderers",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jean-Ricner_Bellegarde",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "장리크네르 벨가르드",
+          "contentHash": "1ba81aa31db6e7871fcc89640b4e4391f5bf034d8f6b524c930059d4af9f6b09"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Jesse Randall",
+      "korean": "제시 랜들",
+      "team": "Dundee United",
+      "league": "scottish",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jesse_Randall",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "제시 랜들",
+          "contentHash": "0208b55a38a0e7c9e11f53745ad64a1a80d11cd3332e12784eab40515585498a"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "José Sá",
+      "korean": "조제 사",
+      "team": "Wolverhampton Wanderers",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_S%C3%A1",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조제 사",
+          "contentHash": "97168bb768b591e68f68688d726c9fd1269c68109ff6bb3ad516f4ff87ac5996"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Keven Schlotterbeck",
+      "korean": "케벤 슐로터베크",
+      "team": "Southampton",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Keven_Schlotterbeck",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "케벤 슐로터베크",
+          "contentHash": "5ef4a5184ffdf595bce70c49bc001a1bc0ba83528a33a7b21a962be2b2501aa2"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Kieffer Moore",
+      "korean": "키퍼 무어",
+      "team": "Wrexham",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kieffer_Moore",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "키퍼 무어",
+          "contentHash": "fff2b3903a589f1239f1a759f3088b334e0a9c6e04bdb82f42af04dd785b664b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Kieran Trippier",
+      "korean": "키어런 트리피어",
+      "team": "Wolverhampton Wanderers",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kieran_Trippier",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "키어런 트리피어",
+          "contentHash": "19c371d827cf214ab46e3c3956f10ea12e3f2884777c96f0efc7c1ef70a9e800"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Konstantinos Mavropanos",
+      "korean": "콘스탄티노스 마브로파노스",
+      "team": "West Ham United",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Konstantinos_Mavropanos",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "콘스탄티노스 마브로파노스",
+          "contentHash": "704cd5c93894b3fb36a324e9f722f6d8e43a93aaaea25e373c433bdb88d5ec34"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Krépin Diatta",
+      "korean": "크레팽 디아타",
+      "team": "Watford",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kr%C3%A9pin_Diatta",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "크레팽 디아타",
+          "contentHash": "c7ef96eb5e27d9653042c3c08cbd9d0fab4bb25786584eaf303556ebe3ab0336"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Kuryu Matsuki",
+      "korean": "마쓰키 구류",
+      "team": "Southampton",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kuryu_Matsuki",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마쓰키 구류",
+          "contentHash": "4c580710e0bf6d5406ecafa522f318b965a95a1043bd99ff860ba1379add6105"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Kyle Walker",
+      "korean": "카일 워커",
+      "team": "Burnley",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kyle_Walker",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "카일 워커",
+          "contentHash": "e3bd68c5c59eb84c298ecd4f70f282e35619d5214e3aeeda5dfc627c6036eab4"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Kyle Walker-Peters",
+      "korean": "카일 워커피터스",
+      "team": "West Ham United",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kyle_Walker-Peters",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "카일 워커피터스",
+          "contentHash": "60bb843091c6e64bf9f843112d0ad233cb342a62def59c6f06aa2acecac816b0"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Lewis Dobbin",
+      "korean": "루이스 도빈",
+      "team": "Southampton",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lewis_Dobbin",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "루이스 도빈",
+          "contentHash": "62acb9031ce40a8c82936eb5ab4eeb0b81139f80c5d221183542b2db5e9d9b3c"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Liam Millar",
+      "korean": "리엄 밀라",
+      "team": "Birmingham City",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Liam_Millar",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "리엄 밀라",
+          "contentHash": "a8950803d2e67347481e1fb31f8568fa3d98f2de12aeaeef65e357d3d21b4e53"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Mads Hermansen",
+      "korean": "마스 헤르만센",
+      "team": "West Ham United",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mads_Hermansen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마스 헤르만센",
+          "contentHash": "d77a6455905d4609b1b88c9aa242becd03a117bef3997806b40816435816fda2"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Manor Solomon",
+      "korean": "마노르 솔로몬",
+      "team": "West Ham United",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Manor_Solomon",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마노르 솔로몬",
+          "contentHash": "a8a36144db61cd52a78b47d785e83b83759737146d7303dee24e06ac0600b24d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Marshall Munetsi",
+      "korean": "마셜 무네치",
+      "team": "Wolverhampton Wanderers",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Marshall_Munetsi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마셜 무네치",
+          "contentHash": "137ba6ddc7ee610f8b4eb3a7824182d47a852006b64cab4dc6cc62e2302d8264"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Martin Ødegaard",
+      "korean": "마르틴 외데고르",
+      "team": "Arsenal",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Martin_%C3%98degaard",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마르틴 외데고르",
+          "contentHash": "f4eaed55c4c95f9cbc1b7a2780366788b2f8753537a002bd3e75512b18995950"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Matt Grimes",
+      "korean": "맷 그라임스",
+      "team": "Coventry City",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Matt_Grimes",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "맷 그라임스",
+          "contentHash": "04d7579118fb3ed225377046e85e434e32cdfd2f9925f1b3b73cb94832cd1877"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Mikel Merino",
+      "korean": "미켈 메리노",
+      "team": "Arsenal",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mikel_Merino",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "미켈 메리노",
+          "contentHash": "54ea15aa91715c6f7194b7cbcc56b96583aa08182d4a042e41dd9c445653ef46"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Nicolas Raskin",
+      "korean": "니콜라 라스킨",
+      "team": "Rangers",
+      "league": "scottish",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nicolas_Raskin",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "니콜라 라스킨",
+          "contentHash": "47068d210f2a19069064140ee4d323613ca081c8bca9124a0fc9a959d79c587f"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
+    },
+    {
+      "name": "Oscar Bobb",
+      "korean": "오스카르 보브",
+      "team": "Fulham",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Oscar_Bobb",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "오스카르 보브",
+          "contentHash": "bc8dbd137aade11a0b47105f61e838fa29471cdc2bd5580d8a3fbcad4561ef61"
+        }
+      ],
+      "verifiedAt": "2026-10-24T14:16:07.968161+00:00"
     }
   ]
 }
