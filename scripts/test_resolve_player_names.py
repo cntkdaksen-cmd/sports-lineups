@@ -14,6 +14,10 @@ class NameVerification(unittest.TestCase):
         return r.Page(f'<title>{korean} - 선수 프로필</title><h1>{korean}</h1><p>{korean} ({english}) {team}</p>')
     def proof(self, url, **kwargs):
         return r.evidence(self.row, url, self.page(**kwargs), '', {'naver'}, {})
+    def test_asian_names_remain_distinct_for_search(self):
+        self.assertEqual(r.normalize('尾形　崇斗'), '尾形 崇斗')
+        self.assertEqual(r.normalize('岳政華'), '岳政華')
+        self.assertNotEqual(r.normalize('尾形　崇斗'), r.normalize('石田　裕太郎'))
     def test_google_result_registers_without_second_source(self):
         calls=[]
         def get(url):

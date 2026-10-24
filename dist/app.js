@@ -351,6 +351,11 @@ async function getProjections() {
   indexTeamSearch(projections);
   return projections;
 }
+function projectionCheckedLabel(projections, key) {
+  const source = projections.sourceStatus?.[key];
+  const checked = source ? source.checkedAt : projections.asOf;
+  return `${source?.fresh === false ? '자료원 갱신 실패 · 마지막 자료 ' : '자료 기준 '}${checked ? kst(checked) : '확인 불가'}`;
+}
 function starters(summary, event, kind) {
   const competition = event.competitions[0];
   const result = {};
@@ -400,18 +405,30 @@ function predictionFor(event, items, key) {
   const aliases={SJS:'SJ',NJD:'NJ',LAK:'LA',VGK:'VGK',...codeAliases};
   const code = value => aliases[value] || value;
   const normalize = value => String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
-  const sameName = (a,b) => normalize(a).includes(normalize(b)) || normalize(b).includes(normalize(a));
-  const found = items.find(item => {
+  const sameName = (a,b) => {
+    const left=normalize(a),right=normalize(b);
+    return Boolean(left && right && (left.includes(right) || right.includes(left)));
+  };
+  const found = items.map(item => {
     const timeWindow=key==='nhl'?12:2;
     if (item.league !== key || !Number.isFinite(Date.parse(item.kickoff)) || Math.abs(Date.parse(item.kickoff)-Date.parse(event.date)) >= timeWindow*3600000) return false;
     const normal = item.names?.away && item.names?.home && sameName(item.names.away,away.team.displayName) && sameName(item.names.home,home.team.displayName);
     const reversed = item.names?.away && item.names?.home && sameName(item.names.away,home.team.displayName) && sameName(item.names.home,away.team.displayName);
-    const codesNormal = code(item.teams?.away) === code(away.team.abbreviation) && code(item.teams?.home) === code(home.team.abbreviation);
-    const codesReversed = code(item.teams?.away) === code(home.team.abbreviation) && code(item.teams?.home) === code(away.team.abbreviation);
+    const codesAvailable = item.teams?.away && item.teams?.home && away.team.abbreviation && home.team.abbreviation;
+    const codesNormal = codesAvailable && code(item.teams.away) === code(away.team.abbreviation) && code(item.teams.home) === code(home.team.abbreviation);
+    const codesReversed = codesAvailable && code(item.teams.away) === code(home.team.abbreviation) && code(item.teams.home) === code(away.team.abbreviation);
     if (normal || codesNormal) return item;
-    return reversed || codesReversed ? {...item,lineups:{away:item.lineups?.home,home:item.lineups?.away},injuries:{away:item.injuries?.home,home:item.injuries?.away},injuryDetails:{away:item.injuryDetails?.home,home:item.injuryDetails?.away}} : false;
-  });
+    return reversed || codesReversed ? {...item,
+      lineups:{away:item.lineups?.home,home:item.lineups?.away},
+      injuries:{away:item.injuries?.home,home:item.injuries?.away},
+      injuryDetails:{away:item.injuryDetails?.home,home:item.injuryDetails?.away},
+      startingPitchers:{away:item.startingPitchers?.home,home:item.startingPitchers?.away},
+      statuses:{away:item.statuses?.home,home:item.statuses?.away}} : false;
+  }).find(Boolean);
   return found || null;
+}
+function fillMissingLineups(existing={}, fallback={}) {
+  return {away:existing.away?.length?existing.away:(fallback.away||[]),home:existing.home?.length?existing.home:(fallback.home||[])};
 }
 async function recentLineups(event, allEvents, source, kind) {
   const competitors = event.competitions[0].competitors;
@@ -554,9 +571,12 @@ function gameCard(event, lineups, prediction, allEvents = []) {
   const away = competition.competitors.find(team => team.homeAway === 'away');
   const home = competition.competitors.find(team => team.homeAway === 'home');
   if (!away || !home) return '';
-  const confirmed = Boolean(lineups.away?.length && lineups.home?.length);
-  const projected = !confirmed && Boolean(prediction?.lineups?.away?.length && prediction?.lineups?.home?.length);
-  const shown = confirmed ? lineups : projected ? prediction.lineups : {};
+  const shown = {away:lineups.away?.length ? lineups.away : prediction?.lineups?.away || [],
+    home:lineups.home?.length ? lineups.home : prediction?.lineups?.home || []};
+  const confirmed = Boolean(shown.away.length && shown.home.length &&
+    (lineups.away?.length || prediction?.statuses?.away === 'confirmed') &&
+    (lineups.home?.length || prediction?.statuses?.home === 'confirmed'));
+  const projected = !confirmed && Boolean(shown.away.length || shown.home.length);
   const lineupRows=Math.max(shown.away?.length||0,shown.home?.length||0,1);
   const teamRows=lineupRows+(['mlb','kbo','npb','cpbl'].includes(sport)?2:1);
   const statusText = confirmed ? label('Confirmed starters','확정 선발') : projected ? label('Projected lineup','예상 선발') : '';
@@ -704,9 +724,9 @@ async function majorGameData(row,projections,history) {
       lineups=starters(summary,row.event,kind);
       if(kind==='mlb')prediction={...prediction,startingPitchers:{...prediction?.startingPitchers,...summaryPitchers(summary,row.event)}};
     } catch {}
-    if((!lineups.away?.length || !lineups.home?.length) && (!prediction?.lineups?.away?.length || !prediction?.lineups?.home?.length)) {
+    if((!lineups.away?.length && !prediction?.lineups?.away?.length) || (!lineups.home?.length && !prediction?.lineups?.home?.length)) {
       const fallback=await recentLineups(row.event,history,source,kind);
-      if(fallback.away?.length || fallback.home?.length)prediction={...prediction,lineups:{...prediction?.lineups,...fallback,...lineups},statuses:{away:'predicted',home:'predicted'},note:'최근 경기 선발 기준 예상'};
+      if(fallback.away?.length || fallback.home?.length)prediction={...prediction,lineups:fillMissingLineups(lineups,fillMissingLineups(prediction?.lineups,fallback)),statuses:{away:prediction?.statuses?.away||'predicted',home:prediction?.statuses?.home||'predicted'},note:prediction?.note||'최근 경기 선발 기준 예상'};
     }
   }
   return {...row,prediction,lineups};
@@ -734,14 +754,12 @@ async function loadMajorGames(current) {
       sport=leagueIds.includes(row.key)?'football':row.key;
       if(sport==='football')league=row.key;
       const prediction=row.prediction;
-      const confirmed=prediction?.statuses?.home==='confirmed' && prediction?.statuses?.away==='confirmed';
-      const actual=row.lineups?.away?.length && row.lineups?.home?.length;
-      const card=gameCard(row.event,actual?row.lineups:confirmed?prediction.lineups||{}:{},prediction,allRows.filter(r=>r.key===row.key).map(r=>r.event));
+      const card=gameCard(row.event,row.lineups||{},prediction,allRows.filter(r=>r.key===row.key).map(r=>r.event));
       return card.replace('tabindex="-1">',`tabindex="-1"><div class="overview-league">${safe(dropdownLeagueNames[row.key]||sources[row.key].label[1])}</div>`);
     });
     if(current===requestId){
       $('games').innerHTML=cards.length?`<div class="major-heading"><h2>오늘·내일 주요 경기</h2><p>결승·포스트시즌, 인기 리그·주요 팀 중심으로 선정 · 최대 12경기</p></div>`+cards.join(''):`<div class="empty">${scores.some(r=>r.status==='fulfilled')?'오늘·내일 선정 기준에 맞는 주요 경기가 없습니다. 전체 경기는 종목 메뉴에서 확인하세요.':'주요 경기 일정을 불러오지 못했습니다. 새로고침해 주세요.'}</div>`;
-      $('updated').textContent=`주요 경기 ${cards.length}개 · 확인 시각 ${kst(new Date().toISOString())}`;
+      $('updated').textContent=`주요 경기 ${cards.length}개 · 일정 확인 ${kst(new Date().toISOString())} · 예상 자료 ${projections.asOf ? kst(projections.asOf) : '확인 불가'}`;
     }
   } finally {sport=previousSport;league=previousLeague;}
 }
@@ -766,7 +784,7 @@ async function loadGames() {
       const entries = projections.domestic?.[domesticKey] || [];
       const events = entries.filter(entry => Date.parse(entry.event.date) >= dayStart && Date.parse(entry.event.date) < dayEnd).sort((a,b) => Date.parse(a.event.date)-Date.parse(b.event.date));
       if (current !== requestId) return;
-      $('updated').textContent = label('Checked ','확인 시각 ') + kst(new Date().toISOString());
+      $('updated').textContent = projectionCheckedLabel(projections,domesticKey);
       $('games').innerHTML = events.length
         ? events.map(entry => { const confirmed = entry.prediction.statuses?.home === 'confirmed' && entry.prediction.statuses?.away === 'confirmed'; return gameCard(entry.event,confirmed ? entry.prediction.lineups || {} : {},entry.prediction,[]); }).join('')
         : `<div class="empty">${label('No scheduled games in this two-day period.','당일과 다음 날 예정된 경기가 없습니다.')}</div>`;
@@ -791,7 +809,7 @@ async function loadGames() {
     const allEvents = [...unique.values()];
     const events = allEvents.filter(event => !event.status?.type?.completed && event.competitions?.[0]?.timeValid !== false && Date.parse(event.date) >= dayStart && Date.parse(event.date) < dayEnd).sort((a,b) => Date.parse(a.date)-Date.parse(b.date));
     indexTeamSearch({domestic:{[sport==='football'?league:sport]:events.map(event=>({event}))}},true);
-    $('updated').textContent = label('Checked ','확인 시각 ') + kst(new Date().toISOString());
+    $('updated').textContent = `일정 확인 ${kst(new Date().toISOString())} · ${projectionCheckedLabel(predictionsResult,sport==='football'?league:sport)}`;
     if (!events.length) {
       $('games').innerHTML = `<div class="empty">${label('No scheduled games in this two-day period.','당일과 다음 날 예정된 경기가 없습니다.')}</div>`;
       return;
@@ -804,7 +822,7 @@ async function loadGames() {
       let prediction = predictionFor(event,predictionItems,key);
       if (!prediction?.lineups?.away?.length || !prediction?.lineups?.home?.length) {
         const fallback = await recentLineups(event,allEvents,source,kind);
-        if (fallback.away?.length || fallback.home?.length) prediction = {...(prediction || {}),league:key,kickoff:event.date,lineups:{...prediction?.lineups,...fallback},injuries:prediction?.injuries || {},statuses:{away:'predicted',home:'predicted'},note:'최근 경기 선발 기준 예상'};
+        if (fallback.away?.length || fallback.home?.length) prediction = {...(prediction || {}),league:key,kickoff:event.date,lineups:fillMissingLineups(prediction?.lineups,fallback),injuries:prediction?.injuries || {},statuses:{away:prediction?.statuses?.away||'predicted',home:prediction?.statuses?.home||'predicted'},note:prediction?.note||'최근 경기 선발 기준 예상'};
       }
       if (hours > (kind === 'mlb' ? 8 : 3)) return {event,lineups:{},prediction};
       try {

@@ -17,6 +17,7 @@ on:
       - 'scripts/build-name-catalog.mjs'
       - 'scripts/collect-player-names.mjs'
       - 'scripts/resolve-player-names.py'
+      - 'scripts/publish-generated.sh'
       - 'scripts/test_resolve_player_names.py'
       - 'scripts/check-player-names.mjs'
       - '.github/workflows/refresh-names.yml'
@@ -70,12 +71,4 @@ jobs:
             scripts/player-name-run-report.json
           retention-days: 7
       - name: Publish the name catalog
-        run: |
-          if ! git diff --quiet -- dist/name-catalog.json dist/team-ko.json scripts/player-name-auto-review.json scripts/player-name-search-state.json scripts/player-name-run-report.json; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add dist/name-catalog.json dist/team-ko.json scripts/player-name-auto-review.json scripts/player-name-search-state.json scripts/player-name-run-report.json
-            git commit -m "chore: publish approved full names"
-            git pull --rebase
-            git push
-          fi
+        run: bash scripts/publish-generated.sh 'chore: publish approved full names' dist/name-catalog.json dist/team-ko.json scripts/player-name-auto-review.json scripts/player-name-search-state.json scripts/player-name-run-report.json

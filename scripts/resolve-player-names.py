@@ -28,7 +28,7 @@ GOOGLE_METHOD = 'google-search-result-v1'
 
 def normalize(value):
     value = ''.join(c for c in unicodedata.normalize('NFKD', str(value)) if not unicodedata.combining(c))
-    return re.sub(r'[^a-z0-9가-힣]+', ' ', unicodedata.normalize('NFC', value).lower()).strip()
+    return re.sub(r'[^a-z0-9가-힣ぁ-ゟァ-ヿ一-龯々〆〤]+', ' ', unicodedata.normalize('NFC', value).lower()).strip()
 
 
 def source_domain(url):
@@ -304,7 +304,7 @@ def main():
     for row in inventory['records']:
         key = normalize(row['name'])
         if row.get('team'): contexts.setdefault(key, set()).add(normalize(row['team']))
-        if re.search(r'[a-zA-Z]', row['name']) and key == normalize(row.get('korean', row['name'])) and key not in known:
+        if re.search(r'[a-zA-Zぁ-ゟァ-ヿ一-龯々〆〤]', row['name']) and key == normalize(row.get('korean', row['name'])) and key not in known:
             if key not in pending or priority(row, state, now) < priority(pending[key], state, now): pending[key] = row
     eligible = [row for key, row in pending.items() if len(contexts.get(key, set())) == 1
                 and (state['players'].get(key, {}).get('policy') != POLICY

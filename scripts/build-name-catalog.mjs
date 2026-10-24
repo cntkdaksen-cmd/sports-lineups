@@ -45,7 +45,7 @@ if (process.argv.includes('--queue')) {
   // Human-reviewed spellings always take precedence over automated additions.
   vm.runInContext(fs.readFileSync(new URL('dist/football-ko.js',root),'utf8'),context);
   const manual={...vm.runInContext('footballKo',context),...vm.runInContext('playerKo',context),...read('scripts/player-name-review.json').userOverrides};
-  const normalized=name=>name.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+  const normalized=name=>name.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
   const manualKeys=new Set(Object.keys(manual).map(normalized));
   const players = {...Object.fromEntries(Object.entries(automatic).filter(([name])=>!manualKeys.has(normalized(name)))),...manual};
   for (const dictionary of [teams,players]) {

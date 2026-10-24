@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
-const root=new URL('../',import.meta.url).pathname;
+import { fileURLToPath } from 'node:url';
+const root=fileURLToPath(new URL('../',import.meta.url));
 const arg=(flag,fallback)=>{const i=process.argv.indexOf(flag);return i<0?fallback:process.argv[i+1]};
 const output=arg('--output',root+'scripts/player-name-live-inventory.json');
 const cacheDir=arg('--cache-dir',null);if(cacheDir)fs.mkdirSync(cacheDir,{recursive:true});

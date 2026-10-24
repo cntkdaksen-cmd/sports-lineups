@@ -911,37 +911,62 @@ def scrape_kovo_bkvolley():
 
 
 def main():
+    path = ROOT / 'dist' / 'projections.json'
+    previous = json.loads(path.read_text()) if path.exists() else {}
+    today = datetime.now(ZoneInfo('Asia/Seoul')).date()
+    tomorrow = today.fromordinal(today.toordinal() + 1)
+    def within_window(entry, field):
+        try:
+            return datetime.fromisoformat(entry[field].replace('Z', '+00:00')).astimezone(ZoneInfo('Asia/Seoul')).date() in (today, tomorrow)
+        except (KeyError, TypeError, ValueError):
+            return False
     all_results = []
+    source_status = {}
     for league, (code, kind) in SOURCES.items():
-        found = scrape_page(league, code, kind)
+        try:
+            found = scrape_page(league, code, kind)
+            source_status[league] = {'fresh': True, 'checkedAt': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')}
+        except Exception as error:
+            print(league, 'source unavailable:', error)
+            found = [item for item in previous.get('items', []) if item.get('league') == league and within_window(item, 'kickoff')]
+            source_status[league] = {'fresh': False, 'checkedAt': previous.get('sourceStatus', {}).get(league, {}).get('checkedAt')}
         all_results.extend(found)
         print(league, len(found))
-    europa = scrape_europa()
+    try:
+        europa = scrape_europa()
+        source_status['uel'] = {'fresh': True, 'checkedAt': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')}
+    except Exception as error:
+        print('uel source unavailable:', error)
+        europa = [item for item in previous.get('items', []) if item.get('league') == 'uel' and within_window(item, 'kickoff')]
+        source_status['uel'] = {'fresh': False, 'checkedAt': previous.get('sourceStatus', {}).get('uel', {}).get('checkedAt')}
     all_results.extend(europa)
     print('uel', len(europa))
     try:
         nhl = scrape_nhl_dailyfaceoff()
         all_results.extend(nhl)
+        source_status['nhl'] = {'fresh': True, 'checkedAt': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')}
         print('nhl-dailyfaceoff', len(nhl))
     except Exception as error:
         print('nhl Daily Faceoff unavailable:', error)
-    if not all_results:
-        raise SystemExit('No lineups fetched; keeping the current snapshot')
-    path = ROOT / 'dist' / 'projections.json'
-    previous = json.loads(path.read_text()) if path.exists() else {}
-    payload = {'asOf': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'), 'items': all_results}
+        all_results.extend(item for item in previous.get('items', []) if item.get('league') == 'nhl' and within_window(item, 'kickoff'))
+        source_status['nhl'] = {'fresh': False, 'checkedAt': previous.get('sourceStatus', {}).get('nhl', {}).get('checkedAt')}
+    payload = {'asOf': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'), 'items': all_results, 'sourceStatus': source_status}
     payload['domestic'] = {}
     for key, scraper in (('kbo', scrape_kbo_official), ('kbl', scrape_kbl_statgg), ('kovo', scrape_kovo_bkvolley), ('npb', scrape_npb), ('cpbl', scrape_cpbl),
                          ('kleague1', lambda: scrape_fotmob_kleague(9080, 'kleague1')),
                          ('kleague2', lambda: scrape_fotmob_kleague(9116, 'kleague2')), ('khl', scrape_khl)):
         try:
             payload['domestic'][key] = scraper()
+            source_status[key] = {'fresh': True, 'checkedAt': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')}
             print(key + ('-statgg' if key == 'kbl' else '-official'), len(payload['domestic'][key]))
         except Exception as error:
             print(key + ' source unavailable:', error)
-            payload['domestic'][key] = previous.get('domestic', {}).get(key, [])
+            payload['domestic'][key] = [entry for entry in previous.get('domestic', {}).get(key, []) if within_window(entry.get('event', {}), 'date')]
+            source_status[key] = {'fresh': False, 'checkedAt': previous.get('sourceStatus', {}).get(key, {}).get('checkedAt')}
+    if not any(status['fresh'] for status in source_status.values()):
+        raise SystemExit('No lineup sources refreshed; keeping the current snapshot')
     enrich_injury_details(payload)
-    if previous.get('items') == payload.get('items') and previous.get('domestic') == payload.get('domestic'):
+    if previous.get('items') == payload.get('items') and previous.get('domestic') == payload.get('domestic') and previous.get('sourceStatus') == payload.get('sourceStatus'):
         print('No lineup changes')
         return
     path.write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')))

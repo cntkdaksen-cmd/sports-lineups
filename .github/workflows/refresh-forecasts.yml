@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/update-external-forecasts.py'
+      - 'scripts/publish-generated.sh'
       - 'scripts/check-external-forecasts.py'
       - 'scripts/check-win-probability.mjs'
       - 'dist/win-probability.js'
@@ -45,12 +46,4 @@ jobs:
           path: dist/external-forecasts.json
           retention-days: 3
       - name: Commit verified probability feed
-        run: |
-          if ! git diff --quiet -- dist/external-forecasts.json; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add dist/external-forecasts.json
-            git commit -m "chore: refresh published match probabilities"
-            git pull --rebase
-            git push
-          fi
+        run: bash scripts/publish-generated.sh 'chore: refresh published match probabilities' dist/external-forecasts.json

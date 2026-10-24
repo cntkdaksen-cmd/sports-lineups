@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/update-projections.py'
+      - 'scripts/publish-generated.sh'
       - 'scripts/test_npb_schedule.py'
       - 'scripts/test_starting_pitchers.py'
       - 'scripts/starting-pitcher-review.json'
@@ -52,8 +53,6 @@ jobs:
           node-version: '22'
       - name: Validate game outcome estimates
         run: node scripts/check-win-probability.mjs
-      - name: Build approved Korean full-name catalog
-        run: node scripts/build-name-catalog.mjs
       - name: Audit Korean names across all leagues
         run: node scripts/check-player-names.mjs --audit
       - name: Collect names from live lineup and injury renderers
@@ -75,12 +74,4 @@ jobs:
             scripts/name-review-queue.json
           retention-days: 3
       - name: Commit lineup changes
-        run: |
-          if ! git diff --quiet -- dist/projections.json dist/name-catalog.json dist/team-ko.json; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add dist/projections.json dist/name-catalog.json dist/team-ko.json
-            git commit -m "chore: refresh lineups and approved full names"
-            git pull --rebase
-            git push
-          fi
+        run: bash scripts/publish-generated.sh 'chore: refresh lineups' dist/projections.json
