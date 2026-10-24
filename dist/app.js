@@ -337,17 +337,18 @@ async function getJson(url) {
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   return response.json();
 }
-async function getProjections() {
-  let projections;
-  try {
-    projections=await getJson(`https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/projections.json?v=${Date.now()}`);
-    if(!Array.isArray(projections?.items) || !projections.domestic)throw new Error('Invalid lineup snapshot');
-  } catch {
+async function getProjections(preferFresh=false) {
+  const fromApi = async () => {
     const response = await fetch(`${projectionUrl}&v=${Date.now()}`,{cache:'no-store',headers:{Accept:'application/vnd.github+json'}});
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const binary = atob((await response.json()).content.replace(/\s/g,''));
-    projections=JSON.parse(new TextDecoder().decode(Uint8Array.from(binary,character => character.charCodeAt(0))));
-  }
+    return JSON.parse(new TextDecoder().decode(Uint8Array.from(binary,character => character.charCodeAt(0))));
+  };
+  const fromRaw = () => getJson(`https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/projections.json?v=${Date.now()}`);
+  let projections;
+  try { projections=await (preferFresh ? fromApi() : fromRaw()); }
+  catch { projections=await (preferFresh ? fromRaw() : fromApi()); }
+  if(!Array.isArray(projections?.items) || !projections.domestic)throw new Error('Invalid lineup snapshot');
   indexTeamSearch(projections);
   return projections;
 }
@@ -731,12 +732,12 @@ async function majorGameData(row,projections,history) {
   }
   return {...row,prediction,lineups};
 }
-async function loadMajorGames(current) {
+async function loadMajorGames(current,preferFresh=false) {
   const [start,end]=kstDayRange();
   const first=new Date(start),previous=new Date(Date.UTC(first.getUTCFullYear(),first.getUTCMonth()-1,1));
   const months=[...new Set([previous,first,new Date(end-1)].map(date=>date.toISOString().slice(0,7).replace('-','')))];
   const jobs=majorLeagueIds.filter(key=>sources[key].path).flatMap(key=>months.map(month=>({key,url:`https://site.api.espn.com/apis/site/v2/sports/${sources[key].path}/scoreboard?dates=${month}&limit=500`})));
-  const [scores,projections]=await Promise.all([Promise.allSettled(jobs.map(async job=>({key:job.key,data:await getJson(job.url)}))),getProjections().catch(()=>({items:[],domestic:{}}))]);
+  const [scores,projections]=await Promise.all([Promise.allSettled(jobs.map(async job=>({key:job.key,data:await getJson(job.url)}))),getProjections(preferFresh).catch(()=>({items:[],domestic:{}}))]);
   if(current!==requestId)return;
   const rows=scores.filter(r=>r.status==='fulfilled').flatMap(r=>(r.value.data.events||[]).map(event=>({key:r.value.key,event})));
   for(const key of majorLeagueIds)for(const entry of projections.domestic?.[key]||[])rows.push({key,event:entry.event,prediction:entry.prediction});
@@ -763,7 +764,7 @@ async function loadMajorGames(current) {
     }
   } finally {sport=previousSport;league=previousLeague;}
 }
-async function loadGames() {
+async function loadGames(preferFresh=false) {
   const current = ++requestId;
   nameReview = {request:current,names:new Map()};
   $('name-review').textContent = '저장 표기 대조 중…';
@@ -772,13 +773,13 @@ async function loadGames() {
   $('games').innerHTML='<div class="empty">최신 경기 불러오는 중…</div>';
   await Promise.all([refreshTeamNames(current),refreshExternalForecasts(current)]);
   if (current !== requestId) return;
-  if(majorView){await loadMajorGames(current);return;}
+  if(majorView){await loadMajorGames(current,preferFresh);return;}
   const domesticKey = ['kbo','kbl','wkbl','kovo','khl','npb','cpbl'].includes(sport) ? sport : sport === 'football' && ['kleague1','kleague2'].includes(league) ? league : null;
   if (domesticKey) {
     const source = sources[domesticKey];
     $('games').innerHTML = `<div class="empty">${label('Loading latest schedule…','최신 경기 일정 불러오는 중…')}</div>`;
     try {
-      const projections = await getProjections();
+      const projections = await getProjections(preferFresh);
       if (current !== requestId) return;
       const [dayStart,dayEnd] = kstDayRange();
       const entries = projections.domestic?.[domesticKey] || [];
@@ -799,7 +800,7 @@ async function loadGames() {
   try {
     const [months, predictionsResult] = await Promise.all([
       Promise.allSettled(monthKeys().map(month => getJson(`https://site.api.espn.com/apis/site/v2/sports/${source.path}/scoreboard?dates=${month}&limit=500`))),
-      getProjections().catch(() => ({asOf:null,items:[]}))
+      getProjections(preferFresh).catch(() => ({asOf:null,items:[]}))
     ]);
     if (current !== requestId) return;
     const successful = months.filter(result => result.status === 'fulfilled');
@@ -852,7 +853,7 @@ $('sport-menu').addEventListener('change',event => {
 $('leagues').addEventListener('click',event => { const button=event.target.closest('[data-league],[data-sport]'); if (button?.dataset.league) { majorView=false; league=button.dataset.league; loadGames(); } else if (button?.dataset.sport) { majorView=false; sport=button.dataset.sport; loadGames(); } });
 $('language').addEventListener('click',() => { language=language === 'ko' ? 'en' : 'ko'; loadGames(); });
 $('theme').addEventListener('click',() => { theme=theme === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.theme=theme; try { localStorage.setItem('sports-lineups-theme',theme); } catch {} showTabs(); });
-$('refresh').addEventListener('click',loadGames);
+$('refresh').addEventListener('click',()=>loadGames(true));
 $('team-search').addEventListener('input',renderTeamSearch);
 $('team-search-results').addEventListener('click',event=>{const button=event.target.closest('[data-search-game]');if(button)openTeamSearchGame(Number(button.dataset.searchGame));});
 document.addEventListener('visibilitychange',() => { if (document.visibilityState === 'visible') loadGames(); });
