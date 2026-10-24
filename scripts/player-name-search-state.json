@@ -886,6 +886,96 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T04:07:15.870732+00:00",
       "nextCheckAt": "2026-10-24T10:07:15.870732+00:00"
+    },
+    "Alessandro Marcandalli": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alessandro+Marcandalli+Genoa&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alessandro+Marcandalli+Genoa",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T04:37:54.403752+00:00",
+      "nextCheckAt": "2026-10-31T04:37:54.403752+00:00"
+    },
+    "Alessandro Romano": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alessandro+Romano+Cagliari&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alessandro+Romano+Cagliari",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T04:37:54.403752+00:00",
+      "nextCheckAt": "2026-10-31T04:37:54.403752+00:00"
+    },
+    "Alessio Furlanetto": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alessio+Furlanetto+Lazio&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alessio+Furlanetto+Lazio",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.uefa.com/newsfiles/uefacup/2025/2042137_FR.pdf",
+          "reason": "ValueError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T04:37:54.403752+00:00",
+      "nextCheckAt": "2026-10-31T04:37:54.403752+00:00"
+    },
+    "Alex Bonetig": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Bonetig+Portland+Timbers&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Bonetig+Portland+Timbers",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/alex-bonetig/1214396",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T04:37:54.403752+00:00",
+      "nextCheckAt": "2026-10-31T04:37:54.403752+00:00"
+    },
+    "Alex Bono": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Bono+D.C.+United&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Bono+D.C.+United",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T04:37:54.403752+00:00",
+      "nextCheckAt": "2026-10-31T04:37:54.403752+00:00"
     }
   }
 }
