@@ -23,6 +23,7 @@ DOMAINS = ('wikipedia.org', 'transfermarkt.co.kr', 'flashscore.co.kr', 'sofascor
            'mk.co.kr', 'hankyung.com', 'chosun.com', 'donga.com', 'khan.co.kr', 'kbs.co.kr', 'sbs.co.kr')
 SEARCH_HOSTS = ('www.google.com', 'search.naver.com')
 POLICY = 'precollect-names-v2'
+BULK_POLICY = 'wikipedia-exact-sports-v2'
 GOOGLE_METHOD = 'google-search-result-v1'
 
 
@@ -311,16 +312,22 @@ def main():
         if row.get('team'): contexts.setdefault(key, set()).add(normalize(row['team']))
         if re.search(r'[a-zA-Zぁ-ゟァ-ヿ一-龯々〆〤]', row['name']) and key == normalize(row.get('korean', row['name'])) and key not in known:
             if key not in pending or priority(row, state, now) < priority(pending[key], state, now): pending[key] = row
-    eligible = [row for key, row in pending.items() if len(contexts.get(key, set())) == 1
-                and (state['players'].get(key, {}).get('policy') != POLICY
-                     or state['players'].get(key, {}).get('nextCheckAt', '') <= now.isoformat())]
+    candidates_for_review = [row for key, row in pending.items() if len(contexts.get(key, set())) == 1]
+    candidates_for_review.sort(key=lambda row: priority(row, state, now))
+    eligible = [row for row in candidates_for_review if
+                state['players'].get(normalize(row['name']), {}).get('policy') != POLICY
+                or state['players'].get(normalize(row['name']), {}).get('nextCheckAt', '') <= now.isoformat()]
     eligible.sort(key=lambda row: priority(row, state, now))
     teams = read(ROOT / 'dist/team-ko.json', {})
-    bulk_rows = [row for row in eligible if state['players'].get(normalize(row['name']), {}).get('nextBulkCheckAt', '') <= now.isoformat()][:1000]
+    bulk_rows = [row for row in candidates_for_review if
+                 state['players'].get(normalize(row['name']), {}).get('bulkPolicy') != BULK_POLICY
+                 or state['players'].get(normalize(row['name']), {}).get('nextBulkCheckAt', '') <= now.isoformat()][:1000]
     bulk, bulk_errors = bulk_wikipedia(bulk_rows, teams)
     bulk_delay = dt.timedelta(hours=6 if bulk_errors else 24)
     for row in bulk_rows:
-        state['players'].setdefault(normalize(row['name']), {})['nextBulkCheckAt'] = (now + bulk_delay).isoformat()
+        record = state['players'].setdefault(normalize(row['name']), {})
+        record['bulkPolicy'] = BULK_POLICY
+        record['nextBulkCheckAt'] = (now + bulk_delay).isoformat()
     checked = added = 0
     for key, entry in bulk.items():
         entry['verifiedAt'] = now.isoformat()
