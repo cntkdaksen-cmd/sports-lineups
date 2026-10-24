@@ -15066,6 +15066,30 @@
         }
       ],
       "verifiedAt": "2026-10-24T18:50:05.689816+00:00"
+    },
+    {
+      "name": "Anton Forsberg",
+      "korean": "안톤 포르스베리",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Anton_Forsberg",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q382531",
+          "wikidataItem": "Q382531",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "f309b5e63ef88777678bb723aede715fdeb48d1c2cf77a43dad6e862b673a981"
+        }
+      ],
+      "verifiedAt": "2026-10-24T19:54:18.435027+00:00"
     }
   ]
 }
