@@ -5283,7 +5283,18 @@
     },
     "david ayala": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=David+Ayala+Inter+Miami+CF&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T22:25:36.056028+00:00",
+      "nextCheckAt": "2026-10-25T04:25:36.056028+00:00"
     },
     "dayne st clair": {
       "status": "verified",
