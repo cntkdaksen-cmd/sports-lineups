@@ -8,6 +8,7 @@ Arda Guler|아르다 귈러
 Abdulkerim Bardakci|압둘케림 바르닥치
 Onyeka Okongwu|오니에카 오콩우
 Donovan Mitchell|도노반 미첼
+Mateus Fernandes|마테우스 페르난데스
 度会　隆輝|와타라이 류키
 牧　秀悟|마키 슈고
 佐野　恵太|사노 케이타
