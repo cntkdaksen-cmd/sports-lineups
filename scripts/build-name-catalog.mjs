@@ -25,10 +25,10 @@ if (process.argv.includes('--queue')) {
   const autoPath = new URL('scripts/player-name-auto-review.json',root);
   const automatic = {};
   if(fs.existsSync(autoPath)) for(const row of read('scripts/player-name-auto-review.json').entries) {
-    if(row.method==='wikipedia-language-link-v1') {
+    if(row.method==='wikipedia-language-link-v1' || row.method==='wikipedia-language-link-v2') {
       assert.ok(row.sources.length===1 && row.sources.every(s=>{
         const url=new URL(s.url);
-        return url.protocol==='https:' && url.hostname==='en.wikipedia.org' && url.pathname.startsWith('/wiki/') && s.languageLinkMatched && s.englishNameMatched && (s.teamMatched || (s.exactEnglishTitleMatched && s.sportMatched)) && s.contentHash;
+        return url.protocol==='https:' && (row.method==='wikipedia-language-link-v2' ? ['ja.wikipedia.org','zh.wikipedia.org'].includes(url.hostname) : url.hostname==='en.wikipedia.org') && url.pathname.startsWith('/wiki/') && s.languageLinkMatched && s.englishNameMatched && (s.teamMatched || (s.exactEnglishTitleMatched && s.sportMatched)) && s.contentHash;
       }),'Wikipedia language link needs exact player and team identity');
     } else if(row.method==='google-search-result-v1') {
       assert.ok(row.sources.length>=1 && row.sources.every(s=>{
