@@ -77,6 +77,24 @@ class NameVerification(unittest.TestCase):
             saved=json.loads((root/'scripts/player-name-auto-review.json').read_text())
             self.assertEqual(len(saved['entries']),2)
             self.assertEqual(json.loads((root/'scripts/player-name-run-report.json').read_text())['approved'],2)
+    def test_new_bulk_policy_rechecks_names_before_search_retry(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);(root/'scripts').mkdir();(root/'dist').mkdir()
+            now=r.dt.datetime.now(r.dt.timezone.utc)
+            name='Current Starter'
+            (root/'scripts/player-name-live-inventory.json').write_text(json.dumps({'at':now.isoformat(),'records':[{'name':name,'korean':name,'team':'Test FC','kind':'lineup','eventDate':now.isoformat()}]}))
+            (root/'scripts/player-name-search-state.json').write_text(json.dumps({'schemaVersion':1,'players':{r.normalize(name):{'policy':r.POLICY,'nextCheckAt':(now+r.dt.timedelta(days=1)).isoformat(),'nextBulkCheckAt':(now+r.dt.timedelta(days=1)).isoformat()}}}))
+            (root/'dist/team-ko.json').write_text('{}')
+            checked=[]
+            def bulk(rows,teams):
+                checked.extend(rows)
+                return {},[]
+            with patch.object(r,'ROOT',root),patch.object(r,'bulk_wikipedia',side_effect=bulk),patch.object(r,'resolve') as search:
+                r.main()
+            self.assertEqual([row['name'] for row in checked],[name])
+            search.assert_not_called()
+            state=json.loads((root/'scripts/player-name-search-state.json').read_text())
+            self.assertEqual(state['players'][r.normalize(name)]['bulkPolicy'],r.BULK_POLICY)
     def test_two_sources_same_identity(self):
         proof = self.proof('https://ko.wikipedia.org/wiki/Test') + self.proof('https://www.transfermarkt.co.kr/test')
         self.assertEqual(r.verify(self.row, proof)['korean'], '모리츠 니콜라스')
