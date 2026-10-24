@@ -9776,7 +9776,18 @@
     },
     "carlos macia": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Carlos+Maci%C3%A0+Villarreal&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T18:29:22.562935+00:00",
+      "nextCheckAt": "2026-10-25T00:29:22.562935+00:00"
     },
     "santiago mourino": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -13733,6 +13744,116 @@
     "naoufal bohamdi kamoni": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-25T17:56:29.328079+00:00"
+    },
+    "arno verschueren": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "benoit de jaegere": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "christian ordonez": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "enrico del prato": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "ismaila coulibaly": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "istvan atrok": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "jose romero": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "laurent jans": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T18:29:22.562935+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "moustapha mbow": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T18:29:22.562935+00:00",
+      "method": "wikidata-label-v1"
+    },
+    "obed nkambadio": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "otavio": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "ousseynou niang": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "romano floriani": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "serxho ujka": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "siad gourville": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "thierry lutonda": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "viktor boone": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "vincent sierro": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T18:29:22.562935+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "wagane faye": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "youssoupha mbodji": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "zsombor gruber": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "adria altimira": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "david mella": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "jalen hawkins": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "matej sin": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
+    },
+    "ringo meerveld": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-25T18:29:22.562935+00:00"
     }
   }
 }

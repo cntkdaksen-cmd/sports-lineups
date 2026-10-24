@@ -14932,6 +14932,74 @@
         }
       ],
       "verifiedAt": "2026-10-24T17:56:29.328079+00:00"
+    },
+    {
+      "name": "Laurent Jans",
+      "korean": "로랑 얀스",
+      "team": "Waasland-Beveren",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Laurent_Jans",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로랑 얀스",
+          "contentHash": "83c26c4df3343952c28aaa1f93f6cda0741b5b94b9ecf2959682df17a3a15128"
+        }
+      ],
+      "verifiedAt": "2026-10-24T18:29:22.562935+00:00"
+    },
+    {
+      "name": "Vincent Sierro",
+      "korean": "뱅상 시에로",
+      "team": "Parma",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Vincent_Sierro",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "뱅상 시에로",
+          "contentHash": "abff2752306eb438c3a122cf99992c053a751d97e5043a7237de5a2047eadfd9"
+        }
+      ],
+      "verifiedAt": "2026-10-24T18:29:22.562935+00:00"
+    },
+    {
+      "name": "Moustapha Mbow",
+      "korean": "무스타파 음보우",
+      "team": "Paris FC",
+      "league": "ligue1",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Moustapha_Mbow",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q61749038",
+          "wikidataItem": "Q61749038",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "db59dda657f0529b75ce3b843821ae6448bfc1c7a2031b50d63bb533322317fa"
+        }
+      ],
+      "verifiedAt": "2026-10-24T18:29:22.562935+00:00"
     }
   ]
 }
