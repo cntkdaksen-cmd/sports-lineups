@@ -993,6 +993,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T05:13:56.184464+00:00",
       "nextCheckAt": "2026-10-24T11:13:56.184464+00:00"
+    },
+    "Alex Cochrane": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Cochrane+Birmingham+City&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Cochrane+Birmingham+City",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T05:52:02.057566+00:00",
+      "nextCheckAt": "2026-10-24T11:52:02.057566+00:00"
     }
   }
 }
