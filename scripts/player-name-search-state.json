@@ -976,6 +976,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T04:37:54.403752+00:00",
       "nextCheckAt": "2026-10-31T04:37:54.403752+00:00"
+    },
+    "Alex Bump": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Bump+Philadelphia+Flyers&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Bump+Philadelphia+Flyers",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T05:13:56.184464+00:00",
+      "nextCheckAt": "2026-10-24T11:13:56.184464+00:00"
     }
   }
 }
