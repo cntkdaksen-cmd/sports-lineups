@@ -32,6 +32,7 @@ for (const [name, expected] of [
   ['Onyeka Okongwu', '오니에카 오콩우'],
   ['Nickeil Alexander-Walker', '니킬 알렉산더워커'],
   ['Jayson Tatum', '제이슨 테이텀'],
+  ['Donovan Mitchell', '도노반 미첼'],
   ['Kentavious Caldwell‑Pope', '켄타비우스 콜드웰-폽'],
   ['Joshua Kimmich', '요주아 키미히'],
   ['Sidney Crosby', '시드니 크로스비'],
