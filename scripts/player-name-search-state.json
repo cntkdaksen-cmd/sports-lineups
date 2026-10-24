@@ -1585,6 +1585,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T11:32:01.485933+00:00",
       "nextCheckAt": "2026-10-24T17:32:01.485933+00:00"
+    },
+    "Alysson": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alysson+Aston+Villa&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alysson+Aston+Villa",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T12:01:46.706528+00:00",
+      "nextCheckAt": "2026-10-24T18:01:46.706528+00:00"
     }
   }
 }
