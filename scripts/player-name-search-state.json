@@ -13731,7 +13731,18 @@
     },
     "cutter gauthier": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00"
+      "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Cutter+Gauthier+Anaheim+Ducks&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T19:03:08.725436+00:00",
+      "nextCheckAt": "2026-10-25T01:03:08.725436+00:00"
     },
     "devin cooley": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
