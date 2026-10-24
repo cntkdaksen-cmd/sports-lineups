@@ -869,6 +869,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T03:33:16.318422+00:00",
       "nextCheckAt": "2026-10-24T09:33:16.318422+00:00"
+    },
+    "Aleksey Miranchuk": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aleksey+Miranchuk+Atlanta+United+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Aleksey+Miranchuk+Atlanta+United+FC",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T04:07:15.870732+00:00",
+      "nextCheckAt": "2026-10-24T10:07:15.870732+00:00"
     }
   }
 }
