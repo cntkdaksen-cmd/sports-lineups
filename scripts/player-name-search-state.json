@@ -1095,6 +1095,101 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T06:18:23.724677+00:00",
       "nextCheckAt": "2026-10-31T06:18:23.724677+00:00"
+    },
+    "Alessandro Deiola": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alessandro+Deiola+Cagliari&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alessandro+Deiola+Cagliari",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T07:06:34.590242+00:00",
+      "nextCheckAt": "2026-10-31T07:06:34.590242+00:00"
+    },
+    "Alex Paulsen": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Paulsen+Motherwell&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Paulsen+Motherwell",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/alex-paulsen/1000379",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T07:06:34.590242+00:00",
+      "nextCheckAt": "2026-10-31T07:06:34.590242+00:00"
+    },
+    "Alex Robertson": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Robertson+Cardiff+City&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Robertson+Cardiff+City",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.sofascore.com/football/player/alex-robertson/1067119",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T07:06:34.590242+00:00",
+      "nextCheckAt": "2026-10-31T07:06:34.590242+00:00"
+    },
+    "Alex Scott": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Scott+AFC+Bournemouth&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Scott+AFC+Bournemouth",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T07:06:34.590242+00:00",
+      "nextCheckAt": "2026-10-31T07:06:34.590242+00:00"
+    },
+    "Alex Toth": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Toth+AFC+Bournemouth&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alex+Toth+AFC+Bournemouth",
+          "status": "results"
+        }
+      },
+      "sourceErrors": [
+        {
+          "url": "https://www.manutd.com/en/news/match-report-afc-bournemouth-v-man-utd-20-march-2026",
+          "reason": "HTTPError"
+        }
+      ],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T07:06:34.590242+00:00",
+      "nextCheckAt": "2026-10-31T07:06:34.590242+00:00"
     }
   }
 }
