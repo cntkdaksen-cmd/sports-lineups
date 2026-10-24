@@ -7,6 +7,7 @@ Fran Garcia|프란 가르시아
 Arda Guler|아르다 귈러
 Abdulkerim Bardakci|압둘케림 바르닥치
 Onyeka Okongwu|오니에카 오콩우
+Donovan Mitchell|도노반 미첼
 Alisson|알리송 베커
 Alisson Becker|알리송 베커
 Alisson Ramses Becker|알리송 베커
