@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 35087)
-Total output lines: 3812
-
 {
   "reviewedAt": "2026-10-24",
   "scope": "All previously untranslated names found by executing every current site league, lineup and injury renderer for today and tomorrow. Sources are internal review metadata, never rendered in the public UI.",
@@ -1759,7 +1756,576 @@ Total output lines: 3812
     },
     {
       "name": "Dolganov Filipp",
- …5087 tokens truncated…Matviyenko",
+      "korean": "필립 돌가노프",
+      "source": "https://www.flashscore.co.kr/player/dolganov-filipp/ddjNlv54/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Nadvorny Matvei",
+      "korean": "마트베이 나드보르니",
+      "source": "https://www.flashscore.co.kr/player/nadvorny-matvei/dWjqrGGm/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Pastukhov Ilya",
+      "korean": "일랴 파스투코프",
+      "source": "https://www.flashscore.co.kr/player/pastukhov-ilya/b5pNmMDa/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Serikov Artyom",
+      "korean": "아르툠 세리코프",
+      "source": "https://www.flashscore.co.kr/player/serikov-artyom/n3CxYLYn/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Tyanulin Artur",
+      "korean": "아르투르 탸눌린",
+      "source": "https://www.flashscore.co.kr/player/tyanulin-artur/lSECDCUj/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Bereglazov Alexei",
+      "korean": "알렉세이 베레글라조프",
+      "source": "https://www.flashscore.co.kr/player/bereglazov-alexei/2k3POxW4/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Yelesin Alexander",
+      "korean": "알렉산더 옐레신",
+      "source": "https://www.flashscore.co.kr/player/yelesin-alexander/G8BzgKr3/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kayumov Artur",
+      "korean": "아르투르 카유모프",
+      "source": "https://www.flashscore.co.kr/player/kayumov-artur/rZDTwS0q/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Melnichuk Alexei",
+      "korean": "알렉세이 멜니추크",
+      "source": "https://www.flashscore.co.kr/player/melnichuk-alexei/2N0ml45n/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Shalunov Maxim",
+      "korean": "막심 샬루노프",
+      "source": "https://www.flashscore.co.kr/player/shalunov-maxim/YgqC4SE8/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Dietz Darren",
+      "korean": "대런 디에츠",
+      "source": "https://www.flashscore.co.kr/player/dietz-darren/86zNEpFh/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Korshkov Yegor",
+      "korean": "예고르 코르시코프",
+      "source": "https://www.flashscore.co.kr/player/korshkov-yegor/MFwQXfFI/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Koshelev Semyon",
+      "korean": "세묜 코셀레프",
+      "source": "https://www.flashscore.co.kr/player/koshelev-semyon/vsNCUOX0/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Krasotkin Anton",
+      "korean": "안톤 크라소트킨",
+      "source": "https://www.flashscore.co.kr/player/krasotkin-anton/zgYVIElc/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Nekolenko Arkhip",
+      "korean": "아르킵 네콜렌코",
+      "source": "https://www.flashscore.co.kr/player/nekolenko-arkhip/8vz3NbFe/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Merkley Nick",
+      "korean": "닉 머클리",
+      "source": "https://www.flashscore.co.kr/player/merkley-nick/rFecRPfO/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Motorygin Maxim",
+      "korean": "막심 모토리긴",
+      "source": "https://www.flashscore.co.kr/player/motorygin-maxim/hYtIZmON/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ozhiganov Igor",
+      "korean": "이고르 오지가노프",
+      "source": "https://www.flashscore.co.kr/player/ozhiganov-igor/tKbyOkuB/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Pylenkov Daniil",
+      "korean": "다닐 필렌코프",
+      "source": "https://www.flashscore.co.kr/player/pylenkov-daniil/xWoVFBET/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Shafigullin Bulat",
+      "korean": "불라트 샤피굴린",
+      "source": "https://www.flashscore.co.kr/player/shafigullin-bulat/OnnFYSIc/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Shen Pavel",
+      "korean": "파벨 쉔",
+      "source": "https://www.flashscore.co.kr/player/shen-pavel/d42naqwt/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Vorobyov Kirill",
+      "korean": "키릴 보로뵤프",
+      "source": "https://www.flashscore.co.kr/player/vorobyov-kirill/W0RIMEc7/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Karpukhin Ilya",
+      "korean": "일랴 카르푸킨",
+      "source": "https://www.flashscore.co.kr/player/karpukhin-ilya/GjOEakUO/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Ruzicka Adam",
+      "korean": "아담 루지치카",
+      "source": "https://www.flashscore.co.kr/player/ruzicka-adam/MH2vOacU/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Slepyshev Anton",
+      "korean": "안톤 슬레피셰프",
+      "source": "https://www.flashscore.co.kr/player/slepyshev-anton/bmN6niM5/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Miromanov Daniil",
+      "korean": "다닐 미로마노프",
+      "source": "https://www.flashscore.co.kr/player/miromanov-daniil/4pCjj2JQ/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Savikov Yegor",
+      "korean": "예고르 사비코프",
+      "source": "https://www.flashscore.co.kr/player/savikov-yegor/ptShcQ1G/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Goldobin Nikolai",
+      "korean": "니콜라이 골도빈",
+      "source": "https://www.flashscore.co.kr/player/goldobin-nikolai/hIWX1SBp/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Plotnikov Sergei",
+      "korean": "세르게이 플로트니코프",
+      "source": "https://www.flashscore.co.kr/player/plotnikov-sergei/ljq1HE1c/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Bailey Justin",
+      "korean": "저스틴 베일리",
+      "source": "https://www.flashscore.co.kr/player/bailey-justin/ra7bylK0/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Day Logan",
+      "korean": "로건 데이",
+      "source": "https://www.flashscore.co.kr/player/day-logan/EqLx0c1L/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Omirbekov Alikhan",
+      "korean": "알리칸 오미르베코프",
+      "source": "https://www.flashscore.co.kr/player/omirbekov-alikhan/hK5zXkgC/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Pilon Garrett",
+      "korean": "개릿 필론",
+      "source": "https://www.flashscore.co.kr/player/pilon-garrett/Q7z749Sp/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Shutov Andrei A.",
+      "korean": "안드레이 슈토프",
+      "source": "https://www.flashscore.co.kr/player/shutov-andrei/2e1Rja3h/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Boyarkin Nikita",
+      "korean": "니키타 보야르킨",
+      "source": "https://www.flashscore.co.kr/player/boyarkin-nikita/jNZYMaT8/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kroshchinsky Fyodor",
+      "korean": "표도르 크로시친스키",
+      "source": "https://www.flashscore.co.kr/player/kroshchinsky-fyodor/S6Px98gs/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Muranov Ivan",
+      "korean": "이반 무라노프",
+      "source": "https://www.flashscore.co.kr/player/muranov-ivan/QRtMzoSm/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Usmanov Daniel",
+      "korean": "다니엘 우스마노프",
+      "source": "https://www.flashscore.co.kr/player/usmanov-daniel/xMSSTomt/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Chezganov Yegor",
+      "korean": "예고르 체즈가노프",
+      "source": "https://www.flashscore.co.kr/player/chezganov-yegor/63gAqy9e/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Sulak Libor",
+      "korean": "리보르 슐라크",
+      "source": "https://www.flashscore.co.kr/player/sulak-libor/8YxhGpAi/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Brosseau Devin",
+      "korean": "데빈 브로슈",
+      "source": "https://www.flashscore.co.kr/player/brosseau-devin/Q5pN6ykF/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Zorkin Nikita",
+      "korean": "니키타 조르킨",
+      "source": "https://www.flashscore.co.kr/player/zorkin-nikita/n5mKHjD0/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Rempal Sheldon",
+      "korean": "셸던 렘팔",
+      "source": "https://www.flashscore.co.kr/player/rempal-sheldon/fqpNpxPu/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Vovchenko Daniil",
+      "korean": "다닐 봅첸코",
+      "source": "https://www.flashscore.co.kr/player/vovchenko-daniil/YLJvZx2f/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Siryatsky Alexander",
+      "korean": "알렉산더 시랴츠키",
+      "source": "https://www.flashscore.co.kr/player/siryatsky-alexander/A7om74Nr/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Smolin Alexander S.",
+      "korean": "알렉산데르 스몰린",
+      "source": "https://www.flashscore.co.kr/player/smolin-alexander/Au1bTcq9/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Todd Nathan",
+      "korean": "네이선 토드",
+      "source": "https://www.flashscore.co.kr/player/todd-nathan/Gzrdsx3d/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Geraskin Igor",
+      "korean": "이고르 게라스킨",
+      "source": "https://www.flashscore.co.kr/player/geraskin-igor/bwbHLnCa/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kraskovsky Pavel",
+      "korean": "파벨 크라스콥스키",
+      "source": "https://www.flashscore.co.kr/player/kraskovsky-pavel/2iWFFbf3/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Sizov Anton",
+      "korean": "안톤 시조프",
+      "source": "https://www.flashscore.co.kr/player/sizov-anton/SvBpPD7q/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Firstov Vladislav",
+      "korean": "블라디슬라프 피르스토프",
+      "source": "https://www.flashscore.co.kr/player/firstov-vladislav/rqymZcoP/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Bilyalov Timur",
+      "korean": "티무르 빌랼로프",
+      "source": "https://www.flashscore.co.kr/player/bilyalov-timur/00kaGqFn/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Lyamkin Nikita",
+      "korean": "니키타 럄킨",
+      "source": "https://www.flashscore.co.kr/player/lyamkin-nikita/vHwoWzGD/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Semyonov Kirill E.",
+      "korean": "키릴 세묘노프",
+      "source": "https://www.flashscore.co.kr/player/semyonov-kirill/27AYqGN1/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Yakupov Ravil",
+      "korean": "라빌 야쿠포프",
+      "source": "https://www.flashscore.co.kr/player/yakupov-ravil/nJqj0FHI/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Menell Brennan",
+      "korean": "브레넌 메넬",
+      "source": "https://www.flashscore.co.kr/player/menell-brennan/vwofDkib/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Miftakhov Amir",
+      "korean": "아미르 미프타코프",
+      "source": "https://www.flashscore.co.kr/player/miftakhov-amir/hMfDEqOH/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Murray Brett",
+      "korean": "브렛 머레이",
+      "source": "https://www.flashscore.co.kr/player/murray-brett/AeSeoZjH/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Solovyov Yegor S.",
+      "korean": "예고르 솔로뵤프",
+      "source": "https://www.flashscore.co.kr/player/solovyov-yegor/SQY9Vv5d/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Cicek Nick",
+      "korean": "닉 시첵",
+      "source": "https://www.flashscore.co.kr/player/cicek-nick/lfmnJHAs/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Veryayev Danil",
+      "korean": "다닐 베라예프",
+      "source": "https://www.flashscore.co.kr/player/veryayev-danil/dzHASMRc/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Gregoire Thomas",
+      "korean": "토마스 그레고이어",
+      "source": "https://www.flashscore.co.kr/player/gregoire-thomas/AiUi0aLR/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Dumbadze David",
+      "korean": "다비드 둠바제",
+      "source": "https://www.flashscore.co.kr/player/dumbadze-david/fwge99lg/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Podshivalov Ivan",
+      "korean": "이반 포드쉬발로프",
+      "source": "https://www.flashscore.co.kr/player/podshivalov-ivan/MJcshRcQ/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Samoilov Alexander",
+      "korean": "알렉산더 사모일로프",
+      "source": "https://www.flashscore.co.kr/player/samoilov-alexander/EwYMwjHn/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Guryanov Denis",
+      "korean": "데니스 구랴노프",
+      "source": "https://www.flashscore.co.kr/player/guryanov-denis/hUADxe9o/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Drozdov Ivan",
+      "korean": "이반 드로즈도프",
+      "source": "https://www.flashscore.co.kr/player/drozdov-ivan/t2NyU1jA/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Zamula Yegor",
+      "korean": "예고르 자물라",
+      "source": "https://www.flashscore.co.kr/player/zamula-yegor/EF7YAYrG/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Kovalenko Nikolai",
+      "korean": "니콜라이 코발렌코",
+      "source": "https://www.flashscore.co.kr/player/kovalenko-nikolai/KnqWx6R9/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Nesterov Nikita D.",
+      "korean": "니키타 네스테로프",
+      "source": "https://www.flashscore.co.kr/player/nesterov-nikita/WrpgCYxs/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Samonov Alexander",
+      "korean": "알렉산더 사모노프",
+      "source": "https://www.flashscore.co.kr/player/samonov-alexander/MugUBgOi/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Zagidulin Artyom",
+      "korean": "아르툠 자기둘린",
+      "source": "https://www.flashscore.co.kr/player/zagidulin-artyom/vubONVTJ/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Jaros Christian",
+      "korean": "크리스티안 야로스",
+      "source": "https://www.flashscore.co.kr/player/jaros-christian/jH4sRdX8/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Orlov Daniil R.",
+      "korean": "다닐 오를로프",
+      "source": "https://www.flashscore.co.kr/player/orlov-daniil/Aewp2btF/",
+      "method": "Reviewed Korean player profile"
+    },
+    {
+      "name": "Filin Yegor",
+      "korean": "예고르 필린",
+      "source": "https://www.flashscore.co.kr/player/filin-yegor/fyj4dQ7c/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Maltsev Mikhail G.",
+      "korean": "미하일 말체프",
+      "source": "https://www.flashscore.co.kr/player/maltsev-mikhail/fBt0ZJgO/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Adamchuk Kirill",
+      "korean": "키릴 아담추크",
+      "source": "https://www.flashscore.co.kr/player/adamchuk-kirill/fDPmxh6s/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Afanasyev Yegor Y.",
+      "korean": "예고르 아파나시예프",
+      "source": "https://www.flashscore.co.kr/player/afanasyev-yegor/h4N6Mpbh/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "McLeod Michael",
+      "korean": "마이클 맥레오드",
+      "source": "https://www.flashscore.co.kr/player/mcleod-michael/KIsrsvf8/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Okulov Konstantin",
+      "korean": "콘스탄틴 오쿨로프",
+      "source": "https://www.flashscore.co.kr/player/okulov-konstantin/2DHIhEk9/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Serebryakov Nikita",
+      "korean": "니키타 세레브랴코프",
+      "source": "https://www.flashscore.co.kr/player/serebryakov-nikita/CKI3JfsI/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Cecconi Joseph",
+      "korean": "조셉 세코니",
+      "source": "https://www.flashscore.co.kr/player/cecconi-joseph/OCudsxtd/",
+      "method": "Reviewed Korean profile"
+    },
+    {
+      "name": "Aleksey Batrakov",
+      "korean": "알렉세이 바트라코프",
+      "source": "https://www.google.com/search?q=Aleksey%20Batrakov",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Hamza Igamane",
+      "korean": "함자 이가마네",
+      "source": "https://www.google.com/search?q=Hamza%20Igamane",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Arild Ostbo",
+      "korean": "아릴드 외스트뵈",
+      "source": "https://www.google.com/search?q=Arild%20Ostbo",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Gianni Stensness",
+      "korean": "지안니 스텐스네스",
+      "source": "https://www.google.com/search?q=Gianni%20Stensness",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Henrik Bjordal",
+      "korean": "헨리크 비요르달",
+      "source": "https://www.google.com/search?q=Henrik%20Bjordal",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Peter Christiansen",
+      "korean": "피터 크리스티안센",
+      "source": "https://www.google.com/search?q=Peter%20Christiansen",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Lamare Bogarde",
+      "korean": "라마레 보가드",
+      "source": "https://www.google.com/search?q=Lamare%20Bogarde",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Modou Keba Cisse",
+      "korean": "모두 케바 시세",
+      "source": "https://www.google.com/search?q=Modou%20Keba%20Cisse",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Tarek Buchmann",
+      "korean": "타렉 부흐만",
+      "source": "https://www.google.com/search?q=Tarek%20Buchmann",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Mickael Cuisance",
+      "korean": "미카엘 퀴장스",
+      "source": "https://www.google.com/search?q=Mickael%20Cuisance",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Junior Kadile",
+      "korean": "주니어 카딜",
+      "source": "https://www.google.com/search?q=Junior%20Kadile",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Brandon Mechele",
+      "korean": "브랜던 메헬러",
+      "source": "https://www.google.com/search?q=Brandon%20Mechele",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Abdallah Dipo Sima",
+      "korean": "압달라 디포 시마",
+      "source": "https://www.google.com/search?q=Abdallah%20Dipo%20Sima",
+      "method": "Reviewed Google athlete heading"
+    },
+    {
+      "name": "Mykola Matviyenko",
       "korean": "미콜라 마트비옌코",
       "source": "https://www.google.com/search?q=Mykola%20Matviyenko",
       "method": "Reviewed Google athlete heading"
