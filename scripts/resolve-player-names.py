@@ -261,9 +261,13 @@ def bulk_wikipedia(rows, teams, get=fetch_json):
                     title = aliases[title]
                 page = pages.get(title, {})
                 intro = normalize(page.get('extract', ''))
-                if not (normalize(page.get('title', '')) == normalize(row['name']) or re.search(r'(?<!\w)' + re.escape(normalize(row['name'])) + r'(?!\w)', intro)): continue
+                exact_title = normalize(page.get('title', '')) == normalize(row['name'])
+                intro_name = bool(re.search(r'(?<!\w)' + re.escape(normalize(row['name'])) + r'(?!\w)', intro))
+                if not (exact_title or intro_name): continue
                 team = normalize(row.get('team', ''))
-                if len(team) < 3 or team not in intro: continue
+                team_match = len(team) >= 3 and team in intro
+                sport_match = bool(re.search(r'\b(footballer|plays football|soccer player|basketball player|baseball player|ice hockey player|volleyball player|esports player|league of legends player)\b', intro))
+                if not sport_match or not (exact_title or team_match): continue
                 links = [x['*'] for x in page.get('langlinks', []) if x.get('lang') == 'ko']
                 if len(links) != 1: continue
                 korean = re.sub(r'\s*\([^)]*\)$', '', links[0]).strip()
@@ -271,7 +275,8 @@ def bulk_wikipedia(rows, teams, get=fetch_json):
                 url = 'https://en.wikipedia.org/wiki/' + urllib.parse.quote(title.replace(' ', '_'))
                 approved[normalize(row['name'])] = {'name': row['name'], 'korean': korean, 'team': row.get('team'),
                     'league': row.get('league'), 'method': 'wikipedia-language-link-v1', 'sources': [{
-                    'url': url, 'domain': 'wikipedia.org', 'languageLinkMatched': True, 'teamMatched': True,
+                    'url': url, 'domain': 'wikipedia.org', 'languageLinkMatched': True, 'teamMatched': team_match,
+                    'sportMatched': True, 'exactEnglishTitleMatched': exact_title,
                     'englishNameMatched': True, 'koreanTitle': links[0],
                     'contentHash': hashlib.sha256(json.dumps(page, ensure_ascii=False).encode()).hexdigest()}]}
         except (ValueError, OSError, urllib.error.URLError) as exc:
@@ -311,7 +316,7 @@ def main():
                      or state['players'].get(key, {}).get('nextCheckAt', '') <= now.isoformat())]
     eligible.sort(key=lambda row: priority(row, state, now))
     teams = read(ROOT / 'dist/team-ko.json', {})
-    bulk_rows = [row for row in eligible if state['players'].get(normalize(row['name']), {}).get('nextBulkCheckAt', '') <= now.isoformat()][:200]
+    bulk_rows = [row for row in eligible if state['players'].get(normalize(row['name']), {}).get('nextBulkCheckAt', '') <= now.isoformat()][:1000]
     bulk, bulk_errors = bulk_wikipedia(bulk_rows, teams)
     bulk_delay = dt.timedelta(hours=6 if bulk_errors else 24)
     for row in bulk_rows:
