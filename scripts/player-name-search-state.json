@@ -3545,7 +3545,8 @@
       "method": "wikipedia-language-link-v1"
     },
     "cala": {
-      "nextBulkCheckAt": "2026-10-25T14:23:04.096116+00:00"
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00",
+      "bulkPolicy": "wikipedia-exact-sports-v3"
     },
     "edu exposito": {
       "nextBulkCheckAt": "2026-10-25T15:58:54.671713+00:00",
@@ -3619,7 +3620,8 @@
       "bulkPolicy": "wikipedia-exact-sports-v3"
     },
     "cassiano": {
-      "nextBulkCheckAt": "2026-10-25T14:23:04.096116+00:00"
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00",
+      "bulkPolicy": "wikipedia-exact-sports-v3"
     },
     "damian van der haar": {
       "nextBulkCheckAt": "2026-10-25T14:23:04.096116+00:00"
@@ -3718,7 +3720,8 @@
       "nextBulkCheckAt": "2026-10-25T14:23:04.096116+00:00"
     },
     "sebastian perez": {
-      "nextBulkCheckAt": "2026-10-25T14:23:04.096116+00:00"
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00",
+      "bulkPolicy": "wikipedia-exact-sports-v3"
     },
     "sergio padt": {
       "nextBulkCheckAt": "2026-10-25T14:23:04.096116+00:00"
@@ -3909,7 +3912,23 @@
     },
     "jamie lawrence": {
       "nextBulkCheckAt": "2026-10-25T15:54:41.641779+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v3"
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jamie+Lawrence+OH+Leuven&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Jamie+Lawrence+OH+Leuven",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T17:32:45.862127+00:00",
+      "nextCheckAt": "2026-10-24T23:32:45.862127+00:00"
     },
     "jason van duiven": {
       "nextBulkCheckAt": "2026-10-25T15:54:41.641779+00:00",
@@ -13473,6 +13492,38 @@
     "nicolo": {
       "bulkPolicy": "wikipedia-exact-sports-v3",
       "nextBulkCheckAt": "2026-10-25T15:58:54.671713+00:00"
+    },
+    "kaila charles": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00"
+    },
+    "pedro santos": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00"
+    },
+    "tiffany hayes": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00"
+    },
+    "brayan vera": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00"
+    },
+    "dani pereira": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00"
+    },
+    "olger escobar": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00"
+    },
+    "samsy keita": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00"
+    },
+    "alessandro zanoli": {
+      "bulkPolicy": "wikipedia-exact-sports-v3",
+      "nextBulkCheckAt": "2026-10-25T17:32:45.862127+00:00"
     }
   }
 }
