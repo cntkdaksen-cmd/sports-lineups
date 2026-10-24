@@ -6403,6 +6403,956 @@
         }
       ],
       "verifiedAt": "2026-10-24T15:12:09.230532+00:00"
+    },
+    {
+      "name": "Rasmus Højlund",
+      "korean": "라스무스 호일룬",
+      "team": "Napoli",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rasmus_H%C3%B8jlund",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "라스무스 호일룬",
+          "contentHash": "602455c9f5ac2fae0aa8cabba55c917c7272a6393b8e35920c40a237fc4ee60e"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Tajon Buchanan",
+      "korean": "테이존 뷰캐넌",
+      "team": "Villarreal",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tajon_Buchanan",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "테이존 뷰캐넌",
+          "contentHash": "ce0f801dfc324b4d8998c37034acfce91d9297a6639d33ca3480d7b680c9840c"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Mateo Chávez",
+      "korean": "마테오 차베스",
+      "team": "AZ Alkmaar",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mateo_Ch%C3%A1vez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마테오 차베스",
+          "contentHash": "1545cfab468758e84f0dd1344713279708280659a4f7b163f5cf3b84e99a2837"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Patrick Kane",
+      "korean": "패트릭 케인",
+      "team": "Chicago Blackhawks",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Patrick_Kane",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "패트릭 케인",
+          "contentHash": "d5df56a2eb4fa1835d05e413e86edbe171b6b02f2cc06624d470466b4ad22548"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Ruud Nijstad",
+      "korean": "뤼트 네이스타트",
+      "team": "FC Twente",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ruud_Nijstad",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "뤼트 네이스타트",
+          "contentHash": "2cd2e85e91a373be15f9c2e0c2fd01a321864d474fa65e5c6f108d34ee22cda4"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Enzo Ebosse",
+      "korean": "엔조 에보세",
+      "team": "Udinese",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Enzo_Ebosse",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "엔조 에보세",
+          "contentHash": "6c9a7f37ef6cc444f65405e5599e03ca491ac45590ec75e39aa25af60a7cc687"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Fikayo Tomori",
+      "korean": "피카요 토모리",
+      "team": "AC Milan",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fikayo_Tomori",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "피카요 토모리",
+          "contentHash": "c6631d8d56a4590d586ed052acac60d205242841d3deb44cdc1e2e7a8d0044f3"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Hassane Kamara",
+      "korean": "하산 카마라",
+      "team": "Udinese",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hassane_Kamara",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "하산 카마라",
+          "contentHash": "9bc62024be20805a0eece5d81692c93814b3e1223782ff39458b7a560140d7ce"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Jesper Karlstrom",
+      "korean": "예스페르 칼스트룀",
+      "team": "Udinese",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jesper_Karlstr%C3%B6m",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "예스페르 칼스트룀",
+          "contentHash": "ddac3e614b884452d7cfa0aee28f9de6dab0d66dbc2d94ba0945b17c118b4919"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Koni De Winter",
+      "korean": "코니 더빈터르",
+      "team": "AC Milan",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Koni_De_Winter",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "코니 더빈터르",
+          "contentHash": "3ac6ac9e7f38967c9d4d1fab1664e5cbdaf40c52bf791ec8d4503bde8a0a8df6"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Maduka Okoye",
+      "korean": "마두카 오코예",
+      "team": "Udinese",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Maduka_Okoye",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마두카 오코예",
+          "contentHash": "88e173bdfab435a92863047c346356691095f026911ecf7663f1b0e0ca5a4b60"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Mergim Vojvoda",
+      "korean": "머르김 보이보다",
+      "team": "Udinese",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/M%C3%ABrgim_Vojvoda",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "머르김 보이보다",
+          "contentHash": "cc752c0d3b213a47f16e835af5b93c75cb9ea4fb8c20af125052949ff5bb3c7f"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Omari Hutchinson",
+      "korean": "오마리 허친슨",
+      "team": "AC Milan",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Omari_Hutchinson",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "오마리 허친슨",
+          "contentHash": "c8a35bb2308c0c47646c12cc9c384fde29d60da8c9c9b9ce6a97c73ce2f7f020"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Oumar Solet",
+      "korean": "우마르 솔레",
+      "team": "Udinese",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Oumar_Solet",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "우마르 솔레",
+          "contentHash": "7697b27adfd53dec43cef86f4400484a9202d3b53a8c4724bcbbb44665b13111"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Ruben Loftus-Cheek",
+      "korean": "루빈 로프터스치크",
+      "team": "AC Milan",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ruben_Loftus-Cheek",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "루빈 로프터스치크",
+          "contentHash": "4feabfee4598650711299b7c544a168b374648788ada500c1b590fd8875ec44e"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Yunus Musah",
+      "korean": "유누스 무사",
+      "team": "AC Milan",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yunus_Musah",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "유누스 무사",
+          "contentHash": "74d55c7cadc888b06a2a1b9b7ab2d290befe92cf28ded000d16d42c7170fb0ad"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Dean Huijsen",
+      "korean": "딘 하위선",
+      "team": "Real Madrid",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dean_Huijsen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "딘 하위선",
+          "contentHash": "d61bdbc69e994b5e343b1dbc07aaa24f71e2c5011bcdac63cb3975b10f823624"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Marc Cucurella",
+      "korean": "마르크 쿠쿠레야",
+      "team": "Real Madrid",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Marc_Cucurella",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마르크 쿠쿠레야",
+          "contentHash": "37523c97cf491d4d6473d9d4bf5f55314e8de16b04dede259962296e7880a222"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Geny Catamo",
+      "korean": "제니 카타무",
+      "team": "Sporting CP",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Geny_Catamo",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "제니 카타무",
+          "contentHash": "ad350eec7cf7bd2024761d0f6f81bde76264cf9234a4753388a8a039d0f658ca"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Jonathan Kuminga",
+      "korean": "조나탕 쿠밍가",
+      "team": "Minnesota Timberwolves",
+      "league": "nba",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jonathan_Kuminga",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조나탕 쿠밍가",
+          "contentHash": "bb9322f7147ba871c0c820a60cde7805114e1f188c5e6256424d5231e2e04036"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Oliver Kapanen",
+      "korean": "올리베르 카파넨",
+      "team": "Montreal Canadiens",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Oliver_Kapanen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "올리베르 카파넨",
+          "contentHash": "57bd1004a03dd1f00dacb3333d26a3312453f94a4a9b16d61ea91eddb45f9c1e"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "De'Andre Hunter",
+      "korean": "디안드레 헌터",
+      "team": "Sacramento Kings",
+      "league": "nba",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/De%27Andre_Hunter",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "디안드레 헌터",
+          "contentHash": "20f5cb35bfbd658eb524449c8c9da0313fe01703c44199eb62cf5cf1c8f7f8eb"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Denis Bouanga",
+      "korean": "드니 부앙가",
+      "team": "LAFC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Denis_Bouanga",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "드니 부앙가",
+          "contentHash": "c6f47490305f87981d04f9a1819e2f386488340812faf565bab7a26282565b73"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Sergi Roberto",
+      "korean": "세르지 로베르토",
+      "team": "LA Galaxy",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sergi_Roberto",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "세르지 로베르토",
+          "contentHash": "7dd6617b0c9fdeefa2bfede3ceee5b2caf864ca405e155412d1bc3eb97ff83a7"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Adam Hlozek",
+      "korean": "아담 흘로제크",
+      "team": "TSG Hoffenheim",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Adam_Hlo%C5%BEek",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "아담 흘로제크",
+          "contentHash": "7dd8406a6bb06c599b98da6f33b23e59bd7a9bf74a1f76fb7040f885a418f0ef"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Ademola Lookman",
+      "korean": "아데몰라 루크먼",
+      "team": "Atlético Madrid",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ademola_Lookman",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "아데몰라 루크먼",
+          "contentHash": "bf31fe9e8e035e9d7c4305aa4f890030ea855f93bbf6cb89ec4d322d33f4a917"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Adam Wharton",
+      "korean": "애덤 워튼",
+      "team": "Crystal Palace",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Adam_Wharton",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "애덤 워튼",
+          "contentHash": "a6e372a0641a09e617c4fc2bd58e4dcd7a2f5e689d279ff6139ea9fe7f2021fe"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Akor Adams",
+      "korean": "아코르 애덤스",
+      "team": "Venezia",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Akor_Adams",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "아코르 애덤스",
+          "contentHash": "d458f98e16d0274de3afa8924d3d38fcb1308cc41342be1a4f71e316660dfc1d"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Aleix García",
+      "korean": "알레시 가르시아",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Aleix_Garc%C3%ADa",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "알레시 가르시아",
+          "contentHash": "59104adac63f9031c64a88c6f3ba8c81a12a141a3f64a8953674aace2c731f70"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Alexander Prass",
+      "korean": "알렉산더 프라스",
+      "team": "TSG Hoffenheim",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Alexander_Prass",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "알렉산더 프라스",
+          "contentHash": "5507407f86d6d1eba2690ee2dc95cfde5e155a17e95e781cb93189a4e617b189"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Alexis Sanchez",
+      "korean": "알렉시스 산체스",
+      "team": "CF Montréal",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Alexis_S%C3%A1nchez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "알렉시스 산체스",
+          "contentHash": "662268efa1a1c74db416e588663e71f72254c46448b2fe9dd4f16b6b4299ad67"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Allan Saint-Maximin",
+      "korean": "알랑 생막시맹",
+      "team": "Charlotte FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Allan_Saint-Maximin",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "알랑 생막시맹",
+          "contentHash": "f9d6eee2c92f7f7500445a90a17f2ae416e3d4cf42a19c72c49e1df1cd4bb37c"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "David Neres",
+      "korean": "다비드 네리스",
+      "team": "Napoli",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/David_Neres",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "다비드 네리스",
+          "contentHash": "6fac30f302daa9c3d07101d9e3c08dd265fa310eece3557f7986f58ac8e471ba"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Emiliano Martinez",
+      "korean": "에밀리아노 마르티네스",
+      "team": "Chelsea",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "에밀리아노 마르티네스",
+          "contentHash": "2dbc8c73f467136913f38e9f9761776f9331463e30289dab4967dd9ca741c983"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Emmanuel Emegha",
+      "korean": "에마뉘엘 에메가",
+      "team": "Chelsea",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Emmanuel_Emegha",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "에마뉘엘 에메가",
+          "contentHash": "883fca75cd59585bfc9781ed9b9211fd08284d055baf6e92fa3c65b3aef389ad"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Jamie Gittens",
+      "korean": "제이미 기튼스",
+      "team": "Chelsea",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jamie_Gittens",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "제이미 기튼스",
+          "contentHash": "d50958d7d0e72c01bd3f3efe09588e06c915d19f384b731718363cb3267a4ee9"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Konstantinos Karetsas",
+      "korean": "콘스탄티노스 카레차스",
+      "team": "Borussia Dortmund",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Konstantinos_Karetsas",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "콘스탄티노스 카레차스",
+          "contentHash": "659f722a83825d4d06203ada4784c03eff30e7df47e0216120af86b9c55e3945"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Mykhailo Mudryk",
+      "korean": "미하일로 무드리크",
+      "team": "Tottenham Hotspur",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mykhailo_Mudryk",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "미하일로 무드리크",
+          "contentHash": "f3b8858a849b1fcf8b15b5e791090b00c1dd25bb179cd94ce4d823f14548746e"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Nathan Saliba",
+      "korean": "나탕 살리바",
+      "team": "Villarreal",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nathan_Saliba",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "나탕 살리바",
+          "contentHash": "4cbef43099beecdbe313a8cc3b1e9d3a92bc76e8be790c28a15762308b2e147b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Nicolas Pepe",
+      "korean": "니콜라 페페",
+      "team": "Villarreal",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nicolas_P%C3%A9p%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "니콜라 페페",
+          "contentHash": "9f8b604936f9458fd68a5770565550589781390688f15c1ff932a540fe21218b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Reece James",
+      "korean": "리스 제임스",
+      "team": "Chelsea",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Reece_James",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "리스 제임스",
+          "contentHash": "65c70e391f26787231b4b02ed0d1847b6f3eb1bbb55cbfd3118810c2640417a6"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Tosin Adarabioyo",
+      "korean": "토신 아다라비오요",
+      "team": "Tottenham Hotspur",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tosin_Adarabioyo",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "토신 아다라비오요",
+          "contentHash": "9369d9ebc244b44e1f6b2a0ac861c0830899aeaf615a4454168c6956c0c45398"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Umar Sadiq",
+      "korean": "우마르 사디크",
+      "team": "Valencia",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Umar_Sadiq",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "우마르 사디크",
+          "contentHash": "bb9cfa0702bc7f2b771134414bcce917d473c37ded6cdbc523ba3459e654ec31"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Wilson Odobert",
+      "korean": "윌송 오도베르",
+      "team": "Tottenham Hotspur",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wilson_Odobert",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "윌송 오도베르",
+          "contentHash": "6f421002656d3b209284a924de8459130f2210b60b20e5599ec5f3662b473b41"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Xavi Simons",
+      "korean": "차비 시몬스",
+      "team": "Tottenham Hotspur",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Xavi_Simons",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "차비 시몬스",
+          "contentHash": "a40c908531ffaadcdc02140522f82df2faf53ea9f165a778a0a7f52dfbce3511"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Rasmus Ristolainen",
+      "korean": "라스무스 리스톨라이넨",
+      "team": "Philadelphia Flyers",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rasmus_Ristolainen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "라스무스 리스톨라이넨",
+          "contentHash": "0859ba5dead712f5da4142ba13b47fe6d6e3f6d79b94e598895a6e1bdf9745f3"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Hans Nicolussi Caviglia",
+      "korean": "한스 니콜루시 카빌리아",
+      "team": "Parma",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hans_Nicolussi_Caviglia",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "한스 니콜루시 카빌리아",
+          "contentHash": "119c133ff0335f812bf49c64d8f98bafef1a498a81eee7c8fe57d823da124eec"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Jonathan Ikone",
+      "korean": "조나탕 이코네",
+      "team": "Paris FC",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jonathan_Ikon%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "조나탕 이코네",
+          "contentHash": "c7df0061dce9da1f4b4db6319409478c6e79ab765cbdc87af777fe892eb88677"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Matteo Cancellieri",
+      "korean": "마테오 칸첼리에리",
+      "team": "Lazio",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Matteo_Cancellieri",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "마테오 칸첼리에리",
+          "contentHash": "faf7a20473424ea46a888f678f45e7f21fd74d4cedc720c2452298f4e741e5c2"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
+    },
+    {
+      "name": "Nicolo Rovella",
+      "korean": "니콜로 로벨라",
+      "team": "Lazio",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nicol%C3%B2_Rovella",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "englishNameMatched": true,
+          "koreanTitle": "니콜로 로벨라",
+          "contentHash": "d043102a77b2f4a6398b25644d25c9fbd72674c013fe45b306da83c882db7e12"
+        }
+      ],
+      "verifiedAt": "2026-10-24T15:24:17.178126+00:00"
     }
   ]
 }
