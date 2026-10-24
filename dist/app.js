@@ -534,7 +534,7 @@ function formMarkup(team, event, events, side, prediction) {
   const record = sportSupportsRecord ? seasonRecordMarkup(team,side) : '';
   const logo = teamLogo(team,'matchup-logo');
   const location = `<small class="venue-tag ${side}">${side === 'home' ? '홈' : '원정'}</small>`;
-  const heading = side === 'away' ? `${logo}<span>${name}</span>${location}` : `<span>${name}</span>${location}${logo}`;
+  const heading = side === 'away' ? `${logo}<span>${name}</span>${location}` : `${location}<span>${name}</span>${logo}`;
   return `<div class="matchup-team ${side}"><div class="matchup-name">${heading}</div><div class="team-records"><span class="form-results" aria-label="최근 ${results.length}경기">${text}</span>${record}</div></div>`;
 }
 function predictionRecord(team,side,overall=false) {
