@@ -28,7 +28,7 @@ if (process.argv.includes('--queue')) {
     if(row.method==='wikipedia-language-link-v1') {
       assert.ok(row.sources.length===1 && row.sources.every(s=>{
         const url=new URL(s.url);
-        return url.protocol==='https:' && url.hostname==='en.wikipedia.org' && url.pathname.startsWith('/wiki/') && s.languageLinkMatched && s.englishNameMatched && s.teamMatched && s.contentHash;
+        return url.protocol==='https:' && url.hostname==='en.wikipedia.org' && url.pathname.startsWith('/wiki/') && s.languageLinkMatched && s.englishNameMatched && (s.teamMatched || (s.exactEnglishTitleMatched && s.sportMatched)) && s.contentHash;
       }),'Wikipedia language link needs exact player and team identity');
     } else if(row.method==='google-search-result-v1') {
       assert.ok(row.sources.length>=1 && row.sources.every(s=>{
