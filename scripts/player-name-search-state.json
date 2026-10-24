@@ -1568,6 +1568,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T11:01:42.824154+00:00",
       "nextCheckAt": "2026-10-24T17:01:42.824154+00:00"
+    },
+    "Alvaro Mantilla": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alvaro+Mantilla+Racing+Santander&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Alvaro+Mantilla+Racing+Santander",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T11:32:01.485933+00:00",
+      "nextCheckAt": "2026-10-24T17:32:01.485933+00:00"
     }
   }
 }
