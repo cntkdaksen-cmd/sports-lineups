@@ -11,6 +11,25 @@ class NameVerification(unittest.TestCase):
         return r.Page(f'<title>{korean} - 선수 프로필</title><h1>{korean}</h1><p>{korean} ({english}) {team}</p>')
     def proof(self, url, **kwargs):
         return r.evidence(self.row, url, self.page(**kwargs), '', {'naver'}, {})
+    def test_google_result_registers_without_second_source(self):
+        calls=[]
+        def get(url):
+            calls.append(url)
+            return self.page()
+        approved, report=r.resolve(self.row,get)
+        self.assertEqual(approved['method'],'google-search-result-v1')
+        self.assertEqual(approved['korean'],'모리츠 니콜라스')
+        self.assertEqual(len(calls),1)
+        self.assertEqual(report['status'],'verified')
+    def test_google_knowledge_panel(self):
+        page=r.Page('<div data-attrid="title"><span>모리츠 니콜라스</span></div><p>Moritz Nicolas Borussia Monchengladbach</p>')
+        self.assertEqual(r.google_result(self.row,'https://www.google.com/search?q=test',page,{})['korean'],'모리츠 니콜라스')
+    def test_google_wrong_identity_rejected(self):
+        for page in (self.page(english='Other Nicolas'), self.page(team='Other FC'), r.Page('<h1>모리츠 니콜라스</h1>')):
+            self.assertIsNone(r.google_result(self.row,'https://www.google.com/search?q=test',page,{}))
+    def test_google_conflicting_names_rejected(self):
+        page=r.Page('<h1>모리츠 니콜라스</h1><h1>모리츠 니콜라스스</h1><p>모리츠 니콜라스 (Moritz Nicolas) 모리츠 니콜라스스 (Moritz Nicolas) Borussia Monchengladbach</p>')
+        self.assertIsNone(r.google_result(self.row,'https://www.google.com/search?q=test',page,{}))
     def test_two_sources_same_identity(self):
         proof = self.proof('https://ko.wikipedia.org/wiki/Test') + self.proof('https://www.transfermarkt.co.kr/test')
         self.assertEqual(r.verify(self.row, proof)['korean'], '모리츠 니콜라스')

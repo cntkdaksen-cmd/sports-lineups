@@ -21,6 +21,7 @@ DOMAINS = ('wikipedia.org', 'transfermarkt.co.kr', 'flashscore.co.kr', 'sofascor
            'sportschosun.com', 'sportalkorea.com', 'osen.co.kr', 'xportsnews.com', 'spotvnews.co.kr',
            'mk.co.kr', 'hankyung.com', 'chosun.com', 'donga.com', 'khan.co.kr', 'kbs.co.kr', 'sbs.co.kr')
 SEARCH_HOSTS = ('www.google.com', 'search.naver.com')
+POLICY = 'google-search-result-v1'
 
 
 def normalize(value):
@@ -41,21 +42,32 @@ class Page(HTMLParser):
         super().__init__()
         self.parts, self.links, self.headings = [], [], []
         self.skip, self.anchor, self.heading = None, None, None
+        self.panel_titles = []
+        self.panel = None
+        self.depth = 0
         self.feed(html)
         self.text = ' '.join(self.parts)
 
     def handle_starttag(self, tag, attrs):
+        if tag not in ('br', 'img', 'input', 'meta', 'link', 'hr', 'wbr', 'source', 'area', 'base', 'embed', 'param', 'track', 'col'):
+            self.depth += 1
         if tag in ('script', 'style', 'noscript'):
             self.skip = tag
         if self.skip:
             return
         attrs = dict(attrs)
+        if attrs.get('data-attrid') in ('title', 'title:'):
+            self.panel = [self.depth, []]
         if tag == 'a':
             self.anchor = [attrs.get('href', ''), []]
         if tag in ('title', 'h1'):
             self.heading = [tag, []]
 
     def handle_endtag(self, tag):
+        if self.panel and self.depth == self.panel[0]:
+            self.panel_titles.append(' '.join(self.panel[1]))
+            self.panel = None
+        self.depth = max(0, self.depth - 1)
         if tag == self.skip:
             self.skip = None
         if self.skip:
@@ -71,6 +83,8 @@ class Page(HTMLParser):
         if self.skip or not data.strip():
             return
         self.parts.append(data.strip())
+        if self.panel:
+            self.panel[1].append(data.strip())
         if self.anchor:
             self.anchor[1].append(data.strip())
         if self.heading:
@@ -152,6 +166,28 @@ def verify(row, proofs):
             'league': row.get('league'), 'method': 'independent-bilingual-sources-v1', 'sources': proofs}
 
 
+def google_result(row, url, page, team_dictionary):
+    """Accept an identifiable Google result without requiring a second publisher."""
+    proofs = evidence(row, url, page, '', {'google'}, team_dictionary)
+    # Knowledge-panel titles need the exact queried player and sports identity on the page.
+    full = normalize(page.text)
+    name = normalize(row['name'])
+    team = row.get('team', '')
+    team_match = any(len(normalize(t)) > 2 and normalize(t) in full
+                     for t in (team, team_dictionary.get(team, '')))
+    panels = candidates(page.panel_titles)
+    if len(panels) == 1 and re.search(r'(?<!\w)' + re.escape(name) + r'(?!\w)', full) and team_match:
+        proofs.append({'korean': next(iter(panels)), 'teamMatched': True,
+                       'bilingualNameMatched': False, 'knowledgePanelMatched': True})
+    eligible = [p for p in proofs if p['teamMatched']]
+    if not eligible or len({normalize(p['korean']) for p in eligible}) != 1:
+        return None
+    proof = {**eligible[0], 'url': url, 'domain': 'google.com', 'engines': ['google'],
+             'contentHash': hashlib.sha256(page.text.encode()).hexdigest()}
+    return {'name': row['name'], 'korean': proof['korean'], 'team': team,
+            'league': row.get('league'), 'method': POLICY, 'sources': [proof]}
+
+
 def resolve(row, get=fetch_page, team_dictionary=None):
     query = row['name'] + ' ' + (row.get('team') or '')
     urls = {'google': 'https://www.google.com/search?' + urllib.parse.urlencode({'q': query, 'hl': 'ko'}),
@@ -159,7 +195,13 @@ def resolve(row, get=fetch_page, team_dictionary=None):
     found, searches, errors = {}, {}, []
     for engine, url in urls.items():
         try:
-            links = search_links(get(url), engine)
+            page = get(url)
+            if engine == 'google':
+                approved = google_result(row, url, page, team_dictionary or {})
+                if approved:
+                    return approved, {'searches': {'google': {'url': url, 'status': 'direct-name-result'}},
+                                      'sourceErrors': [], 'status': 'verified'}
+            links = search_links(page, engine)
             searches[engine] = {'url': url, 'status': 'results' if links else 'no-readable-trusted-results'}
             for link, title in links:
                 item = found.setdefault(link, {'title': title, 'engines': set()})
@@ -206,7 +248,8 @@ def main():
             contexts.setdefault(normalize(row['name']), set()).add(normalize(row['team']))
     eligible = [row for name, row in pending.items()
                 if len(contexts.get(normalize(name), set())) == 1
-                and state['players'].get(name, {}).get('nextCheckAt', '') <= now.isoformat()]
+                and (state['players'].get(name, {}).get('policy') != POLICY
+                     or state['players'].get(name, {}).get('nextCheckAt', '') <= now.isoformat())]
     eligible.sort(key=lambda row: (state['players'].get(row['name'], {}).get('checkedAt', ''), row['name']))
     teams = read(ROOT / 'dist/team-ko.json', {})
     checked = added = 0
@@ -217,7 +260,7 @@ def main():
             approved['entries'].append(entry)
             added += 1
         delay = dt.timedelta(days=7) if any(s['status'] == 'results' for s in report['searches'].values()) else dt.timedelta(hours=6)
-        state['players'][row['name']] = {**report, 'checkedAt': now.isoformat(), 'nextCheckAt': (now + delay).isoformat()}
+        state['players'][row['name']] = {**report, 'policy': POLICY, 'checkedAt': now.isoformat(), 'nextCheckAt': (now + delay).isoformat()}
         checked += 1
         write(approved_path, approved)
         write(state_path, state)

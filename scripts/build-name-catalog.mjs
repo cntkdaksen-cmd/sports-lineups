@@ -25,9 +25,16 @@ if (process.argv.includes('--queue')) {
   const autoPath = new URL('scripts/player-name-auto-review.json',root);
   const automatic = {};
   if(fs.existsSync(autoPath)) for(const row of read('scripts/player-name-auto-review.json').entries) {
-    assert.equal(row.method,'independent-bilingual-sources-v1');
-    assert.ok(row.sources.length>=2 && new Set(row.sources.map(s=>s.domain)).size>=2 && row.sources.some(s=>s.teamMatched),'Automatic name needs independent identity evidence');
-    assert.ok(row.sources.every(s=>s.bilingualNameMatched && /^https:\/\//.test(s.url)),'Automatic name lacks source evidence');
+    if(row.method==='google-search-result-v1') {
+      assert.ok(row.sources.length>=1 && row.sources.every(s=>{
+        const url=new URL(s.url);
+        return url.protocol==='https:' && url.hostname==='www.google.com' && url.pathname==='/search' && s.domain==='google.com' && s.teamMatched && (s.bilingualNameMatched || s.knowledgePanelMatched) && s.contentHash;
+      }),'Google result needs player identity evidence');
+    } else {
+      assert.equal(row.method,'independent-bilingual-sources-v1');
+      assert.ok(row.sources.length>=2 && new Set(row.sources.map(s=>s.domain)).size>=2 && row.sources.some(s=>s.teamMatched),'Automatic name needs independent identity evidence');
+      assert.ok(row.sources.every(s=>s.bilingualNameMatched && /^https:\/\//.test(s.url)),'Automatic name lacks source evidence');
+    }
     automatic[row.name]=row.korean;
   }
   // Human-reviewed spellings always take precedence over automated additions.
