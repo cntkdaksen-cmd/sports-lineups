@@ -1619,6 +1619,23 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T12:37:55.716410+00:00",
       "nextCheckAt": "2026-10-24T18:37:55.716410+00:00"
+    },
+    "Aaron Tshibola": {
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aaron+Tshibola+Kilmarnock&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Aaron+Tshibola+Kilmarnock",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "checkedAt": "2026-10-24T13:21:24.261296+00:00",
+      "nextCheckAt": "2026-10-24T19:21:24.261296+00:00"
     }
   }
 }
