@@ -9467,7 +9467,23 @@
       "method": "wikipedia-language-link-v1"
     },
     "dani van den heuvel": {
-      "nextBulkCheckAt": "2026-10-25T15:34:38.770841+00:00"
+      "nextBulkCheckAt": "2026-10-25T15:34:38.770841+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Dani+van+den+Heuvel+OH+Leuven&hl=ko",
+          "status": "no-readable-trusted-results"
+        },
+        "naver": {
+          "url": "https://search.naver.com/search.naver?query=Dani+van+den+Heuvel+OH+Leuven",
+          "status": "unavailable",
+          "reason": "HTTPError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-24T15:45:06.849612+00:00",
+      "nextCheckAt": "2026-10-24T21:45:06.849612+00:00"
     },
     "ewoud pletinckx": {
       "nextBulkCheckAt": "2026-10-25T15:34:38.770841+00:00"
@@ -11328,6 +11344,12 @@
     },
     "yvan maye": {
       "nextBulkCheckAt": "2026-10-25T15:41:24.274931+00:00"
+    },
+    "javier guerra": {
+      "nextBulkCheckAt": "2026-10-25T15:45:06.849612+00:00"
+    },
+    "noel aseko": {
+      "nextBulkCheckAt": "2026-10-25T15:45:06.849612+00:00"
     }
   }
 }

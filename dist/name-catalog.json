@@ -1,5 +1,6 @@
 {
   "schemaVersion": 1,
+  "generatedAt": "2026-10-24T15:45:08.792Z",
   "teams": {
     "Manchester United": "맨체스터 유나이티드 FC",
     "Como": "코모 1907",
@@ -2370,6 +2371,15 @@
     "Jayson Tatum": "제이슨 테이텀",
     "Kentavious Caldwell-Pope": "켄타비우스 콜드웰-폽",
     "Mohamed Diawara": "모하메드 디아와라",
+    "Pierluigi Gollini": "피에를루이지 골리니",
+    "Evan Ndicka": "에반 은디카",
+    "Mario Hermoso": "마리오 에르모소",
+    "Gianluca Mancini": "잔루카 만치니",
+    "Niccolò Pisilli": "니콜로 피실리",
+    "Devyne Rensch": "데빈 렌쉬",
+    "Matìas Soulè": "마티아스 소울레",
+    "Rafa Marín": "라파 마린",
+    "Mathías Olivera": "마티아스 올리베라",
     "尾形　崇斗": "오가타 슈토",
     "尾形 崇斗": "오가타 슈토",
     "Shuto Ogata": "오가타 슈토",
@@ -2382,15 +2392,6 @@
     "石田　裕太郎": "이시다 유타로",
     "石田 裕太郎": "이시다 유타로",
     "上沢　直之": "우와사와 나오유키",
-    "上沢 直之": "우와사와 나오유키",
-    "Pierluigi Gollini": "피에를루이지 골리니",
-    "Evan Ndicka": "에반 은디카",
-    "Mario Hermoso": "마리오 에르모소",
-    "Gianluca Mancini": "잔루카 만치니",
-    "Niccolò Pisilli": "니콜로 피실리",
-    "Devyne Rensch": "데빈 렌쉬",
-    "Matìas Soulè": "마티아스 소울레",
-    "Rafa Marín": "라파 마린",
-    "Mathías Olivera": "마티아스 올리베라"
+    "上沢 直之": "우와사와 나오유키"
   }
 }
