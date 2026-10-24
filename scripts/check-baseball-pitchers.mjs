@@ -23,6 +23,7 @@ assert.equal(corrected.startingPitchers.home.name,'Home pitcher');
 assert.equal(corrected.statuses.home,'confirmed');
 assert.equal(run("predictionFor(reversedEvent,[{league:'mlb',kickoff:reversedEvent.date,lineups:{away:[{name:'Wrong game'}]}}],'mlb')"),null,'Missing identities cannot match another game');
 assert.equal(run("predictionFor(reversedEvent,[{league:'mlb',kickoff:reversedEvent.date,names:{away:'다른 팀',home:'또 다른 팀'},lineups:{away:[{name:'Wrong game'}]}}],'mlb')"),null,'Non-Latin names without team codes cannot match every game');
+assert.notEqual(run("normalizePlayerName('ベイスターズ')"),run("normalizePlayerName('ヘイスターズ')"),'Japanese voicing marks distinguish names');
 assert.equal(run("fillMissingLineups({away:[{name:'Confirmed batter'}],home:[]},{away:[{name:'Older batter'}],home:[{name:'Projected batter'}]}).away[0].name"),'Confirmed batter');
 assert.equal(run("fillMissingLineups({away:[{name:'Confirmed batter'}],home:[]},{away:[{name:'Older batter'}],home:[{name:'Projected batter'}]}).home[0].name"),'Projected batter');
 assert.match(run("projectionCheckedLabel({asOf:'2026-10-24T12:00:00Z',sourceStatus:{npb:{fresh:false,checkedAt:null}}},'npb')"),/갱신 실패.*확인 불가/,'A failed first fetch must not appear freshly checked');

@@ -27,7 +27,7 @@ GOOGLE_METHOD = 'google-search-result-v1'
 
 
 def normalize(value):
-    value = ''.join(c for c in unicodedata.normalize('NFKD', str(value)) if not unicodedata.combining(c))
+    value = ''.join(c for c in unicodedata.normalize('NFKD', str(value)) if not ('\u0300' <= c <= '\u036f'))
     return re.sub(r'[^a-z0-9가-힣ぁ-ゟァ-ヿ一-龯々〆〤]+', ' ', unicodedata.normalize('NFC', value).lower()).strip()
 
 

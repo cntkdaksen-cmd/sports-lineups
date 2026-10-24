@@ -18,6 +18,7 @@ class NameVerification(unittest.TestCase):
         self.assertEqual(r.normalize('尾形　崇斗'), '尾形 崇斗')
         self.assertEqual(r.normalize('岳政華'), '岳政華')
         self.assertNotEqual(r.normalize('尾形　崇斗'), r.normalize('石田　裕太郎'))
+        self.assertNotEqual(r.normalize('ベイスターズ'), r.normalize('ヘイスターズ'))
     def test_google_result_registers_without_second_source(self):
         calls=[]
         def get(url):
