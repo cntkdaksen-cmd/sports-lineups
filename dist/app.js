@@ -685,7 +685,7 @@ function showTabs() {
   $('theme').setAttribute('aria-label',label('Switch color theme','화면 테마 변경'));
   $('refresh').textContent = label('Refresh','새로고침');
   $('sport-menu-title').textContent = label('Go to sport','종목 바로가기');
-  $('notice').textContent = label('Times use Korea Standard Time. Schedule and confirmed starters refresh every 5 minutes while this page is open.','시간은 한국시간 기준입니다. 페이지를 열어 두면 일정과 확정 선발을 5분마다 확인합니다.');
+  $('notice').textContent = label('Game times are shown in Korea Standard Time. Keep this page open to refresh schedules and lineups every 5 minutes.','경기시간은 한국시간 기준으로 표시됩니다.\n페이지를 열어두시면, 경기일정과 라인업을 5분마다 갱신합니다.');
   document.documentElement.lang = language;
 }
 const majorLeagueIds=['nba','mlb','kbo','epl','ucl','uel','laliga','bundesliga','seriea','ligue1','kleague1','j1','kbl','wkbl','kovo','npb','cpbl','nhl'];
