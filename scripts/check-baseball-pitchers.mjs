@@ -33,7 +33,7 @@ assert.match(oneSided,/Home batter/);
 for(const league of ['mlb','kbo','npb','cpbl']){run(`sport='${league}'`);assert.equal(run("baseballPitcher({homeAway:'home',probables:[]},null)"),null);assert.match(run("pitcherMarkup(baseballPitcher({homeAway:'home'},null))"),/예고 전/);}
 run("sport='nba'");assert.equal(run('baseballPitcher(event.competitions[0].competitors[0],null)'),undefined);assert.equal(run('pitcherMarkup(undefined)'),'');
 run("sport='kbl'");
-for(const name of ['원주 DB','서울 삼성','고양 소노','서울 SK','창원 LG','안양 정관장','부산 KCC','수원 KT','대구 한국가스공사','울산 현대모비스']) {
+for(const name of ['원주 DB','서울 삼성','서울 삼성 썬더스','고양 소노','서울 SK','창원 LG','창원 LG 세이커스','안양 정관장','부산 KCC','부산 KCC 이지스','수원 KT','대구 한국가스공사','울산 현대모비스','울산 현대모비스 피버스']) {
   context.kblTeam={team:{displayName:name}};
   assert.match(run('teamLogo(kblTeam)'),/https:\/\/www\.kbl\.or\.kr\/assets\/img\/logo\/logo-[a-z]+\.svg/,'KBL team logo: '+name);
 }
