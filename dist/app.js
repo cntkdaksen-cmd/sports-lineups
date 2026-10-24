@@ -207,9 +207,6 @@ function finishNameReview(current) {
   if (current !== requestId || nameReview?.request !== current) return;
   const names = [...nameReview.names.values()];
   const report = {checkedAt:new Date().toISOString(),league:sport==='football'?league:sport,status:nameReview.failed?'data-unavailable':'checked',dictionaryStatus:nameReview.dictionaryStatus,names,pending:names.filter(row=>!row.reviewed)};
-  const teams = names.filter(row=>row.kind==='team').length;
-  $('name-review').textContent = nameReview.failed ? '자료 조회 실패 · 표기 대조 미완료' : `저장 표기 대조: 팀 ${teams}개 · 선수 ${names.length-teams}명${report.pending.length ? ` · 미등록 ${report.pending.length}개` : ''}`;
-  if (report.dictionaryStatus === 'unavailable') $('name-review').textContent += ' · 명칭 사전 갱신 실패';
   // Browser-local report only; search verification still requires reviewed sources.
   try { localStorage.setItem('sports-lineups-name-review',JSON.stringify(report)); } catch {}
   nameReview = null;
@@ -778,14 +775,12 @@ async function loadMajorGames(current,preferFresh=false) {
     });
     if(current===requestId){
       $('games').innerHTML=cards.length?`<div class="major-heading"><h2>오늘·내일 주요 경기</h2><p>결승·포스트시즌, 인기 리그·주요 팀 중심으로 선정 · 최대 12경기</p></div>`+cards.join(''):`<div class="empty">${scores.some(r=>r.status==='fulfilled')?'오늘·내일 선정 기준에 맞는 주요 경기가 없습니다. 전체 경기는 종목 메뉴에서 확인하세요.':'주요 경기 일정을 불러오지 못했습니다. 새로고침해 주세요.'}</div>`;
-      $('updated').textContent=`주요 경기 ${cards.length}개 · 일정 확인 ${kst(new Date().toISOString())} · 예상 자료 ${projections.asOf ? kst(projections.asOf) : '확인 불가'}`;
     }
   } finally {sport=previousSport;league=previousLeague;}
 }
 async function loadGames(preferFresh=false) {
   const current = ++requestId;
   nameReview = {request:current,names:new Map()};
-  $('name-review').textContent = '저장 표기 대조 중…';
   try {
   showTabs();
   $('games').innerHTML='<div class="empty">최신 경기 불러오는 중…</div>';
@@ -803,7 +798,6 @@ async function loadGames(preferFresh=false) {
       const entries = projections.domestic?.[domesticKey] || [];
       const events = entries.filter(entry => Date.parse(entry.event.date) >= dayStart && Date.parse(entry.event.date) < dayEnd).sort((a,b) => Date.parse(a.event.date)-Date.parse(b.event.date));
       if (current !== requestId) return;
-      $('updated').textContent = projectionCheckedLabel(projections,domesticKey);
       $('games').innerHTML = events.length
         ? events.map(entry => { const confirmed = entry.prediction.statuses?.home === 'confirmed' && entry.prediction.statuses?.away === 'confirmed'; return gameCard(entry.event,confirmed ? entry.prediction.lineups || {} : {},entry.prediction,[]); }).join('')
         : `<div class="empty">${label('No scheduled games in this two-day period.','당일과 다음 날 예정된 경기가 없습니다.')}</div>`;
@@ -828,7 +822,6 @@ async function loadGames(preferFresh=false) {
     const allEvents = [...unique.values()];
     const events = allEvents.filter(event => !event.status?.type?.completed && event.competitions?.[0]?.timeValid !== false && Date.parse(event.date) >= dayStart && Date.parse(event.date) < dayEnd).sort((a,b) => Date.parse(a.date)-Date.parse(b.date));
     indexTeamSearch({domestic:{[sport==='football'?league:sport]:events.map(event=>({event}))}},true);
-    $('updated').textContent = `일정 확인 ${kst(new Date().toISOString())} · ${projectionCheckedLabel(predictionsResult,sport==='football'?league:sport)}`;
     if (!events.length) {
       $('games').innerHTML = `<div class="empty">${label('No scheduled games in this two-day period.','당일과 다음 날 예정된 경기가 없습니다.')}</div>`;
       return;
