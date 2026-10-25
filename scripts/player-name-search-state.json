@@ -686,23 +686,15 @@
         "google": {
           "url": "https://www.google.com/search?q=Albert+Gudmundsson+Lazio&hl=ko",
           "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Albert+Gudmundsson+Lazio",
-          "status": "results"
         }
       },
-      "sourceErrors": [
-        {
-          "url": "https://www.sofascore.com/football/player/albert-gudmundsson/804909",
-          "reason": "HTTPError"
-        }
-      ],
+      "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-24T01:29:32.627395+00:00",
-      "nextCheckAt": "2026-10-31T01:29:32.627395+00:00",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00",
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "policy": "precollect-names-v2"
     },
     "albert rusnak": {
       "status": "verified",
@@ -834,23 +826,15 @@
         "google": {
           "url": "https://www.google.com/search?q=Alessio+Furlanetto+Lazio&hl=ko",
           "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Alessio+Furlanetto+Lazio",
-          "status": "results"
         }
       },
-      "sourceErrors": [
-        {
-          "url": "https://www.uefa.com/newsfiles/uefacup/2025/2042137_FR.pdf",
-          "reason": "ValueError"
-        }
-      ],
+      "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-24T04:37:54.403752+00:00",
-      "nextCheckAt": "2026-10-31T04:37:54.403752+00:00",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00",
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "policy": "precollect-names-v2"
     },
     "alex bonetig": {
       "searches": {
@@ -1302,7 +1286,7 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T10:03:21.359537+00:00",
       "nextCheckAt": "2026-10-31T10:03:21.359537+00:00",
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "aliaksei protas": {
@@ -4619,7 +4603,18 @@
     },
     "sean couturier": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Sean+Couturier+Philadelphia+Flyers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "sergi gomez": {
       "status": "verified",
@@ -4647,7 +4642,18 @@
     },
     "tyson foerster": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Tyson+Foerster+Philadelphia+Flyers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "andy najar": {
       "status": "verified",
@@ -4824,7 +4830,18 @@
     },
     "diego carlos": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Diego+Carlos+Parma&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "diego coppola": {
       "status": "verified",
@@ -5679,7 +5696,18 @@
     },
     "fabian zetterlund": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Fabian+Zetterlund+Ottawa+Senators&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "gabriel perreault": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -5698,7 +5726,18 @@
     },
     "jason zucker": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jason+Zucker+Buffalo+Sabres&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "jonas johansson": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -5766,11 +5805,33 @@
     },
     "valeri nichushkin": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Valeri+Nichushkin+Columbus+Blue+Jackets&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "yaroslav askarov": {
       "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Yaroslav+Askarov+San+Jose+Sharks&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "andre blake": {
       "status": "verified",
@@ -6409,7 +6470,18 @@
     },
     "dylan guenther": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Dylan+Guenther+Utah+Mammoth&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "vincent trocheck": {
       "status": "verified",
@@ -14806,7 +14878,18 @@
     },
     "muhammed bah": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Muhammed+Bah+AS+Roma&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "paulo dybala": {
       "status": "verified",
@@ -14948,7 +15031,18 @@
     },
     "judd caulfield": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Judd+Caulfield+Anaheim+Ducks&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "nikita grebenkin": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -15470,11 +15564,33 @@
     },
     "matt savoie": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Matt+Savoie+Edmonton+Oilers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "mattias janmark": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mattias+Janmark+Edmonton+Oilers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "max domi": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -15772,15 +15888,15 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "benji kikanovic": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "darius johnson": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "dejuan jones": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "diego borges": {
@@ -15808,7 +15924,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "jonathan gonzalez": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "justin reynolds": {
@@ -15840,7 +15956,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "nonso adimabua": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "or blorian": {
@@ -15856,7 +15972,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "preston judd": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "reed sheppard": {
@@ -15933,7 +16049,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "ibrahim sadiq": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "jeevan singh badwal": {
@@ -15963,11 +16079,11 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "mamadou diop": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "reggie cannon": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "roman burki": {
@@ -15991,7 +16107,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "youssef maziz": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "zack steffen": {
@@ -16063,7 +16179,18 @@
     },
     "mason appleton": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mason+Appleton+Detroit+Red+Wings&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "maxim shabanov": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
@@ -16120,7 +16247,18 @@
     },
     "simon edvinsson": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Simon+Edvinsson+Detroit+Red+Wings&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "archie goodwin": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
@@ -18614,7 +18752,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "darren yapi": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-26T22:24:13.848734+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "diadie samassekou": {
@@ -18840,7 +18978,18 @@
     },
     "collin graf": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Collin+Graf+San+Jose+Sharks&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "shimpei fukuoka": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -19294,15 +19443,48 @@
     },
     "daniel boloca": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Daniel+Boloca+Sassuolo&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "fedde leysen": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Fedde+Leysen+Sassuolo&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "ismael kone": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ismael+Kone+Sassuolo&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "jay idzes": {
       "status": "verified",
@@ -19312,35 +19494,123 @@
     },
     "yeferson paz": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Yeferson+Paz+Sassuolo&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "emirhan ilkhan": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Emirhan+Ilkhan+Torino&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "franco israel": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Franco+Israel+Torino&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "mattia felici": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mattia+Felici+Cagliari&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "niccolo fortini": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Niccolo+Fortini+Torino&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "ricardo rodriguez": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ricardo+Rodriguez+Torino&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "riyad idrissi": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Riyad+Idrissi+Cagliari&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "yael trepy": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Yael+Trepy+Cagliari&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "emil holm": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -19758,7 +20028,18 @@
     },
     "josh norris": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-25T23:23:55.596556+00:00"
+      "nextBulkCheckAt": "2026-10-25T23:23:55.596556+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Josh+Norris+Buffalo+Sabres&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "ryan shea": {
       "status": "verified",
@@ -20020,7 +20301,18 @@
     },
     "samuel ersson": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00"
+      "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Samuel+Ersson+Ottawa+Senators&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T22:24:13.848734+00:00",
+      "nextCheckAt": "2026-10-26T04:24:13.848734+00:00"
     },
     "ado onaiwu": {
       "status": "verified",
