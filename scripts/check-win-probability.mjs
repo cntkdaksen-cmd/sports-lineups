@@ -34,7 +34,7 @@ assert.doesNotMatch(run('gameCard(currentEvent,{},null,[])'),/NUDE TV AI 승부�
 assert.doesNotMatch(run('gameCard(currentEvent,{},null,history)'),/NUDE TV AI 승부예측/,'One team data must hide neutral opponent estimate');
 run("sport='nba'");
 context.currentEvent.competitions[0].competitors.forEach((team,index)=>team.records=[{name:'overall',stats:[{name:'wins',value:index?12:10},{name:'losses',value:index?8:10}]}]);
-const html=run('gameCard(currentEvent,{},null,[])');assert.doesNotMatch(html,/class="outcome-value draw"/);assert.match(html,/NUDE TV AI 승부예측/);
+const html=run('gameCard(currentEvent,{},null,[])');assert.doesNotMatch(html,/NUDE TV AI 승부예측/,'Unverified estimates must stay hidden');
 console.log('Win estimates: normalization, symmetry, stronger-team response, neutral fallback, date/identity guards and football/basketball rendering passed.');
 context.externalNow=Date.now();
 context.externalEvent={id:'match-1',date:new Date(context.externalNow+3600000).toISOString(),competitions:[{competitors:[{homeAway:'home',team:{id:'home',displayName:'Home'}},{homeAway:'away',team:{id:'away',displayName:'Away'}}]}]};
@@ -49,7 +49,7 @@ for(const patch of [{awayId:'home'},{eventId:'other'},{kickoff:new Date(context.
 }
 context.feed={schemaVersion:1,items:[row]};
 run('externalForecasts=feed');
-assert.match(run('gameCard(externalEvent,{},null,[])'),/외부 공개 예측 확률/);
+assert.match(run('gameCard(externalEvent,{},null,[])'),/NUDE TV AI 승부예측/);
 assert.match(run('gameCard(externalEvent,{},null,[])'),/68\.6/);
 assert.doesNotMatch(run('gameCard(externalEvent,{},null,[])'),/시즌 전적 50%/);
 context.feed.items[0].values={home:44.75,away:29.82,draw:25.39};
