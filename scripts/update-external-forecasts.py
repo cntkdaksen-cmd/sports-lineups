@@ -14,7 +14,7 @@ UTC = dt.timezone.utc
 KST = dt.timezone(dt.timedelta(hours=9))
 PATHS = dict(re.findall(r"(\w+): \{path:'([^']+)'", (ROOT/'dist/app.js').read_text()))
 HUBS = dict(ucl='champions-league', uel='europa-league', epl='premier-league', championship='championship', laliga='la-liga', bundesliga='bundesliga', seriea='serie-a', ligue1='ligue-1', eredivisie='eredivisie', jupiler='belgian-pro-league', primeira='primeira-liga', scottish='scottish-premiership', j1='j1-league', mls='mls')
-ALIASES = {'intermilan':'internazionale','sportinglisbon':'sportingcp','lasklinz':'lask','bayernmunich':'bayernmunchen','manutd':'manchesterunited','vikingfk':'viking','realbetis':'betis','shakhtardonetsk':'shakhtardonetsk','yokohamamarinos':'yokohamafmarinos','vvarennagasaki':'vvarennagasaki'}
+ALIASES = {'intermilan':'internazionale','sportinglisbon':'sportingcp','lasklinz':'lask','bayern':'bayernmunchen','bayernmunich':'bayernmunchen','fcbayernmunich':'bayernmunchen','fcbayernmunchen':'bayernmunchen','scfreiburg':'freiburg','manutd':'manchesterunited','vikingfk':'viking','realbetis':'betis','shakhtardonetsk':'shakhtardonetsk','yokohamamarinos':'yokohamafmarinos','vvarennagasaki':'vvarennagasaki'}
 
 def key(name):
     value = ''.join(c for c in unicodedata.normalize('NFKD', name).lower() if c.isalnum() and not unicodedata.combining(c))
@@ -42,14 +42,18 @@ def parse_mole(source):
         except (ValueError, AttributeError):
             continue
     if not event: return None
-    text = html.unescape(re.sub(r'<[^>]+>', '', source))
-    match = re.search(r'most likely outcome of this match is a (.*?) win with a probability of ([\d.]+)%\. A win for (.*?) has a probability of ([\d.]+)% and a draw has a probability of ([\d.]+)%', text)
-    if not match: return None
-    first, a, second, b, draw = match.groups()
-    probabilities = {key(first):float(a), key(second):float(b)}
     home, away = event['homeTeam']['name'], event['awayTeam']['name']
-    if key(home) not in probabilities or key(away) not in probabilities: return None
-    values = dict(home=probabilities[key(home)], away=probabilities[key(away)], draw=float(draw))
+    text = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', source)))
+    analysis = re.search(r'most likely outcome of this match is a (.+?)(?:The most likely scoreline|Result\b|$)', text, re.I)
+    if not analysis: return None
+    analysis = analysis.group(1)
+    probabilities = {}
+    first = re.search(r'^(.+?) win with a probability of ([\d.]+)%', analysis, re.I)
+    if first: probabilities[key(first.group(1))] = float(first.group(2))
+    probabilities.update((key(name), float(value)) for name, value in re.findall(r'a win for (.+?) has a probability of ([\d.]+)%', analysis, re.I))
+    draw = re.search(r'a draw has a probability of ([\d.]+)%', analysis, re.I)
+    if not draw or key(home) not in probabilities or key(away) not in probabilities: return None
+    values = dict(home=probabilities[key(home)], away=probabilities[key(away)], draw=float(draw.group(1)))
     if abs(sum(values.values())-100) > .5: return None
     return dict(homeName=home, awayName=away, kickoff=event['startDate'], values=values)
 
