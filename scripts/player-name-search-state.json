@@ -6825,7 +6825,18 @@
     },
     "graham jesse": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Graham+Jesse+HC+Sochi&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T12:58:50.807407+00:00",
+      "nextCheckAt": "2026-10-25T18:58:50.807407+00:00"
     },
     "groleau jeremy": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -14812,6 +14823,42 @@
     "jean ives valou": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T12:08:53.172107+00:00"
+    },
+    "inigo ruiz de galarreta": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T12:58:50.807407+00:00"
+    },
+    "esmir bajraktarevic": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T12:58:50.807407+00:00",
+      "method": "wikidata-label-v1"
+    },
+    "jerry st juste": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T12:58:50.807407+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "mark csinger": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T12:58:50.807407+00:00"
+    },
+    "oussama targhaline": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T12:58:50.807407+00:00"
+    },
+    "perr schuurs": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T12:58:50.807407+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "tjaronn chery": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T12:58:50.807407+00:00",
+      "method": "wikidata-label-v1"
     }
   }
 }

@@ -15708,6 +15708,98 @@
         }
       ],
       "verifiedAt": "2026-10-25T11:10:20.882323+00:00"
+    },
+    {
+      "name": "Jerry St. Juste",
+      "korean": "제리 신트쥐스터",
+      "team": "Feyenoord Rotterdam",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jerry_St._Juste",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "제리 신트쥐스터",
+          "contentHash": "74b2c76ab8b886f38dada2afc3fbfca144f2ed6eed0e63ce5feee0cf6e57eeda"
+        }
+      ],
+      "verifiedAt": "2026-10-25T12:58:50.807407+00:00"
+    },
+    {
+      "name": "Perr Schuurs",
+      "korean": "페르 스휘르스",
+      "team": "NEC Nijmegen",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Perr_Schuurs",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "페르 스휘르스",
+          "contentHash": "5224a2ec650eb9c974f941c2cd284f6d3a7b866bc71e77c7bc3a32f25e28f3e5"
+        }
+      ],
+      "verifiedAt": "2026-10-25T12:58:50.807407+00:00"
+    },
+    {
+      "name": "Esmir Bajraktarevic",
+      "korean": "에스미르 바이락타레비치",
+      "team": "PSV Eindhoven",
+      "league": "eredivisie",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Esmir_Bajraktarevi%C4%87",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q108518721",
+          "wikidataItem": "Q108518721",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "b1220847c657e81d344b85d1d8df73174c93a7b5ae8eb35dc2c55c115f3feb19"
+        }
+      ],
+      "verifiedAt": "2026-10-25T12:58:50.807407+00:00"
+    },
+    {
+      "name": "Tjaronn Chery",
+      "korean": "차론 헤리",
+      "team": "NEC Nijmegen",
+      "league": "eredivisie",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tjaronn_Chery",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q182036",
+          "wikidataItem": "Q182036",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "1e863129f25072aae7f47f5f3c8eec023e25020171e0a5b568220ecd860e87fb"
+        }
+      ],
+      "verifiedAt": "2026-10-25T12:58:50.807407+00:00"
     }
   ]
 }
