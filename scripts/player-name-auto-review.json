@@ -18111,6 +18111,94 @@
         }
       ],
       "verifiedAt": "2026-10-25T15:27:38.261508+00:00"
+    },
+    {
+      "name": "Pierre-Emile Højbjerg",
+      "korean": "피에르에밀 호이비에르",
+      "team": "Marseille",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pierre-Emile_H%C3%B8jbjerg",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "피에르에밀 호이비에르",
+          "contentHash": "6acb1ffdd700840f15bdf95b86906f3bda182f9bb0788a6c416649553239e8d7"
+        }
+      ],
+      "verifiedAt": "2026-10-25T15:59:21.069500+00:00"
+    },
+    {
+      "name": "Brenden Aaronson",
+      "korean": "브렌든 에런슨",
+      "team": "Leeds United",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Brenden_Aaronson",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "브렌든 에런슨",
+          "contentHash": "473ba1ec5d0007ed6067102287bd3d302b282e2cbdeddf49a7bbd931869915ef"
+        }
+      ],
+      "verifiedAt": "2026-10-25T15:59:21.069500+00:00"
+    },
+    {
+      "name": "Jaka Bijol",
+      "korean": "야카 비욜",
+      "team": "Leeds United",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jaka_Bijol",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "야카 비욜",
+          "contentHash": "0e0be01d60b40a58b0c2c6012fad95b07f828f08e04fba69adeed9fe1946aef4"
+        }
+      ],
+      "verifiedAt": "2026-10-25T15:59:21.069500+00:00"
+    },
+    {
+      "name": "Nilson Angulo",
+      "korean": "닐손 앙굴로",
+      "team": "Sunderland",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nilson_Angulo",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "닐손 앙굴로",
+          "contentHash": "efb19ba27c2c2890188d3e6a62f83a3499d05f1a5c4449f80282cf96c0b5285d"
+        }
+      ],
+      "verifiedAt": "2026-10-25T15:59:21.069500+00:00"
     }
   ]
 }
