@@ -15598,6 +15598,28 @@
         }
       ],
       "verifiedAt": "2026-10-25T08:50:38.944909+00:00"
+    },
+    {
+      "name": "Andriy Lunin",
+      "korean": "안드리 루닌",
+      "team": "Real Madrid",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andriy_Lunin",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "안드리 루닌",
+          "contentHash": "dede89f43ca43b7fbf6555309da9e4cdc89aed9addad06721fa95833a20dc18e"
+        }
+      ],
+      "verifiedAt": "2026-10-25T10:11:27.410100+00:00"
     }
   ]
 }

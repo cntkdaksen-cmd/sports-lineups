@@ -14640,7 +14640,18 @@
     },
     "井上 朋也": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T08:50:38.944909+00:00"
+      "nextBulkCheckAt": "2026-10-26T08:50:38.944909+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=%E4%BA%95%E4%B8%8A%E3%80%80%E6%9C%8B%E4%B9%9F+%E6%A8%AA%E6%B5%9CDeNA%E3%83%99%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T10:11:27.410100+00:00",
+      "nextCheckAt": "2026-10-25T16:11:27.410100+00:00"
     },
     "松尾 汐恩": {
       "status": "verified",
@@ -14651,6 +14662,20 @@
     "李展毅": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T09:13:27.078306+00:00"
+    },
+    "andriy lunin": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T10:11:27.410100+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "remi himbert": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T10:11:27.410100+00:00"
+    },
+    "abramov vitaly": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T10:11:27.410100+00:00"
     }
   }
 }
