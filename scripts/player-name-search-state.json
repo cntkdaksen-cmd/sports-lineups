@@ -6684,7 +6684,18 @@
     },
     "hugo": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Hugo+Mito+Hollyhock&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T08:11:18.305987+00:00",
+      "nextCheckAt": "2026-10-25T14:11:18.305987+00:00"
     },
     "jin okumura": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -14589,6 +14600,10 @@
     "richie saunders": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T07:17:17.440510+00:00"
+    },
+    "javi hernandez": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T08:11:18.305987+00:00"
     }
   }
 }
