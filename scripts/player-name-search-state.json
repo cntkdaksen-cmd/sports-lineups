@@ -6855,7 +6855,18 @@
     },
     "gusev nikita": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Gusev+Nikita+HC+Sochi&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:59:35.917440+00:00",
+      "nextCheckAt": "2026-10-25T19:59:35.917440+00:00"
     },
     "guskov matvei": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -15014,6 +15025,30 @@
     "william osula": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "rogers mato": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:59:35.917440+00:00"
+    },
+    "adam daghim": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:59:35.917440+00:00"
+    },
+    "nathan tella": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:59:35.917440+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "ozan kabak": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:59:35.917440+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "wouter burger": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:59:35.917440+00:00"
     }
   }
 }

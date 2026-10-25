@@ -16066,6 +16066,50 @@
         }
       ],
       "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Nathan Tella",
+      "korean": "네이선 텔러",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nathan_Tella",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "네이선 텔러",
+          "contentHash": "bb1d0003ac64d2b1e0db6a68d7f63ae0d4f094b2c3f095927fb7840b2093488e"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:59:35.917440+00:00"
+    },
+    {
+      "name": "Ozan Kabak",
+      "korean": "오잔 카바크",
+      "team": "TSG Hoffenheim",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ozan_Kabak",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "오잔 카바크",
+          "contentHash": "44ce78f7ed51dc1d8829f07f3a21070124b5f20975bc944bec34dedbcf297610"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:59:35.917440+00:00"
     }
   ]
 }
