@@ -570,16 +570,12 @@ async function refreshExternalForecasts(current) {
   if(current===requestId)externalForecasts=feed;
 }
 function outcomeMarkup(away,home,event,prediction,events) {
-  const data=(team,side)=>({overall:predictionRecord(team,side,true),venue:predictionRecord(team,side),recent:recentResults(team,event,events,side,prediction)});
-  const drawPrior=sport==='football'?.26:['kbo','npb','cpbl'].includes(sport)?.03:0;
-  const external=winProbability.external(externalForecasts,sport==='football'?league:sport,event);
-  const result=external || winProbability.estimate({away:data(away,'away'),home:data(home,'home'),drawPrior});
-  if(!external && result.coverage<2)return '';
-  const rows=[{key:'away',label:'원정 승'},...((external?external.draw>0:drawPrior)?[{key:'draw',label:'무승부'}]:[]),{key:'home',label:'홈 승'}];
-  const basis=external?'외부 공개 예측 확률':'자체 통계 추정 · 양 팀 기록 반영';
+  const result=winProbability.external(externalForecasts,sport==='football'?league:sport,event);
+  if(!result)return '';
+  const rows=[{key:'away',label:'원정 승'},...(result.draw>0?[{key:'draw',label:'무승부'}]:[]),{key:'home',label:'홈 승'}];
   const values=rows.map(row=>`<div class="outcome-value ${row.key}"><span>${row.label}</span><strong>${result[row.key].toFixed(1)}<small>%</small></strong></div>`).join('');
   const bar=rows.map(row=>`<span class="${row.key}" style="width:${result[row.key]}%"></span>`).join('');
-  return `<section class="outcome" aria-label="NUDE TV AI 승부예측 확률"><div class="outcome-heading"><strong>NUDE TV AI 승부예측</strong><small>${basis}</small></div><div class="outcome-values" style="--outcome-columns:${rows.length}">${values}</div><div class="outcome-bar" aria-hidden="true">${bar}</div></section>`;
+  return `<section class="outcome" aria-label="NUDE TV AI 승부예측 확률"><div class="outcome-heading"><strong>NUDE TV AI 승부예측</strong></div><div class="outcome-values" style="--outcome-columns:${rows.length}">${values}</div><div class="outcome-bar" aria-hidden="true">${bar}</div></section>`;
 }
 function gameCard(event, lineups, prediction, allEvents = []) {
   const competition = event.competitions[0];
