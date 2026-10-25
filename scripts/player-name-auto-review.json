@@ -15620,6 +15620,50 @@
         }
       ],
       "verifiedAt": "2026-10-25T10:11:27.410100+00:00"
+    },
+    {
+      "name": "Kristoffer Peterson",
+      "korean": "크리스토페르 페테르손",
+      "team": "Fortuna Sittard",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kristoffer_Peterson",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "크리스토페르 페테르손",
+          "contentHash": "4988b5aeb461c8b20f50edbf99cf4849c48f21407b4f85b8ac2d914a7e37066b"
+        }
+      ],
+      "verifiedAt": "2026-10-25T10:48:15.981218+00:00"
+    },
+    {
+      "name": "Henrikh Mkhitaryan",
+      "korean": "헨리흐 므히타랸",
+      "team": "Internazionale",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Henrikh_Mkhitaryan",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "헨리흐 므히타랸",
+          "contentHash": "ea4897f5f28dcf19fb4dba2fdfa273cfe8b2e0cf138753ceb40622f0902d0351"
+        }
+      ],
+      "verifiedAt": "2026-10-25T10:48:15.981218+00:00"
     }
   ]
 }

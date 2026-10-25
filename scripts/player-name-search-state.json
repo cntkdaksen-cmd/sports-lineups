@@ -7206,7 +7206,18 @@
     },
     "宋晟睿": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=%E5%AE%8B%E6%99%9F%E7%9D%BF+%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T10:48:15.981218+00:00",
+      "nextCheckAt": "2026-10-25T16:48:15.981218+00:00"
     },
     "岳政華": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -14676,6 +14687,42 @@
     "abramov vitaly": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T10:11:27.410100+00:00"
+    },
+    "daniel van vianen": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T10:48:15.981218+00:00"
+    },
+    "kasey bos": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T10:48:15.981218+00:00"
+    },
+    "kristoffer peterson": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T10:48:15.981218+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "nesto groen": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T10:48:15.981218+00:00"
+    },
+    "nick de groot": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T10:48:15.981218+00:00"
+    },
+    "noah naujoks": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T10:48:15.981218+00:00"
+    },
+    "henrikh mkhitaryan": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T10:48:15.981218+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "victor valdepenas": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T10:48:15.981218+00:00"
     }
   }
 }
