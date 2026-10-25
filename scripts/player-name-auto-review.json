@@ -18510,6 +18510,28 @@
         }
       ],
       "verifiedAt": "2026-10-25T19:04:27.437356+00:00"
+    },
+    {
+      "name": "Luis Guilherme",
+      "korean": "루이스 길례르미",
+      "team": "Sporting CP",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Luis_Guilherme",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "루이스 길례르미",
+          "contentHash": "6f21254663f9c9b0739283611252a6a3eba241808ce53d2f8dfd0100432845bd"
+        }
+      ],
+      "verifiedAt": "2026-10-25T19:55:10.934638+00:00"
     }
   ]
 }
