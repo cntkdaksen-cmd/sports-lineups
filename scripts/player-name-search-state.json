@@ -14672,7 +14672,18 @@
     },
     "李展毅": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T09:13:27.078306+00:00"
+      "nextBulkCheckAt": "2026-10-26T09:13:27.078306+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=%E6%9D%8E%E5%B1%95%E6%AF%85+%E5%91%B3%E5%85%A8%E9%BE%8D&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T11:10:20.882323+00:00",
+      "nextCheckAt": "2026-10-25T17:10:20.882323+00:00"
     },
     "andriy lunin": {
       "status": "verified",
@@ -14723,6 +14734,26 @@
     "victor valdepenas": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T10:48:15.981218+00:00"
+    },
+    "pio esposito": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T11:10:20.882323+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "jamie mcgrath": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T11:10:20.882323+00:00"
+    },
+    "kasper h gh": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T11:10:20.882323+00:00"
+    },
+    "sam johnstone": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T11:10:20.882323+00:00",
+      "method": "wikipedia-language-link-v1"
     }
   }
 }

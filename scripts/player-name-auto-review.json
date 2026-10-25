@@ -15664,6 +15664,50 @@
         }
       ],
       "verifiedAt": "2026-10-25T10:48:15.981218+00:00"
+    },
+    {
+      "name": "Pio Esposito",
+      "korean": "프란체스코 피오 에스포지토",
+      "team": "Internazionale",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pio_Esposito",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "프란체스코 피오 에스포지토",
+          "contentHash": "a3a1964a2ce76cd2aedb7d6dd013daab4f0c1d612e1fc179c22a9d00a12f119b"
+        }
+      ],
+      "verifiedAt": "2026-10-25T11:10:20.882323+00:00"
+    },
+    {
+      "name": "Sam Johnstone",
+      "korean": "샘 존스턴",
+      "team": "Celtic",
+      "league": "scottish",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sam_Johnstone",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "샘 존스턴",
+          "contentHash": "bd1c8adc272ea6add55f070ce6542c3effb7d17980c766410387c2031b775ccc"
+        }
+      ],
+      "verifiedAt": "2026-10-25T11:10:20.882323+00:00"
     }
   ]
 }
