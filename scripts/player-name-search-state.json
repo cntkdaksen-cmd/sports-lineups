@@ -5432,7 +5432,18 @@
     },
     "dylan garand": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Dylan+Garand+New+York+Rangers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T01:47:25.846280+00:00",
+      "nextCheckAt": "2026-10-25T07:47:25.846280+00:00"
     },
     "fabian zetterlund": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -14191,6 +14202,26 @@
     "ralph priso mbongue": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T01:13:51.995608+00:00"
+    },
+    "bryce hopkins": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T01:47:25.846280+00:00"
+    },
+    "deandre jordan": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T01:47:25.846280+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "jesus ferreira": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T01:47:25.846280+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "kalani kossa rienzi": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T01:47:25.846280+00:00"
     }
   }
 }

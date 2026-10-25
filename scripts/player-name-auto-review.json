@@ -15180,6 +15180,50 @@
         }
       ],
       "verifiedAt": "2026-10-25T00:35:59.856224+00:00"
+    },
+    {
+      "name": "DeAndre Jordan",
+      "korean": "디앤드리 조던",
+      "team": "New Orleans Pelicans",
+      "league": "nba",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/DeAndre_Jordan",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "디앤드리 조던",
+          "contentHash": "c814da806cc3f1919779db480f5c5d0b01c1da040937f5c146cd0d3c3b4e4cff"
+        }
+      ],
+      "verifiedAt": "2026-10-25T01:47:25.846280+00:00"
+    },
+    {
+      "name": "Jesús Ferreira",
+      "korean": "헤수스 페레이라",
+      "team": "Seattle Sounders FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Ferreira",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "헤수스 페레이라",
+          "contentHash": "8ff989127db7d28d46ef7f3aaf0c5b2d30e5c046ff36277fade68199bd6b78b3"
+        }
+      ],
+      "verifiedAt": "2026-10-25T01:47:25.846280+00:00"
     }
   ]
 }
