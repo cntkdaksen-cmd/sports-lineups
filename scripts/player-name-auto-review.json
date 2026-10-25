@@ -18199,6 +18199,30 @@
         }
       ],
       "verifiedAt": "2026-10-25T15:59:21.069500+00:00"
+    },
+    {
+      "name": "Michael Boxall",
+      "korean": "마이클 복설",
+      "team": "Minnesota United FC",
+      "league": "mls",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Michael_Boxall",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q524730",
+          "wikidataItem": "Q524730",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "ea94926b0a59f526ca20550c4da22682ded983759c0991b1938852c171c9f6aa"
+        }
+      ],
+      "verifiedAt": "2026-10-25T16:28:16.203254+00:00"
     }
   ]
 }
