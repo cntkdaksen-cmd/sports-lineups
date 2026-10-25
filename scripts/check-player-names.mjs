@@ -25,6 +25,7 @@ assert.equal(run("teamKo['Manchester United']"),'맨체스터 유나이티드 FC
 assert.equal(run("teamDisplayName({displayName:'Mito HollyHock'})"),'미토 홀리호크');
 assert.equal(run("teamDisplayName({displayName:'Como'})"),'코모 1907');
 assert.equal(run("teamDisplayName({displayName:'Lille'})"),'LOSC 릴');
+assert.equal(run("teamDisplayName({displayName:'SC Freiburg'})"),'SC 프라이부르크');
 assert.equal(run("teamDisplayName({displayName:'Unreviewed United'})"),'Unreviewed United');
 for (const [name, expected] of [
   ['Abdulkerim Bardakci', '압둘케림 바르닥치'],
@@ -70,7 +71,10 @@ const teamReview = JSON.parse(fs.readFileSync(new URL('./team-name-review.json',
 for (const row of teamReview.entries) {
   context.teamToReview = {displayName:row.name};
   assert.equal(run('teamDisplayName(teamToReview)'),row.korean,row.name);
-  assert.ok(row.source.startsWith('https://www.google.com/search?') || (new URL(row.source).hostname==='www.yagoonara.com' && row.identitySource?.startsWith('https://npb.jp/')),row.name);
+  const source = new URL(row.source);
+  assert.ok(row.source.startsWith('https://www.google.com/search?') ||
+    (source.hostname==='www.yagoonara.com' && row.identitySource?.startsWith('https://npb.jp/')) ||
+    (source.protocol==='https:' && ['namu.moe','d.namu.moe','m.namu.moe','www.namu.moe'].includes(source.hostname)),row.name);
 }
 run(`nameReview={request:requestId,names:new Map()};teamDisplayName({displayName:'Manchester United'});playerDisplayName('Alisson Becker');playerDisplayName('Unreviewed Athlete');finishNameReview(requestId);`);
 let refreshReport = JSON.parse(storage.get('sports-lineups-name-review'));
