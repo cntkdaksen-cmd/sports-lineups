@@ -10998,11 +10998,33 @@
     },
     "lamine n diaye": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lamine+N%27Diaye+Le+Havre+AC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "lamine sy": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lamine+Sy+AJ+Auxerre&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "louis mafouta": {
       "status": "verified",
@@ -11012,31 +11034,108 @@
     },
     "lucas bretelle": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lucas+Bretelle+Le+Mans&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "lucas buades": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lucas+Buades+Le+Mans&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "lucas calodat": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lucas+Calodat+Le+Mans&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "lucas maronnier": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lucas+Maronnier+Troyes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "mahamadou nagida": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mahamadou+Nagida+Stade+Rennais&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "mahdi camara": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mahdi+Camara+Stade+Rennais&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "mark mckenzie": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mark+McKenzie+Toulouse&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "mbwana samatta": {
       "status": "verified",
@@ -11046,7 +11145,18 @@
     },
     "merwan ifnaoui": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Merwan+Ifnaoui+Troyes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "montassar talbi": {
       "status": "verified",
@@ -11056,7 +11166,18 @@
     },
     "mouhamed diop": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mouhamed+Diop+Troyes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "mousa tamari": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -11064,11 +11185,33 @@
     },
     "naouirou ahamada": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Naouirou+Ahamada+AJ+Auxerre&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "nathaniel adjei": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Nathaniel+Adjei+Lorient&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "nayef aguerd": {
       "status": "verified",
@@ -11078,7 +11221,18 @@
     },
     "nicolas kocik": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Nicolas+Kocik+Le+Mans&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "niko sigur": {
       "status": "verified",
@@ -11092,11 +11246,33 @@
     },
     "noah cadiou": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Noah+Cadiou+Lorient&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "ousmane camara": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ousmane+Camara+Angers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "paolo gozzi": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -11120,15 +11296,48 @@
     },
     "pierre emile hojbjerg": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Pierre-Emile+Hojbjerg+Marseille&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "rafik messali": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Rafik+Messali+Toulouse&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "rasmus nicolaisen": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Rasmus+Nicolaisen+Toulouse&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "rassoul ndiaye": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -18240,7 +18449,18 @@
     },
     "przemyslaw frankowski": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00"
+      "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Przemyslaw+Frankowski+Stade+Rennais&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "sebastian szymanski": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -18416,7 +18636,18 @@
     },
     "lilian raolisoa": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00"
+      "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lilian+Raolisoa+Angers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "louis mouton": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -18446,7 +18677,18 @@
     },
     "michel diaz": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00"
+      "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Michel+Diaz+Troyes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "noah nartey": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -18454,7 +18696,18 @@
     },
     "paolo gozzi iweru": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00"
+      "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Paolo+Gozzi+Iweru+Troyes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "pathe mboup": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -18718,7 +18971,18 @@
     },
     "pape diop": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00"
+      "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Pape+Diop+Strasbourg&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
     },
     "morelli mason": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -18767,6 +19031,126 @@
     "zavgorodny dmitry": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00"
+    },
+    "alexandre lauray": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "method": "wikidata-label-v1"
+    },
+    "antoine rabillard": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "method": "wikidata-label-v1"
+    },
+    "cristian casseres jr": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T15:27:38.261508+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Cristian+C%C3%A1sseres+Jr.+Toulouse&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
+    },
+    "diogo sousa": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T15:27:38.261508+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Diogo+Sousa+Strasbourg&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
+    },
+    "habib diallo": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "hillel konate": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T15:27:38.261508+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Hillel+Konat%C3%A9+Troyes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
+    },
+    "joseph kalulu kyatengwa": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T15:27:38.261508+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Joseph+Kalulu+Kyatengwa+Angers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
+    },
+    "mousa al tamari": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T15:27:38.261508+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mousa+Al-Tamari+Stade+Rennais&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
+    },
+    "prosper peter": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T15:27:38.261508+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Prosper+Peter+Angers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T15:27:38.261508+00:00",
+      "nextCheckAt": "2026-10-25T21:27:38.261508+00:00"
+    },
+    "raul torrente": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T15:27:38.261508+00:00"
+    },
+    "souleymane faye": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T15:27:38.261508+00:00"
+    },
+    "thomas j rgensen": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T15:27:38.261508+00:00"
     }
   }
 }

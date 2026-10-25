@@ -18041,6 +18041,76 @@
         }
       ],
       "verifiedAt": "2026-10-25T15:02:31.198313+00:00"
+    },
+    {
+      "name": "Habib Diallo",
+      "korean": "하비브 디알로",
+      "team": "Le Mans",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Habib_Diallo",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "하비브 디알로",
+          "contentHash": "f05f8024ea9a434bc74d5d7d6c3271e2a57cd3e23b58f6ab33bf7cad502c20f1"
+        }
+      ],
+      "verifiedAt": "2026-10-25T15:27:38.261508+00:00"
+    },
+    {
+      "name": "Alexandre Lauray",
+      "korean": "알렉상드르 로레",
+      "team": "Le Mans",
+      "league": "ligue1",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Alexandre_Lauray",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q63170433",
+          "wikidataItem": "Q63170433",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "3e6be5b4e54eb738dfb70d11e1caa7e26ce66009a5e3f7c0d7568b334f161af0"
+        }
+      ],
+      "verifiedAt": "2026-10-25T15:27:38.261508+00:00"
+    },
+    {
+      "name": "Antoine Rabillard",
+      "korean": "앙투안 라비야르",
+      "team": "Le Mans",
+      "league": "ligue1",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Antoine_Rabillard",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q22279825",
+          "wikidataItem": "Q22279825",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "df7e670774a0f7f7345929902dccd2d4a77784a31d6060d21af70d1e3137e267"
+        }
+      ],
+      "verifiedAt": "2026-10-25T15:27:38.261508+00:00"
     }
   ]
 }
