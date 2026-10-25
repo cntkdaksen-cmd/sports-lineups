@@ -14346,7 +14346,18 @@
     },
     "yuya yamagishi": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00"
+      "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Yuya+Yamagishi+Nagoya+Grampus&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T05:05:05.672851+00:00",
+      "nextCheckAt": "2026-10-25T11:05:05.672851+00:00"
     },
     "jacob fowler": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -14355,6 +14366,42 @@
     "samuel ersson": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00"
+    },
+    "ado onaiwu": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T05:05:05.672851+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "hayate ueki": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T05:05:05.672851+00:00"
+    },
+    "hiroto goya": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T05:05:05.672851+00:00"
+    },
+    "koji toriumi": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T05:05:05.672851+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "samuel gustafsson": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T05:05:05.672851+00:00"
+    },
+    "takumi nakamura": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T05:05:05.672851+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "yusei egawa": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T05:05:05.672851+00:00",
+      "method": "wikipedia-language-link-v1"
     }
   }
 }

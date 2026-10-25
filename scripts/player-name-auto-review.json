@@ -15290,6 +15290,94 @@
         }
       ],
       "verifiedAt": "2026-10-25T04:30:52.240862+00:00"
+    },
+    {
+      "name": "Ado Onaiwu",
+      "korean": "오나이우 아도",
+      "team": "Urawa Red Diamonds",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ado_Onaiwu",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "오나이우 아도",
+          "contentHash": "fb13e2912edb10b5ec6e72e74efb01a75ef97661d04818f021dd0dd165d83282"
+        }
+      ],
+      "verifiedAt": "2026-10-25T05:05:05.672851+00:00"
+    },
+    {
+      "name": "Koji Toriumi",
+      "korean": "도리우미 고지",
+      "team": "JEF United Ichihara-Chiba",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Koji_Toriumi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "도리우미 고지",
+          "contentHash": "06fc3db8c3b16b3a01b72d01b8d3ac26c0297a8cd33c57c4768d8ec97f0ad045"
+        }
+      ],
+      "verifiedAt": "2026-10-25T05:05:05.672851+00:00"
+    },
+    {
+      "name": "Takumi Nakamura",
+      "korean": "나카무라 다쿠미",
+      "team": "Cerezo Osaka",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Takumi_Nakamura",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "나카무라 다쿠미",
+          "contentHash": "529df8fdaac9edc01f64b2fcc7c89db8e60f6200a4246b0b6ad5209376cab734"
+        }
+      ],
+      "verifiedAt": "2026-10-25T05:05:05.672851+00:00"
+    },
+    {
+      "name": "Yusei Egawa",
+      "korean": "에가와 유세이",
+      "team": "V-Varen Nagasaki",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yusei_Egawa",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "에가와 유세이",
+          "contentHash": "ea3a952eb46208598286df3059a5afd21183f68d9b2deed7dd62392446c55d53"
+        }
+      ],
+      "verifiedAt": "2026-10-25T05:05:05.672851+00:00"
     }
   ]
 }
