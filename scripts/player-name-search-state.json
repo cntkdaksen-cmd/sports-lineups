@@ -14207,7 +14207,18 @@
     },
     "brayden point": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T01:13:51.995608+00:00"
+      "nextBulkCheckAt": "2026-10-26T01:13:51.995608+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Brayden+Point+Tampa+Bay+Lightning&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T03:15:10.710850+00:00",
+      "nextCheckAt": "2026-10-25T09:15:10.710850+00:00"
     },
     "gage goncalves": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
