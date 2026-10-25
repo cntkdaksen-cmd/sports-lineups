@@ -16110,6 +16110,116 @@
         }
       ],
       "verifiedAt": "2026-10-25T13:59:35.917440+00:00"
+    },
+    {
+      "name": "Nathanaël Mbuku",
+      "korean": "나타나엘 음부쿠",
+      "team": "Sint-Truidense",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nathana%C3%ABl_Mbuku",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "나타나엘 음부쿠",
+          "contentHash": "e063c787825255ce98ef31e2b36757361dddd3f7d20e1e7d9ab1784beba1edde"
+        }
+      ],
+      "verifiedAt": "2026-10-25T14:27:44.923645+00:00"
+    },
+    {
+      "name": "Nelson Ishiwatari",
+      "korean": "이시와타리 넬슨",
+      "team": "Sint-Truidense",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nelson_Ishiwatari",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "이시와타리 넬슨",
+          "contentHash": "f980afa462f20d2f2782c7e71d6f685412221e3fc25ae374b60a300ef01b04f5"
+        }
+      ],
+      "verifiedAt": "2026-10-25T14:27:44.923645+00:00"
+    },
+    {
+      "name": "Shion Shinkawa",
+      "korean": "신카와 시온",
+      "team": "Sint-Truidense",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shion_Shinkawa",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "신카와 시온",
+          "contentHash": "82a4116640b91d89d1b8ec0214f47347b2551b2017e00fd7ee273653619e050a"
+        }
+      ],
+      "verifiedAt": "2026-10-25T14:27:44.923645+00:00"
+    },
+    {
+      "name": "Abde Ezzalzouli",
+      "korean": "압드 에잘줄리",
+      "team": "Real Betis",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Abde_Ezzalzouli",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "압드 에잘줄리",
+          "contentHash": "de2eded3f8aadf719bd51ac69008f048e2ab1b8a0bfa3adf9f1947602be63089"
+        }
+      ],
+      "verifiedAt": "2026-10-25T14:27:44.923645+00:00"
+    },
+    {
+      "name": "Hugo Gonzalez",
+      "korean": "우고 곤살레스",
+      "team": "Celta Vigo",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hugo_Gonz%C3%A1lez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "우고 곤살레스",
+          "contentHash": "28a37b9a4a47d92a451253fac753ffc96913fc2a12df94aa57e10d890fb609d1"
+        }
+      ],
+      "verifiedAt": "2026-10-25T14:27:44.923645+00:00"
     }
   ]
 }

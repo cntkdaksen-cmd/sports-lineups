@@ -6988,7 +6988,18 @@
     },
     "arefyev maxim": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Arefyev+Maxim+Ak+Bars&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T14:27:44.923645+00:00",
+      "nextCheckAt": "2026-10-25T20:27:44.923645+00:00"
     },
     "bocharov ivan": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -15049,6 +15060,48 @@
     "wouter burger": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T13:59:35.917440+00:00"
+    },
+    "joederik pupe": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T14:27:44.923645+00:00"
+    },
+    "nathanael mbuku": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T14:27:44.923645+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "nelson ishiwatari": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T14:27:44.923645+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "shion shinkawa": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T14:27:44.923645+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "abde ezzalzouli": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T14:27:44.923645+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "hugo alvarez": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T14:27:44.923645+00:00"
+    },
+    "hugo gonzalez": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T14:27:44.923645+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "nelson deossa": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T14:27:44.923645+00:00"
     }
   }
 }
