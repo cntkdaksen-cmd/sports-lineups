@@ -11597,7 +11597,18 @@
     },
     "cam talbot": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Cam+Talbot+Columbus+Blue+Jackets&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T01:13:51.995608+00:00",
+      "nextCheckAt": "2026-10-25T07:13:51.995608+00:00"
     },
     "john stones": {
       "status": "verified",
@@ -14160,6 +14171,26 @@
     "tomas ostrak": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T00:35:59.856224+00:00"
+    },
+    "brayden point": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T01:13:51.995608+00:00"
+    },
+    "gage goncalves": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T01:13:51.995608+00:00"
+    },
+    "hamzat ojediran": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T01:13:51.995608+00:00"
+    },
+    "noah cobb": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T01:13:51.995608+00:00"
+    },
+    "ralph priso mbongue": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T01:13:51.995608+00:00"
     }
   }
 }
