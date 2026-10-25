@@ -18464,6 +18464,52 @@
         }
       ],
       "verifiedAt": "2026-10-25T18:30:05.902146+00:00"
+    },
+    {
+      "name": "Bernardo Silva",
+      "korean": "베르나르두 실바",
+      "team": "Real Madrid",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bernardo_Silva",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "베르나르두 실바",
+          "contentHash": "d618d7d475ff47ac5583613e6f77fb1c719c30170df047f0279402541ec74058"
+        }
+      ],
+      "verifiedAt": "2026-10-25T19:04:27.437356+00:00"
+    },
+    {
+      "name": "Precious Achiuwa",
+      "korean": "프레셔스 아추와",
+      "team": "Sacramento Kings",
+      "league": "nba",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Precious_Achiuwa",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q63112754",
+          "wikidataItem": "Q63112754",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "7a90ac165a0a06524e169a0277f5de3686856838c026a078f2fecc5600656d17"
+        }
+      ],
+      "verifiedAt": "2026-10-25T19:04:27.437356+00:00"
     }
   ]
 }
