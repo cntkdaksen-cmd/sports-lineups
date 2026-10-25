@@ -53,6 +53,24 @@ class NameVerification(unittest.TestCase):
         approved,errors=r.bulk_wikipedia([self.row],{},get)
         self.assertEqual(approved,{})
         self.assertTrue(errors)
+    def test_korean_wikipedia_search_requires_exact_identity_sport_and_club(self):
+        row={'name':'Miguel Gutiérrez','team':'Bayer Leverkusen','league':'bundesliga'}
+        page={'title':'미겔 구티에레스','extract':'미겔 구티에레스는 바이어 04 레버쿠젠 소속 축구 선수이다.',
+              'langlinks':[{'lang':'en','*':'Miguel Gutiérrez (footballer, born 2001)'}]}
+        def get(url):
+            if 'list=search' in url:
+                return {'query':{'search':[{'title':'미겔 구티에레스'}]}}
+            return {'query':{'pages':{'1':page}}}
+        self.assertEqual(r.korean_wikipedia(row,{'Bayer Leverkusen':'바이어 04 레버쿠젠'},get)['korean'],'미겔 구티에레스')
+        for changed in ({'extract':'미겔 구티에레스는 다른 구단 소속 축구 선수이다.'},
+                        {'extract':'미겔 구티에레스는 바이어 04 레버쿠젠 소속 배우이다.'},
+                        {'langlinks':[{'lang':'en','*':'Other Gutiérrez'}]}):
+            with self.subTest(changed=changed):
+                wrong={**page,**changed}
+                def bad_get(url):
+                    if 'list=search' in url: return {'query':{'search':[{'title':'미겔 구티에레스'}]}}
+                    return {'query':{'pages':{'1':wrong}}}
+                self.assertIsNone(r.korean_wikipedia(row,{'Bayer Leverkusen':'바이어 04 레버쿠젠'},bad_get))
     def test_wikidata_korean_label_for_exact_sports_article(self):
         row={'name':'Example Footballer','team':'Example FC','league':'epl'}
         calls=[]
@@ -107,7 +125,7 @@ class NameVerification(unittest.TestCase):
             (root/'dist/team-ko.json').write_text('{}')
             def resolve(row,**kw):
                 return {'name':row['name'],'korean':'테스트','method':'google-search-result-v1','sources':[]},{'searches':{'google':{'status':'direct-name-result'}},'status':'verified'}
-            with patch.object(r,'ROOT',root),patch.object(r,'bulk_wikipedia',return_value=({},[])),patch.object(r,'resolve',side_effect=resolve),patch.object(r.time,'sleep'):
+            with patch.object(r,'ROOT',root),patch.object(r,'bulk_wikipedia',return_value=({},[])),patch.object(r,'korean_wikipedia',return_value=None),patch.object(r,'resolve',side_effect=resolve),patch.object(r.time,'sleep'):
                 r.main()
             saved=json.loads((root/'scripts/player-name-auto-review.json').read_text())
             self.assertEqual(len(saved['entries']),2)
@@ -124,7 +142,7 @@ class NameVerification(unittest.TestCase):
                 if row['name']=='First Player':
                     return None,{'searches':{'google':{'status':'no-readable-trusted-results'}},'status':'needs-verification'}
                 return {'name':row['name'],'korean':'두 번째 선수','method':'google-search-result-v1','sources':[]},{'searches':{'google':{'status':'direct-name-result'}},'status':'verified'}
-            with patch.object(r,'ROOT',root),patch.object(r,'bulk_wikipedia',return_value=({},[])),patch.object(r,'resolve',side_effect=resolve) as search,patch.object(r.time,'sleep'):
+            with patch.object(r,'ROOT',root),patch.object(r,'bulk_wikipedia',return_value=({},[])),patch.object(r,'korean_wikipedia',return_value=None),patch.object(r,'resolve',side_effect=resolve) as search,patch.object(r.time,'sleep'):
                 r.main()
             self.assertEqual(search.call_count,2)
             report=json.loads((root/'scripts/player-name-run-report.json').read_text())

@@ -239,6 +239,49 @@ def fetch_json(url):
         return json.loads(raw)
 
 
+def korean_wikipedia(row, team_dictionary, get=fetch_json):
+    """Accept a Korean article only when its English page, sport and club match."""
+    if not re.search(r'[A-Za-z]', row['name']):
+        return None
+    base = 'https://ko.wikipedia.org/w/api.php?'
+    search = {'action': 'query', 'list': 'search', 'srsearch': row['name'],
+              'srlimit': 5, 'format': 'json'}
+    try:
+        results = get(base + urllib.parse.urlencode(search)).get('query', {}).get('search', [])
+        titles = [item['title'] for item in results if candidates([re.sub(r'\s*\([^)]*\)$', '', item['title'])])]
+        if not titles:
+            return None
+        query = {'action': 'query', 'prop': 'extracts|langlinks', 'exintro': '1',
+                 'explaintext': '1', 'lllang': 'en', 'format': 'json', 'titles': '|'.join(titles)}
+        pages = get(base + urllib.parse.urlencode(query)).get('query', {}).get('pages', {}).values()
+    except (ValueError, OSError, urllib.error.URLError, KeyError):
+        return None
+    sports = {'nba': '농구 선수', 'kbl': '농구 선수', 'wnba': '농구 선수', 'wkbl': '농구 선수',
+              'mlb': '야구 선수', 'kbo': '야구 선수', 'npb': '야구 선수', 'cpbl': '야구 선수',
+              'nhl': '아이스하키 선수', 'khl': '아이스하키 선수', 'kovo': '배구 선수'}
+    sport = sports.get(row.get('league'), '축구 선수')
+    team = row.get('team', '')
+    aliases = [team, team_dictionary.get(team, '')]
+    aliases = [form for alias in aliases for form in
+               (normalize(alias), normalize(re.sub(r'\b(?:fc|cf|sc|ac|[0-9]+)\b', '', normalize(alias))))]
+    verified = []
+    for page in pages:
+        korean = re.sub(r'\s*\([^)]*\)$', '', page.get('title', '')).strip()
+        intro = normalize(page.get('extract', ''))
+        english = [link.get('*', '') for link in page.get('langlinks', []) if link.get('lang') == 'en']
+        english_match = any(normalize(re.sub(r'\s*\([^)]*\)$', '', title)) == normalize(row['name']) for title in english)
+        team_match = any(len(alias) >= 5 and alias in intro for alias in aliases)
+        if candidates([korean]) != {korean} or not english_match or sport not in page.get('extract', '') or not team_match:
+            continue
+        url = 'https://ko.wikipedia.org/wiki/' + urllib.parse.quote(page['title'].replace(' ', '_'))
+        verified.append({'name': row['name'], 'korean': korean, 'team': team,
+                         'league': row.get('league'), 'method': 'korean-wikipedia-search-v1',
+                         'sources': [{'url': url, 'domain': 'wikipedia.org', 'languageLinkMatched': True,
+                                      'englishNameMatched': True, 'sportMatched': True, 'teamMatched': True,
+                                      'contentHash': hashlib.sha256(json.dumps(page, ensure_ascii=False).encode()).hexdigest()}]})
+    return verified[0] if len(verified) == 1 else None
+
+
 def bulk_wikipedia(rows, teams, get=fetch_json):
     """Resolve Korean Wikipedia titles or Wikidata labels for exact sports biographies."""
     approved, errors = {}, []
@@ -368,7 +411,7 @@ def main():
         record = state['players'].setdefault(normalize(row['name']), {})
         record['bulkPolicy'] = BULK_POLICY
         record['nextBulkCheckAt'] = (now + bulk_delay).isoformat()
-    checked = added = 0
+    checked = added = wiki_checked = wiki_approved = 0
     for key, entry in bulk.items():
         entry['verifiedAt'] = now.isoformat()
         approved['entries'].append(entry)
@@ -379,20 +422,27 @@ def main():
     deadline = time.monotonic() + 600
     for row in [r for r in eligible if normalize(r['name']) not in bulk][:30]:
         if time.monotonic() >= deadline: break
-        entry, report = resolve(row, team_dictionary=teams)
+        entry = korean_wikipedia(row, teams)
+        wiki_checked += 1
+        if entry:
+            wiki_approved += 1
+            report = {'searches': {'wikipedia': {'status': 'verified'}}, 'sourceErrors': [], 'status': 'verified'}
+        else:
+            entry, report = resolve(row, team_dictionary=teams)
+            checked += 1
         if entry:
             entry['verifiedAt'] = now.isoformat()
             approved['entries'].append(entry)
             added += 1
         delay = dt.timedelta(hours=24) if any(s['status'] == 'results' for s in report['searches'].values()) else dt.timedelta(hours=6)
         state['players'][normalize(row['name'])] = {**state['players'].get(normalize(row['name']), {}), **report, 'policy': POLICY, 'checkedAt': now.isoformat(), 'nextCheckAt': (now + delay).isoformat()}
-        checked += 1
         write(approved_path, approved)
         write(state_path, state)
         time.sleep(2)
     summary = {'at': now.isoformat(), 'inventoryRecords': len(inventory['records']), 'pending': len(pending),
                'eligible': len(eligible), 'bulkRequested': len(bulk_rows), 'bulkApproved': len(bulk),
-               'searchChecked': checked, 'approved': added, 'bulkErrors': bulk_errors,
+               'searchChecked': checked, 'wikipediaChecked': wiki_checked, 'wikipediaApproved': wiki_approved,
+               'approved': added, 'bulkErrors': bulk_errors,
                'collectionFailures': len(inventory.get('failures', [])), 'policy': 'Unverified names remain English'}
     write(ROOT / 'scripts/player-name-run-report.json', summary)
     print(json.dumps(summary))
