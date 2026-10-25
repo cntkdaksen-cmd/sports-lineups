@@ -18423,6 +18423,47 @@
         }
       ],
       "verifiedAt": "2026-10-25T17:56:39.758827+00:00"
+    },
+    {
+      "name": "Wesley Hoedt",
+      "korean": "베슬리 후트",
+      "team": "AZ Alkmaar",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wesley_Hoedt",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "베슬리 후트",
+          "contentHash": "9bc495757eecbe3fba82c784617a2e94bd00b3dc3fdce4f7dbf781109748f6c7"
+        }
+      ],
+      "verifiedAt": "2026-10-25T18:30:05.902146+00:00"
+    },
+    {
+      "name": "Rui Silva",
+      "korean": "후이 실바",
+      "team": "Sporting CP",
+      "league": "primeira",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%ED%9B%84%EC%9D%B4_%EC%8B%A4%EB%B0%94",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "d8214e31f9c69006a740e1d4cae10be5ef54ebb4dcfb4df84562305bbdeeef0a"
+        }
+      ],
+      "verifiedAt": "2026-10-25T18:30:05.902146+00:00"
     }
   ]
 }
