@@ -14375,7 +14375,18 @@
     },
     "hayate ueki": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T05:05:05.672851+00:00"
+      "nextBulkCheckAt": "2026-10-26T05:05:05.672851+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Hayate+Ueki+Urawa+Red+Diamonds&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T05:32:35.315745+00:00",
+      "nextCheckAt": "2026-10-25T11:32:35.315745+00:00"
     },
     "hiroto goya": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
