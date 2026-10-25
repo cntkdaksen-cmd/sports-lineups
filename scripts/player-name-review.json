@@ -91,7 +91,20 @@
     "Miguel Gutiérrez": "미겔 구티에레스",
     "Ezequiel Fernández": "에세키엘 페르난데스",
     "Fisnik Asllani": "피스니크 아슬라니",
-    "Kris Dunn": "크리스 던"
+    "Kris Dunn": "크리스 던",
+    "Mats Rots": "마츠 로츠",
+    "Wouter Burger": "바우터 부르거",
+    "Leon Avdullahu": "레온 아브둘라후",
+    "Adam Daghim": "아담 다힘",
+    "Jonas Urbig": "요나스 우르비히",
+    "Mio Backhaus": "미오 바크하우스",
+    "Jordy Makengo": "조르디 마켕고",
+    "Patrick Osterhage": "파트리크 오스터하게",
+    "Derry Scherhant": "데리 셰르한트",
+    "Jan-Niklas Beste": "얀-니클라스 베스테",
+    "Davide Bartesaghi": "다비데 바르테사기",
+    "Wladimiro Falcone": "블라디미로 팔코네",
+    "Philipp Treu": "필리프 트로이"
   },
   "references": {
     "naverSquads": [
@@ -237,6 +250,25 @@
         "https://m.namu.moe/w/%EC%97%90%EC%84%B8%ED%82%A4%EC%97%98%20%ED%8E%98%EB%A5%B4%EB%82%9C%EB%8D%B0%EC%8A%A4",
         "https://footballtransfernews.net/player_hub/fisnik-asllani/",
         "https://nrt.cx/p/sports/player/34165356"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "namesAdded": 13,
+      "reason": "Checked current English lineup names against Korean sports profiles and matching club context.",
+      "references": [
+        "https://footballtransfernews.net/player_hub/mats-rots/",
+        "https://www.livesport.com/kr/player/burger-wouter/bPtYGlC6/",
+        "https://sports.daum.net/player/bundesliga/2954369",
+        "https://www.allfootballapp.com/ko/player/50775265-adam-daghim",
+        "https://nrt.cx/p/sports/player/34216985",
+        "https://namu.moe/w/%EB%AF%B8%EC%98%A4%20%EB%B0%94%ED%81%AC%ED%95%98%EC%9A%B0%EC%8A%A4",
+        "https://namu.moe/w/%EC%A1%B0%EB%A5%B4%EB%94%94%20%EB%A7%88%EC%BC%95%EA%B3%A0",
+        "https://nrt.cx/p/sports/player/34202017",
+        "https://www.goal.com/kr/%EC%84%A0%EC%88%98/%E1%84%8B%E1%85%A3%E1%86%AB-%E1%84%82%E1%85%B5%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%89%E1%85%B3-%E1%84%87%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6/%EC%BB%A4%EB%A6%AC%EC%96%B4/6a0w73agnkslcc6gea1jxxzvt",
+        "https://www.livesport.com/kr/player/bartesaghi-davide/UL36DwiA/",
+        "https://www.futmetrix.com/ko/players/wladimiro-falcone",
+        "https://speedtv24.com/sbx/transfers/zp5rzghzp55pq82"
       ]
     }
   ]
