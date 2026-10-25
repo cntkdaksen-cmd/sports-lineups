@@ -6,23 +6,15 @@
         "google": {
           "url": "https://www.google.com/search?q=Aaron+Nesmith+Indiana+Pacers&hl=ko",
           "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Aaron+Nesmith+Indiana+Pacers",
-          "status": "results"
         }
       },
-      "sourceErrors": [
-        {
-          "url": "https://www.nba.com/",
-          "reason": "HTTPError"
-        }
-      ],
+      "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-23T18:26:03.044752+00:00",
-      "nextCheckAt": "2026-10-30T18:26:03.044752+00:00",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T07:17:17.440510+00:00"
+      "nextBulkCheckAt": "2026-10-26T07:17:17.440510+00:00",
+      "policy": "precollect-names-v2"
     },
     "aaron ochoa": {
       "searches": {
@@ -1735,7 +1727,18 @@
     },
     "juan rodriguez": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Juan+Rodriguez+Cagliari&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "kaiki": {
       "nextBulkCheckAt": "2026-10-26T15:02:31.198313+00:00",
@@ -1768,7 +1771,18 @@
     },
     "michel adopo": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Michel+Adopo+Cagliari&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "nadir zortea": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -1794,7 +1808,18 @@
     },
     "paul mendy": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Paul+Mendy+Cagliari&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "rafael obrador": {
       "nextBulkCheckAt": "2026-10-25T14:09:02.856935+00:00"
@@ -1833,7 +1858,18 @@
     },
     "ze pedro": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ze+Pedro+Cagliari&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "amos pieper": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -4810,7 +4846,18 @@
     },
     "christos mandas": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Christos+Mandas+Lazio&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "cisse sandra": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -4934,7 +4981,18 @@
     },
     "kenneth taylor": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Kenneth+Taylor+Lazio&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "kevin trapp": {
       "status": "verified",
@@ -5022,7 +5080,18 @@
     },
     "oliver provstgaard": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Oliver+Provstgaard+Lazio&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "pablo pagis": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -5034,7 +5103,18 @@
     },
     "reda belahyane": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Reda+Belahyane+Lazio&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "romano floriani mussolini": {
       "status": "verified",
@@ -5094,7 +5174,18 @@
     },
     "tijjani noslin": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Tijjani+Noslin+Lazio&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "tobias hedl": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -7157,11 +7248,33 @@
     },
     "guskov matvei": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Guskov+Matvei+HC+Sochi&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "king ben": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=King+Ben+Lada&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "kugryshev dmitry": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -7169,19 +7282,63 @@
     },
     "mishurov andrei": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mishurov+Andrei+Lada&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "setdikov nikita": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Setdikov+Nikita+Lada&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "slepets kirill": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Slepets+Kirill+HC+Sochi&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "volkov artyom a": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Volkov+Artyom+A.+Lada&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "agust orsteinsson": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -7348,7 +7505,18 @@
     },
     "zharovsky alexander": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Zharovsky+Alexander+Salavat+Yulaev&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "azeem abdulai": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -17425,11 +17593,33 @@
     },
     "cas odenthal": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Cas+Odenthal+Sassuolo&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "josh doig": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Josh+Doig+Sassuolo&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "kristian thorstvedt": {
       "status": "verified",
@@ -17439,11 +17629,33 @@
     },
     "sebastiano esposito": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Sebastiano+Esposito+Sassuolo&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "alessio cacciamani": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alessio+Cacciamani+Torino&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "ardian ismajli": {
       "status": "verified",
@@ -17459,7 +17671,18 @@
     },
     "daniel braganca": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Daniel+Braganca+Torino&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "daniele ghilardi": {
       "status": "verified",
@@ -17481,7 +17704,18 @@
     },
     "lucas perri": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lucas+Perri+Torino&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "m bala nzola": {
       "status": "verified",
@@ -17497,7 +17731,18 @@
     },
     "pietro comuzzo": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Pietro+Comuzzo+Torino&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "rafik belghali": {
       "status": "verified",
@@ -17507,7 +17752,18 @@
     },
     "rodrigo mora": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Rodrigo+Mora+AS+Roma&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "rolando mandragora": {
       "status": "verified",
@@ -21503,23 +21759,78 @@
     },
     "ibragimov semyon": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00"
+      "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ibragimov+Semyon+Admiral&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "kudryavtsev pavel": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00"
+      "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Kudryavtsev+Pavel+Lada&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "olson kyle": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00"
+      "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Olson+Kyle+Admiral&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "tsitsyura vladislav": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00"
+      "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Tsitsyura+Vladislav+Admiral&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "zavgorodny dmitry": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00"
+      "nextBulkCheckAt": "2026-10-26T15:15:30.115450+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Zavgorodny+Dmitry+Admiral&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T20:25:13.251457+00:00",
+      "nextCheckAt": "2026-10-26T02:25:13.251457+00:00"
     },
     "alexandre lauray": {
       "status": "verified",
@@ -22373,6 +22684,10 @@
       "policy": "precollect-names-v2",
       "checkedAt": "2026-10-25T19:55:10.934638+00:00",
       "nextCheckAt": "2026-10-26T01:55:10.934638+00:00"
+    },
+    "karim lopez": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T20:25:13.251457+00:00"
     }
   }
 }
