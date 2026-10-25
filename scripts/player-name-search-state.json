@@ -12572,7 +12572,18 @@
     },
     "diogo travassos": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Diogo+Travassos+Braga&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "francisco goncalves": {
       "status": "verified",
@@ -12582,31 +12593,108 @@
     },
     "georgios koutsias": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Georgios+Koutsias+FC+Famalicao&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "georgios liavas": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Georgios+Liavas+Rio+Ave&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "gil dias": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Gil+Dias+FC+Famalicao&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "gorby": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Gorby+Braga&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "gustaf lagerbielke": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Gustaf+Lagerbielke+Braga&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "gustavo mancha": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Gustavo+Mancha+Rio+Ave&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "jalen blesa": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jalen+Blesa+Rio+Ave&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "joao moutinho": {
       "status": "verified",
@@ -12616,7 +12704,18 @@
     },
     "joao tome": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jo%C3%A3o+Tom%C3%A9+Rio+Ave&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "jonas wind": {
       "status": "verified",
@@ -12626,43 +12725,153 @@
     },
     "lazar carevic": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lazar+Carevic+FC+Famalicao&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "malik sellouki": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Malik+Sellouki+Rio+Ave&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "marcos pena": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Marcos+Pe%C3%B1a+FC+Famalicao&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "marios vrousai": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Marios+Vrousai+Rio+Ave&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "matchoi djolo": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Matchoi+Djol%C3%B3+C.D.+Nacional&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "matheus mattara": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Matheus+Mattara+FC+Famalicao&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "mathias de amorim": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mathias+de+Amorim+FC+Famalicao&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "miguel patricio": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Miguel+Patr%C3%ADcio+Rio+Ave&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "njoya kader": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Njoya+Kader+C.D.+Nacional&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "pau victor": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Pau+V%C3%ADctor+Braga&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "pedro bondo": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -16580,7 +16789,18 @@
     },
     "roger brugue": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Roger+Brugu%C3%A9+Levante&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     },
     "dany mota": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
@@ -19869,6 +20089,180 @@
       "policy": "precollect-names-v2",
       "checkedAt": "2026-10-25T16:28:16.203254+00:00",
       "method": "wikidata-label-v1"
+    },
+    "abdelkahar kadri": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T17:00:14.063831+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Abdelkahar+Kadri+KAA+Gent&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
+    },
+    "alex remiro": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "enric llansana": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T17:00:14.063831+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Enric+Llansana+Anderlecht&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
+    },
+    "giulian biancone": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T17:00:14.063831+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Giulian+Biancone+Anderlecht&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
+    },
+    "goncalo guedes": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "jon gorrotxategi": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T17:00:14.063831+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jon+Gorrotxategi+Real+Sociedad&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
+    },
+    "luka sucic": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "mario stroeykens": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T17:00:14.063831+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mario+Stroeykens+Anderlecht&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
+    },
+    "mihajlo cvetkovic": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T17:00:14.063831+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mihajlo+Cvetkovic+Anderlecht&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
+    },
+    "nacho perez": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T17:00:14.063831+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Nacho+P%C3%A9rez+Levante&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
+    },
+    "oleg reabciuk": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T17:00:14.063831+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Oleg+Reabciuk+Anderlecht&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
+    },
+    "thelo aasgaard": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "method": "wikidata-label-v1"
+    },
+    "tibe de vlieger": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T17:00:14.063831+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Tibe+De+Vlieger+KAA+Gent&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
+    },
+    "tristan degreef": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T17:00:14.063831+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Tristan+Degreef+Anderlecht&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T17:00:14.063831+00:00",
+      "nextCheckAt": "2026-10-25T23:00:14.063831+00:00"
     }
   }
 }

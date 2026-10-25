@@ -18223,6 +18223,96 @@
         }
       ],
       "verifiedAt": "2026-10-25T16:28:16.203254+00:00"
+    },
+    {
+      "name": "Álex Remiro",
+      "korean": "알렉스 레미로",
+      "team": "Real Sociedad",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/%C3%81lex_Remiro",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "알렉스 레미로",
+          "contentHash": "e2c583940dcd18a8dd1d5d9c6abac31eb97ae8914259b9c16aaff91c29937fcf"
+        }
+      ],
+      "verifiedAt": "2026-10-25T17:00:14.063831+00:00"
+    },
+    {
+      "name": "Gonçalo Guedes",
+      "korean": "곤살루 게드스",
+      "team": "Real Sociedad",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Guedes",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "곤살루 게드스",
+          "contentHash": "38242102a43777b2dcc80c6e6fa72ae3ea0b45fffc6d873e201641de53b2ff00"
+        }
+      ],
+      "verifiedAt": "2026-10-25T17:00:14.063831+00:00"
+    },
+    {
+      "name": "Luka Sucic",
+      "korean": "루카 수치치",
+      "team": "Real Sociedad",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Luka_Su%C4%8Di%C4%87",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "루카 수치치",
+          "contentHash": "661dc43a1bb26aae1c29501f77c7f0fa5442350e6d9516b4b5fb5314eaa673b6"
+        }
+      ],
+      "verifiedAt": "2026-10-25T17:00:14.063831+00:00"
+    },
+    {
+      "name": "Thelo Aasgaard",
+      "korean": "텔로 오스고르",
+      "team": "Anderlecht",
+      "league": "jupiler",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Thelo_Aasgaard",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q100711783",
+          "wikidataItem": "Q100711783",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "286bfbe9172eac60db8d1c940592faa0f463fcc09d714a2ce09db7fdf3f6f54a"
+        }
+      ],
+      "verifiedAt": "2026-10-25T17:00:14.063831+00:00"
     }
   ]
 }
