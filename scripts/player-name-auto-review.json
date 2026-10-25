@@ -16220,6 +16220,25 @@
         }
       ],
       "verifiedAt": "2026-10-25T14:27:44.923645+00:00"
+    },
+    {
+      "name": "Chris Richards",
+      "korean": "크리스 리처즈",
+      "team": "Crystal Palace",
+      "league": "epl",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A6%AC%EC%8A%A4_%EB%A6%AC%EC%B2%98%EC%A6%88",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "1799783e2bf57c6c1befbfe9bb53e5591e657792d4f3d3525c74d530291683f1"
+        }
+      ],
+      "verifiedAt": "2026-10-25T14:45:06.807913+00:00"
     }
   ]
 }
