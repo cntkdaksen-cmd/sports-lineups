@@ -16239,6 +16239,88 @@
         }
       ],
       "verifiedAt": "2026-10-25T14:45:06.807913+00:00"
+    },
+    {
+      "name": "Thilo Kehrer",
+      "korean": "틸로 케러",
+      "team": "Ajax Amsterdam",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Thilo_Kehrer",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "틸로 케러",
+          "contentHash": "881014d63a794ecf200ff42363a16cf07b559194b29c4b3d93e0b5e03967227a"
+        }
+      ],
+      "verifiedAt": "2026-10-25T14:50:56.984898+00:00"
+    },
+    {
+      "name": "Tolu Arokodare",
+      "korean": "톨루 아로코다레",
+      "team": "Ajax Amsterdam",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tolu_Arokodare",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "톨루 아로코다레",
+          "contentHash": "f41c33ae40f22b50e692631913b702facfaa6e3d7b93b1379bc96cf3fde587ba"
+        }
+      ],
+      "verifiedAt": "2026-10-25T14:50:56.984898+00:00"
+    },
+    {
+      "name": "Lewis Hall",
+      "korean": "루이스 홀",
+      "team": "Newcastle United",
+      "league": "epl",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EB%A3%A8%EC%9D%B4%EC%8A%A4_%ED%99%80",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "be7ff6de2d62822f546c49a2f728ffa7355d1849aedf16ddddc84557e97b120e"
+        }
+      ],
+      "verifiedAt": "2026-10-25T14:50:56.984898+00:00"
+    },
+    {
+      "name": "Nico González",
+      "korean": "니코 곤살레스",
+      "team": "Newcastle United",
+      "league": "epl",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EB%8B%88%EC%BD%94_%EA%B3%A4%EC%82%B4%EB%A0%88%EC%8A%A4",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "0b2d52a2831d17dcb7bc048a0940e8f02cb84a4b8f82535696b05c8e59948e72"
+        }
+      ],
+      "verifiedAt": "2026-10-25T14:50:56.984898+00:00"
     }
   ]
 }
