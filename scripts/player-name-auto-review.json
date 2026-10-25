@@ -15246,6 +15246,50 @@
         }
       ],
       "verifiedAt": "2026-10-25T02:51:24.969206+00:00"
+    },
+    {
+      "name": "Rio Nitta",
+      "korean": "닛타 리오",
+      "team": "Yokohama F. Marinos",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rio_Nitta",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "닛타 리오",
+          "contentHash": "e59912c398db3b9649f82fe185f8cd33ec1e26b43d9f3662a63b78e133049d9d"
+        }
+      ],
+      "verifiedAt": "2026-10-25T04:30:52.240862+00:00"
+    },
+    {
+      "name": "Shuhei Tokumoto",
+      "korean": "도쿠모토 슈헤이",
+      "team": "Nagoya Grampus",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shuhei_Tokumoto",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "도쿠모토 슈헤이",
+          "contentHash": "1d956e0fb0f4367df40678f7f44319329fdbc32503c143472900362619311dc8"
+        }
+      ],
+      "verifiedAt": "2026-10-25T04:30:52.240862+00:00"
     }
   ]
 }

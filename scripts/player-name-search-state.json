@@ -5504,8 +5504,8 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "yaroslav askarov": {
-      "nextBulkCheckAt": "2026-10-25T15:54:41.641779+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v3"
+      "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00",
+      "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "andre blake": {
       "status": "verified",
@@ -14273,7 +14273,18 @@
     },
     "brandon williams": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Brandon+Williams+Golden+State+Warriors&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T04:30:52.240862+00:00",
+      "nextCheckAt": "2026-10-25T10:30:52.240862+00:00"
     },
     "gui santos": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -14320,6 +14331,30 @@
     "tadeo allende": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "rio nitta": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T04:30:52.240862+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "shuhei tokumoto": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T04:30:52.240862+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "yuya yamagishi": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00"
+    },
+    "jacob fowler": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00"
+    },
+    "samuel ersson": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00"
     }
   }
 }
