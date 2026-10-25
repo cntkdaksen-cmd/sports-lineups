@@ -5849,7 +5849,18 @@
     },
     "andre luiz": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Andr%C3%A9+Luiz+Sporting+Kansas+City&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T02:14:04.138893+00:00",
+      "nextCheckAt": "2026-10-25T08:14:04.138893+00:00"
     },
     "angus gunn": {
       "status": "verified",
@@ -14222,6 +14233,10 @@
     "kalani kossa rienzi": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T01:47:25.846280+00:00"
+    },
+    "jared spurgeon": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:14:04.138893+00:00"
     }
   }
 }
