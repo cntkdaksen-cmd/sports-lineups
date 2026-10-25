@@ -15084,7 +15084,18 @@
     },
     "alex turcotte": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alex+Turcotte+Los+Angeles+Kings&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "andre gomes": {
       "status": "verified",
@@ -15100,11 +15111,33 @@
     },
     "jakub dvorak": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jakub+Dvorak+Los+Angeles+Kings&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "jan jenik": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jan+Jenik+Los+Angeles+Kings&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "kevin fiala": {
       "status": "verified",
@@ -15126,7 +15159,18 @@
     },
     "quinton byfield": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Quinton+Byfield+Los+Angeles+Kings&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "rudy camacho": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -15156,15 +15200,48 @@
     },
     "adam sykora": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Adam+Sykora+New+York+Rangers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "aidan thompson": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aidan+Thompson+New+York+Rangers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "alec regula": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Alec+Regula+Edmonton+Oilers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "alex lyon": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -15184,7 +15261,18 @@
     },
     "atro leppanen": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Atro+Leppanen+Edmonton+Oilers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "ben kindel": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
@@ -15192,11 +15280,33 @@
     },
     "cade webber": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Cade+Webber+Toronto+Maple+Leafs&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "chris tanev": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Chris+Tanev+Toronto+Maple+Leafs&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "conor timmins": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -15204,7 +15314,18 @@
     },
     "dakota joshua": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Dakota+Joshua+Toronto+Maple+Leafs&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "dillon dube": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -15218,7 +15339,18 @@
     },
     "elvis merzlikins": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Elvis+Merzlikins+Toronto+Maple+Leafs&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "evgeni malkin": {
       "status": "verified",
@@ -15244,11 +15376,33 @@
     },
     "jason dickinson": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jason+Dickinson+Edmonton+Oilers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "joe veleno": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Joe+Veleno+New+York+Rangers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "john tavares": {
       "status": "verified",
@@ -15297,7 +15451,18 @@
     },
     "marshall rifai": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Marshall+Rifai+Toronto+Maple+Leafs&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "matt grzelcyk": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -15313,11 +15478,33 @@
     },
     "max domi": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Max+Domi+Toronto+Maple+Leafs&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "miles wood": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Miles+Wood+Toronto+Maple+Leafs&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "mitch marner": {
       "status": "verified",
@@ -15327,7 +15514,18 @@
     },
     "nick blankenburg": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Nick+Blankenburg+Toronto+Maple+Leafs&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "parker wotherspoon": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -15397,7 +15595,18 @@
     },
     "william villeneuve": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=William+Villeneuve+Toronto+Maple+Leafs&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "andre franco": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -15824,7 +16033,18 @@
     },
     "marco kasper": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Marco+Kasper+Detroit+Red+Wings&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "marcus foligno": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -15851,7 +16071,18 @@
     },
     "mikael backlund": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mikael+Backlund+Calgary+Flames&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "nick foligno": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -15874,7 +16105,18 @@
     },
     "samuel honzek": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Samuel+Honzek+Calgary+Flames&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "simon edvinsson": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -18929,7 +19171,18 @@
     },
     "mohamed ouedraogo": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mohamed+Ouedraogo+Lyon&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "nicolas tagliafico": {
       "status": "verified",
@@ -18939,15 +19192,48 @@
     },
     "steeve kango": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Steeve+Kango+Lyon&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "aimar oroz": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aimar+Oroz+Osasuna&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "asier bonel": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Asier+Bonel+Osasuna&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "jon guridi": {
       "status": "verified",
@@ -18957,15 +19243,48 @@
     },
     "jorge herrando": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jorge+Herrando+Osasuna&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "marcao": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Marcao+Sevilla&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "miguel sierra": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Miguel+Sierra+Sevilla&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "romain del castillo": {
       "status": "verified",
@@ -19389,7 +19708,7 @@
     },
     "freddy peralta": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-25T21:27:05.819734+00:00",
+      "nextBulkCheckAt": "2026-10-26T21:56:42.290071+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Freddy+Peralta+Tampa+Bay+Rays&hl=ko",
@@ -19404,7 +19723,7 @@
     },
     "robert gasser": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-25T21:27:05.819734+00:00",
+      "nextBulkCheckAt": "2026-10-26T21:56:42.290071+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Robert+Gasser+Milwaukee+Brewers&hl=ko",
@@ -19686,7 +20005,18 @@
     },
     "jacob fowler": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00"
+      "nextBulkCheckAt": "2026-10-26T04:30:52.240862+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jacob+Fowler+Montreal+Canadiens&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T21:56:42.290071+00:00",
+      "nextCheckAt": "2026-10-26T03:56:42.290071+00:00"
     },
     "samuel ersson": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
