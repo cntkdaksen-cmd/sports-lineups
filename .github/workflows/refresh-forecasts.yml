@@ -9,6 +9,7 @@ on:
       - 'scripts/check-external-forecasts.py'
       - 'scripts/check-win-probability.mjs'
       - 'dist/win-probability.js'
+      - 'dist/app.js'
       - '.github/workflows/refresh-forecasts.yml'
   schedule:
     - cron: '*/15 * * * *'
