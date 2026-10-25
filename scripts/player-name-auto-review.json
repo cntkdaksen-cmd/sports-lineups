@@ -15224,6 +15224,28 @@
         }
       ],
       "verifiedAt": "2026-10-25T01:47:25.846280+00:00"
+    },
+    {
+      "name": "Matti Peltola",
+      "korean": "마티 펠톨라",
+      "team": "D.C. United",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Matti_Peltola",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마티 펠톨라",
+          "contentHash": "0ac9191fa94b70e6c9793ceaf6844bc5b0c964594eab2d0406b57ec6fd39fccb"
+        }
+      ],
+      "verifiedAt": "2026-10-25T02:51:24.969206+00:00"
     }
   ]
 }

@@ -11251,7 +11251,18 @@
     },
     "reed sheppard": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Reed+Sheppard+Houston+Rockets&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T02:51:24.969206+00:00",
+      "nextCheckAt": "2026-10-25T08:51:24.969206+00:00"
     },
     "sam sarver": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
@@ -14237,6 +14248,56 @@
     "jared spurgeon": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T02:14:04.138893+00:00"
+    },
+    "brandon williams": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "gui santos": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "will richard": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "matti peltola": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T02:51:24.969206+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "tomas romero": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "yannick bright": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "anzor mekvabishvili": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "malik jakupovic": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "fricio caicedo": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "mateo silvetti": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "maximiliano falcon": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
+    },
+    "tadeo allende": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T02:51:24.969206+00:00"
     }
   }
 }
