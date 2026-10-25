@@ -15400,6 +15400,28 @@
         }
       ],
       "verifiedAt": "2026-10-25T06:02:22.186462+00:00"
+    },
+    {
+      "name": "Teruhito Nakagawa",
+      "korean": "나카가와 데루히토",
+      "team": "FC Tokyo",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Teruhito_Nakagawa",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "나카가와 데루히토",
+          "contentHash": "56dabfd7c389c304f89d55bf875be71041e74eca5aa872670b0944c39b86a1ac"
+        }
+      ],
+      "verifiedAt": "2026-10-25T06:34:51.648843+00:00"
     }
   ]
 }
