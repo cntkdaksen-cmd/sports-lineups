@@ -15378,6 +15378,28 @@
         }
       ],
       "verifiedAt": "2026-10-25T05:05:05.672851+00:00"
+    },
+    {
+      "name": "Kota Kawano",
+      "korean": "가와노 고타",
+      "team": "Fagiano Okayama",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kota_Kawano",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "가와노 고타",
+          "contentHash": "5f5ad446aa48a1635450e3cb1be46ce258da71c690518966741c3dbfacf7b910"
+        }
+      ],
+      "verifiedAt": "2026-10-25T06:02:22.186462+00:00"
     }
   ]
 }

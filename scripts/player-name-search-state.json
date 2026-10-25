@@ -14390,7 +14390,18 @@
     },
     "hiroto goya": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T05:05:05.672851+00:00"
+      "nextBulkCheckAt": "2026-10-26T05:05:05.672851+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Hiroto+Goya+JEF+United+Ichihara-Chiba&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T06:02:22.186462+00:00",
+      "nextCheckAt": "2026-10-25T12:02:22.186462+00:00"
     },
     "koji toriumi": {
       "status": "verified",
@@ -14412,6 +14423,12 @@
       "status": "verified",
       "policy": "precollect-names-v2",
       "checkedAt": "2026-10-25T05:05:05.672851+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "kota kawano": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T06:02:22.186462+00:00",
       "method": "wikipedia-language-link-v1"
     }
   }
