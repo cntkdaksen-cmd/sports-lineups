@@ -1888,6 +1888,22 @@
       "source": "https://www.yagoonara.com/npb/games/NPB202610240607",
       "method": "Japanese full team identity matched against NPB official schedule and Korean full-name match page",
       "identitySource": "https://npb.jp/bis/2026/games/gm20261024.html"
+    },
+    {
+      "name": "SC Freiburg",
+      "korean": "SC 프라이부르크",
+      "league": "bundesliga",
+      "source": "https://d.namu.moe/w/SC%20%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B6%80%EB%A5%B4%ED%81%AC",
+      "method": "Verified full Korean club name against bilingual club profile",
+      "english": "SC Freiburg"
+    },
+    {
+      "name": "Freiburg",
+      "korean": "SC 프라이부르크",
+      "league": "bundesliga",
+      "source": "https://d.namu.moe/w/SC%20%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B6%80%EB%A5%B4%ED%81%AC",
+      "method": "Verified full Korean club name against bilingual club profile",
+      "english": "SC Freiburg"
     }
   ],
   "policy": "Display verified full club names, including club suffixes, founding numbers and nicknames; preserve exact provider aliases. Never promote unrelated search headings."
