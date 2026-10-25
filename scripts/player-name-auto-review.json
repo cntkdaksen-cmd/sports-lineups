@@ -15422,6 +15422,160 @@
         }
       ],
       "verifiedAt": "2026-10-25T06:34:51.648843+00:00"
+    },
+    {
+      "name": "Ivan Provedel",
+      "korean": "이반 프로베델",
+      "team": "Internazionale",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ivan_Provedel",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "이반 프로베델",
+          "contentHash": "6c6ee666e22bed7f4859eb20b278f9b4e40d4557bf6ed84021a51aa17c65f0ec"
+        }
+      ],
+      "verifiedAt": "2026-10-25T07:17:17.440510+00:00"
+    },
+    {
+      "name": "Marco Brescianini",
+      "korean": "마르코 브레시아니니",
+      "team": "Fiorentina",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Marco_Brescianini",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마르코 브레시아니니",
+          "contentHash": "13d6f2a4738c85c6f58ccd1e2d30928c644e54a26bd7128755a1cd1c3bb89197"
+        }
+      ],
+      "verifiedAt": "2026-10-25T07:17:17.440510+00:00"
+    },
+    {
+      "name": "Pasquale Mazzocchi",
+      "korean": "파스콸레 마초키",
+      "team": "Venezia",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pasquale_Mazzocchi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "파스콸레 마초키",
+          "contentHash": "aa80780b6772bb19e40015c8f9c53eaeca600ec0204d980d27f2b9fba6d3daf6"
+        }
+      ],
+      "verifiedAt": "2026-10-25T07:17:17.440510+00:00"
+    },
+    {
+      "name": "Teun Koopmeiners",
+      "korean": "퇸 코프메이너르스",
+      "team": "Juventus",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Teun_Koopmeiners",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "퇸 코프메이너르스",
+          "contentHash": "64fe61bec036425075fcfa0770777afa32ffc7ad0a0fb1ccd8b8195e521b04dc"
+        }
+      ],
+      "verifiedAt": "2026-10-25T07:17:17.440510+00:00"
+    },
+    {
+      "name": "Ardon Jashari",
+      "korean": "아르돈 야샤리",
+      "team": "AC Milan",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ardon_Jashari",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "아르돈 야샤리",
+          "contentHash": "6b501917d10f0ecf5e2b7ee0ab00b88e256b17d4a839237889442e657f699978"
+        }
+      ],
+      "verifiedAt": "2026-10-25T07:17:17.440510+00:00"
+    },
+    {
+      "name": "Christian Kabasele",
+      "korean": "크리스티앙 카바셀레",
+      "team": "Udinese",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Christian_Kabasele",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "크리스티앙 카바셀레",
+          "contentHash": "a8b801f8aac1f1996d5798121d96dfd6d09b9e16223ef911bb5f09954844456f"
+        }
+      ],
+      "verifiedAt": "2026-10-25T07:17:17.440510+00:00"
+    },
+    {
+      "name": "Donte DiVincenzo",
+      "korean": "단테 디빈첸조",
+      "team": "Minnesota Timberwolves",
+      "league": "nba",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Donte_DiVincenzo",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "단테 디빈첸조",
+          "contentHash": "1384726300c8cfd551c3f77ece67bf8bf2ba6a899ff036ad3052be45dbb9a46d"
+        }
+      ],
+      "verifiedAt": "2026-10-25T07:17:17.440510+00:00"
     }
   ]
 }
