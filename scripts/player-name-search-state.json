@@ -14238,7 +14238,18 @@
     },
     "bryce hopkins": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T01:47:25.846280+00:00"
+      "nextBulkCheckAt": "2026-10-26T01:47:25.846280+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Bryce+Hopkins+Denver+Nuggets&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T03:53:17.360472+00:00",
+      "nextCheckAt": "2026-10-25T09:53:17.360472+00:00"
     },
     "deandre jordan": {
       "status": "verified",
