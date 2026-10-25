@@ -104,7 +104,22 @@
     "Jan-Niklas Beste": "얀-니클라스 베스테",
     "Davide Bartesaghi": "다비데 바르테사기",
     "Wladimiro Falcone": "블라디미로 팔코네",
-    "Philipp Treu": "필리프 트로이"
+    "Philipp Treu": "필리프 트로이",
+    "Nathaniel Brown": "너새니얼 브라운",
+    "Tiago Gabriel": "티아구 가브리엘",
+    "Kialonda Gaspar": "키알론다 가스파르",
+    "Danilo Veiga": "다닐루 베이가",
+    "Mohamed Kaba": "모하메드 카바",
+    "Youssef Maleh": "유세프 말레",
+    "Oumar Ngom": "우마르 은곰",
+    "Konan N'Dri": "코난 은드리",
+    "Willem Geubbels": "윌렘 죄벨스",
+    "James Abankwah": "제임스 아방콰",
+    "Matteo Palma": "마테오 팔마",
+    "Giorgi Chakvetadze": "기오르기 차크베타제",
+    "Jurgen Ekkelenkamp": "위르헌 에켈렌캄프",
+    "Keinan Davis": "케이넌 데이비스",
+    "Derrick Jones": "데릭 존스 주니어"
   },
   "references": {
     "naverSquads": [
@@ -269,6 +284,27 @@
         "https://www.livesport.com/kr/player/bartesaghi-davide/UL36DwiA/",
         "https://www.futmetrix.com/ko/players/wladimiro-falcone",
         "https://speedtv24.com/sbx/transfers/zp5rzghzp55pq82"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "namesAdded": 15,
+      "reason": "Checked remaining major-game English names against bilingual Korean player biographies and team context; short feed alias for Derrick Jones Jr.",
+      "references": [
+        "https://d.namu.moe/w/%EB%84%88%EC%83%88%EB%8B%88%EC%96%BC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4",
+        "https://m.namu.moe/w/%ED%8B%B0%EC%95%84%EA%B5%AC%20%EA%B0%80%EB%B8%8C%EB%A6%AC%EC%97%98",
+        "https://m.namu.moe/w/%EC%BD%94%EB%82%9C%20%EC%9D%80%EB%93%9C%EB%A6%AC",
+        "https://d.namu.moe/w/%EB%8B%A4%EB%8B%90%EB%A3%A8%20%EB%B2%A0%EC%9D%B4%EA%B0%80",
+        "https://www.namu.moe/w/%EB%AA%A8%ED%95%98%EB%A9%94%EB%93%9C%20%EC%B9%B4%EB%B0%94",
+        "https://nrt.cx/p/sports/player/34174477",
+        "https://www.scorebase.kr/transfers/l5ergphewgpxr8k",
+        "https://namu.moe/w/%EC%9C%8C%EB%A0%98%20%EC%A3%84%EB%B2%A8%EC%8A%A4",
+        "https://m.aiscore.com/ko/player-undefined/o07dni0o5meiokn/matches",
+        "https://m.namu.moe/w/%EB%A7%88%ED%85%8C%EC%98%A4%20%ED%8C%94%EB%A7%88",
+        "https://m.namu.moe/w/%EA%B8%B0%EC%98%A4%EB%A5%B4%EA%B8%B0%20%EC%B0%A8%ED%81%AC%EB%B2%A0%ED%83%80%EC%A0%9C",
+        "https://www.namu.moe/w/%EA%B8%B0%EC%98%A4%EB%A5%B4%EA%B8%B0%20%EC%B0%A8%ED%81%AC%EB%B2%A0%ED%83%80%EC%A0%9C",
+        "https://namu.moe/w/%EC%BC%80%EC%9D%B4%EB%84%8C%20%EB%8D%B0%EC%9D%B4%EB%B9%84%EC%8A%A4",
+        "https://nrt.cx/p/sports/player/34165661"
       ]
     }
   ]
