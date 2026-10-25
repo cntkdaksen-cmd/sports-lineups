@@ -1,6 +1,6 @@
 # Game outcome estimates
 
-Every game card shows statistical estimates. These estimates have not been backtested or calibrated as real-world probabilities. They do not include live score, lineup, injury, bookmaker or external prediction data.
+Game cards show probabilities only when a current published full-match model matches the exact league, event, teams and kickoff. Unmatched games show no percentage. The former recent-results estimate is retained only for internal tests; it was not calibrated as a real-world probability.
 
 Team strength combines available season win-equivalent rate (50%), recent five games (35%) and home/away record (15%). A draw counts as half a win. Each input adds four neutral wins over eight neutral matches to reduce small-sample extremes. Available component weights are renormalized. Missing team data is neutral, never inferred from the team name.
 
@@ -14,10 +14,10 @@ Validation: `node scripts/check-win-probability.mjs`.
 
 ## Published probabilities take priority
 
-`update-external-forecasts.py` collects original published full-match probabilities from ESPN Matchup Predictor, Sports Mole match analysis and BK Volley match forecasts. Google locates these publishers; Google search summaries and AI overviews are not probability sources. Picks, exact-score chances and set-win probabilities are excluded.
+`update-external-forecasts.py` collects original published full-match probabilities from ESPN Matchup Predictor, Sports Mole match analysis and BK Volley match forecasts. Google locates these publishers; Google search summaries and AI overviews are not probability sources. Picks, exact-score chances and set-win probabilities are excluded. Sports Mole sentence order can vary, so the parser identifies each team's full-match win and the draw separately.
 
 The feed retains publisher, original URL, raw probabilities, event ID, both team IDs, kickoff and retrieval time. Sports Mole matching requires exact league and normalized full team identities; a maximum 90-minute source timestamp tolerance accommodates its observed JSON-LD DST inconsistency. The output always uses the schedule's actual event identity and kickoff. KOVO uses stable match IDs plus both teams and the Korean calendar date. Its publisher explicitly marks its model uncalibrated.
 
-The browser requires event, league, both side IDs and kickoff to match. Entries expire two hours after retrieval. External values appear as `외부 공개 예측 확률`; unavailable or expired entries use `자체 통계 추정`. The branded heading remains `NUDE TV AI 승부예측`. Sources stay in review metadata; external links are not added to game cards. Rounded values sum to 100.0%; source raw totals must be within 0.5 percentage points of 100.
+The browser requires event, league, both side IDs and kickoff to match. Entries expire two hours after retrieval. Unavailable or expired entries are hidden. The branded heading remains `NUDE TV AI 승부예측`. Sources stay in review metadata; external links are not added to game cards. Rounded values sum to 100.0%; source raw totals must be within 0.5 percentage points of 100.
 
 GitHub Actions refreshes the feed on a 15-minute schedule (GitHub may delay runs). The page fetches the current feed at refresh and during its existing five-minute refresh cycle. A failed fetch never extends an old probability's freshness. This is not a guarantee of predictive accuracy or complete coverage across all leagues.
