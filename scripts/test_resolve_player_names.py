@@ -112,6 +112,23 @@ class NameVerification(unittest.TestCase):
             saved=json.loads((root/'scripts/player-name-auto-review.json').read_text())
             self.assertEqual(len(saved['entries']),2)
             self.assertEqual(json.loads((root/'scripts/player-name-run-report.json').read_text())['approved'],2)
+    def test_main_continues_after_unreadable_google_result(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);(root/'scripts').mkdir();(root/'dist').mkdir()
+            now=r.dt.datetime.now(r.dt.timezone.utc).isoformat()
+            records=[{'name':name,'korean':name,'team':'Test FC','kind':'lineup','eventDate':now}
+                     for name in ['First Player','Second Player']]
+            (root/'scripts/player-name-live-inventory.json').write_text(json.dumps({'at':now,'records':records}))
+            (root/'dist/team-ko.json').write_text('{}')
+            def resolve(row,**kw):
+                if row['name']=='First Player':
+                    return None,{'searches':{'google':{'status':'no-readable-trusted-results'}},'status':'needs-verification'}
+                return {'name':row['name'],'korean':'두 번째 선수','method':'google-search-result-v1','sources':[]},{'searches':{'google':{'status':'direct-name-result'}},'status':'verified'}
+            with patch.object(r,'ROOT',root),patch.object(r,'bulk_wikipedia',return_value=({},[])),patch.object(r,'resolve',side_effect=resolve) as search,patch.object(r.time,'sleep'):
+                r.main()
+            self.assertEqual(search.call_count,2)
+            report=json.loads((root/'scripts/player-name-run-report.json').read_text())
+            self.assertEqual((report['searchChecked'],report['approved']),(2,1))
     def test_new_bulk_policy_rechecks_names_before_search_retry(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);(root/'scripts').mkdir();(root/'dist').mkdir()

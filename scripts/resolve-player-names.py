@@ -389,9 +389,6 @@ def main():
         checked += 1
         write(approved_path, approved)
         write(state_path, state)
-        # Do not keep issuing queries when Google denies usable results.
-        if not entry and all(s['status'] != 'results' for s in report['searches'].values()):
-            break
         time.sleep(2)
     summary = {'at': now.isoformat(), 'inventoryRecords': len(inventory['records']), 'pending': len(pending),
                'eligible': len(eligible), 'bulkRequested': len(bulk_rows), 'bulkApproved': len(bulk),

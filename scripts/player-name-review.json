@@ -84,7 +84,14 @@
     "Marcus Tavernier": "마커스 태버니어",
     "Rayan": "라얀",
     "Evanilson": "이바니우송",
-    "Chema": "체마 안드레스"
+    "Chema": "체마 안드레스",
+    "Chema Andrés": "체마 안드레스",
+    "Charalambos Kostoulas": "하랄람포스 코스툴라스",
+    "Lewis Cook": "루이스 쿡",
+    "Miguel Gutiérrez": "미겔 구티에레스",
+    "Ezequiel Fernández": "에세키엘 페르난데스",
+    "Fisnik Asllani": "피스니크 아슬라니",
+    "Kris Dunn": "크리스 던"
   },
   "references": {
     "naverSquads": [
@@ -216,6 +223,20 @@
       "references": [
         "https://mws.com/ko/product/chema-andres-60CBb_-l9k2Pd-YFQKjNVw",
         "https://www.sussexexpress.co.uk/sport/football/brighton-and-hove-albion/how-brighton-were-allowed-to-sign-chema-andres-after-transfer-deadline-8954670"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "namesAdded": 7,
+      "reason": "Matched English lineup names and club identity to established Korean sports profiles; added exact full-name aliases.",
+      "references": [
+        "https://www.premierleague.com/en/players/647850/charalampos-kostoulas/career",
+        "https://fifaonline4.inven.co.kr/dataninfo/player/?code=300073885",
+        "https://nrt.cx/p/sports/player/34147875",
+        "https://www.allfootballapp.com/ko/player/50428001-miguel-gutierrez",
+        "https://m.namu.moe/w/%EC%97%90%EC%84%B8%ED%82%A4%EC%97%98%20%ED%8E%98%EB%A5%B4%EB%82%9C%EB%8D%B0%EC%8A%A4",
+        "https://footballtransfernews.net/player_hub/fisnik-asllani/",
+        "https://nrt.cx/p/sports/player/34165356"
       ]
     }
   ]
