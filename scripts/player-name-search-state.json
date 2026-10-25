@@ -6699,7 +6699,18 @@
     },
     "jin okumura": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jin+Okumura+Mito+Hollyhock&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T08:50:38.944909+00:00",
+      "nextCheckAt": "2026-10-25T14:50:38.944909+00:00"
     },
     "kein sato": {
       "status": "verified",
@@ -14604,6 +14615,16 @@
     "javi hernandez": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-26T08:11:18.305987+00:00"
+    },
+    "井上 朋也": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T08:50:38.944909+00:00"
+    },
+    "松尾 汐恩": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T08:50:38.944909+00:00",
+      "method": "wikipedia-language-link-v2"
     }
   }
 }

@@ -15576,6 +15576,28 @@
         }
       ],
       "verifiedAt": "2026-10-25T07:17:17.440510+00:00"
+    },
+    {
+      "name": "松尾　汐恩",
+      "korean": "마쓰오 시온",
+      "team": "横浜DeNAベイスターズ",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E5%B0%BE%E6%B1%90%E6%81%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "마쓰오 시온",
+          "contentHash": "fc3119446aba1f6527611db190e1f453b85b6bb57eaef5836423673c99be6269"
+        }
+      ],
+      "verifiedAt": "2026-10-25T08:50:38.944909+00:00"
     }
   ]
 }
