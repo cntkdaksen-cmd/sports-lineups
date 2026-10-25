@@ -101,7 +101,8 @@ body{text-align:center}.site-header{display:grid;grid-template-columns:minmax(0,
 .site-header h1{font-size:clamp(32px,3.4vw,42px);line-height:1.12}
 @media(max-width:560px){.site-header .eyebrow{font-size:12px;letter-spacing:1.4px}.site-header h1{font-size:clamp(27px,7vw,34px)}}
 
-/* Make the refresh action easy to find beside the theme control. */
+/* Make the refresh action easy to find in the header. */
 .header-actions #refresh{font-size:14px;padding:11px 16px;min-height:40px}
 @media(max-width:560px){.header-actions #refresh{font-size:13px;padding:10px 13px;min-height:38px}}
 .notice{white-space:pre-line;line-height:1.6}
+.brand-lockup #theme{flex:none}
