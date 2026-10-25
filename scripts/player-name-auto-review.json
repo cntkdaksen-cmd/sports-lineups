@@ -15158,6 +15158,28 @@
         }
       ],
       "verifiedAt": "2026-10-24T23:52:51.166761+00:00"
+    },
+    {
+      "name": "Naji Marshall",
+      "korean": "나지 마셜",
+      "team": "Dallas Mavericks",
+      "league": "nba",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Naji_Marshall",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "나지 마셜",
+          "contentHash": "c81c481560e53483000a753729e77ed37fc4c6b45d5f8c122c9aa297941141bc"
+        }
+      ],
+      "verifiedAt": "2026-10-25T00:35:59.856224+00:00"
     }
   ]
 }

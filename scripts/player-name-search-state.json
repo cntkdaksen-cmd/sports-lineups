@@ -5413,7 +5413,18 @@
     },
     "arturs silovs": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Arturs+Silovs+Pittsburgh+Penguins&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T00:35:59.856224+00:00",
+      "nextCheckAt": "2026-10-25T06:35:59.856224+00:00"
     },
     "charlie lindgren": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -14115,6 +14126,40 @@
     "mikkel desler": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-25T23:52:51.166761+00:00"
+    },
+    "naji marshall": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T00:35:59.856224+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "capita": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T00:35:59.856224+00:00"
+    },
+    "jacob davis": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T00:35:59.856224+00:00"
+    },
+    "benjamin lundt": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T00:35:59.856224+00:00"
+    },
+    "charles emile brunet": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T00:35:59.856224+00:00"
+    },
+    "christopher durkin": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T00:35:59.856224+00:00"
+    },
+    "rafael santos": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T00:35:59.856224+00:00"
+    },
+    "tomas ostrak": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T00:35:59.856224+00:00"
     }
   }
 }
