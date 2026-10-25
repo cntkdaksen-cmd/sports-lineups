@@ -15800,6 +15800,272 @@
         }
       ],
       "verifiedAt": "2026-10-25T12:58:50.807407+00:00"
+    },
+    {
+      "name": "Aaron Hickey",
+      "korean": "에런 히키",
+      "team": "Brentford",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Aaron_Hickey",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "에런 히키",
+          "contentHash": "bf7cc1328c8b2809c66399307f0f913d02dd066e82d8c7038354e20982ab4afe"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Amar Dedic",
+      "korean": "아마르 데디치",
+      "team": "Newcastle United",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Amar_Dedi%C4%87",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "아마르 데디치",
+          "contentHash": "e56a96f83a2ef79bbfd99389954d54cdcd47178578c7e7d74a7994022a3b9caa"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Ansu Fati",
+      "korean": "안수 파티",
+      "team": "AS Monaco",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ansu_Fati",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "안수 파티",
+          "contentHash": "b98568e45ff35d64942ac52deef990d04c646a13f5e36a3c48e6df6aba3c8a58"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Dan Burn",
+      "korean": "댄 번",
+      "team": "Newcastle United",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dan_Burn",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "댄 번",
+          "contentHash": "f182946c6525ed9cfc33d078b7dd1f1e43fa99b175c673a78b7a445384db6324"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Dango Ouattara",
+      "korean": "당고 와타라",
+      "team": "Brentford",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dango_Ouattara",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "당고 와타라",
+          "contentHash": "2fcbb942033ead8c570506e2baa08f5b67a9274a9501c2c858121d264527e288"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Dylan Levitt",
+      "korean": "딜런 레빗",
+      "team": "Motherwell",
+      "league": "scottish",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dylan_Levitt",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "딜런 레빗",
+          "contentHash": "1beb4dfcdb9eced773e8334121561d82ce0d641135be08b231f47000c9f50045"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Fabian Schär",
+      "korean": "파비안 셰어",
+      "team": "Newcastle United",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fabian_Sch%C3%A4r",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "파비안 셰어",
+          "contentHash": "a5bff20105094886d16e906e3212883c3e8f3b65d7e722f4e975d4b4fe2b9bb8"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Joe Willock",
+      "korean": "조 윌록",
+      "team": "Newcastle United",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Willock",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "조 윌록",
+          "contentHash": "dc8be857376e4864ea564d045b048347bbdb0b7d8a4e875c1affe05038cb847c"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Leo Østigard",
+      "korean": "레오 스키리 외스티고르",
+      "team": "Genoa",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Leo_%C3%98stig%C3%A5rd",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "레오 스키리 외스티고르",
+          "contentHash": "eeb213623c3e14d266bbe8b47fb973a3dcbfec5864980bfdd6fe8ff59c269d7f"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Elliot Stroud",
+      "korean": "엘리오트 스트라우드",
+      "team": "Hull City",
+      "league": "epl",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Elliot_Stroud",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q117789805",
+          "wikidataItem": "Q117789805",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "2af7c7e8445e6bdfec6058f5a637f300f8f75c316f1eb0ec4110a6f52d3cf3cc"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Mario Mitaj",
+      "korean": "마리오 미타이",
+      "team": "Genoa",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mario_Mitaj",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마리오 미타이",
+          "contentHash": "afbb488e2ece2ff2d3b4902e0bb2d6c625e9b21daadc3249d529d089789125c7"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
+    },
+    {
+      "name": "Mason Mount",
+      "korean": "메이슨 마운트",
+      "team": "Manchester United",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mason_Mount",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "메이슨 마운트",
+          "contentHash": "a189c5e2e8989b49908971e189d5f3746c121e31967bf41de5bb7898d3555926"
+        }
+      ],
+      "verifiedAt": "2026-10-25T13:31:43.856677+00:00"
     }
   ]
 }

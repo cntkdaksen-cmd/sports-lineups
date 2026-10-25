@@ -6840,7 +6840,18 @@
     },
     "groleau jeremy": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Groleau+Jeremy+Lada&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "nextCheckAt": "2026-10-25T19:31:43.856677+00:00"
     },
     "gusev nikita": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -14859,6 +14870,150 @@
       "policy": "precollect-names-v2",
       "checkedAt": "2026-10-25T12:58:50.807407+00:00",
       "method": "wikidata-label-v1"
+    },
+    "aaron hickey": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "amar dedic": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "ansu fati": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "charalambos kostoulas": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "chema andres": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "dan burn": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "dango ouattara": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "dwight mcneil": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "dylan levitt": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "elliot stroud": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikidata-label-v1"
+    },
+    "enrique perez": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "fabian schar": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "jacob murphy": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "jake girdwood reich": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "james wilson": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "joe willock": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "jordan mcghee": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "jordan teze": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "leo stigard": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "lewis cook": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "mamadou coulibaly": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "mario mitaj": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "mason mount": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-25T13:31:43.856677+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "mikael ellertsson": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "nazinho": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "sabah kerjota": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "sebastian otoa": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "soriba diaoune": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "tomas magnusson": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
+    },
+    "william osula": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-26T13:31:43.856677+00:00"
     }
   }
 }
