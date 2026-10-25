@@ -18313,6 +18313,116 @@
         }
       ],
       "verifiedAt": "2026-10-25T17:00:14.063831+00:00"
+    },
+    {
+      "name": "Dante Vanzeir",
+      "korean": "단테 반차이르",
+      "team": "Cercle Brugge KSV",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dante_Vanzeir",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "단테 반차이르",
+          "contentHash": "3fd87cee1285b8b170e616d77e730845044ec1bad6e8ffa190bc82eaeb8ed3f4"
+        }
+      ],
+      "verifiedAt": "2026-10-25T17:56:39.758827+00:00"
+    },
+    {
+      "name": "Ibrahim Diakité",
+      "korean": "이브라힘 디아키테",
+      "team": "Cercle Brugge KSV",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ibrahim_Diakit%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "이브라힘 디아키테",
+          "contentHash": "54e3ab0f62966e18c9a7bcf2f7c789a396080c8159b74c1b5e42dfe1e320b199"
+        }
+      ],
+      "verifiedAt": "2026-10-25T17:56:39.758827+00:00"
+    },
+    {
+      "name": "Raul Florucz",
+      "korean": "라울 플로루츠",
+      "team": "Union St.-Gilloise",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Raul_Florucz",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "라울 플로루츠",
+          "contentHash": "0b487d2a7e34ff9222ea4deb0840186ff326bc5e5e6a2bb323adb58b2b6533a6"
+        }
+      ],
+      "verifiedAt": "2026-10-25T17:56:39.758827+00:00"
+    },
+    {
+      "name": "Igor Paixão",
+      "korean": "이고르 파이샹",
+      "team": "Marseille",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Igor_Paix%C3%A3o",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "이고르 파이샹",
+          "contentHash": "6fa65f483b622cfd1f39e5a1b536bafdf478350a5707457df9bce75bcf832e4e"
+        }
+      ],
+      "verifiedAt": "2026-10-25T17:56:39.758827+00:00"
+    },
+    {
+      "name": "Andrés Cubas",
+      "korean": "안드레스 쿠바스",
+      "team": "Vancouver Whitecaps",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Cubas",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "안드레스 쿠바스",
+          "contentHash": "51149d1e2c631a1ec1991ffd63329e93467451e3b422941f155b2921495678d2"
+        }
+      ],
+      "verifiedAt": "2026-10-25T17:56:39.758827+00:00"
     }
   ]
 }
