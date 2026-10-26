@@ -18622,6 +18622,582 @@
         }
       ],
       "verifiedAt": "2026-10-26T01:31:25.513560+00:00"
+    },
+    {
+      "name": "Andrej Kramaric",
+      "korean": "안드레이 크라마리치",
+      "team": "TSG Hoffenheim",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andrej_Kramari%C4%87",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "안드레이 크라마리치",
+          "contentHash": "b97041e1912b6c794abb7d31c3a509fa33b79390ad47dfbf29f133082a7152dc"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Bilal El Khannouss",
+      "korean": "빌랄 엘 카누스",
+      "team": "VfB Stuttgart",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bilal_El_Khannouss",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "빌랄 엘 카누스",
+          "contentHash": "203dbe0c188c86e3c9bee82f44a424002e89a9196e6c2643d335199550be219c"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Dina Ebimbe",
+      "korean": "에리크 쥐니오르 디나 에빔베",
+      "team": "Schalke 04",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Junior_Dina_Ebimbe",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "에리크 쥐니오르 디나 에빔베",
+          "contentHash": "2f59c49a11bfbd9efaa8067689f879dac1d6cd45d7a157858575a249399017cd"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Edin Dzeko",
+      "korean": "에딘 제코",
+      "team": "Schalke 04",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "에딘 제코",
+          "contentHash": "57ba0420f10f9a9de61e3930f5f9ebb1860d41a26f6360b0254b180460497487"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Karl Jakob Hein",
+      "korean": "카를 헤인",
+      "team": "Werder Bremen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Karl_Hein_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "카를 헤인",
+          "contentHash": "a960777fef55d25995836a849814d430a561497f8c383b3d8f880867b9195456"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Kevin Diks",
+      "korean": "케빈 딕스",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kevin_Diks",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "케빈 딕스",
+          "contentHash": "459ddba5bc1559c0028d493b75725bd965c3e82b802ee57496e716b2ef5b09e4"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Malik Tillman",
+      "korean": "말릭 틸먼",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Malik_Tillman",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "말릭 틸먼",
+          "contentHash": "3219bd8d062dc53dcf83a7ef66d5547fea43b00a4bf88c9c46a947a7d275902e"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Dominik Kohr",
+      "korean": "도미니크 코어",
+      "team": "Mainz",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dominik_Kohr",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "도미니크 코어",
+          "contentHash": "20e1aff200347d84b39ceda7dd0a7893025ff3a7b041e11a341529982182e2c8"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Noah Darvich",
+      "korean": "노아 다르위시",
+      "team": "SV Elversberg",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Noah_Darvich",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "노아 다르위시",
+          "contentHash": "b9f5425a656e88f979f3047c4a222cb9dd7825f0571a13d8569794e5ccd6e5ea"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Christian Kofane",
+      "korean": "크리스티앙 코파네",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Christian_Kofane",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "크리스티앙 코파네",
+          "contentHash": "ef0a0f196c2be8de22c2545663d4f6438ad5eaa7f96a5b4e255952a29af4d00f"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Dan-Axel Zagadou",
+      "korean": "당악셀 자가두",
+      "team": "VfB Stuttgart",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dan-Axel_Zagadou",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "당악셀 자가두",
+          "contentHash": "3a7b05bcd0471c9c4650b7585a9320374b8d9c4b1ec8d3cb39a869492a945a38"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Dejan Ljubicic",
+      "korean": "데얀 류비치치",
+      "team": "Schalke 04",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dejan_Ljubi%C4%8Di%C4%87",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "데얀 류비치치",
+          "contentHash": "d864561f829f0ca702f0b6bb5f7c3e3984e7da7a18befd9d9c099f7cbeef437a"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Eliesse Ben Seghir",
+      "korean": "엘리세 벤 세기르",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Eliesse_Ben_Seghir",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "엘리세 벤 세기르",
+          "contentHash": "afdef4d0b87e91cf1fa3e26da59b8a63e1498af28923b7bd1266fad8c96e9540"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Franck Honorat",
+      "korean": "프랑크 오노라",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Franck_Honorat",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "프랑크 오노라",
+          "contentHash": "6a5c4b45fdda3dda30598447d1f97e9457ddd13770026739eb87e45658757c7f"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Guela Doue",
+      "korean": "겔라 두에",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gu%C3%A9la_Dou%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "겔라 두에",
+          "contentHash": "f1b3159f4518343574867219e444a6fb647bb61c8c1bd011231abe5e859296c1"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Jens Castrop",
+      "korean": "옌스 카스트로프",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jens_Castrop",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "옌스 카스트로프",
+          "contentHash": "f80dc8dcee19a407a540df34675a2b384f7e3705fa970b538aef54d83e55be45"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Kenan Karaman",
+      "korean": "케난 카라만",
+      "team": "Schalke 04",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kenan_Karaman",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "케난 카라만",
+          "contentHash": "372c63808d443e3a86b1b9500df8607f9ad4874b682f3da06c06cf398e790c9c"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Ko Itakura",
+      "korean": "이타쿠라 고",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/K%C5%8D_Itakura",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "이타쿠라 고",
+          "contentHash": "a4c4fc08ce6e1f7c6d3315948f511095e543d019340197e96befc52eb703b452"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Loic Bade",
+      "korean": "로이크 바데",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lo%C3%AFc_Bad%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로이크 바데",
+          "contentHash": "76ce658a906dc8f855a85cddf9c306dd24c3f094c75ad1b1d6b0ca7e65ce1b97"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Martin Terrier",
+      "korean": "마르탱 테리에",
+      "team": "Bayer Leverkusen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Martin_Terrier",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마르탱 테리에",
+          "contentHash": "d531071fc1c96695bff915e016a859fe69203752b327e5d7a4081ff80755ffd0"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Nicolas Kuhn",
+      "korean": "니콜라스 퀸",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nicolas_K%C3%BChn",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "니콜라스 퀸",
+          "contentHash": "fb3fb85895d0eb492aa838dbcc1e69bd59a95d4f88b653e5b72995fc2da24d8a"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Jens Stage",
+      "korean": "옌스 스타에",
+      "team": "Werder Bremen",
+      "league": "bundesliga",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jens_Stage",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q24901052",
+          "wikidataItem": "Q24901052",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "9943e88c8dc37bb7b1849f1c5c075a28816fc840454dd9e0ec1a21f538363980"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Patrick Wimmer",
+      "korean": "파트리크 비머",
+      "team": "TSG Hoffenheim",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Patrick_Wimmer",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "파트리크 비머",
+          "contentHash": "8b762143f2731877d91a194c4fced9254db669822aefa7a20fa3dad11ac2ea94"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Steve Mounie",
+      "korean": "스티브 무니에",
+      "team": "FC Augsburg",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Steve_Mouni%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "스티브 무니에",
+          "contentHash": "344c5939e69f059291c6de0a5f03cbbdb1ee69d3aedbf283544b611fe293f8e4"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Tim Kleindienst",
+      "korean": "팀 클라인딘스트",
+      "team": "Borussia Mönchengladbach",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tim_Kleindienst",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "팀 클라인딘스트",
+          "contentHash": "47da94a5d4dae93b6c05c0fdc8f6abf991d0c46be880256bc0f9cd84ff94d2a2"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Niklas Stark",
+      "korean": "니클라스 슈타르크",
+      "team": "Werder Bremen",
+      "league": "bundesliga",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Niklas_Stark",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3341549",
+          "wikidataItem": "Q3341549",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "391569667120578c76a4a53fd573bae354f3f87dc38733b3c9e0ea18a23fbf77"
+        }
+      ],
+      "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
     }
   ]
 }
