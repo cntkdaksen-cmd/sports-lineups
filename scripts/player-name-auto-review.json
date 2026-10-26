@@ -20240,6 +20240,72 @@
         }
       ],
       "verifiedAt": "2026-10-26T20:07:08.438051+00:00"
+    },
+    {
+      "name": "Ange-Yoan Bonny",
+      "korean": "앙주요안 보니",
+      "team": "Internazionale",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ange-Yoan_Bonny",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "앙주요안 보니",
+          "contentHash": "ca59f1741ea6bff1966ec17ad36f0af5036d2b549e03a4eefe329853faf45053"
+        }
+      ],
+      "verifiedAt": "2026-10-26T20:38:25.502174+00:00"
+    },
+    {
+      "name": "Davide Zappacosta",
+      "korean": "다비데 차파코스타",
+      "team": "Atalanta",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Davide_Zappacosta",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "다비데 차파코스타",
+          "contentHash": "42b8d6fc9f38588ad0cfa651745fab96e2fe35a4b3d7f7370455c63839a958b1"
+        }
+      ],
+      "verifiedAt": "2026-10-26T20:38:25.502174+00:00"
+    },
+    {
+      "name": "Mario Pasalic",
+      "korean": "마리오 파샬리치",
+      "team": "Atalanta",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mario_Pa%C5%A1ali%C4%87",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마리오 파샬리치",
+          "contentHash": "0682fbd8df2204c91f5f083deca101010edb4d1e7f7db9d26c0af1c152ca8722"
+        }
+      ],
+      "verifiedAt": "2026-10-26T20:38:25.502174+00:00"
     }
   ]
 }
