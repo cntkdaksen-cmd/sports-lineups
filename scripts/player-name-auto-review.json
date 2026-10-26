@@ -20194,6 +20194,28 @@
         }
       ],
       "verifiedAt": "2026-10-26T17:56:56.620806+00:00"
+    },
+    {
+      "name": "Chidera Ejuke",
+      "korean": "치데라 에주케",
+      "team": "Sevilla",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Chidera_Ejuke",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "치데라 에주케",
+          "contentHash": "c75eb2cb454da3cc3ee3793175268ac0a0fd0604d346d2894c2fa929adfb1ab7"
+        }
+      ],
+      "verifiedAt": "2026-10-26T19:28:14.776176+00:00"
     }
   ]
 }
