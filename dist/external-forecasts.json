@@ -1,66 +1,9 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-26T08:26:40.870656+00:00",
+  "asOf": "2026-10-26T09:12:05.615712+00:00",
   "windowStart": "2026-10-26T00:00:00+09:00",
   "windowEnd": "2026-10-28T00:00:00+09:00",
   "items": [
-    {
-      "league": "nba",
-      "eventId": "401909872",
-      "kickoff": "2026-10-27T00:00Z",
-      "homeId": "15",
-      "awayId": "11",
-      "homeName": "Milwaukee Bucks",
-      "awayName": "Indiana Pacers",
-      "values": {
-        "home": 35.9,
-        "away": 64.1,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909872",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909871",
-      "kickoff": "2026-10-26T23:30Z",
-      "homeId": "14",
-      "awayId": "6",
-      "homeName": "Miami Heat",
-      "awayName": "Dallas Mavericks",
-      "values": {
-        "home": 69.7,
-        "away": 30.3,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909871",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909870",
-      "kickoff": "2026-10-26T23:30Z",
-      "homeId": "2",
-      "awayId": "4",
-      "homeName": "Boston Celtics",
-      "awayName": "Chicago Bulls",
-      "values": {
-        "home": 84.4,
-        "away": 15.6,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909870",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
     {
       "league": "mlb",
       "eventId": "401908044",
@@ -76,26 +19,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401908044",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909868",
-      "kickoff": "2026-10-26T23:00Z",
-      "homeId": "30",
-      "awayId": "27",
-      "homeName": "Charlotte Hornets",
-      "awayName": "Washington Wizards",
-      "values": {
-        "home": 53.8,
-        "away": 46.2,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909868",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -114,45 +38,64 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909869",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
       "kind": "published-model",
       "note": ""
     },
     {
       "league": "nba",
-      "eventId": "401909875",
-      "kickoff": "2026-10-27T01:00Z",
-      "homeId": "26",
-      "awayId": "29",
-      "homeName": "Utah Jazz",
-      "awayName": "Memphis Grizzlies",
+      "eventId": "401909870",
+      "kickoff": "2026-10-26T23:30Z",
+      "homeId": "2",
+      "awayId": "4",
+      "homeName": "Boston Celtics",
+      "awayName": "Chicago Bulls",
       "values": {
-        "home": 58.6,
-        "away": 41.4,
+        "home": 84.4,
+        "away": 15.6,
         "draw": 0
       },
       "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909875",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909870",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
       "kind": "published-model",
       "note": ""
     },
     {
       "league": "nba",
-      "eventId": "401909876",
-      "kickoff": "2026-10-27T02:00Z",
-      "homeId": "7",
-      "awayId": "9",
-      "homeName": "Denver Nuggets",
-      "awayName": "Golden State Warriors",
+      "eventId": "401909868",
+      "kickoff": "2026-10-26T23:00Z",
+      "homeId": "30",
+      "awayId": "27",
+      "homeName": "Charlotte Hornets",
+      "awayName": "Washington Wizards",
       "values": {
-        "home": 75.5,
-        "away": 24.5,
+        "home": 53.8,
+        "away": 46.2,
         "draw": 0
       },
       "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909876",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909868",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "nba",
+      "eventId": "401909871",
+      "kickoff": "2026-10-26T23:30Z",
+      "homeId": "14",
+      "awayId": "6",
+      "homeName": "Miami Heat",
+      "awayName": "Dallas Mavericks",
+      "values": {
+        "home": 69.7,
+        "away": 30.3,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909871",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -171,7 +114,26 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909873",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "nba",
+      "eventId": "401909872",
+      "kickoff": "2026-10-27T00:00Z",
+      "homeId": "15",
+      "awayId": "11",
+      "homeName": "Milwaukee Bucks",
+      "awayName": "Indiana Pacers",
+      "values": {
+        "home": 35.9,
+        "away": 64.1,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909872",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -190,7 +152,45 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909874",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "nba",
+      "eventId": "401909876",
+      "kickoff": "2026-10-27T02:00Z",
+      "homeId": "7",
+      "awayId": "9",
+      "homeName": "Denver Nuggets",
+      "awayName": "Golden State Warriors",
+      "values": {
+        "home": 75.5,
+        "away": 24.5,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909876",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "nba",
+      "eventId": "401909875",
+      "kickoff": "2026-10-27T01:00Z",
+      "homeId": "26",
+      "awayId": "29",
+      "homeName": "Utah Jazz",
+      "awayName": "Memphis Grizzlies",
+      "values": {
+        "home": 58.6,
+        "away": 41.4,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909875",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -209,7 +209,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary?event=401918309",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -228,7 +228,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/ligue-1/psg-vs-lyon_game_261349.html",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -247,7 +247,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/la-liga/sevilla-vs-osasuna_game_260496.html",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -266,7 +266,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/primeira-liga/santa-clara-vs-benfica_game_260492.html",
-      "checkedAt": "2026-10-26T08:26:40.870656+00:00",
+      "checkedAt": "2026-10-26T09:12:05.615712+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     }
