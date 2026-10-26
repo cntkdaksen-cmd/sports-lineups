@@ -19396,6 +19396,72 @@
         }
       ],
       "verifiedAt": "2026-10-26T08:06:34.166738+00:00"
+    },
+    {
+      "name": "Gvidas Gineitis",
+      "korean": "그비다스 기네이티스",
+      "team": "Torino",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gvidas_Gineitis",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "그비다스 기네이티스",
+          "contentHash": "b8783c5ceef9bc41a5dacf34c15d433715d3a9a0dabfd960e97e7dc9beb48e93"
+        }
+      ],
+      "verifiedAt": "2026-10-26T11:41:19.271378+00:00"
+    },
+    {
+      "name": "Nahuel Molina",
+      "korean": "나우엘 몰리나",
+      "team": "AS Roma",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nahuel_Molina",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "나우엘 몰리나",
+          "contentHash": "5ab49047b02f56e295868825faac9404347d2a2180ea2b2b806d8dfe76196dcb"
+        }
+      ],
+      "verifiedAt": "2026-10-26T11:41:19.271378+00:00"
+    },
+    {
+      "name": "Jayden Addai",
+      "korean": "제이든 아다이",
+      "team": "Como",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jayden_Addai",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "제이든 아다이",
+          "contentHash": "5ff4f78921a9884ce0118d0f8660601b9256c465a00e1b42ca182d824b50cb10"
+        }
+      ],
+      "verifiedAt": "2026-10-26T11:41:19.271378+00:00"
     }
   ]
 }

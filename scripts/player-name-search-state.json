@@ -890,8 +890,8 @@
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-26T05:34:25.823649+00:00",
-      "nextCheckAt": "2026-10-26T11:34:25.823649+00:00",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00",
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "policy": "precollect-names-v2"
@@ -15993,8 +15993,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "jeff malott": {
       "nextBulkCheckAt": "2026-10-25T15:58:54.671713+00:00",
@@ -16057,8 +16057,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "rasmus ristolainen": {
       "status": "verified",
@@ -16078,8 +16078,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "travis konecny": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -16108,8 +16108,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "bode hidalgo": {
       "nextBulkCheckAt": "2026-10-26T23:24:00.760478+00:00",
@@ -16397,8 +16397,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "alexander nikishin": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -16427,8 +16427,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "alexey toropchenko": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -16835,8 +16835,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "patrick thomas": {
       "nextBulkCheckAt": "2026-10-27T04:11:58.373423+00:00",
@@ -16917,8 +16917,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "torey krug": {
       "status": "verified",
@@ -16963,8 +16963,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "william villeneuve": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -17128,39 +17128,138 @@
     },
     "angel zerpa": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Angel+Zerpa+Milwaukee+Brewers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "brian fitzpatrick": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Brian+Fitzpatrick+Milwaukee+Brewers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "edwin uceta": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Edwin+Uceta+Tampa+Bay+Rays&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "gavin lux": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Gavin+Lux+Tampa+Bay+Rays&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "jacob melton": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jacob+Melton+Tampa+Bay+Rays&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "jonathan heasley": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jonathan+Heasley+Tampa+Bay+Rays&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "quinn priester": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Quinn+Priester+Milwaukee+Brewers&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "ryan pepiot": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ryan+Pepiot+Tampa+Bay+Rays&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "shane mcclanahan": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Shane+McClanahan+Tampa+Bay+Rays&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "anderson julio": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
@@ -17188,7 +17287,18 @@
     },
     "henri veesaar": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Henri+Veesaar+Atlanta+Hawks&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "jack skahan": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
@@ -17228,7 +17338,18 @@
     },
     "mouhamed gueye": {
       "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mouhamed+Gueye+Atlanta+Hawks&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "niko tsakiris": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
@@ -17297,8 +17418,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "maveric lamoureux": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -17312,8 +17433,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "michael carcone": {
       "nextBulkCheckAt": "2026-10-26T18:30:05.902146+00:00",
@@ -17327,8 +17448,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:11:58.373423+00:00",
-      "nextCheckAt": "2026-10-26T10:11:58.373423+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "victor hedman": {
       "status": "verified",
@@ -18508,8 +18629,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T04:54:50.378852+00:00",
-      "nextCheckAt": "2026-10-26T10:54:50.378852+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "calum ritchie": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -21923,8 +22044,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T20:58:48.752796+00:00",
-      "nextCheckAt": "2026-10-26T02:58:48.752796+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "johnny furphy": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -21938,8 +22059,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T21:26:17.526244+00:00",
-      "nextCheckAt": "2026-10-26T03:26:17.526244+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "mikel brown": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -21968,8 +22089,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T21:26:17.526244+00:00",
-      "nextCheckAt": "2026-10-26T03:26:17.526244+00:00"
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "donte divincenzo": {
       "status": "verified",
@@ -22165,7 +22286,7 @@
     },
     "jamie mcgrath": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T11:10:20.882323+00:00",
+      "nextBulkCheckAt": "2026-10-27T11:41:19.271378+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jamie+McGrath+Hibernian&hl=ko",
@@ -22180,7 +22301,7 @@
     },
     "kasper h gh": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-26T11:10:20.882323+00:00",
+      "nextBulkCheckAt": "2026-10-27T11:41:19.271378+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Kasper+H%C3%B8gh+Celtic&hl=ko",
@@ -25831,11 +25952,33 @@
     },
     "tarik biberovic": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00"
+      "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Tarik+Biberovic+Dallas+Mavericks&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "oso ighodaro": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00"
+      "nextBulkCheckAt": "2026-10-27T08:06:34.166738+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Oso+Ighodaro+Phoenix+Suns&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "mika godts": {
       "status": "verified",
@@ -25949,6 +26092,24 @@
     "raphael le guen": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-27T08:47:53.698135+00:00"
+    },
+    "gvidas gineitis": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "nahuel molina": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "method": "wikipedia-language-link-v1"
+    },
+    "jayden addai": {
+      "status": "verified",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-26T11:41:19.271378+00:00",
+      "method": "wikipedia-language-link-v1"
     }
   }
 }
