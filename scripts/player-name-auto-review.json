@@ -20216,6 +20216,30 @@
         }
       ],
       "verifiedAt": "2026-10-26T19:28:14.776176+00:00"
+    },
+    {
+      "name": "Semyon Varlamov",
+      "korean": "세묜 바를라모프",
+      "team": "New York Islanders",
+      "league": "nhl",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Semyon_Varlamov",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q559886",
+          "wikidataItem": "Q559886",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "3bd1c29791ea3cb10233b0f284e552b9c86aaf226aafb16f37e11a8dbf3c3571"
+        }
+      ],
+      "verifiedAt": "2026-10-26T20:07:08.438051+00:00"
     }
   ]
 }
