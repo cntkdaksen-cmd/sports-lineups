@@ -20106,6 +20106,50 @@
         }
       ],
       "verifiedAt": "2026-10-26T15:46:19.677333+00:00"
+    },
+    {
+      "name": "Roberto Gagliardini",
+      "korean": "로베르토 갈리아르디니",
+      "team": "Cagliari",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Roberto_Gagliardini",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로베르토 갈리아르디니",
+          "contentHash": "a65c51bdd767682997c53b00aaf6df5bcbb67b50a6d6985228d545fc89fa74ac"
+        }
+      ],
+      "verifiedAt": "2026-10-26T16:34:49.076471+00:00"
+    },
+    {
+      "name": "Mats Zuccarello",
+      "korean": "마츠 수카렐로",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mats_Zuccarello",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마츠 수카렐로",
+          "contentHash": "f5230af6681ec411ad9601906b2fda03e964458d8e50e0fdc79a3a7e34906ac9"
+        }
+      ],
+      "verifiedAt": "2026-10-26T16:34:49.076471+00:00"
     }
   ]
 }
