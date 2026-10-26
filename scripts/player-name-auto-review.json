@@ -18554,6 +18554,74 @@
         }
       ],
       "verifiedAt": "2026-10-26T00:50:13.932605+00:00"
+    },
+    {
+      "name": "Hector Bellerin",
+      "korean": "엑토르 베예린",
+      "team": "Real Betis",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/H%C3%A9ctor_Beller%C3%ADn",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "엑토르 베예린",
+          "contentHash": "04dbcc638a9227442ac0a9216ab79a0c7247264af7a243a65d4467f4c7cc5806"
+        }
+      ],
+      "verifiedAt": "2026-10-26T01:31:25.513560+00:00"
+    },
+    {
+      "name": "Denis Suarez",
+      "korean": "데니스 수아레스",
+      "team": "Alavés",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Denis_Su%C3%A1rez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "데니스 수아레스",
+          "contentHash": "8c06d9a33e3b25d4d9f9f40b625a0d7f97dfde5826e1cba7a5d38e1e947d36f4"
+        }
+      ],
+      "verifiedAt": "2026-10-26T01:31:25.513560+00:00"
+    },
+    {
+      "name": "Toni Martinez",
+      "korean": "토니 마르티네스",
+      "team": "Alavés",
+      "league": "laliga",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Toni_Mart%C3%ADnez",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q7822898",
+          "wikidataItem": "Q7822898",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "338ab7f535f96a47e0da0dfbaedf29afb5a812baf2825ff7e979233653d0307f"
+        }
+      ],
+      "verifiedAt": "2026-10-26T01:31:25.513560+00:00"
     }
   ]
 }
