@@ -19198,6 +19198,28 @@
         }
       ],
       "verifiedAt": "2026-10-26T02:12:29.916637+00:00"
+    },
+    {
+      "name": "Kevin Lankinen",
+      "korean": "케빈 랑키넨",
+      "team": "Vancouver Canucks",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kevin_Lankinen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "케빈 랑키넨",
+          "contentHash": "06ce34bb1d17d62871c6d3bd85a15b005a9ea4c9706be9971dc8ccb518433ea8"
+        }
+      ],
+      "verifiedAt": "2026-10-26T07:12:58.930397+00:00"
     }
   ]
 }
