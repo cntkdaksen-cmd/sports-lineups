@@ -19220,6 +19220,182 @@
         }
       ],
       "verifiedAt": "2026-10-26T07:12:58.930397+00:00"
+    },
+    {
+      "name": "Nic Claxton",
+      "korean": "닉 클랙스턴",
+      "team": "Chicago Bulls",
+      "league": "nba",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nic_Claxton",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "닉 클랙스턴",
+          "contentHash": "da18181d0338c577b7e3a9c7ebac0a11255dfcc000c8b483e87c671c85b20b8a"
+        }
+      ],
+      "verifiedAt": "2026-10-26T08:06:34.166738+00:00"
+    },
+    {
+      "name": "Mika Godts",
+      "korean": "미카 호츠",
+      "team": "Paris Saint-Germain",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mika_Godts",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "미카 호츠",
+          "contentHash": "fbd55777a5c0718d525fe28c3303f5f8b037ce4fe1d31aef42d29bffa723aaa9"
+        }
+      ],
+      "verifiedAt": "2026-10-26T08:06:34.166738+00:00"
+    },
+    {
+      "name": "Enes Unal",
+      "korean": "에네스 위날",
+      "team": "Getafe",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Enes_%C3%9Cnal",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "에네스 위날",
+          "contentHash": "ee8619b8cfc43c84f4a1ea8e7d49369b8d6116b73030c3ebf35eb99b852fa803"
+        }
+      ],
+      "verifiedAt": "2026-10-26T08:06:34.166738+00:00"
+    },
+    {
+      "name": "Leopold Querfeld",
+      "korean": "레오폴트 크버펠트",
+      "team": "1. FC Union Berlin",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Leopold_Querfeld",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "레오폴트 크버펠트",
+          "contentHash": "7f6a08add4f7a794c5d7a284b971f5d6e26b20fb2e3746bb650308260a3cb38c"
+        }
+      ],
+      "verifiedAt": "2026-10-26T08:06:34.166738+00:00"
+    },
+    {
+      "name": "Ellyes Skhiri",
+      "korean": "엘리에스 스키리",
+      "team": "FC Cologne",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ellyes_Skhiri",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "엘리에스 스키리",
+          "contentHash": "d2c42147d942d2e6db29c3d095dcc4f7660136c0f34fea74df89535b659b5d41"
+        }
+      ],
+      "verifiedAt": "2026-10-26T08:06:34.166738+00:00"
+    },
+    {
+      "name": "Josip Juranovic",
+      "korean": "요시프 유라노비치",
+      "team": "1. FC Union Berlin",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Josip_Juranovi%C4%87",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "요시프 유라노비치",
+          "contentHash": "8474efe727b3ffe19538e2448dbc0a5929a24bc7d4f0bd2f71cb5990c179d590"
+        }
+      ],
+      "verifiedAt": "2026-10-26T08:06:34.166738+00:00"
+    },
+    {
+      "name": "Stanley Nsoki",
+      "korean": "스탠리 은소키",
+      "team": "1. FC Union Berlin",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Stanley_Nsoki",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "스탠리 은소키",
+          "contentHash": "7295887fb9a19d910fa2ca74f436ff42a12c16ce81ea73039bfd42df846d60f5"
+        }
+      ],
+      "verifiedAt": "2026-10-26T08:06:34.166738+00:00"
+    },
+    {
+      "name": "Thijs Dallinga",
+      "korean": "티스 달링가",
+      "team": "FC Cologne",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Thijs_Dallinga",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "티스 달링가",
+          "contentHash": "366a93484ca32d563e4d35281849849ac509fb1c81f8dfb5ed5a72e46ea9a46b"
+        }
+      ],
+      "verifiedAt": "2026-10-26T08:06:34.166738+00:00"
     }
   ]
 }
