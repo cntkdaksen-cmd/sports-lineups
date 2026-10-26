@@ -18532,6 +18532,28 @@
         }
       ],
       "verifiedAt": "2026-10-25T19:55:10.934638+00:00"
+    },
+    {
+      "name": "Andrei Ratiu",
+      "korean": "안드레이 라치우",
+      "team": "Rayo Vallecano",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andrei_Ra%C8%9Biu",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "안드레이 라치우",
+          "contentHash": "31ce73f2e51f8f9226cd3e5a05b90d41ee75b44029356e93a864cc777f4fea06"
+        }
+      ],
+      "verifiedAt": "2026-10-26T00:50:13.932605+00:00"
     }
   ]
 }
