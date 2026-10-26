@@ -20150,6 +20150,50 @@
         }
       ],
       "verifiedAt": "2026-10-26T16:34:49.076471+00:00"
+    },
+    {
+      "name": "Clément Lenglet",
+      "korean": "클레망 랑글레",
+      "team": "Benfica",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Lenglet",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "클레망 랑글레",
+          "contentHash": "9b1d74fd2c0a07846757e22e99889ec65921ad92b968b1ad95b2df1fca5e8fd4"
+        }
+      ],
+      "verifiedAt": "2026-10-26T17:56:56.620806+00:00"
+    },
+    {
+      "name": "Fredrik Aursnes",
+      "korean": "프레드리크 아우르스네스",
+      "team": "Benfica",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fredrik_Aursnes",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "프레드리크 아우르스네스",
+          "contentHash": "a6fd924bfd6c8c9f15714c1df0f054537c2daa6a432ad915ed917054443614d3"
+        }
+      ],
+      "verifiedAt": "2026-10-26T17:56:56.620806+00:00"
     }
   ]
 }
