@@ -20613,6 +20613,72 @@
         }
       ],
       "verifiedAt": "2026-10-27T17:34:12.419195+00:00"
+    },
+    {
+      "name": "Alieu Fadera",
+      "korean": "알리우 파데라",
+      "team": "Cagliari",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Alieu_Fadera",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "알리우 파데라",
+          "contentHash": "a651b0efd936f3bbe47991165a7d388955a439cfedd9e0020d9a81cb24049d45"
+        }
+      ],
+      "verifiedAt": "2026-10-27T19:39:47.896170+00:00"
+    },
+    {
+      "name": "Santiago Castro",
+      "korean": "산티아고 카스트로",
+      "team": "AS Roma",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Santiago_Castro",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "산티아고 카스트로",
+          "contentHash": "4d5004ed75102a6fbaac5ec55f6fbab2371b26ce6dcd59008b82b293f72cd643"
+        }
+      ],
+      "verifiedAt": "2026-10-27T19:39:47.896170+00:00"
+    },
+    {
+      "name": "Yukinari Sugawara",
+      "korean": "스가와라 유키나리",
+      "team": "Cagliari",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yukinari_Sugawara",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "스가와라 유키나리",
+          "contentHash": "9bee45864920f1d6497210163839e973cb4ff322746bdcde2318ca2deeb3e334"
+        }
+      ],
+      "verifiedAt": "2026-10-27T19:39:47.896170+00:00"
     }
   ]
 }
