@@ -20347,6 +20347,28 @@
         }
       ],
       "verifiedAt": "2026-10-27T04:52:17.215382+00:00"
+    },
+    {
+      "name": "山川　穂高",
+      "korean": "야마카와 호타카",
+      "team": "福岡ソフトバンクホークス",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%B7%9D%E7%A9%82%E9%AB%98",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "야마카와 호타카",
+          "contentHash": "ad07f8a4f975c5e9fa313b81833a37c73f3b0a0f5ae53bc70ae75eeb50d09049"
+        }
+      ],
+      "verifiedAt": "2026-10-27T08:59:39.685107+00:00"
     }
   ]
 }
