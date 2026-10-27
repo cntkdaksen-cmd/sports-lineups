@@ -20325,6 +20325,28 @@
         }
       ],
       "verifiedAt": "2026-10-27T00:40:07.203140+00:00"
+    },
+    {
+      "name": "Zemgus Girgensons",
+      "korean": "젬구스 기르겐손스",
+      "team": "Tampa Bay Lightning",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Zemgus_Girgensons",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "젬구스 기르겐손스",
+          "contentHash": "4387ab6dfbe56232649ec4d487b9e0daee371c033a4d9fbbf00cf1d73d89fd6c"
+        }
+      ],
+      "verifiedAt": "2026-10-27T04:52:17.215382+00:00"
     }
   ]
 }
