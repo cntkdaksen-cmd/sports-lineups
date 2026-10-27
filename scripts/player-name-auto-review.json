@@ -20591,6 +20591,28 @@
         }
       ],
       "verifiedAt": "2026-10-27T16:48:34.965061+00:00"
+    },
+    {
+      "name": "Luca Marianucci",
+      "korean": "루카 마리아누치",
+      "team": "Napoli",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Luca_Marianucci",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "루카 마리아누치",
+          "contentHash": "ea74b4659e74e2895a58b02ae459e3aab80fe13652a14ed0a25b963e1535096c"
+        }
+      ],
+      "verifiedAt": "2026-10-27T17:34:12.419195+00:00"
     }
   ]
 }
