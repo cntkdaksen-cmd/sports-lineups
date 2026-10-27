@@ -1,66 +1,9 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-27T02:03:16.369983+00:00",
+  "asOf": "2026-10-27T02:38:39.570493+00:00",
   "windowStart": "2026-10-27T00:00:00+09:00",
   "windowEnd": "2026-10-29T00:00:00+09:00",
   "items": [
-    {
-      "league": "mlb",
-      "eventId": "401908045",
-      "kickoff": "2026-10-28T00:00Z",
-      "homeId": "30",
-      "awayId": "8",
-      "homeName": "Tampa Bay Rays",
-      "awayName": "Milwaukee Brewers",
-      "values": {
-        "home": 47.7,
-        "away": 52.3,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401908045",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909876",
-      "kickoff": "2026-10-27T02:00Z",
-      "homeId": "7",
-      "awayId": "9",
-      "homeName": "Denver Nuggets",
-      "awayName": "Golden State Warriors",
-      "values": {
-        "home": 74.4,
-        "away": 25.6,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909876",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909879",
-      "kickoff": "2026-10-28T00:00Z",
-      "homeId": "24",
-      "awayId": "23",
-      "homeName": "San Antonio Spurs",
-      "awayName": "Sacramento Kings",
-      "values": {
-        "home": 93.7,
-        "away": 6.3,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909879",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
     {
       "league": "nba",
       "eventId": "401909878",
@@ -76,7 +19,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909878",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
+      "checkedAt": "2026-10-27T02:38:39.570493+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -95,7 +38,45 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909877",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
+      "checkedAt": "2026-10-27T02:38:39.570493+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "mlb",
+      "eventId": "401908045",
+      "kickoff": "2026-10-28T00:00Z",
+      "homeId": "30",
+      "awayId": "8",
+      "homeName": "Tampa Bay Rays",
+      "awayName": "Milwaukee Brewers",
+      "values": {
+        "home": 47.7,
+        "away": 52.3,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401908045",
+      "checkedAt": "2026-10-27T02:38:39.570493+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "nba",
+      "eventId": "401909879",
+      "kickoff": "2026-10-28T00:00Z",
+      "homeId": "24",
+      "awayId": "23",
+      "homeName": "San Antonio Spurs",
+      "awayName": "Sacramento Kings",
+      "values": {
+        "home": 93.7,
+        "away": 6.3,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909879",
+      "checkedAt": "2026-10-27T02:38:39.570493+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -114,28 +95,9 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909880",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
+      "checkedAt": "2026-10-27T02:38:39.570493+00:00",
       "kind": "published-model",
       "note": ""
-    },
-    {
-      "league": "primeira",
-      "eventId": "401885414",
-      "kickoff": "2026-10-26T18:45Z",
-      "homeId": "12215",
-      "awayId": "1929",
-      "homeName": "Santa Clara",
-      "awayName": "Benfica",
-      "values": {
-        "home": 17.51,
-        "away": 58.21,
-        "draw": 24.25
-      },
-      "provider": "Sports Mole",
-      "sourceUrl": "https://www.sportsmole.co.uk/football/primeira-liga/santa-clara-vs-benfica_game_260492.html",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
-      "kind": "published-model",
-      "note": "Match result over regular time; source rounding retained."
     },
     {
       "league": "ligue1",
@@ -152,7 +114,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/ligue-1/psg-vs-lyon_game_261349.html",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
+      "checkedAt": "2026-10-27T02:38:39.570493+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -171,7 +133,26 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/la-liga/sevilla-vs-osasuna_game_260496.html",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
+      "checkedAt": "2026-10-27T02:38:39.570493+00:00",
+      "kind": "published-model",
+      "note": "Match result over regular time; source rounding retained."
+    },
+    {
+      "league": "primeira",
+      "eventId": "401885414",
+      "kickoff": "2026-10-26T18:45Z",
+      "homeId": "12215",
+      "awayId": "1929",
+      "homeName": "Santa Clara",
+      "awayName": "Benfica",
+      "values": {
+        "home": 17.51,
+        "away": 58.21,
+        "draw": 24.25
+      },
+      "provider": "Sports Mole",
+      "sourceUrl": "https://www.sportsmole.co.uk/football/primeira-liga/santa-clara-vs-benfica_game_260492.html",
+      "checkedAt": "2026-10-27T02:38:39.570493+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -190,7 +171,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/sassuolo-vs-lazio_game_260513.html",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
+      "checkedAt": "2026-10-27T02:38:39.570493+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -209,14 +190,14 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/torino-vs-como_game_260546.html",
-      "checkedAt": "2026-10-27T02:03:16.369983+00:00",
+      "checkedAt": "2026-10-27T02:38:39.570493+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     }
   ],
   "coverage": {
     "scheduled": 47,
-    "external": 11
+    "external": 10
   },
   "errors": []
 }
