@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-27T00:40:07.203140+00:00",
-  "inventoryRecords": 5692,
-  "pending": 1982,
+  "at": "2026-10-27T01:27:55.717904+00:00",
+  "inventoryRecords": 5680,
+  "pending": 1981,
   "eligible": 1691,
-  "bulkRequested": 0,
+  "bulkRequested": 25,
   "bulkApproved": 0,
-  "searchChecked": 29,
+  "searchChecked": 30,
   "wikipediaChecked": 30,
-  "wikipediaApproved": 1,
-  "approved": 1,
+  "wikipediaApproved": 0,
+  "approved": 0,
   "bulkErrors": [],
-  "collectionFailures": 1,
+  "collectionFailures": 0,
   "policy": "Unverified names remain English"
 }
