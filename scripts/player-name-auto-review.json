@@ -20701,6 +20701,28 @@
         }
       ],
       "verifiedAt": "2026-10-27T20:21:39.661911+00:00"
+    },
+    {
+      "name": "Eric Bailly",
+      "korean": "에리크 바이",
+      "team": "Columbus Crew",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Eric_Bailly",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "에리크 바이",
+          "contentHash": "fe5896e6cefcba3fa42fc7e7c92253e3272472fc139bde907ae9208cfb81b7e1"
+        }
+      ],
+      "verifiedAt": "2026-10-27T21:34:14.528088+00:00"
     }
   ]
 }
