@@ -1,9 +1,47 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-27T07:00:05.550893+00:00",
+  "asOf": "2026-10-27T07:43:46.557105+00:00",
   "windowStart": "2026-10-27T00:00:00+09:00",
   "windowEnd": "2026-10-29T00:00:00+09:00",
   "items": [
+    {
+      "league": "nba",
+      "eventId": "401909880",
+      "kickoff": "2026-10-28T03:00Z",
+      "homeId": "13",
+      "awayId": "22",
+      "homeName": "Los Angeles Lakers",
+      "awayName": "Portland Trail Blazers",
+      "values": {
+        "home": 52.4,
+        "away": 47.6,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909880",
+      "checkedAt": "2026-10-27T07:43:46.557105+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "nba",
+      "eventId": "401909879",
+      "kickoff": "2026-10-28T00:00Z",
+      "homeId": "24",
+      "awayId": "23",
+      "homeName": "San Antonio Spurs",
+      "awayName": "Sacramento Kings",
+      "values": {
+        "home": 93.4,
+        "away": 6.6,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909879",
+      "checkedAt": "2026-10-27T07:43:46.557105+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
     {
       "league": "mlb",
       "eventId": "401908045",
@@ -19,7 +57,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401908045",
-      "checkedAt": "2026-10-27T07:00:05.550893+00:00",
+      "checkedAt": "2026-10-27T07:43:46.557105+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -32,32 +70,13 @@
       "homeName": "New York Knicks",
       "awayName": "Detroit Pistons",
       "values": {
-        "home": 61.7,
-        "away": 38.3,
+        "home": 61.4,
+        "away": 38.6,
         "draw": 0
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909878",
-      "checkedAt": "2026-10-27T07:00:05.550893+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909879",
-      "kickoff": "2026-10-28T00:00Z",
-      "homeId": "24",
-      "awayId": "23",
-      "homeName": "San Antonio Spurs",
-      "awayName": "Sacramento Kings",
-      "values": {
-        "home": 93.5,
-        "away": 6.5,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909879",
-      "checkedAt": "2026-10-27T07:00:05.550893+00:00",
+      "checkedAt": "2026-10-27T07:43:46.557105+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -70,32 +89,13 @@
       "homeName": "Boston Celtics",
       "awayName": "Brooklyn Nets",
       "values": {
-        "home": 85.9,
-        "away": 14.1,
+        "home": 85.1,
+        "away": 14.9,
         "draw": 0
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909877",
-      "checkedAt": "2026-10-27T07:00:05.550893+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909880",
-      "kickoff": "2026-10-28T03:00Z",
-      "homeId": "13",
-      "awayId": "22",
-      "homeName": "Los Angeles Lakers",
-      "awayName": "Portland Trail Blazers",
-      "values": {
-        "home": 53.3,
-        "away": 46.7,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909880",
-      "checkedAt": "2026-10-27T07:00:05.550893+00:00",
+      "checkedAt": "2026-10-27T07:43:46.557105+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -114,7 +114,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/sassuolo-vs-lazio_game_260513.html",
-      "checkedAt": "2026-10-27T07:00:05.550893+00:00",
+      "checkedAt": "2026-10-27T07:43:46.557105+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -133,7 +133,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/torino-vs-como_game_260546.html",
-      "checkedAt": "2026-10-27T07:00:05.550893+00:00",
+      "checkedAt": "2026-10-27T07:43:46.557105+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     }
