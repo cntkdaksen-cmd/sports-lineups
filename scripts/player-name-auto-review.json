@@ -20679,6 +20679,28 @@
         }
       ],
       "verifiedAt": "2026-10-27T19:39:47.896170+00:00"
+    },
+    {
+      "name": "Robert Sánchez",
+      "korean": "로베르트 산체스",
+      "team": "Como",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Robert_S%C3%A1nchez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로베르트 산체스",
+          "contentHash": "323cdb87f86ea58fb5e12b0f03b24b65fb6b08ea385560fe8b8f95b64cd837e6"
+        }
+      ],
+      "verifiedAt": "2026-10-27T20:21:39.661911+00:00"
     }
   ]
 }
