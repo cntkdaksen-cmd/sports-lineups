@@ -7410,7 +7410,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "dje d avilla": {
-      "nextBulkCheckAt": "2026-10-27T03:34:17.287740+00:00",
+      "nextBulkCheckAt": "2026-10-28T04:10:23.258743+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "donovan mitchell": {
@@ -8340,11 +8340,33 @@
     },
     "franco negri": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Franco+Negri+Houston+Dynamo+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "guilherme": {
       "nextBulkCheckAt": "2026-10-27T23:29:24.247806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Guilherme+Houston+Dynamo+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "guilherme biro": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -8388,7 +8410,18 @@
     },
     "jamar ricketts": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jamar+Ricketts+San+Jose+Earthquakes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "jansen miller": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -8496,11 +8529,33 @@
     },
     "lawrence ennali": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lawrence+Ennali+Houston+Dynamo+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "lucas halter": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Lucas+Halter+Houston+Dynamo+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "lyle foster": {
       "status": "verified",
@@ -8525,7 +8580,18 @@
     },
     "mateusz bogusz": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mateusz+Bogusz+Houston+Dynamo+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "morris duggan": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -8634,11 +8700,33 @@
     },
     "reid roberts": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Reid+Roberts+San+Jose+Earthquakes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "ronaldo vieira": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ronaldo+Vieira+San+Jose+Earthquakes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "santiago moreno": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -8896,7 +8984,18 @@
     },
     "joshua atencio": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Joshua+Atencio+Colorado+Rapids&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "juan sanabria": {
       "nextBulkCheckAt": "2026-10-27T23:29:24.247806+00:00",
@@ -8944,11 +9043,33 @@
     },
     "mathias laborda": {
       "nextBulkCheckAt": "2026-10-27T23:29:24.247806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Mathias+Laborda+Vancouver+Whitecaps&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "miguel navarro": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Miguel+Navarro+Colorado+Rapids&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "morgan guilavogui": {
       "status": "verified",
@@ -8964,7 +9085,18 @@
     },
     "nico hansen": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Nico+Hansen+Colorado+Rapids&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "noel caliskan": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -8983,11 +9115,33 @@
     },
     "oliver larraz": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Oliver+Larraz+Vancouver+Whitecaps&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "paxten aaronson": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Paxten+Aaronson+Colorado+Rapids&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "philip quinton": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -9094,7 +9248,18 @@
     },
     "tate johnson": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Tate+Johnson+Vancouver+Whitecaps&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "timo baumgartl": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -9375,7 +9540,18 @@
     },
     "gabriel pirani": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Gabriel+Pirani+San+Diego+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "harry toffolo": {
       "nextBulkCheckAt": "2026-10-27T23:29:24.247806+00:00",
@@ -9424,7 +9600,18 @@
     },
     "jackson ragen": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jackson+Ragen+Seattle+Sounders+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "james pantemis": {
       "status": "verified",
@@ -9479,7 +9666,18 @@
     },
     "kieran sargeant": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Kieran+Sargeant+San+Diego+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "kristijan kahlina": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -9513,7 +9711,18 @@
     },
     "manu duah": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Manu+Duah+San+Diego+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "nathan byrne": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -9544,7 +9753,18 @@
     },
     "oscar verhoeven": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Oscar+Verhoeven+San+Diego+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "pablo sisniega": {
       "status": "verified",
@@ -9588,7 +9808,18 @@
     },
     "sebastian gomez": {
       "nextBulkCheckAt": "2026-10-27T23:29:24.247806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Sebastian+Gomez+Seattle+Sounders+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "snyder brunell": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -9596,7 +9827,18 @@
     },
     "stuart hawkins": {
       "nextBulkCheckAt": "2026-10-27T23:29:24.247806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Stuart+Hawkins+Seattle+Sounders+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "tim ream": {
       "status": "verified",
@@ -19378,7 +19620,18 @@
     },
     "preston judd": {
       "nextBulkCheckAt": "2026-10-27T22:52:53.936930+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Preston+Judd+San+Jose+Earthquakes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "reed sheppard": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -19492,7 +19745,18 @@
     },
     "jeevan singh badwal": {
       "nextBulkCheckAt": "2026-10-27T23:29:24.247806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jeevan+Singh+Badwal+Vancouver+Whitecaps&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "juan jose arias": {
       "nextBulkCheckAt": "2026-10-27T23:29:24.247806+00:00",
@@ -22509,7 +22773,18 @@
     },
     "georgi minoungou": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Georgi+Minoungou+Colorado+Rapids&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "guilherme augusto": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -22517,15 +22792,48 @@
     },
     "hassani dotson": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Hassani+Dotson+Seattle+Sounders+FC&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "jack jasinski": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Jack+Jasinski+San+Jose+Earthquakes&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "kosi thompson": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Kosi+Thompson+Colorado+Rapids&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "ryan sailor": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
@@ -23956,7 +24264,18 @@
     },
     "noah cobb": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-28T02:10:22.028588+00:00"
+      "nextBulkCheckAt": "2026-10-28T02:10:22.028588+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Noah+Cobb+Colorado+Rapids&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     },
     "ralph priso mbongue": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -29582,6 +29901,21 @@
     "kirill marchenko": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-28T03:33:49.610304+00:00"
+    },
+    "griffin jax": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-28T04:10:23.258743+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Griffin+Jax+Tampa+Bay+Rays&hl=ko",
+          "status": "no-readable-trusted-results"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v2",
+      "checkedAt": "2026-10-27T04:10:23.258743+00:00",
+      "nextCheckAt": "2026-10-27T10:10:23.258743+00:00"
     }
   }
 }
