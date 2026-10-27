@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-27T11:43:03.929188+00:00",
+  "asOf": "2026-10-27T12:18:04.689424+00:00",
   "windowStart": "2026-10-27T00:00:00+09:00",
   "windowEnd": "2026-10-29T00:00:00+09:00",
   "items": [
     {
-      "league": "mlb",
-      "eventId": "401908045",
+      "league": "nba",
+      "eventId": "401909879",
       "kickoff": "2026-10-28T00:00Z",
-      "homeId": "30",
-      "awayId": "8",
-      "homeName": "Tampa Bay Rays",
-      "awayName": "Milwaukee Brewers",
+      "homeId": "24",
+      "awayId": "23",
+      "homeName": "San Antonio Spurs",
+      "awayName": "Sacramento Kings",
       "values": {
-        "home": 47.7,
-        "away": 52.3,
+        "home": 93.4,
+        "away": 6.6,
         "draw": 0
       },
       "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401908045",
-      "checkedAt": "2026-10-27T11:43:03.929188+00:00",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909879",
+      "checkedAt": "2026-10-27T12:18:04.689424+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -38,7 +38,26 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909877",
-      "checkedAt": "2026-10-27T11:43:03.929188+00:00",
+      "checkedAt": "2026-10-27T12:18:04.689424+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
+    {
+      "league": "mlb",
+      "eventId": "401908045",
+      "kickoff": "2026-10-28T00:00Z",
+      "homeId": "30",
+      "awayId": "8",
+      "homeName": "Tampa Bay Rays",
+      "awayName": "Milwaukee Brewers",
+      "values": {
+        "home": 47.7,
+        "away": 52.3,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401908045",
+      "checkedAt": "2026-10-27T12:18:04.689424+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -57,26 +76,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909878",
-      "checkedAt": "2026-10-27T11:43:03.929188+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909879",
-      "kickoff": "2026-10-28T00:00Z",
-      "homeId": "24",
-      "awayId": "23",
-      "homeName": "San Antonio Spurs",
-      "awayName": "Sacramento Kings",
-      "values": {
-        "home": 93.4,
-        "away": 6.6,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909879",
-      "checkedAt": "2026-10-27T11:43:03.929188+00:00",
+      "checkedAt": "2026-10-27T12:18:04.689424+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -95,7 +95,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909880",
-      "checkedAt": "2026-10-27T11:43:03.929188+00:00",
+      "checkedAt": "2026-10-27T12:18:04.689424+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -114,7 +114,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/sassuolo-vs-lazio_game_260513.html",
-      "checkedAt": "2026-10-27T11:43:03.929188+00:00",
+      "checkedAt": "2026-10-27T12:18:04.689424+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -133,7 +133,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/torino-vs-como_game_260546.html",
-      "checkedAt": "2026-10-27T11:43:03.929188+00:00",
+      "checkedAt": "2026-10-27T12:18:04.689424+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     }
