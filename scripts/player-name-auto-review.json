@@ -20369,6 +20369,28 @@
         }
       ],
       "verifiedAt": "2026-10-27T08:59:39.685107+00:00"
+    },
+    {
+      "name": "平良　拳太郎",
+      "korean": "다이라 겐타로",
+      "team": "横浜DeNAベイスターズ",
+      "league": "npb",
+      "method": "wikipedia-language-link-v2",
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E8%89%AF%E6%8B%B3%E5%A4%AA%E9%83%8E",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "ja",
+          "koreanTitle": "다이라 겐타로",
+          "contentHash": "0c0e38780b88f18541e7fa3da7d29e6192fb1015caf5650b91e905eaff879fda"
+        }
+      ],
+      "verifiedAt": "2026-10-27T13:35:37.508959+00:00"
     }
   ]
 }
