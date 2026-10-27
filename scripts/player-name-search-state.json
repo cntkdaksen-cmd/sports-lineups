@@ -235,8 +235,8 @@
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00",
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00",
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "policy": "precollect-names-v2"
@@ -628,8 +628,8 @@
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00",
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00",
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "policy": "precollect-names-v2"
@@ -764,8 +764,8 @@
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00",
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00",
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "policy": "precollect-names-v2"
@@ -1044,8 +1044,8 @@
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00",
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00",
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "policy": "precollect-names-v2"
@@ -2320,8 +2320,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T21:17:01.260979+00:00",
-      "nextCheckAt": "2026-10-27T03:17:01.260979+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "armando broja": {
       "status": "verified",
@@ -5899,8 +5899,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "dylan ourega": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -11293,8 +11293,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "anan khalaili": {
       "nextBulkCheckAt": "2026-10-27T18:45:04.641009+00:00",
@@ -11390,8 +11390,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "calvin miller": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -11454,8 +11454,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "daichi kamada": {
       "status": "verified",
@@ -11475,8 +11475,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "denis zakaria": {
       "status": "verified",
@@ -11510,8 +11510,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "evanilson": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -11681,8 +11681,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "igor thiago": {
       "status": "verified",
@@ -11733,8 +11733,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "jaskin dmitrij": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -11821,8 +11821,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "joseph hodge": {
       "nextBulkCheckAt": "2026-10-27T18:45:04.641009+00:00",
@@ -11836,8 +11836,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "joshua mcpake": {
       "nextBulkCheckAt": "2026-10-27T18:45:04.641009+00:00",
@@ -11851,8 +11851,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "juan jesus": {
       "status": "verified",
@@ -12118,8 +12118,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "malick thiaw": {
       "status": "verified",
@@ -12170,8 +12170,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "mathias jensen": {
       "status": "verified",
@@ -12255,8 +12255,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "mironov andrei a": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -12498,8 +12498,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "semi ajayi": {
       "status": "verified",
@@ -12556,8 +12556,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "stephen o donnell": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -12587,8 +12587,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "thomas kristensen": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -12621,8 +12621,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "toma basic": {
       "nextBulkCheckAt": "2026-10-27T18:45:04.641009+00:00",
@@ -22195,8 +22195,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T21:17:01.260979+00:00",
-      "nextCheckAt": "2026-10-27T03:17:01.260979+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "bailey rice": {
       "nextBulkCheckAt": "2026-10-25T15:39:34.665162+00:00"
@@ -24559,7 +24559,7 @@
     },
     "kiichi yamazaki": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-27T07:12:58.930397+00:00"
+      "nextBulkCheckAt": "2026-10-28T07:33:09.667711+00:00"
     },
     "teruhito nakagawa": {
       "status": "verified",
@@ -25251,8 +25251,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "james wilson": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -25266,8 +25266,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "joe willock": {
       "status": "verified",
@@ -25287,8 +25287,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "jordan teze": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -25384,8 +25384,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "sebastian otoa": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -25459,8 +25459,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "adam daghim": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -28562,7 +28562,7 @@
     },
     "松本 晴": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-27T07:12:58.930397+00:00",
+      "nextBulkCheckAt": "2026-10-28T07:33:09.667711+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=%E6%9D%BE%E6%9C%AC%E3%80%80%E6%99%B4+%E7%A6%8F%E5%B2%A1%E3%82%BD%E3%83%95%E3%83%88%E3%83%90%E3%83%B3%E3%82%AF%E3%83%9B%E3%83%BC%E3%82%AF%E3%82%B9&hl=ko",
@@ -29801,8 +29801,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T20:38:25.502174+00:00",
-      "nextCheckAt": "2026-10-27T02:38:25.502174+00:00"
+      "checkedAt": "2026-10-27T07:33:09.667711+00:00",
+      "nextCheckAt": "2026-10-27T13:33:09.667711+00:00"
     },
     "jay enem": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
