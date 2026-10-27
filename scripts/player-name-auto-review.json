@@ -20391,6 +20391,28 @@
         }
       ],
       "verifiedAt": "2026-10-27T13:35:37.508959+00:00"
+    },
+    {
+      "name": "Rico Henry",
+      "korean": "리코 헨리",
+      "team": "Brentford",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rico_Henry",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "리코 헨리",
+          "contentHash": "122c7730374efe11d1e78bf8713ab754283e3f6678535369ee0c04658936b865"
+        }
+      ],
+      "verifiedAt": "2026-10-27T14:24:38.957596+00:00"
     }
   ]
 }
