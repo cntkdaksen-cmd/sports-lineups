@@ -20413,6 +20413,162 @@
         }
       ],
       "verifiedAt": "2026-10-27T14:24:38.957596+00:00"
+    },
+    {
+      "name": "Adama Traore",
+      "korean": "아다마 트라오레",
+      "team": "Deportivo",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Adama_Traor%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "아다마 트라오레",
+          "contentHash": "045c7e32cc62516f887b9c4346055d4c456c4078d061245001b8489b97536ff3"
+        }
+      ],
+      "verifiedAt": "2026-10-27T15:20:38.932070+00:00"
+    },
+    {
+      "name": "Hayden Hackney",
+      "korean": "헤이든 해크니",
+      "team": "Everton",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hayden_Hackney",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "헤이든 해크니",
+          "contentHash": "472132ec60673085a0bd4a6d358d5afb12d32906aa966c6b2db1bb820abb5c4f"
+        }
+      ],
+      "verifiedAt": "2026-10-27T15:20:38.932070+00:00"
+    },
+    {
+      "name": "James Tarkowski",
+      "korean": "제임스 타코우스키",
+      "team": "Everton",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/James_Tarkowski",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "제임스 타코우스키",
+          "contentHash": "297697ee8e01c3aa2671939379dffc5d8b3d657dfaedc6c45788fe69b778a015"
+        }
+      ],
+      "verifiedAt": "2026-10-27T15:20:38.932070+00:00"
+    },
+    {
+      "name": "Jarrad Branthwaite",
+      "korean": "재러드 브랜스웨이트",
+      "team": "Everton",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jarrad_Branthwaite",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "재러드 브랜스웨이트",
+          "contentHash": "72901f872378201a13ef896bff96a300119a62c00a04a73888af614a0938c761"
+        }
+      ],
+      "verifiedAt": "2026-10-27T15:20:38.932070+00:00"
+    },
+    {
+      "name": "Kiernan Dewsbury-Hall",
+      "korean": "키어넌 듀스버리홀",
+      "team": "Everton",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kiernan_Dewsbury-Hall",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "키어넌 듀스버리홀",
+          "contentHash": "05b19f440ed117f00468e8309f9a04508e5c587cfc564d5b098dd617584b510a"
+        }
+      ],
+      "verifiedAt": "2026-10-27T15:20:38.932070+00:00"
+    },
+    {
+      "name": "Arnel Jakupovic",
+      "korean": "아르넬 야쿠포비치",
+      "team": "Vitória de Guimaraes",
+      "league": "primeira",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Arnel_Jakupovi%C4%87",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q26836963",
+          "wikidataItem": "Q26836963",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "858270cc519ac0d72e357c9e5c5cdb1d8a02907a42465600af03e730d9cf1ae9"
+        }
+      ],
+      "verifiedAt": "2026-10-27T15:20:38.932070+00:00"
+    },
+    {
+      "name": "João Mendes",
+      "korean": "주앙 멘드스",
+      "team": "Vitória de Guimaraes",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Mendes",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "주앙 멘드스",
+          "contentHash": "c5e52a80ebc4640d64ea98c3c1f5f9dad9dc015630fbc81298b7c9b3f0680404"
+        }
+      ],
+      "verifiedAt": "2026-10-27T15:20:38.932070+00:00"
     }
   ]
 }
