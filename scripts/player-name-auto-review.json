@@ -20856,6 +20856,28 @@
         }
       ],
       "verifiedAt": "2026-10-28T08:32:27.126539+00:00"
+    },
+    {
+      "name": "Lorenzo De Silvestri",
+      "korean": "로렌초 데 실베스트리",
+      "team": "Bologna",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lorenzo_De_Silvestri",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로렌초 데 실베스트리",
+          "contentHash": "2b726868dfef4b555a41ac85945fd2c15ca778eed637a3a412e89e82f1e2484e"
+        }
+      ],
+      "verifiedAt": "2026-10-28T11:00:45.649477+00:00"
     }
   ]
 }
