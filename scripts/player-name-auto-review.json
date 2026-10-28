@@ -21166,6 +21166,30 @@
         }
       ],
       "verifiedAt": "2026-10-28T17:32:01.004269+00:00"
+    },
+    {
+      "name": "Tomas Chancalay",
+      "korean": "토마스 창칼라이",
+      "team": "Minnesota United FC",
+      "league": "mls",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tom%C3%A1s_Chancalay",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q52418837",
+          "wikidataItem": "Q52418837",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "904da8dd2af063b119b65b9266cae82ec54d6d9d4bd37822a0422b1c6c969555"
+        }
+      ],
+      "verifiedAt": "2026-10-28T17:33:52.259310+00:00"
     }
   ]
 }
