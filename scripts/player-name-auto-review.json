@@ -20789,6 +20789,73 @@
         }
       ],
       "verifiedAt": "2026-10-28T07:42:14.203600+00:00"
+    },
+    {
+      "name": "Obi Toppin",
+      "korean": "오비 토핀",
+      "team": "Indiana Pacers",
+      "league": "nba",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Obi_Toppin",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q75060241",
+          "wikidataItem": "Q75060241",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "fe4b17be937550a22b85468adf298359a6b48ca2970b5ca269c2c78c6cbba74d"
+        }
+      ],
+      "verifiedAt": "2026-10-28T08:32:27.126539+00:00"
+    },
+    {
+      "name": "Simone Fontecchio",
+      "korean": "시모네 폰테키오",
+      "team": "Miami Heat",
+      "league": "nba",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Simone_Fontecchio",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q12269620",
+          "wikidataItem": "Q12269620",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "45338d18f346b18a24c99f8fb95763b274622f996adfbbcc6ebe636a4d6cb654"
+        }
+      ],
+      "verifiedAt": "2026-10-28T08:32:27.126539+00:00"
+    },
+    {
+      "name": "Anthony Black",
+      "korean": "앤서니 블랙",
+      "team": "Orlando Magic",
+      "league": "nba",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EC%95%A4%EC%84%9C%EB%8B%88_%EB%B8%94%EB%9E%99",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "d1b985cf6278fc871f32d68db5106699cdf2705b5e67369a05e0c0792943f783"
+        }
+      ],
+      "verifiedAt": "2026-10-28T08:32:27.126539+00:00"
     }
   ]
 }
