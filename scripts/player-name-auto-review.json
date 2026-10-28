@@ -21302,6 +21302,50 @@
         }
       ],
       "verifiedAt": "2026-10-28T20:40:32.269649+00:00"
+    },
+    {
+      "name": "Alex Jimenez",
+      "korean": "알렉스 히메네스",
+      "team": "Fiorentina",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/%C3%81lex_Jim%C3%A9nez_%28footballer%2C_born_2005%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "알렉스 히메네스",
+          "contentHash": "5374aa0a225e83eb71c1b0f56b35d0549efd10bf9230f475ef6ffdfd6b7dc022"
+        }
+      ],
+      "verifiedAt": "2026-10-28T22:38:48.607747+00:00"
+    },
+    {
+      "name": "Jonathan Rowe",
+      "korean": "조너선 로",
+      "team": "Atalanta",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jonathan_Rowe_%28footballer%2C_born_2003%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "조너선 로",
+          "contentHash": "e81c2ce3e96c4073ca7614c51562d3916d3dcd9765cb3ab696b676f5949bd2bf"
+        }
+      ],
+      "verifiedAt": "2026-10-28T22:38:48.607747+00:00"
     }
   ]
 }
