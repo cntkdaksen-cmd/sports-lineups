@@ -20767,6 +20767,28 @@
         }
       ],
       "verifiedAt": "2026-10-28T01:20:52.344909+00:00"
+    },
+    {
+      "name": "Lorenzo Lucca",
+      "korean": "로렌초 루카",
+      "team": "Napoli",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lorenzo_Lucca",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로렌초 루카",
+          "contentHash": "806836cd541b9083a2988d4149718154545ae6cacdcc76ec146b2f31a920896b"
+        }
+      ],
+      "verifiedAt": "2026-10-28T07:42:14.203600+00:00"
     }
   ]
 }
