@@ -45,6 +45,7 @@ for (const [name, expected] of [
   ['Becker', 'Becker']
 ]) assert.equal(run(`translated(${JSON.stringify(name)})`), expected, name);
 assert.equal(run(`translated('João Neves')`), run(`translated('Joao Neves')`));
+assert.equal(run(`normalizePlayerName('Łukasz Skorupski')`),run(`normalizePlayerName('Lukasz Skorupski')`));
 for (const [name, korean] of run('Object.entries(playerKo)')) {
   context.checkedPlayer = {name};
   assert.equal(run('translated(checkedPlayer.name)'), korean, name);

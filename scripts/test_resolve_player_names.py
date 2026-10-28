@@ -15,6 +15,7 @@ class NameVerification(unittest.TestCase):
     def proof(self, url, **kwargs):
         return r.evidence(self.row, url, self.page(**kwargs), '', {'google'}, {})
     def test_asian_names_remain_distinct_for_search(self):
+        self.assertEqual(r.normalize('Łukasz Skorupski'),r.normalize('Lukasz Skorupski'))
         self.assertEqual(r.normalize('尾形　崇斗'), '尾形 崇斗')
         self.assertEqual(r.normalize('岳政華'), '岳政華')
         self.assertNotEqual(r.normalize('尾形　崇斗'), r.normalize('石田　裕太郎'))
@@ -48,6 +49,17 @@ class NameVerification(unittest.TestCase):
         self.assertEqual(r.bulk_wikipedia([row],{},lambda url:data('Nigerian professional footballer.'))[0]['alex iwobi']['korean'],'앨릭스 이워비')
         self.assertEqual(r.bulk_wikipedia([row],{},lambda url:data('Actor with no club'))[0],{})
         self.assertEqual(r.bulk_wikipedia([row],{},lambda url:data(ko='Alex Iwobi'))[0],{})
+    def test_disambiguated_article_resolves_only_matching_sports_team(self):
+        row={'name':'Tom Wilson','team':'Washington Capitals','league':'nhl'}
+        def get(url,team='Washington Capitals',sport='ice hockey player'):
+            if 'list=search' in url:
+                return {'query':{'search':[{'title':'Tom Wilson (ice hockey)'},{'title':'Tom Wilson (actor)'}]}}
+            return {'query':{'pages':{'1':{'title':'Tom Wilson (ice hockey)',
+                'extract':f'Thomas Wilson is an {sport} for the {team}.',
+                'langlinks':[{'lang':'ko','*':'톰 윌슨 (아이스하키 선수)'}]}}}}
+        self.assertEqual(r.english_wikipedia_search(row,{},get)['korean'],'톰 윌슨')
+        self.assertIsNone(r.english_wikipedia_search(row,{},lambda url:get(url,team='Other Club')))
+        self.assertIsNone(r.english_wikipedia_search(row,{},lambda url:get(url,sport='actor')))
     def test_bulk_failure_is_reported(self):
         def get(url): raise ValueError('blocked')
         approved,errors=r.bulk_wikipedia([self.row],{},get)

@@ -22,13 +22,13 @@ DOMAINS = ('wikipedia.org', 'transfermarkt.co.kr', 'flashscore.co.kr', 'sofascor
            'sportschosun.com', 'sportalkorea.com', 'osen.co.kr', 'xportsnews.com', 'spotvnews.co.kr',
            'mk.co.kr', 'hankyung.com', 'chosun.com', 'donga.com', 'khan.co.kr', 'kbs.co.kr', 'sbs.co.kr')
 SEARCH_HOSTS = ('www.google.com',)
-POLICY = 'precollect-names-v2'
+POLICY = 'precollect-names-v3'
 BULK_POLICY = 'wikipedia-exact-sports-v4'
 GOOGLE_METHOD = 'google-search-result-v1'
 
 
 def normalize(value):
-    value = ''.join(c for c in unicodedata.normalize('NFKD', str(value)) if not ('\u0300' <= c <= '\u036f'))
+    value = ''.join(c for c in unicodedata.normalize('NFKD', str(value).translate(str.maketrans({'Ł':'L','ł':'l'}))) if not ('\u0300' <= c <= '\u036f'))
     return re.sub(r'[^a-z0-9가-힣ぁ-ゟァ-ヿ一-龯々〆〤]+', ' ', unicodedata.normalize('NFC', value).lower()).strip()
 
 
@@ -112,6 +112,8 @@ def fetch_page(url):
         page = Page(raw.decode(response.headers.get_content_charset() or 'utf-8', 'replace'))
     if re.search(r'unusual traffic|verify you are human|자동입력 방지문자|비정상적인 접근|보안 확인을 완료', page.text, re.I):
         raise ValueError('search-challenge')
+    if urllib.parse.urlsplit(url).hostname in SEARCH_HOSTS and not page.links and not page.panel_titles and re.search(r'Google Search.*(?:이동하지 않는 경우|redirected)', page.text, re.I):
+        raise ValueError('search-results-unavailable')
     return page
 
 
@@ -282,6 +284,25 @@ def korean_wikipedia(row, team_dictionary, get=fetch_json):
     return verified[0] if len(verified) == 1 else None
 
 
+def english_wikipedia_search(row, teams, get=fetch_json):
+    """Find a disambiguated sports biography before checking its Korean title."""
+    if not re.search(r'[A-Za-z]', row['name']):
+        return None
+    query = {'action': 'query', 'list': 'search', 'srsearch': row['name'] + ' ' + row.get('team', ''),
+             'srlimit': 8, 'format': 'json'}
+    try:
+        results = get('https://en.wikipedia.org/w/api.php?' + urllib.parse.urlencode(query)).get('query', {}).get('search', [])
+    except (ValueError, OSError, urllib.error.URLError):
+        return None
+    titles = [item['title'] for item in results if normalize(re.sub(r'\s*\([^)]*\)$', '', item['title'])) == normalize(row['name'])]
+    matches = []
+    for title in titles[:3]:
+        approved, errors = bulk_wikipedia([{**row, 'articleTitle': title}], teams, get)
+        if not errors and normalize(row['name']) in approved:
+            matches.append(approved[normalize(row['name'])])
+    return matches[0] if len(matches) == 1 else None
+
+
 def bulk_wikipedia(rows, teams, get=fetch_json):
     """Resolve Korean Wikipedia titles or Wikidata labels for exact sports biographies."""
     approved, errors = {}, []
@@ -292,7 +313,7 @@ def bulk_wikipedia(rows, teams, get=fetch_json):
     for language, language_rows in groups.items():
       for start in range(0, len(language_rows), 20):
         batch = language_rows[start:start+20]
-        requested = {row['name']: ''.join(row['name'].split()) if language != 'en' else row['name'] for row in batch}
+        requested = {row['name']: row.get('articleTitle') or (''.join(row['name'].split()) if language != 'en' else row['name']) for row in batch}
         query = {'action': 'query', 'format': 'json', 'redirects': '1', 'prop': 'langlinks|extracts|pageprops',
                  'lllang': 'ko', 'lllimit': 'max', 'exintro': '1', 'explaintext': '1', 'exlimit': 'max',
                  'titles': '|'.join(requested.values())}
@@ -315,8 +336,9 @@ def bulk_wikipedia(rows, teams, get=fetch_json):
                 if language != 'en': source_name = source_name.replace(' ', '')
                 page_title = normalize(page.get('title', ''))
                 exact_title = (page_title.replace(' ', '') if language != 'en' else page_title) == source_name
+                disambiguated_title = language == 'en' and normalize(re.sub(r'\s*\([^)]*\)$', '', page.get('title', ''))) == source_name
                 intro_name = bool(re.search(r'(?<!\w)' + re.escape(source_name) + r'(?!\w)', intro.replace(' ', '') if language != 'en' else intro))
-                if not (exact_title or intro_name): continue
+                if not (exact_title or intro_name or disambiguated_title): continue
                 team = normalize(row.get('team', ''))
                 team_match = len(team) >= 3 and team in intro
                 sport_match = bool(re.search(r'\b(footballer|plays football|soccer player|basketball player|baseball player|ice hockey player|volleyball player|esports player|league of legends player)\b|野球選手|棒球選手|職業棒球', intro))
@@ -422,7 +444,7 @@ def main():
     deadline = time.monotonic() + 600
     for row in [r for r in eligible if normalize(r['name']) not in bulk][:30]:
         if time.monotonic() >= deadline: break
-        entry = korean_wikipedia(row, teams)
+        entry = korean_wikipedia(row, teams) or english_wikipedia_search(row, teams)
         wiki_checked += 1
         if entry:
             wiki_approved += 1

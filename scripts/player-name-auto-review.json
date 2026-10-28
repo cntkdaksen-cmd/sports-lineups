@@ -21122,6 +21122,50 @@
         }
       ],
       "verifiedAt": "2026-10-28T17:22:50.168451+00:00"
+    },
+    {
+      "name": "Tom Wilson",
+      "korean": "톰 윌슨",
+      "team": "Washington Capitals",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tom_Wilson_%28ice_hockey%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "톰 윌슨 (아이스하키 선수)",
+          "contentHash": "cd587eb959224c8f03bbc5a7126b1026b867d5ef939693c6746c153b2e83da03"
+        }
+      ],
+      "verifiedAt": "2026-10-28T17:31:56.743562+00:00"
+    },
+    {
+      "name": "Lukasz Skorupski",
+      "korean": "우카시 스코룹스키",
+      "team": "Bologna",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/%C5%81ukasz_Skorupski",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "우카시 스코룹스키",
+          "contentHash": "42ecde47dd23c9f54320e10db78f7c8101f2c2f7ad2e8900c38743405230ff59"
+        }
+      ],
+      "verifiedAt": "2026-10-28T17:32:01.004269+00:00"
     }
   ]
 }
