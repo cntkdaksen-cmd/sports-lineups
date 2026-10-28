@@ -21078,6 +21078,50 @@
         }
       ],
       "verifiedAt": "2026-10-28T15:23:48.943217+00:00"
+    },
+    {
+      "name": "Nicolò Bertola",
+      "korean": "니콜로 베르톨라",
+      "team": "Udinese",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nicol%C3%B2_Bertola",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "니콜로 베르톨라",
+          "contentHash": "0f607af09db23cc5faf01880f680904f2de55239460ae886b20c531926dcdf9c"
+        }
+      ],
+      "verifiedAt": "2026-10-28T17:22:50.168451+00:00"
+    },
+    {
+      "name": "Samuel Mbangula",
+      "korean": "사뮈엘 음방굴라",
+      "team": "Bologna",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Samuel_Mbangula",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "사뮈엘 음방굴라",
+          "contentHash": "da97fbf234832847097eacad2333ebf8de11b1e38d635af8ed5dda6745fc087a"
+        }
+      ],
+      "verifiedAt": "2026-10-28T17:22:50.168451+00:00"
     }
   ]
 }
