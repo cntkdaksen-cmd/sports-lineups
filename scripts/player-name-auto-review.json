@@ -21258,6 +21258,28 @@
         }
       ],
       "verifiedAt": "2026-10-28T19:09:33.048195+00:00"
+    },
+    {
+      "name": "Cyril Ngonge",
+      "korean": "시릴 논지",
+      "team": "Monza",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cyril_Ngonge",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "시릴 논지",
+          "contentHash": "0679853c0a80cce46a1a5428d2f9ba25e2fbaa2b67ed308bbd8398d99e4f9009"
+        }
+      ],
+      "verifiedAt": "2026-10-28T20:00:58.671929+00:00"
     }
   ]
 }
