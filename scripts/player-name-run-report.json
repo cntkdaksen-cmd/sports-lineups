@@ -1,17 +1,15 @@
 {
-  "at": "2026-10-28T04:25:25.570278+00:00",
-  "inventoryRecords": 5760,
-  "pending": 2036,
-  "eligible": 1796,
-  "bulkRequested": 4,
+  "at": "2026-10-28T05:15:41.863261+00:00",
+  "inventoryRecords": 5725,
+  "pending": 2023,
+  "eligible": 1784,
+  "bulkRequested": 20,
   "bulkApproved": 0,
   "searchChecked": 30,
   "wikipediaChecked": 30,
   "wikipediaApproved": 0,
   "approved": 0,
-  "bulkErrors": [
-    "HTTPError:HTTP Error 503: Service Unavailable"
-  ],
+  "bulkErrors": [],
   "collectionFailures": 0,
   "policy": "Unverified names remain English"
 }
