@@ -20723,6 +20723,50 @@
         }
       ],
       "verifiedAt": "2026-10-27T21:34:14.528088+00:00"
+    },
+    {
+      "name": "Corey Perry",
+      "korean": "코리 페리",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Corey_Perry",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "코리 페리",
+          "contentHash": "a21b586d1378c62c787d641551f6ee2daf638b83ffde9b4e6b54acc8db63e85b"
+        }
+      ],
+      "verifiedAt": "2026-10-28T01:20:52.344909+00:00"
+    },
+    {
+      "name": "Drew Doughty",
+      "korean": "드루 다우티",
+      "team": "Los Angeles Kings",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Drew_Doughty",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "드루 다우티",
+          "contentHash": "d802fc60ee793dff087d3f49bf5d82b63dd3ce300576e4bc7947f2d4cfe296b6"
+        }
+      ],
+      "verifiedAt": "2026-10-28T01:20:52.344909+00:00"
     }
   ]
 }
