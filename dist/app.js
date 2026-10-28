@@ -135,7 +135,7 @@ function isKoreanPlayer(player) {
   if (koreanPlayerNames.has(normalizePlayerName(player?.name))) return true;
   return false;
 }
-const projectionUrl = 'https://api.github.com/repos/jimmy896376/sports-lineups/contents/dist/projections.json?ref=main';
+const projectionUrl = 'https://api.github.com/repos/cntkdaksen-cmd/sports-lineups/contents/dist/projections.json?ref=main';
 const codeAliases = {MCI:'MNC'};
 let language = 'ko', sport = 'football', league = 'ucl', requestId = 0, majorView = true;
 let theme = 'dark';
@@ -157,7 +157,7 @@ async function refreshTeamNames(current) {
   try {
     let remote, bundled;
     try {
-      remote = await getJson(`https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/name-catalog.json?v=${Date.now()}`);
+      remote = await getJson(`https://raw.githubusercontent.com/cntkdaksen-cmd/sports-lineups/main/dist/name-catalog.json?v=${Date.now()}`);
       if (remote?.schemaVersion !== 1) remote = null;
     } catch {}
     try {
@@ -352,7 +352,7 @@ async function getProjections(preferFresh=false) {
     const binary = atob((await response.json()).content.replace(/\s/g,''));
     return JSON.parse(new TextDecoder().decode(Uint8Array.from(binary,character => character.charCodeAt(0))));
   };
-  const fromRaw = () => getJson(`https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/projections.json?v=${Date.now()}`);
+  const fromRaw = () => getJson(`https://raw.githubusercontent.com/cntkdaksen-cmd/sports-lineups/main/dist/projections.json?v=${Date.now()}`);
   const valid = value => Array.isArray(value?.items) && value.domestic && typeof value.domestic === 'object';
   let projections;
   try {
@@ -565,7 +565,7 @@ function predictionRecord(team,side,overall=false) {
 let externalForecasts = {schemaVersion:1,items:[]};
 async function refreshExternalForecasts(current) {
   let feed;
-  try { feed=await getJson('https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/external-forecasts.json?v='+Date.now()); }
+  try { feed=await getJson('https://raw.githubusercontent.com/cntkdaksen-cmd/sports-lineups/main/dist/external-forecasts.json?v='+Date.now()); }
   catch { try { feed=await getJson('./external-forecasts.json?v='+Date.now()); } catch { feed={schemaVersion:1,items:[]}; } }
   if(current===requestId)externalForecasts=feed;
 }

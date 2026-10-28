@@ -99,7 +99,7 @@ def collect():
         for job in futures.as_completed(jobs):
             result = attempt(jobs[job],job.result)
             if result: targets.extend(result)
-    projections = attempt('lineups',lambda:json_fetch('https://raw.githubusercontent.com/jimmy896376/sports-lineups/main/dist/projections.json')) or {}
+    projections = attempt('lineups',lambda:json_fetch('https://raw.githubusercontent.com/cntkdaksen-cmd/sports-lineups/main/dist/projections.json')) or {}
     for league, entries in projections.get('domestic',{}).items():
         for entry in entries:
             event = entry['event']

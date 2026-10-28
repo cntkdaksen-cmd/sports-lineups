@@ -231,7 +231,7 @@ def write(path, data):
 
 
 def fetch_json(url):
-    request = urllib.request.Request(url, headers={'User-Agent': 'SportsLineupsNameReview/2.0 (https://github.com/jimmy896376/sports-lineups)', 'Accept': 'application/json'})
+    request = urllib.request.Request(url, headers={'User-Agent': 'SportsLineupsNameReview/2.0 (https://github.com/cntkdaksen-cmd/sports-lineups)', 'Accept': 'application/json'})
     with urllib.request.urlopen(request, timeout=20) as response:
         raw = response.read(4_000_001)
         if len(raw) > 4_000_000:
