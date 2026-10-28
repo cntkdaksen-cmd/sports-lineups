@@ -2,7 +2,7 @@ import importlib.util
 from pathlib import Path
 import unittest
 import tempfile
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 import json
 spec = importlib.util.spec_from_file_location('resolver', Path(__file__).with_name('resolve-player-names.py'))
 r = importlib.util.module_from_spec(spec)
@@ -30,6 +30,17 @@ class NameVerification(unittest.TestCase):
         self.assertEqual(approved['korean'],'모리츠 니콜라스')
         self.assertEqual(len(calls),1)
         self.assertEqual(report['status'],'verified')
+    def test_google_redirect_shell_is_not_a_search_result(self):
+        response=MagicMock()
+        response.__enter__.return_value=response
+        response.headers.get.return_value='text/html'
+        response.headers.get_content_charset.return_value='utf-8'
+        response.read.return_value='<title>Google Search</title><a href="/retry">여기</a>몇 초 안에 이동하지 않는 경우'.encode()
+        opener=MagicMock()
+        opener.open.return_value=response
+        with patch.object(r.urllib.request,'build_opener',return_value=opener):
+            with self.assertRaisesRegex(ValueError,'search-results-unavailable'):
+                r.fetch_page('https://www.google.com/search?q=Moritz+Nicolas')
     def test_google_knowledge_panel(self):
         page=r.Page('<div data-attrid="title"><span>모리츠 니콜라스</span></div><p>Moritz Nicolas Borussia Monchengladbach</p>')
         self.assertEqual(r.google_result(self.row,'https://www.google.com/search?q=test',page,{})['korean'],'모리츠 니콜라스')
