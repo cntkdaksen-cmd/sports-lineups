@@ -21346,6 +21346,30 @@
         }
       ],
       "verifiedAt": "2026-10-28T22:38:48.607747+00:00"
+    },
+    {
+      "name": "David Doudera",
+      "korean": "다비트 도우데라",
+      "team": "FC Cincinnati",
+      "league": "mls",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/David_Doud%C4%9Bra",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q96613620",
+          "wikidataItem": "Q96613620",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "3aec0e6e9431b9387a7a1cbe727dd5666f7f643f15c0796c5e5344bf53cd9c8f"
+        }
+      ],
+      "verifiedAt": "2026-10-28T23:20:32.630525+00:00"
     }
   ]
 }
