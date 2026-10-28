@@ -20878,6 +20878,206 @@
         }
       ],
       "verifiedAt": "2026-10-28T11:00:45.649477+00:00"
+    },
+    {
+      "name": "Andrés Andrade",
+      "korean": "안드레스 안드라데",
+      "team": "LASK Linz",
+      "league": "ucl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Andrade",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "안드레스 안드라데",
+          "contentHash": "98bb5e065aec30dcfe47d7b2afcfacb38cb04292da788ec320d43e4a5eeb3d41"
+        }
+      ],
+      "verifiedAt": "2026-10-28T15:23:48.943217+00:00"
+    },
+    {
+      "name": "Calvin Verdonk",
+      "korean": "칼빈 베르동크",
+      "team": "Lille",
+      "league": "ucl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Calvin_Verdonk",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "칼빈 베르동크",
+          "contentHash": "39944d1f8eb8a7c441cc323e9900753938d3dada8f1f63f254f65bb441f781f3"
+        }
+      ],
+      "verifiedAt": "2026-10-28T15:23:48.943217+00:00"
+    },
+    {
+      "name": "César Blackman",
+      "korean": "세사르 블랙맨",
+      "team": "Slovan Bratislava",
+      "league": "ucl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/C%C3%A9sar_Blackman",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "세사르 블랙맨",
+          "contentHash": "246d7a0f751c61a88a886158b096ec6e661c25bd5d7d8593bbd4940f82ec6923"
+        }
+      ],
+      "verifiedAt": "2026-10-28T15:23:48.943217+00:00"
+    },
+    {
+      "name": "Fredrik André Bjørkan",
+      "korean": "프레데리크 안드레 비에르칸",
+      "team": "Bodo/Glimt",
+      "league": "ucl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fredrik_Andr%C3%A9_Bj%C3%B8rkan",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "프레데리크 안드레 비에르칸",
+          "contentHash": "5ff36108bd37f0fbcea4bcff015c367082c13284ee4bc1be447dd32792f9e673"
+        }
+      ],
+      "verifiedAt": "2026-10-28T15:23:48.943217+00:00"
+    },
+    {
+      "name": "Jens Petter Hauge",
+      "korean": "옌스 페테르 하우게",
+      "team": "Bodo/Glimt",
+      "league": "ucl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jens_Petter_Hauge",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "옌스 페테르 하우게",
+          "contentHash": "effc193de59af9e823b0f920e4cdd05c7c8cc721a9c066dd2ce173299ab0ae7f"
+        }
+      ],
+      "verifiedAt": "2026-10-28T15:23:48.943217+00:00"
+    },
+    {
+      "name": "Matthijs de Ligt",
+      "korean": "마테이스 더 리흐트",
+      "team": "Manchester United",
+      "league": "ucl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Matthijs_de_Ligt",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마테이스 더 리흐트",
+          "contentHash": "deeca7169d7f0c393b995e89846bab99cceefc2ce5a5b3254a29653206157677"
+        }
+      ],
+      "verifiedAt": "2026-10-28T15:23:48.943217+00:00"
+    },
+    {
+      "name": "Ole Didrik Blomberg",
+      "korean": "올레 디드리크 블롬베르그",
+      "team": "Bodo/Glimt",
+      "league": "ucl",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ole_Didrik_Blomberg",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q101084112",
+          "wikidataItem": "Q101084112",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "23a7e684469f4295269cd213debb26a91baf0f6be02cdf425f326422d044e6db"
+        }
+      ],
+      "verifiedAt": "2026-10-28T15:23:48.943217+00:00"
+    },
+    {
+      "name": "Patrick Berg",
+      "korean": "파트리크 베르그",
+      "team": "Bodo/Glimt",
+      "league": "ucl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Patrick_Berg",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "파트리크 베르그",
+          "contentHash": "af97ff98acf722ad66ce3a83e43f3b97b87cc0416ee7f9351a938cfec15b8d28"
+        }
+      ],
+      "verifiedAt": "2026-10-28T15:23:48.943217+00:00"
+    },
+    {
+      "name": "Tyrone Mings",
+      "korean": "타이론 밍스",
+      "team": "Aston Villa",
+      "league": "ucl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tyrone_Mings",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "타이론 밍스",
+          "contentHash": "af93b09ab123f7c7f9245eef5705ae1a6fbfb1cc9e71d3fe3d637d8366841686"
+        }
+      ],
+      "verifiedAt": "2026-10-28T15:23:48.943217+00:00"
     }
   ]
 }
