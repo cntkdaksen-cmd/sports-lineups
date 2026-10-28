@@ -21280,6 +21280,28 @@
         }
       ],
       "verifiedAt": "2026-10-28T20:00:58.671929+00:00"
+    },
+    {
+      "name": "Joe Worrall",
+      "korean": "조 워럴",
+      "team": "Wrexham",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Worrall_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "조 워럴",
+          "contentHash": "e5b2284ee0cc768e49280dd269f99106641a3c22eda8994a02aea6c4efd467ce"
+        }
+      ],
+      "verifiedAt": "2026-10-28T20:40:32.269649+00:00"
     }
   ]
 }
