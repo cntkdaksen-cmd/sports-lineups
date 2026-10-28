@@ -489,16 +489,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Agustin+Bouzat+Houston+Dynamo+FC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00",
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "policy": "precollect-names-v2"
+      "policy": "precollect-names-v3"
     },
     "agustin ojeda": {
       "status": "verified",
@@ -510,16 +511,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Agustin+Resch+Houston+Dynamo+FC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00",
       "nextBulkCheckAt": "2026-10-28T23:47:28.330181+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "policy": "precollect-names-v2"
+      "policy": "precollect-names-v3"
     },
     "ahmetcan kaplan": {
       "searches": {
@@ -1072,16 +1074,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Alexander+Roldan+Seattle+Sounders+FC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00",
       "nextBulkCheckAt": "2026-10-28T23:47:28.330181+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "policy": "precollect-names-v2"
+      "policy": "precollect-names-v3"
     },
     "alexander schwolow": {
       "status": "verified",
@@ -1348,16 +1351,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Amahl+Pellegrino+San+Diego+FC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00",
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "policy": "precollect-names-v2"
+      "policy": "precollect-names-v3"
     },
     "aaron tshibola": {
       "status": "verified",
@@ -7545,14 +7549,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Moussa+Diabate+Charlotte+Hornets&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "arturs silovs": {
       "nextBulkCheckAt": "2026-10-29T05:15:41.863261+00:00",
@@ -7605,14 +7610,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Fabian+Zetterlund+Ottawa+Senators&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "gabriel perreault": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -7791,14 +7797,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Valeri+Nichushkin+Columbus+Blue+Jackets&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "yaroslav askarov": {
       "nextBulkCheckAt": "2026-10-29T05:57:54.193259+00:00",
@@ -7806,14 +7813,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Yaroslav+Askarov+San+Jose+Sharks&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "andre blake": {
       "status": "verified",
@@ -8112,14 +8120,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jaime+Jaquez+Milwaukee+Bucks&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T08:32:27.126539+00:00",
-      "nextCheckAt": "2026-10-28T14:32:27.126539+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "james harden": {
       "status": "verified",
@@ -8949,14 +8958,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jabari+Smith+Houston+Rockets&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T08:32:27.126539+00:00",
-      "nextCheckAt": "2026-10-28T14:32:27.126539+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "jacob bartlett": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -9262,14 +9272,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Reid+Roberts+San+Jose+Earthquakes&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T06:48:43.503071+00:00",
-      "nextCheckAt": "2026-10-28T12:48:43.503071+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "ronaldo vieira": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -9277,14 +9288,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Ronaldo+Vieira+San+Jose+Earthquakes&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T06:48:43.503071+00:00",
-      "nextCheckAt": "2026-10-28T12:48:43.503071+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "santiago moreno": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -9698,14 +9710,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Paxten+Aaronson+Colorado+Rapids&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T06:48:43.503071+00:00",
-      "nextCheckAt": "2026-10-28T12:48:43.503071+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "philip quinton": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -9816,14 +9829,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Tate+Johnson+Vancouver+Whitecaps&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T06:48:43.503071+00:00",
-      "nextCheckAt": "2026-10-28T12:48:43.503071+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "timo baumgartl": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -9861,14 +9875,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Tristan+Blackmon+Vancouver+Whitecaps&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "wayne frederick": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -9876,14 +9891,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Wayne+Frederick+Colorado+Rapids&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "yadaly diaby": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -10350,14 +10366,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Oscar+Verhoeven+San+Diego+FC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T06:48:43.503071+00:00",
-      "nextCheckAt": "2026-10-28T12:48:43.503071+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "pablo sisniega": {
       "status": "verified",
@@ -10405,14 +10422,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Sebastian+Gomez+Seattle+Sounders+FC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T06:48:43.503071+00:00",
-      "nextCheckAt": "2026-10-28T12:48:43.503071+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "snyder brunell": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -10424,14 +10442,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Stuart+Hawkins+Seattle+Sounders+FC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T06:48:43.503071+00:00",
-      "nextCheckAt": "2026-10-28T12:48:43.503071+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "tim ream": {
       "status": "verified",
@@ -18896,14 +18915,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Judd+Caulfield+Anaheim+Ducks&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "nikita grebenkin": {
       "nextBulkCheckAt": "2026-10-29T19:09:33.048195+00:00",
@@ -20344,14 +20364,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Preston+Judd+San+Jose+Earthquakes&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T06:48:43.503071+00:00",
-      "nextCheckAt": "2026-10-28T12:48:43.503071+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "reed sheppard": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -20625,14 +20646,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Mikael+Backlund+Calgary+Flames&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "nick foligno": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -23910,14 +23932,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Collin+Graf+San+Jose+Sharks&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T06:48:43.503071+00:00",
-      "nextCheckAt": "2026-10-28T12:48:43.503071+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "shimpei fukuoka": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -25069,7 +25092,7 @@
     },
     "jorge ruvalcaba": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-28T21:34:14.528088+00:00",
+      "nextBulkCheckAt": "2026-10-29T21:59:54.239776+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jorge+Ruvalcaba+Red+Bull+New+York&hl=ko",
@@ -25088,7 +25111,7 @@
     },
     "tim parker": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-28T21:34:14.528088+00:00",
+      "nextBulkCheckAt": "2026-10-29T21:59:54.239776+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Tim+Parker+Red+Bull+New+York&hl=ko",
@@ -25304,14 +25327,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Bryce+Hopkins+Denver+Nuggets&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "deandre jordan": {
       "status": "verified",
@@ -30760,14 +30784,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Kenrich+Williams+Oklahoma+City+Thunder&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "michal postava": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -30820,14 +30845,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Ivar+Stenberg+San+Jose+Sharks&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "jacob trouba": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -30835,14 +30861,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jacob+Trouba+San+Jose+Sharks&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T07:42:14.203600+00:00",
-      "nextCheckAt": "2026-10-28T13:42:14.203600+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "bobby mcmann": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -31790,7 +31817,7 @@
     },
     "christopher applewhite": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-28T21:34:14.528088+00:00"
+      "nextBulkCheckAt": "2026-10-29T21:59:54.239776+00:00"
     },
     "eric bailly": {
       "status": "verified",
@@ -31890,14 +31917,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Tristan+da+Silva+Orlando+Magic&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T08:32:27.126539+00:00",
-      "nextCheckAt": "2026-10-28T14:32:27.126539+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "wendell carter": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -31905,14 +31933,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Wendell+Carter+Orlando+Magic&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T08:32:27.126539+00:00",
-      "nextCheckAt": "2026-10-28T14:32:27.126539+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "tari eason": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -31920,14 +31949,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Tari+Eason+Houston+Rockets&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T08:32:27.126539+00:00",
-      "nextCheckAt": "2026-10-28T14:32:27.126539+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-28T21:59:54.239776+00:00",
+      "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "kobe sanders": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -32617,6 +32647,10 @@
       "policy": "precollect-names-v3",
       "checkedAt": "2026-10-28T21:21:43.659466+00:00",
       "nextCheckAt": "2026-10-29T03:21:43.659466+00:00"
+    },
+    "wesley fofana": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-29T21:59:54.239776+00:00"
     }
   }
 }
