@@ -21190,6 +21190,50 @@
         }
       ],
       "verifiedAt": "2026-10-28T17:33:52.259310+00:00"
+    },
+    {
+      "name": "Przemyslaw Frankowski",
+      "korean": "프셰미스와프 프란코프스키",
+      "team": "Stade Rennais",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Przemys%C5%82aw_Frankowski",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "프셰미스와프 프란코프스키",
+          "contentHash": "f2550f532da82474dbe4eaa3b3781ef5834275f5438f003669ff8fe79c73ca1e"
+        }
+      ],
+      "verifiedAt": "2026-10-28T18:15:46.794318+00:00"
+    },
+    {
+      "name": "Sebastian Szymanski",
+      "korean": "세바스티안 시만스키",
+      "team": "Stade Rennais",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sebastian_Szyma%C5%84ski",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "세바스티안 시만스키",
+          "contentHash": "60c8ee1ad61eb47433e028c6dc9dfa5115022d6a9896f7bce845553257c9c727"
+        }
+      ],
+      "verifiedAt": "2026-10-28T18:15:46.794318+00:00"
     }
   ]
 }
