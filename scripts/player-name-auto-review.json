@@ -21234,6 +21234,30 @@
         }
       ],
       "verifiedAt": "2026-10-28T18:15:46.794318+00:00"
+    },
+    {
+      "name": "Fares Ghedjemis",
+      "korean": "파레스 게제미스",
+      "team": "Frosinone",
+      "league": "seriea",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Far%C3%A8s_Ghedjemis",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q124151324",
+          "wikidataItem": "Q124151324",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "489ad88135828b304b0f0542a2c6db9bce318aae52bbe2d5afcd858e9066497d"
+        }
+      ],
+      "verifiedAt": "2026-10-28T19:09:33.048195+00:00"
     }
   ]
 }
