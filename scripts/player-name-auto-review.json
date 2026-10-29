@@ -22291,6 +22291,28 @@
         }
       ],
       "verifiedAt": "2026-10-29T19:33:27.685219+00:00"
+    },
+    {
+      "name": "Jake Guentzel",
+      "korean": "제이크 겐츨",
+      "team": "Tampa Bay Lightning",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jake_Guentzel",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "제이크 겐츨",
+          "contentHash": "a0663e17cdeaf2606fe72c344c9348a24b1e731d1a0176cbd97f1e56f015a761"
+        }
+      ],
+      "verifiedAt": "2026-10-29T23:12:07.202690+00:00"
     }
   ]
 }
