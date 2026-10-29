@@ -22042,6 +22042,47 @@
         }
       ],
       "verifiedAt": "2026-10-29T16:11:08.851511+00:00"
+    },
+    {
+      "name": "Teuvo Teravainen",
+      "korean": "테우보 테래배이넨",
+      "team": "Chicago Blackhawks",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Teuvo_Ter%C3%A4v%C3%A4inen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "테우보 테래배이넨",
+          "contentHash": "e2accf0d71b1eece470dcac198383f94fb8f8a689268f285d33600f0e3485f78"
+        }
+      ],
+      "verifiedAt": "2026-10-29T17:10:29.796977+00:00"
+    },
+    {
+      "name": "Daniel Munoz",
+      "korean": "다니엘 무뇨스",
+      "team": "Nottingham Forest",
+      "league": "epl",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EB%8B%A4%EB%8B%88%EC%97%98_%EB%AC%B4%EB%87%A8%EC%8A%A4",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "9f73f03d44ed8df88e5035f8c56d76ee2ad999346b3dfd403dfbd29db58bba40"
+        }
+      ],
+      "verifiedAt": "2026-10-29T17:10:29.796977+00:00"
     }
   ]
 }
