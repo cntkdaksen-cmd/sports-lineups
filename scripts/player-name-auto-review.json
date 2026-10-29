@@ -21530,6 +21530,72 @@
         }
       ],
       "verifiedAt": "2026-10-29T05:27:39.685436+00:00"
+    },
+    {
+      "name": "Caetano",
+      "korean": "주앙 빅토르 안드라지 카에타누",
+      "team": "Vissel Kobe",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Caetano_%28footballer%2C_born_1999%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "주앙 빅토르 안드라지 카에타누",
+          "contentHash": "489c156b6b11c87bd005bddc327eae258bc8070cf9efa46c1847e7a9a748d7ec"
+        }
+      ],
+      "verifiedAt": "2026-10-29T06:15:09.528083+00:00"
+    },
+    {
+      "name": "Kim Tae-Hyeon",
+      "korean": "김태현",
+      "team": "Kashima Antlers",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kim_Tae-hyeon",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "김태현 (2000년)",
+          "contentHash": "b8ac8a1d10f38da932a584025c84a7ad9785a3aad6d86789a331c2363a0ca39d"
+        }
+      ],
+      "verifiedAt": "2026-10-29T06:15:09.528083+00:00"
+    },
+    {
+      "name": "Yuta Matsumura",
+      "korean": "마쓰무라 유타",
+      "team": "Kashima Antlers",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Y%C5%ABta_Matsumura_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마쓰무라 유타",
+          "contentHash": "3ce6fb60cffe4bf9d4be3c5cb55478c9dc15331a525392bbca212f3017835595"
+        }
+      ],
+      "verifiedAt": "2026-10-29T06:15:09.528083+00:00"
     }
   ]
 }
