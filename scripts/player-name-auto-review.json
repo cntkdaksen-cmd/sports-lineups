@@ -22146,6 +22146,47 @@
         }
       ],
       "verifiedAt": "2026-10-29T18:02:13.198591+00:00"
+    },
+    {
+      "name": "Julio Enciso",
+      "korean": "훌리오 엔시소",
+      "team": "Ipswich Town",
+      "league": "epl",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%ED%9B%8C%EB%A6%AC%EC%98%A4_%EC%97%94%EC%8B%9C%EC%86%8C",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "5daf16993e161ea44d83b041eec357c3ec158681616bfcacdc8e59143755b96b"
+        }
+      ],
+      "verifiedAt": "2026-10-29T18:47:28.429897+00:00"
+    },
+    {
+      "name": "Ladislav Krejcí",
+      "korean": "라디슬라프 크레이치",
+      "team": "Wolverhampton Wanderers",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ladislav_Krej%C4%8D%C3%AD_%28footballer%2C_born_1999%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "라디슬라프 크레이치 (1999년)",
+          "contentHash": "ec6fa7724ffeb06eca4136348bad2e18c3eea729952237ecbce3325ed693305a"
+        }
+      ],
+      "verifiedAt": "2026-10-29T18:47:28.429897+00:00"
     }
   ]
 }
