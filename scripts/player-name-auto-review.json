@@ -21508,6 +21508,28 @@
         }
       ],
       "verifiedAt": "2026-10-29T02:31:24.123037+00:00"
+    },
+    {
+      "name": "Capixaba",
+      "korean": "주앙 빅토르 다 비토리아 페르난드스",
+      "team": "Shimizu S-Pulse",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Capixaba_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "주앙 빅토르 다 비토리아 페르난드스",
+          "contentHash": "25794bfe8bff86f3abab25ca55e9e9303178c3351b3853fa7fd2215c1c5aac35"
+        }
+      ],
+      "verifiedAt": "2026-10-29T05:27:39.685436+00:00"
     }
   ]
 }
