@@ -603,16 +603,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Akhiyarov+Timur+HC+Sochi&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00",
       "nextBulkCheckAt": "2026-10-29T16:25:10.282664+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "policy": "precollect-names-v2"
+      "policy": "precollect-names-v3"
     },
     "akor adams": {
       "status": "verified",
@@ -8033,7 +8034,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v2"
     },
     "dor david turgeman": {
-      "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
+      "nextBulkCheckAt": "2026-10-30T03:18:02.255066+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "eduard atuesta": {
@@ -11008,14 +11009,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Graham+Jesse+HC+Sochi&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "groleau jeremy": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -11023,14 +11025,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Groleau+Jeremy+Lada&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "gusev nikita": {
       "nextBulkCheckAt": "2026-10-29T16:25:10.282664+00:00",
@@ -11038,14 +11041,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Gusev+Nikita+HC+Sochi&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "guskov matvei": {
       "nextBulkCheckAt": "2026-10-29T16:25:10.282664+00:00",
@@ -11053,14 +11057,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Guskov+Matvei+HC+Sochi&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "king ben": {
       "nextBulkCheckAt": "2026-10-27T17:56:56.620806+00:00",
@@ -11117,14 +11122,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Slepets+Kirill+HC+Sochi&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "volkov artyom a": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -11132,14 +11138,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Volkov+Artyom+A.+Lada&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "agust orsteinsson": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -12491,14 +12498,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Fedotov+Ivan+Spartak&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "ferdi kadioglu": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -12665,14 +12673,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Isayev+Daniil+A.+Lokomotiv&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "ismaila sarr": {
       "status": "verified",
@@ -12944,14 +12953,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Kotkov+Matvei+Lokomotiv&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "kristoffer ajer": {
       "status": "verified",
@@ -13268,14 +13278,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Mironov+Andrei+A.+Spartak&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "mohamed belloumi": {
       "nextBulkCheckAt": "2026-10-29T19:09:33.048195+00:00",
@@ -15892,14 +15903,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Ivanov+Georgy+Lokomotiv&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "rafikov rushan": {
       "nextBulkCheckAt": "2026-10-29T16:25:10.282664+00:00",
@@ -15907,14 +15919,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Rafikov+Rushan+Lokomotiv&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "sergeyev andrei": {
       "nextBulkCheckAt": "2026-10-29T16:25:10.282664+00:00",
@@ -15922,14 +15935,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Sergeyev+Andrei+Lokomotiv&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "skotnikov vsevolod": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -15952,14 +15966,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Surin+Yegor+Lokomotiv&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "romain faivre": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -18663,14 +18678,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jaylen+Wells+Memphis+Grizzlies&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T15:23:48.943217+00:00",
-      "nextCheckAt": "2026-10-28T21:23:48.943217+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "joao klauss": {
       "nextBulkCheckAt": "2026-10-29T18:15:46.794318+00:00",
@@ -20254,7 +20270,7 @@
       "nextCheckAt": "2026-10-29T08:31:24.123037+00:00"
     },
     "jack harrison": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-30T03:18:02.255066+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "jesus bueno": {
@@ -20287,7 +20303,7 @@
       "nextCheckAt": "2026-10-26T14:06:34.166738+00:00"
     },
     "leonardo campana": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
+      "nextBulkCheckAt": "2026-10-30T03:18:02.255066+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "luis otavio": {
@@ -26108,14 +26124,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Samuel+Ersson+Ottawa+Senators&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T15:23:48.943217+00:00",
-      "nextCheckAt": "2026-10-28T21:23:48.943217+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "ado onaiwu": {
       "status": "verified",
@@ -28747,14 +28764,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Kudryavtsev+Pavel+Lada&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "olson kyle": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -31045,14 +31063,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Belozyorov+Andrei+Al.+Neftekhimik&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "bikmullin rafael": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -31246,14 +31265,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Zhafyarov+Damir+Neftekhimik&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "roberto gagliardini": {
       "status": "verified",
@@ -31890,14 +31910,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Altybarmakyan+Andrei+Lada&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "ovcharik danila": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -31905,14 +31926,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Ovcharik+Danila+Lada&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "savchik ivan": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -31920,14 +31942,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Savchik+Ivan+Lada&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "zhukov kirill": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -31935,14 +31958,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Zhukov+Kirill+Admiral&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "denisenko grigory": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -32785,14 +32809,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Konyushkov+Bogdan+Torpedo&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "zhuravlyov daniil": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -32800,14 +32825,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Zhuravlyov+Daniil+Torpedo&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "poryadin pavel": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -32815,14 +32841,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Poryadin+Pavel+Spartak&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "rubtsov german": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -32830,14 +32857,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Rubtsov+German+Spartak&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "shaimardanov damir": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -32845,14 +32873,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Shaimardanov+Damir+HC+Sochi&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "nikolishin ivan": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -32860,14 +32889,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Nikolishin+Ivan+Neftekhimik&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-29T03:18:02.255066+00:00",
+      "nextCheckAt": "2026-10-29T09:18:02.255066+00:00"
     },
     "franco carboni": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -33563,6 +33593,22 @@
       "policy": "precollect-names-v3",
       "checkedAt": "2026-10-29T02:31:24.123037+00:00",
       "method": "wikidata-label-v1"
+    },
+    "josh manson": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-30T03:18:02.255066+00:00"
+    },
+    "brennan othmann": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-30T03:18:02.255066+00:00"
+    },
+    "ian fray": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-30T03:18:02.255066+00:00"
+    },
+    "luis barraza": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-30T03:18:02.255066+00:00"
     }
   }
 }
