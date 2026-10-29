@@ -21484,6 +21484,30 @@
         }
       ],
       "verifiedAt": "2026-10-29T01:42:28.684439+00:00"
+    },
+    {
+      "name": "Rayan Elloumi",
+      "korean": "라얀 엘루미",
+      "team": "Vancouver Whitecaps",
+      "league": "mls",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rayan_Elloumi",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q134932034",
+          "wikidataItem": "Q134932034",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "058b5f7aa1d587979367f85524a171555b29c010275321774f2e7f159642d9ff"
+        }
+      ],
+      "verifiedAt": "2026-10-29T02:31:24.123037+00:00"
     }
   ]
 }
