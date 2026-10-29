@@ -21394,6 +21394,96 @@
         }
       ],
       "verifiedAt": "2026-10-29T00:50:15.632000+00:00"
+    },
+    {
+      "name": "Nico Hischier",
+      "korean": "니코 히시어",
+      "team": "New Jersey Devils",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nico_Hischier",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "니코 히시어",
+          "contentHash": "9da4b89fe39230ffced8203bd384ee729d06f6946472446dd91f8db823972c46"
+        }
+      ],
+      "verifiedAt": "2026-10-29T01:42:28.684439+00:00"
+    },
+    {
+      "name": "Timo Meier",
+      "korean": "티모 마이어",
+      "team": "New Jersey Devils",
+      "league": "nhl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Timo_Meier",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "티모 마이어",
+          "contentHash": "ee172d5176a5ca8fe8d39a8d8aef0c7368bfd5070bf5e0f335b803d97c402d11"
+        }
+      ],
+      "verifiedAt": "2026-10-29T01:42:28.684439+00:00"
+    },
+    {
+      "name": "Josh Green",
+      "korean": "조시 그린",
+      "team": "Utah Jazz",
+      "league": "nba",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Josh_Green_%28basketball%29",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q55102402",
+          "wikidataItem": "Q55102402",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "c4045e7ec92867ecdb8f794fdb62e56d5941981ae64f1e228d99e8f63578b81a"
+        }
+      ],
+      "verifiedAt": "2026-10-29T01:42:28.684439+00:00"
+    },
+    {
+      "name": "Thiago Martins",
+      "korean": "치아구 마르친스 부에누",
+      "team": "New York City FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Thiago_Martins_%28footballer%2C_born_1995%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "치아구 마르친스 부에누",
+          "contentHash": "3c23ecbab08644afcc4b6cc1ba3d36cb17f84642972560bb55d0391c2bef6d43"
+        }
+      ],
+      "verifiedAt": "2026-10-29T01:42:28.684439+00:00"
     }
   ]
 }
