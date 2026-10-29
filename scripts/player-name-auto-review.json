@@ -22187,6 +22187,110 @@
         }
       ],
       "verifiedAt": "2026-10-29T18:47:28.429897+00:00"
+    },
+    {
+      "name": "Nicola Zalewski",
+      "korean": "니콜라 잘레프스키",
+      "team": "Atalanta",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nicola_Zalewski",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "니콜라 잘레프스키",
+          "contentHash": "52772cadf7f6954c03d33e85065ad48394432158773e29bbca3e50ef327c67fc"
+        }
+      ],
+      "verifiedAt": "2026-10-29T19:33:27.685219+00:00"
+    },
+    {
+      "name": "Lloyd Jones",
+      "korean": "로이드 존스",
+      "team": "Charlton Athletic",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lloyd_Jones_%28English_footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로이드 존스",
+          "contentHash": "ea5211e6e892fd84039653cba30402750e50f712bf0b7ea35f1bc5e975925503"
+        }
+      ],
+      "verifiedAt": "2026-10-29T19:33:27.685219+00:00"
+    },
+    {
+      "name": "Morato",
+      "korean": "펠리피 호드리기스 다 시우바",
+      "team": "West Ham United",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Morato_%28footballer%2C_born_2001%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "펠리피 호드리기스 다 시우바",
+          "contentHash": "08d8d0ce9f5b522fb4d65939320f9dac071dad541a4c134420dcf0bdbb46837c"
+        }
+      ],
+      "verifiedAt": "2026-10-29T19:33:27.685219+00:00"
+    },
+    {
+      "name": "Murillo",
+      "korean": "무릴루",
+      "team": "Nottingham Forest",
+      "league": "epl",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EB%A6%B4%EB%A3%A8_%282002%EB%85%84%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "f0720ad25b01e88b96dccc648450ec041ca470377fbc48ed6ea586be12b7bb2d"
+        }
+      ],
+      "verifiedAt": "2026-10-29T19:33:27.685219+00:00"
+    },
+    {
+      "name": "Nikola Milenkovic",
+      "korean": "니콜라 밀렌코비치",
+      "team": "Nottingham Forest",
+      "league": "epl",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EB%8B%88%EC%BD%9C%EB%9D%BC_%EB%B0%80%EB%A0%8C%EC%BD%94%EB%B9%84%EC%B9%98",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "252f866a2fe5298cefb96d9a83bb756b5f11fea54d204461793d44c20fb11ab5"
+        }
+      ],
+      "verifiedAt": "2026-10-29T19:33:27.685219+00:00"
     }
   ]
 }
