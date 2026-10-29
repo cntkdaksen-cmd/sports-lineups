@@ -21596,6 +21596,28 @@
         }
       ],
       "verifiedAt": "2026-10-29T06:15:09.528083+00:00"
+    },
+    {
+      "name": "Alejandro Bedoya",
+      "korean": "알레한드로 베도야",
+      "team": "Philadelphia Union",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Alejandro_Bedoya",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "알레한드로 베도야",
+          "contentHash": "5a2807a60baa2dddff9bb3523746dece852e50eaac76e73149a43f9f5a7cfe15"
+        }
+      ],
+      "verifiedAt": "2026-10-29T11:25:59.998405+00:00"
     }
   ]
 }
