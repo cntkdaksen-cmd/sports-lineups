@@ -21998,6 +21998,50 @@
         }
       ],
       "verifiedAt": "2026-10-29T15:13:27.602690+00:00"
+    },
+    {
+      "name": "Callum Hudson-Odoi",
+      "korean": "캘럼 허드슨오도이",
+      "team": "Nottingham Forest",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Callum_Hudson-Odoi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "캘럼 허드슨오도이",
+          "contentHash": "3b31007e8bb42f74a67272c9afa78866d3b45ca7971df66e3de91a2c661aa11f"
+        }
+      ],
+      "verifiedAt": "2026-10-29T16:11:08.851511+00:00"
+    },
+    {
+      "name": "André",
+      "korean": "안드레",
+      "team": "Wolverhampton Wanderers",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andr%C3%A9_%28footballer%2C_born_2001%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "안드레 (2001년)",
+          "contentHash": "0483ee904e46b92558df8d48a0ebda73efcdaa2e2a7277aa2393dbd6be54f1a5"
+        }
+      ],
+      "verifiedAt": "2026-10-29T16:11:08.851511+00:00"
     }
   ]
 }
