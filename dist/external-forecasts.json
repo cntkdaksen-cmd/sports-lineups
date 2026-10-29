@@ -1,9 +1,28 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-29T11:09:58.651823+00:00",
+  "asOf": "2026-10-29T11:50:09.150698+00:00",
   "windowStart": "2026-10-29T00:00:00+09:00",
   "windowEnd": "2026-10-31T00:00:00+09:00",
   "items": [
+    {
+      "league": "nba",
+      "eventId": "401909894",
+      "kickoff": "2026-10-30T00:00Z",
+      "homeId": "3",
+      "awayId": "23",
+      "homeName": "New Orleans Pelicans",
+      "awayName": "Sacramento Kings",
+      "values": {
+        "home": 72.3,
+        "away": 27.7,
+        "draw": 0
+      },
+      "provider": "ESPN",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909894",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
+      "kind": "published-model",
+      "note": ""
+    },
     {
       "league": "nba",
       "eventId": "401909893",
@@ -19,7 +38,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909893",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -38,7 +57,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary?event=401918310",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -57,26 +76,7 @@
       },
       "provider": "ESPN",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909895",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
-      "kind": "published-model",
-      "note": ""
-    },
-    {
-      "league": "nba",
-      "eventId": "401909894",
-      "kickoff": "2026-10-30T00:00Z",
-      "homeId": "3",
-      "awayId": "23",
-      "homeName": "New Orleans Pelicans",
-      "awayName": "Sacramento Kings",
-      "values": {
-        "home": 72.3,
-        "away": 27.7,
-        "draw": 0
-      },
-      "provider": "ESPN",
-      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909894",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": ""
     },
@@ -95,7 +95,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/ac-milan-vs-bologna_game_260575.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -114,7 +114,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/scottish-premiership/aberdeen-vs-falkirk_game_260621.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -133,7 +133,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/scottish-premiership/celtic-vs-dundee-united_game_260620.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -152,7 +152,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/scottish-premiership/dundee-vs-kilmarnock_game_260619.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -171,7 +171,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/frosinone-vs-lecce_game_260661.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -190,26 +190,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/mls/san-jose-earthquakes-vs-colorado-rapids_game_260656.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
-      "kind": "published-model",
-      "note": "Match result over regular time; source rounding retained."
-    },
-    {
-      "league": "seriea",
-      "eventId": "401874988",
-      "kickoff": "2026-10-28T19:45Z",
-      "homeId": "3263",
-      "awayId": "111",
-      "homeName": "Genoa",
-      "awayName": "Juventus",
-      "values": {
-        "home": 24.28,
-        "away": 50.98,
-        "draw": 24.74
-      },
-      "provider": "Sports Mole",
-      "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/genoa-vs-juventus_game_260616.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -228,7 +209,26 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/scottish-premiership/st-johnstone-vs-motherwell_game_260618.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
+      "kind": "published-model",
+      "note": "Match result over regular time; source rounding retained."
+    },
+    {
+      "league": "seriea",
+      "eventId": "401874988",
+      "kickoff": "2026-10-28T19:45Z",
+      "homeId": "3263",
+      "awayId": "111",
+      "homeName": "Genoa",
+      "awayName": "Juventus",
+      "values": {
+        "home": 24.28,
+        "away": 50.98,
+        "draw": 24.74
+      },
+      "provider": "Sports Mole",
+      "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/genoa-vs-juventus_game_260616.html",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -247,7 +247,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/scottish-premiership/st-mirren-vs-hibernian_game_260617.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -266,7 +266,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/monza-vs-napoli_game_260615.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -285,7 +285,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/parma-vs-udinese_game_260574.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     },
@@ -304,7 +304,7 @@
       },
       "provider": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk/football/serie-a/venezia-vs-inter-milan_game_260573.html",
-      "checkedAt": "2026-10-29T11:09:58.651823+00:00",
+      "checkedAt": "2026-10-29T11:50:09.150698+00:00",
       "kind": "published-model",
       "note": "Match result over regular time; source rounding retained."
     }
