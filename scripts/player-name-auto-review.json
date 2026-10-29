@@ -21618,6 +21618,52 @@
         }
       ],
       "verifiedAt": "2026-10-29T11:25:59.998405+00:00"
+    },
+    {
+      "name": "Stanley Mills",
+      "korean": "스탠리 밀스",
+      "team": "Preston North End",
+      "league": "championship",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Stanley_Mills_%28footballer%29",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q113800609",
+          "wikidataItem": "Q113800609",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "2fd6ca46c60b317c7fb9c674f1b6907e60e950ec5df0f561c1373cf36bda30db"
+        }
+      ],
+      "verifiedAt": "2026-10-29T14:18:47.805106+00:00"
+    },
+    {
+      "name": "Wesley Fofana",
+      "korean": "웨슬리 포파나",
+      "team": "Chelsea",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wesley_Fofana_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "웨슬리 포파나",
+          "contentHash": "e27dbe8812968aa368d0d19ebda62993b3c6a56582534de743b062f05dac1eac"
+        }
+      ],
+      "verifiedAt": "2026-10-29T14:18:47.805106+00:00"
     }
   ]
 }
