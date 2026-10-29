@@ -1,17 +1,15 @@
 {
-  "at": "2026-10-29T17:10:29.796977+00:00",
-  "inventoryRecords": 5752,
-  "pending": 1959,
-  "eligible": 1781,
-  "bulkRequested": 547,
+  "at": "2026-10-29T18:02:13.198591+00:00",
+  "inventoryRecords": 5812,
+  "pending": 1980,
+  "eligible": 1803,
+  "bulkRequested": 31,
   "bulkApproved": 1,
-  "searchChecked": 29,
+  "searchChecked": 28,
   "wikipediaChecked": 30,
-  "wikipediaApproved": 1,
-  "approved": 2,
-  "bulkErrors": [
-    "TimeoutError:The read operation timed out"
-  ],
+  "wikipediaApproved": 2,
+  "approved": 3,
+  "bulkErrors": [],
   "collectionFailures": 0,
   "policy": "Unverified names remain English"
 }

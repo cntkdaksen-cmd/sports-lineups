@@ -22083,6 +22083,69 @@
         }
       ],
       "verifiedAt": "2026-10-29T17:10:29.796977+00:00"
+    },
+    {
+      "name": "Marcus Ingvartsen",
+      "korean": "마르쿠스 잉바르트센",
+      "team": "San Diego FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Marcus_Ingvartsen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마르쿠스 잉바르트센",
+          "contentHash": "e4537b61cb07efc5da9c2ddc37ac3ec7fab8c7ab73d05c46206e0bb986f643e0"
+        }
+      ],
+      "verifiedAt": "2026-10-29T18:02:13.198591+00:00"
+    },
+    {
+      "name": "Issa Diop",
+      "korean": "이사 디오프",
+      "team": "Ipswich Town",
+      "league": "epl",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%82%AC_%EB%94%94%EC%98%A4%ED%94%84",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "dd9bb10096ab8b7eb999352a12ee8abf870ded4239bed745d9ee9411fab62c5e"
+        }
+      ],
+      "verifiedAt": "2026-10-29T18:02:13.198591+00:00"
+    },
+    {
+      "name": "Jack Stephens",
+      "korean": "잭 스티븐스",
+      "team": "Southampton",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jack_Stephens_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "잭 스티븐스",
+          "contentHash": "fba72a32a408baa92be19f8bed9931d6e23bc05441bf010900cae94e95a7f626"
+        }
+      ],
+      "verifiedAt": "2026-10-29T18:02:13.198591+00:00"
     }
   ]
 }
