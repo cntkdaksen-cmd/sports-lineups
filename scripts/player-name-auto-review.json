@@ -22465,6 +22465,50 @@
         }
       ],
       "verifiedAt": "2026-10-30T01:45:07.351769+00:00"
+    },
+    {
+      "name": "Robert Taylor",
+      "korean": "로버트 테일러",
+      "team": "LA Galaxy",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Robert_Taylor_%28footballer%2C_born_1994%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로버트 테일러 (축구 선수)",
+          "contentHash": "e3e8492928440a65653cd76e9a04b1be2caf4f0b327d44fcbff9557138b2ef76"
+        }
+      ],
+      "verifiedAt": "2026-10-30T04:07:39.210614+00:00"
+    },
+    {
+      "name": "Juan Miranda",
+      "korean": "후안 미란다",
+      "team": "Bologna",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Juan_Miranda_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "후안 미란다",
+          "contentHash": "cbbe36f4e0642564d23c6f3ce980431afb10051cd835a91c31470379d5ddf1e0"
+        }
+      ],
+      "verifiedAt": "2026-10-30T04:07:39.210614+00:00"
     }
   ]
 }
