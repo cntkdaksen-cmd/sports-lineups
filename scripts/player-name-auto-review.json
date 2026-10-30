@@ -22572,6 +22572,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T09:23:34.764723+00:00"
+    },
+    {
+      "name": "Andoni Gorosabel",
+      "korean": "안도니 고로사벨",
+      "team": "Espanyol",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Andoni_Gorosabel",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "안도니 고로사벨",
+          "contentHash": "c79fe68f9b0dbbbcf7a8e3e4303461873268f3c0e0ae410d9d1b34d60d0d3eea"
+        }
+      ],
+      "verifiedAt": "2026-10-30T11:13:34.783384+00:00"
     }
   ]
 }
