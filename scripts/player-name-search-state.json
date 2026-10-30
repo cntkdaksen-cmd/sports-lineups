@@ -1830,7 +1830,19 @@
     },
     "daniel heuer fernandes": {
       "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Daniel+Heuer+Fernandes+Hamburg+SV&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "danny da costa": {
       "status": "verified",
@@ -2307,7 +2319,19 @@
     },
     "martin adeline": {
       "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Martin+Adeline+Hamburg+SV&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "marvin schwabe": {
       "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
@@ -8234,7 +8258,19 @@
     },
     "noel aseko nkili": {
       "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Noel+Aseko-Nkili+Eintracht+Frankfurt&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "omar marmoush": {
       "status": "verified",
@@ -15876,14 +15912,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jorg+Schreuders+FC+Groningen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "kevin kers": {
       "nextBulkCheckAt": "2026-10-30T19:33:27.685219+00:00",
@@ -15913,14 +15950,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Marco+Rente+FC+Groningen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "matej kovar": {
       "nextBulkCheckAt": "2026-10-30T19:33:27.685219+00:00",
@@ -15964,14 +16002,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Pelle+Clement+FC+Groningen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "sem steijn": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -15987,14 +16026,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Thijmen+Blokzijl+FC+Groningen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "thijs kraaijeveld": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -16006,14 +16046,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Thom+Van+Bergen+FC+Groningen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "tika de jonge": {
       "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
@@ -16021,14 +16062,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Tika+De+Jonge+FC+Groningen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "tobias storm": {
       "nextBulkCheckAt": "2026-10-31T15:35:09.726491+00:00",
@@ -16546,14 +16588,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jaskin+Dmitrij+Dragons&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:45:06.807913+00:00",
-      "nextCheckAt": "2026-10-25T20:45:06.807913+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "jaydee canvot": {
       "nextBulkCheckAt": "2026-10-30T19:33:27.685219+00:00",
@@ -17214,14 +17257,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Paris+Brunner+AS+Monaco&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:50:56.984898+00:00",
-      "nextCheckAt": "2026-10-25T20:50:56.984898+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "pascal gross": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -17345,15 +17389,16 @@
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
-          "url": "https://www.google.com/search?q=Sadibou+San%C3%A9+AS+Monaco&hl=ko",
-          "status": "no-readable-trusted-results"
+          "url": "https://www.google.com/search?q=Sadibou+Sane+AS+Monaco&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:54:13.823612+00:00",
-      "nextCheckAt": "2026-10-25T20:54:13.823612+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "seb palmer houlden": {
       "nextBulkCheckAt": "2026-10-30T19:33:27.685219+00:00",
@@ -17544,14 +17589,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Vanderson+AS+Monaco&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:54:13.823612+00:00",
-      "nextCheckAt": "2026-10-25T20:54:13.823612+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "walter benitez": {
       "nextBulkCheckAt": "2026-10-31T15:35:09.726491+00:00",
@@ -17727,14 +17773,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Abdoulage+Sissako+Sint-Truidense&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:54:13.823612+00:00",
-      "nextCheckAt": "2026-10-25T20:54:13.823612+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "ilias sebaoui": {
       "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
@@ -17742,14 +17789,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Ilias+Sebaoui+Sint-Truidense&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:54:13.823612+00:00",
-      "nextCheckAt": "2026-10-25T20:54:13.823612+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "jorne spileers": {
       "status": "verified",
@@ -17775,14 +17823,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Leo+Brian+Kokubo+Sint-Truidense&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:54:13.823612+00:00",
-      "nextCheckAt": "2026-10-25T20:54:13.823612+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "robert jan vanwesemael": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -31119,16 +31168,15 @@
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
       "searches": {
-        "google": {
-          "url": "https://www.google.com/search?q=Hamed+Traor%C3%A9+Genoa&hl=ko",
-          "status": "no-readable-trusted-results"
+        "wikipedia": {
+          "status": "verified"
         }
       },
       "sourceErrors": [],
-      "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:45:06.807913+00:00",
-      "nextCheckAt": "2026-10-25T20:45:06.807913+00:00"
+      "status": "verified",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "pasquale mazzocchi": {
       "status": "verified",
@@ -31758,14 +31806,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=M%C3%A1rk+Csinger+FC+Groningen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "oussama targhaline": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -32055,14 +32104,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Sebastian+Otoa+Genoa&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:54:13.823612+00:00",
-      "nextCheckAt": "2026-10-25T20:54:13.823612+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "soriba diaoune": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -32153,14 +32203,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Joederik+Pupe+Sint-Truidense&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:54:13.823612+00:00",
-      "nextCheckAt": "2026-10-25T20:54:13.823612+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "nathanael mbuku": {
       "status": "verified",
@@ -37558,7 +37609,19 @@
     },
     "albert gronbaek": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Albert+Gronbaek+Hamburg+SV&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "albert sambi lokonga": {
       "status": "verified",
@@ -37574,7 +37637,19 @@
     },
     "david moller wolfe": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=David+Moller+Wolfe+Hamburg+SV&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "kai havertz": {
       "status": "verified",
@@ -38304,7 +38379,19 @@
     },
     "shafiq bello nandja": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T19:33:27.685219+00:00"
+      "nextBulkCheckAt": "2026-10-30T19:33:27.685219+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Shafiq+Bello+Nandja+Hamburg+SV&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "chidera ejuke": {
       "status": "verified",
@@ -41589,7 +41676,19 @@
     },
     "paco esteban": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-31T15:35:09.726491+00:00"
+      "nextBulkCheckAt": "2026-10-31T15:35:09.726491+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Paco+Esteban+Lecce&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
     },
     "abubakr barry": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -42580,6 +42679,106 @@
     "pavel dorofeyev": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "nextBulkCheckAt": "2026-10-31T16:24:20.796344+00:00"
+    },
+    "djibril coulibaly": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-31T17:16:50.618164+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Djibril+Coulibaly+Nice&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
+    },
+    "nicolas lemaitre": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-31T17:16:50.618164+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Nicolas+Lemaitre+Stade+Rennais&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
+    },
+    "sofiane diop": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-31T17:16:50.618164+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Sofiane+Diop+Nice&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
+    },
+    "xavier junior mandza tsiendi": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-31T17:16:50.618164+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Xavier+Junior+Mandza+Tsiendi+Nice&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
+    },
+    "arvid soderblom": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-31T17:16:50.618164+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Arvid+Soderblom+Chicago+Blackhawks&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
+    },
+    "arsenii sergeev": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-31T17:16:50.618164+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Arsenii+Sergeev+Calgary+Flames&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T17:16:50.618164+00:00",
+      "nextCheckAt": "2026-10-30T23:16:50.618164+00:00"
+    },
+    "connor zary": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-31T17:16:50.618164+00:00"
     }
   }
 }

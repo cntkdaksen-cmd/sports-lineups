@@ -23928,6 +23928,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T16:24:20.796344+00:00"
+    },
+    {
+      "name": "Hamed Traore",
+      "korean": "하메드 트라오레",
+      "team": "Genoa",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hamed_Traor%C3%A8",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "하메드 트라오레",
+          "contentHash": "faa7b659dbe2fa79710287b4b4e8f6a299a839bc7a27970f4dc7fe7bd65c7b25"
+        }
+      ],
+      "verifiedAt": "2026-10-30T17:16:50.618164+00:00"
     }
   ]
 }
