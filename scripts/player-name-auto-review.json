@@ -22594,6 +22594,30 @@
         }
       ],
       "verifiedAt": "2026-10-30T11:13:34.783384+00:00"
+    },
+    {
+      "name": "Ryan Thomas",
+      "korean": "라이언 토머스",
+      "team": "PEC Zwolle",
+      "league": "eredivisie",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ryan_Thomas_%28footballer%29",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3943100",
+          "wikidataItem": "Q3943100",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "75ed2cd8bef0ced7c7463a4a6aee0b8573c4864584bb7d1925686f4588c85616"
+        }
+      ],
+      "verifiedAt": "2026-10-30T11:58:22.428846+00:00"
     }
   ]
 }
