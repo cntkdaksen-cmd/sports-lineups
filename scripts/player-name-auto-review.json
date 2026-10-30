@@ -22550,6 +22550,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T07:37:09.467708+00:00"
+    },
+    {
+      "name": "Gabriel Moscardo",
+      "korean": "가브리에우 모스카르두",
+      "team": "Espanyol",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gabriel_Moscardo",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "가브리에우 모스카르두",
+          "contentHash": "c68a62e951b5d7809d0b1333bc4f305474dfe5a94fdc4e14e80b341ef6e6ce61"
+        }
+      ],
+      "verifiedAt": "2026-10-30T09:23:34.764723+00:00"
     }
   ]
 }
