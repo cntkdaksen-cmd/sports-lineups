@@ -22509,6 +22509,25 @@
         }
       ],
       "verifiedAt": "2026-10-30T04:07:39.210614+00:00"
+    },
+    {
+      "name": "Cho Yu-Min",
+      "korean": "조유민",
+      "team": "Tokyo Verdy 1969",
+      "league": "j1",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%9C%A0%EB%AF%BC",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "2927df0f2c9f28d4b3bbe91ef9fa2d57b47deb2436902662a1445f6637dfa2ef"
+        }
+      ],
+      "verifiedAt": "2026-10-30T05:03:35.076920+00:00"
     }
   ]
 }
