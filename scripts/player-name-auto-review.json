@@ -24038,6 +24038,50 @@
         }
       ],
       "verifiedAt": "2026-10-30T20:12:34.041171+00:00"
+    },
+    {
+      "name": "Harry Wilson",
+      "korean": "해리 윌슨",
+      "team": "Leeds United",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Harry_Wilson_%28footballer%2C_born_1997%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "해리 윌슨",
+          "contentHash": "59678e7be410ea97a1619f5483ae30d2766f976769973ec87aae414b3f109e2c"
+        }
+      ],
+      "verifiedAt": "2026-10-30T20:56:57.991610+00:00"
+    },
+    {
+      "name": "Sergio Gomez",
+      "korean": "세르히오 고메스",
+      "team": "Real Sociedad",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sergio_G%C3%B3mez_%28footballer%2C_born_2000%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "세르히오 고메스",
+          "contentHash": "1bf1c9e8c40a2357303277c5750c3d3c112cd5a0e9100fce5fdc70156de19780"
+        }
+      ],
+      "verifiedAt": "2026-10-30T20:56:57.991610+00:00"
     }
   ]
 }
