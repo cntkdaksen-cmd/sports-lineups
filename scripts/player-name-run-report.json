@@ -1,9 +1,9 @@
 {
-  "at": "2026-10-30T17:16:50.618164+00:00",
+  "at": "2026-10-30T17:56:21.559220+00:00",
   "inventoryRecords": 6082,
-  "pending": 2182,
-  "eligible": 2008,
-  "bulkRequested": 7,
+  "pending": 2181,
+  "eligible": 1978,
+  "bulkRequested": 4,
   "bulkApproved": 0,
   "searchChecked": 29,
   "wikipediaChecked": 30,

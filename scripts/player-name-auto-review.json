@@ -23950,6 +23950,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T17:16:50.618164+00:00"
+    },
+    {
+      "name": "Javi Guerra",
+      "korean": "하비 게라",
+      "team": "Valencia",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Javi_Guerra_%28footballer%2C_born_2003%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "하비 게라 (2003년생 축구인)",
+          "contentHash": "f3d8892a13fa39b222a4c01c6ccb329be86abecc0acc4ea6099962cd6040947d"
+        }
+      ],
+      "verifiedAt": "2026-10-30T17:56:21.559220+00:00"
     }
   ]
 }
