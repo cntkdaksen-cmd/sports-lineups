@@ -22419,6 +22419,52 @@
         }
       ],
       "verifiedAt": "2026-10-30T00:51:55.660717+00:00"
+    },
+    {
+      "name": "Matej Kovár",
+      "korean": "마테이 코바르시",
+      "team": "PSV Eindhoven",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mat%C4%9Bj_Kov%C3%A1%C5%99",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마테이 코바르시",
+          "contentHash": "f180e631db4d03318c997cb84ea6b3aa549e7be34822d42d5bf15bdd002cb5e7"
+        }
+      ],
+      "verifiedAt": "2026-10-30T01:45:07.351769+00:00"
+    },
+    {
+      "name": "John Egan",
+      "korean": "존 이건",
+      "team": "Hull City",
+      "league": "epl",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/John_Egan_%28footballer%2C_born_1992%29",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q150332",
+          "wikidataItem": "Q150332",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "7c3906b905b0808f56ce9d0d8b603ace0d2f57fdc640d96883d233092f5c63b4"
+        }
+      ],
+      "verifiedAt": "2026-10-30T01:45:07.351769+00:00"
     }
   ]
 }
