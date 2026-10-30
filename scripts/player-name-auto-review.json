@@ -22528,6 +22528,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T05:03:35.076920+00:00"
+    },
+    {
+      "name": "Martial Godo",
+      "korean": "마르시알 가도",
+      "team": "Strasbourg",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Martial_Godo",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마르시알 가도",
+          "contentHash": "a7e548a29cd9182b7b182d977cf466e91eef03dded12ef997f23b148b6da1d8f"
+        }
+      ],
+      "verifiedAt": "2026-10-30T07:37:09.467708+00:00"
     }
   ]
 }
