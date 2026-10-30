@@ -23887,6 +23887,47 @@
         }
       ],
       "verifiedAt": "2026-10-30T15:35:09.726491+00:00"
+    },
+    {
+      "name": "Robert Skov",
+      "korean": "로베르트 스코우",
+      "team": "1. FC Union Berlin",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Robert_Skov",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로베르트 스코우",
+          "contentHash": "f5dbb4f7aaecc8a1acf1d1d502cc5a40bf970e8433d136edea8a8fe29a14ab31"
+        }
+      ],
+      "verifiedAt": "2026-10-30T16:24:20.796344+00:00"
+    },
+    {
+      "name": "Aleksandr Golovin",
+      "korean": "알렉산드르 골로빈",
+      "team": "AS Monaco",
+      "league": "ligue1",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%A0%89%EC%82%B0%EB%93%9C%EB%A5%B4_%EA%B3%A8%EB%A1%9C%EB%B9%88",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "2b99bb5186eb2c8ccfa0f2dfe5dfb7b5ed7f8cb222c7564cc35d25c122d4ce89"
+        }
+      ],
+      "verifiedAt": "2026-10-30T16:24:20.796344+00:00"
     }
   ]
 }
