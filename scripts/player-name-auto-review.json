@@ -24016,6 +24016,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T19:29:39.537826+00:00"
+    },
+    {
+      "name": "Mark McKenzie",
+      "korean": "마크 매켄지",
+      "team": "Toulouse",
+      "league": "ligue1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mark_McKenzie_%28soccer%2C_born_1999%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마크 매켄지",
+          "contentHash": "f1388b103cabf3c180f28090e0e525cfa49020a54fbf9e2d09a4167487e68551"
+        }
+      ],
+      "verifiedAt": "2026-10-30T20:12:34.041171+00:00"
     }
   ]
 }
