@@ -24104,6 +24104,96 @@
         }
       ],
       "verifiedAt": "2026-10-30T21:36:34.723772+00:00"
+    },
+    {
+      "name": "Pedro Pacheco",
+      "korean": "페드루 파체쿠",
+      "team": "Santa Clara",
+      "league": "primeira",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pedro_Pacheco_%28soccer%2C_born_1984%29",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q978508",
+          "wikidataItem": "Q978508",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "356d4bd52e890e9aaec36b5c1d20ce73f0aaf7fbc62054044548c5e3ed04d940"
+        }
+      ],
+      "verifiedAt": "2026-10-30T22:53:51.653532+00:00"
+    },
+    {
+      "name": "Youssouf Fofana",
+      "korean": "유수프 포파나",
+      "team": "Sevilla",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Youssouf_Fofana_%28footballer%2C_born_1999%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "유수프 포파나",
+          "contentHash": "cbaa1ddbe2f6af655a9b9bbbfb7dbe8f2514b94ca43b3027155a108cb83758d4"
+        }
+      ],
+      "verifiedAt": "2026-10-30T22:53:51.653532+00:00"
+    },
+    {
+      "name": "Ivan Smolcic",
+      "korean": "이반 스몰치치",
+      "team": "Como",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ivan_Smol%C4%8Di%C4%87",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "이반 스몰치치",
+          "contentHash": "e5f866f61075310329176fc33d8cac43bc5aa037ab2b5816cc2d9c9026142908"
+        }
+      ],
+      "verifiedAt": "2026-10-30T22:53:51.653532+00:00"
+    },
+    {
+      "name": "Kenneth Taylor",
+      "korean": "케너스 테일러",
+      "team": "Lazio",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kenneth_Taylor_%28footballer%2C_born_2002%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "케너스 테일러",
+          "contentHash": "c4d4db1923aade4da9761d93ffe8d82d89eaaaeb1b6aff19ce1a0dd60ba947db"
+        }
+      ],
+      "verifiedAt": "2026-10-30T22:53:51.653532+00:00"
     }
   ]
 }
