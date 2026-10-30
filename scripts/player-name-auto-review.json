@@ -22618,6 +22618,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T11:58:22.428846+00:00"
+    },
+    {
+      "name": "Ibrahim Salah",
+      "korean": "이브라힘 살라",
+      "team": "Antwerp",
+      "league": "jupiler",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ibrahim_Salah_%28footballer%2C_born_2001%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "이브라힘 살라",
+          "contentHash": "b06e570174520502197166c7653a500e20b0cd807aed0a20352085f626f8bec8"
+        }
+      ],
+      "verifiedAt": "2026-10-30T12:50:32.566919+00:00"
     }
   ]
 }
