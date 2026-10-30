@@ -24082,6 +24082,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T20:56:57.991610+00:00"
+    },
+    {
+      "name": "Gustaf Lagerbielke",
+      "korean": "구스타프 라게르비엘케",
+      "team": "Braga",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gustaf_Lagerbielke_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "구스타프 라게르비엘케",
+          "contentHash": "4796db1a0eb5883ea018703b701012fd22a45c0f2066e910d990970182a9d26b"
+        }
+      ],
+      "verifiedAt": "2026-10-30T21:36:34.723772+00:00"
     }
   ]
 }
