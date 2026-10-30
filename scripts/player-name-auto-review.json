@@ -23994,6 +23994,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T18:43:49.531527+00:00"
+    },
+    {
+      "name": "Jordan Ayew",
+      "korean": "조르당 아유",
+      "team": "Sheffield United",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jordan_Ayew",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "조르당 아유",
+          "contentHash": "6e062b46b63ba687b49d56d4389bb8646e78abb9ca3c1a4d47abfd684696dc58"
+        }
+      ],
+      "verifiedAt": "2026-10-30T19:29:39.537826+00:00"
     }
   ]
 }
