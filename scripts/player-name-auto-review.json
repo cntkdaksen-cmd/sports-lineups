@@ -22376,6 +22376,49 @@
         }
       ],
       "verifiedAt": "2026-10-29T23:53:55.233501+00:00"
+    },
+    {
+      "name": "Alysson",
+      "korean": "알리송",
+      "team": "Aston Villa",
+      "league": "epl",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%A6%AC%EC%86%A1_%282006%EB%85%84%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "22d778e5beef878aaf3276b6c6424cf81c2ff0ad519054e1e1dacb0f88ecdc50"
+        }
+      ],
+      "verifiedAt": "2026-10-30T00:51:55.660717+00:00"
+    },
+    {
+      "name": "Adam Armstrong",
+      "korean": "애덤 암스트롱",
+      "team": "Wolverhampton Wanderers",
+      "league": "championship",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Adam_Armstrong_%28footballer%29",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q16023869",
+          "wikidataItem": "Q16023869",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "b8063a5d98b6176f18fd9dba91061e5e3208ab8cc6689f972c8ab4c8312f2de4"
+        }
+      ],
+      "verifiedAt": "2026-10-30T00:51:55.660717+00:00"
     }
   ]
 }

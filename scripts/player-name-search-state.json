@@ -98,19 +98,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Abdoul+Ouattara+Ipswich+Town&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Abdoul+Ouattara+Ipswich+Town",
-          "status": "results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-23T18:30:09.085638+00:00",
-      "nextCheckAt": "2026-10-30T18:30:09.085638+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "policy": "precollect-names-v3"
     },
     "abdoulaye doucoure": {
       "status": "verified",
@@ -137,65 +135,49 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Abraham+Marcus+Estrela&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Abraham+Marcus+Estrela",
-          "status": "results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
-      "sourceErrors": [
-        {
-          "url": "https://www.sofascore.com/football/player/abraham-marcus/1090543",
-          "reason": "HTTPError"
-        }
-      ],
+      "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-23T18:30:09.085638+00:00",
-      "nextCheckAt": "2026-10-30T18:30:09.085638+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "policy": "precollect-names-v3"
     },
     "abu kamara": {
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Abu+Kamara+Portsmouth&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Abu+Kamara+Portsmouth",
-          "status": "results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
-      "sourceErrors": [
-        {
-          "url": "https://www.sofascore.com/sk/football/player/kamara-abu/1087476",
-          "reason": "HTTPError"
-        }
-      ],
+      "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-23T19:02:09.857743+00:00",
-      "nextCheckAt": "2026-10-30T19:02:09.857743+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "policy": "precollect-names-v3"
     },
     "adam aznou": {
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Adam+Aznou+M%C3%A1laga&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Adam+Aznou+M%C3%A1laga",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-23T19:02:09.857743+00:00",
-      "nextCheckAt": "2026-10-24T01:02:09.857743+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "policy": "precollect-names-v3"
     },
     "adam hlozek": {
       "status": "verified",
@@ -207,19 +189,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Adam+Idah+Swansea+City&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Adam+Idah+Swansea+City",
-          "status": "results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-23T19:35:41.562872+00:00",
-      "nextCheckAt": "2026-10-30T19:35:41.562872+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "policy": "precollect-names-v3"
     },
     "adam major": {
       "searches": {
@@ -321,37 +301,33 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Adil+Aouchiche+Schalke+04&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Adil+Aouchiche+Schalke+04",
-          "status": "results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-23T20:36:19.489182+00:00",
-      "nextCheckAt": "2026-10-30T20:36:19.489182+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "nextBulkCheckAt": "2026-10-30T18:47:28.429897+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "policy": "precollect-names-v3"
     },
     "adnane abid": {
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Adnane+Abid+Standard+Liege&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Adnane+Abid+Standard+Liege",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-23T21:09:16.336797+00:00",
-      "nextCheckAt": "2026-10-24T03:09:16.336797+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "nextBulkCheckAt": "2026-10-30T18:47:28.429897+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "policy": "precollect-names-v3"
     },
     "adou thiero": {
       "searches": {
@@ -391,21 +367,18 @@
     "adria pedrosa": {
       "searches": {
         "google": {
-          "url": "https://www.google.com/search?q=Adri%C3%A0+Pedrosa+Rayo+Vallecano&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Adri%C3%A0+Pedrosa+Rayo+Vallecano",
+          "url": "https://www.google.com/search?q=Adria+Pedrosa+Rayo+Vallecano&hl=ko",
           "status": "unavailable",
-          "reason": "HTTPError"
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-24T11:01:42.824154+00:00",
-      "nextCheckAt": "2026-10-24T17:01:42.824154+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "policy": "precollect-names-v3"
     },
     "adrian bernabe": {
       "searches": {
@@ -445,19 +418,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Adrian+Segecic+Portsmouth&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Adrian+Segecic+Portsmouth",
-          "status": "results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-23T22:33:22.521132+00:00",
-      "nextCheckAt": "2026-10-30T22:33:22.521132+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "policy": "precollect-names-v3"
     },
     "adrien truffert": {
       "status": "verified",
@@ -517,7 +488,7 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-28T21:59:54.239776+00:00",
       "nextCheckAt": "2026-10-29T03:59:54.239776+00:00",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "policy": "precollect-names-v3"
     },
@@ -525,20 +496,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Ahmetcan+Kaplan+NEC+Nijmegen&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Ahmetcan+Kaplan+NEC+Nijmegen",
           "status": "unavailable",
-          "reason": "HTTPError"
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-23T23:32:07.975798+00:00",
-      "nextCheckAt": "2026-10-24T05:32:07.975798+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "nextBulkCheckAt": "2026-10-30T18:47:28.429897+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "policy": "precollect-names-v3"
     },
     "aiden o neill": {
       "status": "verified",
@@ -676,19 +644,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Alberto+Costa+FC+Porto&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Alberto+Costa+FC+Porto",
-          "status": "results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-24T01:29:32.627395+00:00",
-      "nextCheckAt": "2026-10-31T01:29:32.627395+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "nextBulkCheckAt": "2026-10-30T18:47:28.429897+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "policy": "precollect-names-v3"
     },
     "alec smir": {
       "searches": {
@@ -820,7 +786,7 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T04:37:54.403752+00:00",
       "nextCheckAt": "2026-10-31T04:37:54.403752+00:00",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "alex bono": {
@@ -965,24 +931,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Alex+Robertson+Cardiff+City&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Alex+Robertson+Cardiff+City",
-          "status": "results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
-      "sourceErrors": [
-        {
-          "url": "https://www.sofascore.com/football/player/alex-robertson/1067119",
-          "reason": "HTTPError"
-        }
-      ],
+      "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-24T07:06:34.590242+00:00",
-      "nextCheckAt": "2026-10-31T07:06:34.590242+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "policy": "precollect-names-v3"
     },
     "alex scott": {
       "searches": {
@@ -1076,7 +1035,7 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-28T21:59:54.239776+00:00",
       "nextCheckAt": "2026-10-29T03:59:54.239776+00:00",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "policy": "precollect-names-v3"
     },
@@ -1101,7 +1060,7 @@
       "status": "needs-verification",
       "checkedAt": "2026-10-24T08:11:46.577539+00:00",
       "nextCheckAt": "2026-10-31T08:11:46.577539+00:00",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "alexis claude maurice": {
@@ -1148,24 +1107,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Alexis+Trouillet+Standard+Liege&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Alexis+Trouillet+Standard+Liege",
-          "status": "results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
-      "sourceErrors": [
-        {
-          "url": "https://www.sofascore.com/sk/football/player/alexis-trouillet/988732",
-          "reason": "HTTPError"
-        }
-      ],
+      "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-24T09:32:48.394644+00:00",
-      "nextCheckAt": "2026-10-31T09:32:48.394644+00:00",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "nextBulkCheckAt": "2026-10-30T18:47:28.429897+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "policy": "precollect-names-v3"
     },
     "alfie devine": {
       "searches": {
@@ -1323,22 +1275,17 @@
     },
     "alysson": {
       "searches": {
-        "google": {
-          "url": "https://www.google.com/search?q=Alysson+Aston+Villa&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Alysson+Aston+Villa",
-          "status": "unavailable",
-          "reason": "HTTPError"
+        "wikipedia": {
+          "status": "verified"
         }
       },
       "sourceErrors": [],
-      "status": "needs-verification",
-      "checkedAt": "2026-10-24T12:01:46.706528+00:00",
-      "nextCheckAt": "2026-10-24T18:01:46.706528+00:00",
+      "status": "verified",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T16:11:08.851511+00:00"
+      "nextBulkCheckAt": "2026-10-30T16:11:08.851511+00:00",
+      "policy": "precollect-names-v3"
     },
     "amahl pellegrino": {
       "searches": {
@@ -1364,40 +1311,31 @@
     },
     "adam armstrong": {
       "searches": {
-        "google": {
-          "url": "https://www.google.com/search?q=Adam+Armstrong+Wolverhampton+Wanderers&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Adam+Armstrong+Wolverhampton+Wanderers",
-          "status": "unavailable",
-          "reason": "HTTPError"
+        "wikipedia": {
+          "status": "verified"
         }
       },
       "sourceErrors": [],
-      "status": "needs-verification",
-      "checkedAt": "2026-10-24T13:52:17.674587+00:00",
-      "nextCheckAt": "2026-10-24T19:52:17.674587+00:00",
+      "status": "verified",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "policy": "precollect-names-v3"
     },
     "amando lapage": {
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Amando+Lapage+KVC+Westerlo&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Amando+Lapage+KVC+Westerlo",
           "status": "unavailable",
-          "reason": "HTTPError"
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "google-search-result-v1",
-      "checkedAt": "2026-10-24T14:06:18.532678+00:00",
-      "nextCheckAt": "2026-10-24T20:06:18.532678+00:00",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "nextBulkCheckAt": "2026-10-30T18:47:28.429897+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
@@ -1764,19 +1702,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Amos+Pieper+Werder+Bremen&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Amos+Pieper+Werder+Bremen",
           "status": "unavailable",
-          "reason": "HTTPError"
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-24T14:59:32.807533+00:00",
-      "nextCheckAt": "2026-10-24T20:59:32.807533+00:00",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "andras schafer": {
@@ -8323,7 +8257,7 @@
       "nextCheckAt": "2026-10-29T08:31:24.123037+00:00"
     },
     "luca petrasso": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -8354,7 +8288,7 @@
       "nextCheckAt": "2026-10-28T23:22:50.168451+00:00"
     },
     "matthew longstaff": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -8480,14 +8414,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Andreas+Jungdal+KVC+Westerlo&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-24T19:54:18.435027+00:00",
-      "nextCheckAt": "2026-10-25T01:54:18.435027+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "anosike ementa": {
       "nextBulkCheckAt": "2026-10-30T18:47:28.429897+00:00",
@@ -9459,14 +9394,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Andr%C3%A9+Silva+FC+Porto&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-24T20:57:43.290247+00:00",
-      "nextCheckAt": "2026-10-25T02:57:43.290247+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "andreas lausen": {
       "nextBulkCheckAt": "2026-10-30T16:11:08.851511+00:00",
@@ -9791,7 +9727,19 @@
     },
     "victor froholdt": {
       "nextBulkCheckAt": "2026-10-30T18:47:28.429897+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Victor+Froholdt+FC+Porto&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "zane monlouis": {
       "nextBulkCheckAt": "2026-10-30T18:47:28.429897+00:00",
@@ -10155,7 +10103,7 @@
       "nextCheckAt": "2026-10-28T01:02:06.439973+00:00"
     },
     "konsta helenius": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -11294,7 +11242,7 @@
       "nextCheckAt": "2026-10-29T07:42:28.684439+00:00"
     },
     "besard sabovic": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -11521,7 +11469,7 @@
       "nextCheckAt": "2026-10-29T10:05:34.650650+00:00"
     },
     "guilherme": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -11575,7 +11523,7 @@
       "nextCheckAt": "2026-10-29T03:59:54.239776+00:00"
     },
     "jacob bartlett": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -12126,7 +12074,7 @@
       "nextCheckAt": "2026-10-29T10:05:34.650650+00:00"
     },
     "carlo holse": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -12158,7 +12106,7 @@
       "nextCheckAt": "2026-10-29T07:42:28.684439+00:00"
     },
     "daniel edelman": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -12174,7 +12122,7 @@
       "nextCheckAt": "2026-10-29T07:42:28.684439+00:00"
     },
     "dante polvara": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -12324,7 +12272,7 @@
       "method": "wikidata-label-v1"
     },
     "mathias laborda": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -12565,7 +12513,7 @@
       "nextCheckAt": "2026-10-28T23:33:52.259310+00:00"
     },
     "tomas totland": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -12751,7 +12699,7 @@
       "method": "wikipedia-language-link-v1"
     },
     "andrew thomas": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -14686,14 +14634,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Clement+Bischoff+NEC+Nijmegen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "darko nejasmic": {
       "nextBulkCheckAt": "2026-10-30T19:33:27.685219+00:00",
@@ -14701,14 +14650,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Darko+Nejasmic+NEC+Nijmegen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "david van der werff": {
       "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
@@ -14772,14 +14722,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Gonzalo+Crettaz+NEC+Nijmegen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "guus til": {
       "status": "verified",
@@ -14824,14 +14775,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Kevin+Kers+NEC+Nijmegen&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "kodai sano": {
       "status": "verified",
@@ -14987,14 +14939,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Anan+Khalaili+Crystal+Palace&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "anthony oyono": {
       "status": "verified",
@@ -22157,11 +22110,11 @@
       "nextCheckAt": "2026-10-26T17:41:19.271378+00:00"
     },
     "bode hidalgo": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "brayan ceballos": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "dante sealy": {
@@ -22185,7 +22138,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "jalen neal": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "owen presthus": {
@@ -22193,11 +22146,11 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "prince osei owusu": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "thomas gillier": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "hans nicolussi caviglia": {
@@ -23490,7 +23443,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "felipe andrade": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "henri veesaar": {
@@ -23513,7 +23466,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "jimmy maurer": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "jonathan bell": {
@@ -23705,23 +23658,23 @@
       "nextCheckAt": "2026-10-29T15:08:50.765386+00:00"
     },
     "belal halbouni": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "celio pompeu": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "diego luna": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "emeka eneli": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "griffin dillon": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "ibrahim sadiq": {
@@ -23745,7 +23698,7 @@
       "nextCheckAt": "2026-10-29T01:09:33.048195+00:00"
     },
     "juan jose arias": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "justen glad": {
@@ -23753,7 +23706,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "kenji cabrera": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "kyle hiebert": {
@@ -23763,7 +23716,7 @@
       "method": "wikidata-label-v1"
     },
     "lukas engel": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "mamadou diop": {
@@ -23781,7 +23734,7 @@
       "method": "wikipedia-language-link-v1"
     },
     "rui modesto": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "sam adekugbe": {
@@ -23974,23 +23927,23 @@
       "nextCheckAt": "2026-10-26T12:09:24.356584+00:00"
     },
     "archie goodwin": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "aron john": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "brandon bye": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "brandt bronico": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "danny musovski": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "elias achouri": {
@@ -24010,7 +23963,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "juan david mosquera": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "liel abada": {
@@ -24020,11 +23973,11 @@
       "method": "wikipedia-language-link-v1"
     },
     "nikola petkovic": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "nimfasha berchimas": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "oswald soe": {
@@ -24032,23 +23985,23 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "paul rothrock": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "pedro de la vega": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "will cleary": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "yeimar gomez": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "zac mcgraw": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "arthur atta": {
@@ -26855,7 +26808,7 @@
       "nextCheckAt": "2026-10-28T20:26:15.450515+00:00"
     },
     "daniel lovitz": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -26981,7 +26934,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "nolan norris": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -27089,7 +27042,7 @@
       "method": "wikipedia-language-link-v1"
     },
     "bruno caicedo": {
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -29213,7 +29166,7 @@
     },
     "damian las": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T00:50:15.632000+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Damian+Las+Austin+FC&hl=ko",
@@ -29229,7 +29182,7 @@
     },
     "ilie sanchez": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T00:50:15.632000+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Ilie+S%C3%A1nchez+Austin+FC&hl=ko",
@@ -29245,7 +29198,7 @@
     },
     "jorge alastuey": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T00:50:15.632000+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jorge+Alastuey+Austin+FC&hl=ko",
@@ -29261,7 +29214,7 @@
     },
     "mikkel desler": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T00:50:15.632000+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Mikkel+Desler+Austin+FC&hl=ko",
@@ -30395,14 +30348,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Oussama+Targhaline+Feyenoord+Rotterdam&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T14:37:20.492144+00:00",
-      "nextCheckAt": "2026-10-25T20:37:20.492144+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "perr schuurs": {
       "status": "verified",
@@ -33354,7 +33308,19 @@
     },
     "ville koski": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Ville+Koski+Alav%C3%A9s&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "cho yu min": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -34626,7 +34592,7 @@
     },
     "jase richardson": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jase+Richardson+Orlando+Magic&hl=ko",
@@ -34672,7 +34638,7 @@
     },
     "alejandro alvarado": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Alejandro+Alvarado+San+Diego+FC&hl=ko",
@@ -34933,7 +34899,19 @@
     },
     "youssef enriquez": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T10:07:16.206747+00:00"
+      "nextBulkCheckAt": "2026-10-30T10:07:16.206747+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Youssef+Enriquez+Alav%C3%A9s&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "diego murillo": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -36817,7 +36795,7 @@
     },
     "zach benson": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Zach+Benson+Buffalo+Sabres&hl=ko",
@@ -37620,7 +37598,7 @@
     },
     "nolan traore": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Nolan+Traore+Brooklyn+Nets&hl=ko",
@@ -38578,7 +38556,7 @@
     },
     "ahmed qasim": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Ahmed+Qasim+Nashville+SC&hl=ko",
@@ -38594,7 +38572,7 @@
     },
     "alex muyl": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Alex+Muyl+Nashville+SC&hl=ko",
@@ -38642,7 +38620,7 @@
     },
     "edvard tagseth": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Edvard+Tagseth+Nashville+SC&hl=ko",
@@ -38690,7 +38668,7 @@
     },
     "warren madrigal": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Warren+Madrigal+Nashville+SC&hl=ko",
@@ -38712,7 +38690,7 @@
     },
     "trevon brazile": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T00:50:15.632000+00:00",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Trevon+Brazile+Denver+Nuggets&hl=ko",
@@ -39328,7 +39306,19 @@
     },
     "aiden hezarkhani": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00"
+      "nextBulkCheckAt": "2026-10-30T23:12:07.202690+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Aiden+Hezarkhani+Real+Salt+Lake&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     },
     "francisco esteban sanchez": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -39439,6 +39429,22 @@
       "policy": "precollect-names-v3",
       "checkedAt": "2026-10-29T23:12:07.202690+00:00",
       "nextCheckAt": "2026-10-30T05:12:07.202690+00:00"
+    },
+    "karlo matkovic": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-10-31T00:51:55.660717+00:00",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Karlo+Matkovic+New+Orleans+Pelicans&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T00:51:55.660717+00:00",
+      "nextCheckAt": "2026-10-30T06:51:55.660717+00:00"
     }
   }
 }
