@@ -779,19 +779,17 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Alex+Bono+D.C.+United&hl=ko",
-          "status": "no-readable-trusted-results"
-        },
-        "naver": {
-          "url": "https://search.naver.com/search.naver?query=Alex+Bono+D.C.+United",
-          "status": "results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "checkedAt": "2026-10-24T04:37:54.403752+00:00",
-      "nextCheckAt": "2026-10-31T04:37:54.403752+00:00",
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00",
+      "nextBulkCheckAt": "2026-10-31T22:13:55.708905+00:00",
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "policy": "precollect-names-v3"
     },
     "alex bump": {
       "searches": {
@@ -9621,7 +9619,7 @@
       "nextCheckAt": "2026-10-31T00:43:49.531527+00:00"
     },
     "dominik drobnic": {
-      "nextBulkCheckAt": "2026-10-30T21:40:25.578698+00:00",
+      "nextBulkCheckAt": "2026-10-31T22:13:55.708905+00:00",
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
@@ -21910,14 +21908,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=V%C3%ADctor+Rofino+FC+Famalicao&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T17:26:36.783575+00:00",
-      "nextCheckAt": "2026-10-25T23:26:36.783575+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "vitor carvalho": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -22258,14 +22257,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Aske+Adelgaard+FC+Twente&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T17:56:39.758827+00:00",
-      "nextCheckAt": "2026-10-25T23:56:39.758827+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "ayoub oufkir": {
       "nextBulkCheckAt": "2026-10-31T15:35:09.726491+00:00",
@@ -22288,14 +22288,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Bart+van+Rooij+FC+Twente&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T17:56:39.758827+00:00",
-      "nextCheckAt": "2026-10-25T23:56:39.758827+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "calvin stengs": {
       "status": "verified",
@@ -22331,14 +22332,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Daouda+Weidmann+FC+Twente&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T17:56:39.758827+00:00",
-      "nextCheckAt": "2026-10-25T23:56:39.758827+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "elijah dijkstra": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -22394,14 +22396,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Joel+Drommel+FC+Twente&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T17:56:39.758827+00:00",
-      "nextCheckAt": "2026-10-25T23:56:39.758827+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "jordy clasie": {
       "status": "verified",
@@ -22584,14 +22587,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Robin+Pr%C3%B6pper+FC+Twente&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T17:56:39.758827+00:00",
-      "nextCheckAt": "2026-10-25T23:56:39.758827+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "roman kantserov": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -22621,14 +22625,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Sondre+%C3%98rjasaeter+FC+Twente&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T17:56:39.758827+00:00",
-      "nextCheckAt": "2026-10-25T23:56:39.758827+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "spencer knight": {
       "nextBulkCheckAt": "2026-10-30T18:47:28.429897+00:00",
@@ -22777,14 +22782,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Andr%C3%A9+Cl%C3%B3vis+Acad%C3%A9mico+de+Viseu&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T18:30:05.902146+00:00",
-      "nextCheckAt": "2026-10-26T00:30:05.902146+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "anthony correia": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -22792,14 +22798,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Anthony+Correia+Acad%C3%A9mico+de+Viseu&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T18:30:05.902146+00:00",
-      "nextCheckAt": "2026-10-26T00:30:05.902146+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "cihan kahraman": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -22807,14 +22814,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Cihan+Kahraman+Acad%C3%A9mico+de+Viseu&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T18:30:05.902146+00:00",
-      "nextCheckAt": "2026-10-26T00:30:05.902146+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "ewerton": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -22822,14 +22830,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Ewerton+Acad%C3%A9mico+de+Viseu&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T18:30:05.902146+00:00",
-      "nextCheckAt": "2026-10-26T00:30:05.902146+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "fotis ioannidis": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -22873,14 +22882,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jo%C3%A3o+Guilherme+Acad%C3%A9mico+de+Viseu&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T18:30:05.902146+00:00",
-      "nextCheckAt": "2026-10-26T00:30:05.902146+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "lorougnon gohi": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -22903,14 +22913,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Lu%C3%ADs+Silva+Acad%C3%A9mico+de+Viseu&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T18:30:05.902146+00:00",
-      "nextCheckAt": "2026-10-26T00:30:05.902146+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "miguel angel brau": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -22918,14 +22929,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Miguel+%C3%81ngel+Brau+Acad%C3%A9mico+de+Viseu&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T18:30:05.902146+00:00",
-      "nextCheckAt": "2026-10-26T00:30:05.902146+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "niklaos michelis": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -22933,14 +22945,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Niklaos+Michelis+Acad%C3%A9mico+de+Viseu&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T18:30:05.902146+00:00",
-      "nextCheckAt": "2026-10-26T00:30:05.902146+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "robinho": {
       "status": "verified",
@@ -22983,14 +22996,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Soufiane+Messeguem+Acad%C3%A9mico+de+Viseu&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T18:30:05.902146+00:00",
-      "nextCheckAt": "2026-10-26T00:30:05.902146+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "jarace walker": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -25320,8 +25334,20 @@
       "bulkPolicy": "wikipedia-exact-sports-v4"
     },
     "owen wolff": {
-      "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
-      "bulkPolicy": "wikipedia-exact-sports-v4"
+      "nextBulkCheckAt": "2026-10-31T22:13:55.708905+00:00",
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "searches": {
+        "google": {
+          "url": "https://www.google.com/search?q=Owen+Wolff+Sporting+Kansas+City&hl=ko",
+          "status": "unavailable",
+          "reason": "ValueError"
+        }
+      },
+      "sourceErrors": [],
+      "status": "needs-verification",
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "peter stroud": {
       "nextBulkCheckAt": "2026-10-29T19:09:33.048195+00:00",
@@ -27427,14 +27453,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Abner+Vinicius+Lyon&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T15:46:19.677333+00:00",
-      "nextCheckAt": "2026-10-26T21:46:19.677333+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "corentin tolisso": {
       "status": "verified",
@@ -27448,14 +27475,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Dominik+Greif+Lyon&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T15:46:19.677333+00:00",
-      "nextCheckAt": "2026-10-26T21:46:19.677333+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "ernest nuamah": {
       "status": "verified",
@@ -27469,14 +27497,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Felix+Bacher+Lyon&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T15:46:19.677333+00:00",
-      "nextCheckAt": "2026-10-26T21:46:19.677333+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "kail boudache": {
       "nextBulkCheckAt": "2026-10-31T15:35:09.726491+00:00",
@@ -27499,14 +27528,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Mads+Bidstrup+Lyon&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T02:12:29.916637+00:00",
-      "nextCheckAt": "2026-10-26T08:12:29.916637+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "maghnes akliouche": {
       "status": "verified",
@@ -27598,14 +27628,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Andres+Castrin+Sevilla&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T15:46:19.677333+00:00",
-      "nextCheckAt": "2026-10-26T21:46:19.677333+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "ante budimir": {
       "status": "verified",
@@ -27634,14 +27665,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Felix+Correia+Sevilla&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T15:46:19.677333+00:00",
-      "nextCheckAt": "2026-10-26T21:46:19.677333+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "gabriel suazo": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -35057,14 +35089,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Tanner+Tessmann+Lyon&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T15:46:19.677333+00:00",
-      "nextCheckAt": "2026-10-26T21:46:19.677333+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "timothe nkada": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -36642,14 +36675,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Tom+van+de+Looi+FC+Famalicao&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T17:26:36.783575+00:00",
-      "nextCheckAt": "2026-10-25T23:26:36.783575+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "tomas marques": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -36657,14 +36691,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Tom%C3%A1s+Marqu%C3%A9s+Braga&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T17:26:36.783575+00:00",
-      "nextCheckAt": "2026-10-25T23:26:36.783575+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "dante vanzeir": {
       "status": "verified",
@@ -36776,14 +36811,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Younes+Taha+FC+Twente&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T18:30:05.902146+00:00",
-      "nextCheckAt": "2026-10-26T00:30:05.902146+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "bernardo silva": {
       "status": "verified",
@@ -36840,14 +36876,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Nils+Mortimer+Acad%C3%A9mico+de+Viseu&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-25T19:55:10.934638+00:00",
-      "nextCheckAt": "2026-10-26T01:55:10.934638+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "karim lopez": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -38034,14 +38071,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Khalis+Merah+Lyon&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T15:46:19.677333+00:00",
-      "nextCheckAt": "2026-10-26T21:46:19.677333+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-30T22:13:55.708905+00:00",
+      "nextCheckAt": "2026-10-31T04:13:55.708905+00:00"
     },
     "pablo martinez": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -39394,7 +39432,7 @@
     },
     "jay enem": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T21:40:25.578698+00:00",
+      "nextBulkCheckAt": "2026-10-31T22:13:55.708905+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jay+Enem+Bologna&hl=ko",
@@ -40133,7 +40171,7 @@
     },
     "adin hill": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-28T20:21:39.661911+00:00",
+      "nextBulkCheckAt": "2026-10-31T22:13:55.708905+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Adin+Hill+Vegas+Golden+Knights&hl=ko",
@@ -41110,7 +41148,7 @@
     },
     "sam dickinson": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-30T21:40:25.578698+00:00",
+      "nextBulkCheckAt": "2026-10-31T22:13:55.708905+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Sam+Dickinson+San+Jose+Sharks&hl=ko",
