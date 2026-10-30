@@ -22640,6 +22640,52 @@
         }
       ],
       "verifiedAt": "2026-10-30T12:50:32.566919+00:00"
+    },
+    {
+      "name": "Arnau Martinez",
+      "korean": "아르나우 마르티네스",
+      "team": "Valencia",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Arnau_Mart%C3%ADnez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "아르나우 마르티네스",
+          "contentHash": "40a6910a96939d1e3d34728ab6417629bea3e38bbff74bf36123828bb04f4e4f"
+        }
+      ],
+      "verifiedAt": "2026-10-30T13:45:24.084472+00:00"
+    },
+    {
+      "name": "Joris van Overeem",
+      "korean": "요리스 판 오버레임",
+      "team": "FC Utrecht",
+      "league": "eredivisie",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joris_van_Overeem",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3183928",
+          "wikidataItem": "Q3183928",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "9627b3ad1d923ea1643e03968fb5f90c06de3614d9cb68521c60bdc1011f8dd3"
+        }
+      ],
+      "verifiedAt": "2026-10-30T13:45:24.084472+00:00"
     }
   ]
 }
