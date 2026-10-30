@@ -22686,6 +22686,25 @@
         }
       ],
       "verifiedAt": "2026-10-30T13:45:24.084472+00:00"
+    },
+    {
+      "name": "Andras Schafer",
+      "korean": "셰퍼 언드라시",
+      "team": "1. FC Union Berlin",
+      "league": "bundesliga",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EC%85%B0%ED%8D%BC_%EC%96%B8%EB%93%9C%EB%9D%BC%EC%8B%9C",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "57ebe3f26ca8de6bcb533fba446678afa96a3ee015b3b5087274c825aa2c4552"
+        }
+      ],
+      "verifiedAt": "2026-10-30T14:40:18.655297+00:00"
     }
   ]
 }
