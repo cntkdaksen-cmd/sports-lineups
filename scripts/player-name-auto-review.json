@@ -23972,6 +23972,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T17:56:21.559220+00:00"
+    },
+    {
+      "name": "Arsen Zakharyan",
+      "korean": "아르센 자하랸",
+      "team": "Real Sociedad",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Arsen_Zakharyan",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "아르센 자하랸",
+          "contentHash": "886fdb0651b299988274279056c1fdea7b909a9e3f479df91a260e03dce94492"
+        }
+      ],
+      "verifiedAt": "2026-10-30T18:43:49.531527+00:00"
     }
   ]
 }
