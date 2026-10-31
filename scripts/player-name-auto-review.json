@@ -24521,6 +24521,28 @@
         }
       ],
       "verifiedAt": "2026-10-31T11:52:00.836330+00:00"
+    },
+    {
+      "name": "Ayyoub Bouaddi",
+      "korean": "아유브 부아디",
+      "team": "Manchester City",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ayyoub_Bouaddi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "아유브 부아디",
+          "contentHash": "2a16c30491fca3a1097ec29127b78fbdcdbf3dd3fca9df5e55d84f53e864fdd7"
+        }
+      ],
+      "verifiedAt": "2026-10-31T13:15:14.791111+00:00"
     }
   ]
 }
