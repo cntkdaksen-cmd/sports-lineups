@@ -25035,6 +25035,72 @@
         }
       ],
       "verifiedAt": "2026-10-31T16:20:14.009207+00:00"
+    },
+    {
+      "name": "Lennon Miller",
+      "korean": "레넌 밀러",
+      "team": "Udinese",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lennon_Miller",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "레넌 밀러",
+          "contentHash": "baa5d9061caa89a094c9b12620ffba1ff3464217ca5adc1351f8df85866fa3cd"
+        }
+      ],
+      "verifiedAt": "2026-10-31T16:56:34.546125+00:00"
+    },
+    {
+      "name": "Óscar Mingueza",
+      "korean": "오스카르 밍게사",
+      "team": "Crystal Palace",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/%C3%93scar_Mingueza",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "오스카르 밍게사",
+          "contentHash": "cd7a8762eeca6456f48cf4783254ba0ee3f480aa049b951a76bc07b86259b1ab"
+        }
+      ],
+      "verifiedAt": "2026-10-31T16:56:34.546125+00:00"
+    },
+    {
+      "name": "Rodrigo Riquelme",
+      "korean": "로드리고 리켈메",
+      "team": "Real Betis",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rodrigo_Riquelme_%28footballer%2C_born_2000%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로드리고 리켈메",
+          "contentHash": "1cba7c5e99c798e468b734865d97ef6d41594a2697c751621078dcaf6a3df2fd"
+        }
+      ],
+      "verifiedAt": "2026-10-31T16:56:34.546125+00:00"
     }
   ]
 }
