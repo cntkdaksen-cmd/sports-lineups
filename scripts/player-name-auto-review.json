@@ -25232,6 +25232,72 @@
         }
       ],
       "verifiedAt": "2026-10-31T20:36:37.715678+00:00"
+    },
+    {
+      "name": "Moi Gomez",
+      "korean": "모이 고메스",
+      "team": "Osasuna",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Moi_G%C3%B3mez",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "모이 고메스",
+          "contentHash": "b995940409ddf59a57e578d58cd29934385730e0ffb94a7bb97d3dbe0a1c19f6"
+        }
+      ],
+      "verifiedAt": "2026-10-31T21:10:31.840613+00:00"
+    },
+    {
+      "name": "Ruben Garcia",
+      "korean": "루벤 가르시아 산토스",
+      "team": "Osasuna",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rub%C3%A9n_Garc%C3%ADa_%28footballer%2C_born_1993%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "루벤 가르시아 산토스",
+          "contentHash": "7ca49c715ad3d54db4a3db056da6eb37f97a67cb8424193cd1e57f3ee8a0b13f"
+        }
+      ],
+      "verifiedAt": "2026-10-31T21:10:31.840613+00:00"
+    },
+    {
+      "name": "Diego Carlos",
+      "korean": "지에구 카를루스",
+      "team": "Parma",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Diego_Carlos_%28footballer%2C_born_1993%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "지에구 카를루스",
+          "contentHash": "014fa3e91840f37c458836117849b5177874ac840d47bde1f84c518d52270048"
+        }
+      ],
+      "verifiedAt": "2026-10-31T21:10:31.840613+00:00"
     }
   ]
 }
