@@ -24216,6 +24216,113 @@
         }
       ],
       "verifiedAt": "2026-10-31T00:07:35.855341+00:00"
+    },
+    {
+      "name": "Hisashi Appiah Tawiah",
+      "korean": "아피아 타위아 히사시",
+      "team": "Kyoto Sanga",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hisashi_Appiah_Tawiah",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "아피아 타위아 히사시",
+          "contentHash": "ffdc78af0adba36202b58c9212c20365036a3899b4463cbc7620276bbdeb2d07"
+        }
+      ],
+      "verifiedAt": "2026-10-31T04:26:04.119854+00:00"
+    },
+    {
+      "name": "Patryck Ferreira",
+      "korean": "패트릭 페헤이라",
+      "team": "Mito Hollyhock",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Patryck_Ferreira",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "패트릭 페헤이라",
+          "contentHash": "63c5622d059a3c640a571a105b753965b020b44233365fe87007ceab4605468e"
+        }
+      ],
+      "verifiedAt": "2026-10-31T04:26:04.119854+00:00"
+    },
+    {
+      "name": "Yuya Oki",
+      "korean": "오키 유야",
+      "team": "Shimizu S-Pulse",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yuya_Oki",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "오키 유야",
+          "contentHash": "a8a88c97ebc9a79d3324b534777f14e872835aac64a948f5ff1ed43e4c57a39c"
+        }
+      ],
+      "verifiedAt": "2026-10-31T04:26:04.119854+00:00"
+    },
+    {
+      "name": "Marco Túlio",
+      "korean": "마르코 툴리오",
+      "team": "Kyoto Sanga",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Marco_T%C3%BAlio_%28footballer%2C_born_March_1998%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마르코 툴리오",
+          "contentHash": "8887bd5106044bb55f185714d11b83ff524fc4176671d5a89e270b9b58dee624"
+        }
+      ],
+      "verifiedAt": "2026-10-31T04:26:04.119854+00:00"
+    },
+    {
+      "name": "Yuji Takahashi",
+      "korean": "다카하시 유지",
+      "team": "Shimizu S-Pulse",
+      "league": "j1",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%B9%B4%ED%95%98%EC%8B%9C_%EC%9C%A0%EC%A7%80",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "0e5f0fda1554a5ea156f9b308ae8668c07ef39a2311cc8dd09c3b9d363a8f583"
+        }
+      ],
+      "verifiedAt": "2026-10-31T04:26:04.119854+00:00"
     }
   ]
 }
