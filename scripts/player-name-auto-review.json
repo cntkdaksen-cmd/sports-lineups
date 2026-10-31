@@ -24611,6 +24611,318 @@
         }
       ],
       "verifiedAt": "2026-10-31T13:57:12.892881+00:00"
+    },
+    {
+      "name": "Atsuki Ito",
+      "korean": "이토 아쓰키",
+      "team": "Bolton Wanderers",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Atsuki_It%C5%8D",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "이토 아쓰키",
+          "contentHash": "8eb3716ee701772e160d1b64cd447ec8069c974262a85004048d7b7207b53915"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Jamie Vardy",
+      "korean": "제이미 바디",
+      "team": "Burnley",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jamie_Vardy",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "제이미 바디",
+          "contentHash": "cdc3fcec86da43b2e5336a61f3d256798699d7da2c3b20e108438904cad0fa37"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Jay Fulton",
+      "korean": "제이 풀턴",
+      "team": "Swansea City",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jay_Fulton",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "제이 풀턴",
+          "contentHash": "453b819e41e2c505956d0815f96adce747375e3f495c4f93bbf691322cd0e5b0"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Marcus Edwards",
+      "korean": "마커스 에드워즈",
+      "team": "Burnley",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Marcus_Edwards",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마커스 에드워즈",
+          "contentHash": "d8adc86ef47558e78d93f74e3693457c8eb669a311585095bb229f48849c7670"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Ola Aina",
+      "korean": "올라 에이나",
+      "team": "Nottingham Forest",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ola_Aina",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "올라 에이나",
+          "contentHash": "a9a6bd7c864fff19d8eda38220fb47ebe34b87245e2a7e37feed05a590072986"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Oliver Skipp",
+      "korean": "올리버 스킵",
+      "team": "Charlton Athletic",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Oliver_Skipp",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "올리버 스킵",
+          "contentHash": "94e6a9db37f00d61db1f8b4c8e5aa1f76205f4f92862b96f8243dfb88490a0b7"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Ortwin De Wolf",
+      "korean": "오르트빈 더볼프",
+      "team": "KV Mechelen",
+      "league": "jupiler",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ortwin_De_Wolf",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q35497504",
+          "wikidataItem": "Q35497504",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "866dec88adf2ab2395a4b287601eb3eeeddc3d921187e6be34c6912f27dc9937"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Samuel Iling-Junior",
+      "korean": "사무엘 일링주니어",
+      "team": "Bolton Wanderers",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Samuel_Iling-Junior",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "사무엘 일링주니어",
+          "contentHash": "b1cc187f7bd8f4b646046d1cc1a31f92b720baada4a60090fbdd0ebf1e10cf2e"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Taiwo Awoniyi",
+      "korean": "타이워 아워니이",
+      "team": "Coventry City",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Taiwo_Awoniyi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "타이워 아워니이",
+          "contentHash": "b43b6bc4818e08b76115e1d8e6682b84a3e2e1735a0e19795e64fd7672085b5f"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Xavier Simons",
+      "korean": "제이비어 사이먼스",
+      "team": "Bolton Wanderers",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Xavier_Simons",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "제이비어 사이먼스",
+          "contentHash": "6e631f2b16b01471ad6d77580e3122e30a1def86977743cbf84fb9608086396a"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Yann Gboho",
+      "korean": "얀 보호",
+      "team": "Coventry City",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yann_Gboho",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "얀 보호",
+          "contentHash": "963d5c0d3f4e858b29a4fee2a2204e24b6785a87f2c72a6c6d0ee112046c3bc3"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Tyler Bindon",
+      "korean": "타일러 빈던",
+      "team": "Charlton Athletic",
+      "league": "championship",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tyler_Bindon",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q121353909",
+          "wikidataItem": "Q121353909",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "a6892c7d0573d7a82996a6babdac56b49b7864faa4ab0b3de471083825e52ad0"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Daniel James",
+      "korean": "대니얼 제임스",
+      "team": "Leeds United",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Daniel_James_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "대니얼 제임스",
+          "contentHash": "a2f8c1d38f3ac7088c64d300c171d6960137e561c498c2ab9b0f8933364b10c6"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Eom Ji-Sung",
+      "korean": "엄지성",
+      "team": "Swansea City",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Eom_Ji-sung",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "엄지성 (축구 선수)",
+          "contentHash": "b81d0502375bed93ab7ed2715019c3e994cb7524f9d690ee10375cb585343dc3"
+        }
+      ],
+      "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
     }
   ]
 }
