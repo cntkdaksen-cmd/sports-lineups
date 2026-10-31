@@ -25142,6 +25142,50 @@
         }
       ],
       "verifiedAt": "2026-10-31T18:41:16.041844+00:00"
+    },
+    {
+      "name": "Ander Guevara",
+      "korean": "안데르 게바라",
+      "team": "Alavés",
+      "league": "laliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ander_Guevara",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "안데르 게바라",
+          "contentHash": "265a4115ef3c360216e549e400ba3e4bdc4729428e68ac870f62df17c709fafc"
+        }
+      ],
+      "verifiedAt": "2026-10-31T19:24:50.684601+00:00"
+    },
+    {
+      "name": "Jasper Cillessen",
+      "korean": "야스퍼르 실레선",
+      "team": "Go Ahead Eagles",
+      "league": "eredivisie",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jasper_Cillessen",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "야스퍼르 실레선",
+          "contentHash": "c0adfcf519a753a5f187ec4e320ad5b47c2f3240ff17cb438c37891c5b542a45"
+        }
+      ],
+      "verifiedAt": "2026-10-31T19:24:50.684601+00:00"
     }
   ]
 }
