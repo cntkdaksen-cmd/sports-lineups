@@ -25013,6 +25013,28 @@
         }
       ],
       "verifiedAt": "2026-10-31T15:10:09.222364+00:00"
+    },
+    {
+      "name": "Marco Pasalic",
+      "korean": "마르코 파샬리치",
+      "team": "Orlando City SC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Marco_Pa%C5%A1ali%C4%87",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마르코 파샬리치",
+          "contentHash": "348f4045d9f2d423f02659e95f34e465ec8def34f35219152308b0165a737d6d"
+        }
+      ],
+      "verifiedAt": "2026-10-31T16:20:14.009207+00:00"
     }
   ]
 }
