@@ -24433,6 +24433,94 @@
         }
       ],
       "verifiedAt": "2026-10-31T06:47:30.959311+00:00"
+    },
+    {
+      "name": "Jordan Zemura",
+      "korean": "조던 제무라",
+      "team": "Watford",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jordan_Zemura",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "조던 제무라",
+          "contentHash": "b08efef0b426008899f2f04b007b4fec43f3d71e8ce46b8a1a3c000a0637b9a0"
+        }
+      ],
+      "verifiedAt": "2026-10-31T11:52:00.836330+00:00"
+    },
+    {
+      "name": "José Córdoba",
+      "korean": "호세 코르도바",
+      "team": "Norwich City",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_C%C3%B3rdoba",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "호세 코르도바",
+          "contentHash": "ecd12c79939260da9748b7f45005c65aba6b650a749d8a02811eccd3456d6e21"
+        }
+      ],
+      "verifiedAt": "2026-10-31T11:52:00.836330+00:00"
+    },
+    {
+      "name": "Romeo Lavia",
+      "korean": "로메오 라비아",
+      "team": "Chelsea",
+      "league": "epl",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rom%C3%A9o_Lavia",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로메오 라비아",
+          "contentHash": "7f23f6895e3194c97bfe9d0ea493f5351e659baba8d9b8da641d55d2f8b7f11d"
+        }
+      ],
+      "verifiedAt": "2026-10-31T11:52:00.836330+00:00"
+    },
+    {
+      "name": "Róbert Bozeník",
+      "korean": "로베르트 보제니크",
+      "team": "Stoke City",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/R%C3%B3bert_Bo%C5%BEen%C3%ADk",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "로베르트 보제니크",
+          "contentHash": "bbe0b0b751d52657b04a317bffd61c2656c47ae1bf86c0d649fd17a0e8584d1e"
+        }
+      ],
+      "verifiedAt": "2026-10-31T11:52:00.836330+00:00"
     }
   ]
 }
