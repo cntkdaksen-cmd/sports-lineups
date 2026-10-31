@@ -9194,8 +9194,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T01:42:28.684439+00:00",
-      "nextCheckAt": "2026-10-29T07:42:28.684439+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "cristian espinoza": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -9210,8 +9210,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T01:42:28.684439+00:00",
-      "nextCheckAt": "2026-10-29T07:42:28.684439+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "daniel pereira": {
       "nextBulkCheckAt": "2026-10-25T15:54:41.641779+00:00",
@@ -9299,8 +9299,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T02:31:24.123037+00:00",
-      "nextCheckAt": "2026-10-29T08:31:24.123037+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "luca petrasso": {
       "nextBulkCheckAt": "2026-11-01T01:21:20.386985+00:00",
@@ -11937,8 +11937,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T00:50:15.632000+00:00",
-      "nextCheckAt": "2026-10-29T06:50:15.632000+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "indiana vassilev": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -12035,8 +12035,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T00:50:15.632000+00:00",
-      "nextCheckAt": "2026-10-29T06:50:15.632000+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "jovan lukic": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -12121,8 +12121,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T00:50:15.632000+00:00",
-      "nextCheckAt": "2026-10-29T06:50:15.632000+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "lucas hoyos": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -12137,8 +12137,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T01:42:28.684439+00:00",
-      "nextCheckAt": "2026-10-29T07:42:28.684439+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "maren haile selassie": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -12231,8 +12231,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T01:42:28.684439+00:00",
-      "nextCheckAt": "2026-10-29T07:42:28.684439+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "maxime crepeau": {
       "status": "verified",
@@ -12489,7 +12489,7 @@
       "bulkPolicy": "wikipedia-exact-sports-v4",
       "searches": {
         "google": {
-          "url": "https://www.google.com/search?q=Tom%C3%A1s+Jacob+Atlanta+United+FC&hl=ko",
+          "url": "https://www.google.com/search?q=Tomas+Jacob+Atlanta+United+FC&hl=ko",
           "status": "unavailable",
           "reason": "ValueError"
         }
@@ -12497,8 +12497,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T01:42:28.684439+00:00",
-      "nextCheckAt": "2026-10-29T07:42:28.684439+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "tristan muyumba": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -12513,8 +12513,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T01:42:28.684439+00:00",
-      "nextCheckAt": "2026-10-29T07:42:28.684439+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "wilder cartagena": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -12743,8 +12743,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T01:42:28.684439+00:00",
-      "nextCheckAt": "2026-10-29T07:42:28.684439+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "christian cappis": {
       "nextBulkCheckAt": "2026-10-29T23:54:41.346193+00:00",
@@ -12823,8 +12823,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T02:31:24.123037+00:00",
-      "nextCheckAt": "2026-10-29T08:31:24.123037+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "eduard lowen": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -12989,8 +12989,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-28T23:54:41.346193+00:00",
-      "nextCheckAt": "2026-10-29T05:54:41.346193+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "joaquin pereyra": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -13056,14 +13056,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Kelvin+Yeboah+Minnesota+United+FC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T16:25:10.282664+00:00",
-      "nextCheckAt": "2026-10-28T22:25:10.282664+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "kwaku agyabeng": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -13156,14 +13157,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Morris+Duggan+Minnesota+United+FC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-28T17:22:50.168451+00:00",
-      "nextCheckAt": "2026-10-28T23:22:50.168451+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "myrto uzuni": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -13231,14 +13233,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Owen+Gene+Minnesota+United+FC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-28T17:33:52.259310+00:00",
-      "nextCheckAt": "2026-10-28T23:33:52.259310+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "paul marie": {
       "nextBulkCheckAt": "2026-10-25T17:42:47.084380+00:00",
@@ -13488,8 +13491,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T04:05:34.650650+00:00",
-      "nextCheckAt": "2026-10-29T10:05:34.650650+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "carlo holse": {
       "nextBulkCheckAt": "2026-11-01T01:21:20.386985+00:00",
@@ -14243,8 +14246,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T04:05:34.650650+00:00",
-      "nextCheckAt": "2026-10-29T10:05:34.650650+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "djibril diani": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -14339,8 +14342,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T04:05:34.650650+00:00",
-      "nextCheckAt": "2026-10-29T10:05:34.650650+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "james pantemis": {
       "status": "verified",
@@ -16832,8 +16835,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T04:48:33.264720+00:00",
-      "nextCheckAt": "2026-10-29T10:48:33.264720+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "gabriele calvani": {
       "nextBulkCheckAt": "2026-10-31T20:12:34.041171+00:00",
@@ -23181,14 +23184,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Aaron+Long+LAFC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T00:50:13.932605+00:00",
-      "nextCheckAt": "2026-10-26T06:50:13.932605+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "carlos garces": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -23372,14 +23376,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Leo+Walta+LAFC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T01:31:25.513560+00:00",
-      "nextCheckAt": "2026-10-26T07:31:25.513560+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "mark delgado": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -23387,14 +23392,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Mark+Delgado+LAFC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T01:31:25.513560+00:00",
-      "nextCheckAt": "2026-10-26T07:31:25.513560+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "nkosi tafari": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -23468,14 +23474,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Yevhen+Cheberko+LAFC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T01:31:25.513560+00:00",
-      "nextCheckAt": "2026-10-26T07:31:25.513560+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "calvin pickard": {
       "nextBulkCheckAt": "2026-10-26T17:56:39.758827+00:00",
@@ -28695,8 +28702,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-28T23:54:41.346193+00:00",
-      "nextCheckAt": "2026-10-29T05:54:41.346193+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "brooks lennon": {
       "nextBulkCheckAt": "2026-10-31T19:29:39.537826+00:00",
@@ -28853,8 +28860,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-28T23:54:41.346193+00:00",
-      "nextCheckAt": "2026-10-29T05:54:41.346193+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "miguel perez": {
       "nextBulkCheckAt": "2026-10-25T17:45:14.240613+00:00",
@@ -31519,8 +31526,8 @@
       "sourceErrors": [],
       "status": "needs-verification",
       "policy": "precollect-names-v3",
-      "checkedAt": "2026-10-29T02:31:24.123037+00:00",
-      "nextCheckAt": "2026-10-29T08:31:24.123037+00:00"
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "jared spurgeon": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -37095,14 +37102,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Armindo+Sieb+LAFC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T00:50:13.932605+00:00",
-      "nextCheckAt": "2026-10-26T06:50:13.932605+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "joseph paintsil": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -37126,14 +37134,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Ryan+Porteous+LAFC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T00:50:13.932605+00:00",
-      "nextCheckAt": "2026-10-26T06:50:13.932605+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "sergi palencia": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -37141,14 +37150,15 @@
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Sergi+Palencia+LAFC&hl=ko",
-          "status": "no-readable-trusted-results"
+          "status": "unavailable",
+          "reason": "ValueError"
         }
       },
       "sourceErrors": [],
       "status": "needs-verification",
-      "policy": "precollect-names-v2",
-      "checkedAt": "2026-10-26T00:50:13.932605+00:00",
-      "nextCheckAt": "2026-10-26T06:50:13.932605+00:00"
+      "policy": "precollect-names-v3",
+      "checkedAt": "2026-10-31T02:11:08.438325+00:00",
+      "nextCheckAt": "2026-10-31T08:11:08.438325+00:00"
     },
     "alex calatrava": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -41553,7 +41563,7 @@
     },
     "lukas kubler": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-31T01:45:07.351769+00:00",
+      "nextBulkCheckAt": "2026-11-01T02:11:08.438325+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Lukas+Kubler+SC+Freiburg&hl=ko",
@@ -41569,7 +41579,7 @@
     },
     "valentin gendrey": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-31T01:45:07.351769+00:00"
+      "nextBulkCheckAt": "2026-11-01T02:11:08.438325+00:00"
     },
     "ibrahim aliyu": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
@@ -42273,7 +42283,7 @@
     },
     "abderrahman rebbach": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-31T01:45:07.351769+00:00",
+      "nextBulkCheckAt": "2026-11-01T02:11:08.438325+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Abderrahman+Rebbach+Alav%C3%A9s&hl=ko",
@@ -42289,7 +42299,7 @@
     },
     "jonny": {
       "bulkPolicy": "wikipedia-exact-sports-v4",
-      "nextBulkCheckAt": "2026-10-31T01:45:07.351769+00:00",
+      "nextBulkCheckAt": "2026-11-01T02:11:08.438325+00:00",
       "searches": {
         "google": {
           "url": "https://www.google.com/search?q=Jonny+Alav%C3%A9s&hl=ko",
@@ -44078,6 +44088,10 @@
       "policy": "precollect-names-v3",
       "checkedAt": "2026-10-30T23:34:32.678372+00:00",
       "nextCheckAt": "2026-10-31T05:34:32.678372+00:00"
+    },
+    "hayden hodgson": {
+      "bulkPolicy": "wikipedia-exact-sports-v4",
+      "nextBulkCheckAt": "2026-11-01T02:11:08.438325+00:00"
     }
   }
 }
