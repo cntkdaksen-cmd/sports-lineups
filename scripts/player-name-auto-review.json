@@ -24923,6 +24923,96 @@
         }
       ],
       "verifiedAt": "2026-10-31T14:35:08.211779+00:00"
+    },
+    {
+      "name": "Kevin Höög Jansson",
+      "korean": "케빈 회그 얀손",
+      "team": "Estrela",
+      "league": "primeira",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kevin_H%C3%B6%C3%B6g_Jansson",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "케빈 회그 얀손",
+          "contentHash": "a7e6bbe832d6899820642dc85076238af777354d5dc9a5051c968f195708471c"
+        }
+      ],
+      "verifiedAt": "2026-10-31T15:10:09.222364+00:00"
+    },
+    {
+      "name": "David Møller Wolfe",
+      "korean": "다비드 묄레르 볼페",
+      "team": "Hamburg SV",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/David_M%C3%B8ller_Wolfe",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": false,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "다비드 묄레르 볼페",
+          "contentHash": "0abe8927955c497fff516d58289be5a2d20704d69a7952c26ef67dd9ed1cb0a2"
+        }
+      ],
+      "verifiedAt": "2026-10-31T15:10:09.222364+00:00"
+    },
+    {
+      "name": "Pablo",
+      "korean": "파블루 펠리피",
+      "team": "West Ham United",
+      "league": "championship",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pablo_%28footballer%2C_born_2004%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "파블루 펠리피",
+          "contentHash": "b6ea82c1965395707931f43bb0e1ddcbe11b6df1b64de3c1546287a4bb410525"
+        }
+      ],
+      "verifiedAt": "2026-10-31T15:10:09.222364+00:00"
+    },
+    {
+      "name": "Ross Stewart",
+      "korean": "로스 스튜어트",
+      "team": "Swansea City",
+      "league": "championship",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ross_Stewart_%28footballer%2C_born_1996%29",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q47126518",
+          "wikidataItem": "Q47126518",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "194aa01a59bfd7e77858dd6506b61d1742f42bf0a1982148ed0f3581ddaf1c38"
+        }
+      ],
+      "verifiedAt": "2026-10-31T15:10:09.222364+00:00"
     }
   ]
 }
