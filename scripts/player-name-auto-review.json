@@ -24323,6 +24323,50 @@
         }
       ],
       "verifiedAt": "2026-10-31T04:26:04.119854+00:00"
+    },
+    {
+      "name": "Yuta Higuchi",
+      "korean": "히구치 유타",
+      "team": "Kashima Antlers",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yuta_Higuchi",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "히구치 유타",
+          "contentHash": "6ec9b1177f983899c3712e740267eb2069bc63cf3af7294bcc4cd43e050421cb"
+        }
+      ],
+      "verifiedAt": "2026-10-31T05:15:40.992879+00:00"
+    },
+    {
+      "name": "Yota Sato",
+      "korean": "사토 요타",
+      "team": "Nagoya Grampus",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yota_Sato_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "사토 요타",
+          "contentHash": "62419d77a33b34b9822fde232bda634c711a9652bb883f704bbf3bd85753d5d8"
+        }
+      ],
+      "verifiedAt": "2026-10-31T05:15:40.992879+00:00"
     }
   ]
 }
