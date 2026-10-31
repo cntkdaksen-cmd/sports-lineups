@@ -24194,6 +24194,28 @@
         }
       ],
       "verifiedAt": "2026-10-30T22:53:51.653532+00:00"
+    },
+    {
+      "name": "Matt Turner",
+      "korean": "맷 터너",
+      "team": "New England Revolution",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Matt_Turner_%28soccer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "맷 터너",
+          "contentHash": "f1a9516b7d7552bf13be423a9551064e5e37c4127c70eeb1975a92c33143d6e7"
+        }
+      ],
+      "verifiedAt": "2026-10-31T00:07:35.855341+00:00"
     }
   ]
 }
