@@ -25101,6 +25101,28 @@
         }
       ],
       "verifiedAt": "2026-10-31T16:56:34.546125+00:00"
+    },
+    {
+      "name": "Bénie Traoré",
+      "korean": "베니 트라오레",
+      "team": "New York City FC",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/B%C3%A9nie_Traor%C3%A9",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "베니 트라오레",
+          "contentHash": "6d01656c8c62cd4fd1e71040f26843c16ea6451798ccd582cb1981fb306487c1"
+        }
+      ],
+      "verifiedAt": "2026-10-31T17:31:29.104089+00:00"
     }
   ]
 }
