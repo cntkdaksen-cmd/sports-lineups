@@ -25210,6 +25210,28 @@
         }
       ],
       "verifiedAt": "2026-10-31T20:04:50.504128+00:00"
+    },
+    {
+      "name": "Hirving Lozano",
+      "korean": "이르빙 로사노",
+      "team": "LA Galaxy",
+      "league": "mls",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hirving_Lozano",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "이르빙 로사노",
+          "contentHash": "797181ddeb30681e43577eb18d5b03fcaabdfabf07e329e35dd1c3b60ca0693c"
+        }
+      ],
+      "verifiedAt": "2026-10-31T20:36:37.715678+00:00"
     }
   ]
 }
