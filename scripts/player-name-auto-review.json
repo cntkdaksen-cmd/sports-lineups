@@ -25186,6 +25186,30 @@
         }
       ],
       "verifiedAt": "2026-10-31T19:24:50.684601+00:00"
+    },
+    {
+      "name": "Isaac Howard",
+      "korean": "아이작 하워드",
+      "team": "Edmonton Oilers",
+      "league": "nhl",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Isaac_Howard",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q81903706",
+          "wikidataItem": "Q81903706",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "a4f5f0be403653ceba3ed63b75e1092fe9588dc83aa1f3ed5772e12ba95ee8da"
+        }
+      ],
+      "verifiedAt": "2026-10-31T20:04:50.504128+00:00"
     }
   ]
 }
