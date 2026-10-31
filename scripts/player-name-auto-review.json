@@ -24367,6 +24367,72 @@
         }
       ],
       "verifiedAt": "2026-10-31T05:15:40.992879+00:00"
+    },
+    {
+      "name": "Harumi Minamino",
+      "korean": "미나미노 하루미",
+      "team": "Urawa Red Diamonds",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Harumi_Minamino",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "미나미노 하루미",
+          "contentHash": "a392c3c421c8e159bf70a770aa9357977e54112046c6b0f4454cad3538c9c513"
+        }
+      ],
+      "verifiedAt": "2026-10-31T06:47:30.959311+00:00"
+    },
+    {
+      "name": "Makoto Mitsuta",
+      "korean": "미쓰타 마코토",
+      "team": "Kashiwa Reysol",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Makoto_Mitsuta",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "미쓰타 마코토",
+          "contentHash": "130f898088c36ce1a07fc19577568c7b536bf9ed3ba871244d0074de6864afc5"
+        }
+      ],
+      "verifiedAt": "2026-10-31T06:47:30.959311+00:00"
+    },
+    {
+      "name": "Tomoya Inukai",
+      "korean": "이누카이 도모야",
+      "team": "Kashiwa Reysol",
+      "league": "j1",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tomoya_Inukai",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "이누카이 도모야",
+          "contentHash": "3bcb99315f279794ac5b7329d48705c4e2ef19c12a60f89e32aa17ec8c67515b"
+        }
+      ],
+      "verifiedAt": "2026-10-31T06:47:30.959311+00:00"
     }
   ]
 }
