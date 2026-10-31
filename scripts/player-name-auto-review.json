@@ -24543,6 +24543,74 @@
         }
       ],
       "verifiedAt": "2026-10-31T13:15:14.791111+00:00"
+    },
+    {
+      "name": "Martin Vitík",
+      "korean": "마르틴 비티크",
+      "team": "Bologna",
+      "league": "seriea",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Martin_Vit%C3%ADk",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "마르틴 비티크",
+          "contentHash": "edc050c470ee5bf152459be22ba1292b012cd676cfdfda433f9241f2a0761fd2"
+        }
+      ],
+      "verifiedAt": "2026-10-31T13:57:12.892881+00:00"
+    },
+    {
+      "name": "Luca Jaquez",
+      "korean": "루카 하케스",
+      "team": "VfB Stuttgart",
+      "league": "bundesliga",
+      "method": "wikidata-label-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Luca_Jaquez",
+          "domain": "wikipedia.org",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q122160785",
+          "wikidataItem": "Q122160785",
+          "koreanLabelMatched": true,
+          "englishLabelMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": true,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "contentHash": "bc998bbe781e496518869017641fca575844e5e193a0a3e45ac2f940e741204c"
+        }
+      ],
+      "verifiedAt": "2026-10-31T13:57:12.892881+00:00"
+    },
+    {
+      "name": "Karl Hein",
+      "korean": "카를 헤인",
+      "team": "Werder Bremen",
+      "league": "bundesliga",
+      "method": "wikipedia-language-link-v1",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Karl_Hein_%28footballer%29",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "teamMatched": true,
+          "sportMatched": true,
+          "exactEnglishTitleMatched": false,
+          "englishNameMatched": true,
+          "sourceLanguage": "en",
+          "koreanTitle": "카를 헤인",
+          "contentHash": "62a36a0eaaafb28af3e0bae04121da312efb92f5379f4e18448f51fa1a4f0e2c"
+        }
+      ],
+      "verifiedAt": "2026-10-31T13:57:12.892881+00:00"
     }
   ]
 }
