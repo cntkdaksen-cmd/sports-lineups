@@ -25123,6 +25123,25 @@
         }
       ],
       "verifiedAt": "2026-10-31T17:31:29.104089+00:00"
+    },
+    {
+      "name": "Jeong Sang-Bin",
+      "korean": "정상빈",
+      "team": "St. Louis CITY SC",
+      "league": "mls",
+      "method": "korean-wikipedia-search-v1",
+      "sources": [
+        {
+          "url": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%83%81%EB%B9%88",
+          "domain": "wikipedia.org",
+          "languageLinkMatched": true,
+          "englishNameMatched": true,
+          "sportMatched": true,
+          "teamMatched": true,
+          "contentHash": "0d7a6fdd3decec4b0f268f173377bc733bf3553cfee6cf92950e8451cf0ef873"
+        }
+      ],
+      "verifiedAt": "2026-10-31T18:41:16.041844+00:00"
     }
   ]
 }
